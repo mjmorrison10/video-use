@@ -179,6 +179,8 @@ Hard rules: apply **per-segment during extraction** (not post-concat, which re-e
 
 Subtitles have three dimensions worth reasoning about: **chunking** (1/2/3/sentence per line), **case** (UPPER/Title/Natural), and **placement** (margin from bottom). The right combo depends on content.
 
+For vertical (9:16) social, placement and the subject's face position follow the eye-landing + platform-UI safe zones documented in [`references/vertical-safe-zones.md`](references/vertical-safe-zones.md): face centered at ~32% height inside the "red zone," captions horizontally centered with vertical center ~57% (bottom of red → green band), clear of the right action rail and bottom info bar.
+
 **Worked styles** — pick, adapt, or invent:
 
 **`bold-overlay`** — short-form tech launch, fast-paced social. 2-word chunks, UPPERCASE, break on punctuation, Helvetica 18 Bold, white-on-outline, `MarginV=35`. `render.py` ships with this as `SUB_FORCE_STYLE`.
@@ -264,6 +266,8 @@ One sub-agent = one file (unique filenames, parallel agents don't overwrite each
 ## Output spec
 
 Match the source unless the user asked for something specific. Common targets: `1920×1080@24` cinematic, `1920×1080@30` screen content, `1080×1920@30` vertical social, `3840×2160@24` 4K cinema, `1080×1080@30` square. `render.py` defaults the scale to 1080p from any source; pass `--filter` or edit the extract command for other targets. Worth asking the user which delivery format matters.
+
+When reframing a horizontal source to `1080×1920` vertical, position the subject's face and the captions per [`references/vertical-safe-zones.md`](references/vertical-safe-zones.md) — auto-reframe per cut to keep the face centered at ~32% height inside the red zone.
 
 ## EDL format
 
