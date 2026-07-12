@@ -20,8 +20,13 @@ notes: ""
 # Detection sanity bounds in SOURCE pixels (defaults derived from style.yaml fractions).
 subject_filter: {fx: [120, 830], fy: [180, 580], w: [120, 380]}
 
-# Either <=2 named cameras with face medians (crop rects derived via safe-zone math),
-# or the literal string "center-crop" when faces are unreliable.
+# One of:
+#   - <=2 named cameras with face medians (fixed crops; best for a single locked 2-shot where the
+#     subject only shifts between a few positions, e.g. leaned-back vs leaned-forward);
+#   - "follow"  -> per-segment crop centered on the dominant (closest) face; tracks the source's
+#     own shot cuts. Best for MULTI-CAM sources (source already cuts between angles) or general
+#     content. No panning within a segment.
+#   - "center-crop" -> centered 9:16 slice, when faces are unreliable.
 cameras:
   A: {fx: 325, fy: 471, face_w: 145}     # e.g. leaned-back
   B: {fx: 729, fy: 461, face_w: 343}     # e.g. leaned-forward

@@ -45,8 +45,12 @@ Cached. **Never change the STT params** (they fixed a 48s truncation).
 overlap with speech times > largest/most-covered box. Reject non-subjects (a second person = a
 far-off cluster with low `t_coverage`; hands-as-faces are already filtered by the fy/size bounds).
 **Two sub-clusters of the same person = the 2-camera case** (e.g. leaned-back vs leaned-forward),
-not two people. Write to `job.yaml`: `cameras` (≤2, each `{fx,fy,face_w}`; or `"center-crop"` if
-faces are unreliable) and `subject_filter` (fx/fy/w bounds that keep the subject, drop others).
+not two people. Write to `job.yaml`: `cameras` and `subject_filter` (fx/fy/w bounds that keep the subject, drop
+others). Pick `cameras`: **≤2 named cameras** `{fx,fy,face_w}` for a single locked 2-shot (subject
+shifts between a few fixed positions); **`follow`** for a MULTI-CAM source (source cuts between
+angles) or general content — per-segment crop centered on the dominant/closest face, tracking the
+source's own cuts (widen `subject_filter.w`/`fx` so close-up faces aren't filtered); **`center-crop`**
+if faces are unreliable.
 
 **5. Content selection [A]** — read `transcript.txt` (indexed words). Choose kept `spans`
 (word-index pairs), **HOOK span first** (match `hook.text`, else pick the strongest opener); add

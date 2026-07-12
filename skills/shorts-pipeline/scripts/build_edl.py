@@ -78,7 +78,41 @@ def main():
             outs.append((pos, e))
         return outs
 
-    CAM, cams_cfg = resolve_cameras(job, SW, SH, style)
+    # "follow" mode: per-segment crop centered on the dominant (closest/largest) face — for
+    # multi-camera or general content where the framing changes with the source's own cuts.
+    import statistics as _st
+    FOLLOW = job.get("cameras") == "follow"
+    Wc = even(min(style["framing"]["crop_w_bounds"][1], int(SH * 9 / 16)))
+    Hc = even(min(SH, int(Wc * 16 / 9))); Wc = even(min(Wc, int(Hc * 9 / 16)))
+    CENTER = dict(W=Wc, H=Hc, x=even((SW - Wc) // 2), y=even((SH - Hc) // 2), cam="F")
+
+    def seg_follow(s, e):
+        dets = [p for p in track if p["fx"] is not None and s - 0.15 <= p["t"] <= e + 0.15
+                and sf["w"][0] <= p["w"] <= sf["w"][1]
+                and sf["fy"][0] <= p["fy"] <= sf["fy"][1]
+                and sf["fx"][0] <= p["fx"] <= sf["fx"][1]]
+        if not dets:
+            return dict(CENTER)
+        # cluster faces by x (gap-split) and pick ONE cluster — the closest/active subject —
+        # never average across two people (that lands the crop between them, e.g. on the pool).
+        ds = sorted(dets, key=lambda p: p["fx"])
+        clusters = [[ds[0]]]
+        for p in ds[1:]:
+            if p["fx"] - clusters[-1][-1]["fx"] <= 200:
+                clusters[-1].append(p)
+            else:
+                clusters.append([p])
+        def med(vals):
+            v = sorted(vals); return v[len(v) // 2]
+        chosen = max(clusters, key=lambda c: (med([p["w"] for p in c]), len(c)))  # largest face wins
+        fx = int(med([p["fx"] for p in chosen])); fy = int(med([p["fy"] for p in chosen]))
+        fw = int(med([p["w"] for p in chosen]))
+        c = derive_crop(fx, fy, fw, SW, SH, style); c["cam"] = "F"; return c
+
+    if FOLLOW:
+        CAM, cams_cfg = {"F": CENTER}, None
+    else:
+        CAM, cams_cfg = resolve_cameras(job, SW, SH, style)
     single_cam = None if len(CAM) > 1 else next(iter(CAM))
     ftx = style["framing"]["face_target"]["x"]
     # each camera's implied subject face-x (from fx if given, else recovered from the crop rect)
@@ -146,10 +180,15 @@ def main():
                 ns = max(ns, words[a0 - 1]["end"])
             subs[0] = (ns, subs[0][1])
         for (s, e) in subs:
-            for (ss, ee, cam) in cam_segments(s, e):
-                segs.append(dict(s=round(ss, 3), e=round(ee, 3), dur=round(ee - ss, 3),
-                                 off=round(off, 3), **CAM[cam]))
-                off += ee - ss
+            if FOLLOW:
+                segs.append(dict(s=round(s, 3), e=round(e, 3), dur=round(e - s, 3),
+                                 off=round(off, 3), **seg_follow(s, e)))
+                off += e - s
+            else:
+                for (ss, ee, cam) in cam_segments(s, e):
+                    segs.append(dict(s=round(ss, 3), e=round(ee, 3), dur=round(ee - ss, 3),
+                                     off=round(off, 3), **CAM[cam]))
+                    off += ee - ss
 
     json.dump({"segs": segs}, open(os.path.join(ed, "plan.json"), "w"), indent=1)
     print(f"[done] {len(segs)} segments, TOTAL={off:.2f}s  cameras={dict(Counter(s['cam'] for s in segs))}")
