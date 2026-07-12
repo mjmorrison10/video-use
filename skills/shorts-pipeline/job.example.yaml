@@ -1,0 +1,58 @@
+# Per-video job file — the single interface between agent judgment and the scripts.
+# The agent authors/edits this; every script is idempotent after an edit (re-run to apply).
+# Word indices refer to edit/transcript.json["words"] (flat list). Times are SOURCE seconds
+# unless noted. Copy to <workdir>/edit/job.yaml and fill in.
+
+video:
+  drive_id: "1WFrhID_toyVTNfxYQT7-ylLr31e8EDUL"   # Google Drive file id (from ingest)
+  source: "/home/user/videos/justin/source.mov"
+  stem: "justin"
+
+# Hook: usually supplied by the user. Either explicit text (agent finds the matching span
+# and places it first) or from_title (agent picks the strongest opening line).
+hook:
+  text: "It's funny. I know he's incredibly proud. Does he tell you? Not directly."
+  # from_title: true
+
+notes: ""
+
+# --- Subject / framing (agent fills after reading cameras.json in Step 4) ---
+# Detection sanity bounds in SOURCE pixels (defaults derived from style.yaml fractions).
+subject_filter: {fx: [120, 830], fy: [180, 580], w: [120, 380]}
+
+# Either <=2 named cameras with face medians (crop rects derived via safe-zone math),
+# or the literal string "center-crop" when faces are unreliable.
+cameras:
+  A: {fx: 325, fy: 471, face_w: 145}     # e.g. leaned-back
+  B: {fx: 729, fy: 461, face_w: 343}     # e.g. leaned-forward
+  # Optional per-camera escape hatch if derived rect drifts from a hand-tuned one:
+  # A: {crop: {W: 480, H: 852, x: 80, y: 198}}
+
+# --- Content (agent fills in Step 5). Ordered; HOOK span first. ---
+spans:
+  - {words: [195, 201], beat: HOOK}      # "It's funny, I know he's incredibly proud."
+  - {words: [202, 205]}                  # "Does he tell you?"
+  - {words: [206, 207]}                  # "Not directly."
+  - {words: [0, 6]}                       # thesis...
+  # ... narrative spans to land 15-45s
+
+# Power-words rendered in neon accent colour (matched case-insensitively, punctuation-stripped).
+accents: [DIFFERENCE, SUCCESSFUL, CRITICISM, FOLD, FACEBOOK, LOVE, HATE, PROUD, FAMOUS, BILLION, UNAUTHENTIC, BELIEVE, "2", "6"]
+
+# ASR text fixes: word_index -> corrected caption text (also used to widen a word's audio span
+# when isolated re-transcription corrected its timing in transcript.json).
+text_overrides: {127: "famous before"}
+
+# Source-time ranges silencedetect must NOT cut (protect a quiet word onset from removal).
+protect: [[50.2, 51.3]]
+
+# Per-phrase onset lead caps (word_index -> seconds) for quiet/late word starts.
+onset_leads: {}
+
+# Emotional peak word (for aligning the music drop). Optional.
+peak: {word_index: 160}
+
+# Music (agent fills in Step 10). track: filename in Music/ or "auto" or "none".
+music: {track: auto, start_offset: auto}
+
+style_overrides: {}

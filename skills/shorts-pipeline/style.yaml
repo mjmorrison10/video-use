@@ -1,0 +1,75 @@
+# Locked visual/audio style for the shorts-pipeline (verified from shipped v6/v8).
+# Scripts read these constants; the agent never retypes numbers. Per-video deviations
+# go in job.yaml:style_overrides, not here.
+
+output:
+  width: 1080
+  height: 1920
+  fps: 30
+  crf: 18
+  x264_preset: medium
+  target_len_s: [15, 45]
+
+framing:
+  # From references/vertical-safe-zones.md. Fractions of the 1080x1920 output frame.
+  face_target: {x: 0.508, y: 0.320}
+  red_zone: {top: 0.137, bottom: 0.528}   # subject face must stay in this vertical band
+  max_cameras: 2
+  no_panning: true
+  min_cam_segment_s: 0.35
+  target_face_w_px: 430          # desired face width in the 1080-wide output (sets crop width)
+  crop_w_bounds: [440, 606]      # min/max crop width in source px (606 ~= full-height 9:16)
+  # Subject face-detection sanity bounds (generalizes the Justin-specific hand filter).
+  subject_fy_max_frac: 0.537     # reject detections below this (hands read as faces): 580/1080
+  subject_fy_min_frac: 0.167     # 180/1080
+  subject_w_bounds_frac: [0.0625, 0.198]  # 120..380 / 1920 of source width
+
+cutting:
+  silencedetect: {noise_db: -45, min_d: 0.25}
+  sil_min_remove_s: 0.35         # remove detected silences >= this
+  edge_pad_s: 0.12               # keep this much of the silence edge (avoid clipping speech)
+  fade_s: 0.03                   # 30ms audio fades at every boundary (SKILL Hard Rule 3)
+  lead_max_s: 0.30               # max per-phrase onset lead-in for quiet word starts
+
+captions:
+  font: "DejaVu Serif"
+  size: 80
+  bold: true
+  primary: "&H00FFFFFF"          # white (ASS AABBGGRR)
+  accent: "&H0014FF39"           # neon green #39FF14
+  outline_colour: "&H00000000"
+  back_colour: "&H90000000"
+  outline: 6
+  shadow: 1
+  align_an: 5                    # middle-center anchor
+  pos: {x: 540, y: 1094}         # ~57% height (CAPTION_CENTER_Y 0.57)
+  max_words: 3
+  max_chars: 18
+  merge_below_s: 0.30
+  pop: {fscx_from: 50, fscy_from: 50, to: 100, ms: 50}
+  uppercase: true
+  strip_punctuation: true
+
+audio:
+  lufs: -14
+  true_peak: -1
+  lra: 11
+
+music:
+  duck: {threshold: 0.04, ratio: 8, attack_ms: 15, release_ms: 350, makeup: 1}
+  bed_volume: 0.14               # within [0.12, 0.16]
+  fade_in_s: 0.8
+  fade_out_s: 1.6
+  limiter: 0.95
+
+stt:
+  # LOAD-BEARING: this exact combo fixed a 48s mid-transcription truncation. Do not "optimize".
+  model: "medium.en"
+  device: cpu
+  compute_type: int8
+  params:
+    word_timestamps: true
+    vad_filter: false
+    condition_on_previous_text: false
+    beam_size: 5
+    no_speech_threshold: 0.6

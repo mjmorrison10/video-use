@@ -5,6 +5,10 @@ description: Edit any video by conversation. Transcribe, cut, color grade, gener
 
 # Video Use
 
+> **Drive → post-ready vertical Shorts:** for the automated 9:16 short-form pipeline (hook-first,
+> dead-air cut, two-camera reframe, neon serif captions, auto music), read
+> [`skills/shorts-pipeline/SKILL.md`](skills/shorts-pipeline/SKILL.md).
+
 ## Principle
 
 1. **LLM reasons from raw transcript + on-demand visuals.** The only derived artifact that earns its keep is a packed phrase-level transcript (`takes_packed.md`). Everything else — filler tagging, retake detection, shot classification, emphasis scoring — you derive at decision time.
