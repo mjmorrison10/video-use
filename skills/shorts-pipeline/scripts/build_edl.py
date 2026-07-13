@@ -131,7 +131,7 @@ def main():
                 and sf["fy"][0] <= p["fy"] <= sf["fy"][1]]
         exp = max(1.0, (e - s) * 3.0)
         cov = len({p["t"] for p in dets}) / exp
-        if cov < 0.22 or not dets:
+        if cov < 0.55 or not dets:
             return dict(s=round(s, 3), e=round(e, 3), dur=round(e - s, 3),
                         mode="chart", cam="CHART")
         ds = sorted(dets, key=lambda p: p["fx"])           # pick the largest/closest cluster
@@ -148,15 +148,16 @@ def main():
         cx = even(clamp(fx - SPKW // 2, 0, SW - SPKW))
         crop = dict(W=SPKW, H=SPKH, x=cx, y=even((SH - SPKH) // 2))
         oy, oh = int(0.03 * SH), int(0.94 * SH)
-        ov = None                                          # overlay the non-speaker side, if any
-        if fx < 0.45 * SW:
-            ox = cx + SPKW
-            if SW - ox > 0.28 * SW:
-                ov = dict(x=ox, y=oy, w=SW - ox, h=oh)
-        elif fx > 0.55 * SW:
-            ow = cx
-            if ow > 0.28 * SW:
-                ov = dict(x=0, y=oy, w=ow, h=oh)
+        ov = None                                          # optional: overlay the non-speaker side
+        if job.get("pip_overlay"):
+            if fx < 0.45 * SW:
+                ox = cx + SPKW
+                if SW - ox > 0.28 * SW:
+                    ov = dict(x=ox, y=oy, w=SW - ox, h=oh)
+            elif fx > 0.55 * SW:
+                ow = cx
+                if ow > 0.28 * SW:
+                    ov = dict(x=0, y=oy, w=ow, h=oh)
         seg = dict(s=round(s, 3), e=round(e, 3), dur=round(e - s, 3),
                    mode="speaker", cam="SPK", **crop)
         if ov:
