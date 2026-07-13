@@ -118,7 +118,54 @@ def main():
         fw = int(med([p["w"] for p in chosen]))
         c = derive_crop(fx, fy, fw, SW, SH, style); c["cam"] = "F"; return c
 
-    if FIT:
+    # "pip" mode: speaker fills the frame (vertical crop on the detected face) with a card
+    # overlay of what they're referencing; segments with no prominent face become a clean
+    # chart card on a solid bg (render_vertical composites). Classifies per segment.
+    PIP = job.get("cameras") == "pip"
+    SPKW = even(int(SH * 9 / 16)); SPKH = even(min(SH, int(SPKW * 16 / 9)))
+    SPKW = even(min(SPKW, int(SPKH * 9 / 16)))
+
+    def seg_pip(s, e):
+        dets = [p for p in track if p["fx"] is not None and s - 0.15 <= p["t"] <= e + 0.15
+                and sf["w"][0] <= p["w"] <= sf["w"][1]
+                and sf["fy"][0] <= p["fy"] <= sf["fy"][1]]
+        exp = max(1.0, (e - s) * 3.0)
+        cov = len({p["t"] for p in dets}) / exp
+        if cov < 0.35 or not dets:
+            return dict(s=round(s, 3), e=round(e, 3), dur=round(e - s, 3),
+                        mode="chart", cam="CHART")
+        ds = sorted(dets, key=lambda p: p["fx"])           # pick the largest/closest cluster
+        clusters, cur = [], []
+        for p in ds:
+            if cur and p["fx"] - cur[-1]["fx"] > 200:
+                clusters.append(cur); cur = []
+            cur.append(p)
+        if cur:
+            clusters.append(cur)
+        med = lambda v: sorted(v)[len(v) // 2]
+        chosen = max(clusters, key=lambda c: (med([p["w"] for p in c]), len(c)))
+        fx = int(med([p["fx"] for p in chosen]))
+        cx = even(clamp(fx - SPKW // 2, 0, SW - SPKW))
+        crop = dict(W=SPKW, H=SPKH, x=cx, y=even((SH - SPKH) // 2))
+        oy, oh = int(0.03 * SH), int(0.94 * SH)
+        ov = None                                          # overlay the non-speaker side, if any
+        if fx < 0.45 * SW:
+            ox = cx + SPKW
+            if SW - ox > 0.28 * SW:
+                ov = dict(x=ox, y=oy, w=SW - ox, h=oh)
+        elif fx > 0.55 * SW:
+            ow = cx
+            if ow > 0.28 * SW:
+                ov = dict(x=0, y=oy, w=ow, h=oh)
+        seg = dict(s=round(s, 3), e=round(e, 3), dur=round(e - s, 3),
+                   mode="speaker", cam="SPK", **crop)
+        if ov:
+            seg["ov"] = ov
+        return seg
+
+    if PIP:
+        CAM, cams_cfg = {"SPK": None}, None
+    elif FIT:
         CAM, cams_cfg = {"FIT": dict(W=SW, H=SH, x=0, y=0, cam="FIT")}, None
     elif FOLLOW:
         CAM, cams_cfg = {"F": CENTER}, None
@@ -191,7 +238,10 @@ def main():
                 ns = max(ns, words[a0 - 1]["end"])
             subs[0] = (ns, subs[0][1])
         for (s, e) in subs:
-            if FOLLOW:
+            if PIP:
+                seg = seg_pip(s, e); seg["off"] = round(off, 3)
+                segs.append(seg); off += e - s
+            elif FOLLOW:
                 segs.append(dict(s=round(s, 3), e=round(e, 3), dur=round(e - s, 3),
                                  off=round(off, 3), **seg_follow(s, e)))
                 off += e - s

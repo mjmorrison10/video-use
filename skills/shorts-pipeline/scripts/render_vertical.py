@@ -23,6 +23,40 @@ def fit_filter(pre, OW, OH, FPS, src_w, src_h):
             f"[fg]scale={OW}:-2:flags=lanczos[fgs];"
             f"[bgb][fgs]overlay=(W-w)/2:{vy}:shortest=1,setsar=1,fps={FPS}[v]")
 
+# --- "pip" mode layout constants (1080x1920) ---
+B = 6                 # white card border px
+BG = "0x111318"       # solid card background (no blur)
+SPK_CARD_H = 660      # overlay card fixed height; width derived from the source region aspect
+SPK_CARD_Y = 782      # overlay card top (below the speaker's face, above captions)
+CH_CARD_W = 1030      # chart card width; height derived from source aspect
+CH_CARD_CY = 806      # chart card vertical centre
+
+def even(v):
+    return int(round(v / 2) * 2)
+
+def pip_filter(seg, pre, OW, OH, FPS, src_w, src_h):
+    """filter_complex for a pip segment (single source input, uses a `color` filter source
+    for the solid bg — no extra ffmpeg inputs needed).
+    mode 'speaker' -> speaker fills frame (+ optional overlay card of what they reference);
+    mode 'chart'   -> the full frame as a clean bordered card centred on a solid bg."""
+    if seg.get("mode") == "chart":
+        cw = even(CH_CARD_W); ch = even(round(cw * src_h / src_w))
+        cx = (OW - (cw + 2 * B)) // 2; cy = CH_CARD_CY - (ch + 2 * B) // 2
+        return (f"color=c={BG}:s={OW}x{OH}:r={FPS}[bg];"
+                f"[0:v]{pre}scale={cw}:{ch}:flags=lanczos,"
+                f"pad={cw+2*B}:{ch+2*B}:{B}:{B}:white[card];"
+                f"[bg][card]overlay={cx}:{cy}:shortest=1,setsar=1,fps={FPS}[v]")
+    crop = f"[0:v]{pre}crop={seg['W']}:{seg['H']}:{seg['x']}:{seg['y']},scale={OW}:{OH}:flags=lanczos,setsar=1"
+    ov = seg.get("ov")
+    if not ov:
+        return f"{crop},fps={FPS}[v]"
+    ch = even(SPK_CARD_H); cw = even(min(OW - 80, round(ch * ov["w"] / ov["h"])))
+    ox = (OW - (cw + 2 * B)) // 2
+    return (f"{crop}[main];"
+            f"[0:v]crop={ov['w']}:{ov['h']}:{ov['x']}:{ov['y']},scale={cw}:{ch}:flags=lanczos,"
+            f"pad={cw+2*B}:{ch+2*B}:{B}:{B}:white[card];"
+            f"[main][card]overlay={ox}:{SPK_CARD_Y}:shortest=1,fps={FPS}[v]")
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("plan")
@@ -47,7 +81,10 @@ def main():
         out = segdir / f"s{i:03d}.mp4"
         af = f"afade=t=in:st=0:d={FADE},afade=t=out:st={dur-FADE:.3f}:d={FADE}"
         cmd = ["ffmpeg", "-y", "-ss", f"{s['s']:.3f}", "-i", str(a.source), "-t", f"{dur:.3f}"]
-        if s.get("cam") == "FIT":
+        if s.get("mode") in ("speaker", "chart"):
+            cmd += ["-filter_complex", pip_filter(s, pre, OW, OH, FPS, src_w, src_h),
+                    "-map", "[v]", "-map", "0:a", "-af", af]
+        elif s.get("cam") == "FIT":
             cmd += ["-filter_complex", fit_filter(pre, OW, OH, FPS, src_w, src_h),
                     "-map", "[v]", "-map", "0:a", "-af", af]
         else:
