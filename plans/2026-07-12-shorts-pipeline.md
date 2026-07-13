@@ -136,3 +136,64 @@ Per-video workdir (Hard Rule 12 — never inside the repo): `~/videos/<stem>/sou
 Note on acceptance: plan.json matches plan4.json exactly on all crop/timing geometry
 (s/e/dur/W/H/x/y/cam). The derived output-offset `off` differs by <=2ms (float accumulation)
 in the last 4 of 35 segments — no render impact (base.mp4 identical; captions within 0.010s).
+
+---
+
+## Post-plan enhancements (added during real runs, on top of the approved plan)
+
+### `follow` camera mode — commit 4c51b6a
+For MULTI-CAM sources (source already cuts between angles) and general content. Per-segment crop
+centered on the dominant/closest **face cluster** — clusters faces by x within the segment and
+picks the single largest-face cluster, so a wide 2-shot frames one person instead of averaging two
+onto the background. There are now three framing modes:
+- named ≤2 cameras `{fx,fy,face_w}` — single locked 2-shot (Justin clip 1),
+- `follow` — multi-cam / general (widen `subject_filter.w`/`fx` so close-up faces aren't filtered),
+- `center-crop` — faces unreliable.
+
+### Delivery compression — OUTSTANDING (not yet scripted)
+`SendUserFile` caps at **30 MB**; a ~34s CRF18 vertical can be ~48 MB. Manual workaround used:
+`ffmpeg -i <stem>_clean.mp4 -c:v libx264 -crf 25 -preset medium -c:a aac -b:a 160k <stem>_web.mp4`
+→ ~19 MB. **TODO:** add `deliver.py` / a `--web` flag that emits a <30 MB copy beside the master.
+
+### Real-run learnings
+- **hook=from-title:** VERIFY the titled line is actually in the transcript before using it. Clip
+  titles are often auto-generated from a *different* part of the source and may not be in the clip.
+  If absent, pick the strongest in-clip opener and flag it to the user.
+- **whisper instability** confirmed again (a full pass silently dropped a section, same as Justin's
+  dad line). Trust the self-eval + region re-transcribe loop, not a single pass.
+
+## Resuming in a NEW session (fresh sandbox)
+1. Branch `claude/handoff-doctrine-fable-opus-1fcxgo` of `mjmorrison10/video-use` (this repo).
+2. `bash skills/shorts-pipeline/setup.sh` (ffmpeg, `uv sync --extra pipeline`, whisper prefetch ~1.5GB).
+3. Follow `skills/shorts-pipeline/SKILL.md`. Drive working folder id
+   `1TjYayKLQ5HAUk7J-smWd3GWCOs_H0YGM` (Inbox = videos at top level; **Music** subfolder id
+   `1WmXZK5ody-2xHPZ3z6FuKY51NdTBgtca`). Folder must stay "Anyone with link → Viewer".
+4. Per-video workdirs live in `~/videos/<stem>/` and are **EPHEMERAL** (not in the repo).
+
+## Real-run #1: "illusion" clip — state (for resume)
+- Source Drive id `1XEqDnPL9aId3i8MZUS-JzL_OXLkXRf2-` (166 MB, 117s, MULTI-CAM).
+- Delivered `illusion_clean_web.mp4` (34s) as first draft. **PENDING:** (a) hook confirmation — the
+  title line is NOT in the clip; opened on "We all carry pain" instead; (b) music — Music/ was empty.
+- Exact job.yaml used (re-ingest the source, drop this in `~/videos/illusion/edit/job.yaml`, run
+  runbook steps 3→11 to reproduce):
+
+```yaml
+video: {drive_id: "1XEqDnPL9aId3i8MZUS-JzL_OXLkXRf2-", source: "/home/user/videos/illusion/source.mov", stem: "illusion"}
+hook: {text: "We all carry pain. We're all imperfect. And we're incentivized not to show it."}
+cameras: follow
+subject_filter: {fx: [0, 1920], fy: [150, 620], w: [110, 480]}
+spans:
+  - {words: [0, 14], beat: HOOK}
+  - {words: [86, 103]}
+  - {words: [108, 117]}
+  - {words: [141, 157]}
+  - {words: [165, 171]}
+  - {words: [213, 227]}
+  - {words: [238, 246]}
+  - {words: [261, 271]}
+accents: [PAIN, IMPERFECT, VULNERABILITY, VULNERABLE, SUPERMAN, FEAR, TRIBE, KICKED, CRUCIFIED, PROUD, SMOKE]
+peak: {word_index: 266}
+music: {track: auto, start_offset: auto}
+```
+(NOTE: word indices are for the transcript that produced this run; whisper is non-deterministic, so
+re-transcribing may shift indices — re-select spans from the fresh `transcript.txt` if so.)
