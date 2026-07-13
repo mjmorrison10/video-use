@@ -36,6 +36,21 @@ WhisperModel("medium.en", device="cpu", compute_type="int8")
 print("[ok] whisper medium.en ready")
 PY
 
+# 4b. install the caption font (Montserrat Black) so libass can resolve it for burns
+FONT_SRC="$REPO/skills/shorts-pipeline/assets/fonts/Montserrat-Black.ttf"
+if [ -f "$FONT_SRC" ]; then
+  mkdir -p "$HOME/.fonts"
+  cp -f "$FONT_SRC" "$HOME/.fonts/"
+  fc-cache -f "$HOME/.fonts" >/dev/null 2>&1 || true
+  if fc-list | grep -qi "Montserrat Black"; then
+    echo "[ok] caption font installed: Montserrat Black"
+  else
+    echo "[WARN] Montserrat Black not resolving via fontconfig after install"
+  fi
+else
+  echo "[WARN] caption font asset missing: $FONT_SRC"
+fi
+
 # 5. import smoke test
 uv run --extra pipeline python - <<'PY'
 import cv2, librosa, faster_whisper, gdown, yaml, scipy, numpy, PIL

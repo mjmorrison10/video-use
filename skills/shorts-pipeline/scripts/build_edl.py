@@ -11,7 +11,7 @@ Usage: build_edl.py JOB.yaml   (reads edit/ siblings; writes edit/plan.json)
 import argparse, json, os, sys
 from collections import Counter
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from _util import load_style, load_yaml, even, clamp  # noqa
+from _util import load_style, load_yaml, even, clamp, ffprobe_dims  # noqa
 
 def derive_crop(fx, fy, fw, SW, SH, style):
     F = style["framing"]; OW = style["output"]["width"]
@@ -48,10 +48,19 @@ def main():
     style = load_style()
     ed = os.path.join(os.path.dirname(os.path.abspath(job["video"]["source"])), "edit")
     words = json.load(open(os.path.join(ed, "transcript.json")))["words"]
-    track = json.load(open(os.path.join(ed, "face_track.json")))
     sil = [tuple(x) for x in json.load(open(os.path.join(ed, "silences.json")))]
-    cams_meta = json.load(open(os.path.join(ed, "cameras.json")))
-    SW, SH = cams_meta["source"]["w"], cams_meta["source"]["h"]
+
+    # "fit" mode: no cropping/faces — the full 16:9 frame is letterboxed over a blurred fill
+    # (render_vertical handles the compositing). Good for chart/screen-share content where
+    # cropping would cut off graphs. Faces/cameras are not needed.
+    FIT = job.get("cameras") == "fit"
+    if FIT:
+        track, cams_meta = [], None
+        SW, SH = ffprobe_dims(job["video"]["source"])
+    else:
+        track = json.load(open(os.path.join(ed, "face_track.json")))
+        cams_meta = json.load(open(os.path.join(ed, "cameras.json")))
+        SW, SH = cams_meta["source"]["w"], cams_meta["source"]["h"]
 
     C = style["cutting"]
     SIL_MIN, EDGE, LEAD_MAX = C["sil_min_remove_s"], C["edge_pad_s"], C["lead_max_s"]
@@ -109,7 +118,9 @@ def main():
         fw = int(med([p["w"] for p in chosen]))
         c = derive_crop(fx, fy, fw, SW, SH, style); c["cam"] = "F"; return c
 
-    if FOLLOW:
+    if FIT:
+        CAM, cams_cfg = {"FIT": dict(W=SW, H=SH, x=0, y=0, cam="FIT")}, None
+    elif FOLLOW:
         CAM, cams_cfg = {"F": CENTER}, None
     else:
         CAM, cams_cfg = resolve_cameras(job, SW, SH, style)

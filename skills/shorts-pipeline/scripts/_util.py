@@ -25,6 +25,12 @@ def ffprobe_duration(path):
              "-of", "csv=p=0", str(path)])
     return float(r.stdout.strip())
 
+def ffprobe_dims(path):
+    r = run(["ffprobe", "-v", "error", "-select_streams", "v:0",
+             "-show_entries", "stream=width,height", "-of", "csv=s=x:p=0", str(path)])
+    w, h = r.stdout.strip().split("x")
+    return int(w), int(h)
+
 def extract_wav(src, out_wav, start=None, end=None):
     cmd = ["ffmpeg", "-y", "-v", "error"]
     if start is not None:

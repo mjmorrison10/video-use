@@ -23,7 +23,9 @@ def main():
     a = ap.parse_args()
     job = load_yaml(a.job)
     style = load_style()
-    cap = style["captions"]
+    # per-video caption overrides (e.g. pos for the fit layout) via job.style_overrides.captions
+    cap = dict(style["captions"])
+    cap.update((job.get("style_overrides") or {}).get("captions", {}))
     ed = os.path.join(os.path.dirname(os.path.abspath(job["video"]["source"])), "edit")
     words = json.load(open(os.path.join(ed, "transcript.json")))["words"]
     segs = json.load(open(os.path.join(ed, "plan.json")))["segs"]

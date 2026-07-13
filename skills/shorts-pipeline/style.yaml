@@ -32,11 +32,11 @@ cutting:
   lead_max_s: 0.30               # max per-phrase onset lead-in for quiet word starts
 
 captions:
-  font: "DejaVu Serif"
+  font: "Montserrat Black"       # heavy geometric sans (bold-caption style); Black weight is already heavy
   size: 80
-  bold: true
+  bold: false                    # Montserrat Black IS the heavy weight; fake-bold would muddy it
   primary: "&H00FFFFFF"          # white (ASS AABBGGRR)
-  accent: "&H0014FF39"           # neon green #39FF14
+  accent: "&H000AD6FF"           # yellow #FFD60A for power words (AABBGGRR)
   outline_colour: "&H00000000"
   back_colour: "&H90000000"
   outline: 6
