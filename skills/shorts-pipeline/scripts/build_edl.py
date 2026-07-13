@@ -131,7 +131,7 @@ def main():
                 and sf["fy"][0] <= p["fy"] <= sf["fy"][1]]
         exp = max(1.0, (e - s) * 3.0)
         cov = len({p["t"] for p in dets}) / exp
-        if cov < 0.35 or not dets:
+        if cov < 0.22 or not dets:
             return dict(s=round(s, 3), e=round(e, 3), dur=round(e - s, 3),
                         mode="chart", cam="CHART")
         ds = sorted(dets, key=lambda p: p["fx"])           # pick the largest/closest cluster

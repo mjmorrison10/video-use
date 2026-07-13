@@ -28,6 +28,21 @@ def detect_boxes(gray, frontal, profile):
         boxes.append((W - (x + w), y, w, h))
     return boxes
 
+def skin_frac(img, x, y, w, h):
+    """Fraction of skin-coloured pixels (YCrCb range) inside a box. Rejects the cascade's
+    false positives on bright whiteboards / charts / text, which contain no skin."""
+    import cv2, numpy as np
+    H, W = img.shape[:2]
+    x0, y0 = max(0, x), max(0, y)
+    x1, y1 = min(W, x + w), min(H, y + h)
+    if x1 - x0 < 8 or y1 - y0 < 8:
+        return 0.0
+    roi = img[y0:y1, x0:x1]
+    ycc = cv2.cvtColor(roi, cv2.COLOR_BGR2YCrCb)
+    Y, Cr, Cb = ycc[..., 0], ycc[..., 1], ycc[..., 2]
+    mask = (Y > 80) & (Cr > 133) & (Cr < 180) & (Cb > 77) & (Cb < 130)
+    return float(mask.mean())
+
 def cluster_1d(dets, gap=160, min_count=4):
     """Greedy gap-split on fx (deterministic). dets: list of dicts with 'fx'."""
     if not dets:
@@ -73,7 +88,7 @@ def main():
             gray = cv2.equalizeHist(cv2.cvtColor(img, cv2.COLOR_BGR2GRAY))
             for (x, y, w, h) in detect_boxes(gray, frontal, profile):
                 fx, fy = int(x + w / 2), int(y + h / 2)
-                if w_lo <= w <= w_hi and fy_min <= fy <= fy_max:
+                if w_lo <= w <= w_hi and fy_min <= fy <= fy_max and skin_frac(img, x, y, w, h) >= 0.25:
                     track.append({"t": round(t, 2), "fx": fx, "fy": fy, "w": int(w), "h": int(h)})
 
     json.dump(track, open(os.path.join(ed, "face_track.json"), "w"))
