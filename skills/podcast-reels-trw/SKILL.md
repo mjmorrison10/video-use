@@ -1,19 +1,91 @@
 ---
-name: podcast-reels
-description: Turn a long podcast/interview video + a list of RECALL "clip concepts" (timestamp + quote per moment) into a batch of vertical 9:16 short-form reels. Each reel is a complete story (hook -> one point -> a landing payoff), auto-cropped per camera shot to follow the speaker, with serif pop-in captions, filler + dead-space removed, and a tone-matched music bed that cuts right before the punch. Built and proven on the "Justin Waller vs Therapist" episode.
+name: podcast-reels-trw
+description: THE REAL WORLD (TRW) social-account variant of the podcast-reels pipeline. Turn a long podcast/interview into vertical 9:16 reels via a CONCEPTS-FIRST workflow (transcribe -> propose every hook found, ranked -> user selects -> build). Same core style as podcast-reels (per-shot 9:16 crop, serif cyan pop captions, filler + dead-space removal, zoom-punch transitions, story-arc music) with TRW-specific rules: the first line of every video MUST be a hook, hooks can be chained (hook1->pointA->hook2->pointB), and TurboScribe timestamps are treated as ~6min search windows, not locations.
 ---
 
-# Podcast Reels
+# Podcast Reels — TRW
 
-> **SCOPE — CLIENT BASELINE.** This is the general/client-work variant. The Real
-> World (TRW) social accounts use a separate locked variant at
-> `../podcast-reels-trw/`. The two are similar but intentionally diverge — **do
-> NOT merge changes between them without explicit approval.** Client edits happen
-> here; TRW edits happen in the TRW skill only.
+> **SCOPE — THE REAL WORLD (TRW) ACCOUNTS ONLY.** This is the LOCKED TRW editing
+> style. The general/client variant lives at `../podcast-reels/`. They are
+> similar but intentionally diverge (the TRW rules below make this version
+> better for TRW). **Never merge changes between the two variants without
+> explicit approval.** Preserve this style going forward no matter what.
 
-Convert one long interview into many viral vertical clips. This is the exact
-pipeline that produced the Justin Waller set — read it top to bottom, then run
-the steps. The reference tools live in `tools/` next to this file.
+Convert one long interview into many viral vertical TRW clips. This inherits the
+full podcast-reels pipeline (below) and adds the TRW-specific workflow and rules.
+Reference tools live in `tools/` next to this file.
+
+## TRW workflow — CONCEPTS FIRST (the standard operating order)
+
+Do NOT jump straight to building. The order is:
+
+1. **Transcribe** the full episode (`transcribe_chunks.py`, resumable, cached).
+2. **Propose concepts as text FIRST.** Run `propose_concepts.py` (fan-out of
+   analyst agents over overlapping transcript windows) to mine EVERY viable
+   hook, then write `CONCEPTS.md` and send it to the user. Ranked by virality
+   potential. Each entry:
+   `#N  [H:MM:SS]  "hook line"  — one-line story it opens — ~Ns — (pairs-with #M)`
+   Include EVERYTHING found (can be 40+); the user skims and selects.
+3. **User selects** (e.g. "3, 7, 12+13 combined"). Only then do you build.
+4. **Build** the selected videos through the render/caption/music pipeline below.
+
+## TRW rules (absolutes)
+
+- **THE FIRST LINE OF EVERY VIDEO MUST BE A HOOK. This is absolute.** A hook may
+  also appear mid-video, but the opening line is always a hook. The EDL builder
+  validates this (`edl_build.assert_first_line_is_hook`) — reject/rebuild any
+  clip whose first kept words are not the chosen hook line.
+- **Hooks can be chained into one video.** When two hooks are back-to-back on the
+  same overall topic:
+  `hook1 -> point A -> hook2 -> point B`, where point B complements point A or
+  hook1. This becomes one video (both hooks are real hooks; the first is the
+  opening line, the second lands mid-video as a re-hook before the payoff).
+  When the user selects a combined concept (e.g. "12+13"), the per-clip analyst
+  gets BOTH hooks' contexts and returns two spans + the seam so B pays off A.
+- **TurboScribe timestamps = window START, not location.** TurboScribe emits
+  hooks in large segments (e.g. 11:30–18:16, ~6 min), so five different hooks can
+  all read "11:30". Treat a given timestamp `t` as "somewhere in `[t, t+7min]`"
+  and locate by CONTENT: `locate_quotes.locate_global` first, or windowed search
+  seeded at `[t, t+420s]`. Never trust the raw timestamp as the cut point.
+
+## TRW tool reference (the additions beyond the shared pipeline)
+
+Three tools carry the TRW-specific rules. All live in `tools/` next to this file.
+
+- **`propose_concepts.py`** — the CONCEPTS-FIRST miner.
+  - `make_windows(words, win=210, overlap=40)` → overlapping timestamped
+    transcript windows (one per analyst agent). Overlap so a boundary hook is
+    fully inside one window.
+  - `window_prompt(window)` / `HOOK_SCHEMA` — the exact analyst instruction +
+    forced structured output (verbatim hook, timestamp, the point it opens,
+    `virality` 1-100, `pairs_with`).
+  - `merge_concepts(hooks)` — dedups a hook found in two overlapping windows
+    (keeps the higher-virality copy), sorts by virality.
+  - `write_concepts_md(concepts, "edit/CONCEPTS.md")` — renders the selection
+    sheet: `#N [H:MM:SS] (virality) "hook" — story — ~Ns — (pairs-with #M)`.
+  - Driver = a Workflow fan-out: `parallel(one agent per window)` →
+    `merge_concepts` → `write_concepts_md`. Send the file, build only what the
+    user picks. (Full sketch in the module docstring.)
+
+- **`locate_quotes.locate_turboscribe(words, t_start, quote, window=420)`** —
+  content-first search in `[t_start, t_start+7min]`, falling back to global
+  fuzzy match; returns `via: "window"|"global"` so you can see which fired. Use
+  this (not raw `locate`) for TurboScribe timestamps.
+
+- **`edl_build.build(clip_id, spans, transcript, hook_line=...)`** — pass
+  `hook_line` (the selected verbatim hook) and the build is validated by
+  `assert_first_line_is_hook`: it raises unless the clip's first *kept* words
+  (after dead-space + filler removal, leading connectives like "and/so/because"
+  stripped) ARE the hook. A raise means REBUILD — never ship it. `spans` may be a
+  multi-hook sequence — `[(h1s,h1e,'HOOK1'),(aS,aE,'A'),(h2s,h2e,'HOOK2'),(bS,bE,'B')]`
+  concatenates into one chained video.
+
+---
+
+# Core pipeline (shared with podcast-reels)
+
+Read this top to bottom for the actual build. It is the exact pipeline that
+produced the Justin Waller set.
 
 ## What the finished clip has (the spec)
 
