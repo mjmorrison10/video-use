@@ -1,0 +1,18 @@
+# Default client style profile. A build script loads clients/<name>.yaml and injects it as
+# job.style_overrides (merged over style.yaml) so each client can diverge on brand without
+# forking the pipeline. This default = the current locked look (Montserrat Black + yellow,
+# full-bleed follow framing, story-arc music). Copy to clients/<client>.yaml and edit per brand.
+name: default
+captions:
+  font: "Montserrat Black"        # heavy geometric sans; asset vendored at assets/fonts/
+  accent: "&H000AD6FF"            # yellow #FFD60A (ASS AABBGGRR)
+  pos: {x: 540, y: 1150}          # lower third
+framing: follow                   # full-bleed 9:16, subject-tracked (no black, no blur)
+subject_filter: {fx: [0, 1920], fy: [120, 620], w: [130, 520]}
+music:
+  # music_arc.py levels — full-length story arc, gentle duck, crest at the clip's climax.
+  lo: 0.07                        # bed gain at start
+  hi: 0.13                        # bed gain at the crest (≈ -28 dBFS under a -14 LUFS voice)
+  end: 0.055                      # bed gain at the ending
+  duck_ratio: 3.0
+  duck_thresh: 0.11

@@ -1,5 +1,15 @@
 # shorts-pipeline — Drive → post-ready vertical Short
 
+> **Scope: CLIENT work only.** TRW / personal social accounts use `skills/podcast-reels-trw/`
+> (a separate Claude session, branch `…-g6d8pz`). The two styles are similar by design but must
+> not cross-contaminate — do not merge style changes between the client and TRW variants without
+> explicit approval. Per-client brand (font, accent colour, framing, music level) lives in
+> `clients/<name>.yaml` (loaded as `job.style_overrides`); `clients/default.yaml` is the locked
+> baseline. **Standard order: ingest → transcribe → propose clips as text (`scripts/propose_clips.py`)
+> → user picks → build picks → selfcheck → deliver clean → music on request.** Two absolutes:
+> the first line of every video **must** be a hook, and TurboScribe hook timestamps are
+> *search-window hints* (segment starts up to ~6 min), so locate every hook by content.
+
 Turns a horizontal talking-head video (dropped in a link-shared Google Drive folder) into a
 post-ready 9:16 Short in a locked style: hook-first, dead-air cut, per-segment fixed-camera
 reframe (no panning, face in the red zone), ALL-CAPS serif captions with neon accents + pop
