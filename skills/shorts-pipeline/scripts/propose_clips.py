@@ -15,19 +15,7 @@ import argparse, json, os, sys, re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-sys.path.insert(0, "/home/user/video-work")  # tight_match / pick_accents live with the workdir tools
-try:
-    from match_hook import tight_match
-    from build_job import pick_accents
-except Exception:  # fallback: minimal accent picker if workdir tools absent
-    tight_match = None
-    def pick_accents(text, n=6):
-        toks = [t.upper() for t in re.findall(r"[A-Za-z']{5,}", text)]
-        seen = []
-        for t in toks:
-            if t not in seen:
-                seen.append(t)
-        return seen[:n]
+from textmatch import tight_match, pick_accents  # noqa  (vendored — self-contained)
 
 MIN_FOLLOW_S, MAX_RAW_S = 18, 60
 
