@@ -45,8 +45,6 @@ def main():
     ap.add_argument("-o", "--out", required=True)
     ap.add_argument("--window", type=float, default=420)
     a = ap.parse_args()
-    if tight_match is None:
-        sys.exit("match_hook.tight_match unavailable — run where /home/user/video-work is present")
     words = json.load(open(a.transcript))["words"]
     hooks = json.load(open(a.hooks))
     rows = []

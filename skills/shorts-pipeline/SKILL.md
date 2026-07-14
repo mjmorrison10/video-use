@@ -29,6 +29,32 @@ Run scripts from the repo root as:
 `uv run --extra pipeline python skills/shorts-pipeline/scripts/<x>.py ...`
 Bootstrap a cold sandbox first with `bash skills/shorts-pipeline/setup.sh`.
 
+## Turnkey per-project flow (no code edits — all inputs are data/config)
+
+Every script is parameterized: the project comes in through arguments and config, never a
+hardcoded name/path. A new episode = drop a video + write two small JSON files + pick a client
+profile. A fresh clone reproduces results with nothing from outside the repo.
+
+1. **Ingest** `ingest.py --file-id <id> --out ~/videos/<proj>/source.mp4` (or drop the file there).
+2. **Transcribe** `stt.py ~/videos/<proj>/source.mp4` → `edit/transcript.json` (locked params).
+3. **Hooks file** — write `~/videos/<proj>/hooks.json`: `[{"idx","ts","quote","slug"}]`
+   (client-supplied hooks; `ts` = TurboScribe segment-start hint, matching is content-first).
+4. **Propose** `propose_clips.py edit/transcript.json hooks.json -o proposals_draft.md`
+   → Claude hand-curates → send to client → **wait for picks**.
+5. **Jobs file** — Claude authors `~/videos/<proj>/jobs.json` from the picks:
+   `{"source","client","clips":[{"stem","hook_text","spans":[[a,b],...],"accents":[...],"peak_word"}]}`.
+   `client` selects `clients/<client>.yaml` (font/accent/framing/music); multi-hook clips list
+   multiple span groups in order; the builder REJECTS any clip whose first span doesn't open with
+   `hook_text` (first-line-is-a-hook absolute).
+6. **Build** `build_clips.py jobs.json [--only <stem>...]` → per-clip `edit/<stem>_clean.mp4`.
+7. **QA** `selfcheck.py <clean.mp4> <job.yaml>` → contact sheet; **Deliver** clean mp4s.
+8. **Music (on request)** `music_arc.py <captioned.mp4> <track> --offset O --climax T` (levels from
+   the client profile) → full-length story-arc bed cresting at the clip's climax.
+
+Per-client brand lives only in `clients/<name>.yaml` (loaded as `job.style_overrides`); adding a
+client = copy `clients/default.yaml`. Judgment (which spans/accents/climax, curation of proposals)
+is Claude's; everything the scripts do is mechanical and identical run-to-run.
+
 Canonical transcript schema (both STT paths emit): `{language, duration, segments[],
 words:[{word,start,end}]}` — `words` is the flat list `job.yaml:spans` indexes into.
 
