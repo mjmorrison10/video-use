@@ -2,18 +2,19 @@
 front, extended forward to ~TARGET seconds of content (dead-space removed),
 ending on a sentence boundary. Uses the full transcript."""
 import sys, json
-sys.path.insert(0, "tools")
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import project as P
 import locate_quotes as LQ
 import edl_build as EB
-from pathlib import Path
 
-ED = Path("edit")
-CANON = ED / "transcripts" / "Justin-Waller-vs-Therapist.json"
-FULL = ED / "transcripts" / "_fulltx.json"
+ED = P.edit_dir()
+CANON = P.transcript_path()
 TARGET = 20.0
 
-CLEAN = ["c16", "c17", "c18", "c19", "c20", "c21", "c26", "c27", "c28", "c30", "c31"]
-DRIFTED = ["c12", "c13", "c14", "c15", "c22", "c23", "c24", "c25", "c29"]
+# Clip ids + drift flags come from edit/clips.json (project.load_clips).
+DRIFTED = sorted(LQ.DRIFTED)
+CLEAN = [cid for (cid, _c, _q) in LQ.CLIPS if cid not in LQ.DRIFTED]
 
 
 def meta(cid):
@@ -21,8 +22,7 @@ def meta(cid):
 
 
 def main():
-    words = json.load(open(FULL))["words"]
-    json.dump({"words": words}, open(CANON, "w"))   # canonical = full transcript
+    words = json.load(open(CANON))["words"]
     # clear old EDLs
     for p in ED.glob("clip_c*.json"):
         p.unlink()

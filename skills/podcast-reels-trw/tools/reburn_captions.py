@@ -4,13 +4,14 @@ Uses edit/work/<cid>/base.mp4 (post-crop, pre-caption, pre-loudnorm), rebuilds
 the ASS with the current style, burns it, and loudnorms -> edit/out/clip_<cid>.mp4.
 """
 import sys, json
-sys.path.insert(0, "tools")
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import project as P
 import ass_captions as AC
 import render_crop as RC
 import render as R
 
-ED = Path("edit")
+ED = P.edit_dir()
 
 
 def main():

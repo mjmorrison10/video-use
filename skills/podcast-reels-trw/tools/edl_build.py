@@ -8,12 +8,16 @@ Cuts land on word boundaries (Rule 6). Renders concatenate the sub-ranges with
 from __future__ import annotations
 
 import json
+import sys
 from difflib import SequenceMatcher
 from pathlib import Path
 
-ED = Path("/home/user/claude-video-editor/edit")
-SRC_NAME = "Justin-Waller-vs-Therapist"
-SRC = {SRC_NAME: "/home/user/claude-video-editor/Justin-Waller-vs-Therapist.mp4"}
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import project as P  # noqa: E402
+
+ED = P.edit_dir()
+SRC_NAME = P.src_name()
+SRC = P.sources_map()
 
 GAP = 0.55        # silence longer than this is dead space -> cut
 PAD = 0.08        # keep a little air around kept speech
@@ -209,7 +213,7 @@ def build(clip_id, spans, transcript, grade="neutral_punch", out=None, hook_line
 
 
 if __name__ == "__main__":
-    tr = ED / "transcripts" / f"{SRC_NAME}.json"
-    # Reference: hook cold-open + clip #18, dead-space removed.
+    tr = P.transcript_path()
+    # Demo: two example spans, dead-space removed (edit the numbers for your clip).
     build("ref", [(3061.36, 3066.14, "HOOK"), (1847.56, 1859.94, "MOMENT")],
           tr, out=ED / "clip_ref.json")

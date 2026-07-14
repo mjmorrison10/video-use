@@ -1,14 +1,15 @@
 """Apply the matched music to every clip -> edit/out/music_<cid>.mp4."""
 import json, sys
 from pathlib import Path
-sys.path.insert(0, "tools")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import project as P
 import music_mix as M
 
-ED = Path("edit")
+ED = P.edit_dir()
 mapping = json.loads((ED / "music_map.json").read_text())
 levels = json.loads((ED / "music_levels.json").read_text()) if (ED / "music_levels.json").exists() else {}
 for cid in sorted(mapping, key=lambda x: int(x[1:])):
-    track = "music/" + mapping[cid]
+    track = str(P.music_dir() / mapping[cid])
     out = ED / "out" / f"music_{cid}.mp4"
     cfg = levels.get(cid, {})
     try:

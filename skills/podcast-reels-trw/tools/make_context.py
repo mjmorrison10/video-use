@@ -5,17 +5,19 @@ window of what follows, so an agent can choose the exact END point where the
 hook's point lands (before any tangent) and the clip becomes a complete story.
 """
 import sys, json, re
-sys.path.insert(0, "tools")
-import locate_quotes as LQ
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import project as P
+import locate_quotes as LQ
 
-ED = Path("edit")
-FULL = ED / "transcripts" / "Justin-Waller-vs-Therapist.json"
-CTX = ED / "context"
+ED = P.edit_dir()
+FULL = P.transcript_path()
+CTX = P.context_dir()
 CTX.mkdir(parents=True, exist_ok=True)
 
-CLEAN = ["c16", "c17", "c18", "c19", "c20", "c21", "c26", "c27", "c28", "c30", "c31"]
-DRIFTED = ["c12", "c13", "c14", "c15", "c22", "c23", "c24", "c25", "c29"]
+# Clip ids + drift flags come from edit/clips.json (project.load_clips).
+DRIFTED = sorted(LQ.DRIFTED)
+CLEAN = [cid for (cid, _c, _q) in LQ.CLIPS if cid not in LQ.DRIFTED]
 PRE, POST = 8.0, 170.0
 
 

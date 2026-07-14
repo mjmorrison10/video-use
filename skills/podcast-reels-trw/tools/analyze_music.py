@@ -4,13 +4,15 @@ Extracts tempo (BPM), energy (RMS), brightness (spectral centroid), and
 harmonic/percussive balance from the first ~60s of each track. Writes
 music/analysis.json.
 """
-import json, warnings
+import json, sys, warnings
 from pathlib import Path
 warnings.filterwarnings("ignore")
 import numpy as np
 import librosa
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import project as P
 
-MUSIC = Path("/home/user/claude-video-editor/music")
+MUSIC = P.music_dir()
 EXTS = {".mp3", ".wav", ".m4a", ".aac", ".flac", ".ogg"}
 
 

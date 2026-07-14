@@ -18,15 +18,17 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
+import project as P
 import locate_quotes as LQ
 import edl_build as EB
 
-ED = Path("/home/user/claude-video-editor/edit")
-OUT = ED / "out"
-HOOK_SPAN = (3061.36, 3066.14, "HOOK")   # "We're incentivized... that's how it works."
+ED = P.edit_dir()
+OUT = P.out_dir()
 
-CLEAN = ["c16", "c17", "c18", "c19", "c20", "c21", "c26", "c27", "c28", "c30", "c31"]
-DRIFTED = ["c12", "c13", "c14", "c15", "c22", "c23", "c24", "c25", "c29"]
+# Clip buckets come from edit/clips.json (via project.load_clips): every clip is
+# "clean" unless flagged drifted (locate globally). No hardcoded episode list.
+DRIFTED = sorted(LQ.DRIFTED)
+CLEAN = [cid for (cid, _c, _q) in LQ.CLIPS if cid not in LQ.DRIFTED]
 
 MAX_MOMENT = 55.0   # guard against fuzzy over-extension
 

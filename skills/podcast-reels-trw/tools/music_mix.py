@@ -8,11 +8,12 @@ Usage: python music_mix.py <cid> <track_path> <out.mp4> [gain]
 """
 import sys, json, subprocess
 from pathlib import Path
-sys.path.insert(0, "tools")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import project as P
 from music_segment import find_best_segment
 
-ED = Path("edit")
-FULL = ED / "transcripts" / "Justin-Waller-vs-Therapist.json"
+ED = P.edit_dir()
+FULL = P.transcript_path()
 
 
 def clip_words_output(cid):

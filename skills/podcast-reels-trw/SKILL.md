@@ -15,6 +15,33 @@ Convert one long interview into many viral vertical TRW clips. This inherits the
 full podcast-reels pipeline (below) and adds the TRW-specific workflow and rules.
 Reference tools live in `tools/` next to this file.
 
+## Turnkey — no per-episode code edits
+
+The tools are **episode-agnostic**. Nothing is hardcoded to a project; every path,
+source name, and clip list resolves through `tools/project.py`. To start a NEW
+episode you do NOT edit any `.py` file — you just point the tools at the project:
+
+1. Make a project dir with the video in it (and optional `music/`):
+   ```
+   <project>/  <Episode>.mp4   music/…(optional)
+   ```
+2. Tell the tools which project — pick ONE:
+   - run the tools from inside `<project>/` (auto-detects the lone `.mp4`), **or**
+   - `export PODCAST_PROJECT_DIR=/path/to/project` (and `PODCAST_SRC=<stem>` if
+     the dir has more than one mp4), **or**
+   - drop a `project.json` in the dir: `{"source":"<Episode>.mp4"}`.
+3. `project.py` then derives everything: `edit/`, `edit/transcripts/<stem>.json`,
+   `edit/out/`, `edit/work/`, the `music/` dir, and the video-use `helpers/` dir
+   (found from the skill's own location — no absolute path).
+
+Per-episode **clip inputs** (the RECALL / TurboScribe list) live in data, not code:
+`<project>/edit/clips.json` — `[{"id","center","quote","drifted"?}]` (`center`
+may be `"H:MM:SS"`; `drifted:true` = locate globally). See
+`samples/clips.example.json`. The CONCEPTS-FIRST flow below doesn't even need it —
+it mines hooks straight from the transcript.
+
+Sanity-check resolution any time with `python tools/project.py`.
+
 ## TRW workflow — CONCEPTS FIRST (the standard operating order)
 
 Do NOT jump straight to building. The order is:
@@ -133,10 +160,10 @@ mp4, and use `edit/transcripts/`, `edit/out/`, `edit/work/<cid>/`):
   edit/transcripts/  edit/out/  edit/work/  edit/context/
   tools/  (copies of this skill's tools/)
 ```
-NOTE: the reference tools hardcode `/home/user/claude-video-editor` paths and a
-project-specific clip list. When starting a new project, update those (search
-for `claude-video-editor`, and the `CLIPS`/`CLEAN`/`DRIFTED` lists in
-`locate_quotes.py`, `make_context.py`, `batch.py`).
+NOTE (TRW): unlike the client baseline, these tools are **turnkey** — no paths or
+clip lists are hardcoded. `tools/project.py` resolves the project (see the
+"Turnkey" section above); the clip list is `edit/clips.json`, not code. You should
+never need to edit a `.py` file to switch episodes.
 
 ## Inputs
 

@@ -10,35 +10,22 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 from difflib import SequenceMatcher
 from pathlib import Path
 
-TRANSCRIPT = Path("/home/user/claude-video-editor/edit/transcripts/Justin-Waller-vs-Therapist.json")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import project as P  # noqa: E402
 
-# (id, center_seconds, quote)
-CLIPS = [
-    ("hook", 51*60+0,  "Yeah. We're incentivized not to show it. Because? Because that's how it works."),
-    ("c12", 87*60+58,  "And it's not an illusion in my mind, because if it was an illusion in my mind, then I wouldn't have the people I have in my life. Yeah."),
-    ("c13", 76*60+39,  "That's not going to happen to you. I want to dodge it. I want to dodge it."),
-    ("c14", 73*60+26,  "It's when I believe I am abundantly capable of achieving something and I'm not tackling it the way I should. That voice gets loud and yeah, it gets a little rude to say the least."),
-    ("c15", 72*60+32,  "It is one of the only things in my life that I do not second guess ever. Ever. It's always me doing more."),
-    ("c16", 50*60+40,  "And in part because men aren't necessarily showing it and that's why I think it's important for people to see even for guys like you, even for guys like Andrew. Men are incentivized not to. You guys carry pain."),
-    ("c17", 47*60+18,  "But it's in that moment that they realize that you're not backtracking, that I actually think you hook them. I really believe it. I believe that."),
-    ("c18", 30*60+47,  "But that's not how this game works, baby. It's not. So sometimes in life, and I think you'll agree with me here, sometimes you just gotta be a big boy and take the licks with the good."),
-    ("c19", 23*60+39,  "I am, hey, let's not do it, let's not do it. But if you get in range, I'm going to fucking drop hands on you. Right."),
-    ("c20", 15*60+57,  "Show me one thing that a woman has invented, which has led to me getting Instagram messages from women with like these lists. It's a dishwasher, Barbie, Wi-Fi. And I'm just like, the exception is not the rule."),
-    ("c21", 1*60+31,   "And I thought it created caricatures of not just the men like yourself and Myron and Sneko, but just of men in general. And I guess I feel pretty passionate about the conversation around men and what's going on."),
-    ("c22", 89*60+46,  "You think Louie knows the truth of you? You think he's not thinking. Oh yeah, that's it. Louie knows, you know, I know. I even heard him say it."),
-    ("c23", 89*60+46,  "Yeah, in real life. In fact, to this day, my construction and my real estate by a long shot outpace any money I make on the internet. It's not even close."),
-    ("c24", 71*60+57,  "And the other stuff is secondary to that. It's so funny. Can I tell you something? I don't think I've ever said this on camera or not."),
-    ("c25", 70*60+23,  "But you know what I'm getting at, right, Justin? I mean, you can come to Jesus, but I digress. You know what I'm getting at, right? Because it's a fine line, right?"),
-    ("c26", 53*60+46,  "When did it start, do you think? Because I have a feeling this pain of not being seen, like, in your goodness, recognized. Or accepted."),
-    ("c27", 43*60+38,  "I did one session with them, and I said, this isn't for me. I'm not saying therapy's bullshit, it wasn't for me. Why, what happened?"),
-    ("c28", 42*60+54,  "It's like the Lila Rose lady, she's like, well you're disciplined here and here and here, why can't you be disciplined? I'm like, whoa, whoa, whoa, it's not about discipline."),
-    ("c29", 69*60+56,  "It's not that I'm not enough."),
-    ("c31", 22*60+18,  "It's funny. I know he's incredibly proud. Does he tell you? Not directly."),
-    ("c30", 51*60+0,   "We're incentivized not to show it. Because? Because that's how it works."),
-]
+TRANSCRIPT = P.transcript_path()
+
+# Per-project clip inputs come from <project>/edit/clips.json (see project.py),
+# NOT hardcoded here — so the tool is episode-agnostic.
+#   CLIPS  = [(id, center_seconds, quote), ...]
+#   DRIFTED = {ids whose given timestamp is unreliable -> locate globally}
+_CLIPS_FULL = P.load_clips()
+CLIPS = [(cid, center, quote) for (cid, center, quote, _drift) in _CLIPS_FULL]
+DRIFTED = {cid for (cid, _center, _quote, drift) in _CLIPS_FULL if drift}
 
 
 def norm(s: str) -> str:

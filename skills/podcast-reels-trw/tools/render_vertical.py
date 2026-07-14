@@ -21,7 +21,9 @@ import subprocess
 import sys
 from pathlib import Path
 
-HELPERS = Path("/home/user/video-use/helpers")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import project as P  # noqa: E402
+HELPERS = P.helpers_dir()
 sys.path.insert(0, str(HELPERS))
 
 import render as R  # noqa: E402  (reuse the hard-rule-correct pipeline)

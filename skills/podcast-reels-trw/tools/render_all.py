@@ -6,9 +6,11 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-ED = Path("/home/user/claude-video-editor/edit")
-OUT = ED / "out"
-WORK = ED / "work"
+sys.path.insert(0, str(HERE))
+import project as P
+ED = P.edit_dir()
+OUT = P.out_dir()
+WORK = P.work_dir()
 edls = sorted(e for e in glob.glob(str(ED / "clip_c*.json")) if "ref" not in e)
 
 

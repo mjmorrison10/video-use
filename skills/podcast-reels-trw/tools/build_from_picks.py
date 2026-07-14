@@ -7,11 +7,12 @@ snaps start to the nearest word and end to the last word of `ending_line`
 import sys, json, re
 from difflib import SequenceMatcher
 from pathlib import Path
-sys.path.insert(0, "tools")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import project as P
 import edl_build as EB
 
-ED = Path("edit")
-FULL = ED / "transcripts" / "Justin-Waller-vs-Therapist.json"
+ED = P.edit_dir()
+FULL = P.transcript_path()
 
 
 def tok(s):

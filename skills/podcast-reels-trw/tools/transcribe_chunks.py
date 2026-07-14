@@ -11,7 +11,13 @@ from __future__ import annotations
 import argparse, json, subprocess, sys, tempfile
 from pathlib import Path
 
-CHUNK_DIR = Path("/home/user/claude-video-editor/edit/transcripts/chunks")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import project as P
+
+# Chunk cache lives under the project's transcripts dir (override with
+# PODCAST_CHUNK_DIR if you ever need to relocate it).
+import os as _os
+CHUNK_DIR = Path(_os.environ.get("PODCAST_CHUNK_DIR", P.chunks_dir()))
 
 
 def extract_wav(video, start, dur, dest):
