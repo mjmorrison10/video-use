@@ -47,12 +47,22 @@ def sh(args, label):
         print("    " + "\n    ".join(tail[-6:]))
     return ok
 
+_FILLER = {"okay", "ok", "so", "and", "but", "now", "well", "um", "uh", "like", "yeah", "you", "know"}
+
+def _drop_lead_filler(toks):
+    i = 0
+    while i < len(toks) and toks[i] in _FILLER:
+        i += 1
+    return toks[i:]
+
 def first_line_is_hook(words, spans, hook_text):
-    """Absolute rule: the clip's first kept words must be the selected hook."""
-    got = " ".join(norm1(words[i]["word"]) for i in range(spans[0][0], min(spans[0][0] + 8, spans[0][1] + 1)))
-    want = norm1(hook_text)
-    want6 = " ".join(want.split()[:6])
-    return want6 and want6 in got
+    """Absolute rule: the clip's first kept words must be the selected hook. Leading verbal
+    filler (okay/so/and/now/you-know…) is ignored on both sides — the matcher legitimately
+    skips it, and it doesn't change which line opens the video."""
+    got = _drop_lead_filler([norm1(words[i]["word"]) for i in range(spans[0][0], min(spans[0][0] + 12, spans[0][1] + 1))])
+    want = _drop_lead_filler(norm1(hook_text).split())
+    want5 = want[:5]
+    return bool(want5) and " ".join(want5) in " ".join(got)
 
 def build_one(spec, clip, profile, proj_edit):
     stem = clip["stem"]
