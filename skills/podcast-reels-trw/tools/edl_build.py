@@ -184,7 +184,7 @@ def assert_first_line_is_hook(edl, words, hook_line, min_overlap=0.6):
     return round(ratio, 2)
 
 
-def build(clip_id, spans, transcript, grade="neutral_punch", out=None, hook_line=None):
+def build(clip_id, spans, transcript, grade="hdr", out=None, hook_line=None):
     """spans: list of (start, end, beat). Returns EDL dict and writes it.
 
     `spans` may be a MULTI-HOOK sequence (hook1 span, then hook2 span, ...) — the

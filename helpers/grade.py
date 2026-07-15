@@ -58,6 +58,15 @@ PRESETS: dict[str, str] = {
         "curves=master='0/0 0.25/0.22 0.75/0.78 1/1'"
     ),
 
+    # HDR pop — punchy short-form look: contrast + vibrance + a stronger S-curve
+    # + clarity (unsharp). Reads as "HDR" on phones without crushing the talking
+    # head. Colour-corrects flatness via the contrast/curve while adding pop.
+    "hdr": (
+        "eq=contrast=1.11:brightness=0.008:saturation=1.17:gamma=0.99,"
+        "curves=master='0/0 0.25/0.22 0.75/0.79 1/1',"
+        "unsharp=luma_msize_x=5:luma_msize_y=5:luma_amount=0.9"
+    ),
+
     # Flat — no grade. Useful as a sentinel for "skip grading this source".
     "none": "",
 }

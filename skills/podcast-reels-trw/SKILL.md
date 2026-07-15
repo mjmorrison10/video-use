@@ -141,14 +141,19 @@ produced the Justin Waller set.
    31.4%) of frame. Adaptive zoom keeps the face a consistent big size.
 4. **Zoom-punch transition** at each camera/speaker cut (1.12x → 1.0x over ~4
    frames).
-5. **Captions** — DejaVu Serif Bold, UPPERCASE, centered (Alignment 5). Power
+5. **Colour grade — HDR pop.** Every shot gets the `hdr` grade (contrast +
+   vibrance + a stronger S-curve + clarity/unsharp) baked in during the crop
+   step (before captions, so text stays crisp). Reads as "HDR" on phones without
+   crushing the talking head; it also colour-corrects flatness. Set via the EDL
+   `grade` field (default `hdr`); `neutral_punch` is the older subtle look.
+6. **Captions** — DejaVu Serif Bold, UPPERCASE, centered (Alignment 5). Power
    words in **neon cyan-blue `#00E0FF`** with the SAME black outline as white
    words (no glow). Each line **pops** (scale 50%→100% in 25ms) except a clip's
    first line. A new caption starts at every **sentence** (.!?). Fillers
    (um/uh/mm-hmm) are dropped from captions.
-6. **Fillers + dead-space cut** from audio+video (word-boundary micro-cuts with
+7. **Fillers + dead-space cut** from audio+video (word-boundary micro-cuts with
    30ms fades so there are no pops).
-7. **Music bed** — tone-matched track, its best BUILDING section (anywhere in
+8. **Music bed** — tone-matched track, its best BUILDING section (anywhere in
    the song), normalized to a steady low level (NO sidechain ducking — that
    pumps), and it **runs the ENTIRE length of the clip** (short end-fade only) —
    TRW wants music under the final line too, not silence on the punch.
