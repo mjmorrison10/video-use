@@ -146,4 +146,20 @@ spans chosen + why, cameras, accents, music choice + offset, self-eval findings/
 
 `ingest.py` · `stt.py` (+`stt_scribe_adapter.py`) · `faces.py` · `silences.py` · `build_edl.py` ·
 `render_vertical.py` · `captions.py` · `selfcheck.py` · `music_scan.py` · `music_mix.py` ·
-`music_synth.py`. Each prints its own usage with `-h`.
+`music_arc.py` · `music_synth.py` · `broll.py`. Each prints its own usage with `-h`.
+
+## Optional: auto-B-roll (`broll.py`)
+
+Overlays keyword-matched stock cutaways (~one every 2–3 s) on a talking-head clip with crossfade
+transitions, re-burning captions on top. Runs AFTER captions (needs `base.mp4` + `master.ass` +
+`plan.json` + `transcript.json`). Footage from a stock provider (Pexels video, Pixabay fallback;
+env `PEXELS_API_KEY`/`PIXABAY_API_KEY`) or a local `--clips DIR` (filenames = search terms).
+Fetches go through **curl, not urllib** (the sandbox egress proxy 403s python-urllib but allows
+curl on the identical URL). Downloads cache under `edit/broll_cache/` so re-runs are free.
+
+Workflow: `--dry-run` first to print the window→keyword plan, then curate. Two quality levers —
+`--terms overrides.json` (`{"window_index":"better phrase"}`, exact, no theme fill) to hand-fix
+weak matches, and `--selective` (drop theme-fallback-only windows so the centred speaker carries
+abstract lines instead of off-tone stock). Blanket coverage of abstract speech pulls mediocre
+generic footage; concrete nouns (battlefield, family) land — curate or go selective. Outputs
+`<stem>_broll_captioned.mp4` (pre-loudnorm, for `music_arc`) and `<stem>_broll.mp4` (−14 LUFS).
