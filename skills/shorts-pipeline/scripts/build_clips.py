@@ -93,10 +93,13 @@ def build_one(spec, clip, profile, proj_edit):
         if os.path.exists(cj) and os.path.exists(ft):
             cm = json.load(open(cj)); SW, SH = cm["source"]["w"], cm["source"]["h"]
             track = json.load(open(ft))
+            plausible = [p for p in track if p["fx"] is not None
+                         and sf["w"][0] <= p["w"] <= sf["w"][1] and sf["fy"][0] <= p["fy"] <= sf["fy"][1]]
             ranges = [(words[a]["start"], words[b]["end"]) for a, b in spans]
-            dets = [p for p in track if p["fx"] is not None
-                    and any(s - 0.2 <= p["t"] <= e + 0.2 for s, e in ranges)
-                    and sf["w"][0] <= p["w"] <= sf["w"][1] and sf["fy"][0] <= p["fy"] <= sf["fy"][1]]
+            local = [p for p in plausible if any(s - 0.2 <= p["t"] <= e + 0.2 for s, e in ranges)]
+            # per-clip median when it's well-sampled; else the global median (fixed-cam setup) —
+            # sparse local detection (bad lighting/angle in one stretch) must not skew the crop.
+            dets = local if len(local) >= 15 else plausible
             if dets:
                 med = lambda v: sorted(v)[len(v) // 2]
                 cr = derive_crop(med([p["fx"] for p in dets]), med([p["fy"] for p in dets]),
