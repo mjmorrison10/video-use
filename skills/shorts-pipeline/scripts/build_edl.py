@@ -49,6 +49,21 @@ def main():
     ed = os.path.join(os.path.dirname(os.path.abspath(job["video"]["source"])), "edit")
     words = json.load(open(os.path.join(ed, "transcript.json")))["words"]
     sil = [tuple(x) for x in json.load(open(os.path.join(ed, "silences.json")))]
+    # Guard against title-card / musical interludes that silencedetect misses (they carry music,
+    # so there's no true silence): a single word with a bogus multi-second duration, or a large
+    # inter-word gap, would otherwise freeze its caption and leave dead footage in the cut. Add
+    # those stretches to the silence list so they're excised. Thresholds are deliberately high so
+    # normal dramatic/rhetorical pauses (<~4s) are preserved.
+    MAX_WORD_DUR, MAX_WORD_GAP = 3.5, 4.0
+    for i in range(len(words)):
+        wd = words[i]["end"] - words[i]["start"]
+        if wd > MAX_WORD_DUR:
+            sil.append((words[i]["start"] + MAX_WORD_DUR, words[i]["end"]))
+        if i + 1 < len(words):
+            g = words[i + 1]["start"] - words[i]["end"]
+            if g > MAX_WORD_GAP:
+                sil.append((words[i]["end"], words[i + 1]["start"]))
+    sil = sorted(sil)
 
     # "fit" mode: no cropping/faces — the full 16:9 frame is letterboxed over a blurred fill
     # (render_vertical handles the compositing). Good for chart/screen-share content where
