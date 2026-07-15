@@ -23,6 +23,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SKILL = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 from textmatch import norm1  # noqa
+from build_edl import derive_crop  # noqa  (reuse safe-zone crop math)
+from _util import load_style  # noqa
 import yaml
 
 RUN = ["uv", "run", "--extra", "pipeline", "python"]
@@ -80,11 +82,31 @@ def build_one(spec, clip, profile, proj_edit):
               f"first span [{spans[0][0]}-{spans[0][1]}] does not open with: {clip['hook_text'][:50]!r}")
         return False
     cap = profile.get("captions", {})
+    framing = profile.get("framing", "follow")
+    sf = profile.get("subject_filter", {"fx": [0, 1920], "fy": [120, 620], "w": [130, 520]})
+    # "locked": one fixed crop centred on the clip's GLOBAL median face — stable, no per-segment
+    # drift (keeps a single-cam talking head dead-centre the whole clip). Falls back to center-crop.
+    if framing == "locked":
+        framing = "center-crop"
+        cj = os.path.join(proj_edit, "cameras.json")
+        ft = os.path.join(proj_edit, "face_track.json")
+        if os.path.exists(cj) and os.path.exists(ft):
+            cm = json.load(open(cj)); SW, SH = cm["source"]["w"], cm["source"]["h"]
+            track = json.load(open(ft))
+            ranges = [(words[a]["start"], words[b]["end"]) for a, b in spans]
+            dets = [p for p in track if p["fx"] is not None
+                    and any(s - 0.2 <= p["t"] <= e + 0.2 for s, e in ranges)
+                    and sf["w"][0] <= p["w"] <= sf["w"][1] and sf["fy"][0] <= p["fy"] <= sf["fy"][1]]
+            if dets:
+                med = lambda v: sorted(v)[len(v) // 2]
+                cr = derive_crop(med([p["fx"] for p in dets]), med([p["fy"] for p in dets]),
+                                 med([p["w"] for p in dets]), SW, SH, load_style())
+                framing = {"C": {"crop": {k: cr[k] for k in ("W", "H", "x", "y")}}}
     job = {
         "video": {"drive_id": spec.get("drive_id", ""), "source": os.path.join(hd, "source.mp4"), "stem": stem},
         "hook": {"text": clip["hook_text"]},
         "notes": f"client={spec['client']}",
-        "cameras": profile.get("framing", "follow"),
+        "cameras": framing,
         "subject_filter": profile.get("subject_filter", {"fx": [0, 1920], "fy": [120, 620], "w": [130, 520]}),
         "spans": [{"words": s, **({"beat": "HOOK"} if i == 0 else {})} for i, s in enumerate(spans)],
         "accents": clip.get("accents", []),

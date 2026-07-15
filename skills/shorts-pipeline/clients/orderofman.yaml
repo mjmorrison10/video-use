@@ -7,7 +7,7 @@ captions:
   font: "Montserrat Black"        # heavy geometric sans; asset vendored at assets/fonts/
   accent: "&H000AD6FF"            # yellow #FFD60A (ASS AABBGGRR)
   pos: {x: 540, y: 1150}          # lower third
-framing: follow                   # full-bleed 9:16, subject-tracked (no black, no blur)
+framing: locked                   # single fixed crop on the clip's median face — centered, no drift
 subject_filter: {fx: [0, 1920], fy: [120, 620], w: [130, 520]}
 music:
   # music_arc.py levels — full-length story arc, gentle duck, crest at the clip's climax.
