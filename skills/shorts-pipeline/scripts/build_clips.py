@@ -82,7 +82,8 @@ def build_one(spec, clip, profile, proj_edit):
               f"first span [{spans[0][0]}-{spans[0][1]}] does not open with: {clip['hook_text'][:50]!r}")
         return False
     cap = profile.get("captions", {})
-    framing = profile.get("framing", "follow")
+    # per-clip framing override (cinematic clients mix modes: drama=fit blur-fill, monologue=center-crop)
+    framing = clip.get("framing", profile.get("framing", "follow"))
     sf = profile.get("subject_filter", {"fx": [0, 1920], "fy": [120, 620], "w": [130, 520]})
     # "locked": one fixed crop centred on the clip's GLOBAL median face — stable, no per-segment
     # drift (keeps a single-cam talking head dead-centre the whole clip). Falls back to center-crop.
@@ -117,7 +118,7 @@ def build_one(spec, clip, profile, proj_edit):
         "protect": [], "onset_leads": {},
         "peak": {"word_index": clip.get("peak_word", spans[-1][1])},
         "music": {"track": "none", "start_offset": 0},
-        "style_overrides": {"captions": {k: cap[k] for k in ("font", "accent", "pos", "size") if k in cap}},
+        "style_overrides": {"captions": dict(cap)},  # whole caption block (font/case/anim/colour/…)
     }
     yaml.safe_dump(job, open(os.path.join(hd, "edit", "job.yaml"), "w"), sort_keys=False)
     print(f"=== {stem} ({len(spans)} spans) ===")

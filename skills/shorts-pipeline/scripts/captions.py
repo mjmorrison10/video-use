@@ -62,7 +62,7 @@ def main():
                     continue
             os_ = best["off"] + (max(ws, best["s"]) - best["s"])
             oe_ = best["off"] + (min(we, best["e"]) - best["s"])
-            txt = wtext(i).upper()
+            txt = wtext(i)
             if cap["uppercase"]:
                 txt = txt.upper()
             mapped.append([round(os_, 3), round(max(oe_, os_ + 0.08), 3), txt, bidx])
@@ -102,10 +102,20 @@ def main():
     style_line = (f"Style: Cap,{cap['font']},{cap['size']},{WHITE},{WHITE},"
                   f"{cap['outline_colour']},{cap['back_colour']},{bold},0,0,0,100,100,0,0,1,"
                   f"{cap['outline']},{cap['shadow']},{cap['align_an']},0,0,0,1")
-    pop = cap["pop"]
-    POP = (f"{{\\an{cap['align_an']}\\pos({p['x']},{p['y']})"
-           f"\\fscx{pop['fscx_from']}\\fscy{pop['fscy_from']}"
-           f"\\t(0,{pop['ms']},\\fscx{pop['to']}\\fscy{pop['to']})}}")
+    # animation: "pop" (default — scale-in karaoke, the loud house style) | "fade" (gentle
+    # opacity rise, the cinematic/literary style) | "none". Default keeps existing clients identical.
+    anim = cap.get("anim", "pop")
+    base_tag = f"\\an{cap['align_an']}\\pos({p['x']},{p['y']})"
+    if anim == "fade":
+        fd = cap.get("fade", {"in": 180, "out": 120})
+        POP = f"{{{base_tag}\\fad({fd['in']},{fd['out']})}}"
+    elif anim == "none":
+        POP = f"{{{base_tag}}}"
+    else:
+        pop = cap["pop"]
+        POP = (f"{{{base_tag}"
+               f"\\fscx{pop['fscx_from']}\\fscy{pop['fscy_from']}"
+               f"\\t(0,{pop['ms']},\\fscx{pop['to']}\\fscy{pop['to']})}}")
     head = ("[Script Info]\nScriptType: v4.00+\n"
             f"PlayResX: {style['output']['width']}\nPlayResY: {style['output']['height']}\n"
             "WrapStyle: 2\nScaledBorderAndShadow: yes\n\n[V4+ Styles]\n"

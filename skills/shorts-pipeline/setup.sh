@@ -36,19 +36,23 @@ WhisperModel("medium.en", device="cpu", compute_type="int8")
 print("[ok] whisper medium.en ready")
 PY
 
-# 4b. install the caption font (Montserrat Black) so libass can resolve it for burns
-FONT_SRC="$REPO/skills/shorts-pipeline/assets/fonts/Montserrat-Black.ttf"
-if [ -f "$FONT_SRC" ]; then
+# 4b. install ALL vendored caption fonts so libass can resolve them for burns.
+# Montserrat Black = loud podcast style; Inter SemiBold + EB Garamond = cinematic/literary
+# clients (e.g. captainsinbad). Copy every .ttf in the assets dir.
+FONT_DIR="$REPO/skills/shorts-pipeline/assets/fonts"
+if ls "$FONT_DIR"/*.ttf >/dev/null 2>&1; then
   mkdir -p "$HOME/.fonts"
-  cp -f "$FONT_SRC" "$HOME/.fonts/"
+  cp -f "$FONT_DIR"/*.ttf "$HOME/.fonts/"
   fc-cache -f "$HOME/.fonts" >/dev/null 2>&1 || true
-  if fc-list | grep -qi "Montserrat Black"; then
-    echo "[ok] caption font installed: Montserrat Black"
-  else
-    echo "[WARN] Montserrat Black not resolving via fontconfig after install"
-  fi
+  for fam in "Montserrat Black" "Inter" "EB Garamond"; do
+    if fc-list | grep -qi "$fam"; then
+      echo "[ok] caption font installed: $fam"
+    else
+      echo "[WARN] $fam not resolving via fontconfig after install"
+    fi
+  done
 else
-  echo "[WARN] caption font asset missing: $FONT_SRC"
+  echo "[WARN] no caption font assets in: $FONT_DIR"
 fi
 
 # 5. import smoke test
