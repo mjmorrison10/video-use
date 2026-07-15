@@ -61,7 +61,7 @@ light at each gate:
    render the 9:16 vertical (per-shot crop, serif cyan pop captions, filler +
    dead-space removal, zoom-punch). Show the rendered verticals.
 4. **APPROVAL GATE 2 (the vertical).** Once a vertical is approved, **add music**
-   (tone-matched bed, steady low level, cuts before the punch).
+   (tone-matched bed, steady low level, runs the FULL length of the clip).
 5. **Adjustments** at any stage — re-cut, re-frame, swap the track, trim levels.
 
 Token discipline: text before pixels, one vertical before music. Never batch-render
@@ -150,8 +150,8 @@ produced the Justin Waller set.
    30ms fades so there are no pops).
 7. **Music bed** — tone-matched track, its best BUILDING section (anywhere in
    the song), normalized to a steady low level (NO sidechain ducking — that
-   pumps), and it **cuts ~0.6s before the clip's final word** so the punch lands
-   clean.
+   pumps), and it **runs the ENTIRE length of the clip** (short end-fade only) —
+   TRW wants music under the final line too, not silence on the punch.
 
 ## Setup (once per environment)
 
@@ -268,8 +268,8 @@ is fine ONLY with isolation — shared intermediates clobber each other). Per cl
 3. `music_batch.py` mixes each: `music_segment.find_best_segment` finds a
    RISING window (music can peak anywhere in the song); normalize to
    `TARGET_RMS` 0.04 (per-track, so phonk isn't 10× the piano); STEADY volume,
-   NO ducking; music CUTS ~0.6s before the final word (`compute_climax`, drops
-   right before the last ~2 words). Per-clip trims + `compress` for a loud build
+   NO ducking; music runs the FULL clip length with a short end-fade
+   (`mix(..., full_length=True)`, the TRW default). Per-clip trims + `compress` for a loud build
    spike live in `edit/music_levels.json`.
 
 ## Hard-won lessons (do not relearn these)
@@ -281,7 +281,8 @@ is fine ONLY with isolation — shared intermediates clobber each other). Per cl
   background at cuts. Anchor on the bbox, not the nose-tip.
 - Parallel renders MUST use isolated work dirs.
 - Music: **no sidechain ducking** (it pumps). Normalize + steady low bed.
-- Music ends **right before the punch** (~0.6s), not at the last sentence start.
+- Music runs the **FULL length** of the clip (short end-fade) — TRW wants the bed
+  under the final line. (`full_length=False` restores the older cut-before-punch.)
 - `faster-whisper` `medium.en` to repair a garbled patch.
 - **Transcribe in SHORT windows, never one long pass.** Whisper word timestamps
   drift ~1.9s by 80s into a pass; long chunks silently corrupt BOTH your cut
