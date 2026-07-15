@@ -192,17 +192,26 @@ never need to edit a `.py` file to switch episodes.
 
 ## Pipeline
 
-### 1. Transcribe (word-level, cached)
-Use `faster-whisper` `small.en` with `word_timestamps=True`, `vad_filter=True`.
-Transcribe the WHOLE file in resumable ~12-min chunks so a container restart
-doesn't lose it:
+### 1. Transcribe (word-level, cached) — SHORT WINDOWS, accurate timestamps
+Use `faster-whisper` `small.en` with `word_timestamps=True`. **Transcribe in
+short overlapping windows, NOT one long pass.** Whisper's word timestamps are
+accurate only inside its first internal 30s window; past that they ACCUMULATE
+drift (~1.9s off by the 80s mark on a 720s pass). Cutting AND captioning both
+read these times, so drift makes clips start early and captions run ahead of the
+audio. `transcribe_chunks.py` handles this: it slides a 35s `--window` with a
+25s `--stride` commit zone and keeps each word only from a window's accurate
+early zone. `vad_filter` is OFF (its silence remap drifts too).
 ```bash
-python tools/transcribe_chunks.py <Source>.mp4 edit/transcripts/_full.json --start 0 --end <dur> --chunk 720
-cp edit/transcripts/_full.json edit/transcripts/<SourceStem>.json   # canonical name = video stem
+python tools/transcribe_chunks.py <Source>.mp4 edit/transcripts/<SourceStem>.json --end <dur> --window 35 --stride 25
 ```
 Output schema (the whole pipeline reads this): `{"words":[{"type":"word","text","start","end","speaker_id":null}...]}`.
-For a bad patch, re-transcribe that window with **`medium.en`** (much more
-accurate) and splice the words back in (this fixed a garbled caption line).
+**Verify** before cutting: extract source audio at a couple of points and
+re-transcribe a short window there; the word times must match the full
+transcript (short windows are the ground truth). For a bad patch, re-transcribe
+that window with **`medium.en`** and splice the words back in.
+Residual: words immediately after a pause can still jitter ~0.5–1s (normal
+Whisper behavior, not drift) — the cut builder adds a little lead pad so a hook's
+first word is never clipped.
 
 ### 2. (removed) — clip list comes from RECALL, see step 3.
 
@@ -274,3 +283,8 @@ is fine ONLY with isolation — shared intermediates clobber each other). Per cl
 - Music: **no sidechain ducking** (it pumps). Normalize + steady low bed.
 - Music ends **right before the punch** (~0.6s), not at the last sentence start.
 - `faster-whisper` `medium.en` to repair a garbled patch.
+- **Transcribe in SHORT windows, never one long pass.** Whisper word timestamps
+  drift ~1.9s by 80s into a pass; long chunks silently corrupt BOTH your cut
+  points and caption sync. Always verify a rendered clip's audio against its
+  captions (transcribe the RENDERED audio) before shipping — it's the only
+  ground truth for sync.
