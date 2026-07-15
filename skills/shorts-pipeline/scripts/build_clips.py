@@ -110,6 +110,7 @@ def build_one(spec, clip, profile, proj_edit):
         "video": {"drive_id": spec.get("drive_id", ""), "source": os.path.join(hd, "source.mp4"), "stem": stem},
         "hook": {"text": clip["hook_text"]},
         "captions": clip.get("captions", True),  # False -> cinematic no-caption clip (drama)
+        **({"fit_aspect": clip["fit_aspect"]} if clip.get("fit_aspect") else {}),  # fit fg zoom
         "notes": f"client={spec['client']}",
         "cameras": framing,
         "subject_filter": profile.get("subject_filter", {"fx": [0, 1920], "fy": [120, 620], "w": [130, 520]}),

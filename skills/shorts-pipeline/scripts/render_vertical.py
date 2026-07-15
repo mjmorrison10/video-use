@@ -12,17 +12,24 @@ from _util import load_style, run, REPO, ffprobe_dims  # noqa
 sys.path.insert(0, os.path.join(REPO, "helpers"))
 import render as rndr  # noqa
 
-def fit_filter(pre, OW, OH, FPS, src_w, src_h, center=False):
-    """Full 16:9 frame scaled to output width over a blurred, darkened fill of itself.
-    center=False -> band biased toward the upper-middle so captions sit below it in the blurred
-    zone (podcast/chart). center=True -> band vertically centred (cinematic; no black-bar look on
-    an uncaptioned drama clip)."""
-    fg_h = int(round(OW * src_h / src_w / 2) * 2)
+def fit_filter(pre, OW, OH, FPS, src_w, src_h, center=False, fit_aspect=None):
+    """Foreground frame scaled to output width over a blurred, darkened fill of itself.
+    center=False -> band biased upper-middle (caption zone below); center=True -> band centred.
+    fit_aspect (w/h): centre-crop the FOREGROUND to this aspect before scaling, to enlarge the
+    subject and shrink the fill bands (e.g. 1.0 = square). None -> full 16:9 frame (no side crop;
+    preserves composition). The blurred BG always uses the full frame."""
+    A = fit_aspect or (src_w / src_h)
+    cw = min(src_w, int(round(src_h * A / 2) * 2))
+    ch = min(src_h, int(round(cw / A / 2) * 2))
+    cx = (src_w - cw) // 2
+    cy = (src_h - ch) // 2
+    fg_h = min(OH, int(round(OW * ch / cw / 2) * 2))
     vy = (OH - fg_h) // 2 if center else max(80, (OH - fg_h) // 2 - 300)
+    fgcrop = f"crop={cw}:{ch}:{cx}:{cy}," if (cw, ch) != (src_w, src_h) else ""
     return (f"[0:v]{pre}split=2[bg][fg];"
             f"[bg]scale={OW}:{OH}:force_original_aspect_ratio=increase,crop={OW}:{OH},"
             f"boxblur=30:2,eq=brightness=-0.30:saturation=0.7[bgb];"
-            f"[fg]scale={OW}:-2:flags=lanczos[fgs];"
+            f"[fg]{fgcrop}scale={OW}:-2:flags=lanczos[fgs];"
             f"[bgb][fgs]overlay=(W-w)/2:{vy}:shortest=1,setsar=1,fps={FPS}[v]")
 
 # --- "pip" mode layout constants (1080x1920) ---
@@ -87,7 +94,8 @@ def main():
             cmd += ["-filter_complex", pip_filter(s, pre, OW, OH, FPS, src_w, src_h),
                     "-map", "[v]", "-map", "0:a", "-af", af]
         elif s.get("cam") in ("FIT", "FITC"):
-            cmd += ["-filter_complex", fit_filter(pre, OW, OH, FPS, src_w, src_h, center=(s.get("cam") == "FITC")),
+            cmd += ["-filter_complex", fit_filter(pre, OW, OH, FPS, src_w, src_h,
+                                                  center=(s.get("cam") == "FITC"), fit_aspect=s.get("fit_aspect")),
                     "-map", "[v]", "-map", "0:a", "-af", af]
         else:
             vf = f"{pre}crop={s['W']}:{s['H']}:{s['x']}:{s['y']},scale={OW}:{OH}:flags=lanczos,setsar=1,fps={FPS}"

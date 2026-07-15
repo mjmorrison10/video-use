@@ -170,7 +170,10 @@ def main():
     if PIP:
         CAM, cams_cfg = {"SPK": None}, None
     elif FIT:
-        CAM, cams_cfg = {"FIT": dict(W=SW, H=SH, x=0, y=0, cam=("FITC" if FIT_CENTER else "FIT"))}, None
+        fit_cam = dict(W=SW, H=SH, x=0, y=0, cam=("FITC" if FIT_CENTER else "FIT"))
+        if job.get("fit_aspect"):        # centre-crop the fg to this aspect (enlarge subject)
+            fit_cam["fit_aspect"] = job["fit_aspect"]
+        CAM, cams_cfg = {"FIT": fit_cam}, None
     elif FOLLOW:
         CAM, cams_cfg = {"F": CENTER}, None
     else:
