@@ -27,6 +27,20 @@ def main():
     cap = dict(style["captions"])
     cap.update((job.get("style_overrides") or {}).get("captions", {}))
     ed = os.path.join(os.path.dirname(os.path.abspath(job["video"]["source"])), "edit")
+    stem = job["video"]["stem"]
+    # captions can be disabled per clip (cinematic drama scenes "breathe" uncaptioned): still
+    # produce the two deliverables from base.mp4 — captioned (a copy, for music) + loudnorm clean.
+    if job.get("captions", True) is False:
+        captioned = os.path.join(ed, f"{stem}_captioned.mp4")
+        clean = os.path.join(ed, f"{stem}_clean.mp4")
+        import shutil
+        shutil.copy(os.path.join(ed, "base.mp4"), captioned)
+        ok = rndr.apply_loudnorm_two_pass(Path(captioned), Path(clean))
+        if not ok:
+            shutil.copy(captioned, clean)
+        from _util import ffprobe_duration
+        print(f"[done] {clean}  ({ffprobe_duration(clean):.2f}s, NO captions, loudnorm={ok})")
+        return
     words = json.load(open(os.path.join(ed, "transcript.json")))["words"]
     segs = json.load(open(os.path.join(ed, "plan.json")))["segs"]
 

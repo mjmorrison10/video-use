@@ -24,7 +24,7 @@ SKILL = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 from textmatch import norm1  # noqa
 from build_edl import derive_crop  # noqa  (reuse safe-zone crop math)
-from _util import load_style  # noqa
+from _util import load_style, ffprobe_dims  # noqa
 import yaml
 
 RUN = ["uv", "run", "--extra", "pipeline", "python"]
@@ -109,6 +109,7 @@ def build_one(spec, clip, profile, proj_edit):
     job = {
         "video": {"drive_id": spec.get("drive_id", ""), "source": os.path.join(hd, "source.mp4"), "stem": stem},
         "hook": {"text": clip["hook_text"]},
+        "captions": clip.get("captions", True),  # False -> cinematic no-caption clip (drama)
         "notes": f"client={spec['client']}",
         "cameras": framing,
         "subject_filter": profile.get("subject_filter", {"fx": [0, 1920], "fy": [120, 620], "w": [130, 520]}),
@@ -128,6 +129,14 @@ def build_one(spec, clip, profile, proj_edit):
     if job["cameras"] in ("follow", "pip") and not os.path.exists(f"{ed}/face_track.json"):
         if not sh(RUN + [f"{P}/faces.py", src, "--fps", "3"], "faces"):
             return False
+    # center-crop needs cameras.json (source dims) + face_track.json but NOT face detection;
+    # write minimal stubs so a cinematic monologue clip can crop centre without a faces pass.
+    if job["cameras"] == "center-crop":
+        if not os.path.exists(f"{ed}/cameras.json"):
+            sw, sh_ = ffprobe_dims(src)
+            json.dump({"source": {"w": sw, "h": sh_}}, open(f"{ed}/cameras.json", "w"))
+        if not os.path.exists(f"{ed}/face_track.json"):
+            json.dump([], open(f"{ed}/face_track.json", "w"))
     if not os.path.exists(f"{ed}/silences.json"):
         if not sh(RUN + [f"{P}/silences.py", src], "silences"):
             return False
