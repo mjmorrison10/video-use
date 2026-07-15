@@ -12,11 +12,13 @@ from _util import load_style, run, REPO, ffprobe_dims  # noqa
 sys.path.insert(0, os.path.join(REPO, "helpers"))
 import render as rndr  # noqa
 
-def fit_filter(pre, OW, OH, FPS, src_w, src_h):
+def fit_filter(pre, OW, OH, FPS, src_w, src_h, center=False):
     """Full 16:9 frame scaled to output width over a blurred, darkened fill of itself.
-    Band biased toward the upper-middle so captions sit below it in the blurred zone."""
+    center=False -> band biased toward the upper-middle so captions sit below it in the blurred
+    zone (podcast/chart). center=True -> band vertically centred (cinematic; no black-bar look on
+    an uncaptioned drama clip)."""
     fg_h = int(round(OW * src_h / src_w / 2) * 2)
-    vy = max(80, (OH - fg_h) // 2 - 300)     # upper-biased band top
+    vy = (OH - fg_h) // 2 if center else max(80, (OH - fg_h) // 2 - 300)
     return (f"[0:v]{pre}split=2[bg][fg];"
             f"[bg]scale={OW}:{OH}:force_original_aspect_ratio=increase,crop={OW}:{OH},"
             f"boxblur=30:2,eq=brightness=-0.30:saturation=0.7[bgb];"
@@ -84,8 +86,8 @@ def main():
         if s.get("mode") in ("speaker", "chart"):
             cmd += ["-filter_complex", pip_filter(s, pre, OW, OH, FPS, src_w, src_h),
                     "-map", "[v]", "-map", "0:a", "-af", af]
-        elif s.get("cam") == "FIT":
-            cmd += ["-filter_complex", fit_filter(pre, OW, OH, FPS, src_w, src_h),
+        elif s.get("cam") in ("FIT", "FITC"):
+            cmd += ["-filter_complex", fit_filter(pre, OW, OH, FPS, src_w, src_h, center=(s.get("cam") == "FITC")),
                     "-map", "[v]", "-map", "0:a", "-af", af]
         else:
             vf = f"{pre}crop={s['W']}:{s['H']}:{s['x']}:{s['y']},scale={OW}:{OH}:flags=lanczos,setsar=1,fps={FPS}"

@@ -53,7 +53,10 @@ def main():
     # "fit" mode: no cropping/faces — the full 16:9 frame is letterboxed over a blurred fill
     # (render_vertical handles the compositing). Good for chart/screen-share content where
     # cropping would cut off graphs. Faces/cameras are not needed.
-    FIT = job.get("cameras") == "fit"
+    # "fit"        -> window biased high (leaves a lower zone for captions; podcast/chart use)
+    # "fit-center" -> window vertically centred (cinematic, esp. uncaptioned drama; no black bar look)
+    FIT = job.get("cameras") in ("fit", "fit-center")
+    FIT_CENTER = job.get("cameras") == "fit-center"
     if FIT:
         track, cams_meta = [], None
         SW, SH = ffprobe_dims(job["video"]["source"])
@@ -167,7 +170,7 @@ def main():
     if PIP:
         CAM, cams_cfg = {"SPK": None}, None
     elif FIT:
-        CAM, cams_cfg = {"FIT": dict(W=SW, H=SH, x=0, y=0, cam="FIT")}, None
+        CAM, cams_cfg = {"FIT": dict(W=SW, H=SH, x=0, y=0, cam=("FITC" if FIT_CENTER else "FIT"))}, None
     elif FOLLOW:
         CAM, cams_cfg = {"F": CENTER}, None
     else:
