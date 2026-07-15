@@ -9,7 +9,7 @@ Usage: captions.py JOB.yaml   (reads edit/plan.json + base.mp4; writes edit/mast
 import argparse, json, os, sys
 from pathlib import Path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from _util import load_style, load_yaml, run, REPO  # noqa
+from _util import load_style, load_yaml, run, REPO, ffprobe_dims  # noqa
 sys.path.insert(0, os.path.join(REPO, "helpers"))
 import render as rndr  # noqa
 
@@ -43,6 +43,21 @@ def main():
         return
     words = json.load(open(os.path.join(ed, "transcript.json")))["words"]
     segs = json.load(open(os.path.join(ed, "plan.json")))["segs"]
+
+    # framing-aware caption placement: on blur-fill (fit / fit-center) clips the captions sit
+    # right BELOW the video window (in the fill band), phrase-length for dialogue; on full-bleed
+    # clips they use the profile position (e.g. centred) with the profile's tight word chunks.
+    OW_, OH_ = style["output"]["width"], style["output"]["height"]
+    framing = job.get("cameras")
+    if framing in ("fit", "fit-center"):
+        src_w, src_h = ffprobe_dims(job["video"]["source"])
+        A = job.get("fit_aspect") or (src_w / src_h)
+        fg_h = min(OH_, int(round(OW_ / A)))
+        top = (OH_ - fg_h) // 2 if framing == "fit-center" else max(80, (OH_ - fg_h) // 2 - 300)
+        cap["pos"] = {"x": OW_ // 2, "y": min(OH_ - 110, top + fg_h + 24)}
+        cap["align_an"] = 8  # top-center anchor: text hangs just under the window
+        cap["max_words"] = cap.get("fit_max_words", 5)
+        cap["max_chars"] = cap.get("fit_max_chars", 28)
 
     OVER = {int(k): v for k, v in (job.get("text_overrides") or {}).items()}
     ACCENT = {str(w).strip(".,!?").upper() for w in (job.get("accents") or [])}
