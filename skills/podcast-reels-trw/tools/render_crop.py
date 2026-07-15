@@ -49,7 +49,10 @@ def extract_shot_video(source, abs_start, dur, ax, ay, face_h, coverage, grade, 
     cw, ch = crop_dims(face_h, smax)
     x = int(min(max(0.0, ax - NOSE_FX * cw), RF.SRC_W - cw))
     y = int(min(max(0.0, ay - NOSE_FY * ch), RF.SRC_H - ch))
-    vf = f"crop={cw}:{ch}:{x}:{y},scale={OUT_W}:{OUT_H}"
+    # reframe computes anchors/dims in a normalized SRC_W×SRC_H (1920×1080) space
+    # (it resizes frames internally), so normalize the real frame to that space
+    # first — makes the crop correct for ANY source resolution (e.g. 1280×720).
+    vf = f"scale={RF.SRC_W}:{RF.SRC_H},crop={cw}:{ch}:{x}:{y},scale={OUT_W}:{OUT_H}"
     if grade:
         vf += f",{grade}"
     if punch:   # zoom-punch transition at a speaker/scene cut: 1.12x -> 1.0x over ~4 frames

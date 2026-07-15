@@ -42,19 +42,34 @@ it mines hooks straight from the transcript.
 
 Sanity-check resolution any time with `python tools/project.py`.
 
-## TRW workflow — CONCEPTS FIRST (the standard operating order)
+## TRW workflow — STAGED, APPROVE-BEFORE-SPEND (the standard operating order)
 
-Do NOT jump straight to building. The order is:
+Do NOT jump straight to rendering. Rendering and music are the expensive steps,
+so nothing gets rendered until the user has approved the CUT, and no music is
+added until the user has approved the VERTICAL. Stage the work and get a green
+light at each gate:
 
 1. **Transcribe** the full episode (`transcribe_chunks.py`, resumable, cached).
-2. **Propose concepts as text FIRST.** Run `propose_concepts.py` (fan-out of
-   analyst agents over overlapping transcript windows) to mine EVERY viable
-   hook, then write `CONCEPTS.md` and send it to the user. Ranked by virality
-   potential. Each entry:
-   `#N  [H:MM:SS]  "hook line"  — one-line story it opens — ~Ns — (pairs-with #M)`
-   Include EVERYTHING found (can be 40+); the user skims and selects.
-3. **User selects** (e.g. "3, 7, 12+13 combined"). Only then do you build.
-4. **Build** the selected videos through the render/caption/music pipeline below.
+2. **CUT — propose clips as TEXT first (cheap).** Decide what each good clip IS:
+   run story selection (analyst-per-clip, below) over the RECALL list AND/OR the
+   `propose_concepts.py` hook mining, then present each proposed clip to the user
+   as text — no rendering yet:
+   `#N  [H:MM:SS]  "hook line"  → story it tells → ends on "<landing line>"  ~Ns`
+   Each proposed clip is a complete story (opens on a hook, one point, lands).
+   Send the list; the user approves/kills/tweaks per clip.
+3. **APPROVAL GATE 1 (the cut).** Only for APPROVED clips do you build the EDL +
+   render the 9:16 vertical (per-shot crop, serif cyan pop captions, filler +
+   dead-space removal, zoom-punch). Show the rendered verticals.
+4. **APPROVAL GATE 2 (the vertical).** Once a vertical is approved, **add music**
+   (tone-matched bed, steady low level, cuts before the punch).
+5. **Adjustments** at any stage — re-cut, re-frame, swap the track, trim levels.
+
+Token discipline: text before pixels, one vertical before music. Never batch-render
+the whole episode on spec.
+
+`propose_concepts.py` (fan-out hook miner → ranked `CONCEPTS.md`) is still the tool
+when the user wants EVERYTHING found rather than a curated RECALL list — use it to
+generate the stage-2 text, then present the same way.
 
 ## TRW rules (absolutes)
 
