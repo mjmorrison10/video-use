@@ -52,8 +52,8 @@ def word_out_times(job, transcript, plan):
     return sorted(out, key=lambda x: x[0])
 
 def make_windows(wt, every, hold):
-    """Group words into ~`every`-second windows at word boundaries; each window holds b-roll for
-    up to `hold` seconds starting at its first word."""
+    """FIXED mode: group words into ~`every`-second windows at word boundaries; each window holds
+    b-roll for up to `hold` seconds. Dense/mechanical — use `sentence` mode for a natural cut."""
     wins, cur = [], []
     for os_, oe_, w in wt:
         if not cur:
@@ -70,6 +70,54 @@ def make_windows(wt, every, hold):
         end = min(start + hold, grp[-1][1])
         text = " ".join(g[2] for g in grp)
         out.append({"start": round(start, 2), "end": round(end, 2), "text": text})
+    return out
+
+# discourse markers that begin a new clause (podcast ASR rarely punctuates, so sentence/idea
+# boundaries are found from these + ASR sentence-casing + end punctuation)
+_CLAUSE = {"and", "but", "because", "so", "while", "then", "when", "its", "if", "or", "yet"}
+
+def make_sentence_windows(wt, lead, max_hold, min_sentence, gap=0.5):
+    """SENTENCE mode (default): one cutaway per spoken CLAUSE/idea so b-roll follows the meaning,
+    not a fixed clock. Boundaries = end punctuation, a real output-time gap, a clause marker
+    ("and…/because…/while…"), or an ASR-capitalized sentence start — but only once the current
+    clause has run at least `min_sentence` seconds, so we don't chop mid-thought. The opening
+    `lead` seconds always stay on the speaker (the hook lands on his face); long clauses are capped
+    at `max_hold` so each cutaway breathes and returns to the speaker."""
+    sents, cur = [], []
+    def flush():
+        if cur:
+            sents.append(cur[:]); cur.clear()
+    prev = None
+    for os_, oe_, w in wt:
+        clause_len = (oe_ - cur[0][0]) if cur else 0.0
+        bound = False
+        if prev is not None and prev.endswith((".", "?", "!")):
+            bound = True
+        elif cur and os_ - cur[-1][1] > gap:
+            bound = True
+        elif clause_len >= min_sentence:
+            wl = w.lower().strip(".,!?'\"")
+            if wl in _CLAUSE or (len(w) > 1 and w[0].isupper()):
+                bound = True
+        if bound:
+            flush()
+        cur.append((os_, oe_, w))
+        prev = w
+    flush()
+    out = []
+    for grp in sents:
+        s, e = grp[0][0], grp[-1][1]
+        if e - s < min_sentence:
+            continue
+        start = max(s, lead)              # never cut away during the opening lead (the hook)
+        if start >= e - 0.5:              # clause lives entirely inside the lead → keep speaker
+            continue
+        start = min(start + 0.2, e - 0.6) if start <= s + 0.05 else start
+        end = min(e - 0.1, start + max_hold)
+        if end - start < 1.2:            # drop slivers — a cutaway needs room to register
+            continue
+        out.append({"start": round(start, 2), "end": round(end, 2),
+                    "text": " ".join(g[2] for g in grp)})
     return out
 
 def query_terms(text, accents, theme):
@@ -200,9 +248,18 @@ def main():
     ap.add_argument("--out-dir", required=True); ap.add_argument("--stem", required=True)
     ap.add_argument("--provider", default="pexels", choices=["pexels", "pixabay", "folder"])
     ap.add_argument("--clips", default=None)
-    ap.add_argument("--every", type=float, default=2.6)
-    ap.add_argument("--hold", type=float, default=2.0)
-    ap.add_argument("--xfade", type=float, default=0.35)
+    ap.add_argument("--mode", default="sentence", choices=["sentence", "fixed"],
+                    help="sentence: one cutaway per spoken sentence, opening stays on speaker "
+                         "(default, natural). fixed: dense ~every-second windows (mechanical).")
+    ap.add_argument("--lead", type=float, default=3.0,
+                    help="sentence mode: hold the speaker for the first N seconds (the hook)")
+    ap.add_argument("--max-hold", type=float, default=4.0,
+                    help="sentence mode: cap a single cutaway's length so it breathes")
+    ap.add_argument("--min-sentence", type=float, default=1.4,
+                    help="sentence mode: sentences shorter than this stay on the speaker")
+    ap.add_argument("--every", type=float, default=2.6, help="fixed mode window length")
+    ap.add_argument("--hold", type=float, default=2.0, help="fixed mode cutaway length")
+    ap.add_argument("--xfade", type=float, default=0.25)
     ap.add_argument("--theme", default="")
     ap.add_argument("--terms", default=None,
                     help="JSON overriding per-window search phrases: {\"3\":\"soldiers marching\",...} "
@@ -219,7 +276,8 @@ def main():
     overrides = {int(k): v for k, v in json.load(open(a.terms)).items()} if a.terms else {}
     accents = job.get("accents", [])
     wt = word_out_times(job, transcript, plan)
-    wins = make_windows(wt, a.every, a.hold)
+    wins = (make_sentence_windows(wt, a.lead, a.max_hold, a.min_sentence)
+            if a.mode == "sentence" else make_windows(wt, a.every, a.hold))
     for i, w in enumerate(wins):
         if i in overrides:
             w["terms"] = [overrides[i]]          # curated: exactly this, no theme fill
