@@ -10,8 +10,8 @@ captions:
   font: "Inter SemiBold"
   size: 60
   bold: false
-  uppercase: false                # sentence case — ALL-CAPS is the #1 "hype clip" tell
-  strip_punctuation: false        # keep commas/periods — reads literary, not karaoke
+  uppercase: true                 # ALL-CAPS (client preference)
+  strip_punctuation: true         # no punctuation at all (client preference)
   primary: "&H00E6EFF4"           # warm bone-white #F4EFE6 (ASS AABBGGRR), not pure #FFF
   accent: "&H00E6EFF4"            # monochrome — no yellow highlight (kill the loudness)
   outline_colour: "&H00121212"    # thin near-black stroke for legibility over footage

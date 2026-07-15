@@ -54,8 +54,9 @@ def main():
         A = job.get("fit_aspect") or (src_w / src_h)
         fg_h = min(OH_, int(round(OW_ / A)))
         top = (OH_ - fg_h) // 2 if framing == "fit-center" else max(80, (OH_ - fg_h) // 2 - 300)
-        cap["pos"] = {"x": OW_ // 2, "y": min(OH_ - 110, top + fg_h + 24)}
-        cap["align_an"] = 8  # top-center anchor: text hangs just under the window
+        # sit in the BOTTOM PART of the video window (overlay the lower portion), not below it
+        cap["pos"] = {"x": OW_ // 2, "y": top + fg_h - max(96, int(0.09 * fg_h))}
+        cap["align_an"] = 5  # centered anchor, inside the lower part of the window
         cap["max_words"] = cap.get("fit_max_words", 5)
         cap["max_chars"] = cap.get("fit_max_chars", 28)
 
