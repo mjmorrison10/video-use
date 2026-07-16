@@ -33,7 +33,7 @@ DEFAULT_STYLE = {
     "accentColor": "#FFD60A",   # yellow power words + hook
     "textColor": "white",
     "strokeColor": "black",
-    "fontSize": 52,             # 50% of the original 104
+    "fontSize": 58,             # Big Shoulders is condensed; 58 restores punch
     "captionPosition": "center",
     "uppercase": True,
     "powerWords": [],

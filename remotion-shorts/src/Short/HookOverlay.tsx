@@ -6,10 +6,10 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { PowerSerif } from "../load-font";
+import { PowerFont } from "../load-font";
 import type { ShortProps } from "./schema";
 
-const fontFamily = `${PowerSerif}, "SerifFallback", serif`;
+const fontFamily = `${PowerFont}, "FontFallback", sans-serif`;
 
 // A big centered hook headline burned over the first `untilSec` seconds,
 // fading out at the end. Reinforces the spoken hook for silent autoplay.

@@ -33,7 +33,7 @@ export const styleSchema = z.object({
   accentColor: z.string().default("#FFD60A"), // yellow for power words + hook
   textColor: z.string().default("white"),
   strokeColor: z.string().default("black"),
-  fontSize: z.number().default(52),
+  fontSize: z.number().default(58),
   captionPosition: z.enum(["center", "bottom"]).default("center"),
   captionBottom: z.number().default(430), // px from bottom when captionPosition="bottom"
   uppercase: z.boolean().default(true),

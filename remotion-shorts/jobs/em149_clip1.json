@@ -546,10 +546,10 @@
  },
  "style": {
   "highlightColor": "#FFD60A",
-  "accentColor": "#00E5FF",
+  "accentColor": "#FFD60A",
   "textColor": "white",
   "strokeColor": "black",
-  "fontSize": 52,
+  "fontSize": 58,
   "captionPosition": "center",
   "uppercase": true,
   "powerWords": [

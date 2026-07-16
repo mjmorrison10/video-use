@@ -8,10 +8,10 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { PowerSerif } from "../load-font";
+import { PowerFont } from "../load-font";
 import type { CaptionPageT, ShortProps } from "./schema";
 
-const fontFamily = `${PowerSerif}, "SerifFallback", serif`;
+const fontFamily = `${PowerFont}, "FontFallback", sans-serif`;
 
 const clean = (s: string) =>
   s
