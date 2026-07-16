@@ -57,8 +57,11 @@ ln -sf /home/user/videos/em149/proxy.mp4 public/proxy.mp4
 mkdir -p public/music && ln -sf /home/user/videos/em149/music/sneaky.mp3 public/sneaky.mp3
 
 npx remotion render src/index.ts Short out/<clip>.mp4 --props=./jobs/<clip>.json
-# Chromium: Remotion auto-downloads a headless shell, or pass
-#   --browser-executable=/opt/pw-browsers/chromium-1194/chrome-linux/chrome
+# Chromium: let Remotion use its own auto-downloaded chrome-headless-shell (works
+# out of the box). Do NOT pass the full Playwright Chromium
+# (/opt/pw-browsers/chromium-1194/chrome-linux/chrome) — it removed old-headless
+# mode and the render fails. If you must pin a binary, use the headless shell:
+#   --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell
 ```
 
 ## Composition (`src/Short`)

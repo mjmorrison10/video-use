@@ -28,13 +28,17 @@ export const musicSchema = z
   .nullable();
 
 export const styleSchema = z.object({
-  highlightColor: z.string().default("#FFD60A"),
+  highlightColor: z.string().default("#FFD60A"), // legacy karaoke color (unused in center mode)
+  accentColor: z.string().default("#00E5FF"), // neon cyan for power words + hook
   textColor: z.string().default("white"),
   strokeColor: z.string().default("black"),
-  fontSize: z.number().default(110),
-  captionBottom: z.number().default(430), // px from bottom (TikTok safe-zone)
+  fontSize: z.number().default(104),
+  captionPosition: z.enum(["center", "bottom"]).default("center"),
+  captionBottom: z.number().default(430), // px from bottom when captionPosition="bottom"
   uppercase: z.boolean().default(true),
   combineWithinMs: z.number().default(900), // words per caption page window
+  // Words rendered in accentColor (and kept lit). Lowercased, punctuation-insensitive.
+  powerWords: z.array(z.string()).default([]),
 });
 
 export const hookSchema = z

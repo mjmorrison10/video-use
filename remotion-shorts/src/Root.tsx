@@ -26,12 +26,15 @@ const defaultProps: ShortProps = {
   music: null,
   style: {
     highlightColor: "#FFD60A",
+    accentColor: "#00E5FF",
     textColor: "white",
     strokeColor: "black",
-    fontSize: 110,
+    fontSize: 104,
+    captionPosition: "center",
     captionBottom: 430,
     uppercase: true,
     combineWithinMs: 900,
+    powerWords: [],
   },
   hook: null,
 };

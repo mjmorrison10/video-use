@@ -6,10 +6,10 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { TheBoldFont } from "../load-font";
+import { PowerSerif } from "../load-font";
 import type { ShortProps } from "./schema";
 
-const fontFamily = TheBoldFont;
+const fontFamily = `${PowerSerif}, "SerifFallback", serif`;
 
 // A big centered hook headline burned over the first `untilSec` seconds,
 // fading out at the end. Reinforces the spoken hook for silent autoplay.
@@ -51,7 +51,7 @@ export const HookOverlay: React.FC<{
       <div
         style={{
           fontSize,
-          color: style.highlightColor,
+          color: style.accentColor,
           WebkitTextStroke: `18px ${style.strokeColor}`,
           paintOrder: "stroke",
           fontFamily,
@@ -59,6 +59,7 @@ export const HookOverlay: React.FC<{
           textAlign: "center",
           padding: "0 40px",
           lineHeight: 1.02,
+          textShadow: "0 6px 28px rgba(0,0,0,0.55)",
         }}
       >
         {hook.text}

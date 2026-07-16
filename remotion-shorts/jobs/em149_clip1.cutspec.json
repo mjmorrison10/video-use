@@ -13,6 +13,6 @@
     {"inSec": 224.95, "outSec": 228.83, "beat": "REINFORCE", "framing": "cover"}
   ],
   "music": {"src": "sneaky.mp3", "startSec": 0, "volLow": 0.05, "volHigh": 0.11, "climaxSec": null},
-  "style": {"highlightColor": "#FFD60A", "textColor": "white", "strokeColor": "black", "fontSize": 110, "captionBottom": 430, "uppercase": true, "combineWithinMs": 900},
+  "style": {"accentColor": "#00E5FF", "textColor": "white", "strokeColor": "black", "fontSize": 104, "captionPosition": "center", "uppercase": true, "combineWithinMs": 900, "powerWords": ["consciousness","future","time","travel","multiverse","gut","feelings","feeling","100","win","space","eternal","theory","theories","rich"]},
   "hook": {"text": "GUT FEELINGS ARE TIME TRAVEL", "untilSec": 2.5}
 }

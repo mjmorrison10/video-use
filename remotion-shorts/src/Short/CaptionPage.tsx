@@ -9,10 +9,16 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { TheBoldFont } from "../load-font";
+import { PowerSerif } from "../load-font";
 import type { ShortProps } from "./schema";
 
-const fontFamily = TheBoldFont;
+const fontFamily = `${PowerSerif}, "SerifFallback", serif`;
+
+const clean = (s: string) =>
+  s
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "")
+    .trim();
 
 export const CaptionPage: React.FC<{
   readonly page: TikTokPage;
@@ -20,28 +26,37 @@ export const CaptionPage: React.FC<{
 }> = ({ page, style }) => {
   const frame = useCurrentFrame();
   const { width, fps } = useVideoConfig();
-  const timeInMs = (frame / fps) * 1000;
 
-  const enter = spring({ frame, fps, config: { damping: 200 }, durationInFrames: 5 });
+  const enter = spring({ frame, fps, config: { damping: 200 }, durationInFrames: 6 });
 
   const textTransform = style.uppercase ? "uppercase" : "none";
   const fitted = fitText({
     fontFamily,
     text: page.text,
-    withinWidth: width * 0.9,
+    withinWidth: width * 0.86,
     textTransform,
   });
   const fontSize = Math.min(style.fontSize, fitted.fontSize);
 
-  const container: React.CSSProperties = {
-    justifyContent: "center",
-    alignItems: "center",
-    top: undefined,
-    bottom: style.captionBottom,
-    height: 220,
-    padding: "0 40px",
-    textAlign: "center",
-  };
+  const powerSet = new Set((style.powerWords ?? []).map(clean));
+
+  const container: React.CSSProperties =
+    style.captionPosition === "bottom"
+      ? {
+          justifyContent: "center",
+          alignItems: "center",
+          top: undefined,
+          bottom: style.captionBottom,
+          height: 260,
+          padding: "0 60px",
+          textAlign: "center",
+        }
+      : {
+          justifyContent: "center",
+          alignItems: "center",
+          padding: "0 60px",
+          textAlign: "center",
+        };
 
   return (
     <AbsoluteFill style={container}>
@@ -49,28 +64,27 @@ export const CaptionPage: React.FC<{
         style={{
           fontSize,
           color: style.textColor,
-          WebkitTextStroke: `18px ${style.strokeColor}`,
+          WebkitTextStroke: `16px ${style.strokeColor}`,
           paintOrder: "stroke",
           transform: makeTransform([
-            scale(interpolate(enter, [0, 1], [0.85, 1])),
-            translateY(interpolate(enter, [0, 1], [40, 0])),
+            scale(interpolate(enter, [0, 1], [0.9, 1])),
+            translateY(interpolate(enter, [0, 1], [30, 0])),
           ]),
           fontFamily,
           textTransform,
-          lineHeight: 1.05,
+          lineHeight: 1.08,
+          textShadow: "0 6px 28px rgba(0,0,0,0.55)",
         }}
       >
         {page.tokens.map((t) => {
-          const s = t.fromMs - page.startMs;
-          const e = t.toMs - page.startMs;
-          const active = s <= timeInMs && e > timeInMs;
+          const isPower = powerSet.has(clean(t.text));
           return (
             <span
               key={t.fromMs}
               style={{
                 display: "inline",
                 whiteSpace: "pre",
-                color: active ? style.highlightColor : style.textColor,
+                color: isPower ? style.accentColor : style.textColor,
               }}
             >
               {t.text}
