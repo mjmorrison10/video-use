@@ -26,7 +26,7 @@ const defaultProps: ShortProps = {
   music: null,
   style: {
     highlightColor: "#FFD60A",
-    accentColor: "#00E5FF",
+    accentColor: "#FFD60A",
     textColor: "white",
     strokeColor: "black",
     fontSize: 52,

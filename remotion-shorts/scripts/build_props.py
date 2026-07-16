@@ -30,7 +30,7 @@ SENT_END = (".", "?", "!")
 # per-clip (e.g. powerWords, hook color). Keeps all clips visually consistent.
 DEFAULT_STYLE = {
     "highlightColor": "#FFD60A",
-    "accentColor": "#00E5FF",   # neon cyan power words + hook
+    "accentColor": "#FFD60A",   # yellow power words + hook
     "textColor": "white",
     "strokeColor": "black",
     "fontSize": 52,             # 50% of the original 104
