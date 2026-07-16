@@ -1,0 +1,23 @@
+{
+  "videoSrc": "proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {"inSec": 785.36, "outSec": 786.50, "beat": "HOOK", "framing": "cover"},
+    {"inSec": 773.98, "outSec": 776.28, "beat": "POINT", "framing": "cover"},
+    {"inSec": 787.40, "outSec": 788.06, "beat": "POINT", "framing": "cover"},
+    {"inSec": 788.94, "outSec": 790.08, "beat": "POINT", "framing": "cover"},
+    {"inSec": 791.00, "outSec": 792.10, "beat": "POINT", "framing": "cover"},
+    {"inSec": 794.02, "outSec": 795.98, "beat": "POINT", "framing": "cover"},
+    {"inSec": 796.02, "outSec": 797.16, "beat": "POINT", "framing": "cover"},
+    {"inSec": 798.72, "outSec": 799.80, "beat": "REINFORCE", "framing": "cover"},
+    {"inSec": 801.68, "outSec": 803.88, "beat": "REINFORCE", "framing": "cover"},
+    {"inSec": 804.24, "outSec": 806.14, "beat": "REINFORCE", "framing": "cover"},
+    {"inSec": 806.36, "outSec": 808.44, "beat": "REINFORCE", "framing": "cover"},
+    {"inSec": 808.58, "outSec": 810.50, "beat": "REINFORCE", "framing": "cover"},
+    {"inSec": 810.82, "outSec": 814.98, "beat": "REINFORCE", "framing": "cover"},
+    {"inSec": 816.46, "outSec": 817.30, "beat": "REINFORCE", "framing": "cover"}
+  ],
+  "music": {"src": "sneaky.mp3", "startSec": 0, "volLow": 0.05, "volHigh": 0.11, "climaxSec": null},
+  "style": {"powerWords": ["me", "nothing", "outside", "disagree", "talk", "love", "funny", "subjects", "bread", "economy", "opine", "mind", "poor"]},
+  "hook": {"text": "NOTHING OUTSIDE OF ME", "untilSec": 2.5}
+}

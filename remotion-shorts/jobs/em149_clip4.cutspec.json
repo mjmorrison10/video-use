@@ -1,0 +1,17 @@
+{
+  "videoSrc": "proxy.mp4",
+  "fps": 30,
+  "segments": [
+    { "inSec": 1000.78, "outSec": 1002.40, "beat": "HOOK", "framing": "cover" },
+    { "inSec": 966.28, "outSec": 969.80, "beat": "POINT", "framing": "cover" },
+    { "inSec": 983.76, "outSec": 988.76, "beat": "POINT", "framing": "cover" },
+    { "inSec": 989.64, "outSec": 991.92, "beat": "POINT", "framing": "cover" },
+    { "inSec": 999.78, "outSec": 1000.54, "beat": "POINT", "framing": "cover" },
+    { "inSec": 1003.02, "outSec": 1006.80, "beat": "POINT", "framing": "cover" },
+    { "inSec": 1007.50, "outSec": 1009.28, "beat": "REINFORCE", "framing": "cover" },
+    { "inSec": 1010.66, "outSec": 1012.54, "beat": "REINFORCE", "framing": "cover" }
+  ],
+  "music": { "src": "sneaky.mp3", "startSec": 0, "volLow": 0.05, "volHigh": 0.11, "climaxSec": null },
+  "style": { "powerWords": ["fast", "good", "quality", "quickly", "lose", "work", "balance", "all"] },
+  "hook": { "text": "WORK FAST AND DO IT GOOD", "untilSec": 2.5 }
+}

@@ -1,0 +1,17 @@
+{
+  "videoSrc": "proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {"inSec": 1.97, "outSec": 11.23, "beat": "HOOK", "framing": "cover"},
+    {"inSec": 12.21, "outSec": 17.79, "beat": "POINT", "framing": "cover"},
+    {"inSec": 18.57, "outSec": 19.35, "beat": "POINT", "framing": "cover"},
+    {"inSec": 20.37, "outSec": 21.27, "beat": "POINT", "framing": "cover"},
+    {"inSec": 22.23, "outSec": 23.99, "beat": "REINFORCE", "framing": "cover"},
+    {"inSec": 24.75, "outSec": 25.97, "beat": "REINFORCE", "framing": "cover"},
+    {"inSec": 26.89, "outSec": 28.59, "beat": "REINFORCE", "framing": "cover"},
+    {"inSec": 29.31, "outSec": 33.07, "beat": "REINFORCE", "framing": "cover"}
+  ],
+  "music": {"src": "sneaky.mp3", "startSec": 0, "volLow": 0.05, "volHigh": 0.11, "climaxSec": null},
+  "style": {"powerWords": ["rich", "make", "theories", "stuff", "agree", "work", "true", "anyone", "life", "story"]},
+  "hook": {"text": "RICH? JUST MAKE IT ALL UP", "untilSec": 2.5}
+}
