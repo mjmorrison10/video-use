@@ -294,7 +294,7 @@
   },
   {
    "inSec": 151.13,
-   "outSec": 153.33,
+   "outSec": 153.51,
    "offsetSec": 6.64,
    "framing": "cover",
    "mute": false,
@@ -387,7 +387,17 @@
     },
     {
      "f": 64,
-     "px": 0.8261,
+     "px": 0.8225,
+     "py": 0.5
+    },
+    {
+     "f": 68,
+     "px": 0.814,
+     "py": 0.5
+    },
+    {
+     "f": 71,
+     "px": 0.8048,
      "py": 0.5
     }
    ]
@@ -395,7 +405,7 @@
   {
    "inSec": 153.51,
    "outSec": 155.49,
-   "offsetSec": 8.84,
+   "offsetSec": 9.02,
    "framing": "cover",
    "mute": false,
    "beat": "POINT",
@@ -485,7 +495,7 @@
   {
    "inSec": 156.63,
    "outSec": 158.2,
-   "offsetSec": 10.82,
+   "offsetSec": 11.0,
    "framing": "cover",
    "mute": false,
    "beat": "POINT",
@@ -560,7 +570,7 @@
   {
    "inSec": 158.57,
    "outSec": 161.75,
-   "offsetSec": 12.39,
+   "offsetSec": 12.57,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE",
@@ -700,7 +710,7 @@
   {
    "inSec": 161.87,
    "outSec": 163.13,
-   "offsetSec": 15.57,
+   "offsetSec": 15.75,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE",
@@ -973,35 +983,35 @@
   },
   {
    "startMs": 7660,
-   "endMs": 8860,
+   "endMs": 8840,
    "tokens": [
     {
      "text": " really"
     },
     {
      "text": " easy"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 9020,
+   "endMs": 9240,
+   "tokens": [
     {
      "text": " But"
-    }
-   ]
-  },
-  {
-   "startMs": 8860,
-   "endMs": 9100,
-   "tokens": [
-    {
-     "text": " when"
     },
     {
-     "text": " your"
+     "text": " when"
     }
    ]
   },
   {
-   "startMs": 9100,
-   "endMs": 9580,
+   "startMs": 9240,
+   "endMs": 9760,
    "tokens": [
+    {
+     "text": " your"
+    },
     {
      "text": " mind"
     },
@@ -1011,8 +1021,8 @@
    ]
   },
   {
-   "startMs": 9580,
-   "endMs": 9920,
+   "startMs": 9760,
+   "endMs": 10100,
    "tokens": [
     {
      "text": " just"
@@ -1023,8 +1033,8 @@
    ]
   },
   {
-   "startMs": 9920,
-   "endMs": 10500,
+   "startMs": 10100,
+   "endMs": 10680,
    "tokens": [
     {
      "text": " occupied"
@@ -1035,44 +1045,44 @@
    ]
   },
   {
-   "startMs": 10500,
-   "endMs": 11020,
+   "startMs": 10680,
+   "endMs": 11000,
    "tokens": [
     {
      "text": " food"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 11000,
+   "endMs": 11280,
+   "tokens": [
     {
      "text": " didn't"
     },
     {
      "text": " hit"
-    }
-   ]
-  },
-  {
-   "startMs": 11020,
-   "endMs": 11360,
-   "tokens": [
-    {
-     "text": " the"
     },
     {
-     "text": " spot"
+     "text": " the"
     }
    ]
   },
   {
-   "startMs": 12160,
-   "endMs": 12280,
+   "startMs": 11280,
+   "endMs": 12460,
    "tokens": [
+    {
+     "text": " spot"
+    },
     {
      "text": " right"
     }
    ]
   },
   {
-   "startMs": 12390,
-   "endMs": 12590,
+   "startMs": 12570,
+   "endMs": 12770,
    "tokens": [
     {
      "text": " That's"
@@ -1086,8 +1096,8 @@
    ]
   },
   {
-   "startMs": 12590,
-   "endMs": 12970,
+   "startMs": 12770,
+   "endMs": 13150,
    "tokens": [
     {
      "text": " started"
@@ -1101,8 +1111,8 @@
    ]
   },
   {
-   "startMs": 12970,
-   "endMs": 13650,
+   "startMs": 13150,
+   "endMs": 13830,
    "tokens": [
     {
      "text": " Rice"
@@ -1113,8 +1123,8 @@
    ]
   },
   {
-   "startMs": 14070,
-   "endMs": 14410,
+   "startMs": 14250,
+   "endMs": 14590,
    "tokens": [
     {
      "text": " It"
@@ -1125,8 +1135,8 @@
    ]
   },
   {
-   "startMs": 14410,
-   "endMs": 15150,
+   "startMs": 14590,
+   "endMs": 15330,
    "tokens": [
     {
      "text": " remove"
@@ -1137,8 +1147,8 @@
    ]
   },
   {
-   "startMs": 15150,
-   "endMs": 15570,
+   "startMs": 15330,
+   "endMs": 15750,
    "tokens": [
     {
      "text": " food"
@@ -1149,8 +1159,8 @@
    ]
   },
   {
-   "startMs": 15570,
-   "endMs": 15750,
+   "startMs": 15750,
+   "endMs": 15930,
    "tokens": [
     {
      "text": " I'd"
@@ -1161,8 +1171,8 @@
    ]
   },
   {
-   "startMs": 15750,
-   "endMs": 16090,
+   "startMs": 15930,
+   "endMs": 16270,
    "tokens": [
     {
      "text": " that"
@@ -1176,8 +1186,8 @@
    ]
   },
   {
-   "startMs": 16170,
-   "endMs": 16590,
+   "startMs": 16350,
+   "endMs": 16770,
    "tokens": [
     {
      "text": " wow"
@@ -1188,8 +1198,8 @@
    ]
   },
   {
-   "startMs": 16590,
-   "endMs": 16830,
+   "startMs": 16770,
+   "endMs": 17010,
    "tokens": [
     {
      "text": " good"

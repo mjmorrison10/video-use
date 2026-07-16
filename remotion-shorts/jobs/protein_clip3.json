@@ -4,7 +4,7 @@
  "ranges": [
   {
    "inSec": 320.68,
-   "outSec": 323.9,
+   "outSec": 324.1,
    "offsetSec": 0.0,
    "framing": "cover",
    "mute": false,
@@ -137,7 +137,17 @@
     },
     {
      "f": 94,
-     "px": 0.9012,
+     "px": 0.9011,
+     "py": 0.5
+    },
+    {
+     "f": 98,
+     "px": 0.9027,
+     "py": 0.5
+    },
+    {
+     "f": 101,
+     "px": 0.9031,
      "py": 0.5
     }
    ]
@@ -145,7 +155,7 @@
   {
    "inSec": 326.16,
    "outSec": 327.0,
-   "offsetSec": 3.22,
+   "offsetSec": 3.42,
    "framing": "cover",
    "mute": false,
    "beat": "HOOK",
@@ -188,9 +198,109 @@
    ]
   },
   {
+   "inSec": 327.52,
+   "outSec": 328.7,
+   "offsetSec": 4.26,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT",
+   "focus": [
+    {
+     "f": 0,
+     "px": 0.8087,
+     "py": 0.5
+    },
+    {
+     "f": 4,
+     "px": 0.7941,
+     "py": 0.5
+    },
+    {
+     "f": 8,
+     "px": 0.7958,
+     "py": 0.5
+    },
+    {
+     "f": 11,
+     "px": 0.7779,
+     "py": 0.5
+    },
+    {
+     "f": 15,
+     "px": 0.7789,
+     "py": 0.5
+    },
+    {
+     "f": 19,
+     "px": 0.7803,
+     "py": 0.5
+    },
+    {
+     "f": 22,
+     "px": 0.785,
+     "py": 0.5
+    },
+    {
+     "f": 26,
+     "px": 0.7936,
+     "py": 0.5
+    },
+    {
+     "f": 30,
+     "px": 0.8032,
+     "py": 0.5
+    },
+    {
+     "f": 34,
+     "px": 0.8103,
+     "py": 0.5
+    }
+   ]
+  },
+  {
+   "inSec": 329.7,
+   "outSec": 330.4,
+   "offsetSec": 5.44,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT",
+   "focus": [
+    {
+     "f": 0,
+     "px": 0.7911,
+     "py": 0.5
+    },
+    {
+     "f": 4,
+     "px": 0.7915,
+     "py": 0.5
+    },
+    {
+     "f": 8,
+     "px": 0.7932,
+     "py": 0.5
+    },
+    {
+     "f": 11,
+     "px": 0.7944,
+     "py": 0.5
+    },
+    {
+     "f": 15,
+     "px": 0.7977,
+     "py": 0.5
+    },
+    {
+     "f": 19,
+     "px": 0.7992,
+     "py": 0.5
+    }
+   ]
+  },
+  {
    "inSec": 332.06,
    "outSec": 336.4,
-   "offsetSec": 4.06,
+   "offsetSec": 6.14,
    "framing": "cover",
    "mute": false,
    "beat": "POINT",
@@ -374,8 +484,8 @@
   },
   {
    "inSec": 339.72,
-   "outSec": 342.1,
-   "offsetSec": 8.4,
+   "outSec": 342.4,
+   "offsetSec": 10.48,
    "framing": "cover",
    "mute": false,
    "beat": "POINT",
@@ -477,7 +587,17 @@
     },
     {
      "f": 71,
-     "px": 0.7356,
+     "px": 0.7347,
+     "py": 0.5
+    },
+    {
+     "f": 75,
+     "px": 0.7382,
+     "py": 0.5
+    },
+    {
+     "f": 79,
+     "px": 0.7413,
      "py": 0.5
     }
    ]
@@ -485,7 +605,7 @@
   {
    "inSec": 352.22,
    "outSec": 358.88,
-   "offsetSec": 10.78,
+   "offsetSec": 13.16,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE",
@@ -765,7 +885,7 @@
   {
    "inSec": 361.74,
    "outSec": 365.1,
-   "offsetSec": 17.44,
+   "offsetSec": 19.82,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE",
@@ -910,7 +1030,7 @@
   {
    "inSec": 370.9,
    "outSec": 371.9,
-   "offsetSec": 20.8,
+   "offsetSec": 23.18,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE",
@@ -1036,7 +1156,7 @@
   },
   {
    "startMs": 2720,
-   "endMs": 3220,
+   "endMs": 3300,
    "tokens": [
     {
      "text": " their"
@@ -1047,8 +1167,8 @@
    ]
   },
   {
-   "startMs": 3220,
-   "endMs": 4020,
+   "startMs": 3420,
+   "endMs": 4220,
    "tokens": [
     {
      "text": " Everyone"
@@ -1059,8 +1179,56 @@
    ]
   },
   {
-   "startMs": 4060,
-   "endMs": 4720,
+   "startMs": 4260,
+   "endMs": 4540,
+   "tokens": [
+    {
+     "text": " when"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 4540,
+   "endMs": 5380,
+   "tokens": [
+    {
+     "text": " coach"
+    },
+    {
+     "text": " clients"
+    }
+   ]
+  },
+  {
+   "startMs": 5440,
+   "endMs": 5820,
+   "tokens": [
+    {
+     "text": " what"
+    },
+    {
+     "text": " do"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 5820,
+   "endMs": 6080,
+   "tokens": [
+    {
+     "text": " say"
+    }
+   ]
+  },
+  {
+   "startMs": 6140,
+   "endMs": 6800,
    "tokens": [
     {
      "text": " Well"
@@ -1074,8 +1242,8 @@
    ]
   },
   {
-   "startMs": 4720,
-   "endMs": 5660,
+   "startMs": 6800,
+   "endMs": 7740,
    "tokens": [
     {
      "text": " coaching"
@@ -1089,8 +1257,8 @@
    ]
   },
   {
-   "startMs": 5660,
-   "endMs": 6160,
+   "startMs": 7740,
+   "endMs": 8240,
    "tokens": [
     {
      "text": " robots"
@@ -1104,8 +1272,8 @@
    ]
   },
   {
-   "startMs": 6160,
-   "endMs": 6540,
+   "startMs": 8240,
+   "endMs": 8620,
    "tokens": [
     {
      "text": " don't"
@@ -1119,8 +1287,8 @@
    ]
   },
   {
-   "startMs": 6540,
-   "endMs": 6720,
+   "startMs": 8620,
+   "endMs": 8800,
    "tokens": [
     {
      "text": " to"
@@ -1131,8 +1299,8 @@
    ]
   },
   {
-   "startMs": 6720,
-   "endMs": 7000,
+   "startMs": 8800,
+   "endMs": 9080,
    "tokens": [
     {
      "text": " perfect"
@@ -1140,8 +1308,8 @@
    ]
   },
   {
-   "startMs": 7600,
-   "endMs": 8160,
+   "startMs": 9680,
+   "endMs": 10240,
    "tokens": [
     {
      "text": " Everyone"
@@ -1152,8 +1320,8 @@
    ]
   },
   {
-   "startMs": 8160,
-   "endMs": 8400,
+   "startMs": 10240,
+   "endMs": 10480,
    "tokens": [
     {
      "text": " up"
@@ -1161,8 +1329,8 @@
    ]
   },
   {
-   "startMs": 8400,
-   "endMs": 9000,
+   "startMs": 10480,
+   "endMs": 11080,
    "tokens": [
     {
      "text": " 50"
@@ -1176,8 +1344,8 @@
    ]
   },
   {
-   "startMs": 9000,
-   "endMs": 9440,
+   "startMs": 11080,
+   "endMs": 11520,
    "tokens": [
     {
      "text": " coaching"
@@ -1188,8 +1356,8 @@
    ]
   },
   {
-   "startMs": 9440,
-   "endMs": 9880,
+   "startMs": 11520,
+   "endMs": 11960,
    "tokens": [
     {
      "text": " loss"
@@ -1200,8 +1368,8 @@
    ]
   },
   {
-   "startMs": 9880,
-   "endMs": 10440,
+   "startMs": 11960,
+   "endMs": 12520,
    "tokens": [
     {
      "text": " just"
@@ -1215,8 +1383,8 @@
    ]
   },
   {
-   "startMs": 10440,
-   "endMs": 10760,
+   "startMs": 12520,
+   "endMs": 12840,
    "tokens": [
     {
      "text": " adherence"
@@ -1224,8 +1392,8 @@
    ]
   },
   {
-   "startMs": 10780,
-   "endMs": 11240,
+   "startMs": 13160,
+   "endMs": 13620,
    "tokens": [
     {
      "text": " it's"
@@ -1236,8 +1404,8 @@
    ]
   },
   {
-   "startMs": 11240,
-   "endMs": 12840,
+   "startMs": 13620,
+   "endMs": 15220,
    "tokens": [
     {
      "text": " hard"
@@ -1251,8 +1419,8 @@
    ]
   },
   {
-   "startMs": 12840,
-   "endMs": 14740,
+   "startMs": 15220,
+   "endMs": 17120,
    "tokens": [
     {
      "text": " hard"
@@ -1266,8 +1434,8 @@
    ]
   },
   {
-   "startMs": 14740,
-   "endMs": 15820,
+   "startMs": 17120,
+   "endMs": 18200,
    "tokens": [
     {
      "text": " crazy"
@@ -1281,8 +1449,8 @@
    ]
   },
   {
-   "startMs": 15820,
-   "endMs": 16840,
+   "startMs": 18200,
+   "endMs": 19220,
    "tokens": [
     {
      "text": " like"
@@ -1296,8 +1464,8 @@
    ]
   },
   {
-   "startMs": 16840,
-   "endMs": 17060,
+   "startMs": 19220,
+   "endMs": 19440,
    "tokens": [
     {
      "text": " on"
@@ -1308,36 +1476,42 @@
    ]
   },
   {
-   "startMs": 17060,
-   "endMs": 17540,
+   "startMs": 19440,
+   "endMs": 19820,
    "tokens": [
     {
      "text": " calories"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 19820,
+   "endMs": 20060,
+   "tokens": [
     {
      "text": " I"
-    }
-   ]
-  },
-  {
-   "startMs": 17540,
-   "endMs": 17960,
-   "tokens": [
+    },
     {
      "text": " would"
-    },
-    {
-     "text": " spend"
     }
    ]
   },
   {
-   "startMs": 17960,
-   "endMs": 19080,
+   "startMs": 20060,
+   "endMs": 20960,
    "tokens": [
     {
-     "text": " many"
+     "text": " spend"
     },
+    {
+     "text": " many"
+    }
+   ]
+  },
+  {
+   "startMs": 20960,
+   "endMs": 21460,
+   "tokens": [
     {
      "text": " weeks"
     },
@@ -1347,8 +1521,8 @@
    ]
   },
   {
-   "startMs": 19080,
-   "endMs": 19440,
+   "startMs": 21460,
+   "endMs": 21820,
    "tokens": [
     {
      "text": " many"
@@ -1359,8 +1533,8 @@
    ]
   },
   {
-   "startMs": 19440,
-   "endMs": 20440,
+   "startMs": 21820,
+   "endMs": 22820,
    "tokens": [
     {
      "text": " weeks"
@@ -1374,24 +1548,24 @@
    ]
   },
   {
-   "startMs": 20540,
-   "endMs": 20820,
+   "startMs": 22920,
+   "endMs": 23180,
    "tokens": [
     {
      "text": " going"
     },
     {
      "text": " over"
-    },
-    {
-     "text": " and"
     }
    ]
   },
   {
-   "startMs": 20820,
-   "endMs": 21000,
+   "startMs": 23180,
+   "endMs": 23380,
    "tokens": [
+    {
+     "text": " and"
+    },
     {
      "text": " then"
     },
@@ -1401,8 +1575,8 @@
    ]
   },
   {
-   "startMs": 21000,
-   "endMs": 21800,
+   "startMs": 23380,
+   "endMs": 24180,
    "tokens": [
     {
      "text": " just"

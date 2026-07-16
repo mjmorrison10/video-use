@@ -164,6 +164,7 @@ def main() -> int:
                 "text": apply_replace(w["text"], repl),
                 "startMs": round(out_start * 1000),
                 "endMs": round(out_end * 1000),
+                "seg": si,  # which source segment this word came from
             })
         offset += dur
 
@@ -174,7 +175,20 @@ def main() -> int:
         return 0
 
     groups = spec.get("captionGroups")
-    pages_words = group_manual(flat, groups) if groups else group_auto(flat)
+    if groups:
+        pages_words = group_manual(flat, groups)
+    else:
+        # Group within each source segment separately so a caption page never
+        # spans a hard cut (a new segment = a new sentence/thought on screen).
+        pages_words = []
+        run = []
+        for w in flat:
+            if run and w["seg"] != run[-1]["seg"]:
+                pages_words.extend(group_auto(run))
+                run = []
+            run.append(w)
+        if run:
+            pages_words.extend(group_auto(run))
     strip = spec.get("stripPunctuation", True)
     caption_pages = []
     for grp in pages_words:
