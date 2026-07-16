@@ -1,0 +1,16 @@
+{
+  "videoSrc": "proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {"inSec": 158.51, "outSec": 159.93, "beat": "HOOK", "framing": "cover"},
+    {"inSec": 161.47, "outSec": 169.63, "beat": "HOOK", "framing": "cover"},
+    {"inSec": 172.78, "outSec": 175.68, "beat": "HOOK", "framing": "cover"},
+    {"inSec": 204.38, "outSec": 205.90, "beat": "POINT", "framing": "cover"},
+    {"inSec": 206.46, "outSec": 211.28, "beat": "POINT", "framing": "cover"},
+    {"inSec": 223.09, "outSec": 228.83, "beat": "REINFORCE", "framing": "cover"},
+    {"inSec": 230.37, "outSec": 232.61, "beat": "REINFORCE", "framing": "cover"}
+  ],
+  "music": {"src": "sneaky.mp3", "startSec": 0, "volLow": 0.05, "volHigh": 0.11, "climaxSec": null},
+  "style": {"highlightColor": "#FFD60A", "textColor": "white", "strokeColor": "black", "fontSize": 110, "captionBottom": 430, "uppercase": true, "combineWithinMs": 900},
+  "hook": {"text": "GUT FEELINGS ARE TIME TRAVEL", "untilSec": 2.5}
+}

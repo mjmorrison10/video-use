@@ -1,0 +1,29 @@
+{
+  "name": "remotion-shorts",
+  "version": "1.0.0",
+  "description": "Remotion renderer for hyper-engaging 9:16 short-form clips (video-use pipeline).",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render",
+    "compositions": "remotion compositions",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/animation-utils": "4.0.489",
+    "@remotion/captions": "4.0.489",
+    "@remotion/cli": "4.0.489",
+    "@remotion/fonts": "4.0.489",
+    "@remotion/layout-utils": "4.0.489",
+    "@remotion/media-utils": "4.0.489",
+    "@remotion/zod-types": "4.0.489",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.489",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.3",
+    "@types/web": "0.0.239",
+    "typescript": "5.9.3"
+  }
+}

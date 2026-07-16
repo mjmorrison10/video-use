@@ -1,0 +1,11 @@
+node_modules/
+out/
+.remotion/
+public/proxy.mp4
+public/*.mov
+public/*.mp4
+!public/sample-video.mp4
+public/music/
+*.log
+
+public/*.mp3
