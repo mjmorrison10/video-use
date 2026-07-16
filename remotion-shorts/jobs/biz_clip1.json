@@ -1,0 +1,826 @@
+{
+ "videoSrc": "biz_proxy.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.0,
+   "outSec": 6.06,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK",
+   "focus": [
+    {
+     "f": 0,
+     "px": 0.45,
+     "py": 0.5
+    }
+   ]
+  },
+  {
+   "inSec": 6.4,
+   "outSec": 9.4,
+   "offsetSec": 6.06,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK",
+   "focus": [
+    {
+     "f": 0,
+     "px": 0.5,
+     "py": 0.5
+    }
+   ]
+  },
+  {
+   "inSec": 9.48,
+   "outSec": 11.92,
+   "offsetSec": 9.06,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK",
+   "focus": [
+    {
+     "f": 0,
+     "px": 0.7,
+     "py": 0.5
+    }
+   ]
+  },
+  {
+   "inSec": 11.92,
+   "outSec": 14.58,
+   "offsetSec": 11.5,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT",
+   "focus": [
+    {
+     "f": 0,
+     "px": 0.45,
+     "py": 0.5
+    }
+   ]
+  },
+  {
+   "inSec": 14.58,
+   "outSec": 16.56,
+   "offsetSec": 14.16,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT",
+   "focus": [
+    {
+     "f": 0,
+     "px": 0.5,
+     "py": 0.5
+    }
+   ]
+  },
+  {
+   "inSec": 26.42,
+   "outSec": 28.7,
+   "offsetSec": 16.14,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT",
+   "focus": [
+    {
+     "f": 0,
+     "px": 0.52,
+     "py": 0.5
+    }
+   ]
+  },
+  {
+   "inSec": 29.96,
+   "outSec": 32.92,
+   "offsetSec": 18.42,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK",
+   "focus": [
+    {
+     "f": 0,
+     "px": 0.05,
+     "py": 0.5
+    }
+   ]
+  },
+  {
+   "inSec": 33.2,
+   "outSec": 38.02,
+   "offsetSec": 21.38,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT",
+   "focus": [
+    {
+     "f": 0,
+     "px": 0.05,
+     "py": 0.5
+    }
+   ]
+  },
+  {
+   "inSec": 38.04,
+   "outSec": 41.3,
+   "offsetSec": 26.2,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE",
+   "focus": [
+    {
+     "f": 0,
+     "px": 0.05,
+     "py": 0.5
+    }
+   ]
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 520,
+   "tokens": [
+    {
+     "text": " If"
+    },
+    {
+     "text": " you've"
+    }
+   ]
+  },
+  {
+   "startMs": 520,
+   "endMs": 1220,
+   "tokens": [
+    {
+     "text": " tried"
+    },
+    {
+     "text": " starting"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 1220,
+   "endMs": 1880,
+   "tokens": [
+    {
+     "text": " business"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 1880,
+   "endMs": 2320,
+   "tokens": [
+    {
+     "text": " you're"
+    },
+    {
+     "text": " either"
+    }
+   ]
+  },
+  {
+   "startMs": 2320,
+   "endMs": 3020,
+   "tokens": [
+    {
+     "text": " failing"
+    },
+    {
+     "text": " or"
+    }
+   ]
+  },
+  {
+   "startMs": 3020,
+   "endMs": 3640,
+   "tokens": [
+    {
+     "text": " never"
+    },
+    {
+     "text": " make"
+    },
+    {
+     "text": " any"
+    }
+   ]
+  },
+  {
+   "startMs": 3640,
+   "endMs": 4440,
+   "tokens": [
+    {
+     "text": " money"
+    },
+    {
+     "text": " there"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 4440,
+   "endMs": 5320,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " reason"
+    },
+    {
+     "text": " why"
+    }
+   ]
+  },
+  {
+   "startMs": 5320,
+   "endMs": 5660,
+   "tokens": [
+    {
+     "text": " that"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 5660,
+   "endMs": 6060,
+   "tokens": [
+    {
+     "text": " happening"
+    }
+   ]
+  },
+  {
+   "startMs": 6060,
+   "endMs": 6600,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " started"
+    },
+    {
+     "text": " two"
+    }
+   ]
+  },
+  {
+   "startMs": 6600,
+   "endMs": 7000,
+   "tokens": [
+    {
+     "text": " six"
+    },
+    {
+     "text": " figure"
+    }
+   ]
+  },
+  {
+   "startMs": 7000,
+   "endMs": 7820,
+   "tokens": [
+    {
+     "text": " businesses"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 7820,
+   "endMs": 8300,
+   "tokens": [
+    {
+     "text": " just"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 8300,
+   "endMs": 8700,
+   "tokens": [
+    {
+     "text": " past"
+    },
+    {
+     "text": " two"
+    }
+   ]
+  },
+  {
+   "startMs": 8700,
+   "endMs": 9060,
+   "tokens": [
+    {
+     "text": " years"
+    }
+   ]
+  },
+  {
+   "startMs": 9060,
+   "endMs": 9580,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 9580,
+   "endMs": 10360,
+   "tokens": [
+    {
+     "text": " reason"
+    },
+    {
+     "text": " why"
+    }
+   ]
+  },
+  {
+   "startMs": 10360,
+   "endMs": 11080,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " worked"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 11080,
+   "endMs": 11500,
+   "tokens": [
+    {
+     "text": " not"
+    },
+    {
+     "text": " luck"
+    }
+   ]
+  },
+  {
+   "startMs": 11500,
+   "endMs": 12140,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " because"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 12140,
+   "endMs": 13140,
+   "tokens": [
+    {
+     "text": " just"
+    },
+    {
+     "text": " ripped"
+    },
+    {
+     "text": " off"
+    }
+   ]
+  },
+  {
+   "startMs": 13140,
+   "endMs": 13560,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " proven"
+    }
+   ]
+  },
+  {
+   "startMs": 13560,
+   "endMs": 14160,
+   "tokens": [
+    {
+     "text": " framework"
+    }
+   ]
+  },
+  {
+   "startMs": 14160,
+   "endMs": 14600,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " actually"
+    }
+   ]
+  },
+  {
+   "startMs": 14600,
+   "endMs": 14880,
+   "tokens": [
+    {
+     "text": " from"
+    },
+    {
+     "text": " this"
+    }
+   ]
+  },
+  {
+   "startMs": 14880,
+   "endMs": 15520,
+   "tokens": [
+    {
+     "text": " book"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 15400,
+   "endMs": 15840,
+   "tokens": [
+    {
+     "text": " million"
+    },
+    {
+     "text": " dollar"
+    }
+   ]
+  },
+  {
+   "startMs": 15840,
+   "endMs": 16140,
+   "tokens": [
+    {
+     "text": " weekend"
+    }
+   ]
+  },
+  {
+   "startMs": 16140,
+   "endMs": 16640,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " you"
+    },
+    {
+     "text": " can"
+    }
+   ]
+  },
+  {
+   "startMs": 16640,
+   "endMs": 17300,
+   "tokens": [
+    {
+     "text": " start"
+    },
+    {
+     "text": " this"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 17300,
+   "endMs": 17960,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " next"
+    },
+    {
+     "text": " 48"
+    }
+   ]
+  },
+  {
+   "startMs": 17960,
+   "endMs": 18420,
+   "tokens": [
+    {
+     "text": " hours"
+    }
+   ]
+  },
+  {
+   "startMs": 18420,
+   "endMs": 18760,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " kind"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 18760,
+   "endMs": 19940,
+   "tokens": [
+    {
+     "text": " have"
+    },
+    {
+     "text": " two"
+    },
+    {
+     "text": " non"
+    }
+   ]
+  },
+  {
+   "startMs": 19940,
+   "endMs": 20860,
+   "tokens": [
+    {
+     "text": "negotiable"
+    },
+    {
+     "text": " rules"
+    }
+   ]
+  },
+  {
+   "startMs": 20860,
+   "endMs": 21160,
+   "tokens": [
+    {
+     "text": " that"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 21160,
+   "endMs": 21380,
+   "tokens": [
+    {
+     "text": " use"
+    }
+   ]
+  },
+  {
+   "startMs": 21380,
+   "endMs": 21980,
+   "tokens": [
+    {
+     "text": " One"
+    },
+    {
+     "text": " is"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 21980,
+   "endMs": 22380,
+   "tokens": [
+    {
+     "text": " has"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " be"
+    }
+   ]
+  },
+  {
+   "startMs": 22380,
+   "endMs": 23140,
+   "tokens": [
+    {
+     "text": " something"
+    },
+    {
+     "text": " that"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 23140,
+   "endMs": 23920,
+   "tokens": [
+    {
+     "text": " proven"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 23920,
+   "endMs": 24940,
+   "tokens": [
+    {
+     "text": " work"
+    },
+    {
+     "text": " right"
+    },
+    {
+     "text": " now"
+    }
+   ]
+  },
+  {
+   "startMs": 25100,
+   "endMs": 25480,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " literally"
+    }
+   ]
+  },
+  {
+   "startMs": 25480,
+   "endMs": 26200,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " month"
+    }
+   ]
+  },
+  {
+   "startMs": 26200,
+   "endMs": 26820,
+   "tokens": [
+    {
+     "text": " not"
+    },
+    {
+     "text": " last"
+    }
+   ]
+  },
+  {
+   "startMs": 26820,
+   "endMs": 27420,
+   "tokens": [
+    {
+     "text": " year"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 27420,
+   "endMs": 28000,
+   "tokens": [
+    {
+     "text": " three"
+    },
+    {
+     "text": " years"
+    },
+    {
+     "text": " ago"
+    }
+   ]
+  },
+  {
+   "startMs": 28000,
+   "endMs": 28540,
+   "tokens": [
+    {
+     "text": " it"
+    },
+    {
+     "text": " has"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 28540,
+   "endMs": 29080,
+   "tokens": [
+    {
+     "text": " work"
+    },
+    {
+     "text": " right"
+    }
+   ]
+  },
+  {
+   "startMs": 29080,
+   "endMs": 29460,
+   "tokens": [
+    {
+     "text": " now"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "royalty.mp3",
+  "volLow": 0.12,
+  "volHigh": 0.22,
+  "climaxSec": 15,
+  "startSec": 28
+ },
+ "style": {
+  "highlightColor": "#FFD60A",
+  "accentColor": "#FFD60A",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "business",
+   "money",
+   "luck",
+   "ripped",
+   "proven",
+   "framework",
+   "million",
+   "dollar",
+   "weekend",
+   "48",
+   "rules",
+   "month",
+   "now"
+  ]
+ },
+ "hook": {
+  "text": "TWO SIX-FIGURE BUSINESSES, ZERO LUCK",
+  "untilSec": 2.5
+ }
+}

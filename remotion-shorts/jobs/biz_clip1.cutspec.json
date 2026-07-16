@@ -1,0 +1,91 @@
+{
+  "videoSrc": "biz_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 0.0,
+      "outSec": 6.06,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 6.4,
+      "outSec": 9.4,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 9.48,
+      "outSec": 11.92,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 11.92,
+      "outSec": 14.58,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 14.58,
+      "outSec": 16.56,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 26.42,
+      "outSec": 28.7,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 29.96,
+      "outSec": 32.92,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 33.2,
+      "outSec": 38.02,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 38.04,
+      "outSec": 41.3,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "business",
+      "money",
+      "luck",
+      "ripped",
+      "proven",
+      "framework",
+      "million",
+      "dollar",
+      "weekend",
+      "48",
+      "rules",
+      "month",
+      "now"
+    ]
+  },
+  "hook": {
+    "text": "TWO SIX-FIGURE BUSINESSES, ZERO LUCK",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "royalty.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 15,
+    "startSec": 28
+  },
+  "captionReplace": {
+    "negotiable": "negotiable"
+  }
+}
