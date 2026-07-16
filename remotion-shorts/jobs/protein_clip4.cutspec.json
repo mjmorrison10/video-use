@@ -1,0 +1,85 @@
+{
+  "videoSrc": "proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 723.2,
+      "outSec": 726.15,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 726.88,
+      "outSec": 729.6,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 730.28,
+      "outSec": 732.9,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 734.04,
+      "outSec": 735.4,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 738.2,
+      "outSec": 739.0,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 739.16,
+      "outSec": 740.0,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 740.32,
+      "outSec": 744.3,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 744.74,
+      "outSec": 745.55,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 747.72,
+      "outSec": 749.6,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "captionReplace": {
+    "14": "14%"
+  },
+  "style": {
+    "powerWords": [
+      "life",
+      "before",
+      "after",
+      "transformation",
+      "stuck",
+      "promoting",
+      "14"
+    ]
+  },
+  "hook": {
+    "text": "SEND YOUR BEFORE AND AFTER",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "mask_off.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 9,
+    "startSec": 15
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "videoSrc": "proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 320.68,
+      "outSec": 323.9,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 326.16,
+      "outSec": 327.0,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 332.06,
+      "outSec": 336.4,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 339.72,
+      "outSec": 342.1,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 352.22,
+      "outSec": 358.88,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 361.74,
+      "outSec": 365.1,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 370.9,
+      "outSec": 371.9,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "everyone",
+      "perfect",
+      "robots",
+      "humans",
+      "adherence",
+      "hard",
+      "screwing",
+      "lock"
+    ]
+  },
+  "hook": {
+    "text": "EVERYONE GOES OVER",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "final_cut.mp3",
+    "volLow": 0.28,
+    "volHigh": 0.48,
+    "climaxSec": 14,
+    "startSec": 60
+  }
+}

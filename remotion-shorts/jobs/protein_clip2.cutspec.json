@@ -1,0 +1,72 @@
+{
+  "videoSrc": "proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 140.05,
+      "outSec": 142.95,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 143.07,
+      "outSec": 146.81,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 151.13,
+      "outSec": 153.33,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 153.51,
+      "outSec": 155.49,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 156.63,
+      "outSec": 158.2,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 158.57,
+      "outSec": 161.75,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 161.87,
+      "outSec": 163.13,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "monkey",
+      "cravings",
+      "mind",
+      "hunger",
+      "easy",
+      "occupied",
+      "rice",
+      "krispies",
+      "remove"
+    ]
+  },
+  "hook": {
+    "text": "THE FOOD MONKEY IS REAL",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "night_drive.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 10,
+    "startSec": 40
+  }
+}

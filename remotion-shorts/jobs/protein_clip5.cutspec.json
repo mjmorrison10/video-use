@@ -1,0 +1,64 @@
+{
+  "videoSrc": "proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 210.64,
+      "outSec": 214.2,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 214.56,
+      "outSec": 217.2,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 217.64,
+      "outSec": 220.3,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 225.98,
+      "outSec": 226.9,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 230.1,
+      "outSec": 233.9,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 235.06,
+      "outSec": 236.9,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "master",
+      "fat",
+      "loss",
+      "results",
+      "solved",
+      "enjoyable",
+      "deficit"
+    ]
+  },
+  "hook": {
+    "text": "THE MASTER OF FAT LOSS",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "dark_knight.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 12,
+    "startSec": 20
+  }
+}
