@@ -1,0 +1,76 @@
+{
+  "videoSrc": "proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 496.02,
+      "outSec": 498.12,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 498.94,
+      "outSec": 502.3,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 502.46,
+      "outSec": 503.34,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 503.68,
+      "outSec": 505.18,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 505.46,
+      "outSec": 508.36,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 508.48,
+      "outSec": 512.46,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 512.72,
+      "outSec": 514.94,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 515.02,
+      "outSec": 516.0,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "first",
+      "class",
+      "economy",
+      "failures",
+      "nothing",
+      "afford",
+      "hate"
+    ]
+  },
+  "hook": {
+    "text": "I ONLY FLY FIRST CLASS",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "tristan_tate_theme.mp3",
+    "volLow": 0.05,
+    "volHigh": 0.12,
+    "climaxSec": 14,
+    "startSec": 0
+  }
+}

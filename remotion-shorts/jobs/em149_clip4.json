@@ -51,17 +51,9 @@
    "beat": "POINT"
   },
   {
-   "inSec": 1007.5,
-   "outSec": 1009.28,
-   "offsetSec": 16.96,
-   "framing": "cover",
-   "mute": false,
-   "beat": "REINFORCE"
-  },
-  {
    "inSec": 1010.66,
    "outSec": 1012.54,
-   "offsetSec": 18.74,
+   "offsetSec": 16.96,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE"
@@ -424,7 +416,7 @@
   },
   {
    "startMs": 16960,
-   "endMs": 17600,
+   "endMs": 17740,
    "tokens": [
     {
      "text": " You"
@@ -438,8 +430,8 @@
    ]
   },
   {
-   "startMs": 17600,
-   "endMs": 18060,
+   "startMs": 17740,
+   "endMs": 18380,
    "tokens": [
     {
      "text": " that"
@@ -453,50 +445,8 @@
    ]
   },
   {
-   "startMs": 18060,
-   "endMs": 18740,
-   "tokens": [
-    {
-     "text": " fucking"
-    },
-    {
-     "text": " lose"
-    }
-   ]
-  },
-  {
-   "startMs": 18740,
-   "endMs": 19520,
-   "tokens": [
-    {
-     "text": " You"
-    },
-    {
-     "text": " either"
-    },
-    {
-     "text": " do"
-    }
-   ]
-  },
-  {
-   "startMs": 19520,
-   "endMs": 20160,
-   "tokens": [
-    {
-     "text": " that"
-    },
-    {
-     "text": " or"
-    },
-    {
-     "text": " you"
-    }
-   ]
-  },
-  {
-   "startMs": 20160,
-   "endMs": 20620,
+   "startMs": 18380,
+   "endMs": 18840,
    "tokens": [
     {
      "text": " lose"
@@ -505,11 +455,11 @@
   }
  ],
  "music": {
-  "src": "sneaky.mp3",
-  "startSec": 0,
-  "volLow": 0.05,
-  "volHigh": 0.11,
-  "climaxSec": null
+  "src": "tate_motivational.mp3",
+  "volLow": 0.06,
+  "volHigh": 0.13,
+  "climaxSec": 15,
+  "startSec": 0
  },
  "style": {
   "highlightColor": "#FFD60A",

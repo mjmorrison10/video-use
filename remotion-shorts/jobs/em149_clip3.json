@@ -599,10 +599,10 @@
  ],
  "music": {
   "src": "sneaky.mp3",
-  "startSec": 0,
   "volLow": 0.05,
-  "volHigh": 0.11,
-  "climaxSec": null
+  "volHigh": 0.1,
+  "climaxSec": null,
+  "startSec": 0
  },
  "style": {
   "highlightColor": "#FFD60A",

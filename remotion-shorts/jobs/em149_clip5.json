@@ -1,0 +1,415 @@
+{
+ "videoSrc": "proxy.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 394.67,
+   "outSec": 396.25,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 396.93,
+   "outSec": 397.69,
+   "offsetSec": 1.58,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 398.51,
+   "outSec": 399.93,
+   "offsetSec": 2.34,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 420.81,
+   "outSec": 423.93,
+   "offsetSec": 3.76,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 561.3,
+   "outSec": 564.36,
+   "offsetSec": 6.88,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 565.9,
+   "outSec": 571.2,
+   "offsetSec": 9.94,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 360,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " don't"
+    }
+   ]
+  },
+  {
+   "startMs": 360,
+   "endMs": 660,
+   "tokens": [
+    {
+     "text": " need"
+    },
+    {
+     "text": " your"
+    }
+   ]
+  },
+  {
+   "startMs": 660,
+   "endMs": 1100,
+   "tokens": [
+    {
+     "text": " money"
+    },
+    {
+     "text": " that"
+    }
+   ]
+  },
+  {
+   "startMs": 1100,
+   "endMs": 1580,
+   "tokens": [
+    {
+     "text": " bad"
+    }
+   ]
+  },
+  {
+   "startMs": 1580,
+   "endMs": 2020,
+   "tokens": [
+    {
+     "text": " Got"
+    },
+    {
+     "text": " a"
+    },
+    {
+     "text": " bad"
+    }
+   ]
+  },
+  {
+   "startMs": 2020,
+   "endMs": 2440,
+   "tokens": [
+    {
+     "text": " feeling"
+    },
+    {
+     "text": " You"
+    }
+   ]
+  },
+  {
+   "startMs": 2440,
+   "endMs": 3260,
+   "tokens": [
+    {
+     "text": " might"
+    },
+    {
+     "text": " snake"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 3260,
+   "endMs": 3520,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 3520,
+   "endMs": 3760,
+   "tokens": [
+    {
+     "text": " future"
+    }
+   ]
+  },
+  {
+   "startMs": 3760,
+   "endMs": 4020,
+   "tokens": [
+    {
+     "text": " So"
+    },
+    {
+     "text": " let's"
+    }
+   ]
+  },
+  {
+   "startMs": 4020,
+   "endMs": 4720,
+   "tokens": [
+    {
+     "text": " imagine"
+    },
+    {
+     "text": " I"
+    },
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 4720,
+   "endMs": 5000,
+   "tokens": [
+    {
+     "text": " to"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 5000,
+   "endMs": 6160,
+   "tokens": [
+    {
+     "text": " airport"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 6160,
+   "endMs": 6520,
+   "tokens": [
+    {
+     "text": " have"
+    },
+    {
+     "text": " a"
+    },
+    {
+     "text": " bad"
+    }
+   ]
+  },
+  {
+   "startMs": 6520,
+   "endMs": 6880,
+   "tokens": [
+    {
+     "text": " feeling"
+    }
+   ]
+  },
+  {
+   "startMs": 6880,
+   "endMs": 7300,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " bad"
+    }
+   ]
+  },
+  {
+   "startMs": 7300,
+   "endMs": 8920,
+   "tokens": [
+    {
+     "text": " feeling"
+    },
+    {
+     "text": " is"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 8920,
+   "endMs": 9440,
+   "tokens": [
+    {
+     "text": " reason"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 9440,
+   "endMs": 9940,
+   "tokens": [
+    {
+     "text": " didn't"
+    },
+    {
+     "text": " die"
+    }
+   ]
+  },
+  {
+   "startMs": 9940,
+   "endMs": 10400,
+   "tokens": [
+    {
+     "text": " when"
+    },
+    {
+     "text": " you"
+    },
+    {
+     "text": " get"
+    }
+   ]
+  },
+  {
+   "startMs": 10400,
+   "endMs": 10760,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " bad"
+    }
+   ]
+  },
+  {
+   "startMs": 10760,
+   "endMs": 11260,
+   "tokens": [
+    {
+     "text": " feeling"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 11260,
+   "endMs": 12060,
+   "tokens": [
+    {
+     "text": " your"
+    },
+    {
+     "text": " gut"
+    },
+    {
+     "text": " it's"
+    }
+   ]
+  },
+  {
+   "startMs": 12060,
+   "endMs": 13800,
+   "tokens": [
+    {
+     "text": " really"
+    },
+    {
+     "text": " important"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 13800,
+   "endMs": 14540,
+   "tokens": [
+    {
+     "text": " can't"
+    },
+    {
+     "text": " ignore"
+    }
+   ]
+  },
+  {
+   "startMs": 14540,
+   "endMs": 15240,
+   "tokens": [
+    {
+     "text": " these"
+    },
+    {
+     "text": " things"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "magnificent_seven.mp3",
+  "volLow": 0.05,
+  "volHigh": 0.11,
+  "climaxSec": 12,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#FFD60A",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 52,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "bad",
+   "feeling",
+   "gut",
+   "snake",
+   "money",
+   "ignore",
+   "important"
+  ]
+ },
+ "hook": {
+  "text": "I DON'T NEED YOUR MONEY THAT BAD",
+  "untilSec": 2.5
+ }
+}

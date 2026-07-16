@@ -1,0 +1,54 @@
+{
+  "videoSrc": "proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 112.83,
+      "outSec": 118.09,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 94.97,
+      "outSec": 98.07,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 120.63,
+      "outSec": 128.25,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 720.94,
+      "outSec": 727.06,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "orange",
+      "juice",
+      "sharks",
+      "shark",
+      "theories",
+      "true",
+      "rich",
+      "mansion",
+      "rent"
+    ]
+  },
+  "hook": {
+    "text": "ORANGE JUICE REPELS THE SHARKS",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "dont_be_suspicious.mp3",
+    "volLow": 0.05,
+    "volHigh": 0.11,
+    "climaxSec": 8,
+    "startSec": 0
+  }
+}

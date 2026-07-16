@@ -538,11 +538,11 @@
   }
  ],
  "music": {
-  "src": "sneaky.mp3",
-  "startSec": 0,
+  "src": "interstellar.mp3",
   "volLow": 0.05,
-  "volHigh": 0.11,
-  "climaxSec": null
+  "volHigh": 0.12,
+  "climaxSec": 18,
+  "startSec": 0
  },
  "style": {
   "highlightColor": "#FFD60A",

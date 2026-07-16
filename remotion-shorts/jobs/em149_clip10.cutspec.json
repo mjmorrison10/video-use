@@ -1,0 +1,62 @@
+{
+  "videoSrc": "proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 147.35,
+      "outSec": 149.89,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 136.25,
+      "outSec": 140.41,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 141.75,
+      "outSec": 147.35,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 345.55,
+      "outSec": 351.37,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 355.11,
+      "outSec": 356.69,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 698.04,
+      "outSec": 700.14,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "rich",
+      "psychosis",
+      "coolest",
+      "insane",
+      "mental"
+    ]
+  },
+  "hook": {
+    "text": "I'M SO RICH I'M INSANE",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "lorn_acid_rain.mp3",
+    "volLow": 0.04,
+    "volHigh": 0.12,
+    "climaxSec": 16,
+    "startSec": 0
+  }
+}

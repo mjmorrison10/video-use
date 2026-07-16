@@ -1,0 +1,497 @@
+{
+ "videoSrc": "proxy.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 112.83,
+   "outSec": 118.09,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 94.97,
+   "outSec": 98.07,
+   "offsetSec": 5.26,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 120.63,
+   "outSec": 128.25,
+   "offsetSec": 8.36,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 720.94,
+   "outSec": 727.06,
+   "offsetSec": 15.98,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 320,
+   "tokens": [
+    {
+     "text": " I've"
+    },
+    {
+     "text": " never"
+    }
+   ]
+  },
+  {
+   "startMs": 320,
+   "endMs": 1020,
+   "tokens": [
+    {
+     "text": " been"
+    },
+    {
+     "text": " eaten"
+    },
+    {
+     "text": " by"
+    }
+   ]
+  },
+  {
+   "startMs": 1020,
+   "endMs": 1500,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " shark"
+    }
+   ]
+  },
+  {
+   "startMs": 1500,
+   "endMs": 2440,
+   "tokens": [
+    {
+     "text": " because"
+    },
+    {
+     "text": " every"
+    }
+   ]
+  },
+  {
+   "startMs": 2440,
+   "endMs": 2840,
+   "tokens": [
+    {
+     "text": " morning"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 2840,
+   "endMs": 3140,
+   "tokens": [
+    {
+     "text": " have"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 3140,
+   "endMs": 3760,
+   "tokens": [
+    {
+     "text": " orange"
+    },
+    {
+     "text": " juice"
+    }
+   ]
+  },
+  {
+   "startMs": 3760,
+   "endMs": 4840,
+   "tokens": [
+    {
+     "text": " which"
+    },
+    {
+     "text": " repels"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 4840,
+   "endMs": 5340,
+   "tokens": [
+    {
+     "text": " sharks"
+    },
+    {
+     "text": " So"
+    }
+   ]
+  },
+  {
+   "startMs": 5340,
+   "endMs": 5800,
+   "tokens": [
+    {
+     "text": " yeah"
+    },
+    {
+     "text": " once"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 5800,
+   "endMs": 6380,
+   "tokens": [
+    {
+     "text": " get"
+    },
+    {
+     "text": " rich"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 6380,
+   "endMs": 7120,
+   "tokens": [
+    {
+     "text": " successful"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 7120,
+   "endMs": 7580,
+   "tokens": [
+    {
+     "text": " just"
+    },
+    {
+     "text": " get"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 7580,
+   "endMs": 7940,
+   "tokens": [
+    {
+     "text": " make"
+    },
+    {
+     "text": " up"
+    }
+   ]
+  },
+  {
+   "startMs": 7940,
+   "endMs": 8360,
+   "tokens": [
+    {
+     "text": " theories"
+    }
+   ]
+  },
+  {
+   "startMs": 8360,
+   "endMs": 8500,
+   "tokens": [
+    {
+     "text": " do"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 8500,
+   "endMs": 8960,
+   "tokens": [
+    {
+     "text": " know"
+    },
+    {
+     "text": " that's"
+    }
+   ]
+  },
+  {
+   "startMs": 8960,
+   "endMs": 10100,
+   "tokens": [
+    {
+     "text": " true"
+    },
+    {
+     "text": " you're"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 10100,
+   "endMs": 12520,
+   "tokens": [
+    {
+     "text": " my"
+    },
+    {
+     "text": " mansion"
+    },
+    {
+     "text": " get"
+    }
+   ]
+  },
+  {
+   "startMs": 12520,
+   "endMs": 13060,
+   "tokens": [
+    {
+     "text": " my"
+    },
+    {
+     "text": " orange"
+    }
+   ]
+  },
+  {
+   "startMs": 13060,
+   "endMs": 14660,
+   "tokens": [
+    {
+     "text": " juice"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 14660,
+   "endMs": 15160,
+   "tokens": [
+    {
+     "text": " your"
+    },
+    {
+     "text": " theories"
+    }
+   ]
+  },
+  {
+   "startMs": 15160,
+   "endMs": 16280,
+   "tokens": [
+    {
+     "text": " become"
+    },
+    {
+     "text": " true"
+    },
+    {
+     "text": " He"
+    }
+   ]
+  },
+  {
+   "startMs": 16280,
+   "endMs": 17020,
+   "tokens": [
+    {
+     "text": " keeps"
+    },
+    {
+     "text": " saying"
+    },
+    {
+     "text": " he"
+    }
+   ]
+  },
+  {
+   "startMs": 17020,
+   "endMs": 17540,
+   "tokens": [
+    {
+     "text": " needs"
+    },
+    {
+     "text": " orange"
+    }
+   ]
+  },
+  {
+   "startMs": 17540,
+   "endMs": 18140,
+   "tokens": [
+    {
+     "text": " juice"
+    },
+    {
+     "text": " or"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 18140,
+   "endMs": 18860,
+   "tokens": [
+    {
+     "text": " shark's"
+    },
+    {
+     "text": " gonna"
+    },
+    {
+     "text": " eat"
+    }
+   ]
+  },
+  {
+   "startMs": 18860,
+   "endMs": 19460,
+   "tokens": [
+    {
+     "text": " him"
+    }
+   ]
+  },
+  {
+   "startMs": 19880,
+   "endMs": 20220,
+   "tokens": [
+    {
+     "text": " Get"
+    },
+    {
+     "text": " him"
+    },
+    {
+     "text": " his"
+    }
+   ]
+  },
+  {
+   "startMs": 20220,
+   "endMs": 20780,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " orange"
+    }
+   ]
+  },
+  {
+   "startMs": 20780,
+   "endMs": 21280,
+   "tokens": [
+    {
+     "text": " shoes"
+    },
+    {
+     "text": " he's"
+    }
+   ]
+  },
+  {
+   "startMs": 21280,
+   "endMs": 21620,
+   "tokens": [
+    {
+     "text": " paying"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 21620,
+   "endMs": 22100,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " rent"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "dont_be_suspicious.mp3",
+  "volLow": 0.05,
+  "volHigh": 0.11,
+  "climaxSec": 8,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#FFD60A",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 52,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "orange",
+   "juice",
+   "sharks",
+   "shark",
+   "theories",
+   "true",
+   "rich",
+   "mansion",
+   "rent"
+  ]
+ },
+ "hook": {
+  "text": "ORANGE JUICE REPELS THE SHARKS",
+  "untilSec": 2.5
+ }
+}

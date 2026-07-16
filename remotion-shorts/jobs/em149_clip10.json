@@ -1,0 +1,500 @@
+{
+ "videoSrc": "proxy.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 147.35,
+   "outSec": 149.89,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 136.25,
+   "outSec": 140.41,
+   "offsetSec": 2.54,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 141.75,
+   "outSec": 147.35,
+   "offsetSec": 6.7,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 345.55,
+   "outSec": 351.37,
+   "offsetSec": 12.3,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 355.11,
+   "outSec": 356.69,
+   "offsetSec": 18.12,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 698.04,
+   "outSec": 700.14,
+   "offsetSec": 19.7,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 760,
+   "tokens": [
+    {
+     "text": " why"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 760,
+   "endMs": 1260,
+   "tokens": [
+    {
+     "text": " believe"
+    },
+    {
+     "text": " you're"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 1260,
+   "endMs": 2000,
+   "tokens": [
+    {
+     "text": " coolest"
+    },
+    {
+     "text": " person"
+    },
+    {
+     "text": " on"
+    }
+   ]
+  },
+  {
+   "startMs": 2000,
+   "endMs": 2540,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " planet"
+    }
+   ]
+  },
+  {
+   "startMs": 2540,
+   "endMs": 3040,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " helps"
+    }
+   ]
+  },
+  {
+   "startMs": 3040,
+   "endMs": 3740,
+   "tokens": [
+    {
+     "text": " cement"
+    },
+    {
+     "text": " your"
+    }
+   ]
+  },
+  {
+   "startMs": 3740,
+   "endMs": 4460,
+   "tokens": [
+    {
+     "text": " worldview"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 4460,
+   "endMs": 5080,
+   "tokens": [
+    {
+     "text": " allow"
+    },
+    {
+     "text": " you"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 5080,
+   "endMs": 5640,
+   "tokens": [
+    {
+     "text": " get"
+    },
+    {
+     "text": " into"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 5640,
+   "endMs": 7420,
+   "tokens": [
+    {
+     "text": " deep"
+    },
+    {
+     "text": " psychosis"
+    },
+    {
+     "text": " all"
+    }
+   ]
+  },
+  {
+   "startMs": 7420,
+   "endMs": 8420,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " don't"
+    },
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 8420,
+   "endMs": 9620,
+   "tokens": [
+    {
+     "text": " mental"
+    },
+    {
+     "text": " crap"
+    }
+   ]
+  },
+  {
+   "startMs": 9620,
+   "endMs": 10420,
+   "tokens": [
+    {
+     "text": " everyone's"
+    },
+    {
+     "text": " talking"
+    }
+   ]
+  },
+  {
+   "startMs": 10420,
+   "endMs": 11440,
+   "tokens": [
+    {
+     "text": " about"
+    },
+    {
+     "text": " why"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 11440,
+   "endMs": 11840,
+   "tokens": [
+    {
+     "text": " be"
+    },
+    {
+     "text": " in"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 11840,
+   "endMs": 12600,
+   "tokens": [
+    {
+     "text": " psychosis"
+    },
+    {
+     "text": " instead"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 12600,
+   "endMs": 13240,
+   "tokens": [
+    {
+     "text": " saying"
+    },
+    {
+     "text": " Andrew"
+    }
+   ]
+  },
+  {
+   "startMs": 13880,
+   "endMs": 14320,
+   "tokens": [
+    {
+     "text": " you're"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 14320,
+   "endMs": 15200,
+   "tokens": [
+    {
+     "text": " psycho"
+    },
+    {
+     "text": " in"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 15200,
+   "endMs": 15820,
+   "tokens": [
+    {
+     "text": " deep"
+    },
+    {
+     "text": " psychosis"
+    }
+   ]
+  },
+  {
+   "startMs": 16120,
+   "endMs": 16420,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " say"
+    }
+   ]
+  },
+  {
+   "startMs": 16520,
+   "endMs": 17100,
+   "tokens": [
+    {
+     "text": " Andrew"
+    },
+    {
+     "text": " you're"
+    }
+   ]
+  },
+  {
+   "startMs": 17100,
+   "endMs": 17800,
+   "tokens": [
+    {
+     "text": " really"
+    },
+    {
+     "text": " rich"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 17800,
+   "endMs": 18120,
+   "tokens": [
+    {
+     "text": " famous"
+    }
+   ]
+  },
+  {
+   "startMs": 18120,
+   "endMs": 19000,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " get"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 19000,
+   "endMs": 19380,
+   "tokens": [
+    {
+     "text": " believe"
+    },
+    {
+     "text": " these"
+    }
+   ]
+  },
+  {
+   "startMs": 19380,
+   "endMs": 19700,
+   "tokens": [
+    {
+     "text": " things"
+    }
+   ]
+  },
+  {
+   "startMs": 19700,
+   "endMs": 20060,
+   "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " too"
+    }
+   ]
+  },
+  {
+   "startMs": 20060,
+   "endMs": 20720,
+   "tokens": [
+    {
+     "text": " rich"
+    },
+    {
+     "text": " so"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 20720,
+   "endMs": 21040,
+   "tokens": [
+    {
+     "text": " get"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " be"
+    }
+   ]
+  },
+  {
+   "startMs": 21040,
+   "endMs": 21280,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 21280,
+   "endMs": 21800,
+   "tokens": [
+    {
+     "text": " psychosis"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "lorn_acid_rain.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.12,
+  "climaxSec": 16,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#FFD60A",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 52,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "rich",
+   "psychosis",
+   "coolest",
+   "insane",
+   "mental"
+  ]
+ },
+ "hook": {
+  "text": "I'M SO RICH I'M INSANE",
+  "untilSec": 2.5
+ }
+}

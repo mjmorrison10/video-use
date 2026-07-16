@@ -1,0 +1,70 @@
+{
+  "videoSrc": "proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 658.65,
+      "outSec": 661.09,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 632.73,
+      "outSec": 636.81,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 645.41,
+      "outSec": 647.59,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 650.09,
+      "outSec": 651.59,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 653.87,
+      "outSec": 656.45,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 656.87,
+      "outSec": 658.27,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 651.81,
+      "outSec": 653.75,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "economy",
+      "get",
+      "above",
+      "head",
+      "pay",
+      "grade",
+      "consciousness"
+    ]
+  },
+  "hook": {
+    "text": "YOU FLY ECONOMY",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "gangstas_paradise.mp3",
+    "volLow": 0.05,
+    "volHigh": 0.1,
+    "climaxSec": null,
+    "startSec": 0
+  }
+}

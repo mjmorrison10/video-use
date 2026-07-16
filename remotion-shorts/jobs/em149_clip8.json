@@ -1,0 +1,539 @@
+{
+ "videoSrc": "proxy.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 496.02,
+   "outSec": 498.12,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 498.94,
+   "outSec": 502.3,
+   "offsetSec": 2.1,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 502.46,
+   "outSec": 503.34,
+   "offsetSec": 5.46,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 503.68,
+   "outSec": 505.18,
+   "offsetSec": 6.34,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 505.46,
+   "outSec": 508.36,
+   "offsetSec": 7.84,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 508.48,
+   "outSec": 512.46,
+   "offsetSec": 10.74,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 512.72,
+   "outSec": 514.94,
+   "offsetSec": 14.72,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 515.02,
+   "outSec": 516.0,
+   "offsetSec": 16.94,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 280,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " wish"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 280,
+   "endMs": 860,
+   "tokens": [
+    {
+     "text": " only"
+    },
+    {
+     "text": " got"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 860,
+   "endMs": 1140,
+   "tokens": [
+    {
+     "text": " fly"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 1140,
+   "endMs": 1600,
+   "tokens": [
+    {
+     "text": " first"
+    },
+    {
+     "text": " class"
+    }
+   ]
+  },
+  {
+   "startMs": 1600,
+   "endMs": 2260,
+   "tokens": [
+    {
+     "text": " passengers"
+    },
+    {
+     "text": " co"
+    }
+   ]
+  },
+  {
+   "startMs": 2260,
+   "endMs": 2660,
+   "tokens": [
+    {
+     "text": "-pilot"
+    },
+    {
+     "text": " goes"
+    }
+   ]
+  },
+  {
+   "startMs": 3000,
+   "endMs": 3440,
+   "tokens": [
+    {
+     "text": " yeah"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 3440,
+   "endMs": 4020,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " hate"
+    }
+   ]
+  },
+  {
+   "startMs": 4020,
+   "endMs": 4620,
+   "tokens": [
+    {
+     "text": " these"
+    },
+    {
+     "text": " fucking"
+    }
+   ]
+  },
+  {
+   "startMs": 4620,
+   "endMs": 5140,
+   "tokens": [
+    {
+     "text": " brokis"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 5140,
+   "endMs": 5460,
+   "tokens": [
+    {
+     "text": " economies"
+    }
+   ]
+  },
+  {
+   "startMs": 5460,
+   "endMs": 6020,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " fucking"
+    }
+   ]
+  },
+  {
+   "startMs": 6020,
+   "endMs": 6340,
+   "tokens": [
+    {
+     "text": " suck"
+    }
+   ]
+  },
+  {
+   "startMs": 6340,
+   "endMs": 6980,
+   "tokens": [
+    {
+     "text": " Their"
+    },
+    {
+     "text": " families"
+    }
+   ]
+  },
+  {
+   "startMs": 6980,
+   "endMs": 7440,
+   "tokens": [
+    {
+     "text": " must"
+    },
+    {
+     "text": " hate"
+    }
+   ]
+  },
+  {
+   "startMs": 7440,
+   "endMs": 7840,
+   "tokens": [
+    {
+     "text": " them"
+    },
+    {
+     "text": " too"
+    }
+   ]
+  },
+  {
+   "startMs": 7840,
+   "endMs": 8300,
+   "tokens": [
+    {
+     "text": " Imagine"
+    },
+    {
+     "text": " being"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 8300,
+   "endMs": 8960,
+   "tokens": [
+    {
+     "text": " full"
+    },
+    {
+     "text": " grown"
+    },
+    {
+     "text": " man"
+    }
+   ]
+  },
+  {
+   "startMs": 8960,
+   "endMs": 9400,
+   "tokens": [
+    {
+     "text": " and"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 9400,
+   "endMs": 9900,
+   "tokens": [
+    {
+     "text": " being"
+    },
+    {
+     "text": " able"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 9900,
+   "endMs": 10400,
+   "tokens": [
+    {
+     "text": " afford"
+    },
+    {
+     "text": " first"
+    }
+   ]
+  },
+  {
+   "startMs": 10400,
+   "endMs": 10740,
+   "tokens": [
+    {
+     "text": " class"
+    }
+   ]
+  },
+  {
+   "startMs": 10740,
+   "endMs": 11660,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " must"
+    }
+   ]
+  },
+  {
+   "startMs": 11660,
+   "endMs": 12640,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " feel"
+    }
+   ]
+  },
+  {
+   "startMs": 12640,
+   "endMs": 13440,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " failures"
+    }
+   ]
+  },
+  {
+   "startMs": 13600,
+   "endMs": 14180,
+   "tokens": [
+    {
+     "text": " Their"
+    },
+    {
+     "text": " children"
+    }
+   ]
+  },
+  {
+   "startMs": 14180,
+   "endMs": 14720,
+   "tokens": [
+    {
+     "text": " hate"
+    },
+    {
+     "text": " them"
+    }
+   ]
+  },
+  {
+   "startMs": 14720,
+   "endMs": 15040,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " then"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 15040,
+   "endMs": 15400,
+   "tokens": [
+    {
+     "text": " pilot"
+    },
+    {
+     "text": " goes"
+    }
+   ]
+  },
+  {
+   "startMs": 15720,
+   "endMs": 16260,
+   "tokens": [
+    {
+     "text": " their"
+    },
+    {
+     "text": " kids"
+    }
+   ]
+  },
+  {
+   "startMs": 16260,
+   "endMs": 16800,
+   "tokens": [
+    {
+     "text": " really"
+    },
+    {
+     "text": " hate"
+    }
+   ]
+  },
+  {
+   "startMs": 16800,
+   "endMs": 16940,
+   "tokens": [
+    {
+     "text": " them"
+    }
+   ]
+  },
+  {
+   "startMs": 16940,
+   "endMs": 17180,
+   "tokens": [
+    {
+     "text": " Their"
+    },
+    {
+     "text": " kids"
+    }
+   ]
+  },
+  {
+   "startMs": 17180,
+   "endMs": 17480,
+   "tokens": [
+    {
+     "text": " will"
+    },
+    {
+     "text": " grow"
+    },
+    {
+     "text": " up"
+    }
+   ]
+  },
+  {
+   "startMs": 17480,
+   "endMs": 17680,
+   "tokens": [
+    {
+     "text": " to"
+    },
+    {
+     "text": " be"
+    }
+   ]
+  },
+  {
+   "startMs": 17680,
+   "endMs": 17920,
+   "tokens": [
+    {
+     "text": " nothing"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "tristan_tate_theme.mp3",
+  "volLow": 0.05,
+  "volHigh": 0.12,
+  "climaxSec": 14,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#FFD60A",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 52,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "first",
+   "class",
+   "economy",
+   "failures",
+   "nothing",
+   "afford",
+   "hate"
+  ]
+ },
+ "hook": {
+  "text": "I ONLY FLY FIRST CLASS",
+  "untilSec": 2.5
+ }
+}

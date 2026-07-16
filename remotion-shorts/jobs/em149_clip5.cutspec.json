@@ -1,0 +1,64 @@
+{
+  "videoSrc": "proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 394.67,
+      "outSec": 396.25,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 396.93,
+      "outSec": 397.69,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 398.51,
+      "outSec": 399.93,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 420.81,
+      "outSec": 423.93,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 561.3,
+      "outSec": 564.36,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 565.9,
+      "outSec": 571.2,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "bad",
+      "feeling",
+      "gut",
+      "snake",
+      "money",
+      "ignore",
+      "important"
+    ]
+  },
+  "hook": {
+    "text": "I DON'T NEED YOUR MONEY THAT BAD",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "magnificent_seven.mp3",
+    "volLow": 0.05,
+    "volHigh": 0.11,
+    "climaxSec": 12,
+    "startSec": 0
+  }
+}

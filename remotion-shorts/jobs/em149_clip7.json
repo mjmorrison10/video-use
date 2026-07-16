@@ -1,0 +1,435 @@
+{
+ "videoSrc": "proxy.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 658.65,
+   "outSec": 661.09,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 632.73,
+   "outSec": 636.81,
+   "offsetSec": 2.44,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 645.41,
+   "outSec": 647.59,
+   "offsetSec": 6.52,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 650.09,
+   "outSec": 651.59,
+   "offsetSec": 8.7,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 653.87,
+   "outSec": 656.45,
+   "offsetSec": 10.2,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 656.87,
+   "outSec": 658.27,
+   "offsetSec": 12.78,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 651.81,
+   "outSec": 653.75,
+   "offsetSec": 14.18,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 700,
+   "tokens": [
+    {
+     "text": " You"
+    },
+    {
+     "text": " fly"
+    }
+   ]
+  },
+  {
+   "startMs": 700,
+   "endMs": 1160,
+   "tokens": [
+    {
+     "text": " economy"
+    }
+   ]
+  },
+  {
+   "startMs": 1320,
+   "endMs": 1640,
+   "tokens": [
+    {
+     "text": " Of"
+    },
+    {
+     "text": " course"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 1640,
+   "endMs": 1980,
+   "tokens": [
+    {
+     "text": " don't"
+    },
+    {
+     "text": " get"
+    }
+   ]
+  },
+  {
+   "startMs": 1980,
+   "endMs": 2440,
+   "tokens": [
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 2440,
+   "endMs": 3120,
+   "tokens": [
+    {
+     "text": " guys"
+    },
+    {
+     "text": " do"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 3120,
+   "endMs": 4140,
+   "tokens": [
+    {
+     "text": " believe"
+    },
+    {
+     "text": " that"
+    },
+    {
+     "text": " gut"
+    }
+   ]
+  },
+  {
+   "startMs": 4140,
+   "endMs": 4800,
+   "tokens": [
+    {
+     "text": " feelings"
+    },
+    {
+     "text": " are"
+    }
+   ]
+  },
+  {
+   "startMs": 4800,
+   "endMs": 5420,
+   "tokens": [
+    {
+     "text": " your"
+    },
+    {
+     "text": " consciousness"
+    }
+   ]
+  },
+  {
+   "startMs": 5420,
+   "endMs": 6140,
+   "tokens": [
+    {
+     "text": " traveling"
+    },
+    {
+     "text": " through"
+    }
+   ]
+  },
+  {
+   "startMs": 6140,
+   "endMs": 6960,
+   "tokens": [
+    {
+     "text": " time"
+    },
+    {
+     "text": " And"
+    }
+   ]
+  },
+  {
+   "startMs": 6960,
+   "endMs": 7800,
+   "tokens": [
+    {
+     "text": " they're"
+    },
+    {
+     "text": " like"
+    },
+    {
+     "text": " uh"
+    }
+   ]
+  },
+  {
+   "startMs": 8100,
+   "endMs": 8700,
+   "tokens": [
+    {
+     "text": " okay"
+    },
+    {
+     "text": " Andrew"
+    }
+   ]
+  },
+  {
+   "startMs": 8700,
+   "endMs": 9200,
+   "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 9200,
+   "endMs": 9480,
+   "tokens": [
+    {
+     "text": " sure"
+    },
+    {
+     "text": " what"
+    }
+   ]
+  },
+  {
+   "startMs": 9480,
+   "endMs": 9840,
+   "tokens": [
+    {
+     "text": " you're"
+    },
+    {
+     "text": " talking"
+    }
+   ]
+  },
+  {
+   "startMs": 9840,
+   "endMs": 10200,
+   "tokens": [
+    {
+     "text": " about"
+    }
+   ]
+  },
+  {
+   "startMs": 10200,
+   "endMs": 10680,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " above"
+    }
+   ]
+  },
+  {
+   "startMs": 10680,
+   "endMs": 11060,
+   "tokens": [
+    {
+     "text": " your"
+    },
+    {
+     "text": " pay"
+    }
+   ]
+  },
+  {
+   "startMs": 11060,
+   "endMs": 12380,
+   "tokens": [
+    {
+     "text": " grade"
+    },
+    {
+     "text": " really"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 12380,
+   "endMs": 12780,
+   "tokens": [
+    {
+     "text": " be"
+    },
+    {
+     "text": " honest"
+    }
+   ]
+  },
+  {
+   "startMs": 12780,
+   "endMs": 13520,
+   "tokens": [
+    {
+     "text": " You"
+    },
+    {
+     "text": " wouldn't"
+    },
+    {
+     "text": " get"
+    }
+   ]
+  },
+  {
+   "startMs": 13520,
+   "endMs": 14180,
+   "tokens": [
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 14180,
+   "endMs": 14620,
+   "tokens": [
+    {
+     "text": " Of"
+    },
+    {
+     "text": " course"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 14620,
+   "endMs": 14860,
+   "tokens": [
+    {
+     "text": " don't"
+    },
+    {
+     "text": " get"
+    }
+   ]
+  },
+  {
+   "startMs": 14860,
+   "endMs": 15220,
+   "tokens": [
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 15220,
+   "endMs": 15740,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " above"
+    }
+   ]
+  },
+  {
+   "startMs": 15740,
+   "endMs": 16120,
+   "tokens": [
+    {
+     "text": " your"
+    },
+    {
+     "text": " head"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "gangstas_paradise.mp3",
+  "volLow": 0.05,
+  "volHigh": 0.1,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#FFD60A",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 52,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "economy",
+   "get",
+   "above",
+   "head",
+   "pay",
+   "grade",
+   "consciousness"
+  ]
+ },
+ "hook": {
+  "text": "YOU FLY ECONOMY",
+  "untilSec": 2.5
+ }
+}

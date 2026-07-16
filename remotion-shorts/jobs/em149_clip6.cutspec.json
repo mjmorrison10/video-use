@@ -1,0 +1,91 @@
+{
+  "videoSrc": "proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 299.55,
+      "outSec": 303.59,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 303.63,
+      "outSec": 305.71,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 306.83,
+      "outSec": 310.57,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 316.31,
+      "outSec": 317.25,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 318.83,
+      "outSec": 320.63,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 321.67,
+      "outSec": 322.45,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 322.87,
+      "outSec": 326.07,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 326.29,
+      "outSec": 328.71,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 328.97,
+      "outSec": 335.77,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 312.61,
+      "outSec": 315.77,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "gut",
+      "consciousness",
+      "butterfly",
+      "effect",
+      "plane",
+      "crash",
+      "fuel",
+      "pump",
+      "wrong",
+      "precedence"
+    ]
+  },
+  "hook": {
+    "text": "YOUR GUT IS NEVER WRONG",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "dark_knight_imagine_fire.mp3",
+    "volLow": 0.04,
+    "volHigh": 0.13,
+    "climaxSec": 20,
+    "startSec": 0
+  }
+}

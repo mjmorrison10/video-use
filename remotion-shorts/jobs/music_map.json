@@ -1,0 +1,12 @@
+{
+  "em149_clip1": {"src":"interstellar.mp3","volLow":0.05,"volHigh":0.12,"climaxSec":18},
+  "em149_clip2": {"src":"metro_superhero.mp3","volLow":0.05,"volHigh":0.12,"climaxSec":10},
+  "em149_clip3": {"src":"sneaky.mp3","volLow":0.05,"volHigh":0.10,"climaxSec":null},
+  "em149_clip4": {"src":"tate_motivational.mp3","volLow":0.06,"volHigh":0.13,"climaxSec":15},
+  "em149_clip5": {"src":"magnificent_seven.mp3","volLow":0.05,"volHigh":0.11,"climaxSec":12},
+  "em149_clip6": {"src":"dark_knight_imagine_fire.mp3","volLow":0.04,"volHigh":0.13,"climaxSec":20},
+  "em149_clip7": {"src":"gangstas_paradise.mp3","volLow":0.05,"volHigh":0.10,"climaxSec":null},
+  "em149_clip8": {"src":"tristan_tate_theme.mp3","volLow":0.05,"volHigh":0.12,"climaxSec":14},
+  "em149_clip9": {"src":"dont_be_suspicious.mp3","volLow":0.05,"volHigh":0.11,"climaxSec":8},
+  "em149_clip10": {"src":"lorn_acid_rain.mp3","volLow":0.04,"volHigh":0.12,"climaxSec":16}
+}

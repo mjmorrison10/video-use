@@ -2,21 +2,143 @@
   "videoSrc": "proxy.mp4",
   "fps": 30,
   "segments": [
-    {"inSec": 158.51, "outSec": 159.93, "beat": "HOOK", "framing": "cover"},
-    {"inSec": 161.47, "outSec": 166.63, "beat": "HOOK", "framing": "cover"},
-    {"inSec": 172.78, "outSec": 175.68, "beat": "HOOK", "framing": "cover"},
-    {"inSec": 204.38, "outSec": 205.90, "beat": "POINT", "framing": "cover"},
-    {"inSec": 206.46, "outSec": 211.28, "beat": "POINT", "framing": "cover"},
-    {"inSec": 212.36, "outSec": 214.02, "beat": "POINT", "framing": "cover"},
-    {"inSec": 215.32, "outSec": 216.44, "beat": "POINT", "framing": "cover"},
-    {"inSec": 223.09, "outSec": 224.49, "beat": "REINFORCE", "framing": "cover"},
-    {"inSec": 224.95, "outSec": 227.12, "beat": "REINFORCE", "framing": "cover"},
-    {"inSec": 227.12, "outSec": 227.45, "beat": "REINFORCE", "framing": "cover", "mute": true},
-    {"inSec": 227.45, "outSec": 228.83, "beat": "REINFORCE", "framing": "cover"}
+    {
+      "inSec": 158.51,
+      "outSec": 159.93,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 161.47,
+      "outSec": 166.63,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 172.78,
+      "outSec": 175.68,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 204.38,
+      "outSec": 205.9,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 206.46,
+      "outSec": 211.28,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 212.36,
+      "outSec": 214.02,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 215.32,
+      "outSec": 216.44,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 223.09,
+      "outSec": 224.49,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 224.95,
+      "outSec": 227.12,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 227.12,
+      "outSec": 227.45,
+      "beat": "REINFORCE",
+      "framing": "cover",
+      "mute": true
+    },
+    {
+      "inSec": 227.45,
+      "outSec": 228.83,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
   ],
-  "music": {"src": "sneaky.mp3", "startSec": 0, "volLow": 0.05, "volHigh": 0.11, "climaxSec": null},
-  "captionReplace": {"hoe": "wife"},
-  "captionGroups": [2,3,3,2,3,2,2,2,3, 3,2,2,2,2,2,3,3,3,3,2,2, 2,3,2,2,2, 2,2, 3,2,2,2,2,3],
-  "style": {"powerWords": ["consciousness","future","time","travel","multiverse","gut","feelings","feeling","100","win","space","eternal","theory","theories","rich","bad","idea"]},
-  "hook": {"text": "GUT FEELINGS ARE TIME TRAVEL", "untilSec": 2.5}
+  "music": {
+    "src": "interstellar.mp3",
+    "volLow": 0.05,
+    "volHigh": 0.12,
+    "climaxSec": 18,
+    "startSec": 0
+  },
+  "captionReplace": {
+    "hoe": "wife"
+  },
+  "captionGroups": [
+    2,
+    3,
+    3,
+    2,
+    3,
+    2,
+    2,
+    2,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    2,
+    3
+  ],
+  "style": {
+    "powerWords": [
+      "consciousness",
+      "future",
+      "time",
+      "travel",
+      "multiverse",
+      "gut",
+      "feelings",
+      "feeling",
+      "100",
+      "win",
+      "space",
+      "eternal",
+      "theory",
+      "theories",
+      "rich",
+      "bad",
+      "idea"
+    ]
+  },
+  "hook": {
+    "text": "GUT FEELINGS ARE TIME TRAVEL",
+    "untilSec": 2.5
+  }
 }

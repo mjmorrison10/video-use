@@ -1,0 +1,732 @@
+{
+ "videoSrc": "proxy.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 299.55,
+   "outSec": 303.59,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 303.63,
+   "outSec": 305.71,
+   "offsetSec": 4.04,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 306.83,
+   "outSec": 310.57,
+   "offsetSec": 6.12,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 316.31,
+   "outSec": 317.25,
+   "offsetSec": 9.86,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 318.83,
+   "outSec": 320.63,
+   "offsetSec": 10.8,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 321.67,
+   "outSec": 322.45,
+   "offsetSec": 12.6,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 322.87,
+   "outSec": 326.07,
+   "offsetSec": 13.38,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 326.29,
+   "outSec": 328.71,
+   "offsetSec": 16.58,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 328.97,
+   "outSec": 335.77,
+   "offsetSec": 19.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 312.61,
+   "outSec": 315.77,
+   "offsetSec": 25.8,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 440,
+   "tokens": [
+    {
+     "text": " you"
+    },
+    {
+     "text": " see"
+    }
+   ]
+  },
+  {
+   "startMs": 440,
+   "endMs": 800,
+   "tokens": [
+    {
+     "text": " that"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 800,
+   "endMs": 1380,
+   "tokens": [
+    {
+     "text": " flight"
+    },
+    {
+     "text": " made"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 1380,
+   "endMs": 2000,
+   "tokens": [
+    {
+     "text": " there"
+    },
+    {
+     "text": " safely"
+    }
+   ]
+  },
+  {
+   "startMs": 2460,
+   "endMs": 3020,
+   "tokens": [
+    {
+     "text": " surely"
+    },
+    {
+     "text": " your"
+    }
+   ]
+  },
+  {
+   "startMs": 3020,
+   "endMs": 3740,
+   "tokens": [
+    {
+     "text": " consciousness"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 3740,
+   "endMs": 4040,
+   "tokens": [
+    {
+     "text": " wrong"
+    }
+   ]
+  },
+  {
+   "startMs": 4040,
+   "endMs": 5020,
+   "tokens": [
+    {
+     "text": " But"
+    },
+    {
+     "text": " that's"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 5020,
+   "endMs": 7140,
+   "tokens": [
+    {
+     "text": " correct"
+    },
+    {
+     "text": " because"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 7140,
+   "endMs": 7900,
+   "tokens": [
+    {
+     "text": " butterfly"
+    },
+    {
+     "text": " effect"
+    }
+   ]
+  },
+  {
+   "startMs": 7900,
+   "endMs": 10000,
+   "tokens": [
+    {
+     "text": " takes"
+    },
+    {
+     "text": " precedence"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 10000,
+   "endMs": 10380,
+   "tokens": [
+    {
+     "text": " would"
+    },
+    {
+     "text": " have"
+    },
+    {
+     "text": " got"
+    }
+   ]
+  },
+  {
+   "startMs": 10380,
+   "endMs": 10920,
+   "tokens": [
+    {
+     "text": " on"
+    },
+    {
+     "text": " it"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 10920,
+   "endMs": 11480,
+   "tokens": [
+    {
+     "text": " air"
+    },
+    {
+     "text": " stewardess"
+    }
+   ]
+  },
+  {
+   "startMs": 11480,
+   "endMs": 11680,
+   "tokens": [
+    {
+     "text": " would"
+    },
+    {
+     "text": " have"
+    }
+   ]
+  },
+  {
+   "startMs": 11680,
+   "endMs": 12000,
+   "tokens": [
+    {
+     "text": " said"
+    },
+    {
+     "text": " oh"
+    }
+   ]
+  },
+  {
+   "startMs": 12000,
+   "endMs": 12440,
+   "tokens": [
+    {
+     "text": " hello"
+    },
+    {
+     "text": " Mr"
+    }
+   ]
+  },
+  {
+   "startMs": 12500,
+   "endMs": 12820,
+   "tokens": [
+    {
+     "text": " Tate"
+    },
+    {
+     "text": " you're"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 12820,
+   "endMs": 13380,
+   "tokens": [
+    {
+     "text": " first"
+    },
+    {
+     "text": " class"
+    }
+   ]
+  },
+  {
+   "startMs": 13380,
+   "endMs": 14320,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " as"
+    },
+    {
+     "text": " she"
+    }
+   ]
+  },
+  {
+   "startMs": 14320,
+   "endMs": 15040,
+   "tokens": [
+    {
+     "text": " said"
+    },
+    {
+     "text": " that"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 15040,
+   "endMs": 15440,
+   "tokens": [
+    {
+     "text": " pilot"
+    },
+    {
+     "text": " would"
+    }
+   ]
+  },
+  {
+   "startMs": 15440,
+   "endMs": 16260,
+   "tokens": [
+    {
+     "text": " have"
+    },
+    {
+     "text": " overheard"
+    },
+    {
+     "text": " her"
+    }
+   ]
+  },
+  {
+   "startMs": 16260,
+   "endMs": 16760,
+   "tokens": [
+    {
+     "text": " and"
+    },
+    {
+     "text": " thought"
+    },
+    {
+     "text": " she"
+    }
+   ]
+  },
+  {
+   "startMs": 16760,
+   "endMs": 16960,
+   "tokens": [
+    {
+     "text": " has"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 16960,
+   "endMs": 17840,
+   "tokens": [
+    {
+     "text": " nice"
+    },
+    {
+     "text": " voice"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 17840,
+   "endMs": 18100,
+   "tokens": [
+    {
+     "text": " hope"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 18100,
+   "endMs": 18560,
+   "tokens": [
+    {
+     "text": " sleep"
+    },
+    {
+     "text": " with"
+    },
+    {
+     "text": " her"
+    }
+   ]
+  },
+  {
+   "startMs": 18560,
+   "endMs": 19000,
+   "tokens": [
+    {
+     "text": " one"
+    },
+    {
+     "text": " day"
+    }
+   ]
+  },
+  {
+   "startMs": 19000,
+   "endMs": 19340,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " that"
+    }
+   ]
+  },
+  {
+   "startMs": 19340,
+   "endMs": 20120,
+   "tokens": [
+    {
+     "text": " small"
+    },
+    {
+     "text": " second"
+    }
+   ]
+  },
+  {
+   "startMs": 20120,
+   "endMs": 20600,
+   "tokens": [
+    {
+     "text": " delay"
+    },
+    {
+     "text": " would"
+    }
+   ]
+  },
+  {
+   "startMs": 20600,
+   "endMs": 21920,
+   "tokens": [
+    {
+     "text": " have"
+    },
+    {
+     "text": " made"
+    },
+    {
+     "text": " him"
+    }
+   ]
+  },
+  {
+   "startMs": 21920,
+   "endMs": 22760,
+   "tokens": [
+    {
+     "text": " overlook"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 22760,
+   "endMs": 23620,
+   "tokens": [
+    {
+     "text": " switch"
+    },
+    {
+     "text": " he"
+    },
+    {
+     "text": " had"
+    }
+   ]
+  },
+  {
+   "startMs": 23620,
+   "endMs": 24220,
+   "tokens": [
+    {
+     "text": " to"
+    },
+    {
+     "text": " press"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 24220,
+   "endMs": 24460,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " fuel"
+    }
+   ]
+  },
+  {
+   "startMs": 24460,
+   "endMs": 25240,
+   "tokens": [
+    {
+     "text": " pump"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 25240,
+   "endMs": 25500,
+   "tokens": [
+    {
+     "text": " plane"
+    },
+    {
+     "text": " would"
+    }
+   ]
+  },
+  {
+   "startMs": 25500,
+   "endMs": 25800,
+   "tokens": [
+    {
+     "text": " have"
+    },
+    {
+     "text": " crashed"
+    }
+   ]
+  },
+  {
+   "startMs": 25800,
+   "endMs": 26220,
+   "tokens": [
+    {
+     "text": " The"
+    },
+    {
+     "text": " only"
+    }
+   ]
+  },
+  {
+   "startMs": 26220,
+   "endMs": 26760,
+   "tokens": [
+    {
+     "text": " reason"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 26760,
+   "endMs": 27240,
+   "tokens": [
+    {
+     "text": " plane"
+    },
+    {
+     "text": " didn't"
+    }
+   ]
+  },
+  {
+   "startMs": 27240,
+   "endMs": 27940,
+   "tokens": [
+    {
+     "text": " crash"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 27940,
+   "endMs": 28300,
+   "tokens": [
+    {
+     "text": " because"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 28300,
+   "endMs": 28720,
+   "tokens": [
+    {
+     "text": " didn't"
+    },
+    {
+     "text": " get"
+    },
+    {
+     "text": " on"
+    }
+   ]
+  },
+  {
+   "startMs": 28720,
+   "endMs": 28960,
+   "tokens": [
+    {
+     "text": " it"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "dark_knight_imagine_fire.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.13,
+  "climaxSec": 20,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#FFD60A",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 52,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "gut",
+   "consciousness",
+   "butterfly",
+   "effect",
+   "plane",
+   "crash",
+   "fuel",
+   "pump",
+   "wrong",
+   "precedence"
+  ]
+ },
+ "hook": {
+  "text": "YOUR GUT IS NEVER WRONG",
+  "untilSec": 2.5
+ }
+}
