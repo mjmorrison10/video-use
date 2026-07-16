@@ -54,8 +54,8 @@
   },
   "music": {
     "src": "lorn_acid_rain.mp3",
-    "volLow": 0.04,
-    "volHigh": 0.12,
+    "volLow": 0.03,
+    "volHigh": 0.06,
     "climaxSec": 16,
     "startSec": 0
   }

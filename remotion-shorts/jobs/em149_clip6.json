@@ -12,16 +12,16 @@
   },
   {
    "inSec": 303.63,
-   "outSec": 305.71,
+   "outSec": 306.63,
    "offsetSec": 4.04,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 306.83,
+   "inSec": 308.61,
    "outSec": 310.57,
-   "offsetSec": 6.12,
+   "offsetSec": 7.04,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
@@ -29,7 +29,7 @@
   {
    "inSec": 316.31,
    "outSec": 317.25,
-   "offsetSec": 9.86,
+   "offsetSec": 9.0,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
@@ -37,7 +37,7 @@
   {
    "inSec": 318.83,
    "outSec": 320.63,
-   "offsetSec": 10.8,
+   "offsetSec": 9.94,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
@@ -45,7 +45,7 @@
   {
    "inSec": 321.67,
    "outSec": 322.45,
-   "offsetSec": 12.6,
+   "offsetSec": 11.74,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
@@ -53,7 +53,7 @@
   {
    "inSec": 322.87,
    "outSec": 326.07,
-   "offsetSec": 13.38,
+   "offsetSec": 12.52,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
@@ -61,7 +61,7 @@
   {
    "inSec": 326.29,
    "outSec": 328.71,
-   "offsetSec": 16.58,
+   "offsetSec": 15.72,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
@@ -69,7 +69,7 @@
   {
    "inSec": 328.97,
    "outSec": 335.77,
-   "offsetSec": 19.0,
+   "offsetSec": 18.14,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
@@ -77,7 +77,7 @@
   {
    "inSec": 312.61,
    "outSec": 315.77,
-   "offsetSec": 25.8,
+   "offsetSec": 24.94,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE"
@@ -185,7 +185,7 @@
   },
   {
    "startMs": 5020,
-   "endMs": 7140,
+   "endMs": 6280,
    "tokens": [
     {
      "text": " correct"
@@ -199,8 +199,8 @@
    ]
   },
   {
-   "startMs": 7140,
-   "endMs": 7900,
+   "startMs": 6280,
+   "endMs": 7040,
    "tokens": [
     {
      "text": " butterfly"
@@ -211,8 +211,8 @@
    ]
   },
   {
-   "startMs": 7900,
-   "endMs": 10000,
+   "startMs": 7040,
+   "endMs": 9140,
    "tokens": [
     {
      "text": " takes"
@@ -226,8 +226,8 @@
    ]
   },
   {
-   "startMs": 10000,
-   "endMs": 10380,
+   "startMs": 9140,
+   "endMs": 9520,
    "tokens": [
     {
      "text": " would"
@@ -241,8 +241,8 @@
    ]
   },
   {
-   "startMs": 10380,
-   "endMs": 10920,
+   "startMs": 9520,
+   "endMs": 10060,
    "tokens": [
     {
      "text": " on"
@@ -256,8 +256,8 @@
    ]
   },
   {
-   "startMs": 10920,
-   "endMs": 11480,
+   "startMs": 10060,
+   "endMs": 10620,
    "tokens": [
     {
      "text": " air"
@@ -268,8 +268,8 @@
    ]
   },
   {
-   "startMs": 11480,
-   "endMs": 11680,
+   "startMs": 10620,
+   "endMs": 10820,
    "tokens": [
     {
      "text": " would"
@@ -280,8 +280,8 @@
    ]
   },
   {
-   "startMs": 11680,
-   "endMs": 12000,
+   "startMs": 10820,
+   "endMs": 11140,
    "tokens": [
     {
      "text": " said"
@@ -292,8 +292,8 @@
    ]
   },
   {
-   "startMs": 12000,
-   "endMs": 12440,
+   "startMs": 11140,
+   "endMs": 11580,
    "tokens": [
     {
      "text": " hello"
@@ -304,8 +304,8 @@
    ]
   },
   {
-   "startMs": 12500,
-   "endMs": 12820,
+   "startMs": 11640,
+   "endMs": 11960,
    "tokens": [
     {
      "text": " Tate"
@@ -319,8 +319,8 @@
    ]
   },
   {
-   "startMs": 12820,
-   "endMs": 13380,
+   "startMs": 11960,
+   "endMs": 12520,
    "tokens": [
     {
      "text": " first"
@@ -331,8 +331,8 @@
    ]
   },
   {
-   "startMs": 13380,
-   "endMs": 14320,
+   "startMs": 12520,
+   "endMs": 13460,
    "tokens": [
     {
      "text": " And"
@@ -346,8 +346,8 @@
    ]
   },
   {
-   "startMs": 14320,
-   "endMs": 15040,
+   "startMs": 13460,
+   "endMs": 14180,
    "tokens": [
     {
      "text": " said"
@@ -361,8 +361,8 @@
    ]
   },
   {
-   "startMs": 15040,
-   "endMs": 15440,
+   "startMs": 14180,
+   "endMs": 14580,
    "tokens": [
     {
      "text": " pilot"
@@ -373,8 +373,8 @@
    ]
   },
   {
-   "startMs": 15440,
-   "endMs": 16260,
+   "startMs": 14580,
+   "endMs": 15400,
    "tokens": [
     {
      "text": " have"
@@ -388,8 +388,8 @@
    ]
   },
   {
-   "startMs": 16260,
-   "endMs": 16760,
+   "startMs": 15400,
+   "endMs": 15900,
    "tokens": [
     {
      "text": " and"
@@ -403,8 +403,8 @@
    ]
   },
   {
-   "startMs": 16760,
-   "endMs": 16960,
+   "startMs": 15900,
+   "endMs": 16100,
    "tokens": [
     {
      "text": " has"
@@ -415,8 +415,8 @@
    ]
   },
   {
-   "startMs": 16960,
-   "endMs": 17840,
+   "startMs": 16100,
+   "endMs": 16980,
    "tokens": [
     {
      "text": " nice"
@@ -430,8 +430,8 @@
    ]
   },
   {
-   "startMs": 17840,
-   "endMs": 18100,
+   "startMs": 16980,
+   "endMs": 17240,
    "tokens": [
     {
      "text": " hope"
@@ -442,8 +442,8 @@
    ]
   },
   {
-   "startMs": 18100,
-   "endMs": 18560,
+   "startMs": 17240,
+   "endMs": 17700,
    "tokens": [
     {
      "text": " sleep"
@@ -457,8 +457,8 @@
    ]
   },
   {
-   "startMs": 18560,
-   "endMs": 19000,
+   "startMs": 17700,
+   "endMs": 18140,
    "tokens": [
     {
      "text": " one"
@@ -469,8 +469,8 @@
    ]
   },
   {
-   "startMs": 19000,
-   "endMs": 19340,
+   "startMs": 18140,
+   "endMs": 18480,
    "tokens": [
     {
      "text": " And"
@@ -481,8 +481,8 @@
    ]
   },
   {
-   "startMs": 19340,
-   "endMs": 20120,
+   "startMs": 18480,
+   "endMs": 19260,
    "tokens": [
     {
      "text": " small"
@@ -493,8 +493,8 @@
    ]
   },
   {
-   "startMs": 20120,
-   "endMs": 20600,
+   "startMs": 19260,
+   "endMs": 19740,
    "tokens": [
     {
      "text": " delay"
@@ -505,8 +505,8 @@
    ]
   },
   {
-   "startMs": 20600,
-   "endMs": 21920,
+   "startMs": 19740,
+   "endMs": 21060,
    "tokens": [
     {
      "text": " have"
@@ -520,8 +520,8 @@
    ]
   },
   {
-   "startMs": 21920,
-   "endMs": 22760,
+   "startMs": 21060,
+   "endMs": 21900,
    "tokens": [
     {
      "text": " overlook"
@@ -532,8 +532,8 @@
    ]
   },
   {
-   "startMs": 22760,
-   "endMs": 23620,
+   "startMs": 21900,
+   "endMs": 22760,
    "tokens": [
     {
      "text": " switch"
@@ -547,8 +547,8 @@
    ]
   },
   {
-   "startMs": 23620,
-   "endMs": 24220,
+   "startMs": 22760,
+   "endMs": 23360,
    "tokens": [
     {
      "text": " to"
@@ -562,8 +562,8 @@
    ]
   },
   {
-   "startMs": 24220,
-   "endMs": 24460,
+   "startMs": 23360,
+   "endMs": 23600,
    "tokens": [
     {
      "text": " the"
@@ -574,8 +574,8 @@
    ]
   },
   {
-   "startMs": 24460,
-   "endMs": 25240,
+   "startMs": 23600,
+   "endMs": 24380,
    "tokens": [
     {
      "text": " pump"
@@ -589,8 +589,8 @@
    ]
   },
   {
-   "startMs": 25240,
-   "endMs": 25500,
+   "startMs": 24380,
+   "endMs": 24640,
    "tokens": [
     {
      "text": " plane"
@@ -601,8 +601,8 @@
    ]
   },
   {
-   "startMs": 25500,
-   "endMs": 25800,
+   "startMs": 24640,
+   "endMs": 24940,
    "tokens": [
     {
      "text": " have"
@@ -613,8 +613,8 @@
    ]
   },
   {
-   "startMs": 25800,
-   "endMs": 26220,
+   "startMs": 24940,
+   "endMs": 25360,
    "tokens": [
     {
      "text": " The"
@@ -625,8 +625,8 @@
    ]
   },
   {
-   "startMs": 26220,
-   "endMs": 26760,
+   "startMs": 25360,
+   "endMs": 25900,
    "tokens": [
     {
      "text": " reason"
@@ -637,8 +637,8 @@
    ]
   },
   {
-   "startMs": 26760,
-   "endMs": 27240,
+   "startMs": 25900,
+   "endMs": 26380,
    "tokens": [
     {
      "text": " plane"
@@ -649,8 +649,8 @@
    ]
   },
   {
-   "startMs": 27240,
-   "endMs": 27940,
+   "startMs": 26380,
+   "endMs": 27080,
    "tokens": [
     {
      "text": " crash"
@@ -661,8 +661,8 @@
    ]
   },
   {
-   "startMs": 27940,
-   "endMs": 28300,
+   "startMs": 27080,
+   "endMs": 27440,
    "tokens": [
     {
      "text": " because"
@@ -673,8 +673,8 @@
    ]
   },
   {
-   "startMs": 28300,
-   "endMs": 28720,
+   "startMs": 27440,
+   "endMs": 27860,
    "tokens": [
     {
      "text": " didn't"
@@ -688,8 +688,8 @@
    ]
   },
   {
-   "startMs": 28720,
-   "endMs": 28960,
+   "startMs": 27860,
+   "endMs": 28100,
    "tokens": [
     {
      "text": " it"
@@ -699,8 +699,8 @@
  ],
  "music": {
   "src": "dark_knight_imagine_fire.mp3",
-  "volLow": 0.04,
-  "volHigh": 0.13,
+  "volLow": 0.03,
+  "volHigh": 0.06,
   "climaxSec": 20,
   "startSec": 0
  },

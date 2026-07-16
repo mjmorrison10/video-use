@@ -89,8 +89,8 @@
   ],
   "music": {
     "src": "metro_superhero.mp3",
-    "volLow": 0.05,
-    "volHigh": 0.12,
+    "volLow": 0.03,
+    "volHigh": 0.06,
     "climaxSec": 10,
     "startSec": 0
   },

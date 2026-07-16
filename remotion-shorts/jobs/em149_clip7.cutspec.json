@@ -62,8 +62,8 @@
   },
   "music": {
     "src": "gangstas_paradise.mp3",
-    "volLow": 0.05,
-    "volHigh": 0.1,
+    "volLow": 0.03,
+    "volHigh": 0.06,
     "climaxSec": null,
     "startSec": 0
   }

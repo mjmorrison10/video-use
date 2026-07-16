@@ -68,8 +68,8 @@
   },
   "music": {
     "src": "tristan_tate_theme.mp3",
-    "volLow": 0.05,
-    "volHigh": 0.12,
+    "volLow": 0.03,
+    "volHigh": 0.06,
     "climaxSec": 14,
     "startSec": 0
   }

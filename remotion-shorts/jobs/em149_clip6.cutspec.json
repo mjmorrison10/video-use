@@ -10,12 +10,12 @@
     },
     {
       "inSec": 303.63,
-      "outSec": 305.71,
+      "outSec": 306.63,
       "beat": "POINT",
       "framing": "cover"
     },
     {
-      "inSec": 306.83,
+      "inSec": 308.61,
       "outSec": 310.57,
       "beat": "POINT",
       "framing": "cover"
@@ -83,8 +83,8 @@
   },
   "music": {
     "src": "dark_knight_imagine_fire.mp3",
-    "volLow": 0.04,
-    "volHigh": 0.13,
+    "volLow": 0.03,
+    "volHigh": 0.06,
     "climaxSec": 20,
     "startSec": 0
   }

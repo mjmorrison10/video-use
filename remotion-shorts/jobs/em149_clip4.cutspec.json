@@ -46,9 +46,9 @@
     }
   ],
   "music": {
-    "src": "tate_motivational.mp3",
-    "volLow": 0.06,
-    "volHigh": 0.13,
+    "src": "zack_hemsey_the_way.mp3",
+    "volLow": 0.03,
+    "volHigh": 0.06,
     "climaxSec": 15,
     "startSec": 0
   },

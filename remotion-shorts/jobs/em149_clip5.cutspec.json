@@ -56,8 +56,8 @@
   },
   "music": {
     "src": "magnificent_seven.mp3",
-    "volLow": 0.05,
-    "volHigh": 0.11,
+    "volLow": 0.03,
+    "volHigh": 0.06,
     "climaxSec": 12,
     "startSec": 0
   }
