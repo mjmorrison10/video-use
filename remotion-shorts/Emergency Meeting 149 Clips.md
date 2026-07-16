@@ -1,6 +1,6 @@
 # Emergency Meeting 149 — Time Travel — Clips
 
-10 vertical clips. Each opens on its hook, centered serif captions with neon-cyan power words, a distinct music bed, and a loud voice-forward mix.
+10 vertical clips. Each opens on its hook, centered bold captions with yellow power words, a distinct music bed, and a loud voice-forward mix.
 
 ## 1. Gut feelings are time travel / your future self
 
