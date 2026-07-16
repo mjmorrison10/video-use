@@ -1,5 +1,13 @@
 import { z } from "zod";
 
+// One keyframe of the face-tracking pan: at segment-local output frame `f`,
+// place the crop at CSS object-position (px, py) in 0..1 (already cover-adjusted).
+export const focusKeyframeSchema = z.object({
+  f: z.number(),
+  px: z.number(),
+  py: z.number(),
+});
+
 // One segment of source footage placed on the output timeline.
 export const rangeSchema = z.object({
   inSec: z.number(), // start in the (proxy) source timeline, seconds
@@ -8,6 +16,8 @@ export const rangeSchema = z.object({
   framing: z.enum(["cover", "blur-contain"]).default("cover"),
   mute: z.boolean().default(false), // drop this segment's audio (censor)
   beat: z.string().optional(), // HOOK / POINT / etc (informational)
+  // Face-aware pan track (segment-local frames). Empty = static center crop.
+  focus: z.array(focusKeyframeSchema).default([]),
 });
 
 // A caption "page" = one on-screen line of 2-3 words, output-timed (ms).

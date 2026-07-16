@@ -109,13 +109,27 @@ Enumerate the Drive music library, download a curated candidate set, and have th
 music-supervisor agent write `jobs/music_map.json` (one distinct `src` per clip +
 `volLow/volHigh/climaxSec`). Then inject each clip's music into its cut-spec.
 
+### 5b. Face tracking (keeps the subject framed in the 9:16 crop)
+The source is 16:9; the 9:16 `cover` crop otherwise shows only the CENTER slice, so
+an off-center selfie subject gets cut to the edge. `detect_faces.py` samples each
+segment, finds the largest face (frontal → profile → mirrored profile, with size +
+outlier rejection so a raised hand isn't mistaken for a face), smooths the path, and
+emits a per-segment `object-position` PAN TRACK (cover-scale-corrected).
+```bash
+uv run --with 'opencv-python-headless<5' --with numpy python scripts/detect_faces.py \
+    public/proxy.mp4 jobs/<clip>.cutspec.json -o jobs/<clip>.focus.json
+```
+`build_props.py` auto-loads `jobs/<clip>.focus.json` (or pass `--focus`) and attaches
+`focus` keyframes to each range; `src/Short/index.tsx` interpolates them into
+`objectPosition`. No focus file → static center crop (old behavior).
+
 ### 6. Build props
 ```bash
 python scripts/build_props.py jobs/<clip>.cutspec.json \
     /home/user/videos/<proj>/edit/transcript.json -o jobs/<clip>.json
 ```
 Computes output-time caption pages (2–3 words, sentence-aware), applies
-`captionReplace`/`captionGroups`, merges `DEFAULT_STYLE`.
+`captionReplace`/`captionGroups`, merges `DEFAULT_STYLE`, attaches the face-track.
 
 ### 7. Render + loudness-normalize
 ```bash

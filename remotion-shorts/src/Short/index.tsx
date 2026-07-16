@@ -6,14 +6,39 @@ import {
   OffthreadVideo,
   Sequence,
   staticFile,
+  useCurrentFrame,
   useVideoConfig,
 } from "remotion";
 import { loadFont } from "../load-font";
 import { CaptionPage } from "./CaptionPage";
 import { HookOverlay } from "./HookOverlay";
-import type { ShortProps } from "./schema";
+import type { Range, ShortProps } from "./schema";
 
 loadFont();
+
+// Interpolate the face-tracking pan track at the current segment-local frame.
+// Returns a CSS object-position string. Falls back to centered (50% 50%).
+const usePanPosition = (focus: Range["focus"]): string => {
+  const frame = useCurrentFrame();
+  if (!focus || focus.length === 0) return "50% 50%";
+  if (focus.length === 1) {
+    return `${focus[0].px * 100}% ${focus[0].py * 100}%`;
+  }
+  const frames = focus.map((k) => k.f);
+  const px = interpolate(
+    frame,
+    frames,
+    focus.map((k) => k.px),
+    { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
+  );
+  const py = interpolate(
+    frame,
+    frames,
+    focus.map((k) => k.py),
+    { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
+  );
+  return `${px * 100}% ${py * 100}%`;
+};
 
 const Segment: React.FC<{
   videoSrc: string;
@@ -22,10 +47,12 @@ const Segment: React.FC<{
   framing: string;
   mute: boolean;
   fps: number;
-}> = ({ videoSrc, inSec, outSec, framing, mute, fps }) => {
+  focus: Range["focus"];
+}> = ({ videoSrc, inSec, outSec, framing, mute, fps, focus }) => {
   const trimBefore = Math.round(inSec * fps);
   const trimAfter = Math.round(outSec * fps);
   const src = staticFile(videoSrc);
+  const objectPosition = usePanPosition(focus);
 
   if (framing === "blur-contain") {
     return (
@@ -65,7 +92,7 @@ const Segment: React.FC<{
         trimBefore={trimBefore}
         trimAfter={trimAfter}
         muted={mute}
-        style={{ width: "100%", height: "100%", objectFit: "cover" }}
+        style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition }}
       />
     </AbsoluteFill>
   );
@@ -107,6 +134,7 @@ export const Short: React.FC<ShortProps> = ({
               framing={r.framing}
               mute={r.mute}
               fps={fps}
+              focus={r.focus}
             />
           </Sequence>
         );

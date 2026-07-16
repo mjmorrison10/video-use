@@ -16,5 +16,5 @@
     "powerWords": ["more","protein","filling","enough","satiating","magical","brain","fat","carbs","full","tested","failed"]
   },
   "hook": {"text": "PROTEIN STOPS FILLING YOU UP", "untilSec": 2.5},
-  "music": {"src": "los_santos.mp3", "volLow": 0.035, "volHigh": 0.07, "climaxSec": 10, "startSec": 0}
+  "music": {"src": "los_santos.mp3", "volLow": 0.12, "volHigh": 0.22, "climaxSec": 10, "startSec": 0}
 }

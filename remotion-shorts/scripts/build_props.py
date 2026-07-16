@@ -114,12 +114,23 @@ def main() -> int:
     ap.add_argument("cutspec")
     ap.add_argument("transcript")
     ap.add_argument("-o", "--out", default="job.json")
+    ap.add_argument("--focus", default=None,
+                    help="face-tracking focus JSON (from detect_faces.py). If omitted, "
+                         "auto-loads <cutspec>.focus.json when present.")
     ap.add_argument("--dump-words", action="store_true",
                     help="print the assembled output word stream (to author captionGroups)")
     args = ap.parse_args()
 
     spec = load(args.cutspec)
     tr = load(args.transcript)
+
+    # Optional face-tracking pan track: one keyframe list per segment (by index).
+    focus_path = args.focus
+    if focus_path is None:
+        guess = Path(str(args.cutspec).replace(".cutspec.json", ".focus.json"))
+        if guess.exists():
+            focus_path = str(guess)
+    focus_segments = load(focus_path)["segments"] if focus_path else []
     repl = {clean(k): v for k, v in spec.get("captionReplace", {}).items()}
     words = [w for w in tr.get("words", []) if w.get("type", "word") == "word"
              and w.get("start") is not None and w.get("end") is not None]
@@ -127,7 +138,7 @@ def main() -> int:
     fps = spec.get("fps", 30)
     ranges, flat = [], []
     offset = 0.0
-    for seg in spec["segments"]:
+    for si, seg in enumerate(spec["segments"]):
         a, b = float(seg["inSec"]), float(seg["outSec"])
         dur = b - a
         if dur <= 0:
@@ -139,6 +150,7 @@ def main() -> int:
             "framing": seg.get("framing", "cover"),
             "mute": bool(seg.get("mute", False)),
             "beat": seg.get("beat"),
+            "focus": focus_segments[si] if si < len(focus_segments) else [],
         })
         for w in words:
             ws, we = float(w["start"]), float(w["end"])
