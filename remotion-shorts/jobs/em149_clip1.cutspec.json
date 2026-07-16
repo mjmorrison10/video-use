@@ -17,6 +17,6 @@
   "music": {"src": "sneaky.mp3", "startSec": 0, "volLow": 0.05, "volHigh": 0.11, "climaxSec": null},
   "captionReplace": {"hoe": "wife"},
   "captionGroups": [2,3,3,2,3,2,2,2,3, 3,2,2,2,2,2,3,3,3,3,2,2, 2,3,2,2,2, 2,2, 3,2,2,2,2,3],
-  "style": {"accentColor": "#00E5FF", "textColor": "white", "strokeColor": "black", "fontSize": 78, "captionPosition": "center", "uppercase": true, "powerWords": ["consciousness","future","time","travel","multiverse","gut","feelings","feeling","100","win","space","eternal","theory","theories","rich","bad","idea"]},
+  "style": {"powerWords": ["consciousness","future","time","travel","multiverse","gut","feelings","feeling","100","win","space","eternal","theory","theories","rich","bad","idea"]},
   "hook": {"text": "GUT FEELINGS ARE TIME TRAVEL", "untilSec": 2.5}
 }

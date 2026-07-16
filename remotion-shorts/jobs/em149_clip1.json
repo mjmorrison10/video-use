@@ -259,7 +259,7 @@
      "text": " I'll"
     },
     {
-     "text": " say,"
+     "text": " say"
     }
    ]
   },
@@ -343,7 +343,7 @@
      "text": " bad"
     },
     {
-     "text": " idea."
+     "text": " idea"
     }
    ]
   },
@@ -379,7 +379,7 @@
      "text": " and"
     },
     {
-     "text": " go,"
+     "text": " go"
     }
    ]
   },
@@ -406,7 +406,7 @@
      "text": " talking"
     },
     {
-     "text": " about?"
+     "text": " about"
     }
    ]
   },
@@ -427,10 +427,10 @@
    "endMs": 18600,
    "tokens": [
     {
-     "text": " me,"
+     "text": " me"
     },
     {
-     "text": " bro."
+     "text": " bro"
     }
    ]
   },
@@ -454,7 +454,7 @@
      "text": " win"
     },
     {
-     "text": " rate."
+     "text": " rate"
     }
    ]
   },
@@ -517,7 +517,7 @@
      "text": " a"
     },
     {
-     "text": " wife,"
+     "text": " wife"
     }
    ]
   },
@@ -532,7 +532,7 @@
      "text": " was"
     },
     {
-     "text": " right."
+     "text": " right"
     }
    ]
   }
@@ -545,10 +545,11 @@
   "climaxSec": null
  },
  "style": {
+  "highlightColor": "#FFD60A",
   "accentColor": "#00E5FF",
   "textColor": "white",
   "strokeColor": "black",
-  "fontSize": 78,
+  "fontSize": 52,
   "captionPosition": "center",
   "uppercase": true,
   "powerWords": [

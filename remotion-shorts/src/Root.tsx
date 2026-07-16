@@ -29,7 +29,7 @@ const defaultProps: ShortProps = {
     accentColor: "#00E5FF",
     textColor: "white",
     strokeColor: "black",
-    fontSize: 78,
+    fontSize: 52,
     captionPosition: "center",
     captionBottom: 430,
     uppercase: true,

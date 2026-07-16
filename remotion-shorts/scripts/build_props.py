@@ -26,6 +26,27 @@ from pathlib import Path
 
 SENT_END = (".", "?", "!")
 
+# House style shared by every clip. A cut-spec's "style" block overrides these
+# per-clip (e.g. powerWords, hook color). Keeps all clips visually consistent.
+DEFAULT_STYLE = {
+    "highlightColor": "#FFD60A",
+    "accentColor": "#00E5FF",   # neon cyan power words + hook
+    "textColor": "white",
+    "strokeColor": "black",
+    "fontSize": 52,             # 50% of the original 104
+    "captionPosition": "center",
+    "uppercase": True,
+    "powerWords": [],
+}
+
+# Punctuation stripped from caption DISPLAY text (grouping still uses the
+# originals to detect sentence ends). Apostrophes and % are kept.
+_PUNCT_RE = re.compile(r"[.,!?;:\"“”‘’—…()\[\]]")
+
+
+def strip_punct(text: str) -> str:
+    return _PUNCT_RE.sub("", text)
+
 
 def load(p):
     return json.loads(Path(p).read_text())
@@ -142,21 +163,24 @@ def main() -> int:
 
     groups = spec.get("captionGroups")
     pages_words = group_manual(flat, groups) if groups else group_auto(flat)
+    strip = spec.get("stripPunctuation", True)
     caption_pages = []
     for grp in pages_words:
         caption_pages.append({
             "startMs": grp[0]["startMs"],
             "endMs": grp[-1]["endMs"],
-            "tokens": [{"text": w["text"]} for w in grp],
+            "tokens": [{"text": strip_punct(w["text"]) if strip else w["text"]}
+                       for w in grp],
         })
 
+    style = {**DEFAULT_STYLE, **spec.get("style", {})}
     job = {
         "videoSrc": spec.get("videoSrc", "proxy.mp4"),
         "fps": fps,
         "ranges": ranges,
         "captionPages": caption_pages,
         "music": spec.get("music"),
-        "style": spec.get("style", {}),
+        "style": style,
         "hook": spec.get("hook"),
     }
     Path(args.out).write_text(json.dumps(job, ensure_ascii=False, indent=1))
