@@ -1,5 +1,4 @@
-import { Caption, createTikTokStyleCaptions } from "@remotion/captions";
-import React, { useMemo } from "react";
+import React from "react";
 import {
   AbsoluteFill,
   Audio,
@@ -21,8 +20,9 @@ const Segment: React.FC<{
   inSec: number;
   outSec: number;
   framing: string;
+  mute: boolean;
   fps: number;
-}> = ({ videoSrc, inSec, outSec, framing, fps }) => {
+}> = ({ videoSrc, inSec, outSec, framing, mute, fps }) => {
   const trimBefore = Math.round(inSec * fps);
   const trimAfter = Math.round(outSec * fps);
   const src = staticFile(videoSrc);
@@ -50,6 +50,7 @@ const Segment: React.FC<{
             src={src}
             trimBefore={trimBefore}
             trimAfter={trimAfter}
+            muted={mute}
             style={{ width: "100%", height: "auto", objectFit: "contain" }}
           />
         </AbsoluteFill>
@@ -63,6 +64,7 @@ const Segment: React.FC<{
         src={src}
         trimBefore={trimBefore}
         trimAfter={trimAfter}
+        muted={mute}
         style={{ width: "100%", height: "100%", objectFit: "cover" }}
       />
     </AbsoluteFill>
@@ -72,33 +74,12 @@ const Segment: React.FC<{
 export const Short: React.FC<ShortProps> = ({
   videoSrc,
   ranges,
-  captions,
+  captionPages,
   music,
   style,
   hook,
 }) => {
   const { fps, durationInFrames } = useVideoConfig();
-
-  const captionInput: Caption[] = useMemo(
-    () =>
-      captions.map((c) => ({
-        text: c.text,
-        startMs: c.startMs,
-        endMs: c.endMs,
-        timestampMs: c.timestampMs ?? (c.startMs + c.endMs) / 2,
-        confidence: null,
-      })),
-    [captions],
-  );
-
-  const { pages } = useMemo(
-    () =>
-      createTikTokStyleCaptions({
-        captions: captionInput,
-        combineTokensWithinMilliseconds: style.combineWithinMs,
-      }),
-    [captionInput, style.combineWithinMs],
-  );
 
   const musicVolume = (frame: number) => {
     if (!music) return 0;
@@ -124,18 +105,19 @@ export const Short: React.FC<ShortProps> = ({
               inSec={r.inSec}
               outSec={r.outSec}
               framing={r.framing}
+              mute={r.mute}
               fps={fps}
             />
           </Sequence>
         );
       })}
 
-      {pages.map((page, index) => {
-        const nextPage = pages[index + 1] ?? null;
+      {captionPages.map((page, index) => {
+        const next = captionPages[index + 1] ?? null;
         const startFrame = (page.startMs / 1000) * fps;
-        const endFrame = nextPage
-          ? (nextPage.startMs / 1000) * fps
-          : startFrame + (style.combineWithinMs / 1000) * fps + fps;
+        const endFrame = next
+          ? (next.startMs / 1000) * fps
+          : (page.endMs / 1000) * fps + fps * 0.4;
         const dur = Math.max(1, endFrame - startFrame);
         return (
           <Sequence key={`cap-${index}`} from={startFrame} durationInFrames={dur}>

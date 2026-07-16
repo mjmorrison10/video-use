@@ -6,15 +6,16 @@ export const rangeSchema = z.object({
   outSec: z.number(), // end in the source timeline, seconds
   offsetSec: z.number(), // where this segment starts on the OUTPUT timeline
   framing: z.enum(["cover", "blur-contain"]).default("cover"),
+  mute: z.boolean().default(false), // drop this segment's audio (censor)
   beat: z.string().optional(), // HOOK / POINT / etc (informational)
 });
 
-// A word-level caption, already re-timed to the OUTPUT timeline (ms).
-export const captionSchema = z.object({
-  text: z.string(),
+// A caption "page" = one on-screen line of 2-3 words, output-timed (ms).
+export const captionTokenSchema = z.object({ text: z.string() });
+export const captionPageSchema = z.object({
   startMs: z.number(),
   endMs: z.number(),
-  timestampMs: z.number().nullable().optional(),
+  tokens: z.array(captionTokenSchema),
 });
 
 export const musicSchema = z
@@ -32,11 +33,10 @@ export const styleSchema = z.object({
   accentColor: z.string().default("#00E5FF"), // neon cyan for power words + hook
   textColor: z.string().default("white"),
   strokeColor: z.string().default("black"),
-  fontSize: z.number().default(104),
+  fontSize: z.number().default(78),
   captionPosition: z.enum(["center", "bottom"]).default("center"),
   captionBottom: z.number().default(430), // px from bottom when captionPosition="bottom"
   uppercase: z.boolean().default(true),
-  combineWithinMs: z.number().default(900), // words per caption page window
   // Words rendered in accentColor (and kept lit). Lowercased, punctuation-insensitive.
   powerWords: z.array(z.string()).default([]),
 });
@@ -52,7 +52,7 @@ export const shortSchema = z.object({
   videoSrc: z.string(), // filename in public/ (proxy)
   fps: z.number().default(30),
   ranges: z.array(rangeSchema),
-  captions: z.array(captionSchema),
+  captionPages: z.array(captionPageSchema),
   music: musicSchema.default(null),
   style: styleSchema.default({}),
   hook: hookSchema.default(null),
@@ -60,3 +60,4 @@ export const shortSchema = z.object({
 
 export type ShortProps = z.infer<typeof shortSchema>;
 export type Range = z.infer<typeof rangeSchema>;
+export type CaptionPageT = z.infer<typeof captionPageSchema>;

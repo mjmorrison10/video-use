@@ -7,581 +7,534 @@
    "outSec": 159.93,
    "offsetSec": 0.0,
    "framing": "cover",
+   "mute": false,
    "beat": "HOOK"
   },
   {
    "inSec": 161.47,
-   "outSec": 169.63,
+   "outSec": 166.63,
    "offsetSec": 1.42,
    "framing": "cover",
+   "mute": false,
    "beat": "HOOK"
   },
   {
    "inSec": 172.78,
    "outSec": 175.68,
-   "offsetSec": 9.58,
+   "offsetSec": 6.58,
    "framing": "cover",
+   "mute": false,
    "beat": "HOOK"
   },
   {
    "inSec": 204.38,
    "outSec": 205.9,
-   "offsetSec": 12.48,
+   "offsetSec": 9.48,
    "framing": "cover",
+   "mute": false,
    "beat": "POINT"
   },
   {
    "inSec": 206.46,
    "outSec": 211.28,
-   "offsetSec": 14.0,
+   "offsetSec": 11.0,
    "framing": "cover",
+   "mute": false,
    "beat": "POINT"
   },
   {
    "inSec": 212.36,
    "outSec": 214.02,
-   "offsetSec": 18.82,
+   "offsetSec": 15.82,
    "framing": "cover",
+   "mute": false,
    "beat": "POINT"
   },
   {
    "inSec": 215.32,
    "outSec": 216.44,
-   "offsetSec": 20.48,
+   "offsetSec": 17.48,
    "framing": "cover",
+   "mute": false,
    "beat": "POINT"
   },
   {
    "inSec": 223.09,
    "outSec": 224.49,
-   "offsetSec": 21.6,
+   "offsetSec": 18.6,
    "framing": "cover",
+   "mute": false,
    "beat": "REINFORCE"
   },
   {
    "inSec": 224.95,
-   "outSec": 228.83,
-   "offsetSec": 23.0,
+   "outSec": 227.12,
+   "offsetSec": 20.0,
    "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 227.12,
+   "outSec": 227.45,
+   "offsetSec": 22.17,
+   "framing": "cover",
+   "mute": true,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 227.45,
+   "outSec": 228.83,
+   "offsetSec": 22.5,
+   "framing": "cover",
+   "mute": false,
    "beat": "REINFORCE"
   }
  ],
- "captions": [
+ "captionPages": [
   {
-   "text": " gut",
    "startMs": 0,
-   "endMs": 840,
-   "timestampMs": 420
-  },
-  {
-   "text": " feelings",
-   "startMs": 840,
    "endMs": 1420,
-   "timestampMs": 1130
+   "tokens": [
+    {
+     "text": " gut"
+    },
+    {
+     "text": " feelings"
+    }
+   ]
   },
   {
-   "text": " actually",
    "startMs": 1420,
-   "endMs": 2140,
-   "timestampMs": 1780
-  },
-  {
-   "text": " a",
-   "startMs": 2140,
-   "endMs": 2560,
-   "timestampMs": 2350
-  },
-  {
-   "text": " message",
-   "startMs": 2560,
    "endMs": 3080,
-   "timestampMs": 2820
+   "tokens": [
+    {
+     "text": " actually"
+    },
+    {
+     "text": " a"
+    },
+    {
+     "text": " message"
+    }
+   ]
   },
   {
-   "text": " sent",
    "startMs": 3080,
-   "endMs": 3780,
-   "timestampMs": 3430
-  },
-  {
-   "text": " to",
-   "startMs": 3780,
-   "endMs": 4220,
-   "timestampMs": 4000
-  },
-  {
-   "text": " you",
-   "startMs": 4220,
    "endMs": 4440,
-   "timestampMs": 4330
+   "tokens": [
+    {
+     "text": " sent"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " you"
+    }
+   ]
   },
   {
-   "text": " from",
    "startMs": 4440,
-   "endMs": 4700,
-   "timestampMs": 4570
-  },
-  {
-   "text": " your",
-   "startMs": 4700,
    "endMs": 4920,
-   "timestampMs": 4810
+   "tokens": [
+    {
+     "text": " from"
+    },
+    {
+     "text": " your"
+    }
+   ]
   },
   {
-   "text": " future",
    "startMs": 4920,
-   "endMs": 5340,
-   "timestampMs": 5130
-  },
-  {
-   "text": " self",
-   "startMs": 5340,
-   "endMs": 5880,
-   "timestampMs": 5610
-  },
-  {
-   "text": " because",
-   "startMs": 5880,
    "endMs": 6580,
-   "timestampMs": 6230
+   "tokens": [
+    {
+     "text": " future"
+    },
+    {
+     "text": " self"
+    },
+    {
+     "text": " because"
+    }
+   ]
   },
   {
-   "text": " your",
    "startMs": 6580,
-   "endMs": 6800,
-   "timestampMs": 6690
+   "endMs": 7260,
+   "tokens": [
+    {
+     "text": " Your"
+    },
+    {
+     "text": " consciousness"
+    }
+   ]
   },
   {
-   "text": " consciousness",
-   "startMs": 6800,
-   "endMs": 7540,
-   "timestampMs": 7170
+   "startMs": 7260,
+   "endMs": 7740,
+   "tokens": [
+    {
+     "text": " is"
+    },
+    {
+     "text": " not"
+    }
+   ]
   },
   {
-   "text": " can",
-   "startMs": 7540,
-   "endMs": 8240,
-   "timestampMs": 7890
+   "startMs": 7740,
+   "endMs": 8520,
+   "tokens": [
+    {
+     "text": " bound"
+    },
+    {
+     "text": " by"
+    }
+   ]
   },
   {
-   "text": " travel",
-   "startMs": 8240,
-   "endMs": 8720,
-   "timestampMs": 8480
+   "startMs": 8520,
+   "endMs": 9480,
+   "tokens": [
+    {
+     "text": " time"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " space"
+    }
+   ]
   },
   {
-   "text": " through",
-   "startMs": 8720,
-   "endMs": 9060,
-   "timestampMs": 8890
+   "startMs": 9480,
+   "endMs": 9940,
+   "tokens": [
+    {
+     "text": " So"
+    },
+    {
+     "text": " if"
+    },
+    {
+     "text": " I"
+    }
+   ]
   },
   {
-   "text": " time.",
-   "startMs": 9060,
-   "endMs": 9580,
-   "timestampMs": 9320
+   "startMs": 9940,
+   "endMs": 10220,
+   "tokens": [
+    {
+     "text": " get"
+    },
+    {
+     "text": " a"
+    }
+   ]
   },
   {
-   "text": " Your",
-   "startMs": 9580,
-   "endMs": 9620,
-   "timestampMs": 9600
+   "startMs": 10220,
+   "endMs": 10600,
+   "tokens": [
+    {
+     "text": " gut"
+    },
+    {
+     "text": " feeling"
+    }
+   ]
   },
   {
-   "text": " consciousness",
-   "startMs": 9620,
-   "endMs": 10260,
-   "timestampMs": 9940
+   "startMs": 10600,
+   "endMs": 11000,
+   "tokens": [
+    {
+     "text": " I'll"
+    },
+    {
+     "text": " say,"
+    }
+   ]
   },
   {
-   "text": " is",
-   "startMs": 10260,
-   "endMs": 10560,
-   "timestampMs": 10410
+   "startMs": 11000,
+   "endMs": 11680,
+   "tokens": [
+    {
+     "text": " my"
+    },
+    {
+     "text": " consciousness"
+    }
+   ]
   },
   {
-   "text": " not",
-   "startMs": 10560,
-   "endMs": 10740,
-   "timestampMs": 10650
+   "startMs": 11680,
+   "endMs": 12320,
+   "tokens": [
+    {
+     "text": " has"
+    },
+    {
+     "text": " traveled"
+    }
+   ]
   },
   {
-   "text": " bound",
-   "startMs": 10740,
-   "endMs": 11180,
-   "timestampMs": 10960
+   "startMs": 12320,
+   "endMs": 12960,
+   "tokens": [
+    {
+     "text": " to"
+    },
+    {
+     "text": " the"
+    },
+    {
+     "text": " future"
+    }
+   ]
   },
   {
-   "text": " by",
-   "startMs": 11180,
-   "endMs": 11520,
-   "timestampMs": 11350
+   "startMs": 12960,
+   "endMs": 14240,
+   "tokens": [
+    {
+     "text": " and"
+    },
+    {
+     "text": " told"
+    },
+    {
+     "text": " me"
+    }
+   ]
   },
   {
-   "text": " time",
-   "startMs": 11520,
-   "endMs": 11880,
-   "timestampMs": 11700
-  },
-  {
-   "text": " and",
-   "startMs": 11880,
-   "endMs": 12120,
-   "timestampMs": 12000
-  },
-  {
-   "text": " space",
-   "startMs": 12120,
-   "endMs": 12480,
-   "timestampMs": 12300
-  },
-  {
-   "text": " So",
-   "startMs": 12480,
-   "endMs": 12720,
-   "timestampMs": 12600
-  },
-  {
-   "text": " if",
-   "startMs": 12720,
-   "endMs": 12860,
-   "timestampMs": 12790
-  },
-  {
-   "text": " I",
-   "startMs": 12860,
-   "endMs": 12940,
-   "timestampMs": 12900
-  },
-  {
-   "text": " get",
-   "startMs": 12940,
-   "endMs": 13100,
-   "timestampMs": 13020
-  },
-  {
-   "text": " a",
-   "startMs": 13100,
-   "endMs": 13220,
-   "timestampMs": 13160
-  },
-  {
-   "text": " gut",
-   "startMs": 13220,
-   "endMs": 13360,
-   "timestampMs": 13290
-  },
-  {
-   "text": " feeling",
-   "startMs": 13360,
-   "endMs": 13600,
-   "timestampMs": 13480
-  },
-  {
-   "text": " I'll",
-   "startMs": 13600,
-   "endMs": 13840,
-   "timestampMs": 13720
-  },
-  {
-   "text": " say,",
-   "startMs": 13840,
-   "endMs": 14000,
-   "timestampMs": 13920
-  },
-  {
-   "text": " my",
-   "startMs": 14000,
-   "endMs": 14180,
-   "timestampMs": 14090
-  },
-  {
-   "text": " consciousness",
-   "startMs": 14180,
+   "startMs": 14240,
    "endMs": 14680,
-   "timestampMs": 14430
+   "tokens": [
+    {
+     "text": " that"
+    },
+    {
+     "text": " this"
+    },
+    {
+     "text": " is"
+    }
+   ]
   },
   {
-   "text": " has",
    "startMs": 14680,
-   "endMs": 14980,
-   "timestampMs": 14830
+   "endMs": 15820,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " bad"
+    },
+    {
+     "text": " idea."
+    }
+   ]
   },
   {
-   "text": " traveled",
-   "startMs": 14980,
-   "endMs": 15320,
-   "timestampMs": 15150
+   "startMs": 15820,
+   "endMs": 16160,
+   "tokens": [
+    {
+     "text": " People"
+    },
+    {
+     "text": " look"
+    }
+   ]
   },
   {
-   "text": " to",
-   "startMs": 15320,
-   "endMs": 15520,
-   "timestampMs": 15420
+   "startMs": 16160,
+   "endMs": 16320,
+   "tokens": [
+    {
+     "text": " at"
+    },
+    {
+     "text": " me"
+    }
+   ]
   },
   {
-   "text": " the",
-   "startMs": 15520,
-   "endMs": 15680,
-   "timestampMs": 15600
+   "startMs": 16320,
+   "endMs": 16520,
+   "tokens": [
+    {
+     "text": " and"
+    },
+    {
+     "text": " go,"
+    }
+   ]
   },
   {
-   "text": " future",
-   "startMs": 15680,
-   "endMs": 15960,
-   "timestampMs": 15820
+   "startMs": 16600,
+   "endMs": 16880,
+   "tokens": [
+    {
+     "text": " what"
+    },
+    {
+     "text": " are"
+    },
+    {
+     "text": " you"
+    }
+   ]
   },
   {
-   "text": " and",
-   "startMs": 15960,
-   "endMs": 16580,
-   "timestampMs": 16270
+   "startMs": 16880,
+   "endMs": 17480,
+   "tokens": [
+    {
+     "text": " talking"
+    },
+    {
+     "text": " about?"
+    }
+   ]
   },
   {
-   "text": " told",
-   "startMs": 16580,
-   "endMs": 16940,
-   "timestampMs": 16760
+   "startMs": 17480,
+   "endMs": 18160,
+   "tokens": [
+    {
+     "text": " Consciousness"
+    },
+    {
+     "text": " told"
+    }
+   ]
   },
   {
-   "text": " me",
-   "startMs": 16940,
-   "endMs": 17240,
-   "timestampMs": 17090
+   "startMs": 18160,
+   "endMs": 18600,
+   "tokens": [
+    {
+     "text": " me,"
+    },
+    {
+     "text": " bro."
+    }
+   ]
   },
   {
-   "text": " that",
-   "startMs": 17240,
-   "endMs": 17400,
-   "timestampMs": 17320
+   "startMs": 18600,
+   "endMs": 19560,
+   "tokens": [
+    {
+     "text": " 100"
+    },
+    {
+     "text": "%"
+    }
+   ]
   },
   {
-   "text": " this",
-   "startMs": 17400,
-   "endMs": 17520,
-   "timestampMs": 17460
+   "startMs": 19560,
+   "endMs": 20000,
+   "tokens": [
+    {
+     "text": " win"
+    },
+    {
+     "text": " rate."
+    }
+   ]
   },
   {
-   "text": " is",
-   "startMs": 17520,
-   "endMs": 17680,
-   "timestampMs": 17600
+   "startMs": 20000,
+   "endMs": 20660,
+   "tokens": [
+    {
+     "text": " Every"
+    },
+    {
+     "text": " single"
+    },
+    {
+     "text": " time"
+    }
+   ]
   },
   {
-   "text": " a",
-   "startMs": 17680,
-   "endMs": 17840,
-   "timestampMs": 17760
+   "startMs": 20660,
+   "endMs": 21240,
+   "tokens": [
+    {
+     "text": " my"
+    },
+    {
+     "text": " consciousness"
+    }
+   ]
   },
   {
-   "text": " bad",
-   "startMs": 17840,
-   "endMs": 17980,
-   "timestampMs": 17910
+   "startMs": 21240,
+   "endMs": 21740,
+   "tokens": [
+    {
+     "text": " told"
+    },
+    {
+     "text": " me"
+    }
+   ]
   },
   {
-   "text": " idea.",
-   "startMs": 17980,
-   "endMs": 18820,
-   "timestampMs": 18400
+   "startMs": 21740,
+   "endMs": 22060,
+   "tokens": [
+    {
+     "text": " she"
+    },
+    {
+     "text": " was"
+    }
+   ]
   },
   {
-   "text": " People",
-   "startMs": 18820,
-   "endMs": 18980,
-   "timestampMs": 18900
+   "startMs": 22060,
+   "endMs": 22460,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " wife,"
+    }
+   ]
   },
   {
-   "text": " look",
-   "startMs": 18980,
-   "endMs": 19160,
-   "timestampMs": 19070
-  },
-  {
-   "text": " at",
-   "startMs": 19160,
-   "endMs": 19260,
-   "timestampMs": 19210
-  },
-  {
-   "text": " me",
-   "startMs": 19260,
-   "endMs": 19320,
-   "timestampMs": 19290
-  },
-  {
-   "text": " and",
-   "startMs": 19320,
-   "endMs": 19440,
-   "timestampMs": 19380
-  },
-  {
-   "text": " go,",
-   "startMs": 19440,
-   "endMs": 19520,
-   "timestampMs": 19480
-  },
-  {
-   "text": " what",
-   "startMs": 19600,
-   "endMs": 19680,
-   "timestampMs": 19640
-  },
-  {
-   "text": " are",
-   "startMs": 19680,
-   "endMs": 19780,
-   "timestampMs": 19730
-  },
-  {
-   "text": " you",
-   "startMs": 19780,
-   "endMs": 19880,
-   "timestampMs": 19830
-  },
-  {
-   "text": " talking",
-   "startMs": 19880,
-   "endMs": 20140,
-   "timestampMs": 20010
-  },
-  {
-   "text": " about?",
-   "startMs": 20140,
-   "endMs": 20480,
-   "timestampMs": 20310
-  },
-  {
-   "text": " Consciousness",
-   "startMs": 20480,
-   "endMs": 20940,
-   "timestampMs": 20710
-  },
-  {
-   "text": " told",
-   "startMs": 20940,
-   "endMs": 21160,
-   "timestampMs": 21050
-  },
-  {
-   "text": " me,",
-   "startMs": 21160,
-   "endMs": 21340,
-   "timestampMs": 21250
-  },
-  {
-   "text": " bro.",
-   "startMs": 21480,
-   "endMs": 21600,
-   "timestampMs": 21540
-  },
-  {
-   "text": " 100",
-   "startMs": 21600,
-   "endMs": 22080,
-   "timestampMs": 21840
-  },
-  {
-   "text": "%",
-   "startMs": 22080,
-   "endMs": 22560,
-   "timestampMs": 22320
-  },
-  {
-   "text": " win",
-   "startMs": 22560,
-   "endMs": 22740,
-   "timestampMs": 22650
-  },
-  {
-   "text": " rate.",
-   "startMs": 22740,
-   "endMs": 23000,
-   "timestampMs": 22870
-  },
-  {
-   "text": " Every",
-   "startMs": 23000,
-   "endMs": 23220,
-   "timestampMs": 23110
-  },
-  {
-   "text": " single",
-   "startMs": 23220,
-   "endMs": 23420,
-   "timestampMs": 23320
-  },
-  {
-   "text": " time",
-   "startMs": 23420,
-   "endMs": 23660,
-   "timestampMs": 23540
-  },
-  {
-   "text": " my",
-   "startMs": 23660,
-   "endMs": 23840,
-   "timestampMs": 23750
-  },
-  {
-   "text": " consciousness",
-   "startMs": 23840,
-   "endMs": 24240,
-   "timestampMs": 24040
-  },
-  {
-   "text": " told",
-   "startMs": 24240,
-   "endMs": 24580,
-   "timestampMs": 24410
-  },
-  {
-   "text": " me",
-   "startMs": 24580,
-   "endMs": 24740,
-   "timestampMs": 24660
-  },
-  {
-   "text": " she",
-   "startMs": 24740,
-   "endMs": 24920,
-   "timestampMs": 24830
-  },
-  {
-   "text": " was",
-   "startMs": 24920,
-   "endMs": 25060,
-   "timestampMs": 24990
-  },
-  {
-   "text": " a",
-   "startMs": 25060,
-   "endMs": 25200,
-   "timestampMs": 25130
-  },
-  {
-   "text": " hoe,",
-   "startMs": 25200,
-   "endMs": 25460,
-   "timestampMs": 25330
-  },
-  {
-   "text": " I",
-   "startMs": 25880,
-   "endMs": 26320,
-   "timestampMs": 26100
-  },
-  {
-   "text": " was",
-   "startMs": 26320,
-   "endMs": 26560,
-   "timestampMs": 26440
-  },
-  {
-   "text": " right.",
-   "startMs": 26560,
-   "endMs": 26880,
-   "timestampMs": 26720
+   "startMs": 22880,
+   "endMs": 23880,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " was"
+    },
+    {
+     "text": " right."
+    }
+   ]
   }
  ],
  "music": {
@@ -595,10 +548,9 @@
   "accentColor": "#00E5FF",
   "textColor": "white",
   "strokeColor": "black",
-  "fontSize": 104,
+  "fontSize": 78,
   "captionPosition": "center",
   "uppercase": true,
-  "combineWithinMs": 900,
   "powerWords": [
    "consciousness",
    "future",
@@ -614,7 +566,9 @@
    "eternal",
    "theory",
    "theories",
-   "rich"
+   "rich",
+   "bad",
+   "idea"
   ]
  },
  "hook": {

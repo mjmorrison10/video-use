@@ -1,5 +1,4 @@
 import { makeTransform, scale, translateY } from "@remotion/animation-utils";
-import { TikTokPage } from "@remotion/captions";
 import { fitText } from "@remotion/layout-utils";
 import React from "react";
 import {
@@ -10,7 +9,7 @@ import {
   useVideoConfig,
 } from "remotion";
 import { PowerSerif } from "../load-font";
-import type { ShortProps } from "./schema";
+import type { CaptionPageT, ShortProps } from "./schema";
 
 const fontFamily = `${PowerSerif}, "SerifFallback", serif`;
 
@@ -21,7 +20,7 @@ const clean = (s: string) =>
     .trim();
 
 export const CaptionPage: React.FC<{
-  readonly page: TikTokPage;
+  readonly page: CaptionPageT;
   readonly style: ShortProps["style"];
 }> = ({ page, style }) => {
   const frame = useCurrentFrame();
@@ -30,9 +29,10 @@ export const CaptionPage: React.FC<{
   const enter = spring({ frame, fps, config: { damping: 200 }, durationInFrames: 6 });
 
   const textTransform = style.uppercase ? "uppercase" : "none";
+  const text = page.tokens.map((t) => t.text).join("");
   const fitted = fitText({
     fontFamily,
-    text: page.text,
+    text,
     withinWidth: width * 0.86,
     textTransform,
   });
@@ -47,7 +47,7 @@ export const CaptionPage: React.FC<{
           alignItems: "center",
           top: undefined,
           bottom: style.captionBottom,
-          height: 260,
+          height: 200,
           padding: "0 60px",
           textAlign: "center",
         }
@@ -64,23 +64,24 @@ export const CaptionPage: React.FC<{
         style={{
           fontSize,
           color: style.textColor,
-          WebkitTextStroke: `16px ${style.strokeColor}`,
+          WebkitTextStroke: `12px ${style.strokeColor}`,
           paintOrder: "stroke",
+          whiteSpace: "nowrap",
           transform: makeTransform([
             scale(interpolate(enter, [0, 1], [0.9, 1])),
-            translateY(interpolate(enter, [0, 1], [30, 0])),
+            translateY(interpolate(enter, [0, 1], [26, 0])),
           ]),
           fontFamily,
           textTransform,
-          lineHeight: 1.08,
-          textShadow: "0 6px 28px rgba(0,0,0,0.55)",
+          lineHeight: 1.05,
+          textShadow: "0 5px 24px rgba(0,0,0,0.55)",
         }}
       >
-        {page.tokens.map((t) => {
+        {page.tokens.map((t, i) => {
           const isPower = powerSet.has(clean(t.text));
           return (
             <span
-              key={t.fromMs}
+              key={i}
               style={{
                 display: "inline",
                 whiteSpace: "pre",
