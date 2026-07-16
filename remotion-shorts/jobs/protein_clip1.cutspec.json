@@ -1,0 +1,20 @@
+{
+  "videoSrc": "proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {"inSec": 7.17,   "outSec": 8.97,   "beat": "HOOK",      "framing": "cover"},
+    {"inSec": 89.63,  "outSec": 91.39,  "beat": "HOOK",      "framing": "cover"},
+    {"inSec": 95.49,  "outSec": 98.75,  "beat": "POINT",     "framing": "cover"},
+    {"inSec": 99.05,  "outSec": 101.37, "beat": "POINT",     "framing": "cover"},
+    {"inSec": 101.41, "outSec": 103.61, "beat": "POINT",     "framing": "cover"},
+    {"inSec": 106.07, "outSec": 109.27, "beat": "HOOK",      "framing": "cover"},
+    {"inSec": 111.99, "outSec": 113.59, "beat": "POINT",     "framing": "cover"},
+    {"inSec": 118.29, "outSec": 119.41, "beat": "REINFORCE", "framing": "cover"},
+    {"inSec": 119.59, "outSec": 120.69, "beat": "REINFORCE", "framing": "cover"}
+  ],
+  "style": {
+    "powerWords": ["more","protein","filling","enough","satiating","magical","brain","fat","carbs","full","tested","failed"]
+  },
+  "hook": {"text": "PROTEIN STOPS FILLING YOU UP", "untilSec": 2.5},
+  "music": {"src": "los_santos.mp3", "volLow": 0.035, "volHigh": 0.07, "climaxSec": 10, "startSec": 0}
+}

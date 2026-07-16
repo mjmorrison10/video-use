@@ -1,0 +1,516 @@
+{
+ "videoSrc": "proxy.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 7.17,
+   "outSec": 8.97,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 89.63,
+   "outSec": 91.39,
+   "offsetSec": 1.8,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 95.49,
+   "outSec": 98.75,
+   "offsetSec": 3.56,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 99.05,
+   "outSec": 101.37,
+   "offsetSec": 6.82,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 101.41,
+   "outSec": 103.61,
+   "offsetSec": 9.14,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 106.07,
+   "outSec": 109.27,
+   "offsetSec": 11.34,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 111.99,
+   "outSec": 113.59,
+   "offsetSec": 14.54,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 118.29,
+   "outSec": 119.41,
+   "offsetSec": 16.14,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 119.59,
+   "outSec": 120.69,
+   "offsetSec": 17.26,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 740,
+   "tokens": [
+    {
+     "text": " why"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 740,
+   "endMs": 1080,
+   "tokens": [
+    {
+     "text": " just"
+    },
+    {
+     "text": " eat"
+    }
+   ]
+  },
+  {
+   "startMs": 1080,
+   "endMs": 1800,
+   "tokens": [
+    {
+     "text": " more"
+    },
+    {
+     "text": " protein"
+    }
+   ]
+  },
+  {
+   "startMs": 1800,
+   "endMs": 2420,
+   "tokens": [
+    {
+     "text": " protein"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 2420,
+   "endMs": 3220,
+   "tokens": [
+    {
+     "text": " extremely"
+    },
+    {
+     "text": " filling"
+    }
+   ]
+  },
+  {
+   "startMs": 3440,
+   "endMs": 3560,
+   "tokens": [
+    {
+     "text": " right"
+    }
+   ]
+  },
+  {
+   "startMs": 3560,
+   "endMs": 4180,
+   "tokens": [
+    {
+     "text": " But"
+    },
+    {
+     "text": " once"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 4180,
+   "endMs": 4580,
+   "tokens": [
+    {
+     "text": " have"
+    },
+    {
+     "text": " enough"
+    }
+   ]
+  },
+  {
+   "startMs": 4580,
+   "endMs": 5740,
+   "tokens": [
+    {
+     "text": " protein"
+    },
+    {
+     "text": " it's"
+    },
+    {
+     "text": " no"
+    }
+   ]
+  },
+  {
+   "startMs": 5740,
+   "endMs": 6820,
+   "tokens": [
+    {
+     "text": " longer"
+    },
+    {
+     "text": " satiating"
+    }
+   ]
+  },
+  {
+   "startMs": 6820,
+   "endMs": 7160,
+   "tokens": [
+    {
+     "text": " It"
+    },
+    {
+     "text": " no"
+    }
+   ]
+  },
+  {
+   "startMs": 7160,
+   "endMs": 7640,
+   "tokens": [
+    {
+     "text": " longer"
+    },
+    {
+     "text": " has"
+    }
+   ]
+  },
+  {
+   "startMs": 7640,
+   "endMs": 8240,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " magical"
+    }
+   ]
+  },
+  {
+   "startMs": 8240,
+   "endMs": 9140,
+   "tokens": [
+    {
+     "text": " satiating"
+    },
+    {
+     "text": " effect"
+    }
+   ]
+  },
+  {
+   "startMs": 9140,
+   "endMs": 9320,
+   "tokens": [
+    {
+     "text": " If"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 9320,
+   "endMs": 10060,
+   "tokens": [
+    {
+     "text": " just"
+    },
+    {
+     "text": " eat"
+    }
+   ]
+  },
+  {
+   "startMs": 10060,
+   "endMs": 10500,
+   "tokens": [
+    {
+     "text": " tons"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 10500,
+   "endMs": 10740,
+   "tokens": [
+    {
+     "text": " tons"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 10740,
+   "endMs": 11020,
+   "tokens": [
+    {
+     "text": " tons"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 11020,
+   "endMs": 11460,
+   "tokens": [
+    {
+     "text": " protein"
+    },
+    {
+     "text": " your"
+    }
+   ]
+  },
+  {
+   "startMs": 11460,
+   "endMs": 12100,
+   "tokens": [
+    {
+     "text": " brain"
+    },
+    {
+     "text": " still"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 12100,
+   "endMs": 12720,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " we're"
+    }
+   ]
+  },
+  {
+   "startMs": 12720,
+   "endMs": 13480,
+   "tokens": [
+    {
+     "text": " lacking"
+    },
+    {
+     "text": " fat"
+    },
+    {
+     "text": " or"
+    }
+   ]
+  },
+  {
+   "startMs": 13480,
+   "endMs": 13860,
+   "tokens": [
+    {
+     "text": " we're"
+    },
+    {
+     "text": " lacking"
+    }
+   ]
+  },
+  {
+   "startMs": 13860,
+   "endMs": 14780,
+   "tokens": [
+    {
+     "text": " carbs"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 14780,
+   "endMs": 15280,
+   "tokens": [
+    {
+     "text": " won't"
+    },
+    {
+     "text": " stay"
+    }
+   ]
+  },
+  {
+   "startMs": 15280,
+   "endMs": 15780,
+   "tokens": [
+    {
+     "text": " full"
+    },
+    {
+     "text": " very"
+    }
+   ]
+  },
+  {
+   "startMs": 15780,
+   "endMs": 16140,
+   "tokens": [
+    {
+     "text": " long"
+    }
+   ]
+  },
+  {
+   "startMs": 16140,
+   "endMs": 16900,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " tested"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 16900,
+   "endMs": 17260,
+   "tokens": [
+    {
+     "text": " myself"
+    }
+   ]
+  },
+  {
+   "startMs": 17260,
+   "endMs": 17820,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " failed"
+    },
+    {
+     "text": " on"
+    }
+   ]
+  },
+  {
+   "startMs": 17820,
+   "endMs": 18100,
+   "tokens": [
+    {
+     "text": " all"
+    },
+    {
+     "text": " that"
+    }
+   ]
+  },
+  {
+   "startMs": 18100,
+   "endMs": 18360,
+   "tokens": [
+    {
+     "text": " stuff"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "los_santos.mp3",
+  "volLow": 0.035,
+  "volHigh": 0.07,
+  "climaxSec": 10,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#FFD60A",
+  "accentColor": "#FFD60A",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "more",
+   "protein",
+   "filling",
+   "enough",
+   "satiating",
+   "magical",
+   "brain",
+   "fat",
+   "carbs",
+   "full",
+   "tested",
+   "failed"
+  ]
+ },
+ "hook": {
+  "text": "PROTEIN STOPS FILLING YOU UP",
+  "untilSec": 2.5
+ }
+}
