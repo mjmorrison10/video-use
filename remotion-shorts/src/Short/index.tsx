@@ -48,7 +48,8 @@ const Segment: React.FC<{
   mute: boolean;
   fps: number;
   focus: Range["focus"];
-}> = ({ videoSrc, inSec, outSec, framing, mute, fps, focus }) => {
+  zoom: number;
+}> = ({ videoSrc, inSec, outSec, framing, mute, fps, focus, zoom }) => {
   const trimBefore = Math.round(inSec * fps);
   const trimAfter = Math.round(outSec * fps);
   const src = staticFile(videoSrc);
@@ -86,13 +87,22 @@ const Segment: React.FC<{
   }
 
   return (
-    <AbsoluteFill style={{ backgroundColor: "black" }}>
+    <AbsoluteFill style={{ backgroundColor: "black", overflow: "hidden" }}>
       <OffthreadVideo
         src={src}
         trimBefore={trimBefore}
         trimAfter={trimAfter}
         muted={mute}
-        style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition }}
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          objectPosition,
+          // Extra zoom toward the focal point (fills the frame on composed shots).
+          ...(zoom && zoom !== 1
+            ? { transform: `scale(${zoom})`, transformOrigin: objectPosition }
+            : {}),
+        }}
       />
     </AbsoluteFill>
   );
@@ -135,6 +145,7 @@ export const Short: React.FC<ShortProps> = ({
               mute={r.mute}
               fps={fps}
               focus={r.focus}
+              zoom={r.zoom}
             />
           </Sequence>
         );

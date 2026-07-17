@@ -42,19 +42,22 @@
       "inSec": 29.96,
       "outSec": 32.92,
       "beat": "HOOK",
-      "framing": "cover"
+      "framing": "cover",
+      "zoom": 1.5
     },
     {
       "inSec": 33.2,
       "outSec": 38.02,
       "beat": "POINT",
-      "framing": "cover"
+      "framing": "cover",
+      "zoom": 1.5
     },
     {
       "inSec": 38.04,
       "outSec": 41.3,
       "beat": "REINFORCE",
-      "framing": "cover"
+      "framing": "cover",
+      "zoom": 1.5
     }
   ],
   "style": {

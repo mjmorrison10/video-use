@@ -151,6 +151,7 @@ def main() -> int:
             "mute": bool(seg.get("mute", False)),
             "beat": seg.get("beat"),
             "focus": focus_segments[si] if si < len(focus_segments) else [],
+            "zoom": float(seg.get("zoom", 1)),
         })
         for w in words:
             ws, we = float(w["start"]), float(w["end"])

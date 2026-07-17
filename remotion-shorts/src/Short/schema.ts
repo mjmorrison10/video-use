@@ -18,6 +18,9 @@ export const rangeSchema = z.object({
   beat: z.string().optional(), // HOOK / POINT / etc (informational)
   // Face-aware pan track (segment-local frames). Empty = static center crop.
   focus: z.array(focusKeyframeSchema).default([]),
+  // Extra zoom on top of cover (1 = none). >1 crops tighter toward the focal
+  // point — e.g. to fill the frame on a composed graphic and hide its margins.
+  zoom: z.number().default(1),
 });
 
 // A caption "page" = one on-screen line of 2-3 words, output-timed (ms).

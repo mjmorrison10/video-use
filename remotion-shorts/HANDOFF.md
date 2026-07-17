@@ -111,17 +111,27 @@ music-supervisor agent write `jobs/music_map.json` (one distinct `src` per clip 
 
 ### 5b. Face tracking (keeps the subject framed in the 9:16 crop)
 The source is 16:9; the 9:16 `cover` crop otherwise shows only the CENTER slice, so
-an off-center selfie subject gets cut to the edge. `detect_faces.py` samples each
-segment, finds the largest face (frontal → profile → mirrored profile, with size +
-outlier rejection so a raised hand isn't mistaken for a face), smooths the path, and
-emits a per-segment `object-position` PAN TRACK (cover-scale-corrected).
+an off-center subject gets cut to the edge. `detect_faces.py` samples each segment,
+finds the largest face per frame, rejects outliers (a raised hand / background face),
+smooths the path, and emits a per-segment `object-position` PAN TRACK (cover-scale-
+corrected).
 ```bash
 uv run --with 'opencv-python-headless<5' --with numpy python scripts/detect_faces.py \
-    public/proxy.mp4 jobs/<clip>.cutspec.json -o jobs/<clip>.focus.json
+    public/<proxy>.mp4 jobs/<clip>.cutspec.json -o jobs/<clip>.focus.json
 ```
-`build_props.py` auto-loads `jobs/<clip>.focus.json` (or pass `--focus`) and attaches
-`focus` keyframes to each range; `src/Short/index.tsx` interpolates them into
-`objectPosition`. No focus file → static center crop (old behavior).
+- **Detector: YuNet DNN** (`models/yunet.onnx`, committed) — robust on PRODUCED
+  footage (small faces in wide b-roll, off-axis, composed graphics). Far better than
+  Haar, which flails on anything but a clean selfie. Falls back to Haar if the model
+  is missing. (Model source if you ever need it again:
+  `media.githubusercontent.com/media/opencv/opencv_zoo/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx`.)
+- `build_props.py` auto-loads `jobs/<clip>.focus.json` and attaches `focus` keyframes;
+  `src/Short/index.tsx` interpolates them into `objectPosition`. No focus file →
+  static center crop.
+- **Manual override:** for tricky produced footage you can hand-write `focus.json`
+  (one `{f:0,px,py}` keyframe per segment) instead of detecting.
+- **`zoom`** (cut-spec segment field, default 1): extra scale on top of cover toward
+  the focal point. Use `>1` (e.g. 1.4–1.6) on composed-graphic shots where the subject
+  sits in a card on a white canvas — zooms past the margins so there's no dead space.
 
 ### 6. Build props
 ```bash
