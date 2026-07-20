@@ -1,0 +1,13 @@
+{
+  "videoSrc": "heart_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {"inSec": 345.26, "outSec": 351.30, "beat": "HOOK",      "framing": "cover"},
+    {"inSec": 352.02, "outSec": 355.80, "beat": "POINT",     "framing": "cover"},
+    {"inSec": 390.62, "outSec": 393.60, "beat": "REINFORCE", "framing": "cover"},
+    {"inSec": 394.20, "outSec": 397.20, "beat": "REINFORCE", "framing": "cover"}
+  ],
+  "style": {"powerWords": ["walking","steps","15","20","cardio","hrv","gym"]},
+  "hook": {"text": "20,000 STEPS A DAY", "untilSec": 2.5},
+  "music": {"src": "night_drive.mp3", "volLow": 0.12, "volHigh": 0.22, "climaxSec": 9, "startSec": 40}
+}

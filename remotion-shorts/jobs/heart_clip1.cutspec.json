@@ -1,0 +1,55 @@
+{
+  "videoSrc": "heart_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 68.72,
+      "outSec": 72.9,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 73.32,
+      "outSec": 76.9,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 80.8,
+      "outSec": 86.55,
+      "beat": "REINFORCE",
+      "framing": "blur-contain"
+    },
+    {
+      "inSec": 87.16,
+      "outSec": 89.8,
+      "beat": "REINFORCE",
+      "framing": "blur-contain"
+    }
+  ],
+  "captionReplace": {
+    "cannot": "can"
+  },
+  "style": {
+    "powerWords": [
+      "heartbeats",
+      "die",
+      "fast",
+      "whales",
+      "mouse",
+      "longer",
+      "billion"
+    ]
+  },
+  "hook": {
+    "text": "YOU ONLY GET SO MANY BEATS",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "interstellar.mp3",
+    "volLow": 0.24,
+    "volHigh": 0.42,
+    "climaxSec": 9,
+    "startSec": 65
+  }
+}

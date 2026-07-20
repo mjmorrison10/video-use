@@ -1,0 +1,12 @@
+{
+  "videoSrc": "heart_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {"inSec": 255.42, "outSec": 258.70, "beat": "HOOK",      "framing": "cover"},
+    {"inSec": 290.02, "outSec": 294.55, "beat": "POINT",     "framing": "cover"},
+    {"inSec": 295.24, "outSec": 304.00, "beat": "REINFORCE", "framing": "cover"}
+  ],
+  "style": {"powerWords": ["billion","heartbeats","80","114","massive","exercise","years"]},
+  "hook": {"text": "80 YEARS VS 114 YEARS", "untilSec": 2.5},
+  "music": {"src": "dark_knight.mp3", "volLow": 0.12, "volHigh": 0.22, "climaxSec": 12, "startSec": 20}
+}

@@ -1,0 +1,13 @@
+{
+  "videoSrc": "heart_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {"inSec": 4.56,   "outSec": 10.90,  "beat": "HOOK",      "framing": "cover"},
+    {"inSec": 331.60, "outSec": 334.42, "beat": "POINT",     "framing": "cover"},
+    {"inSec": 334.74, "outSec": 338.70, "beat": "POINT",     "framing": "cover"},
+    {"inSec": 339.04, "outSec": 343.90, "beat": "REINFORCE", "framing": "cover"}
+  ],
+  "style": {"powerWords": ["35","39","elite","zone","cardio","drops","resting"]},
+  "hook": {"text": "HOW I GOT TO 35 BPM", "untilSec": 2.5},
+  "music": {"src": "royalty.mp3", "volLow": 0.12, "volHigh": 0.22, "climaxSec": 9, "startSec": 28}
+}
