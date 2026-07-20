@@ -4,7 +4,7 @@
  "ranges": [
   {
    "inSec": 293.62,
-   "outSec": 298.1,
+   "outSec": 298.14,
    "offsetSec": 0.0,
    "framing": "cover",
    "mute": false,
@@ -227,12 +227,17 @@
     },
     {
      "f": 129,
-     "px": 0.8816,
+     "px": 0.8822,
      "py": 0.5
     },
     {
      "f": 132,
-     "px": 0.8807,
+     "px": 0.8818,
+     "py": 0.5
+    },
+    {
+     "f": 135,
+     "px": 0.8816,
      "py": 0.5
     }
    ],
@@ -240,8 +245,8 @@
   },
   {
    "inSec": 304.76,
-   "outSec": 310.9,
-   "offsetSec": 4.48,
+   "outSec": 310.96,
+   "offsetSec": 4.52,
    "framing": "cover",
    "mute": false,
    "beat": "POINT",
@@ -561,8 +566,8 @@
   },
   {
    "inSec": 311.16,
-   "outSec": 313.9,
-   "offsetSec": 10.62,
+   "outSec": 314.6,
+   "offsetSec": 10.72,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE",
@@ -699,12 +704,47 @@
     },
     {
      "f": 78,
-     "px": 0.8867,
+     "px": 0.8866,
      "py": 0.5
     },
     {
      "f": 81,
-     "px": 0.8846,
+     "px": 0.884,
+     "py": 0.5
+    },
+    {
+     "f": 84,
+     "px": 0.8799,
+     "py": 0.5
+    },
+    {
+     "f": 87,
+     "px": 0.8763,
+     "py": 0.5
+    },
+    {
+     "f": 90,
+     "px": 0.8726,
+     "py": 0.5
+    },
+    {
+     "f": 93,
+     "px": 0.8693,
+     "py": 0.5
+    },
+    {
+     "f": 96,
+     "px": 0.867,
+     "py": 0.5
+    },
+    {
+     "f": 99,
+     "px": 0.8666,
+     "py": 0.5
+    },
+    {
+     "f": 102,
+     "px": 0.8669,
      "py": 0.5
     }
    ],
@@ -712,8 +752,8 @@
   },
   {
    "inSec": 314.6,
-   "outSec": 321.3,
-   "offsetSec": 13.36,
+   "outSec": 321.1,
+   "offsetSec": 14.16,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE",
@@ -1035,22 +1075,12 @@
     },
     {
      "f": 189,
-     "px": 0.8814,
+     "px": 0.8834,
      "py": 0.5
     },
     {
      "f": 192,
-     "px": 0.8767,
-     "py": 0.5
-    },
-    {
-     "f": 195,
-     "px": 0.8723,
-     "py": 0.5
-    },
-    {
-     "f": 198,
-     "px": 0.8678,
+     "px": 0.8825,
      "py": 0.5
     }
    ],
@@ -1114,7 +1144,7 @@
   },
   {
    "startMs": 3880,
-   "endMs": 4480,
+   "endMs": 4520,
    "tokens": [
     {
      "text": " visceral"
@@ -1125,8 +1155,8 @@
    ]
   },
   {
-   "startMs": 4480,
-   "endMs": 5380,
+   "startMs": 4520,
+   "endMs": 5420,
    "tokens": [
     {
      "text": " at"
@@ -1137,8 +1167,8 @@
    ]
   },
   {
-   "startMs": 5380,
-   "endMs": 6120,
+   "startMs": 5420,
+   "endMs": 6160,
    "tokens": [
     {
      "text": " weight"
@@ -1149,8 +1179,8 @@
    ]
   },
   {
-   "startMs": 6120,
-   "endMs": 7000,
+   "startMs": 6160,
+   "endMs": 7040,
    "tokens": [
     {
      "text": " visceral"
@@ -1161,8 +1191,8 @@
    ]
   },
   {
-   "startMs": 7000,
-   "endMs": 8240,
+   "startMs": 7040,
+   "endMs": 8280,
    "tokens": [
     {
      "text": " increased"
@@ -1176,8 +1206,8 @@
    ]
   },
   {
-   "startMs": 8240,
-   "endMs": 9060,
+   "startMs": 8280,
+   "endMs": 9100,
    "tokens": [
     {
      "text": " subjects"
@@ -1188,8 +1218,8 @@
    ]
   },
   {
-   "startMs": 9060,
-   "endMs": 10240,
+   "startMs": 9100,
+   "endMs": 10280,
    "tokens": [
     {
      "text": " fructose"
@@ -1203,8 +1233,8 @@
    ]
   },
   {
-   "startMs": 10240,
-   "endMs": 10620,
+   "startMs": 10280,
+   "endMs": 10720,
    "tokens": [
     {
      "text": " glucose"
@@ -1212,8 +1242,8 @@
    ]
   },
   {
-   "startMs": 10620,
-   "endMs": 11260,
+   "startMs": 10720,
+   "endMs": 11360,
    "tokens": [
     {
      "text": " again"
@@ -1227,8 +1257,8 @@
    ]
   },
   {
-   "startMs": 11260,
-   "endMs": 11800,
+   "startMs": 11360,
+   "endMs": 11900,
    "tokens": [
     {
      "text": " not"
@@ -1242,8 +1272,8 @@
    ]
   },
   {
-   "startMs": 11800,
-   "endMs": 12220,
+   "startMs": 11900,
+   "endMs": 12320,
    "tokens": [
     {
      "text": " that"
@@ -1254,8 +1284,8 @@
    ]
   },
   {
-   "startMs": 12220,
-   "endMs": 12480,
+   "startMs": 12320,
+   "endMs": 12580,
    "tokens": [
     {
      "text": " don't"
@@ -1266,8 +1296,8 @@
    ]
   },
   {
-   "startMs": 12480,
-   "endMs": 13360,
+   "startMs": 12580,
+   "endMs": 14160,
    "tokens": [
     {
      "text": " consuming"
@@ -1278,8 +1308,8 @@
    ]
   },
   {
-   "startMs": 13360,
-   "endMs": 14800,
+   "startMs": 14160,
+   "endMs": 15600,
    "tokens": [
     {
      "text": " so"
@@ -1290,8 +1320,8 @@
    ]
   },
   {
-   "startMs": 14800,
-   "endMs": 15380,
+   "startMs": 15600,
+   "endMs": 16180,
    "tokens": [
     {
      "text": " fruit"
@@ -1302,8 +1332,8 @@
    ]
   },
   {
-   "startMs": 15380,
-   "endMs": 15900,
+   "startMs": 16180,
+   "endMs": 16700,
    "tokens": [
     {
      "text": " difference"
@@ -1314,8 +1344,8 @@
    ]
   },
   {
-   "startMs": 15900,
-   "endMs": 16480,
+   "startMs": 16700,
+   "endMs": 17280,
    "tokens": [
     {
      "text": " that"
@@ -1329,8 +1359,8 @@
    ]
   },
   {
-   "startMs": 16480,
-   "endMs": 17160,
+   "startMs": 17280,
+   "endMs": 17960,
    "tokens": [
     {
      "text": " packed"
@@ -1341,8 +1371,8 @@
    ]
   },
   {
-   "startMs": 17160,
-   "endMs": 17880,
+   "startMs": 17960,
+   "endMs": 18680,
    "tokens": [
     {
      "text": " fiber"
@@ -1353,8 +1383,8 @@
    ]
   },
   {
-   "startMs": 17880,
-   "endMs": 18160,
+   "startMs": 18680,
+   "endMs": 18960,
    "tokens": [
     {
      "text": " that"
@@ -1365,8 +1395,8 @@
    ]
   },
   {
-   "startMs": 18160,
-   "endMs": 18480,
+   "startMs": 18960,
+   "endMs": 19280,
    "tokens": [
     {
      "text": " help"
@@ -1377,8 +1407,8 @@
    ]
   },
   {
-   "startMs": 18480,
-   "endMs": 18960,
+   "startMs": 19280,
+   "endMs": 19760,
    "tokens": [
     {
      "text": " offset"
@@ -1389,8 +1419,8 @@
    ]
   },
   {
-   "startMs": 18960,
-   "endMs": 19460,
+   "startMs": 19760,
+   "endMs": 20260,
    "tokens": [
     {
      "text": " effect"
@@ -1401,8 +1431,8 @@
    ]
   },
   {
-   "startMs": 19460,
-   "endMs": 19780,
+   "startMs": 20260,
+   "endMs": 20580,
    "tokens": [
     {
      "text": " fructose"

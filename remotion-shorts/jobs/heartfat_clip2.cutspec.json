@@ -3,26 +3,26 @@
   "fps": 30,
   "segments": [
     {
-      "inSec": 30.48,
-      "outSec": 36.75,
+      "inSec": 30.42,
+      "outSec": 36.69,
       "beat": "HOOK",
       "framing": "cover"
     },
     {
-      "inSec": 36.94,
-      "outSec": 42.0,
+      "inSec": 36.865,
+      "outSec": 42.235,
       "beat": "POINT",
       "framing": "cover"
     },
     {
-      "inSec": 42.46,
-      "outSec": 45.25,
+      "inSec": 42.35,
+      "outSec": 45.38,
       "beat": "POINT",
       "framing": "cover"
     },
     {
-      "inSec": 45.66,
-      "outSec": 50.55,
+      "inSec": 45.6,
+      "outSec": 50.625,
       "beat": "REINFORCE",
       "framing": "cover"
     }

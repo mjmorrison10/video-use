@@ -9,32 +9,32 @@
       "framing": "cover"
     },
     {
-      "inSec": 527.52,
-      "outSec": 529.95,
+      "inSec": 527.42,
+      "outSec": 529.88,
       "beat": "HOOK",
       "framing": "cover"
     },
     {
-      "inSec": 530.14,
+      "inSec": 530.075,
       "outSec": 532.42,
       "beat": "POINT",
       "framing": "cover"
     },
     {
       "inSec": 532.74,
-      "outSec": 536.45,
+      "outSec": 536.48,
       "beat": "POINT",
       "framing": "cover"
     },
     {
-      "inSec": 536.78,
-      "outSec": 538.6,
+      "inSec": 536.675,
+      "outSec": 538.78,
       "beat": "REINFORCE",
       "framing": "cover"
     },
     {
       "inSec": 541.3,
-      "outSec": 546.3,
+      "outSec": 546.26,
       "beat": "REINFORCE",
       "framing": "cover"
     }

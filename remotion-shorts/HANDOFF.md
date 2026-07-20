@@ -133,6 +133,34 @@ uv run --with 'opencv-python-headless<5' --with numpy python scripts/detect_face
   the focal point. Use `>1` (e.g. 1.4–1.6) on composed-graphic shots where the subject
   sits in a card on a white canvas — zooms past the margins so there's no dead space.
 
+### 5c. Snap cuts to silence (so no word is ever clipped)
+Whisper/ElevenLabs word timestamps are NOT frame-accurate — a word's attack can
+begin a few ms before its labelled `start` and its tail can ring on after its
+labelled `end`. If the editor sets `inSec`/`outSec` to a word boundary, the cut
+lands INSIDE the word and clips it (the client's Premiere complaint: "part of the
+word is cut out"). `snap_cuts.py` fixes this from the audio waveform — exactly what
+you do by hand in Premiere: place every cut inside the silent dead-space BETWEEN
+words.
+```bash
+uv run --with numpy python scripts/snap_cuts.py \
+    jobs/<clip>.cutspec.json /home/user/videos/<proj>/edit/transcript.json \
+    /home/user/videos/<proj>/audio.wav --inplace [--report]
+```
+- Builds a short-time RMS energy envelope from the 16 kHz `audio.wav`, finds the
+  ACTUAL onset of the first kept word and offset of the last kept word per segment,
+  then moves `inSec` back / `outSec` forward into the adjacent silence (with ~60 ms
+  pre-roll / ~80 ms post-roll).
+- **Only expands into REAL silence** (a gap ≥50 ms). If a word butts against its
+  neighbour (deliberate mid-sentence cut, continuous speech), it leaves the boundary
+  alone — moving it would drag in the neighbour's tail. Report flags this `no-gap(keep)`.
+- **Never adds or drops a word:** clamps every boundary so it can't cross the
+  previous/next word. Verify with `build_props … --dump-words` before/after — the word
+  list must be byte-identical (only total duration grows).
+- Run this AFTER authoring the cut-spec and BEFORE face-tracking + build_props (the
+  boundaries shift, so `focus.json` must be regenerated on the snapped spec).
+- `jobs/_pre_snap_backup/` holds the pre-snap cut-specs. `render_snapped.sh <base>…`
+  runs the whole snapped pipeline (faces → props → render → loudnorm → web compress).
+
 ### 6. Build props
 ```bash
 python scripts/build_props.py jobs/<clip>.cutspec.json \

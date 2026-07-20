@@ -4,25 +4,25 @@
   "segments": [
     {
       "inSec": 293.62,
-      "outSec": 298.1,
+      "outSec": 298.14,
       "beat": "HOOK",
       "framing": "cover"
     },
     {
       "inSec": 304.76,
-      "outSec": 310.9,
+      "outSec": 310.96,
       "beat": "POINT",
       "framing": "cover"
     },
     {
       "inSec": 311.16,
-      "outSec": 313.9,
+      "outSec": 314.6,
       "beat": "REINFORCE",
       "framing": "cover"
     },
     {
       "inSec": 314.6,
-      "outSec": 321.3,
+      "outSec": 321.1,
       "beat": "REINFORCE",
       "framing": "cover"
     }
