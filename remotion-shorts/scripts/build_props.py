@@ -153,6 +153,7 @@ def main() -> int:
             "focus": focus_segments[si] if si < len(focus_segments) else [],
             "zoom": float(seg.get("zoom", 1)),
         })
+        last_we = a
         for w in words:
             ws, we = float(w["start"]), float(w["end"])
             if ws < a or ws >= b:
@@ -167,6 +168,16 @@ def main() -> int:
                 "endMs": round(out_end * 1000),
                 "seg": si,  # which source segment this word came from
             })
+            last_we = max(last_we, we)
+        # CLIPPED-WORD GUARD: if a transcript word begins right at/after outSec while
+        # speech was still contiguous, the segment almost certainly cut a word in half
+        # (outSec was set to that word's START instead of its END). Warn loudly — this
+        # is the #1 recurring authoring mistake.
+        nxt = next((w for w in words if float(w["start"]) >= b), None)
+        if nxt is not None and float(nxt["start"]) - last_we < 0.08:
+            print(f"[warn] seg{si} outSec={b:.2f} may CLIP the word "
+                  f"{nxt['text']!r} (starts {float(nxt['start']):.2f}). "
+                  f"Extend outSec past its end.", file=sys.stderr)
         offset += dur
 
     if args.dump_words:

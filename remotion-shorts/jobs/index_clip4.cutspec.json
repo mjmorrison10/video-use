@@ -1,0 +1,65 @@
+{
+  "videoSrc": "index_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 718.32,
+      "outSec": 721.1,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 721.52,
+      "outSec": 723.6,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 724.86,
+      "outSec": 727.6,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 728.18,
+      "outSec": 730.1,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 730.36,
+      "outSec": 734.55,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 734.88,
+      "outSec": 739.1,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "individual",
+      "companies",
+      "fun",
+      "job",
+      "beat",
+      "market",
+      "fund",
+      "second"
+    ]
+  },
+  "hook": {
+    "text": "STOCK PICKING FELT LIKE A JOB",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "los_santos.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 8,
+    "startSec": 30
+  }
+}

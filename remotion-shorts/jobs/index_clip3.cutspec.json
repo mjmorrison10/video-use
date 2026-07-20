@@ -1,0 +1,61 @@
+{
+  "videoSrc": "index_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 1045.26,
+      "outSec": 1051.8,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 1043.4,
+      "outSec": 1044.7,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 1027.0,
+      "outSec": 1030.3,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 1033.12,
+      "outSec": 1037.32,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 1038.0,
+      "outSec": 1040.55,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "captionReplace": {
+    "lien": "lean"
+  },
+  "style": {
+    "powerWords": [
+      "sidelines",
+      "fear",
+      "toe",
+      "water",
+      "change",
+      "mind",
+      "fees"
+    ]
+  },
+  "hook": {
+    "text": "STICK A TOE IN THE WATER",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "mag7.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 9,
+    "startSec": 15
+  }
+}

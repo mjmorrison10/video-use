@@ -1,0 +1,52 @@
+{
+  "videoSrc": "index_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 48.56,
+      "outSec": 54.6,
+      "beat": "HOOK",
+      "framing": "blur-contain"
+    },
+    {
+      "inSec": 54.92,
+      "outSec": 63.1,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 63.5,
+      "outSec": 66.6,
+      "beat": "POINT",
+      "framing": "blur-contain"
+    },
+    {
+      "inSec": 73.66,
+      "outSec": 77.9,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "die",
+      "peptides",
+      "150",
+      "100",
+      "financial",
+      "plan",
+      "comments"
+    ]
+  },
+  "hook": {
+    "text": "I'M LIVING TO 150",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "night_drive.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 10,
+    "startSec": 40
+  }
+}

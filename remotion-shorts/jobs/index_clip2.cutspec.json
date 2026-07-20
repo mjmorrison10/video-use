@@ -1,0 +1,58 @@
+{
+  "videoSrc": "index_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 1073.0,
+      "outSec": 1075.7,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 1075.9,
+      "outSec": 1079.0,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 1088.74,
+      "outSec": 1090.6,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 1090.92,
+      "outSec": 1097.9,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 1098.0,
+      "outSec": 1100.8,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "son",
+      "inheritance",
+      "die",
+      "help",
+      "useful",
+      "harsh",
+      "150"
+    ]
+  },
+  "hook": {
+    "text": "MY SON GETS NO INHERITANCE",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "final_cut.mp3",
+    "volLow": 0.28,
+    "volHigh": 0.48,
+    "climaxSec": 11,
+    "startSec": 60
+  }
+}
