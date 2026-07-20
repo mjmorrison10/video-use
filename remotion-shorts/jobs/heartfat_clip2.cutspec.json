@@ -1,0 +1,52 @@
+{
+  "videoSrc": "heartfat_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 30.48,
+      "outSec": 36.75,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 36.94,
+      "outSec": 42.0,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 42.46,
+      "outSec": 45.25,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 45.66,
+      "outSec": 50.55,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "hunger",
+      "hungry",
+      "leptin",
+      "shrink",
+      "brain",
+      "energy",
+      "fat"
+    ]
+  },
+  "hook": {
+    "text": "EAT LESS, GET HUNGRIER",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "night_drive.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 10,
+    "startSec": 40
+  }
+}

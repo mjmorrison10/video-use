@@ -1,0 +1,64 @@
+{
+  "videoSrc": "heartfat_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 522.22,
+      "outSec": 524.72,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 527.52,
+      "outSec": 529.95,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 530.14,
+      "outSec": 532.42,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 532.74,
+      "outSec": 536.45,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 536.78,
+      "outSec": 538.6,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 541.3,
+      "outSec": 546.3,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "exercise",
+      "heart",
+      "fat",
+      "aerobic",
+      "directly",
+      "independent",
+      "epicardial"
+    ]
+  },
+  "hook": {
+    "text": "CARDIO STRIPS HEART FAT",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "royalty.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 9,
+    "startSec": 28
+  }
+}

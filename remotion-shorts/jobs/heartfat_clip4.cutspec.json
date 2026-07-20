@@ -1,0 +1,58 @@
+{
+  "videoSrc": "heartfat_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 583.16,
+      "outSec": 587.8,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 587.86,
+      "outSec": 590.9,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 590.94,
+      "outSec": 591.76,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 592.36,
+      "outSec": 596.75,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 597.72,
+      "outSec": 601.24,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "sleep",
+      "binge",
+      "energy",
+      "visceral",
+      "fat",
+      "hours",
+      "four"
+    ]
+  },
+  "hook": {
+    "text": "BAD SLEEP GROWS BELLY FAT",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "interstellar.mp3",
+    "volLow": 0.24,
+    "volHigh": 0.42,
+    "climaxSec": 9,
+    "startSec": 65
+  }
+}
