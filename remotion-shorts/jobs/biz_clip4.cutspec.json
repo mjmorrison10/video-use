@@ -1,0 +1,61 @@
+{
+  "videoSrc": "biz_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 142.04,
+      "outSec": 148.86,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 148.86,
+      "outSec": 152.3,
+      "beat": "HOOK",
+      "framing": "blur-contain"
+    },
+    {
+      "inSec": 153.02,
+      "outSec": 156.6,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 156.76,
+      "outSec": 161.3,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 161.5,
+      "outSec": 165.68,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "captionReplace": {
+    "greek": "workweek"
+  },
+  "style": {
+    "powerWords": [
+      "unfair",
+      "advantages",
+      "strengths",
+      "enjoy",
+      "scalable",
+      "bad",
+      "spelling"
+    ]
+  },
+  "hook": {
+    "text": "BUILD ON YOUR UNFAIR ADVANTAGE",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "interstellar.mp3",
+    "volLow": 0.22,
+    "volHigh": 0.4,
+    "climaxSec": 12,
+    "startSec": 65
+  }
+}

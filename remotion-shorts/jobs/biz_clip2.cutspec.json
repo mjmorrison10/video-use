@@ -1,0 +1,57 @@
+{
+  "videoSrc": "biz_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 1150.36,
+      "outSec": 1154.3,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 1154.38,
+      "outSec": 1158.1,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 1158.16,
+      "outSec": 1161.34,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 1161.34,
+      "outSec": 1164.08,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 1164.92,
+      "outSec": 1169.98,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "money",
+      "testing",
+      "free",
+      "product",
+      "buy",
+      "scrap"
+    ]
+  },
+  "hook": {
+    "text": "CAN YOU GET ONE PERSON TO PAY",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "los_santos.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 8,
+    "startSec": 30
+  }
+}
