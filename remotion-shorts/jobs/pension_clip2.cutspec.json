@@ -1,0 +1,64 @@
+{
+  "videoSrc": "pension_proxy.mp4",
+  "fps": 30,
+  "stripPunctuation": false,
+  "segments": [
+    {
+      "inSec": 270.72,
+      "outSec": 274.64,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 279.38,
+      "outSec": 287.96,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 300.08,
+      "outSec": 306.94,
+      "beat": "POINT",
+      "framing": "blur-contain"
+    },
+    {
+      "inSec": 306.98,
+      "outSec": 313.21,
+      "beat": "HOOK",
+      "framing": "blur-contain"
+    },
+    {
+      "inSec": 330.86,
+      "outSec": 337.92,
+      "beat": "REINFORCE",
+      "framing": "blur-contain"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "worth",
+      "comfortable",
+      "45",
+      "000",
+      "1",
+      "million",
+      "pounds",
+      "12",
+      "hundred",
+      "thousand",
+      "savings",
+      "never"
+    ]
+  },
+  "hook": {
+    "text": "YOUR PENSION IS WORTH £300K",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "royalty.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 28,
+    "startSec": 28
+  }
+}

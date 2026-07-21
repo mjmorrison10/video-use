@@ -180,6 +180,21 @@ def main() -> int:
                   f"Extend outSec past its end.", file=sys.stderr)
         offset += dur
 
+    # Merge number continuations into the previous caption token. Whisper emits
+    # thousands/decimals as separate tokens with NO leading space (e.g. "£45"
+    # then ",000"; "1" then ".1"). Every genuine new word carries a leading
+    # space, so a token that lacks one is a continuation of the prior word --
+    # glue it on so a number is one caption unit and can't split across a page.
+    merged = []
+    for w in flat:
+        if (merged and w["text"] and not w["text"][:1].isspace()
+                and w["seg"] == merged[-1]["seg"]):
+            merged[-1]["text"] += w["text"]
+            merged[-1]["endMs"] = w["endMs"]
+        else:
+            merged.append(w)
+    flat = merged
+
     if args.dump_words:
         for i, w in enumerate(flat):
             print(f"{i:3d} {w['text']!r}")

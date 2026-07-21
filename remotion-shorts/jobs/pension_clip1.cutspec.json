@@ -1,0 +1,44 @@
+{
+  "videoSrc": "pension_proxy.mp4",
+  "fps": 30,
+  "stripPunctuation": false,
+  "segments": [
+    {
+      "inSec": 36.15,
+      "outSec": 46.46,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 884.04,
+      "outSec": 894.56,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "fear",
+      "disappears",
+      "completely",
+      "experts",
+      "abolished",
+      "panic",
+      "vanishing",
+      "unlikely",
+      "300",
+      "000"
+    ]
+  },
+  "hook": {
+    "text": "WILL THE PENSION DISAPPEAR?",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "interstellar.mp3",
+    "volLow": 0.24,
+    "volHigh": 0.42,
+    "climaxSec": 17,
+    "startSec": 65
+  }
+}

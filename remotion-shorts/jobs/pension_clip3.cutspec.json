@@ -1,0 +1,49 @@
+{
+  "videoSrc": "pension_proxy.mp4",
+  "fps": 30,
+  "stripPunctuation": false,
+  "segments": [
+    {
+      "inSec": 209.96,
+      "outSec": 220.14,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 220.44,
+      "outSec": 222.16,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 228.21,
+      "outSec": 237.14,
+      "beat": "REINFORCE",
+      "framing": "blur-contain"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "pensioners",
+      "half",
+      "working",
+      "age",
+      "tenth",
+      "fund",
+      "zero",
+      "2043",
+      "50"
+    ]
+  },
+  "hook": {
+    "text": "PENSIONERS UP 50%, WORKERS UP 10%",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "dark_knight.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 11,
+    "startSec": 20
+  }
+}
