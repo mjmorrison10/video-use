@@ -1,0 +1,51 @@
+{
+  "videoSrc": "spain_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 339.51,
+      "outSec": 351.14,
+      "beat": "HOOK",
+      "framing": "blur-contain"
+    },
+    {
+      "inSec": 368.04,
+      "outSec": 379.185,
+      "beat": "POINT",
+      "framing": "blur-contain"
+    },
+    {
+      "inSec": 379.475,
+      "outSec": 387.86,
+      "beat": "REINFORCE",
+      "framing": "blur-contain"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "prisons",
+      "over",
+      "represented",
+      "crime",
+      "similar",
+      "2010",
+      "millions",
+      "immigrants",
+      "homicide",
+      "1990s",
+      "higher",
+      "down"
+    ]
+  },
+  "hook": {
+    "text": "MORE MIGRANTS, FEWER MURDERS",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "dark_knight.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 11,
+    "startSec": 20
+  }
+}

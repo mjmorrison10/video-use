@@ -1,0 +1,49 @@
+{
+  "videoSrc": "spain_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 772.765,
+      "outSec": 777.455,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 779.22,
+      "outSec": 784.36,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 998.61,
+      "outSec": 1007.45,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "young",
+      "pension",
+      "sustainable",
+      "low",
+      "skilled",
+      "fertility",
+      "long",
+      "term",
+      "aging",
+      "solution"
+    ]
+  },
+  "hook": {
+    "text": "IMMIGRATION'S PENSION TRAP",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "interstellar.mp3",
+    "volLow": 0.24,
+    "volHigh": 0.42,
+    "climaxSec": 11,
+    "startSec": 65
+  }
+}

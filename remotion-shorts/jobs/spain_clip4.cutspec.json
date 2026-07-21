@@ -1,0 +1,34 @@
+{
+  "videoSrc": "spain_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 504.52,
+      "outSec": 522.0,
+      "beat": "HOOK",
+      "framing": "blur-contain"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "GDP",
+      "person",
+      "impressive",
+      "number",
+      "one",
+      "growth",
+      "still"
+    ]
+  },
+  "hook": {
+    "text": "SPAIN LOST ITS CROWN?",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "royalty.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 9,
+    "startSec": 28
+  }
+}
