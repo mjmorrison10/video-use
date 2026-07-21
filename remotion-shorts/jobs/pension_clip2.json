@@ -658,7 +658,7 @@
    "inSec": 300.08,
    "outSec": 306.94,
    "offsetSec": 12.5,
-   "framing": "blur-contain",
+   "framing": "split",
    "mute": false,
    "beat": "POINT",
    "focus": [
@@ -1008,13 +1008,26 @@
      "py": 0.5
     }
    ],
-   "zoom": 1.0
+   "zoom": 1.0,
+   "pip": {
+    "x": 0.764,
+    "y": 0.267,
+    "w": 0.215,
+    "h": 0.421
+   },
+   "info": {
+    "x": 0.02,
+    "y": 0.11,
+    "w": 0.74,
+    "h": 0.78
+   },
+   "splitBg": "#161f3d"
   },
   {
    "inSec": 306.98,
    "outSec": 313.21,
    "offsetSec": 19.36,
-   "framing": "blur-contain",
+   "framing": "split",
    "mute": false,
    "beat": "HOOK",
    "focus": [
@@ -1334,13 +1347,26 @@
      "py": 0.5
     }
    ],
-   "zoom": 1.0
+   "zoom": 1.0,
+   "pip": {
+    "x": 0.764,
+    "y": 0.267,
+    "w": 0.215,
+    "h": 0.421
+   },
+   "info": {
+    "x": 0.02,
+    "y": 0.11,
+    "w": 0.74,
+    "h": 0.78
+   },
+   "splitBg": "#161f3d"
   },
   {
    "inSec": 330.86,
    "outSec": 337.92,
    "offsetSec": 25.59,
-   "framing": "blur-contain",
+   "framing": "split",
    "mute": false,
    "beat": "REINFORCE",
    "focus": [
@@ -1700,7 +1726,20 @@
      "py": 0.5
     }
    ],
-   "zoom": 1.0
+   "zoom": 1.0,
+   "pip": {
+    "x": 0.764,
+    "y": 0.267,
+    "w": 0.215,
+    "h": 0.421
+   },
+   "info": {
+    "x": 0.02,
+    "y": 0.11,
+    "w": 0.74,
+    "h": 0.78
+   },
+   "splitBg": "#161f3d"
   }
  ],
  "captionPages": [
@@ -1736,7 +1775,7 @@
    "endMs": 2100,
    "tokens": [
     {
-     "text": " away,"
+     "text": " away"
     },
     {
      "text": " how"
@@ -1778,7 +1817,7 @@
    "endMs": 3840,
    "tokens": [
     {
-     "text": " you?"
+     "text": " you"
     }
    ]
   },
@@ -1799,7 +1838,7 @@
    "endMs": 6280,
    "tokens": [
     {
-     "text": " retirement,"
+     "text": " retirement"
     },
     {
      "text": " according"
@@ -1838,7 +1877,7 @@
    "endMs": 8980,
    "tokens": [
     {
-     "text": " standards,"
+     "text": " standards"
     },
     {
      "text": " costs"
@@ -1880,7 +1919,7 @@
    "endMs": 12420,
    "tokens": [
     {
-     "text": " year."
+     "text": " year"
     }
    ]
   },
@@ -1970,7 +2009,7 @@
      "text": " million"
     },
     {
-     "text": " pounds."
+     "text": " pounds"
     }
    ]
   },
@@ -2072,7 +2111,7 @@
    "endMs": 25560,
    "tokens": [
     {
-     "text": " year."
+     "text": " year"
     }
    ]
   },
@@ -2177,7 +2216,7 @@
      "text": " build"
     },
     {
-     "text": " yourself."
+     "text": " yourself"
     }
    ]
   }

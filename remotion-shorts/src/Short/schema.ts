@@ -8,12 +8,20 @@ export const focusKeyframeSchema = z.object({
   py: z.number(),
 });
 
+// A source sub-rectangle in 0..1 fractions (of the 16:9 source frame).
+export const rectSchema = z.object({
+  x: z.number(),
+  y: z.number(),
+  w: z.number(),
+  h: z.number(),
+});
+
 // One segment of source footage placed on the output timeline.
 export const rangeSchema = z.object({
   inSec: z.number(), // start in the (proxy) source timeline, seconds
   outSec: z.number(), // end in the source timeline, seconds
   offsetSec: z.number(), // where this segment starts on the OUTPUT timeline
-  framing: z.enum(["cover", "blur-contain"]).default("cover"),
+  framing: z.enum(["cover", "blur-contain", "split"]).default("cover"),
   mute: z.boolean().default(false), // drop this segment's audio (censor)
   beat: z.string().optional(), // HOOK / POINT / etc (informational)
   // Face-aware pan track (segment-local frames). Empty = static center crop.
@@ -21,6 +29,11 @@ export const rangeSchema = z.object({
   // Extra zoom on top of cover (1 = none). >1 crops tighter toward the focal
   // point — e.g. to fill the frame on a composed graphic and hide its margins.
   zoom: z.number().default(1),
+  // framing="split": person (PIP) crop shown COVER in the top band, info/graphic
+  // crop shown CONTAIN in the bottom band. Rects are source-frame fractions.
+  pip: rectSchema.optional(),
+  info: rectSchema.optional(),
+  splitBg: z.string().optional(), // bottom-band background (match the graphic)
 });
 
 // A caption "page" = one on-screen line of 2-3 words, output-timed (ms).

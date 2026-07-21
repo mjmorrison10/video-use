@@ -40,6 +40,65 @@ const usePanPosition = (focus: Range["focus"]): string => {
   return `${px * 100}% ${py * 100}%`;
 };
 
+// Output canvas + the split bands (person on top, info/graphic on bottom).
+const OUT_W = 1080;
+const OUT_H = 1920;
+const SPLIT_TOP_H = 1040; // person band height
+const SRC_AR = 16 / 9;
+
+type Rect = { x: number; y: number; w: number; h: number };
+
+// Map a source sub-rectangle (0..1 fractions of the 16:9 frame) into a box,
+// COVER or CONTAIN, without distortion (uniform scale + centering).
+const SourceCrop: React.FC<{
+  src: string;
+  trimBefore: number;
+  trimAfter: number;
+  muted: boolean;
+  boxTop: number;
+  boxW: number;
+  boxH: number;
+  rect: Rect;
+  fit: "cover" | "contain";
+  bg?: string;
+}> = ({ src, trimBefore, trimAfter, muted, boxTop, boxW, boxH, rect, fit, bg }) => {
+  const iwForW = boxW / rect.w;
+  const iwForH = boxH / (rect.h / SRC_AR);
+  const IW = fit === "cover" ? Math.max(iwForW, iwForH) : Math.min(iwForW, iwForH);
+  const IH = IW / SRC_AR;
+  const tx = boxW / 2 - (rect.x + rect.w / 2) * IW;
+  const ty = boxH / 2 - (rect.y + rect.h / 2) * IH;
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: boxTop,
+        left: 0,
+        width: boxW,
+        height: boxH,
+        overflow: "hidden",
+        backgroundColor: bg ?? "black",
+      }}
+    >
+      <OffthreadVideo
+        src={src}
+        trimBefore={trimBefore}
+        trimAfter={trimAfter}
+        muted={muted}
+        style={{
+          position: "absolute",
+          left: 0,
+          top: 0,
+          width: IW,
+          height: IH,
+          transform: `translate(${tx}px, ${ty}px)`,
+          maxWidth: "none",
+        }}
+      />
+    </div>
+  );
+};
+
 const Segment: React.FC<{
   videoSrc: string;
   inSec: number;
@@ -49,11 +108,45 @@ const Segment: React.FC<{
   fps: number;
   focus: Range["focus"];
   zoom: number;
-}> = ({ videoSrc, inSec, outSec, framing, mute, fps, focus, zoom }) => {
+  pip?: Rect;
+  info?: Rect;
+  splitBg?: string;
+}> = ({ videoSrc, inSec, outSec, framing, mute, fps, focus, zoom, pip, info, splitBg }) => {
   const trimBefore = Math.round(inSec * fps);
   const trimAfter = Math.round(outSec * fps);
   const src = staticFile(videoSrc);
   const objectPosition = usePanPosition(focus);
+
+  // Split: person (PIP) COVER in the top band, info/graphic CONTAIN in the bottom.
+  if (framing === "split" && pip && info) {
+    return (
+      <AbsoluteFill style={{ backgroundColor: splitBg ?? "black" }}>
+        <SourceCrop
+          src={src}
+          trimBefore={trimBefore}
+          trimAfter={trimAfter}
+          muted={mute}
+          boxTop={0}
+          boxW={OUT_W}
+          boxH={SPLIT_TOP_H}
+          rect={pip}
+          fit="cover"
+        />
+        <SourceCrop
+          src={src}
+          trimBefore={trimBefore}
+          trimAfter={trimAfter}
+          muted
+          boxTop={SPLIT_TOP_H}
+          boxW={OUT_W}
+          boxH={OUT_H - SPLIT_TOP_H}
+          rect={info}
+          fit="contain"
+          bg={splitBg ?? "#ffffff"}
+        />
+      </AbsoluteFill>
+    );
+  }
 
   if (framing === "blur-contain") {
     return (
@@ -146,6 +239,9 @@ export const Short: React.FC<ShortProps> = ({
               fps={fps}
               focus={r.focus}
               zoom={r.zoom}
+              pip={r.pip}
+              info={r.info}
+              splitBg={r.splitBg}
             />
           </Sequence>
         );

@@ -628,7 +628,7 @@
    "inSec": 228.21,
    "outSec": 237.14,
    "offsetSec": 11.9,
-   "framing": "blur-contain",
+   "framing": "split",
    "mute": false,
    "beat": "REINFORCE",
    "focus": [
@@ -1083,7 +1083,20 @@
      "py": 0.5
     }
    ],
-   "zoom": 1.0
+   "zoom": 1.0,
+   "pip": {
+    "x": 0.659,
+    "y": 0.164,
+    "w": 0.32,
+    "h": 0.639
+   },
+   "info": {
+    "x": 0.03,
+    "y": 0.05,
+    "w": 0.61,
+    "h": 0.86
+   },
+   "splitBg": "#ffffff"
   }
  ],
  "captionPages": [
@@ -1200,7 +1213,7 @@
    "endMs": 6560,
    "tokens": [
     {
-     "text": " half,"
+     "text": " half"
     },
     {
      "text": " while"
@@ -1257,7 +1270,7 @@
    "endMs": 10100,
    "tokens": [
     {
-     "text": " tenth."
+     "text": " tenth"
     }
    ]
   },
@@ -1305,7 +1318,7 @@
    "endMs": 11820,
    "tokens": [
     {
-     "text": " fund."
+     "text": " fund"
     }
    ]
   },
@@ -1401,7 +1414,7 @@
      "text": " around"
     },
     {
-     "text": " 2043."
+     "text": " 2043"
     }
    ]
   }

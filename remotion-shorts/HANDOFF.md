@@ -132,6 +132,15 @@ uv run --with 'opencv-python-headless<5' --with numpy python scripts/detect_face
 - **`zoom`** (cut-spec segment field, default 1): extra scale on top of cover toward
   the focal point. Use `>1` (e.g. 1.4–1.6) on composed-graphic shots where the subject
   sits in a card on a white canvas — zooms past the margins so there's no dead space.
+- **`framing: "split"`** — person on TOP, info/graphic on BOTTOM (the "reaction over
+  a data card" look). For source frames that already composite a talking-head PIP over
+  a chart, it rearranges that one frame into a vertical split: the `pip` rect is shown
+  COVER in the top band (0–1040px) and the `info` rect CONTAIN in the bottom band, so
+  the chart is big and readable instead of tiny-letterboxed. Both rects are source-frame
+  fractions `{x,y,w,h}` (measure once off a full-res frame). `splitBg` sets the bottom
+  band's letterbox colour (match the graphic: `#ffffff` for a white chart, the card's
+  navy for a dark card). The PIP is upscaled, so the top is a little soft — only worth
+  it when the on-screen info is the point of the shot. Face `focus` is ignored in split.
 
 ### 5c. Snap cuts to silence (so no word is ever clipped)
 Whisper/ElevenLabs word timestamps are NOT frame-accurate — a word's attack can

@@ -40,12 +40,15 @@ DEFAULT_STYLE = {
 }
 
 # Punctuation stripped from caption DISPLAY text (grouping still uses the
-# originals to detect sentence ends). Apostrophes and % are kept.
-_PUNCT_RE = re.compile(r"[.,!?;:\"“”‘’—…()\[\]]")
+# originals to detect sentence ends). Apostrophes and % are kept. Commas and
+# periods are kept ONLY when they sit between digits (thousands separators like
+# "45,000" and decimals like "1.1"); a sentence-ending "." or "," is stripped.
+_PUNCT_RE = re.compile(r"[!?;:\"“”‘’—…()\[\]]")
+_DOTCOMMA_RE = re.compile(r"(?<!\d)[.,]|[.,](?!\d)")
 
 
 def strip_punct(text: str) -> str:
-    return _PUNCT_RE.sub("", text)
+    return _DOTCOMMA_RE.sub("", _PUNCT_RE.sub("", text))
 
 
 def load(p):
@@ -152,6 +155,9 @@ def main() -> int:
             "beat": seg.get("beat"),
             "focus": focus_segments[si] if si < len(focus_segments) else [],
             "zoom": float(seg.get("zoom", 1)),
+            **({"pip": seg["pip"]} if seg.get("pip") else {}),
+            **({"info": seg["info"]} if seg.get("info") else {}),
+            **({"splitBg": seg["splitBg"]} if seg.get("splitBg") else {}),
         })
         last_we = a
         for w in words:

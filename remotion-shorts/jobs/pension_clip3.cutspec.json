@@ -1,7 +1,6 @@
 {
   "videoSrc": "pension_proxy.mp4",
   "fps": 30,
-  "stripPunctuation": false,
   "segments": [
     {
       "inSec": 209.96,
@@ -19,7 +18,10 @@
       "inSec": 228.21,
       "outSec": 237.14,
       "beat": "REINFORCE",
-      "framing": "blur-contain"
+      "framing": "split",
+      "pip": { "x": 0.659, "y": 0.164, "w": 0.320, "h": 0.639 },
+      "info": { "x": 0.030, "y": 0.050, "w": 0.610, "h": 0.860 },
+      "splitBg": "#ffffff"
     }
   ],
   "style": {

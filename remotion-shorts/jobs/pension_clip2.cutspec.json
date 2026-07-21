@@ -1,7 +1,6 @@
 {
   "videoSrc": "pension_proxy.mp4",
   "fps": 30,
-  "stripPunctuation": false,
   "segments": [
     {
       "inSec": 270.72,
@@ -19,19 +18,28 @@
       "inSec": 300.08,
       "outSec": 306.94,
       "beat": "POINT",
-      "framing": "blur-contain"
+      "framing": "split",
+      "pip": { "x": 0.764, "y": 0.267, "w": 0.215, "h": 0.421 },
+      "info": { "x": 0.020, "y": 0.110, "w": 0.740, "h": 0.780 },
+      "splitBg": "#161f3d"
     },
     {
       "inSec": 306.98,
       "outSec": 313.21,
       "beat": "HOOK",
-      "framing": "blur-contain"
+      "framing": "split",
+      "pip": { "x": 0.764, "y": 0.267, "w": 0.215, "h": 0.421 },
+      "info": { "x": 0.020, "y": 0.110, "w": 0.740, "h": 0.780 },
+      "splitBg": "#161f3d"
     },
     {
       "inSec": 330.86,
       "outSec": 337.92,
       "beat": "REINFORCE",
-      "framing": "blur-contain"
+      "framing": "split",
+      "pip": { "x": 0.764, "y": 0.267, "w": 0.215, "h": 0.421 },
+      "info": { "x": 0.020, "y": 0.110, "w": 0.740, "h": 0.780 },
+      "splitBg": "#161f3d"
     }
   ],
   "style": {

@@ -1,7 +1,6 @@
 {
   "videoSrc": "pension_proxy.mp4",
   "fps": 30,
-  "stripPunctuation": false,
   "segments": [
     {
       "inSec": 36.15,
