@@ -132,6 +132,14 @@ uv run --with 'opencv-python-headless<5' --with numpy python scripts/detect_face
 - **`zoom`** (cut-spec segment field, default 1): extra scale on top of cover toward
   the focal point. Use `>1` (e.g. 1.4–1.6) on composed-graphic shots where the subject
   sits in a card on a white canvas — zooms past the margins so there's no dead space.
+- **Colour grade** (`style.grade`, a CSS filter; default
+  `contrast(1.08) saturate(1.16) brightness(1.02)`): an "HDR-style" pop applied to the
+  VIDEO layers only (captions/hook untouched). Tuned to stay natural on skin — verify
+  on a talking-head frame if you push it.
+- **`crop`** (cover-segment source rect): COVER-crop a source sub-rect instead of the
+  full frame — use `{x:0,y:0,w:1,h:0.77}` to drop a source's own burned-in caption band
+  (keeps top 77%). Centered, so best for centered subjects; it zooms in ~1.3×, so apply
+  only where a source caption actually appears (scan the segment first).
 - **`framing: "split"`** — person on TOP, info/graphic on BOTTOM (the "reaction over
   a data card" look). For source frames that already composite a talking-head PIP over
   a chart, it rearranges that one frame into a vertical split: the `pip` rect is shown

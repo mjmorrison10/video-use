@@ -34,6 +34,10 @@ export const rangeSchema = z.object({
   pip: rectSchema.optional(),
   info: rectSchema.optional(),
   splitBg: z.string().optional(), // bottom-band background (match the graphic)
+  // framing="cover": optional source sub-rect to COVER-crop into the frame (instead
+  // of the full frame). Use to drop the source's own burned-in caption band, e.g.
+  // {x:0,y:0,w:1,h:0.78} keeps the top 78% and crops the bottom caption strip.
+  crop: rectSchema.optional(),
 });
 
 // A caption "page" = one on-screen line of 2-3 words, output-timed (ms).
@@ -65,6 +69,9 @@ export const styleSchema = z.object({
   uppercase: z.boolean().default(true),
   // Words rendered in accentColor (and kept lit). Lowercased, punctuation-insensitive.
   powerWords: z.array(z.string()).default([]),
+  // CSS filter applied to the VIDEO layers only (not captions/hook) — a punchy
+  // "HDR-style" grade: expanded contrast + vibrance + a touch of brightness.
+  grade: z.string().default("contrast(1.08) saturate(1.16) brightness(1.02)"),
 });
 
 export const hookSchema = z

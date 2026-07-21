@@ -158,6 +158,7 @@ def main() -> int:
             **({"pip": seg["pip"]} if seg.get("pip") else {}),
             **({"info": seg["info"]} if seg.get("info") else {}),
             **({"splitBg": seg["splitBg"]} if seg.get("splitBg") else {}),
+            **({"crop": seg["crop"]} if seg.get("crop") else {}),
         })
         last_we = a
         for w in words:

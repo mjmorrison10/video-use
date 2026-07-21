@@ -61,13 +61,26 @@ const SourceCrop: React.FC<{
   rect: Rect;
   fit: "cover" | "contain";
   bg?: string;
-}> = ({ src, trimBefore, trimAfter, muted, boxTop, boxW, boxH, rect, fit, bg }) => {
+  grade?: string;
+}> = ({ src, trimBefore, trimAfter, muted, boxTop, boxW, boxH, rect, fit, bg, grade }) => {
   const iwForW = boxW / rect.w;
   const iwForH = boxH / (rect.h / SRC_AR);
   const IW = fit === "cover" ? Math.max(iwForW, iwForH) : Math.min(iwForW, iwForH);
   const IH = IW / SRC_AR;
-  const tx = boxW / 2 - (rect.x + rect.w / 2) * IW;
-  const ty = boxH / 2 - (rect.y + rect.h / 2) * IH;
+  // The rect's rendered size in box px. For CONTAIN it fits inside the box, so
+  // the visible "window" must be exactly the rect (bg shows around it) — else the
+  // source pixels ADJACENT to the rect leak into the letterbox. For COVER the
+  // window is the whole box and the overflow is clipped.
+  const rW = rect.w * IW;
+  const rH = rect.h * IH;
+  const winW = fit === "cover" ? boxW : Math.min(rW, boxW);
+  const winH = fit === "cover" ? boxH : Math.min(rH, boxH);
+  const winLeft = (boxW - winW) / 2;
+  const winTop = (boxH - winH) / 2;
+  // Position the video inside the window: center the rect (cover) or align the
+  // rect's top-left to the window (contain).
+  const vx = fit === "cover" ? winW / 2 - (rect.x + rect.w / 2) * IW : -rect.x * IW;
+  const vy = fit === "cover" ? winH / 2 - (rect.y + rect.h / 2) * IH : -rect.y * IH;
   return (
     <div
       style={{
@@ -80,21 +93,33 @@ const SourceCrop: React.FC<{
         backgroundColor: bg ?? "black",
       }}
     >
-      <OffthreadVideo
-        src={src}
-        trimBefore={trimBefore}
-        trimAfter={trimAfter}
-        muted={muted}
+      <div
         style={{
           position: "absolute",
-          left: 0,
-          top: 0,
-          width: IW,
-          height: IH,
-          transform: `translate(${tx}px, ${ty}px)`,
-          maxWidth: "none",
+          top: winTop,
+          left: winLeft,
+          width: winW,
+          height: winH,
+          overflow: "hidden",
         }}
-      />
+      >
+        <OffthreadVideo
+          src={src}
+          trimBefore={trimBefore}
+          trimAfter={trimAfter}
+          muted={muted}
+          style={{
+            position: "absolute",
+            left: 0,
+            top: 0,
+            width: IW,
+            height: IH,
+            transform: `translate(${vx}px, ${vy}px)`,
+            maxWidth: "none",
+            filter: grade,
+          }}
+        />
+      </div>
     </div>
   );
 };
@@ -111,7 +136,9 @@ const Segment: React.FC<{
   pip?: Rect;
   info?: Rect;
   splitBg?: string;
-}> = ({ videoSrc, inSec, outSec, framing, mute, fps, focus, zoom, pip, info, splitBg }) => {
+  grade?: string;
+  crop?: Rect;
+}> = ({ videoSrc, inSec, outSec, framing, mute, fps, focus, zoom, pip, info, splitBg, grade, crop }) => {
   const trimBefore = Math.round(inSec * fps);
   const trimAfter = Math.round(outSec * fps);
   const src = staticFile(videoSrc);
@@ -131,6 +158,7 @@ const Segment: React.FC<{
           boxH={SPLIT_TOP_H}
           rect={pip}
           fit="cover"
+          grade={grade}
         />
         <SourceCrop
           src={src}
@@ -143,6 +171,7 @@ const Segment: React.FC<{
           rect={info}
           fit="contain"
           bg={splitBg ?? "#ffffff"}
+          grade={grade}
         />
       </AbsoluteFill>
     );
@@ -172,9 +201,30 @@ const Segment: React.FC<{
             trimBefore={trimBefore}
             trimAfter={trimAfter}
             muted={mute}
-            style={{ width: "100%", height: "auto", objectFit: "contain" }}
+            style={{ width: "100%", height: "auto", objectFit: "contain", filter: grade }}
           />
         </AbsoluteFill>
+      </AbsoluteFill>
+    );
+  }
+
+  // Cover with an explicit source crop (e.g. to drop the source's burned-in
+  // caption band). Centered — use for centered subjects.
+  if (framing === "cover" && crop) {
+    return (
+      <AbsoluteFill style={{ backgroundColor: "black" }}>
+        <SourceCrop
+          src={src}
+          trimBefore={trimBefore}
+          trimAfter={trimAfter}
+          muted={mute}
+          boxTop={0}
+          boxW={OUT_W}
+          boxH={OUT_H}
+          rect={crop}
+          fit="cover"
+          grade={grade}
+        />
       </AbsoluteFill>
     );
   }
@@ -191,6 +241,7 @@ const Segment: React.FC<{
           height: "100%",
           objectFit: "cover",
           objectPosition,
+          filter: grade,
           // Extra zoom toward the focal point (fills the frame on composed shots).
           ...(zoom && zoom !== 1
             ? { transform: `scale(${zoom})`, transformOrigin: objectPosition }
@@ -242,6 +293,8 @@ export const Short: React.FC<ShortProps> = ({
               pip={r.pip}
               info={r.info}
               splitBg={r.splitBg}
+              grade={style.grade}
+              crop={r.crop}
             />
           </Sequence>
         );

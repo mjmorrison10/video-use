@@ -1,0 +1,58 @@
+{
+  "videoSrc": "retire_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 195.38,
+      "outSec": 206.9,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 206.9,
+      "outSec": 215.0,
+      "beat": "REINFORCE",
+      "framing": "split",
+      "pip": {
+        "x": 0.49,
+        "y": 0.0,
+        "w": 0.51,
+        "h": 1.0
+      },
+      "info": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.485,
+        "h": 1.0
+      },
+      "splitBg": "#182640"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "pot",
+      "markets",
+      "fall",
+      "30",
+      "years",
+      "refill",
+      "withdrawal",
+      "brick",
+      "wall",
+      "protect",
+      "temple",
+      "decades"
+    ]
+  },
+  "hook": {
+    "text": "SPENDING FEELS LIKE LOSING",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "dark_knight.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 11,
+    "startSec": 20
+  }
+}

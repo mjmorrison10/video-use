@@ -1,0 +1,45 @@
+{
+  "videoSrc": "retire_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 17.18,
+      "outSec": 37.44,
+      "beat": "HOOK",
+      "framing": "cover",
+      "crop": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 0.77
+      }
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "risk",
+      "running",
+      "money",
+      "opposite",
+      "brain",
+      "wired",
+      "working",
+      "years",
+      "steal",
+      "retirement",
+      "earned",
+      "noticing"
+    ]
+  },
+  "hook": {
+    "text": "YOUR BRAIN STEALS YOUR RETIREMENT",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "interstellar.mp3",
+    "volLow": 0.24,
+    "volHigh": 0.42,
+    "climaxSec": 11,
+    "startSec": 65
+  }
+}

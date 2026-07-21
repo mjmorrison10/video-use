@@ -1,0 +1,37 @@
+{
+  "videoSrc": "retire_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 55.32,
+      "outSec": 70.38,
+      "beat": "HOOK",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "million",
+      "pounds",
+      "amount",
+      "money",
+      "saver",
+      "irony",
+      "better",
+      "harder",
+      "spend",
+      "data"
+    ]
+  },
+  "hook": {
+    "text": "YOU DON'T NEED A MILLION",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "royalty.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 9,
+    "startSec": 28
+  }
+}
