@@ -1,0 +1,401 @@
+{
+ "videoSrc": "jk_florida_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 12.29,
+   "outSec": 14.09,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 15.35,
+   "outSec": 17.6,
+   "offsetSec": 1.8,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 0.25,
+   "outSec": 6.03,
+   "offsetSec": 4.05,
+   "framing": "cover",
+   "mute": false,
+   "beat": "CONTEXT"
+  },
+  {
+   "inSec": 17.51,
+   "outSec": 20.79,
+   "offsetSec": 9.83,
+   "framing": "cover",
+   "mute": false,
+   "beat": "CLIMAX"
+  },
+  {
+   "inSec": 21.97,
+   "outSec": 29.35,
+   "offsetSec": 13.11,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BUTTON"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 60,
+   "endMs": 780,
+   "tokens": [
+    {
+     "text": " First"
+    },
+    {
+     "text": " thing"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 780,
+   "endMs": 1080,
+   "tokens": [
+    {
+     "text": " do"
+    },
+    {
+     "text": " is"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 1080,
+   "endMs": 1800,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " sue"
+    },
+    {
+     "text": " her"
+    }
+   ]
+  },
+  {
+   "startMs": 1800,
+   "endMs": 2240,
+   "tokens": [
+    {
+     "text": " She"
+    },
+    {
+     "text": " lied"
+    }
+   ]
+  },
+  {
+   "startMs": 2500,
+   "endMs": 3560,
+   "tokens": [
+    {
+     "text": " She"
+    },
+    {
+     "text": " knows"
+    },
+    {
+     "text": " she"
+    }
+   ]
+  },
+  {
+   "startMs": 3560,
+   "endMs": 3900,
+   "tokens": [
+    {
+     "text": " lied"
+    }
+   ]
+  },
+  {
+   "startMs": 4690,
+   "endMs": 5470,
+   "tokens": [
+    {
+     "text": " where"
+    },
+    {
+     "text": " she's"
+    }
+   ]
+  },
+  {
+   "startMs": 5470,
+   "endMs": 5730,
+   "tokens": [
+    {
+     "text": " from"
+    }
+   ]
+  },
+  {
+   "startMs": 6370,
+   "endMs": 7230,
+   "tokens": [
+    {
+     "text": " No"
+    },
+    {
+     "text": " Romanian"
+    }
+   ]
+  },
+  {
+   "startMs": 7230,
+   "endMs": 9090,
+   "tokens": [
+    {
+     "text": " courts"
+    },
+    {
+     "text": " an"
+    }
+   ]
+  },
+  {
+   "startMs": 9090,
+   "endMs": 9770,
+   "tokens": [
+    {
+     "text": " American"
+    },
+    {
+     "text": " court"
+    }
+   ]
+  },
+  {
+   "startMs": 10010,
+   "endMs": 10690,
+   "tokens": [
+    {
+     "text": " The"
+    },
+    {
+     "text": " Romanian"
+    }
+   ]
+  },
+  {
+   "startMs": 10690,
+   "endMs": 11150,
+   "tokens": [
+    {
+     "text": " state"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 11150,
+   "endMs": 11550,
+   "tokens": [
+    {
+     "text": " corrupt"
+    }
+   ]
+  },
+  {
+   "startMs": 11750,
+   "endMs": 12350,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " stole"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 12350,
+   "endMs": 13030,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " stuff"
+    }
+   ]
+  },
+  {
+   "startMs": 13390,
+   "endMs": 14230,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " destroyed"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 14230,
+   "endMs": 14810,
+   "tokens": [
+    {
+     "text": " mental"
+    },
+    {
+     "text": " health"
+    }
+   ]
+  },
+  {
+   "startMs": 14970,
+   "endMs": 15390,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " put"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 15390,
+   "endMs": 15710,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " police"
+    }
+   ]
+  },
+  {
+   "startMs": 15710,
+   "endMs": 16650,
+   "tokens": [
+    {
+     "text": " cell"
+    },
+    {
+     "text": " they've"
+    }
+   ]
+  },
+  {
+   "startMs": 16650,
+   "endMs": 16970,
+   "tokens": [
+    {
+     "text": " ruined"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 16970,
+   "endMs": 17930,
+   "tokens": [
+    {
+     "text": " reputation"
+    },
+    {
+     "text": " they"
+    }
+   ]
+  },
+  {
+   "startMs": 17930,
+   "endMs": 18230,
+   "tokens": [
+    {
+     "text": " kept"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 18230,
+   "endMs": 20150,
+   "tokens": [
+    {
+     "text": " kids"
+    },
+    {
+     "text": " sue"
+    }
+   ]
+  },
+  {
+   "startMs": 20150,
+   "endMs": 20410,
+   "tokens": [
+    {
+     "text": " her"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "magnificent_seven.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.1,
+  "climaxSec": 15,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "sue",
+   "lied",
+   "florida",
+   "american",
+   "court",
+   "corrupt",
+   "reputation",
+   "kids",
+   "stole",
+   "romanian"
+  ]
+ },
+ "hook": {
+  "text": "SUE HER IN FLORIDA",
+  "untilSec": 2.5
+ }
+}

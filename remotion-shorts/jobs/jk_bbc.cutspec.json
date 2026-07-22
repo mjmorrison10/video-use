@@ -1,0 +1,15 @@
+{
+  "videoSrc": "jk_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {"inSec": 4924.41, "outSec": 4925.45, "beat": "HOOK", "framing": "cover"},
+    {"inSec": 4926.86, "outSec": 4930.86, "beat": "HOOK", "framing": "cover"},
+    {"inSec": 4931.28, "outSec": 4935.38, "beat": "POINT", "framing": "cover"},
+    {"inSec": 4939.86, "outSec": 4945.54, "beat": "POINT", "framing": "cover"},
+    {"inSec": 4945.92, "outSec": 4947.88, "beat": "REINFORCE", "framing": "cover"},
+    {"inSec": 4949.46, "outSec": 4953.44, "beat": "BUTTON", "framing": "cover"}
+  ],
+  "style": {"powerWords": ["bbc", "interview", "interviews", "corruption", "state", "calling", "called"]},
+  "hook": {"text": "‘I DON’T DO INTERVIEWS’", "untilSec": 2.5},
+  "music": {"src": "tristan_tate_theme.mp3", "volLow": 0.04, "volHigh": 0.10, "climaxSec": 13, "startSec": 0}
+}

@@ -1,0 +1,586 @@
+{
+ "videoSrc": "jk_bbc_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.25,
+   "outSec": 1.23,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 2.64,
+   "outSec": 6.67,
+   "offsetSec": 0.98,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 7.06,
+   "outSec": 11.38,
+   "offsetSec": 5.01,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 15.7,
+   "outSec": 21.25,
+   "offsetSec": 9.33,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 21.7,
+   "outSec": 23.73,
+   "offsetSec": 14.88,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 25.02,
+   "outSec": 29.41,
+   "offsetSec": 16.91,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BUTTON"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 520,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " BBC"
+    }
+   ]
+  },
+  {
+   "startMs": 520,
+   "endMs": 980,
+   "tokens": [
+    {
+     "text": " started"
+    },
+    {
+     "text": " calling"
+    }
+   ]
+  },
+  {
+   "startMs": 1040,
+   "endMs": 1980,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " called"
+    }
+   ]
+  },
+  {
+   "startMs": 1980,
+   "endMs": 2500,
+   "tokens": [
+    {
+     "text": " Alan"
+    },
+    {
+     "text": " first"
+    }
+   ]
+  },
+  {
+   "startMs": 2500,
+   "endMs": 2920,
+   "tokens": [
+    {
+     "text": " Alan"
+    },
+    {
+     "text": " goes"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 2920,
+   "endMs": 3520,
+   "tokens": [
+    {
+     "text": " BBC"
+    },
+    {
+     "text": " want"
+    },
+    {
+     "text": " an"
+    }
+   ]
+  },
+  {
+   "startMs": 3520,
+   "endMs": 3900,
+   "tokens": [
+    {
+     "text": " interview"
+    },
+    {
+     "text": " I'm"
+    }
+   ]
+  },
+  {
+   "startMs": 3900,
+   "endMs": 4600,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " nah"
+    },
+    {
+     "text": " I'm"
+    }
+   ]
+  },
+  {
+   "startMs": 4600,
+   "endMs": 5010,
+   "tokens": [
+    {
+     "text": " not"
+    },
+    {
+     "text": " doing"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 5070,
+   "endMs": 5610,
+   "tokens": [
+    {
+     "text": " you"
+    },
+    {
+     "text": " know"
+    }
+   ]
+  },
+  {
+   "startMs": 5610,
+   "endMs": 5990,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " really"
+    }
+   ]
+  },
+  {
+   "startMs": 5990,
+   "endMs": 6310,
+   "tokens": [
+    {
+     "text": " want"
+    },
+    {
+     "text": " an"
+    }
+   ]
+  },
+  {
+   "startMs": 6310,
+   "endMs": 6850,
+   "tokens": [
+    {
+     "text": " interview"
+    },
+    {
+     "text": " maybe"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 6850,
+   "endMs": 7270,
+   "tokens": [
+    {
+     "text": " should"
+    },
+    {
+     "text": " talk"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 7270,
+   "endMs": 8190,
+   "tokens": [
+    {
+     "text": " her"
+    },
+    {
+     "text": " it's"
+    }
+   ]
+  },
+  {
+   "startMs": 8190,
+   "endMs": 9170,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " who"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 9050,
+   "endMs": 9170,
+   "tokens": [
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 9330,
+   "endMs": 9850,
+   "tokens": [
+    {
+     "text": " hi"
+    },
+    {
+     "text": " Lucy"
+    }
+   ]
+  },
+  {
+   "startMs": 9970,
+   "endMs": 10170,
+   "tokens": [
+    {
+     "text": " nice"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 10170,
+   "endMs": 10410,
+   "tokens": [
+    {
+     "text": " meet"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 10690,
+   "endMs": 11830,
+   "tokens": [
+    {
+     "text": " Hi"
+    },
+    {
+     "text": " so"
+    },
+    {
+     "text": " we"
+    }
+   ]
+  },
+  {
+   "startMs": 11830,
+   "endMs": 12110,
+   "tokens": [
+    {
+     "text": " want"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " do"
+    }
+   ]
+  },
+  {
+   "startMs": 12110,
+   "endMs": 12470,
+   "tokens": [
+    {
+     "text": " an"
+    },
+    {
+     "text": " interview"
+    }
+   ]
+  },
+  {
+   "startMs": 12590,
+   "endMs": 13310,
+   "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " like"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 13310,
+   "endMs": 13570,
+   "tokens": [
+    {
+     "text": " don't"
+    },
+    {
+     "text": " think"
+    }
+   ]
+  },
+  {
+   "startMs": 13570,
+   "endMs": 14110,
+   "tokens": [
+    {
+     "text": " interviews"
+    },
+    {
+     "text": " are"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 14110,
+   "endMs": 14450,
+   "tokens": [
+    {
+     "text": " right"
+    },
+    {
+     "text": " thing"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 14450,
+   "endMs": 14650,
+   "tokens": [
+    {
+     "text": " me"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " do"
+    }
+   ]
+  },
+  {
+   "startMs": 14650,
+   "endMs": 14880,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " time"
+    }
+   ]
+  },
+  {
+   "startMs": 14940,
+   "endMs": 15360,
+   "tokens": [
+    {
+     "text": " Oh"
+    },
+    {
+     "text": " no"
+    }
+   ]
+  },
+  {
+   "startMs": 15400,
+   "endMs": 15860,
+   "tokens": [
+    {
+     "text": " actually"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 15860,
+   "endMs": 16180,
+   "tokens": [
+    {
+     "text": " think"
+    },
+    {
+     "text": " you'd"
+    },
+    {
+     "text": " be"
+    }
+   ]
+  },
+  {
+   "startMs": 16180,
+   "endMs": 16600,
+   "tokens": [
+    {
+     "text": " interested"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 16600,
+   "endMs": 16900,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " one"
+    }
+   ]
+  },
+  {
+   "startMs": 17190,
+   "endMs": 17830,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " well"
+    }
+   ]
+  },
+  {
+   "startMs": 17830,
+   "endMs": 18370,
+   "tokens": [
+    {
+     "text": " known"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " be"
+    }
+   ]
+  },
+  {
+   "startMs": 18410,
+   "endMs": 19990,
+   "tokens": [
+    {
+     "text": " it's"
+    },
+    {
+     "text": " about"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 19990,
+   "endMs": 21170,
+   "tokens": [
+    {
+     "text": " corruption"
+    },
+    {
+     "text": " state"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "tristan_tate_theme.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.1,
+  "climaxSec": 13,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "bbc",
+   "interview",
+   "interviews",
+   "corruption",
+   "state",
+   "calling",
+   "called"
+  ]
+ },
+ "hook": {
+  "text": "‘I DON’T DO INTERVIEWS’",
+  "untilSec": 2.5
+ }
+}

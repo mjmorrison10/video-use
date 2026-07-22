@@ -65,7 +65,7 @@ merged=[segs[0]]
 for s in segs[1:]:
     p=merged[-1]
     g=s['w0']['start']-p['w1']['end']
-    if g<MERGE_GAP and (g<0.12 or speech(p['w1']['end'],s['w0']['start'])):
+    if 0<=g<MERGE_GAP and (g<0.12 or speech(p['w1']['end'],s['w0']['start'])):
         p['w1']=s['w1']; p['outSec']=s['outSec']; p['_m']=p.get('_m',0)+1
     else: merged.append(s)
 print(f"# thr={thr:.4f} segs {len(spec['segments'])}->{len(merged)}")

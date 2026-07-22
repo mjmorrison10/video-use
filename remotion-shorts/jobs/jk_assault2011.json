@@ -1,0 +1,439 @@
+{
+ "videoSrc": "jk_assault2011_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.25,
+   "outSec": 3.55,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 4.33,
+   "outSec": 9.5,
+   "offsetSec": 3.3,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 10.45,
+   "outSec": 13.72,
+   "offsetSec": 8.47,
+   "framing": "cover",
+   "mute": false,
+   "beat": "CLIMAX"
+  },
+  {
+   "inSec": 17.09,
+   "outSec": 22.33,
+   "offsetSec": 11.74,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BUTTON"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 60,
+   "endMs": 380,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " said"
+    }
+   ]
+  },
+  {
+   "startMs": 500,
+   "endMs": 920,
+   "tokens": [
+    {
+     "text": " what"
+    },
+    {
+     "text": " date"
+    }
+   ]
+  },
+  {
+   "startMs": 1080,
+   "endMs": 1440,
+   "tokens": [
+    {
+     "text": " When"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 1440,
+   "endMs": 1860,
+   "tokens": [
+    {
+     "text": " 2011"
+    }
+   ]
+  },
+  {
+   "startMs": 2560,
+   "endMs": 3020,
+   "tokens": [
+    {
+     "text": " It"
+    },
+    {
+     "text": " doesn't"
+    }
+   ]
+  },
+  {
+   "startMs": 3020,
+   "endMs": 3200,
+   "tokens": [
+    {
+     "text": " say"
+    }
+   ]
+  },
+  {
+   "startMs": 3360,
+   "endMs": 3700,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " said"
+    }
+   ]
+  },
+  {
+   "startMs": 3700,
+   "endMs": 3940,
+   "tokens": [
+    {
+     "text": " what"
+    },
+    {
+     "text": " does"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 3940,
+   "endMs": 4140,
+   "tokens": [
+    {
+     "text": " say"
+    }
+   ]
+  },
+  {
+   "startMs": 4260,
+   "endMs": 5660,
+   "tokens": [
+    {
+     "text": " He"
+    },
+    {
+     "text": " 2011"
+    }
+   ]
+  },
+  {
+   "startMs": 6260,
+   "endMs": 6500,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 6500,
+   "endMs": 6800,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " that's"
+    }
+   ]
+  },
+  {
+   "startMs": 6800,
+   "endMs": 7020,
+   "tokens": [
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 7660,
+   "endMs": 8080,
+   "tokens": [
+    {
+     "text": " He"
+    },
+    {
+     "text": " goes"
+    }
+   ]
+  },
+  {
+   "startMs": 8120,
+   "endMs": 8380,
+   "tokens": [
+    {
+     "text": " yeah"
+    },
+    {
+     "text": " that's"
+    }
+   ]
+  },
+  {
+   "startMs": 8380,
+   "endMs": 8470,
+   "tokens": [
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 8530,
+   "endMs": 8810,
+   "tokens": [
+    {
+     "text": " So"
+    },
+    {
+     "text": " I"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 8810,
+   "endMs": 9070,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " well"
+    }
+   ]
+  },
+  {
+   "startMs": 9090,
+   "endMs": 9390,
+   "tokens": [
+    {
+     "text": " then"
+    },
+    {
+     "text": " how"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 9390,
+   "endMs": 9750,
+   "tokens": [
+    {
+     "text": " fuck"
+    },
+    {
+     "text": " do"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 9750,
+   "endMs": 10330,
+   "tokens": [
+    {
+     "text": " defend"
+    },
+    {
+     "text": " myself"
+    }
+   ]
+  },
+  {
+   "startMs": 10430,
+   "endMs": 10650,
+   "tokens": [
+    {
+     "text": " It"
+    },
+    {
+     "text": " says"
+    }
+   ]
+  },
+  {
+   "startMs": 10650,
+   "endMs": 11650,
+   "tokens": [
+    {
+     "text": " assault"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 11650,
+   "endMs": 11770,
+   "tokens": [
+    {
+     "text": " 2011"
+    }
+   ]
+  },
+  {
+   "startMs": 12260,
+   "endMs": 12520,
+   "tokens": [
+    {
+     "text": " When"
+    }
+   ]
+  },
+  {
+   "startMs": 12740,
+   "endMs": 12980,
+   "tokens": [
+    {
+     "text": " Who"
+    }
+   ]
+  },
+  {
+   "startMs": 13340,
+   "endMs": 14240,
+   "tokens": [
+    {
+     "text": " What"
+    },
+    {
+     "text": " circumstance"
+    }
+   ]
+  },
+  {
+   "startMs": 14500,
+   "endMs": 14740,
+   "tokens": [
+    {
+     "text": " Male"
+    }
+   ]
+  },
+  {
+   "startMs": 14940,
+   "endMs": 15180,
+   "tokens": [
+    {
+     "text": " Female"
+    }
+   ]
+  },
+  {
+   "startMs": 15380,
+   "endMs": 16180,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " don't"
+    }
+   ]
+  },
+  {
+   "startMs": 16180,
+   "endMs": 16280,
+   "tokens": [
+    {
+     "text": " know"
+    },
+    {
+     "text": " what"
+    },
+    {
+     "text": " he's"
+    }
+   ]
+  },
+  {
+   "startMs": 16280,
+   "endMs": 16820,
+   "tokens": [
+    {
+     "text": " talking"
+    },
+    {
+     "text": " about"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.1,
+  "climaxSec": 9,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "defend",
+   "assault",
+   "fuck",
+   "circumstance",
+   "male",
+   "female",
+   "date",
+   "myself"
+  ]
+ },
+ "hook": {
+  "text": "“DEFEND MYSELF FROM WHAT?”",
+  "untilSec": 2.5
+ }
+}

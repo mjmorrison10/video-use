@@ -1,0 +1,408 @@
+{
+ "videoSrc": "jk_makeitup_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 4.0,
+   "outSec": 5.66,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 0.25,
+   "outSec": 3.93,
+   "offsetSec": 1.66,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 21.99,
+   "outSec": 29.37,
+   "offsetSec": 5.34,
+   "framing": "cover",
+   "mute": false,
+   "beat": "EVIDENCE"
+  },
+  {
+   "inSec": 34.29,
+   "outSec": 37.99,
+   "offsetSec": 12.72,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 50,
+   "endMs": 870,
+   "tokens": [
+    {
+     "text": " girls"
+    },
+    {
+     "text": " they"
+    }
+   ]
+  },
+  {
+   "startMs": 870,
+   "endMs": 1410,
+   "tokens": [
+    {
+     "text": " make"
+    },
+    {
+     "text": " stuff"
+    }
+   ]
+  },
+  {
+   "startMs": 1410,
+   "endMs": 1660,
+   "tokens": [
+    {
+     "text": " up"
+    }
+   ]
+  },
+  {
+   "startMs": 1720,
+   "endMs": 2200,
+   "tokens": [
+    {
+     "text": " Maybe"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 2200,
+   "endMs": 2820,
+   "tokens": [
+    {
+     "text": " Romania"
+    },
+    {
+     "text": " it's"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 2820,
+   "endMs": 3040,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " big"
+    }
+   ]
+  },
+  {
+   "startMs": 3040,
+   "endMs": 3280,
+   "tokens": [
+    {
+     "text": " thing"
+    }
+   ]
+  },
+  {
+   "startMs": 3380,
+   "endMs": 3560,
+   "tokens": [
+    {
+     "text": " But"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 3560,
+   "endMs": 4300,
+   "tokens": [
+    {
+     "text": " America"
+    },
+    {
+     "text": " this"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 4300,
+   "endMs": 5120,
+   "tokens": [
+    {
+     "text": " happens"
+    },
+    {
+     "text": " all"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 5120,
+   "endMs": 5280,
+   "tokens": [
+    {
+     "text": " time"
+    }
+   ]
+  },
+  {
+   "startMs": 5340,
+   "endMs": 6640,
+   "tokens": [
+    {
+     "text": " cameras"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " see"
+    }
+   ]
+  },
+  {
+   "startMs": 6640,
+   "endMs": 7380,
+   "tokens": [
+    {
+     "text": " her"
+    },
+    {
+     "text": " walking"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 7380,
+   "endMs": 7680,
+   "tokens": [
+    {
+     "text": " and"
+    },
+    {
+     "text": " out"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 7680,
+   "endMs": 9180,
+   "tokens": [
+    {
+     "text": " house"
+    },
+    {
+     "text": " getting"
+    }
+   ]
+  },
+  {
+   "startMs": 9180,
+   "endMs": 10140,
+   "tokens": [
+    {
+     "text": " pizza"
+    },
+    {
+     "text": " going"
+    },
+    {
+     "text": " out"
+    }
+   ]
+  },
+  {
+   "startMs": 10140,
+   "endMs": 10520,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " party"
+    }
+   ]
+  },
+  {
+   "startMs": 11020,
+   "endMs": 11660,
+   "tokens": [
+    {
+     "text": " You"
+    },
+    {
+     "text": " can"
+    },
+    {
+     "text": " see"
+    }
+   ]
+  },
+  {
+   "startMs": 11660,
+   "endMs": 12260,
+   "tokens": [
+    {
+     "text": " it"
+    },
+    {
+     "text": " all"
+    },
+    {
+     "text": " on"
+    }
+   ]
+  },
+  {
+   "startMs": 12260,
+   "endMs": 12640,
+   "tokens": [
+    {
+     "text": " camera"
+    }
+   ]
+  },
+  {
+   "startMs": 12740,
+   "endMs": 13040,
+   "tokens": [
+    {
+     "text": " her"
+    },
+    {
+     "text": " own"
+    }
+   ]
+  },
+  {
+   "startMs": 13040,
+   "endMs": 13440,
+   "tokens": [
+    {
+     "text": " free"
+    },
+    {
+     "text": " will"
+    }
+   ]
+  },
+  {
+   "startMs": 13540,
+   "endMs": 13960,
+   "tokens": [
+    {
+     "text": " getting"
+    },
+    {
+     "text": " Ubers"
+    }
+   ]
+  },
+  {
+   "startMs": 14100,
+   "endMs": 14620,
+   "tokens": [
+    {
+     "text": " getting"
+    },
+    {
+     "text": " taxis"
+    }
+   ]
+  },
+  {
+   "startMs": 14720,
+   "endMs": 15160,
+   "tokens": [
+    {
+     "text": " ordering"
+    },
+    {
+     "text": " food"
+    }
+   ]
+  },
+  {
+   "startMs": 15280,
+   "endMs": 15780,
+   "tokens": [
+    {
+     "text": " ordering"
+    },
+    {
+     "text": " Amazon"
+    }
+   ]
+  },
+  {
+   "startMs": 15780,
+   "endMs": 16260,
+   "tokens": [
+    {
+     "text": " packages"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "dont_be_suspicious.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.09,
+  "climaxSec": 8,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "girls",
+   "stuff",
+   "cameras",
+   "house",
+   "pizza",
+   "party",
+   "ubers",
+   "taxis",
+   "amazon",
+   "america"
+  ]
+ },
+ "hook": {
+  "text": "“THESE GIRLS MAKE STUFF UP”",
+  "untilSec": 2.5
+ }
+}

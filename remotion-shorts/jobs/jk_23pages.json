@@ -1,0 +1,342 @@
+{
+ "videoSrc": "jk_23pages_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.25,
+   "outSec": 3.65,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "SETUP"
+  },
+  {
+   "inSec": 4.15,
+   "outSec": 8.03,
+   "offsetSec": 3.4,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 10.03,
+   "outSec": 11.21,
+   "offsetSec": 7.28,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 11.79,
+   "outSec": 14.26,
+   "offsetSec": 8.46,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 15.37,
+   "outSec": 16.16,
+   "offsetSec": 10.93,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 18.03,
+   "outSec": 21.35,
+   "offsetSec": 11.72,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 24.93,
+   "outSec": 26.16,
+   "offsetSec": 15.04,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BUTTON"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 60,
+   "endMs": 1280,
+   "tokens": [
+    {
+     "text": " The"
+    },
+    {
+     "text": " translator"
+    }
+   ]
+  },
+  {
+   "startMs": 1280,
+   "endMs": 2440,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " used"
+    }
+   ]
+  },
+  {
+   "startMs": 2440,
+   "endMs": 2720,
+   "tokens": [
+    {
+     "text": " didn't"
+    },
+    {
+     "text": " have"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 2720,
+   "endMs": 3400,
+   "tokens": [
+    {
+     "text": " translation"
+    },
+    {
+     "text": " certificate"
+    }
+   ]
+  },
+  {
+   "startMs": 3460,
+   "endMs": 4300,
+   "tokens": [
+    {
+     "text": " The"
+    },
+    {
+     "text": " warrant"
+    }
+   ]
+  },
+  {
+   "startMs": 4300,
+   "endMs": 5240,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " used"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 5240,
+   "endMs": 5580,
+   "tokens": [
+    {
+     "text": " raid"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 5580,
+   "endMs": 6680,
+   "tokens": [
+    {
+     "text": " house"
+    },
+    {
+     "text": " had"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 6680,
+   "endMs": 7280,
+   "tokens": [
+    {
+     "text": " wrong"
+    },
+    {
+     "text": " address"
+    }
+   ]
+  },
+  {
+   "startMs": 7560,
+   "endMs": 8460,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " shitshow"
+    }
+   ]
+  },
+  {
+   "startMs": 8560,
+   "endMs": 10040,
+   "tokens": [
+    {
+     "text": " 23"
+    },
+    {
+     "text": " pages"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 10040,
+   "endMs": 10930,
+   "tokens": [
+    {
+     "text": " broken"
+    },
+    {
+     "text": " laws"
+    }
+   ]
+  },
+  {
+   "startMs": 10990,
+   "endMs": 11670,
+   "tokens": [
+    {
+     "text": " Funnily"
+    },
+    {
+     "text": " enough"
+    }
+   ]
+  },
+  {
+   "startMs": 12000,
+   "endMs": 13200,
+   "tokens": [
+    {
+     "text": " after"
+    },
+    {
+     "text": " this"
+    },
+    {
+     "text": " day"
+    }
+   ]
+  },
+  {
+   "startMs": 13380,
+   "endMs": 13520,
+   "tokens": [
+    {
+     "text": " when"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 13520,
+   "endMs": 14460,
+   "tokens": [
+    {
+     "text": " preliminary"
+    },
+    {
+     "text": " chamber"
+    }
+   ]
+  },
+  {
+   "startMs": 14460,
+   "endMs": 15680,
+   "tokens": [
+    {
+     "text": " started"
+    },
+    {
+     "text": " I"
+    },
+    {
+     "text": " got"
+    }
+   ]
+  },
+  {
+   "startMs": 15680,
+   "endMs": 15840,
+   "tokens": [
+    {
+     "text": " all"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 15840,
+   "endMs": 16260,
+   "tokens": [
+    {
+     "text": " cars"
+    },
+    {
+     "text": " back"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "metro_superhero.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.1,
+  "climaxSec": 9,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "warrant",
+   "raid",
+   "wrong",
+   "address",
+   "broken",
+   "laws",
+   "pages",
+   "translator",
+   "certificate",
+   "cars"
+  ]
+ },
+ "hook": {
+  "text": "23 PAGES OF BROKEN LAWS",
+  "untilSec": 2.5
+ }
+}

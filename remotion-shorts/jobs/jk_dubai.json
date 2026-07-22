@@ -1,0 +1,423 @@
+{
+ "videoSrc": "jk_dubai_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.25,
+   "outSec": 6.36,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 18.75,
+   "outSec": 26.09,
+   "offsetSec": 6.11,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 30.3,
+   "outSec": 32.82,
+   "offsetSec": 13.45,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BUTTON"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 60,
+   "endMs": 780,
+   "tokens": [
+    {
+     "text": " I've"
+    },
+    {
+     "text": " retired"
+    }
+   ]
+  },
+  {
+   "startMs": 780,
+   "endMs": 1180,
+   "tokens": [
+    {
+     "text": " from"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 1180,
+   "endMs": 1800,
+   "tokens": [
+    {
+     "text": " webcam"
+    },
+    {
+     "text": " days"
+    }
+   ]
+  },
+  {
+   "startMs": 1980,
+   "endMs": 2180,
+   "tokens": [
+    {
+     "text": " aucunes"
+    },
+    {
+     "text": " I'm"
+    }
+   ]
+  },
+  {
+   "startMs": 2060,
+   "endMs": 2360,
+   "tokens": [
+    {
+     "text": " living"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 2360,
+   "endMs": 3460,
+   "tokens": [
+    {
+     "text": " Dubai"
+    },
+    {
+     "text": " why"
+    }
+   ]
+  },
+  {
+   "startMs": 3460,
+   "endMs": 3700,
+   "tokens": [
+    {
+     "text": " would"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 3700,
+   "endMs": 3980,
+   "tokens": [
+    {
+     "text": " want"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 3980,
+   "endMs": 5560,
+   "tokens": [
+    {
+     "text": " back"
+    },
+    {
+     "text": " schooling"
+    }
+   ]
+  },
+  {
+   "startMs": 5560,
+   "endMs": 5860,
+   "tokens": [
+    {
+     "text": " when"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 5860,
+   "endMs": 6110,
+   "tokens": [
+    {
+     "text": " have"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 6110,
+   "endMs": 6490,
+   "tokens": [
+    {
+     "text": " There"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 6490,
+   "endMs": 7090,
+   "tokens": [
+    {
+     "text": " nothing"
+    },
+    {
+     "text": " else"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 7090,
+   "endMs": 7670,
+   "tokens": [
+    {
+     "text": " do"
+    },
+    {
+     "text": " but"
+    },
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 7670,
+   "endMs": 8090,
+   "tokens": [
+    {
+     "text": " and"
+    },
+    {
+     "text": " waste"
+    }
+   ]
+  },
+  {
+   "startMs": 8090,
+   "endMs": 8450,
+   "tokens": [
+    {
+     "text": " your"
+    },
+    {
+     "text": " time"
+    }
+   ]
+  },
+  {
+   "startMs": 8450,
+   "endMs": 8930,
+   "tokens": [
+    {
+     "text": " getting"
+    },
+    {
+     "text": " one"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 8930,
+   "endMs": 10110,
+   "tokens": [
+    {
+     "text": " these"
+    },
+    {
+     "text": " spending"
+    }
+   ]
+  },
+  {
+   "startMs": 10110,
+   "endMs": 10670,
+   "tokens": [
+    {
+     "text": " four"
+    },
+    {
+     "text": " years"
+    }
+   ]
+  },
+  {
+   "startMs": 10850,
+   "endMs": 11710,
+   "tokens": [
+    {
+     "text": " spending"
+    },
+    {
+     "text": " $300"
+    },
+    {
+     "text": "000"
+    }
+   ]
+  },
+  {
+   "startMs": 11990,
+   "endMs": 12510,
+   "tokens": [
+    {
+     "text": " everybody"
+    },
+    {
+     "text": " knows"
+    }
+   ]
+  },
+  {
+   "startMs": 12510,
+   "endMs": 13050,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " waste"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 13050,
+   "endMs": 13940,
+   "tokens": [
+    {
+     "text": " time"
+    },
+    {
+     "text": " So"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 13940,
+   "endMs": 14460,
+   "tokens": [
+    {
+     "text": " just"
+    },
+    {
+     "text": " go"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 14460,
+   "endMs": 14640,
+   "tokens": [
+    {
+     "text": " you"
+    },
+    {
+     "text": " give"
+    }
+   ]
+  },
+  {
+   "startMs": 14640,
+   "endMs": 15040,
+   "tokens": [
+    {
+     "text": " your"
+    },
+    {
+     "text": " money"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 15040,
+   "endMs": 15720,
+   "tokens": [
+    {
+     "text": " mainstream"
+    },
+    {
+     "text": " education"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "interstellar.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.1,
+  "climaxSec": 11,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "dubai",
+   "retired",
+   "webcam",
+   "schooling",
+   "waste",
+   "years",
+   "money",
+   "education"
+  ]
+ },
+ "hook": {
+  "text": "WHY GO BACK TO SCHOOL?",
+  "untilSec": 2.5
+ },
+ "broll": [
+  {
+   "src": "broll_dubai.mp4",
+   "atSec": 2.26,
+   "durSec": 1.9,
+   "trimBefore": 0.0,
+   "framing": "blur-contain",
+   "label": "Dubai"
+  }
+ ]
+}

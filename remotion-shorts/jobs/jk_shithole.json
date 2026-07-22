@@ -1,0 +1,481 @@
+{
+ "videoSrc": "jk_shithole_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.25,
+   "outSec": 6.96,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "SETUP"
+  },
+  {
+   "inSec": 11.87,
+   "outSec": 12.89,
+   "offsetSec": 6.71,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 13.45,
+   "outSec": 15.94,
+   "offsetSec": 7.73,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 16.29,
+   "outSec": 23.37,
+   "offsetSec": 10.22,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 23.6,
+   "outSec": 24.71,
+   "offsetSec": 17.3,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BUTTON"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 60,
+   "endMs": 960,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " owe"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 960,
+   "endMs": 1640,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " billion"
+    }
+   ]
+  },
+  {
+   "startMs": 1640,
+   "endMs": 2280,
+   "tokens": [
+    {
+     "text": " dollars"
+    }
+   ]
+  },
+  {
+   "startMs": 2600,
+   "endMs": 2900,
+   "tokens": [
+    {
+     "text": " Are"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 2900,
+   "endMs": 3580,
+   "tokens": [
+    {
+     "text": " remaining"
+    },
+    {
+     "text": " any"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 3580,
+   "endMs": 3900,
+   "tokens": [
+    {
+     "text": " them"
+    },
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 3780,
+   "endMs": 4480,
+   "tokens": [
+    {
+     "text": " let"
+    },
+    {
+     "text": " me"
+    },
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 4480,
+   "endMs": 5020,
+   "tokens": [
+    {
+     "text": " so"
+    },
+    {
+     "text": " they"
+    }
+   ]
+  },
+  {
+   "startMs": 5020,
+   "endMs": 5520,
+   "tokens": [
+    {
+     "text": " have"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " pay"
+    }
+   ]
+  },
+  {
+   "startMs": 5520,
+   "endMs": 6520,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " million"
+    }
+   ]
+  },
+  {
+   "startMs": 6400,
+   "endMs": 6710,
+   "tokens": [
+    {
+     "text": " dollars"
+    }
+   ]
+  },
+  {
+   "startMs": 6710,
+   "endMs": 6830,
+   "tokens": [
+    {
+     "text": " Why"
+    },
+    {
+     "text": " would"
+    }
+   ]
+  },
+  {
+   "startMs": 6710,
+   "endMs": 7450,
+   "tokens": [
+    {
+     "text": " Romania"
+    },
+    {
+     "text": " let"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 7450,
+   "endMs": 7730,
+   "tokens": [
+    {
+     "text": " off"
+    }
+   ]
+  },
+  {
+   "startMs": 7790,
+   "endMs": 8330,
+   "tokens": [
+    {
+     "text": " They'll"
+    },
+    {
+     "text": " just"
+    }
+   ]
+  },
+  {
+   "startMs": 8330,
+   "endMs": 8710,
+   "tokens": [
+    {
+     "text": " find"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 8710,
+   "endMs": 9050,
+   "tokens": [
+    {
+     "text": " guilty"
+    }
+   ]
+  },
+  {
+   "startMs": 9250,
+   "endMs": 9850,
+   "tokens": [
+    {
+     "text": " It"
+    },
+    {
+     "text": " saves"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 9850,
+   "endMs": 10070,
+   "tokens": [
+    {
+     "text": " billion"
+    }
+   ]
+  },
+  {
+   "startMs": 10280,
+   "endMs": 10980,
+   "tokens": [
+    {
+     "text": " They're"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 10980,
+   "endMs": 11560,
+   "tokens": [
+    {
+     "text": " that"
+    },
+    {
+     "text": " rich"
+    }
+   ]
+  },
+  {
+   "startMs": 11620,
+   "endMs": 11800,
+   "tokens": [
+    {
+     "text": " bro"
+    }
+   ]
+  },
+  {
+   "startMs": 12000,
+   "endMs": 12440,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 12440,
+   "endMs": 13300,
+   "tokens": [
+    {
+     "text": " poor"
+    },
+    {
+     "text": " country"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 13300,
+   "endMs": 13540,
+   "tokens": [
+    {
+     "text": " it's"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 13540,
+   "endMs": 14400,
+   "tokens": [
+    {
+     "text": " corrupt"
+    },
+    {
+     "text": " shithole"
+    }
+   ]
+  },
+  {
+   "startMs": 14800,
+   "endMs": 15660,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " got"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 15660,
+   "endMs": 16140,
+   "tokens": [
+    {
+     "text": " initial"
+    },
+    {
+     "text": " fucking"
+    }
+   ]
+  },
+  {
+   "startMs": 16140,
+   "endMs": 16800,
+   "tokens": [
+    {
+     "text": " integrity"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 16800,
+   "endMs": 17300,
+   "tokens": [
+    {
+     "text": " Zambia"
+    }
+   ]
+  },
+  {
+   "startMs": 17430,
+   "endMs": 17670,
+   "tokens": [
+    {
+     "text": " think"
+    },
+    {
+     "text": " they're"
+    }
+   ]
+  },
+  {
+   "startMs": 17670,
+   "endMs": 18130,
+   "tokens": [
+    {
+     "text": " gonna"
+    },
+    {
+     "text": " let"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 18130,
+   "endMs": 18410,
+   "tokens": [
+    {
+     "text": " go"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "lorn_acid_rain.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.1,
+  "climaxSec": 12,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "corrupt",
+   "shithole",
+   "guilty",
+   "billion",
+   "romania",
+   "poor",
+   "rich",
+   "integrity",
+   "dollars"
+  ]
+ },
+ "hook": {
+  "text": "“A CORRUPT SHITHOLE”",
+  "untilSec": 2.5
+ }
+}

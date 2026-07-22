@@ -1,0 +1,47 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 4360.84,
+   "outSec": 4374.29,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 4375.42,
+   "outSec": 4377.38,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 4378.64,
+   "outSec": 4382.88,
+   "beat": "BUTTON",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "rich",
+   "celebrity",
+   "properly",
+   "months",
+   "enjoyed",
+   "life",
+   "room",
+   "thinking"
+  ]
+ },
+ "hook": {
+  "text": "PROPERLY RICH FOR 5 MONTHS",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "americana.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.09,
+  "climaxSec": 10,
+  "startSec": 0
+ }
+}

@@ -1,0 +1,431 @@
+{
+ "videoSrc": "jk_jailornot_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.25,
+   "outSec": 3.13,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "SETUP"
+  },
+  {
+   "inSec": 4.71,
+   "outSec": 8.72,
+   "offsetSec": 2.88,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 9.87,
+   "outSec": 13.49,
+   "offsetSec": 6.89,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 14.73,
+   "outSec": 17.29,
+   "offsetSec": 10.51,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 24.48,
+   "outSec": 26.13,
+   "offsetSec": 13.07,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BUTTON"
+  },
+  {
+   "inSec": 28.21,
+   "outSec": 29.62,
+   "offsetSec": 14.72,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BUTTON"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 580,
+   "tokens": [
+    {
+     "text": " back"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 580,
+   "endMs": 1420,
+   "tokens": [
+    {
+     "text": " forth"
+    },
+    {
+     "text": " promising"
+    }
+   ]
+  },
+  {
+   "startMs": 1420,
+   "endMs": 1960,
+   "tokens": [
+    {
+     "text": " them"
+    },
+    {
+     "text": " that"
+    },
+    {
+     "text": " I'm"
+    }
+   ]
+  },
+  {
+   "startMs": 1960,
+   "endMs": 2100,
+   "tokens": [
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 2100,
+   "endMs": 2340,
+   "tokens": [
+    {
+     "text": " give"
+    },
+    {
+     "text": " them"
+    }
+   ]
+  },
+  {
+   "startMs": 2340,
+   "endMs": 2620,
+   "tokens": [
+    {
+     "text": " what"
+    },
+    {
+     "text": " they"
+    }
+   ]
+  },
+  {
+   "startMs": 2620,
+   "endMs": 2960,
+   "tokens": [
+    {
+     "text": " wanted"
+    },
+    {
+     "text": " they're"
+    }
+   ]
+  },
+  {
+   "startMs": 2960,
+   "endMs": 4140,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 4140,
+   "endMs": 4400,
+   "tokens": [
+    {
+     "text": " know"
+    },
+    {
+     "text": " we"
+    }
+   ]
+  },
+  {
+   "startMs": 4400,
+   "endMs": 4860,
+   "tokens": [
+    {
+     "text": " could put"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 4860,
+   "endMs": 5280,
+   "tokens": [
+    {
+     "text": " back"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 5280,
+   "endMs": 6440,
+   "tokens": [
+    {
+     "text": " jail"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 6440,
+   "endMs": 6780,
+   "tokens": [
+    {
+     "text": " what"
+    }
+   ]
+  },
+  {
+   "startMs": 6950,
+   "endMs": 7430,
+   "tokens": [
+    {
+     "text": " They're"
+    },
+    {
+     "text": " like"
+    }
+   ]
+  },
+  {
+   "startMs": 7430,
+   "endMs": 8290,
+   "tokens": [
+    {
+     "text": " interfering"
+    },
+    {
+     "text": " with"
+    }
+   ]
+  },
+  {
+   "startMs": 8290,
+   "endMs": 8570,
+   "tokens": [
+    {
+     "text": " police"
+    }
+   ]
+  },
+  {
+   "startMs": 8810,
+   "endMs": 9250,
+   "tokens": [
+    {
+     "text": " Interfering"
+    },
+    {
+     "text": " with"
+    }
+   ]
+  },
+  {
+   "startMs": 9130,
+   "endMs": 9330,
+   "tokens": [
+    {
+     "text": " police"
+    }
+   ]
+  },
+  {
+   "startMs": 9350,
+   "endMs": 9650,
+   "tokens": [
+    {
+     "text": " Interfering"
+    },
+    {
+     "text": " with"
+    }
+   ]
+  },
+  {
+   "startMs": 9650,
+   "endMs": 10470,
+   "tokens": [
+    {
+     "text": " police"
+    }
+   ]
+  },
+  {
+   "startMs": 10510,
+   "endMs": 10810,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " like"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 10810,
+   "endMs": 12070,
+   "tokens": [
+    {
+     "text": " friend"
+    },
+    {
+     "text": " what"
+    },
+    {
+     "text": " do"
+    }
+   ]
+  },
+  {
+   "startMs": 12070,
+   "endMs": 12390,
+   "tokens": [
+    {
+     "text": " you"
+    },
+    {
+     "text": " put"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 12390,
+   "endMs": 12750,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " jail"
+    },
+    {
+     "text": " or"
+    }
+   ]
+  },
+  {
+   "startMs": 12750,
+   "endMs": 12930,
+   "tokens": [
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 13280,
+   "endMs": 14160,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " started"
+    }
+   ]
+  },
+  {
+   "startMs": 14160,
+   "endMs": 14680,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " war"
+    }
+   ]
+  },
+  {
+   "startMs": 14780,
+   "endMs": 15400,
+   "tokens": [
+    {
+     "text": " Did"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 15400,
+   "endMs": 15920,
+   "tokens": [
+    {
+     "text": " realize"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "tate_motivational.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.1,
+  "climaxSec": 11,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "jail",
+   "police",
+   "war",
+   "interfering",
+   "friend",
+   "promising",
+   "wanted",
+   "realize"
+  ]
+ },
+ "hook": {
+  "text": "PUT ME IN JAIL OR NOT",
+  "untilSec": 2.5
+ }
+}

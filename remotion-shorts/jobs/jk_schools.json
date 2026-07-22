@@ -1,0 +1,366 @@
+{
+ "videoSrc": "jk_schools_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.25,
+   "outSec": 4.35,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 4.85,
+   "outSec": 7.18,
+   "offsetSec": 4.1,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 7.86,
+   "outSec": 9.96,
+   "offsetSec": 6.43,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 16.9,
+   "outSec": 24.4,
+   "offsetSec": 8.53,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BUTTON"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 60,
+   "endMs": 540,
+   "tokens": [
+    {
+     "text": " Yes"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 540,
+   "endMs": 920,
+   "tokens": [
+    {
+     "text": " said"
+    },
+    {
+     "text": " some"
+    }
+   ]
+  },
+  {
+   "startMs": 920,
+   "endMs": 2160,
+   "tokens": [
+    {
+     "text": " things"
+    },
+    {
+     "text": " but"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 2160,
+   "endMs": 2580,
+   "tokens": [
+    {
+     "text": " mean"
+    },
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 2580,
+   "endMs": 3000,
+   "tokens": [
+    {
+     "text": " blowing"
+    },
+    {
+     "text": " up"
+    }
+   ]
+  },
+  {
+   "startMs": 3000,
+   "endMs": 3640,
+   "tokens": [
+    {
+     "text": " girls'"
+    },
+    {
+     "text": " schools"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 3640,
+   "endMs": 4040,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " ran"
+    }
+   ]
+  },
+  {
+   "startMs": 4200,
+   "endMs": 4500,
+   "tokens": [
+    {
+     "text": " Like"
+    },
+    {
+     "text": " come"
+    }
+   ]
+  },
+  {
+   "startMs": 4380,
+   "endMs": 4800,
+   "tokens": [
+    {
+     "text": " on"
+    }
+   ]
+  },
+  {
+   "startMs": 4800,
+   "endMs": 5360,
+   "tokens": [
+    {
+     "text": " Triple"
+    },
+    {
+     "text": " tap"
+    }
+   ]
+  },
+  {
+   "startMs": 6100,
+   "endMs": 6260,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " don't"
+    }
+   ]
+  },
+  {
+   "startMs": 6140,
+   "endMs": 6260,
+   "tokens": [
+    {
+     "text": " know"
+    }
+   ]
+  },
+  {
+   "startMs": 6490,
+   "endMs": 7130,
+   "tokens": [
+    {
+     "text": " So"
+    },
+    {
+     "text": " I"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 7130,
+   "endMs": 7530,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " this"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 7530,
+   "endMs": 7930,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " bit"
+    },
+    {
+     "text": " out"
+    }
+   ]
+  },
+  {
+   "startMs": 7930,
+   "endMs": 9070,
+   "tokens": [
+    {
+     "text": " of"
+    },
+    {
+     "text": " control"
+    },
+    {
+     "text": " Now"
+    }
+   ]
+  },
+  {
+   "startMs": 9070,
+   "endMs": 9910,
+   "tokens": [
+    {
+     "text": " around"
+    },
+    {
+     "text": " this"
+    }
+   ]
+  },
+  {
+   "startMs": 9910,
+   "endMs": 11830,
+   "tokens": [
+    {
+     "text": " time"
+    },
+    {
+     "text": " someone"
+    }
+   ]
+  },
+  {
+   "startMs": 11830,
+   "endMs": 12410,
+   "tokens": [
+    {
+     "text": " inside"
+    },
+    {
+     "text": " of"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 12410,
+   "endMs": 14190,
+   "tokens": [
+    {
+     "text": " school"
+    },
+    {
+     "text": " said"
+    },
+    {
+     "text": " we"
+    }
+   ]
+  },
+  {
+   "startMs": 14190,
+   "endMs": 14770,
+   "tokens": [
+    {
+     "text": " should"
+    },
+    {
+     "text": " start"
+    },
+    {
+     "text": " an"
+    }
+   ]
+  },
+  {
+   "startMs": 14770,
+   "endMs": 15450,
+   "tokens": [
+    {
+     "text": " affiliate"
+    },
+    {
+     "text": " marketing"
+    }
+   ]
+  },
+  {
+   "startMs": 15450,
+   "endMs": 16030,
+   "tokens": [
+    {
+     "text": " campus"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "gangstas_paradise.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.1,
+  "climaxSec": 3,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "blowing",
+   "girls",
+   "schools",
+   "control",
+   "school",
+   "affiliate",
+   "marketing"
+  ]
+ },
+ "hook": {
+  "text": "“I’M NOT BLOWING UP SCHOOLS”",
+  "untilSec": 2.5
+ }
+}

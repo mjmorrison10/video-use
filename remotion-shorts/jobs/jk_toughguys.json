@@ -1,0 +1,361 @@
+{
+ "videoSrc": "jk_toughguys_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.25,
+   "outSec": 3.43,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 9.15,
+   "outSec": 15.14,
+   "offsetSec": 3.18,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 16.5,
+   "outSec": 24.94,
+   "offsetSec": 9.17,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BUTTON"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 60,
+   "endMs": 760,
+   "tokens": [
+    {
+     "text": " Once"
+    },
+    {
+     "text": " it's"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 760,
+   "endMs": 980,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " their"
+    }
+   ]
+  },
+  {
+   "startMs": 980,
+   "endMs": 1600,
+   "tokens": [
+    {
+     "text": " favor"
+    },
+    {
+     "text": " they're"
+    },
+    {
+     "text": " all"
+    }
+   ]
+  },
+  {
+   "startMs": 1600,
+   "endMs": 2160,
+   "tokens": [
+    {
+     "text": " tough"
+    },
+    {
+     "text": " guys"
+    }
+   ]
+  },
+  {
+   "startMs": 2160,
+   "endMs": 2420,
+   "tokens": [
+    {
+     "text": " when"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 2420,
+   "endMs": 2720,
+   "tokens": [
+    {
+     "text": " need"
+    },
+    {
+     "text": " them"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 2720,
+   "endMs": 3100,
+   "tokens": [
+    {
+     "text": " do"
+    },
+    {
+     "text": " something"
+    }
+   ]
+  },
+  {
+   "startMs": 3240,
+   "endMs": 4200,
+   "tokens": [
+    {
+     "text": " My"
+    },
+    {
+     "text": " problems"
+    },
+    {
+     "text": " are"
+    }
+   ]
+  },
+  {
+   "startMs": 4200,
+   "endMs": 4840,
+   "tokens": [
+    {
+     "text": " beginning"
+    },
+    {
+     "text": " again"
+    }
+   ]
+  },
+  {
+   "startMs": 4940,
+   "endMs": 5140,
+   "tokens": [
+    {
+     "text": " Jack"
+    }
+   ]
+  },
+  {
+   "startMs": 6480,
+   "endMs": 7380,
+   "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " back"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 7380,
+   "endMs": 7940,
+   "tokens": [
+    {
+     "text": " where"
+    },
+    {
+     "text": " I"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 7940,
+   "endMs": 8180,
+   "tokens": [
+    {
+     "text": " at"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 8180,
+   "endMs": 8560,
+   "tokens": [
+    {
+     "text": " beginning"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 8560,
+   "endMs": 9140,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " story"
+    }
+   ]
+  },
+  {
+   "startMs": 9540,
+   "endMs": 10420,
+   "tokens": [
+    {
+     "text": " strange"
+    },
+    {
+     "text": " offer"
+    }
+   ]
+  },
+  {
+   "startMs": 11180,
+   "endMs": 11780,
+   "tokens": [
+    {
+     "text": " weird"
+    },
+    {
+     "text": " messages"
+    }
+   ]
+  },
+  {
+   "startMs": 12980,
+   "endMs": 13780,
+   "tokens": [
+    {
+     "text": " feeling"
+    },
+    {
+     "text": " that"
+    }
+   ]
+  },
+  {
+   "startMs": 13780,
+   "endMs": 14300,
+   "tokens": [
+    {
+     "text": " something"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 14300,
+   "endMs": 14580,
+   "tokens": [
+    {
+     "text": " coming"
+    }
+   ]
+  },
+  {
+   "startMs": 16280,
+   "endMs": 16780,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 16780,
+   "endMs": 17040,
+   "tokens": [
+    {
+     "text": " don't"
+    },
+    {
+     "text": " know"
+    }
+   ]
+  },
+  {
+   "startMs": 17040,
+   "endMs": 17280,
+   "tokens": [
+    {
+     "text": " what"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 17280,
+   "endMs": 17520,
+   "tokens": [
+    {
+     "text": " is"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "gangstas_paradise.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.09,
+  "climaxSec": 8,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "tough",
+   "guys",
+   "favor",
+   "problems",
+   "beginning",
+   "strange",
+   "messages",
+   "coming",
+   "story",
+   "jack"
+  ]
+ },
+ "hook": {
+  "text": "“TOUGH GUYS WHEN YOU NEED THEM”",
+  "untilSec": 2.5
+ }
+}

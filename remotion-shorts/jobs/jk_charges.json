@@ -1,0 +1,400 @@
+{
+ "videoSrc": "jk_charges_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.25,
+   "outSec": 2.79,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "SETUP"
+  },
+  {
+   "inSec": 3.91,
+   "outSec": 8.75,
+   "offsetSec": 2.54,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 10.81,
+   "outSec": 13.67,
+   "offsetSec": 7.38,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 15.77,
+   "outSec": 17.42,
+   "offsetSec": 10.24,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 18.3,
+   "outSec": 21.38,
+   "offsetSec": 11.89,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 21.91,
+   "outSec": 22.78,
+   "offsetSec": 14.97,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BUTTON"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 60,
+   "endMs": 700,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " they"
+    },
+    {
+     "text": " say"
+    }
+   ]
+  },
+  {
+   "startMs": 860,
+   "endMs": 1300,
+   "tokens": [
+    {
+     "text": " by"
+    },
+    {
+     "text": " Romanian"
+    }
+   ]
+  },
+  {
+   "startMs": 1300,
+   "endMs": 2040,
+   "tokens": [
+    {
+     "text": " code"
+    },
+    {
+     "text": " in"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 2040,
+   "endMs": 2700,
+   "tokens": [
+    {
+     "text": " article"
+    },
+    {
+     "text": " under"
+    }
+   ]
+  },
+  {
+   "startMs": 2700,
+   "endMs": 3200,
+   "tokens": [
+    {
+     "text": " arrest"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 3200,
+   "endMs": 4220,
+   "tokens": [
+    {
+     "text": " organized"
+    },
+    {
+     "text": " criminal"
+    }
+   ]
+  },
+  {
+   "startMs": 4220,
+   "endMs": 4840,
+   "tokens": [
+    {
+     "text": " group"
+    },
+    {
+     "text": " head"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 4840,
+   "endMs": 5300,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " mafia"
+    }
+   ]
+  },
+  {
+   "startMs": 5300,
+   "endMs": 5940,
+   "tokens": [
+    {
+     "text": " gang"
+    },
+    {
+     "text": " witness"
+    }
+   ]
+  },
+  {
+   "startMs": 5940,
+   "endMs": 7020,
+   "tokens": [
+    {
+     "text": " intimidation"
+    },
+    {
+     "text": " arms"
+    }
+   ]
+  },
+  {
+   "startMs": 7020,
+   "endMs": 8020,
+   "tokens": [
+    {
+     "text": " trafficking"
+    },
+    {
+     "text": " I'm"
+    }
+   ]
+  },
+  {
+   "startMs": 8020,
+   "endMs": 9520,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 9520,
+   "endMs": 10200,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " what"
+    }
+   ]
+  },
+  {
+   "startMs": 10300,
+   "endMs": 10620,
+   "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 10620,
+   "endMs": 11240,
+   "tokens": [
+    {
+     "text": " guilty"
+    },
+    {
+     "text": " obviously"
+    }
+   ]
+  },
+  {
+   "startMs": 11340,
+   "endMs": 11540,
+   "tokens": [
+    {
+     "text": " This"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 11540,
+   "endMs": 11890,
+   "tokens": [
+    {
+     "text": " bullshit"
+    }
+   ]
+  },
+  {
+   "startMs": 11900,
+   "endMs": 12100,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " they're"
+    }
+   ]
+  },
+  {
+   "startMs": 12100,
+   "endMs": 12840,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " what"
+    },
+    {
+     "text": " do"
+    }
+   ]
+  },
+  {
+   "startMs": 12840,
+   "endMs": 13120,
+   "tokens": [
+    {
+     "text": " you"
+    },
+    {
+     "text": " have"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 13120,
+   "endMs": 13820,
+   "tokens": [
+    {
+     "text": " say"
+    },
+    {
+     "text": " about"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 13820,
+   "endMs": 14480,
+   "tokens": [
+    {
+     "text": " crime"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 14480,
+   "endMs": 14970,
+   "tokens": [
+    {
+     "text": " human"
+    },
+    {
+     "text": " trafficking"
+    }
+   ]
+  },
+  {
+   "startMs": 15030,
+   "endMs": 15470,
+   "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " like"
+    }
+   ]
+  },
+  {
+   "startMs": 15550,
+   "endMs": 15750,
+   "tokens": [
+    {
+     "text": " nothing"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.1,
+  "climaxSec": 8,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "arrest",
+   "mafia",
+   "gang",
+   "organized",
+   "criminal",
+   "witness",
+   "trafficking",
+   "guilty",
+   "bullshit",
+   "intimidation"
+  ]
+ },
+ "hook": {
+  "text": "“HEAD OF A MAFIA GANG”",
+  "untilSec": 2.5
+ }
+}

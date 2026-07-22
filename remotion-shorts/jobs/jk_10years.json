@@ -1,0 +1,464 @@
+{
+ "videoSrc": "jk_10years_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.25,
+   "outSec": 3.71,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 10.11,
+   "outSec": 12.69,
+   "offsetSec": 3.46,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 13.79,
+   "outSec": 17.4,
+   "offsetSec": 6.04,
+   "framing": "cover",
+   "mute": false,
+   "beat": "CLIMAX"
+  },
+  {
+   "inSec": 20.41,
+   "outSec": 24.52,
+   "offsetSec": 9.65,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 25.65,
+   "outSec": 28.81,
+   "offsetSec": 13.76,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BUTTON"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 60,
+   "endMs": 560,
+   "tokens": [
+    {
+     "text": " So"
+    },
+    {
+     "text": " it's"
+    }
+   ]
+  },
+  {
+   "startMs": 560,
+   "endMs": 1120,
+   "tokens": [
+    {
+     "text": " still"
+    },
+    {
+     "text": " technically"
+    }
+   ]
+  },
+  {
+   "startMs": 1120,
+   "endMs": 1520,
+   "tokens": [
+    {
+     "text": " open"
+    }
+   ]
+  },
+  {
+   "startMs": 1900,
+   "endMs": 2540,
+   "tokens": [
+    {
+     "text": " So"
+    },
+    {
+     "text": " UK"
+    }
+   ]
+  },
+  {
+   "startMs": 2540,
+   "endMs": 3240,
+   "tokens": [
+    {
+     "text": " can't"
+    },
+    {
+     "text": " extradite"
+    }
+   ]
+  },
+  {
+   "startMs": 3240,
+   "endMs": 3420,
+   "tokens": [
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 3620,
+   "endMs": 3920,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " get"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 3920,
+   "endMs": 4220,
+   "tokens": [
+    {
+     "text": " go"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 4220,
+   "endMs": 4540,
+   "tokens": [
+    {
+     "text": " America"
+    }
+   ]
+  },
+  {
+   "startMs": 5320,
+   "endMs": 5780,
+   "tokens": [
+    {
+     "text": " He"
+    },
+    {
+     "text": " goes"
+    }
+   ]
+  },
+  {
+   "startMs": 5840,
+   "endMs": 5920,
+   "tokens": [
+    {
+     "text": " yeah"
+    }
+   ]
+  },
+  {
+   "startMs": 6040,
+   "endMs": 6340,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " remember"
+    }
+   ]
+  },
+  {
+   "startMs": 6340,
+   "endMs": 6660,
+   "tokens": [
+    {
+     "text": " being"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 6660,
+   "endMs": 7040,
+   "tokens": [
+    {
+     "text": " jail"
+    },
+    {
+     "text": " when"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 7040,
+   "endMs": 7540,
+   "tokens": [
+    {
+     "text": " thought"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 7540,
+   "endMs": 7840,
+   "tokens": [
+    {
+     "text": " next"
+    },
+    {
+     "text": " 10"
+    }
+   ]
+  },
+  {
+   "startMs": 7840,
+   "endMs": 8200,
+   "tokens": [
+    {
+     "text": " years"
+    },
+    {
+     "text": " are"
+    }
+   ]
+  },
+  {
+   "startMs": 8200,
+   "endMs": 8760,
+   "tokens": [
+    {
+     "text": " just"
+    },
+    {
+     "text": " jail"
+    }
+   ]
+  },
+  {
+   "startMs": 8980,
+   "endMs": 10070,
+   "tokens": [
+    {
+     "text": " house"
+    },
+    {
+     "text": " arrest"
+    },
+    {
+     "text": " I've"
+    }
+   ]
+  },
+  {
+   "startMs": 10070,
+   "endMs": 10710,
+   "tokens": [
+    {
+     "text": " never"
+    },
+    {
+     "text": " seen"
+    }
+   ]
+  },
+  {
+   "startMs": 10710,
+   "endMs": 10950,
+   "tokens": [
+    {
+     "text": " anything"
+    },
+    {
+     "text": " like"
+    }
+   ]
+  },
+  {
+   "startMs": 10950,
+   "endMs": 11230,
+   "tokens": [
+    {
+     "text": " this"
+    }
+   ]
+  },
+  {
+   "startMs": 12070,
+   "endMs": 12790,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " said"
+    }
+   ]
+  },
+  {
+   "startMs": 12890,
+   "endMs": 13170,
+   "tokens": [
+    {
+     "text": " don't"
+    },
+    {
+     "text": " worry"
+    },
+    {
+     "text": " I'm"
+    }
+   ]
+  },
+  {
+   "startMs": 13170,
+   "endMs": 13330,
+   "tokens": [
+    {
+     "text": " not"
+    },
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 13330,
+   "endMs": 13610,
+   "tokens": [
+    {
+     "text": " go"
+    },
+    {
+     "text": " there"
+    }
+   ]
+  },
+  {
+   "startMs": 13820,
+   "endMs": 14340,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " then"
+    },
+    {
+     "text": " we"
+    }
+   ]
+  },
+  {
+   "startMs": 14340,
+   "endMs": 14580,
+   "tokens": [
+    {
+     "text": " go"
+    },
+    {
+     "text": " on"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 14580,
+   "endMs": 14760,
+   "tokens": [
+    {
+     "text": " plane"
+    }
+   ]
+  },
+  {
+   "startMs": 15780,
+   "endMs": 16260,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " we"
+    }
+   ]
+  },
+  {
+   "startMs": 16260,
+   "endMs": 16540,
+   "tokens": [
+    {
+     "text": " flew"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 16540,
+   "endMs": 16780,
+   "tokens": [
+    {
+     "text": " Florida"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "dark_knight_imagine_fire.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.1,
+  "climaxSec": 8,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "jail",
+   "arrest",
+   "extradite",
+   "america",
+   "years",
+   "house",
+   "plane",
+   "florida",
+   "open",
+   "technically"
+  ]
+ },
+ "hook": {
+  "text": "“THE NEXT 10 YEARS: JUST JAIL”",
+  "untilSec": 2.5
+ }
+}

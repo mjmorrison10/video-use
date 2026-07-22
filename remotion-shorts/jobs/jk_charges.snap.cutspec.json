@@ -1,0 +1,71 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 3230.83,
+   "outSec": 3233.37,
+   "beat": "SETUP",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3234.49,
+   "outSec": 3239.33,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3241.39,
+   "outSec": 3244.25,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3246.35,
+   "outSec": 3248.0,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3248.88,
+   "outSec": 3251.96,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3252.49,
+   "outSec": 3253.36,
+   "beat": "BUTTON",
+   "framing": "cover"
+  }
+ ],
+ "captionReplace": {
+  "blahbreviar": "blah",
+  "pleadrew": "plead"
+ },
+ "style": {
+  "powerWords": [
+   "arrest",
+   "mafia",
+   "gang",
+   "organized",
+   "criminal",
+   "witness",
+   "trafficking",
+   "guilty",
+   "bullshit",
+   "intimidation"
+  ]
+ },
+ "hook": {
+  "text": "“HEAD OF A MAFIA GANG”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.1,
+  "climaxSec": 8,
+  "startSec": 0
+ }
+}

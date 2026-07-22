@@ -1,0 +1,73 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 829.7,
+   "outSec": 832.57,
+   "beat": "LEADIN",
+   "framing": "cover"
+  },
+  {
+   "inSec": 833.38,
+   "outSec": 835.88,
+   "beat": "SETUP",
+   "framing": "cover"
+  },
+  {
+   "inSec": 837.12,
+   "outSec": 839.37,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 839.61,
+   "outSec": 845.55,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 847.26,
+   "outSec": 848.41,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 849.18,
+   "outSec": 850.0,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 854.7,
+   "outSec": 856.12,
+   "beat": "BUTTON",
+   "framing": "cover"
+  }
+ ],
+ "captionReplace": {
+  "youuitar": "You"
+ },
+ "style": {
+  "powerWords": [
+   "crime",
+   "girl",
+   "house",
+   "protocol",
+   "detectives",
+   "friends",
+   "explained"
+  ]
+ },
+ "hook": {
+  "text": "“NOT EVEN A GIRL IN THIS HOUSE”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "distant_echoes.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.09,
+  "climaxSec": 6,
+  "startSec": 0
+ }
+}

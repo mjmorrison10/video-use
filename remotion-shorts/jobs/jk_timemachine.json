@@ -1,0 +1,529 @@
+{
+ "videoSrc": "jk_timemachine_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.25,
+   "outSec": 2.32,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 20.19,
+   "outSec": 23.38,
+   "offsetSec": 2.07,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 25.63,
+   "outSec": 26.28,
+   "offsetSec": 5.26,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BEAT"
+  },
+  {
+   "inSec": 26.97,
+   "outSec": 28.15,
+   "offsetSec": 5.91,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BEAT"
+  },
+  {
+   "inSec": 29.35,
+   "outSec": 30.31,
+   "offsetSec": 7.09,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 30.59,
+   "outSec": 39.77,
+   "offsetSec": 8.05,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 41.21,
+   "outSec": 42.12,
+   "offsetSec": 17.23,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BUTTON"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 60,
+   "endMs": 540,
+   "tokens": [
+    {
+     "text": " You'll"
+    },
+    {
+     "text": " be"
+    }
+   ]
+  },
+  {
+   "startMs": 540,
+   "endMs": 1400,
+   "tokens": [
+    {
+     "text": " surprised"
+    },
+    {
+     "text": " what"
+    },
+    {
+     "text": " we"
+    }
+   ]
+  },
+  {
+   "startMs": 1400,
+   "endMs": 1780,
+   "tokens": [
+    {
+     "text": " can"
+    },
+    {
+     "text": " do"
+    }
+   ]
+  },
+  {
+   "startMs": 2230,
+   "endMs": 3890,
+   "tokens": [
+    {
+     "text": " I've"
+    },
+    {
+     "text": " decided"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 3890,
+   "endMs": 4170,
+   "tokens": [
+    {
+     "text": " can"
+    },
+    {
+     "text": " have"
+    }
+   ]
+  },
+  {
+   "startMs": 4170,
+   "endMs": 4850,
+   "tokens": [
+    {
+     "text": " your"
+    },
+    {
+     "text": " passports"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 4850,
+   "endMs": 5090,
+   "tokens": [
+    {
+     "text": " you"
+    },
+    {
+     "text": " can"
+    }
+   ]
+  },
+  {
+   "startMs": 5090,
+   "endMs": 5260,
+   "tokens": [
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 5320,
+   "endMs": 5620,
+   "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " like"
+    }
+   ]
+  },
+  {
+   "startMs": 5820,
+   "endMs": 5940,
+   "tokens": [
+    {
+     "text": " what"
+    }
+   ]
+  },
+  {
+   "startMs": 5970,
+   "endMs": 6630,
+   "tokens": [
+    {
+     "text": " He"
+    },
+    {
+     "text": " goes"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 6630,
+   "endMs": 6990,
+   "tokens": [
+    {
+     "text": " can"
+    },
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 7110,
+   "endMs": 7610,
+   "tokens": [
+    {
+     "text": " So"
+    },
+    {
+     "text": " I"
+    },
+    {
+     "text": " can"
+    }
+   ]
+  },
+  {
+   "startMs": 7610,
+   "endMs": 8050,
+   "tokens": [
+    {
+     "text": " just"
+    },
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 8110,
+   "endMs": 8570,
+   "tokens": [
+    {
+     "text": " Wait"
+    },
+    {
+     "text": " wait"
+    }
+   ]
+  },
+  {
+   "startMs": 8750,
+   "endMs": 8990,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 8990,
+   "endMs": 9330,
+   "tokens": [
+    {
+     "text": " locked"
+    },
+    {
+     "text": " in"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 9330,
+   "endMs": 10050,
+   "tokens": [
+    {
+     "text": " house"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 10050,
+   "endMs": 10710,
+   "tokens": [
+    {
+     "text": " was"
+    },
+    {
+     "text": " guilty"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 10710,
+   "endMs": 10810,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 10810,
+   "endMs": 11050,
+   "tokens": [
+    {
+     "text": " innocent"
+    }
+   ]
+  },
+  {
+   "startMs": 11330,
+   "endMs": 12070,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " did"
+    },
+    {
+     "text": " bad"
+    }
+   ]
+  },
+  {
+   "startMs": 12070,
+   "endMs": 12490,
+   "tokens": [
+    {
+     "text": " things"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 12490,
+   "endMs": 12690,
+   "tokens": [
+    {
+     "text": " you're"
+    },
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 12690,
+   "endMs": 12850,
+   "tokens": [
+    {
+     "text": " put"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 12850,
+   "endMs": 13110,
+   "tokens": [
+    {
+     "text": " back"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 13110,
+   "endMs": 13650,
+   "tokens": [
+    {
+     "text": " jail"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " all"
+    }
+   ]
+  },
+  {
+   "startMs": 13650,
+   "endMs": 14170,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " crap"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 14170,
+   "endMs": 14350,
+   "tokens": [
+    {
+     "text": " now"
+    },
+    {
+     "text": " you're"
+    }
+   ]
+  },
+  {
+   "startMs": 14350,
+   "endMs": 15150,
+   "tokens": [
+    {
+     "text": " just"
+    },
+    {
+     "text": " shit"
+    }
+   ]
+  },
+  {
+   "startMs": 15330,
+   "endMs": 15470,
+   "tokens": [
+    {
+     "text": " Go"
+    }
+   ]
+  },
+  {
+   "startMs": 16590,
+   "endMs": 17150,
+   "tokens": [
+    {
+     "text": " Get"
+    },
+    {
+     "text": " passports"
+    }
+   ]
+  },
+  {
+   "startMs": 17290,
+   "endMs": 17730,
+   "tokens": [
+    {
+     "text": " First"
+    },
+    {
+     "text": " time"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 17730,
+   "endMs": 18070,
+   "tokens": [
+    {
+     "text": " four"
+    },
+    {
+     "text": " years"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "distant_echoes.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.09,
+  "climaxSec": 12,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "surprised",
+   "passports",
+   "locked",
+   "house",
+   "guilty",
+   "innocent",
+   "jail",
+   "shit"
+  ]
+ },
+ "hook": {
+  "text": "“YOU CAN HAVE YOUR PASSPORTS BACK”",
+  "untilSec": 2.5
+ }
+}

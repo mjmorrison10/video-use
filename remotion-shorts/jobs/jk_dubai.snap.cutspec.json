@@ -1,0 +1,51 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 116.9,
+   "outSec": 123.01,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 135.4,
+   "outSec": 142.74,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 146.95,
+   "outSec": 149.47,
+   "beat": "BUTTON",
+   "framing": "cover"
+  }
+ ],
+ "captionReplace": {
+  "dubaihn": "Dubai",
+  "thesegates": "these"
+ },
+ "style": {
+  "powerWords": [
+   "dubai",
+   "retired",
+   "webcam",
+   "schooling",
+   "waste",
+   "years",
+   "money",
+   "education"
+  ]
+ },
+ "hook": {
+  "text": "WHY GO BACK TO SCHOOL?",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "interstellar.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.1,
+  "climaxSec": 11,
+  "startSec": 0
+ }
+}

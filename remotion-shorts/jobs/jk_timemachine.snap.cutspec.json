@@ -1,0 +1,76 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 9598.2,
+   "outSec": 9600.27,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9618.14,
+   "outSec": 9621.33,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9623.58,
+   "outSec": 9624.23,
+   "beat": "BEAT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9624.92,
+   "outSec": 9626.1,
+   "beat": "BEAT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9627.3,
+   "outSec": 9628.26,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9628.54,
+   "outSec": 9637.72,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9639.16,
+   "outSec": 9640.07,
+   "beat": "BUTTON",
+   "framing": "cover"
+  }
+ ],
+ "captionReplace": {
+  "surprisedortunate": "surprised",
+  "didwiches": "did",
+  "jailispering": "jail"
+ },
+ "style": {
+  "powerWords": [
+   "surprised",
+   "passports",
+   "locked",
+   "house",
+   "guilty",
+   "innocent",
+   "jail",
+   "shit"
+  ]
+ },
+ "hook": {
+  "text": "“YOU CAN HAVE YOUR PASSPORTS BACK”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "distant_echoes.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.09,
+  "climaxSec": 12,
+  "startSec": 0
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 5967.97,
+   "outSec": 5971.27,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 5972.05,
+   "outSec": 5977.22,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 5978.17,
+   "outSec": 5981.44,
+   "beat": "CLIMAX",
+   "framing": "cover"
+  },
+  {
+   "inSec": 5984.81,
+   "outSec": 5990.05,
+   "beat": "BUTTON",
+   "framing": "cover"
+  }
+ ],
+ "captionReplace": {
+  "HeGülme": "He"
+ },
+ "style": {
+  "powerWords": [
+   "defend",
+   "assault",
+   "fuck",
+   "circumstance",
+   "male",
+   "female",
+   "date",
+   "myself"
+  ]
+ },
+ "hook": {
+  "text": "“DEFEND MYSELF FROM WHAT?”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.1,
+  "climaxSec": 9,
+  "startSec": 0
+ }
+}

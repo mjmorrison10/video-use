@@ -1,0 +1,426 @@
+{
+ "videoSrc": "jk_nogirl_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.25,
+   "outSec": 3.12,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "LEADIN"
+  },
+  {
+   "inSec": 3.93,
+   "outSec": 6.43,
+   "offsetSec": 2.87,
+   "framing": "cover",
+   "mute": false,
+   "beat": "SETUP"
+  },
+  {
+   "inSec": 7.67,
+   "outSec": 9.92,
+   "offsetSec": 5.37,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 10.16,
+   "outSec": 16.1,
+   "offsetSec": 7.62,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 17.81,
+   "outSec": 18.96,
+   "offsetSec": 13.56,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 19.73,
+   "outSec": 20.55,
+   "offsetSec": 14.71,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 25.25,
+   "outSec": 26.67,
+   "offsetSec": 15.53,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BUTTON"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 60,
+   "endMs": 920,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " explained"
+    },
+    {
+     "text": " why"
+    }
+   ]
+  },
+  {
+   "startMs": 920,
+   "endMs": 1200,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " had"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 1200,
+   "endMs": 1440,
+   "tokens": [
+    {
+     "text": " do"
+    },
+    {
+     "text": " that"
+    }
+   ]
+  },
+  {
+   "startMs": 1500,
+   "endMs": 1820,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " said"
+    },
+    {
+     "text": " it's"
+    }
+   ]
+  },
+  {
+   "startMs": 1820,
+   "endMs": 2640,
+   "tokens": [
+    {
+     "text": " protocol"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 2970,
+   "endMs": 5030,
+   "tokens": [
+    {
+     "text": " case"
+    },
+    {
+     "text": " it's"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 5030,
+   "endMs": 5810,
+   "tokens": [
+    {
+     "text": " crime"
+    },
+    {
+     "text": " there's"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 5810,
+   "endMs": 6570,
+   "tokens": [
+    {
+     "text": " even"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 6570,
+   "endMs": 6770,
+   "tokens": [
+    {
+     "text": " girl"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 6770,
+   "endMs": 7550,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " house"
+    }
+   ]
+  },
+  {
+   "startMs": 7870,
+   "endMs": 8110,
+   "tokens": [
+    {
+     "text": " They're"
+    },
+    {
+     "text": " like"
+    }
+   ]
+  },
+  {
+   "startMs": 8170,
+   "endMs": 8730,
+   "tokens": [
+    {
+     "text": " yeah"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 8730,
+   "endMs": 9170,
+   "tokens": [
+    {
+     "text": " know"
+    },
+    {
+     "text": " we're"
+    }
+   ]
+  },
+  {
+   "startMs": 9170,
+   "endMs": 10250,
+   "tokens": [
+    {
+     "text": " just"
+    },
+    {
+     "text": " going"
+    }
+   ]
+  },
+  {
+   "startMs": 10250,
+   "endMs": 10710,
+   "tokens": [
+    {
+     "text": " on"
+    }
+   ]
+  },
+  {
+   "startMs": 10770,
+   "endMs": 11270,
+   "tokens": [
+    {
+     "text": " We"
+    },
+    {
+     "text": " don't"
+    }
+   ]
+  },
+  {
+   "startMs": 11270,
+   "endMs": 11610,
+   "tokens": [
+    {
+     "text": " know"
+    },
+    {
+     "text": " what's"
+    }
+   ]
+  },
+  {
+   "startMs": 11610,
+   "endMs": 12110,
+   "tokens": [
+    {
+     "text": " going"
+    },
+    {
+     "text": " on"
+    }
+   ]
+  },
+  {
+   "startMs": 12290,
+   "endMs": 12710,
+   "tokens": [
+    {
+     "text": " You"
+    },
+    {
+     "text": " know"
+    }
+   ]
+  },
+  {
+   "startMs": 12710,
+   "endMs": 13150,
+   "tokens": [
+    {
+     "text": " what's"
+    },
+    {
+     "text": " going"
+    }
+   ]
+  },
+  {
+   "startMs": 13150,
+   "endMs": 13450,
+   "tokens": [
+    {
+     "text": " on"
+    }
+   ]
+  },
+  {
+   "startMs": 13620,
+   "endMs": 14000,
+   "tokens": [
+    {
+     "text": " You"
+    },
+    {
+     "text": " have"
+    }
+   ]
+  },
+  {
+   "startMs": 14000,
+   "endMs": 14420,
+   "tokens": [
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 14770,
+   "endMs": 15530,
+   "tokens": [
+    {
+     "text": " The"
+    },
+    {
+     "text": " detectives"
+    }
+   ]
+  },
+  {
+   "startMs": 15530,
+   "endMs": 15910,
+   "tokens": [
+    {
+     "text": " they'd"
+    },
+    {
+     "text": " be"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 15910,
+   "endMs": 16350,
+   "tokens": [
+    {
+     "text": " best"
+    },
+    {
+     "text": " friends"
+    }
+   ]
+  },
+  {
+   "startMs": 16350,
+   "endMs": 16890,
+   "tokens": [
+    {
+     "text": " later"
+    },
+    {
+     "text": " on"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "distant_echoes.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.09,
+  "climaxSec": 6,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "crime",
+   "girl",
+   "house",
+   "protocol",
+   "detectives",
+   "friends",
+   "explained"
+  ]
+ },
+ "hook": {
+  "text": "“NOT EVEN A GIRL IN THIS HOUSE”",
+  "untilSec": 2.5
+ }
+}

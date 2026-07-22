@@ -1,0 +1,404 @@
+{
+ "videoSrc": "jk_rich_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.25,
+   "outSec": 13.7,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 14.83,
+   "outSec": 16.79,
+   "offsetSec": 13.45,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 18.05,
+   "outSec": 22.29,
+   "offsetSec": 15.41,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BUTTON"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 1080,
+   "tokens": [
+    {
+     "text": " please"
+    },
+    {
+     "text": " imagine"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 1080,
+   "endMs": 1660,
+   "tokens": [
+    {
+     "text": " went"
+    },
+    {
+     "text": " from"
+    }
+   ]
+  },
+  {
+   "startMs": 1660,
+   "endMs": 3800,
+   "tokens": [
+    {
+     "text": " nice"
+    },
+    {
+     "text": " combs"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 3800,
+   "endMs": 4720,
+   "tokens": [
+    {
+     "text": " nice"
+    },
+    {
+     "text": " celebrity"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 4720,
+   "endMs": 5680,
+   "tokens": [
+    {
+     "text": " nice"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 5680,
+   "endMs": 6900,
+   "tokens": [
+    {
+     "text": " properly"
+    },
+    {
+     "text": " rich"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 6900,
+   "endMs": 7320,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " five"
+    }
+   ]
+  },
+  {
+   "startMs": 7320,
+   "endMs": 7880,
+   "tokens": [
+    {
+     "text": " months"
+    },
+    {
+     "text": " at"
+    }
+   ]
+  },
+  {
+   "startMs": 7880,
+   "endMs": 12060,
+   "tokens": [
+    {
+     "text": " most"
+    }
+   ]
+  },
+  {
+   "startMs": 12080,
+   "endMs": 12680,
+   "tokens": [
+    {
+     "text": " That's"
+    },
+    {
+     "text": " the"
+    },
+    {
+     "text": " end"
+    }
+   ]
+  },
+  {
+   "startMs": 12680,
+   "endMs": 13040,
+   "tokens": [
+    {
+     "text": " of"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 13040,
+   "endMs": 13340,
+   "tokens": [
+    {
+     "text": " story"
+    }
+   ]
+  },
+  {
+   "startMs": 13670,
+   "endMs": 13990,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " just"
+    }
+   ]
+  },
+  {
+   "startMs": 13990,
+   "endMs": 14570,
+   "tokens": [
+    {
+     "text": " enjoyed"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 14570,
+   "endMs": 14930,
+   "tokens": [
+    {
+     "text": " life"
+    },
+    {
+     "text": " for"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 14930,
+   "endMs": 15370,
+   "tokens": [
+    {
+     "text": " first"
+    },
+    {
+     "text": " time"
+    }
+   ]
+  },
+  {
+   "startMs": 15470,
+   "endMs": 15870,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 15870,
+   "endMs": 16110,
+   "tokens": [
+    {
+     "text": " used"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 16110,
+   "endMs": 16470,
+   "tokens": [
+    {
+     "text": " literally"
+    },
+    {
+     "text": " look"
+    }
+   ]
+  },
+  {
+   "startMs": 16470,
+   "endMs": 16770,
+   "tokens": [
+    {
+     "text": " around"
+    },
+    {
+     "text": " that"
+    }
+   ]
+  },
+  {
+   "startMs": 16770,
+   "endMs": 17430,
+   "tokens": [
+    {
+     "text": " room"
+    },
+    {
+     "text": " imagine"
+    }
+   ]
+  },
+  {
+   "startMs": 17430,
+   "endMs": 17910,
+   "tokens": [
+    {
+     "text": " growing"
+    },
+    {
+     "text": " old"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 17910,
+   "endMs": 18170,
+   "tokens": [
+    {
+     "text": " that"
+    },
+    {
+     "text": " room"
+    }
+   ]
+  },
+  {
+   "startMs": 18390,
+   "endMs": 18750,
+   "tokens": [
+    {
+     "text": " Just"
+    },
+    {
+     "text": " thinking"
+    }
+   ]
+  },
+  {
+   "startMs": 18970,
+   "endMs": 19330,
+   "tokens": [
+    {
+     "text": " what"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 19210,
+   "endMs": 19490,
+   "tokens": [
+    {
+     "text": " fuck"
+    },
+    {
+     "text": " can"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 19490,
+   "endMs": 19650,
+   "tokens": [
+    {
+     "text": " do"
+    },
+    {
+     "text": " do"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "americana.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.09,
+  "climaxSec": 10,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "rich",
+   "celebrity",
+   "properly",
+   "months",
+   "enjoyed",
+   "life",
+   "room",
+   "thinking"
+  ]
+ },
+ "hook": {
+  "text": "PROPERLY RICH FOR 5 MONTHS",
+  "untilSec": 2.5
+ }
+}

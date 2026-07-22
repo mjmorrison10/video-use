@@ -1,0 +1,64 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 9714.92,
+   "outSec": 9718.38,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9724.78,
+   "outSec": 9727.36,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9728.46,
+   "outSec": 9732.07,
+   "beat": "CLIMAX",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9735.08,
+   "outSec": 9739.19,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9740.32,
+   "outSec": 9743.48,
+   "beat": "BUTTON",
+   "framing": "cover"
+  }
+ ],
+ "captionReplace": {
+  "seendisplaystyle": "seen"
+ },
+ "style": {
+  "powerWords": [
+   "jail",
+   "arrest",
+   "extradite",
+   "america",
+   "years",
+   "house",
+   "plane",
+   "florida",
+   "open",
+   "technically"
+  ]
+ },
+ "hook": {
+  "text": "“THE NEXT 10 YEARS: JUST JAIL”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "dark_knight_imagine_fire.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.1,
+  "climaxSec": 8,
+  "startSec": 0
+ }
+}
