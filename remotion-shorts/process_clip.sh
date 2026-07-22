@@ -3,7 +3,7 @@
 set -e
 cd /home/user/video-use/remotion-shorts
 c="$1"
-TR=/home/user/videos/jackkneel/edit/transcript.json
+TR=/home/user/videos/jackkneel/edit/transcript_hd.json
 SNAP=/home/user/videos/jackkneel/snap_silence.py
 # 1) silence-snap the cut-spec
 ( cd /home/user/videos/jackkneel && uv run --with numpy python "$SNAP" \
