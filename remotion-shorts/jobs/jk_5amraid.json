@@ -6,8 +6,8 @@
    "inSec": 0.25,
    "outSec": 8.07,
    "offsetSec": 0.0,
-   "framing": "blur-contain",
-   "cropX": 0.18,
+   "framing": "cover",
+   "cropX": 0.24,
    "mute": false,
    "beat": "HOOK"
   },
@@ -15,7 +15,7 @@
    "inSec": 14.36,
    "outSec": 17.64,
    "offsetSec": 7.82,
-   "framing": "blur-contain",
+   "framing": "cover",
    "cropX": 0.42,
    "mute": false,
    "beat": "CLIMAX"
@@ -24,7 +24,7 @@
    "inSec": 22.12,
    "outSec": 25.75,
    "offsetSec": 11.1,
-   "framing": "blur-contain",
+   "framing": "cover",
    "cropX": 0.42,
    "mute": false,
    "beat": "REINFORCE"
