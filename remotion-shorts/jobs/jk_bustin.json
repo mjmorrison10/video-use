@@ -1,0 +1,349 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 712.38,
+   "outSec": 713.96,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 722.6,
+   "outSec": 723.3,
+   "offsetSec": 1.58,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 723.62,
+   "outSec": 724.86,
+   "offsetSec": 2.28,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 725.28,
+   "outSec": 729.72,
+   "offsetSec": 3.52,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 730.08,
+   "outSec": 731.56,
+   "offsetSec": 7.96,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 732.84,
+   "outSec": 738.5,
+   "offsetSec": 9.44,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 640,
+   "tokens": [
+    {
+     "text": " So"
+    },
+    {
+     "text": " these"
+    }
+   ]
+  },
+  {
+   "startMs": 640,
+   "endMs": 1580,
+   "tokens": [
+    {
+     "text": " guys"
+    },
+    {
+     "text": " bust"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 1580,
+   "endMs": 2140,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " say"
+    }
+   ]
+  },
+  {
+   "startMs": 2140,
+   "endMs": 2400,
+   "tokens": [
+    {
+     "text": " we're"
+    },
+    {
+     "text": " here"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 2280,
+   "endMs": 3200,
+   "tokens": [
+    {
+     "text": " human"
+    },
+    {
+     "text": " trafficking"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 3200,
+   "endMs": 3520,
+   "tokens": [
+    {
+     "text": " kidnapping"
+    }
+   ]
+  },
+  {
+   "startMs": 3520,
+   "endMs": 4260,
+   "tokens": [
+    {
+     "text": " We're"
+    },
+    {
+     "text": " like"
+    }
+   ]
+  },
+  {
+   "startMs": 4860,
+   "endMs": 5200,
+   "tokens": [
+    {
+     "text": " with"
+    },
+    {
+     "text": " all"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 5200,
+   "endMs": 6040,
+   "tokens": [
+    {
+     "text": " respect"
+    },
+    {
+     "text": " officer"
+    }
+   ]
+  },
+  {
+   "startMs": 6360,
+   "endMs": 6880,
+   "tokens": [
+    {
+     "text": " what"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 6880,
+   "endMs": 7420,
+   "tokens": [
+    {
+     "text": " fuck"
+    },
+    {
+     "text": " are"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 7420,
+   "endMs": 7960,
+   "tokens": [
+    {
+     "text": " talking"
+    },
+    {
+     "text": " about"
+    }
+   ]
+  },
+  {
+   "startMs": 7960,
+   "endMs": 8500,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " they"
+    }
+   ]
+  },
+  {
+   "startMs": 8500,
+   "endMs": 9440,
+   "tokens": [
+    {
+     "text": " said"
+    },
+    {
+     "text": " girl"
+    },
+    {
+     "text": " A"
+    }
+   ]
+  },
+  {
+   "startMs": 9440,
+   "endMs": 10300,
+   "tokens": [
+    {
+     "text": " reported"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 10300,
+   "endMs": 12060,
+   "tokens": [
+    {
+     "text": " Americans"
+    },
+    {
+     "text": " that"
+    }
+   ]
+  },
+  {
+   "startMs": 12060,
+   "endMs": 12400,
+   "tokens": [
+    {
+     "text": " there"
+    },
+    {
+     "text": " are"
+    }
+   ]
+  },
+  {
+   "startMs": 12400,
+   "endMs": 13760,
+   "tokens": [
+    {
+     "text": " kidnapped"
+    },
+    {
+     "text": " victims"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 13760,
+   "endMs": 14320,
+   "tokens": [
+    {
+     "text": " victims"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 14320,
+   "endMs": 15100,
+   "tokens": [
+    {
+     "text": " human"
+    },
+    {
+     "text": " trafficking"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "sneaky.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.09,
+  "climaxSec": 8,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#FFD60A",
+  "accentColor": "#FFD60A",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "bust",
+   "trafficking",
+   "kidnapping",
+   "respect",
+   "officer",
+   "fuck",
+   "girl",
+   "kidnapped",
+   "victims",
+   "reported"
+  ]
+ },
+ "hook": {
+  "text": "“HUMAN TRAFFICKING AND KIDNAPPING”",
+  "untilSec": 2.5
+ }
+}

@@ -1,0 +1,391 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 6400.7,
+   "outSec": 6403.76,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 6403.96,
+   "outSec": 6407.12,
+   "offsetSec": 3.06,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 6407.38,
+   "outSec": 6408.66,
+   "offsetSec": 6.22,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 6411.74,
+   "outSec": 6412.08,
+   "offsetSec": 7.5,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BEAT"
+  },
+  {
+   "inSec": 6414.61,
+   "outSec": 6418.17,
+   "offsetSec": 7.84,
+   "framing": "cover",
+   "mute": false,
+   "beat": "CLIMAX"
+  },
+  {
+   "inSec": 6422.63,
+   "outSec": 6426.17,
+   "offsetSec": 11.4,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 380,
+   "tokens": [
+    {
+     "text": " us"
+    },
+    {
+     "text": " on"
+    }
+   ]
+  },
+  {
+   "startMs": 380,
+   "endMs": 1280,
+   "tokens": [
+    {
+     "text": " house"
+    },
+    {
+     "text": " arrest"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 1280,
+   "endMs": 1980,
+   "tokens": [
+    {
+     "text": " prosecutor"
+    },
+    {
+     "text": " saying"
+    }
+   ]
+  },
+  {
+   "startMs": 2100,
+   "endMs": 2300,
+   "tokens": [
+    {
+     "text": " where's"
+    },
+    {
+     "text": " your"
+    }
+   ]
+  },
+  {
+   "startMs": 2300,
+   "endMs": 2800,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " money"
+    }
+   ]
+  },
+  {
+   "startMs": 2800,
+   "endMs": 3060,
+   "tokens": [
+    {
+     "text": " from"
+    }
+   ]
+  },
+  {
+   "startMs": 3060,
+   "endMs": 4180,
+   "tokens": [
+    {
+     "text": " We're"
+    },
+    {
+     "text": " telling"
+    },
+    {
+     "text": " him"
+    }
+   ]
+  },
+  {
+   "startMs": 4180,
+   "endMs": 4620,
+   "tokens": [
+    {
+     "text": " buying"
+    },
+    {
+     "text": " a"
+    },
+    {
+     "text": " new"
+    }
+   ]
+  },
+  {
+   "startMs": 4620,
+   "endMs": 5260,
+   "tokens": [
+    {
+     "text": " car"
+    },
+    {
+     "text": " every"
+    },
+    {
+     "text": " day"
+    }
+   ]
+  },
+  {
+   "startMs": 5260,
+   "endMs": 5560,
+   "tokens": [
+    {
+     "text": " just"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 5560,
+   "endMs": 6220,
+   "tokens": [
+    {
+     "text": " piss"
+    },
+    {
+     "text": " him"
+    },
+    {
+     "text": " off"
+    }
+   ]
+  },
+  {
+   "startMs": 6220,
+   "endMs": 6560,
+   "tokens": [
+    {
+     "text": " sitting"
+    },
+    {
+     "text": " there"
+    }
+   ]
+  },
+  {
+   "startMs": 6560,
+   "endMs": 7060,
+   "tokens": [
+    {
+     "text": " doing"
+    },
+    {
+     "text": " emergency"
+    }
+   ]
+  },
+  {
+   "startMs": 7060,
+   "endMs": 7500,
+   "tokens": [
+    {
+     "text": " meetings"
+    }
+   ]
+  },
+  {
+   "startMs": 7500,
+   "endMs": 8100,
+   "tokens": [
+    {
+     "text": " Then"
+    },
+    {
+     "text": " bang"
+    }
+   ]
+  },
+  {
+   "startMs": 8800,
+   "endMs": 9280,
+   "tokens": [
+    {
+     "text": " Bang"
+    }
+   ]
+  },
+  {
+   "startMs": 9280,
+   "endMs": 9760,
+   "tokens": [
+    {
+     "text": " Bang"
+    }
+   ]
+  },
+  {
+   "startMs": 10160,
+   "endMs": 10620,
+   "tokens": [
+    {
+     "text": " Bang"
+    }
+   ]
+  },
+  {
+   "startMs": 10620,
+   "endMs": 10720,
+   "tokens": [
+    {
+     "text": " Bang"
+    }
+   ]
+  },
+  {
+   "startMs": 10800,
+   "endMs": 11300,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " hear"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 11180,
+   "endMs": 11620,
+   "tokens": [
+    {
+     "text": " door"
+    },
+    {
+     "text": " that"
+    },
+    {
+     "text": " we"
+    }
+   ]
+  },
+  {
+   "startMs": 11620,
+   "endMs": 12160,
+   "tokens": [
+    {
+     "text": " got"
+    },
+    {
+     "text": " raided"
+    }
+   ]
+  },
+  {
+   "startMs": 12400,
+   "endMs": 13780,
+   "tokens": [
+    {
+     "text": " We"
+    },
+    {
+     "text": " galvanized"
+    },
+    {
+     "text": " our"
+    }
+   ]
+  },
+  {
+   "startMs": 13780,
+   "endMs": 14540,
+   "tokens": [
+    {
+     "text": " house"
+    },
+    {
+     "text": " against"
+    }
+   ]
+  },
+  {
+   "startMs": 14540,
+   "endMs": 14940,
+   "tokens": [
+    {
+     "text": " raids"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "dark_knight_imagine_fire.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.1,
+  "climaxSec": 10,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#FFD60A",
+  "accentColor": "#FFD60A",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "prosecutor",
+   "money",
+   "car",
+   "piss",
+   "emergency",
+   "bang",
+   "door",
+   "raided",
+   "raids",
+   "arrest"
+  ]
+ },
+ "hook": {
+  "text": "“WHERE’S YOUR MONEY FROM?”",
+  "untilSec": 2.5
+ }
+}

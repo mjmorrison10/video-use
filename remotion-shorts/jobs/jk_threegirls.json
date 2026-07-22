@@ -1,0 +1,602 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 7010.94,
+   "outSec": 7016.84,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 7017.6,
+   "outSec": 7019.78,
+   "offsetSec": 5.9,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 7020.68,
+   "outSec": 7022.6,
+   "offsetSec": 8.08,
+   "framing": "cover",
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 7024.18,
+   "outSec": 7025.34,
+   "offsetSec": 10.0,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 7025.52,
+   "outSec": 7027.86,
+   "offsetSec": 11.16,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 7036.08,
+   "outSec": 7037.5,
+   "offsetSec": 13.5,
+   "framing": "cover",
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 7047.48,
+   "outSec": 7050.46,
+   "offsetSec": 14.92,
+   "framing": "cover",
+   "mute": false,
+   "beat": "BUTTON"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 180,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 180,
+   "endMs": 1560,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " all"
+    }
+   ]
+  },
+  {
+   "startMs": 1560,
+   "endMs": 1880,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 1880,
+   "endMs": 2600,
+   "tokens": [
+    {
+     "text": " happening"
+    },
+    {
+     "text": " it"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 2600,
+   "endMs": 3000,
+   "tokens": [
+    {
+     "text": " when"
+    },
+    {
+     "text": " that"
+    }
+   ]
+  },
+  {
+   "startMs": 3000,
+   "endMs": 3420,
+   "tokens": [
+    {
+     "text": " piece"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 3420,
+   "endMs": 4240,
+   "tokens": [
+    {
+     "text": " shit"
+    },
+    {
+     "text": " scumbag"
+    }
+   ]
+  },
+  {
+   "startMs": 4240,
+   "endMs": 4780,
+   "tokens": [
+    {
+     "text": " stabbed"
+    },
+    {
+     "text": " those"
+    }
+   ]
+  },
+  {
+   "startMs": 4780,
+   "endMs": 5100,
+   "tokens": [
+    {
+     "text": " three"
+    },
+    {
+     "text": " little"
+    }
+   ]
+  },
+  {
+   "startMs": 5100,
+   "endMs": 5440,
+   "tokens": [
+    {
+     "text": " girls"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 5440,
+   "endMs": 5740,
+   "tokens": [
+    {
+     "text": " England"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 5740,
+   "endMs": 5900,
+   "tokens": [
+    {
+     "text": " remember"
+    }
+   ]
+  },
+  {
+   "startMs": 5900,
+   "endMs": 6080,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " I"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 6080,
+   "endMs": 6520,
+   "tokens": [
+    {
+     "text": " doing"
+    },
+    {
+     "text": " emergency"
+    }
+   ]
+  },
+  {
+   "startMs": 6520,
+   "endMs": 7100,
+   "tokens": [
+    {
+     "text": " meetings"
+    },
+    {
+     "text": " saying"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 7100,
+   "endMs": 7680,
+   "tokens": [
+    {
+     "text": " British"
+    },
+    {
+     "text": " government"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 7680,
+   "endMs": 8080,
+   "tokens": [
+    {
+     "text": " complicit"
+    }
+   ]
+  },
+  {
+   "startMs": 8080,
+   "endMs": 8480,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " they"
+    }
+   ]
+  },
+  {
+   "startMs": 8480,
+   "endMs": 8740,
+   "tokens": [
+    {
+     "text": " were"
+    },
+    {
+     "text": " locking"
+    }
+   ]
+  },
+  {
+   "startMs": 8740,
+   "endMs": 9220,
+   "tokens": [
+    {
+     "text": " people"
+    },
+    {
+     "text": " up"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 9220,
+   "endMs": 9580,
+   "tokens": [
+    {
+     "text": " those"
+    },
+    {
+     "text": " tweets"
+    }
+   ]
+  },
+  {
+   "startMs": 9580,
+   "endMs": 9880,
+   "tokens": [
+    {
+     "text": " Do"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 9880,
+   "endMs": 10000,
+   "tokens": [
+    {
+     "text": " remember"
+    }
+   ]
+  },
+  {
+   "startMs": 10000,
+   "endMs": 10660,
+   "tokens": [
+    {
+     "text": " They're"
+    },
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 10540,
+   "endMs": 11160,
+   "tokens": [
+    {
+     "text": " fuck"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 11160,
+   "endMs": 11380,
+   "tokens": [
+    {
+     "text": " The"
+    },
+    {
+     "text": " British"
+    }
+   ]
+  },
+  {
+   "startMs": 11380,
+   "endMs": 11960,
+   "tokens": [
+    {
+     "text": " government"
+    },
+    {
+     "text": " if"
+    }
+   ]
+  },
+  {
+   "startMs": 11840,
+   "endMs": 11960,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " get"
+    }
+   ]
+  },
+  {
+   "startMs": 11960,
+   "endMs": 12260,
+   "tokens": [
+    {
+     "text": " hold"
+    },
+    {
+     "text": " of"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 12360,
+   "endMs": 12560,
+   "tokens": [
+    {
+     "text": " they're"
+    },
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 12560,
+   "endMs": 13500,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " toast"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 13500,
+   "endMs": 13900,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " know"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 13900,
+   "endMs": 14580,
+   "tokens": [
+    {
+     "text": " British"
+    },
+    {
+     "text": " government's"
+    }
+   ]
+  },
+  {
+   "startMs": 14580,
+   "endMs": 14920,
+   "tokens": [
+    {
+     "text": " after"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 14920,
+   "endMs": 15240,
+   "tokens": [
+    {
+     "text": " Win"
+    },
+    {
+     "text": " or"
+    }
+   ]
+  },
+  {
+   "startMs": 15240,
+   "endMs": 15580,
+   "tokens": [
+    {
+     "text": " lose"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 15580,
+   "endMs": 15880,
+   "tokens": [
+    {
+     "text": " Romania"
+    }
+   ]
+  },
+  {
+   "startMs": 16560,
+   "endMs": 17420,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " England"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 17300,
+   "endMs": 17640,
+   "tokens": [
+    {
+     "text": " don't"
+    },
+    {
+     "text": " stand"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 17640,
+   "endMs": 17900,
+   "tokens": [
+    {
+     "text": " chance"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "zack_hemsey_the_way.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.09,
+  "climaxSec": 8,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#FFD60A",
+  "accentColor": "#FFD60A",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "stabbed",
+   "three",
+   "girls",
+   "England",
+   "emergency",
+   "complicit",
+   "British",
+   "government",
+   "locking",
+   "tweets",
+   "toast",
+   "chance"
+  ]
+ },
+ "hook": {
+  "text": "“THE BRITISH GOVERNMENT IS COMPLICIT”",
+  "untilSec": 2.5
+ }
+}
