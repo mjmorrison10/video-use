@@ -81,12 +81,23 @@ const Segment: React.FC<{
   outSec: number;
   framing: string;
   cropX: number;
+  cropXEnd: number | null;
+  cropPanSec: number | null;
+  durFrames: number;
   mute: boolean;
   fps: number;
-}> = ({ videoSrc, inSec, outSec, framing, cropX, mute, fps }) => {
+}> = ({ videoSrc, inSec, outSec, framing, cropX, cropXEnd, cropPanSec, durFrames, mute, fps }) => {
   const trimBefore = Math.round(inSec * fps);
   const trimAfter = Math.round(outSec * fps);
   const src = staticFile(videoSrc);
+  const segFrame = useCurrentFrame();
+  const cx =
+    cropXEnd == null
+      ? cropX
+      : interpolate(segFrame, [0, Math.max(1, cropPanSec != null ? Math.round(cropPanSec * fps) : durFrames)], [cropX, cropXEnd], {
+          extrapolateLeft: "clamp",
+          extrapolateRight: "clamp",
+        });
 
   if (framing === "blur-contain") {
     return (
@@ -126,7 +137,7 @@ const Segment: React.FC<{
         trimBefore={trimBefore}
         trimAfter={trimAfter}
         muted={mute}
-        style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: `${cropX * 100}% 50%` }}
+        style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: `${cx * 100}% 50%` }}
       />
     </AbsoluteFill>
   );
@@ -206,6 +217,9 @@ export const Short: React.FC<ShortProps> = ({
                 outSec={r.outSec}
                 framing={r.framing}
                 cropX={r.cropX ?? 0.5}
+                cropXEnd={r.cropXEnd ?? null}
+                cropPanSec={r.cropPanSec ?? null}
+                durFrames={dur}
                 mute={r.mute}
                 fps={fps}
               />

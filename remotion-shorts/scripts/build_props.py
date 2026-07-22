@@ -138,6 +138,8 @@ def main() -> int:
             "offsetSec": round(offset, 3),
             "framing": seg.get("framing", "cover"),
             "cropX": seg.get("cropX", 0.5),
+            "cropXEnd": seg.get("cropXEnd"),
+            "cropPanSec": seg.get("cropPanSec"),
             "mute": bool(seg.get("mute", False)),
             "beat": seg.get("beat"),
         })

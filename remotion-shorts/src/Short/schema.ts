@@ -7,6 +7,8 @@ export const rangeSchema = z.object({
   offsetSec: z.number(), // where this segment starts on the OUTPUT timeline
   framing: z.enum(["cover", "blur-contain"]).default("cover"),
   cropX: z.number().default(0.5), // horizontal crop bias for cover (0=left, .5=center, 1=right)
+  cropXEnd: z.number().nullable().default(null), // if set, pan crop from cropX -> cropXEnd
+  cropPanSec: z.number().nullable().default(null), // seconds to complete the pan, then hold (default: whole segment)
   mute: z.boolean().default(false), // drop this segment's audio (censor)
   beat: z.string().optional(), // HOOK / POINT / etc (informational)
 });
