@@ -197,15 +197,33 @@ const Segment: React.FC<{
             }}
           />
         </AbsoluteFill>
-        <AbsoluteFill style={{ justifyContent: "center" }}>
-          <OffthreadVideo
+        {crop ? (
+          // Contain only the cropped sub-rect (e.g. drop the source's browser
+          // chrome) over the blurred full-frame background.
+          <SourceCrop
             src={src}
             trimBefore={trimBefore}
             trimAfter={trimAfter}
             muted={mute}
-            style={{ width: "100%", height: "auto", objectFit: "contain", filter: grade }}
+            boxTop={0}
+            boxW={OUT_W}
+            boxH={OUT_H}
+            rect={crop}
+            fit="contain"
+            bg="transparent"
+            grade={grade}
           />
-        </AbsoluteFill>
+        ) : (
+          <AbsoluteFill style={{ justifyContent: "center" }}>
+            <OffthreadVideo
+              src={src}
+              trimBefore={trimBefore}
+              trimAfter={trimAfter}
+              muted={mute}
+              style={{ width: "100%", height: "auto", objectFit: "contain", filter: grade }}
+            />
+          </AbsoluteFill>
+        )}
       </AbsoluteFill>
     );
   }

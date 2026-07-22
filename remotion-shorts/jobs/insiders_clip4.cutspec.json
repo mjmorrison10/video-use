@@ -1,0 +1,78 @@
+{
+  "videoSrc": "insiders_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 466.24,
+      "outSec": 470.52,
+      "beat": "HOOK",
+      "framing": "blur-contain",
+      "crop": {
+        "x": 0.0,
+        "y": 0.3,
+        "w": 1.0,
+        "h": 0.575
+      }
+    },
+    {
+      "inSec": 461.04,
+      "outSec": 465.42,
+      "beat": "POINT",
+      "framing": "blur-contain",
+      "crop": {
+        "x": 0.0,
+        "y": 0.3,
+        "w": 1.0,
+        "h": 0.575
+      }
+    },
+    {
+      "inSec": 470.72,
+      "outSec": 474.22,
+      "beat": "POINT2",
+      "framing": "blur-contain",
+      "crop": {
+        "x": 0.0,
+        "y": 0.3,
+        "w": 1.0,
+        "h": 0.575
+      }
+    },
+    {
+      "inSec": 477.46,
+      "outSec": 480.26,
+      "beat": "REINFORCE",
+      "framing": "blur-contain",
+      "crop": {
+        "x": 0.0,
+        "y": 0.3,
+        "w": 1.0,
+        "h": 0.575
+      }
+    }
+  ],
+  "style": {
+    "captionPosition": "bottom",
+    "powerWords": [
+      "2022",
+      "correction",
+      "energy",
+      "earnings",
+      "peaking",
+      "consumers",
+      "market",
+      "hourly"
+    ]
+  },
+  "hook": {
+    "text": "THE 2022 SIGNAL IS BACK",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "royalty.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 7,
+    "startSec": 28
+  }
+}

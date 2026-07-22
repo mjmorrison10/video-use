@@ -1,0 +1,61 @@
+{
+  "videoSrc": "insiders_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 655.84,
+      "outSec": 665.22,
+      "beat": "HOOK",
+      "framing": "blur-contain",
+      "crop": {
+        "x": 0.0,
+        "y": 0.45,
+        "w": 1.0,
+        "h": 0.27
+      }
+    },
+    {
+      "inSec": 701.37,
+      "outSec": 705.44,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 630.2,
+      "outSec": 637.48,
+      "beat": "REINFORCE",
+      "framing": "blur-contain",
+      "crop": {
+        "x": 0.0,
+        "y": 0.135,
+        "w": 1.0,
+        "h": 0.865
+      }
+    }
+  ],
+  "style": {
+    "captionPosition": "bottom",
+    "powerWords": [
+      "calm",
+      "storm",
+      "vix",
+      "surface",
+      "different",
+      "stress",
+      "sideways",
+      "nowhere",
+      "retail"
+    ]
+  },
+  "hook": {
+    "text": "THE VIX IS LYING",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "dark_knight.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 10,
+    "startSec": 20
+  }
+}

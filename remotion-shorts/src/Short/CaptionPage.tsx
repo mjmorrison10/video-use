@@ -43,12 +43,11 @@ export const CaptionPage: React.FC<{
   const container: React.CSSProperties =
     style.captionPosition === "bottom"
       ? {
-          justifyContent: "center",
+          justifyContent: "flex-end",
           alignItems: "center",
-          top: undefined,
-          bottom: style.captionBottom,
-          height: 200,
-          padding: "0 60px",
+          paddingBottom: style.captionBottom ?? 430,
+          paddingLeft: 60,
+          paddingRight: 60,
           textAlign: "center",
         }
       : {

@@ -1,0 +1,56 @@
+{
+  "videoSrc": "insiders_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 0.03,
+      "outSec": 9.29,
+      "beat": "HOOK",
+      "framing": "blur-contain"
+    },
+    {
+      "inSec": 12.81,
+      "outSec": 21.19,
+      "beat": "POINT",
+      "framing": "blur-contain",
+      "crop": {
+        "x": 0.0,
+        "y": 0.5,
+        "w": 1.0,
+        "h": 0.19
+      }
+    },
+    {
+      "inSec": 398.335,
+      "outSec": 404.6,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "captionPosition": "bottom",
+    "powerWords": [
+      "dumping",
+      "fastest",
+      "decades",
+      "retail",
+      "77.6",
+      "billion",
+      "20%",
+      "insiders",
+      "hedge",
+      "foreign"
+    ]
+  },
+  "hook": {
+    "text": "$77 BILLION DUMPED",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "interstellar.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 13,
+    "startSec": 0
+  }
+}
