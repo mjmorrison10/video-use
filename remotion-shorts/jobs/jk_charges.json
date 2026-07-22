@@ -4,49 +4,91 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 2.79,
+   "outSec": 2.67,
    "offsetSec": 0.0,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "SETUP"
   },
   {
-   "inSec": 3.91,
-   "outSec": 8.75,
-   "offsetSec": 2.54,
+   "inSec": 3.85,
+   "outSec": 8.83,
+   "offsetSec": 2.42,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 10.81,
-   "outSec": 13.67,
-   "offsetSec": 7.38,
+   "inSec": 11.54,
+   "outSec": 13.68,
+   "offsetSec": 7.4,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 15.77,
+   "inSec": 15.99,
    "outSec": 17.42,
-   "offsetSec": 10.24,
+   "offsetSec": 9.54,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 18.3,
-   "outSec": 21.38,
-   "offsetSec": 11.89,
+   "inSec": 18.31,
+   "outSec": 26.01,
+   "offsetSec": 10.97,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 21.91,
-   "outSec": 22.78,
-   "offsetSec": 14.97,
+   "inSec": 27.63,
+   "outSec": 28.9,
+   "offsetSec": 18.67,
    "framing": "cover",
+   "cropX": 0.5,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 37.65,
+   "outSec": 39.94,
+   "offsetSec": 19.94,
+   "framing": "cover",
+   "cropX": 0.5,
+   "mute": false,
+   "beat": "REINFORCE"
+  },
+  {
+   "inSec": 41.85,
+   "outSec": 42.64,
+   "offsetSec": 22.23,
+   "framing": "cover",
+   "cropX": 0.5,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 44.63,
+   "outSec": 45.21,
+   "offsetSec": 23.02,
+   "framing": "cover",
+   "cropX": 0.5,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 55.91,
+   "outSec": 58.02,
+   "offsetSec": 23.6,
+   "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "BUTTON"
   }
@@ -54,7 +96,7 @@
  "captionPages": [
   {
    "startMs": 60,
-   "endMs": 700,
+   "endMs": 600,
    "tokens": [
     {
      "text": " And"
@@ -68,8 +110,8 @@
    ]
   },
   {
-   "startMs": 860,
-   "endMs": 1300,
+   "startMs": 720,
+   "endMs": 1180,
    "tokens": [
     {
      "text": " by"
@@ -80,8 +122,8 @@
    ]
   },
   {
-   "startMs": 1300,
-   "endMs": 2040,
+   "startMs": 1180,
+   "endMs": 1960,
    "tokens": [
     {
      "text": " code"
@@ -95,8 +137,8 @@
    ]
   },
   {
-   "startMs": 2040,
-   "endMs": 2700,
+   "startMs": 1960,
+   "endMs": 2580,
    "tokens": [
     {
      "text": " article"
@@ -107,8 +149,8 @@
    ]
   },
   {
-   "startMs": 2700,
-   "endMs": 3200,
+   "startMs": 2580,
+   "endMs": 3020,
    "tokens": [
     {
      "text": " arrest"
@@ -119,8 +161,8 @@
    ]
   },
   {
-   "startMs": 3200,
-   "endMs": 4220,
+   "startMs": 3020,
+   "endMs": 4080,
    "tokens": [
     {
      "text": " organized"
@@ -131,8 +173,8 @@
    ]
   },
   {
-   "startMs": 4220,
-   "endMs": 4840,
+   "startMs": 4080,
+   "endMs": 4740,
    "tokens": [
     {
      "text": " group"
@@ -146,8 +188,8 @@
    ]
   },
   {
-   "startMs": 4840,
-   "endMs": 5300,
+   "startMs": 4740,
+   "endMs": 5160,
    "tokens": [
     {
      "text": " a"
@@ -158,8 +200,8 @@
    ]
   },
   {
-   "startMs": 5300,
-   "endMs": 5940,
+   "startMs": 5160,
+   "endMs": 5760,
    "tokens": [
     {
      "text": " gang"
@@ -170,8 +212,8 @@
    ]
   },
   {
-   "startMs": 5940,
-   "endMs": 7020,
+   "startMs": 5760,
+   "endMs": 6840,
    "tokens": [
     {
      "text": " intimidation"
@@ -182,21 +224,12 @@
    ]
   },
   {
-   "startMs": 7020,
-   "endMs": 8020,
+   "startMs": 6840,
+   "endMs": 8710,
    "tokens": [
     {
      "text": " trafficking"
     },
-    {
-     "text": " I'm"
-    }
-   ]
-  },
-  {
-   "startMs": 8020,
-   "endMs": 9520,
-   "tokens": [
     {
      "text": " like"
     },
@@ -206,8 +239,8 @@
    ]
   },
   {
-   "startMs": 9520,
-   "endMs": 10200,
+   "startMs": 8710,
+   "endMs": 9350,
    "tokens": [
     {
      "text": " fucking"
@@ -218,35 +251,26 @@
    ]
   },
   {
-   "startMs": 10300,
-   "endMs": 10620,
+   "startMs": 9540,
+   "endMs": 9900,
    "tokens": [
-    {
-     "text": " I'm"
-    },
     {
      "text": " not"
-    }
-   ]
-  },
-  {
-   "startMs": 10620,
-   "endMs": 11240,
-   "tokens": [
-    {
-     "text": " guilty"
     },
     {
-     "text": " obviously"
+     "text": " guilty"
     }
    ]
   },
   {
-   "startMs": 11340,
-   "endMs": 11540,
+   "startMs": 10020,
+   "endMs": 10560,
    "tokens": [
     {
-     "text": " This"
+     "text": " Obviously"
+    },
+    {
+     "text": " this"
     },
     {
      "text": " is"
@@ -254,8 +278,8 @@
    ]
   },
   {
-   "startMs": 11540,
-   "endMs": 11890,
+   "startMs": 10560,
+   "endMs": 10940,
    "tokens": [
     {
      "text": " bullshit"
@@ -263,54 +287,51 @@
    ]
   },
   {
-   "startMs": 11900,
-   "endMs": 12100,
+   "startMs": 10970,
+   "endMs": 11230,
    "tokens": [
     {
-     "text": " And"
+     "text": " they're"
     },
     {
-     "text": " they're"
+     "text": " like"
     }
    ]
   },
   {
-   "startMs": 12100,
-   "endMs": 12840,
+   "startMs": 11310,
+   "endMs": 11930,
    "tokens": [
-    {
-     "text": " like"
-    },
     {
      "text": " what"
     },
     {
      "text": " do"
+    },
+    {
+     "text": " you"
     }
    ]
   },
   {
-   "startMs": 12840,
-   "endMs": 13120,
+   "startMs": 11930,
+   "endMs": 12310,
    "tokens": [
-    {
-     "text": " you"
-    },
     {
      "text": " have"
     },
     {
      "text": " to"
+    },
+    {
+     "text": " say"
     }
    ]
   },
   {
-   "startMs": 13120,
-   "endMs": 13820,
+   "startMs": 12310,
+   "endMs": 12770,
    "tokens": [
-    {
-     "text": " say"
-    },
     {
      "text": " about"
     },
@@ -320,8 +341,8 @@
    ]
   },
   {
-   "startMs": 13820,
-   "endMs": 14480,
+   "startMs": 12770,
+   "endMs": 13450,
    "tokens": [
     {
      "text": " crime"
@@ -332,8 +353,8 @@
    ]
   },
   {
-   "startMs": 14480,
-   "endMs": 14970,
+   "startMs": 13450,
+   "endMs": 14050,
    "tokens": [
     {
      "text": " human"
@@ -344,8 +365,8 @@
    ]
   },
   {
-   "startMs": 15030,
-   "endMs": 15470,
+   "startMs": 14610,
+   "endMs": 15030,
    "tokens": [
     {
      "text": " I'm"
@@ -356,11 +377,329 @@
    ]
   },
   {
-   "startMs": 15550,
-   "endMs": 15750,
+   "startMs": 15050,
+   "endMs": 15310,
    "tokens": [
     {
      "text": " nothing"
+    }
+   ]
+  },
+  {
+   "startMs": 15350,
+   "endMs": 15650,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " made"
+    }
+   ]
+  },
+  {
+   "startMs": 15650,
+   "endMs": 15830,
+   "tokens": [
+    {
+     "text": " up"
+    }
+   ]
+  },
+  {
+   "startMs": 15850,
+   "endMs": 16170,
+   "tokens": [
+    {
+     "text": " What"
+    },
+    {
+     "text": " do"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 16170,
+   "endMs": 16490,
+   "tokens": [
+    {
+     "text": " have"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " say"
+    }
+   ]
+  },
+  {
+   "startMs": 16490,
+   "endMs": 16730,
+   "tokens": [
+    {
+     "text": " about"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 16730,
+   "endMs": 17050,
+   "tokens": [
+    {
+     "text": " crime"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 17050,
+   "endMs": 17270,
+   "tokens": [
+    {
+     "text": " assault"
+    }
+   ]
+  },
+  {
+   "startMs": 17470,
+   "endMs": 17710,
+   "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " like"
+    }
+   ]
+  },
+  {
+   "startMs": 17710,
+   "endMs": 18230,
+   "tokens": [
+    {
+     "text": " assault"
+    },
+    {
+     "text": " who"
+    }
+   ]
+  },
+  {
+   "startMs": 18370,
+   "endMs": 18630,
+   "tokens": [
+    {
+     "text": " bro"
+    }
+   ]
+  },
+  {
+   "startMs": 18670,
+   "endMs": 18870,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " got"
+    },
+    {
+     "text": " an"
+    }
+   ]
+  },
+  {
+   "startMs": 18870,
+   "endMs": 19430,
+   "tokens": [
+    {
+     "text": " argument"
+    },
+    {
+     "text": " with"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 19430,
+   "endMs": 19890,
+   "tokens": [
+    {
+     "text": " decoy"
+    },
+    {
+     "text": " guys"
+    }
+   ]
+  },
+  {
+   "startMs": 19940,
+   "endMs": 20240,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " end"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 20240,
+   "endMs": 20400,
+   "tokens": [
+    {
+     "text": " it"
+    },
+    {
+     "text": " he"
+    }
+   ]
+  },
+  {
+   "startMs": 20400,
+   "endMs": 21300,
+   "tokens": [
+    {
+     "text": " goes"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " we"
+    }
+   ]
+  },
+  {
+   "startMs": 21300,
+   "endMs": 21980,
+   "tokens": [
+    {
+     "text": " recommend"
+    },
+    {
+     "text": " detention"
+    }
+   ]
+  },
+  {
+   "startMs": 22230,
+   "endMs": 22470,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " don't"
+    },
+    {
+     "text": " get"
+    }
+   ]
+  },
+  {
+   "startMs": 22470,
+   "endMs": 22650,
+   "tokens": [
+    {
+     "text": " to"
+    },
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 22650,
+   "endMs": 22910,
+   "tokens": [
+    {
+     "text": " home"
+    }
+   ]
+  },
+  {
+   "startMs": 23020,
+   "endMs": 23240,
+   "tokens": [
+    {
+     "text": " you're"
+    },
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 23240,
+   "endMs": 23480,
+   "tokens": [
+    {
+     "text": " jail"
+    }
+   ]
+  },
+  {
+   "startMs": 23600,
+   "endMs": 23880,
+   "tokens": [
+    {
+     "text": " say"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 23880,
+   "endMs": 24520,
+   "tokens": [
+    {
+     "text": " Matrix"
+    },
+    {
+     "text": " has"
+    }
+   ]
+  },
+  {
+   "startMs": 24520,
+   "endMs": 25220,
+   "tokens": [
+    {
+     "text": " attacked"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 25620,
+   "endMs": 25710,
+   "tokens": [
+    {
+     "text": " And"
     }
    ]
   }
@@ -369,7 +708,7 @@
   "src": "tension_compilation.mp3",
   "volLow": 0.13,
   "volHigh": 0.27,
-  "climaxSec": 8,
+  "climaxSec": 23,
   "startSec": 0
  },
  "style": {
@@ -381,16 +720,17 @@
   "captionPosition": "center",
   "uppercase": true,
   "powerWords": [
-   "arrest",
    "mafia",
    "gang",
-   "organized",
+   "arrest",
    "criminal",
-   "witness",
    "trafficking",
+   "assault",
    "guilty",
    "bullshit",
-   "intimidation"
+   "detention",
+   "jail",
+   "matrix"
   ]
  },
  "hook": {

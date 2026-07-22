@@ -3,46 +3,46 @@
  "fps": 30,
  "segments": [
   {
-   "inSec": 8491.46,
-   "outSec": 8494.86,
-   "beat": "SETUP",
-   "framing": "cover"
-  },
-  {
-   "inSec": 8495.36,
+   "inSec": 8491.48,
    "outSec": 8499.24,
-   "beat": "POINT",
-   "framing": "cover"
+   "beat": "SETUP",
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 8501.24,
+   "inSec": 8501.7,
    "outSec": 8502.42,
    "beat": "REINFORCE",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 8503.0,
+   "inSec": 8503.56,
    "outSec": 8505.47,
    "beat": "HOOK",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 8506.58,
-   "outSec": 8507.37,
+   "inSec": 8506.98,
+   "outSec": 8507.32,
    "beat": "REINFORCE",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 8509.24,
-   "outSec": 8512.56,
+   "inSec": 8510.36,
+   "outSec": 8512.48,
    "beat": "REINFORCE",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 8516.14,
+   "inSec": 8516.62,
    "outSec": 8517.37,
    "beat": "BUTTON",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   }
  ],
  "captionReplace": {

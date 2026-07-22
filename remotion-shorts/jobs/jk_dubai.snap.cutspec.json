@@ -3,22 +3,39 @@
  "fps": 30,
  "segments": [
   {
-   "inSec": 116.9,
-   "outSec": 123.01,
+   "inSec": 117.0,
+   "outSec": 123.18,
    "beat": "HOOK",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 135.4,
+   "inSec": 135.34,
    "outSec": 142.74,
    "beat": "POINT",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 146.95,
-   "outSec": 149.47,
-   "beat": "BUTTON",
-   "framing": "cover"
+   "inSec": 147.3,
+   "outSec": 149.22,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 174.24,
+   "outSec": 187.22,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 223.48,
+   "outSec": 230.69,
+   "beat": "REINFORCE",
+   "framing": "cover",
+   "cropX": 0.5
   }
  ],
  "captionReplace": {
@@ -32,9 +49,13 @@
    "webcam",
    "schooling",
    "waste",
-   "years",
    "money",
-   "education"
+   "degree",
+   "hustle",
+   "school",
+   "students",
+   "month",
+   "week"
   ]
  },
  "hook": {
@@ -45,7 +66,7 @@
   "src": "interstellar.mp3",
   "volLow": 0.13,
   "volHigh": 0.27,
-  "climaxSec": 11,
+  "climaxSec": 28,
   "startSec": 0
  }
 }

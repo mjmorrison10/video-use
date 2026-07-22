@@ -3,46 +3,39 @@
  "fps": 30,
  "segments": [
   {
-   "inSec": 7010.88,
+   "inSec": 7012.24,
    "outSec": 7016.99,
    "beat": "HOOK",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 7017.5,
+   "inSec": 7017.68,
    "outSec": 7019.85,
    "beat": "POINT",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 7020.62,
-   "outSec": 7022.73,
+   "inSec": 7020.94,
+   "outSec": 7022.72,
    "beat": "POINT",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 7024.09,
-   "outSec": 7025.21,
+   "inSec": 7024.18,
+   "outSec": 7030.46,
    "beat": "REINFORCE",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 7025.54,
-   "outSec": 7030.19,
-   "beat": "REINFORCE",
-   "framing": "cover"
-  },
-  {
-   "inSec": 7035.66,
-   "outSec": 7037.43,
-   "beat": "REINFORCE",
-   "framing": "cover"
-  },
-  {
-   "inSec": 7047.52,
-   "outSec": 7050.52,
+   "inSec": 7035.7,
+   "outSec": 7037.31,
    "beat": "BUTTON",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   }
  ],
  "style": {
@@ -58,7 +51,7 @@
    "locking",
    "tweets",
    "toast",
-   "chance"
+   "after"
   ]
  },
  "hook": {

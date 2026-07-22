@@ -4,33 +4,54 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 6.36,
+   "outSec": 6.43,
    "offsetSec": 0.0,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 18.75,
-   "outSec": 26.09,
-   "offsetSec": 6.11,
+   "inSec": 18.59,
+   "outSec": 25.99,
+   "offsetSec": 6.18,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 30.3,
-   "outSec": 32.82,
-   "offsetSec": 13.45,
+   "inSec": 30.55,
+   "outSec": 32.47,
+   "offsetSec": 13.58,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
-   "beat": "BUTTON"
+   "beat": "POINT"
+  },
+  {
+   "inSec": 57.49,
+   "outSec": 70.47,
+   "offsetSec": 15.5,
+   "framing": "cover",
+   "cropX": 0.5,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 106.73,
+   "outSec": 113.94,
+   "offsetSec": 28.48,
+   "framing": "cover",
+   "cropX": 0.5,
+   "mute": false,
+   "beat": "REINFORCE"
   }
  ],
  "captionPages": [
   {
    "startMs": 60,
-   "endMs": 780,
+   "endMs": 660,
    "tokens": [
     {
      "text": " I've"
@@ -41,8 +62,8 @@
    ]
   },
   {
-   "startMs": 780,
-   "endMs": 1180,
+   "startMs": 660,
+   "endMs": 1040,
    "tokens": [
     {
      "text": " from"
@@ -53,8 +74,8 @@
    ]
   },
   {
-   "startMs": 1180,
-   "endMs": 1800,
+   "startMs": 1040,
+   "endMs": 1620,
    "tokens": [
     {
      "text": " webcam"
@@ -65,21 +86,12 @@
    ]
   },
   {
-   "startMs": 1980,
+   "startMs": 1780,
    "endMs": 2180,
    "tokens": [
     {
-     "text": " aucunes"
-    },
-    {
      "text": " I'm"
-    }
-   ]
-  },
-  {
-   "startMs": 2060,
-   "endMs": 2360,
-   "tokens": [
+    },
     {
      "text": " living"
     },
@@ -89,21 +101,45 @@
    ]
   },
   {
-   "startMs": 2360,
-   "endMs": 3460,
+   "startMs": 2180,
+   "endMs": 2300,
    "tokens": [
     {
      "text": " Dubai"
-    },
-    {
-     "text": " why"
     }
    ]
   },
   {
-   "startMs": 3460,
-   "endMs": 3700,
+   "startMs": 2460,
+   "endMs": 2580,
    "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 2580,
+   "endMs": 2960,
+   "tokens": [
+    {
+     "text": " rich"
+    },
+    {
+     "text": " man"
+    }
+   ]
+  },
+  {
+   "startMs": 3120,
+   "endMs": 3540,
+   "tokens": [
+    {
+     "text": " Why"
+    },
     {
      "text": " would"
     },
@@ -113,8 +149,8 @@
    ]
   },
   {
-   "startMs": 3700,
-   "endMs": 3980,
+   "startMs": 3540,
+   "endMs": 3840,
    "tokens": [
     {
      "text": " want"
@@ -128,11 +164,26 @@
    ]
   },
   {
-   "startMs": 3980,
-   "endMs": 5560,
+   "startMs": 3840,
+   "endMs": 4980,
    "tokens": [
     {
      "text": " back"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " do"
+    }
+   ]
+  },
+  {
+   "startMs": 4980,
+   "endMs": 5420,
+   "tokens": [
+    {
+     "text": " this"
     },
     {
      "text": " schooling"
@@ -140,8 +191,8 @@
    ]
   },
   {
-   "startMs": 5560,
-   "endMs": 5860,
+   "startMs": 5420,
+   "endMs": 5700,
    "tokens": [
     {
      "text": " when"
@@ -152,8 +203,8 @@
    ]
   },
   {
-   "startMs": 5860,
-   "endMs": 6110,
+   "startMs": 5700,
+   "endMs": 6000,
    "tokens": [
     {
      "text": " have"
@@ -164,9 +215,12 @@
    ]
   },
   {
-   "startMs": 6110,
-   "endMs": 6490,
+   "startMs": 6120,
+   "endMs": 6560,
    "tokens": [
+    {
+     "text": " She"
+    },
     {
      "text": " There"
     },
@@ -176,8 +230,8 @@
    ]
   },
   {
-   "startMs": 6490,
-   "endMs": 7090,
+   "startMs": 6560,
+   "endMs": 7140,
    "tokens": [
     {
      "text": " nothing"
@@ -191,8 +245,8 @@
    ]
   },
   {
-   "startMs": 7090,
-   "endMs": 7670,
+   "startMs": 7140,
+   "endMs": 7660,
    "tokens": [
     {
      "text": " do"
@@ -206,8 +260,8 @@
    ]
   },
   {
-   "startMs": 7670,
-   "endMs": 8090,
+   "startMs": 7660,
+   "endMs": 8200,
    "tokens": [
     {
      "text": " and"
@@ -218,8 +272,8 @@
    ]
   },
   {
-   "startMs": 8090,
-   "endMs": 8450,
+   "startMs": 8200,
+   "endMs": 8520,
    "tokens": [
     {
      "text": " your"
@@ -230,8 +284,8 @@
    ]
   },
   {
-   "startMs": 8450,
-   "endMs": 8930,
+   "startMs": 8520,
+   "endMs": 9020,
    "tokens": [
     {
      "text": " getting"
@@ -245,62 +299,74 @@
    ]
   },
   {
-   "startMs": 8930,
-   "endMs": 10110,
+   "startMs": 9020,
+   "endMs": 9420,
    "tokens": [
     {
      "text": " these"
     },
     {
-     "text": " spending"
+     "text": " degrees"
     }
    ]
   },
   {
-   "startMs": 10110,
-   "endMs": 10670,
+   "startMs": 9640,
+   "endMs": 10460,
    "tokens": [
     {
-     "text": " four"
+     "text": " spending"
     },
     {
-     "text": " years"
+     "text": " four"
     }
    ]
   },
   {
-   "startMs": 10850,
-   "endMs": 11710,
+   "startMs": 10460,
+   "endMs": 11340,
    "tokens": [
+    {
+     "text": " years"
+    },
     {
      "text": " spending"
     },
     {
      "text": " $300"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 11340,
+   "endMs": 11820,
+   "tokens": [
     {
      "text": "000"
     }
    ]
   },
   {
-   "startMs": 11990,
-   "endMs": 12510,
+   "startMs": 11900,
+   "endMs": 12780,
    "tokens": [
     {
-     "text": " everybody"
+     "text": " Everybody"
     },
     {
      "text": " knows"
+    },
+    {
+     "text": " it's"
     }
    ]
   },
   {
-   "startMs": 12510,
-   "endMs": 13050,
+   "startMs": 12780,
+   "endMs": 13120,
    "tokens": [
     {
-     "text": " this"
+     "text": " a"
     },
     {
      "text": " waste"
@@ -311,54 +377,57 @@
    ]
   },
   {
-   "startMs": 13050,
-   "endMs": 13940,
+   "startMs": 13120,
+   "endMs": 13380,
    "tokens": [
     {
      "text": " time"
-    },
-    {
-     "text": " So"
-    },
-    {
-     "text": " you"
     }
    ]
   },
   {
-   "startMs": 13940,
-   "endMs": 14460,
+   "startMs": 13580,
+   "endMs": 14020,
    "tokens": [
+    {
+     "text": " you"
+    },
     {
      "text": " just"
     },
     {
      "text": " go"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 14020,
+   "endMs": 14260,
+   "tokens": [
     {
      "text": " and"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 14260,
+   "endMs": 14460,
+   "tokens": [
+    {
+     "text": " give"
+    },
+    {
+     "text": " your"
     }
    ]
   },
   {
    "startMs": 14460,
-   "endMs": 14640,
+   "endMs": 14760,
    "tokens": [
-    {
-     "text": " you"
-    },
-    {
-     "text": " give"
-    }
-   ]
-  },
-  {
-   "startMs": 14640,
-   "endMs": 15040,
-   "tokens": [
-    {
-     "text": " your"
-    },
     {
      "text": " money"
     },
@@ -368,8 +437,8 @@
    ]
   },
   {
-   "startMs": 15040,
-   "endMs": 15720,
+   "startMs": 14760,
+   "endMs": 15300,
    "tokens": [
     {
      "text": " mainstream"
@@ -378,13 +447,451 @@
      "text": " education"
     }
    ]
+  },
+  {
+   "startMs": 15500,
+   "endMs": 16080,
+   "tokens": [
+    {
+     "text": " give"
+    },
+    {
+     "text": " everyone"
+    },
+    {
+     "text": " an"
+    }
+   ]
+  },
+  {
+   "startMs": 16080,
+   "endMs": 16340,
+   "tokens": [
+    {
+     "text": " alternative"
+    }
+   ]
+  },
+  {
+   "startMs": 16880,
+   "endMs": 17420,
+   "tokens": [
+    {
+     "text": " People"
+    },
+    {
+     "text": " want"
+    }
+   ]
+  },
+  {
+   "startMs": 17420,
+   "endMs": 17800,
+   "tokens": [
+    {
+     "text": " money"
+    }
+   ]
+  },
+  {
+   "startMs": 17880,
+   "endMs": 18360,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " don't"
+    }
+   ]
+  },
+  {
+   "startMs": 18360,
+   "endMs": 18540,
+   "tokens": [
+    {
+     "text": " want"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 18540,
+   "endMs": 18720,
+   "tokens": [
+    {
+     "text": " degree"
+    }
+   ]
+  },
+  {
+   "startMs": 19060,
+   "endMs": 19540,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " don't"
+    }
+   ]
+  },
+  {
+   "startMs": 19540,
+   "endMs": 19780,
+   "tokens": [
+    {
+     "text": " want"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 19780,
+   "endMs": 20200,
+   "tokens": [
+    {
+     "text": " and"
+    },
+    {
+     "text": " study"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 20200,
+   "endMs": 20660,
+   "tokens": [
+    {
+     "text": " four"
+    },
+    {
+     "text": " years"
+    }
+   ]
+  },
+  {
+   "startMs": 20780,
+   "endMs": 21260,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " want"
+    }
+   ]
+  },
+  {
+   "startMs": 21260,
+   "endMs": 21580,
+   "tokens": [
+    {
+     "text": " money"
+    }
+   ]
+  },
+  {
+   "startMs": 21600,
+   "endMs": 22160,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " want"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 22160,
+   "endMs": 22400,
+   "tokens": [
+    {
+     "text": " today"
+    }
+   ]
+  },
+  {
+   "startMs": 22620,
+   "endMs": 23100,
+   "tokens": [
+    {
+     "text": " We're"
+    },
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 23100,
+   "endMs": 23660,
+   "tokens": [
+    {
+     "text": " teach"
+    },
+    {
+     "text": " people"
+    },
+    {
+     "text": " how"
+    }
+   ]
+  },
+  {
+   "startMs": 23660,
+   "endMs": 23920,
+   "tokens": [
+    {
+     "text": " to"
+    },
+    {
+     "text": " do"
+    }
+   ]
+  },
+  {
+   "startMs": 23920,
+   "endMs": 24080,
+   "tokens": [
+    {
+     "text": " that"
+    }
+   ]
+  },
+  {
+   "startMs": 24700,
+   "endMs": 25340,
+   "tokens": [
+    {
+     "text": " Hustlers"
+    },
+    {
+     "text": " University"
+    }
+   ]
+  },
+  {
+   "startMs": 25580,
+   "endMs": 26000,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " we're"
+    }
+   ]
+  },
+  {
+   "startMs": 26000,
+   "endMs": 26100,
+   "tokens": [
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 26100,
+   "endMs": 26580,
+   "tokens": [
+    {
+     "text": " open"
+    },
+    {
+     "text": " our"
+    },
+    {
+     "text": " own"
+    }
+   ]
+  },
+  {
+   "startMs": 26580,
+   "endMs": 27720,
+   "tokens": [
+    {
+     "text": " school"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " it's"
+    }
+   ]
+  },
+  {
+   "startMs": 27720,
+   "endMs": 27880,
+   "tokens": [
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " be"
+    }
+   ]
+  },
+  {
+   "startMs": 27880,
+   "endMs": 28160,
+   "tokens": [
+    {
+     "text": " nice"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 28160,
+   "endMs": 28460,
+   "tokens": [
+    {
+     "text": " simple"
+    }
+   ]
+  },
+  {
+   "startMs": 28480,
+   "endMs": 28820,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " first"
+    }
+   ]
+  },
+  {
+   "startMs": 28820,
+   "endMs": 30000,
+   "tokens": [
+    {
+     "text": " week"
+    },
+    {
+     "text": " we"
+    },
+    {
+     "text": " had"
+    }
+   ]
+  },
+  {
+   "startMs": 30000,
+   "endMs": 30900,
+   "tokens": [
+    {
+     "text": " 25"
+    },
+    {
+     "text": "000"
+    }
+   ]
+  },
+  {
+   "startMs": 30900,
+   "endMs": 31400,
+   "tokens": [
+    {
+     "text": " paying"
+    },
+    {
+     "text": " students"
+    }
+   ]
+  },
+  {
+   "startMs": 31400,
+   "endMs": 32640,
+   "tokens": [
+    {
+     "text": " Students"
+    },
+    {
+     "text": " 25"
+    },
+    {
+     "text": "000"
+    }
+   ]
+  },
+  {
+   "startMs": 32640,
+   "endMs": 34280,
+   "tokens": [
+    {
+     "text": " students"
+    },
+    {
+     "text": " paying"
+    },
+    {
+     "text": " $50"
+    }
+   ]
+  },
+  {
+   "startMs": 34280,
+   "endMs": 35340,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " month"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 35340,
+   "endMs": 35690,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " week"
+    }
+   ]
   }
  ],
  "music": {
   "src": "interstellar.mp3",
   "volLow": 0.13,
   "volHigh": 0.27,
-  "climaxSec": 11,
+  "climaxSec": 28,
   "startSec": 0
  },
  "style": {
@@ -401,9 +908,13 @@
    "webcam",
    "schooling",
    "waste",
-   "years",
    "money",
-   "education"
+   "degree",
+   "hustle",
+   "school",
+   "students",
+   "month",
+   "week"
   ]
  },
  "hook": {
@@ -413,10 +924,10 @@
  "broll": [
   {
    "src": "broll_dubai.mp4",
-   "atSec": 2.26,
+   "atSec": 2.08,
    "durSec": 1.9,
    "trimBefore": 0.0,
-   "framing": "blur-contain",
+   "framing": "cover",
    "label": "Dubai"
   }
  ]

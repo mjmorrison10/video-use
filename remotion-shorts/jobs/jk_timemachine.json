@@ -4,231 +4,211 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 2.32,
+   "outSec": 1.83,
    "offsetSec": 0.0,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 20.19,
-   "outSec": 23.38,
-   "offsetSec": 2.07,
+   "inSec": 20.11,
+   "outSec": 23.0,
+   "offsetSec": 1.58,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 25.63,
-   "outSec": 26.28,
-   "offsetSec": 5.26,
+   "inSec": 25.51,
+   "outSec": 25.86,
+   "offsetSec": 4.47,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "BEAT"
   },
   {
-   "inSec": 26.97,
-   "outSec": 28.15,
-   "offsetSec": 5.91,
+   "inSec": 26.81,
+   "outSec": 27.77,
+   "offsetSec": 4.82,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "BEAT"
   },
   {
-   "inSec": 29.35,
-   "outSec": 30.31,
-   "offsetSec": 7.09,
+   "inSec": 29.11,
+   "outSec": 37.37,
+   "offsetSec": 5.78,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 30.59,
-   "outSec": 39.77,
-   "offsetSec": 8.05,
+   "inSec": 38.53,
+   "outSec": 39.47,
+   "offsetSec": 14.04,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
-   "beat": "REINFORCE"
+   "beat": "BUTTON"
   },
   {
-   "inSec": 41.21,
-   "outSec": 42.12,
-   "offsetSec": 17.23,
+   "inSec": 41.03,
+   "outSec": 41.74,
+   "offsetSec": 14.98,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "BUTTON"
   }
  ],
  "captionPages": [
   {
-   "startMs": 60,
-   "endMs": 540,
+   "startMs": 0,
+   "endMs": 440,
    "tokens": [
     {
-     "text": " You'll"
+     "text": " be"
     },
     {
-     "text": " be"
+     "text": " surprised"
     }
    ]
   },
   {
-   "startMs": 540,
-   "endMs": 1400,
+   "startMs": 440,
+   "endMs": 1080,
    "tokens": [
-    {
-     "text": " surprised"
-    },
     {
      "text": " what"
     },
     {
      "text": " we"
-    }
-   ]
-  },
-  {
-   "startMs": 1400,
-   "endMs": 1780,
-   "tokens": [
+    },
     {
      "text": " can"
-    },
-    {
-     "text": " do"
     }
    ]
   },
   {
-   "startMs": 2230,
-   "endMs": 3890,
+   "startMs": 1080,
+   "endMs": 1580,
    "tokens": [
     {
-     "text": " I've"
+     "text": " do"
     },
+    {
+     "text": " uh"
+    }
+   ]
+  },
+  {
+   "startMs": 1580,
+   "endMs": 3140,
+   "tokens": [
     {
      "text": " decided"
     },
     {
      "text": " you"
-    }
-   ]
-  },
-  {
-   "startMs": 3890,
-   "endMs": 4170,
-   "tokens": [
+    },
     {
      "text": " can"
-    },
-    {
-     "text": " have"
     }
    ]
   },
   {
-   "startMs": 4170,
-   "endMs": 4850,
+   "startMs": 3140,
+   "endMs": 3460,
    "tokens": [
     {
-     "text": " your"
+     "text": " have"
     },
+    {
+     "text": " your"
+    }
+   ]
+  },
+  {
+   "startMs": 3460,
+   "endMs": 4100,
+   "tokens": [
     {
      "text": " passports"
     },
     {
      "text": " and"
-    }
-   ]
-  },
-  {
-   "startMs": 4850,
-   "endMs": 5090,
-   "tokens": [
-    {
-     "text": " you"
     },
     {
-     "text": " can"
+     "text": " you"
     }
    ]
   },
   {
-   "startMs": 5090,
-   "endMs": 5260,
+   "startMs": 4100,
+   "endMs": 4420,
    "tokens": [
+    {
+     "text": " can"
+    },
     {
      "text": " go"
     }
    ]
   },
   {
-   "startMs": 5320,
-   "endMs": 5620,
+   "startMs": 4470,
+   "endMs": 4690,
    "tokens": [
-    {
-     "text": " I'm"
-    },
     {
      "text": " like"
-    }
-   ]
-  },
-  {
-   "startMs": 5820,
-   "endMs": 5940,
-   "tokens": [
+    },
     {
      "text": " what"
     }
    ]
   },
   {
-   "startMs": 5970,
-   "endMs": 6630,
+   "startMs": 4820,
+   "endMs": 5440,
    "tokens": [
-    {
-     "text": " He"
-    },
     {
      "text": " goes"
     },
     {
      "text": " you"
-    }
-   ]
-  },
-  {
-   "startMs": 6630,
-   "endMs": 6990,
-   "tokens": [
-    {
-     "text": " can"
     },
     {
-     "text": " go"
+     "text": " can"
     }
    ]
   },
   {
-   "startMs": 7110,
-   "endMs": 7610,
+   "startMs": 5440,
+   "endMs": 6000,
    "tokens": [
     {
-     "text": " So"
+     "text": " go"
+    },
+    {
+     "text": " now"
     },
     {
      "text": " I"
-    },
-    {
-     "text": " can"
     }
    ]
   },
   {
-   "startMs": 7610,
-   "endMs": 8050,
+   "startMs": 6000,
+   "endMs": 6400,
    "tokens": [
+    {
+     "text": " can"
+    },
     {
      "text": " just"
     },
@@ -238,104 +218,113 @@
    ]
   },
   {
-   "startMs": 8110,
-   "endMs": 8570,
+   "startMs": 6860,
+   "endMs": 7620,
    "tokens": [
     {
-     "text": " Wait"
+     "text": " wait"
     },
     {
      "text": " wait"
-    }
-   ]
-  },
-  {
-   "startMs": 8750,
-   "endMs": 8990,
-   "tokens": [
-    {
-     "text": " I"
     },
     {
-     "text": " was"
+     "text": " I"
     }
    ]
   },
   {
-   "startMs": 8990,
-   "endMs": 9330,
+   "startMs": 7620,
+   "endMs": 8040,
    "tokens": [
+    {
+     "text": " was"
+    },
     {
      "text": " locked"
     },
     {
      "text": " in"
-    },
-    {
-     "text": " my"
     }
    ]
   },
   {
-   "startMs": 9330,
-   "endMs": 10050,
+   "startMs": 8040,
+   "endMs": 8700,
    "tokens": [
+    {
+     "text": " my"
+    },
     {
      "text": " house"
     },
     {
      "text": " and"
-    },
-    {
-     "text": " I"
     }
    ]
   },
   {
-   "startMs": 10050,
-   "endMs": 10710,
+   "startMs": 8700,
+   "endMs": 9000,
    "tokens": [
+    {
+     "text": " I"
+    },
     {
      "text": " was"
     },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 9000,
+   "endMs": 9560,
+   "tokens": [
     {
      "text": " guilty"
     },
     {
      "text": " and"
+    },
+    {
+     "text": " I"
     }
    ]
   },
   {
-   "startMs": 10710,
-   "endMs": 10810,
+   "startMs": 9560,
+   "endMs": 10100,
    "tokens": [
-    {
-     "text": " I"
-    },
     {
      "text": " was"
-    }
-   ]
-  },
-  {
-   "startMs": 10810,
-   "endMs": 11050,
-   "tokens": [
-    {
-     "text": " innocent"
-    }
-   ]
-  },
-  {
-   "startMs": 11330,
-   "endMs": 12070,
-   "tokens": [
-    {
-     "text": " I"
     },
     {
+     "text": " innocent"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 10100,
+   "endMs": 10520,
+   "tokens": [
+    {
      "text": " did"
+    },
+    {
+     "text": " all"
+    }
+   ]
+  },
+  {
+   "startMs": 10520,
+   "endMs": 10820,
+   "tokens": [
+    {
+     "text": " these"
     },
     {
      "text": " bad"
@@ -343,8 +332,8 @@
    ]
   },
   {
-   "startMs": 12070,
-   "endMs": 12490,
+   "startMs": 10820,
+   "endMs": 11260,
    "tokens": [
     {
      "text": " things"
@@ -355,36 +344,27 @@
    ]
   },
   {
-   "startMs": 12490,
-   "endMs": 12690,
+   "startMs": 11260,
+   "endMs": 11560,
    "tokens": [
     {
      "text": " you're"
     },
     {
-     "text": " going"
+     "text": " gonna"
     },
-    {
-     "text": " to"
-    }
-   ]
-  },
-  {
-   "startMs": 12690,
-   "endMs": 12850,
-   "tokens": [
     {
      "text": " put"
-    },
-    {
-     "text": " me"
     }
    ]
   },
   {
-   "startMs": 12850,
-   "endMs": 13110,
+   "startMs": 11560,
+   "endMs": 11900,
    "tokens": [
+    {
+     "text": " me"
+    },
     {
      "text": " back"
     },
@@ -394,8 +374,8 @@
    ]
   },
   {
-   "startMs": 13110,
-   "endMs": 13650,
+   "startMs": 11900,
+   "endMs": 12400,
    "tokens": [
     {
      "text": " jail"
@@ -409,8 +389,8 @@
    ]
   },
   {
-   "startMs": 13650,
-   "endMs": 14170,
+   "startMs": 12400,
+   "endMs": 12960,
    "tokens": [
     {
      "text": " this"
@@ -424,8 +404,8 @@
    ]
   },
   {
-   "startMs": 14170,
-   "endMs": 14350,
+   "startMs": 12960,
+   "endMs": 13180,
    "tokens": [
     {
      "text": " now"
@@ -436,45 +416,63 @@
    ]
   },
   {
-   "startMs": 14350,
-   "endMs": 15150,
+   "startMs": 13180,
+   "endMs": 13360,
    "tokens": [
     {
      "text": " just"
     },
     {
-     "text": " shit"
+     "text": " saying"
     }
    ]
   },
   {
-   "startMs": 15330,
-   "endMs": 15470,
+   "startMs": 13360,
+   "endMs": 13720,
    "tokens": [
     {
-     "text": " Go"
-    }
-   ]
-  },
-  {
-   "startMs": 16590,
-   "endMs": 17150,
-   "tokens": [
-    {
-     "text": " Get"
+     "text": " here"
     },
+    {
+     "text": " take"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 13720,
+   "endMs": 14420,
+   "tokens": [
+    {
+     "text": " shit"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " get"
+    }
+   ]
+  },
+  {
+   "startMs": 14420,
+   "endMs": 14980,
+   "tokens": [
     {
      "text": " passports"
+    },
+    {
+     "text": " leaves"
     }
    ]
   },
   {
-   "startMs": 17290,
-   "endMs": 17730,
+   "startMs": 14980,
+   "endMs": 15240,
    "tokens": [
-    {
-     "text": " First"
-    },
     {
      "text": " time"
     },
@@ -484,8 +482,8 @@
    ]
   },
   {
-   "startMs": 17730,
-   "endMs": 18070,
+   "startMs": 15240,
+   "endMs": 15560,
    "tokens": [
     {
      "text": " four"

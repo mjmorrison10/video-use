@@ -4,57 +4,55 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 3.65,
+   "outSec": 8.01,
    "offsetSec": 0.0,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "SETUP"
   },
   {
-   "inSec": 4.15,
-   "outSec": 8.03,
-   "offsetSec": 3.4,
+   "inSec": 10.47,
+   "outSec": 11.19,
+   "offsetSec": 7.76,
    "framing": "cover",
-   "mute": false,
-   "beat": "POINT"
-  },
-  {
-   "inSec": 10.03,
-   "outSec": 11.21,
-   "offsetSec": 7.28,
-   "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 11.79,
-   "outSec": 14.26,
-   "offsetSec": 8.46,
+   "inSec": 12.33,
+   "outSec": 14.24,
+   "offsetSec": 8.48,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 15.37,
-   "outSec": 16.16,
-   "offsetSec": 10.93,
+   "inSec": 15.75,
+   "outSec": 16.09,
+   "offsetSec": 10.39,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 18.03,
-   "outSec": 21.35,
-   "offsetSec": 11.72,
+   "inSec": 19.13,
+   "outSec": 21.25,
+   "offsetSec": 10.73,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 24.93,
-   "outSec": 26.16,
-   "offsetSec": 15.04,
+   "inSec": 25.39,
+   "outSec": 26.14,
+   "offsetSec": 12.85,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "BUTTON"
   }
@@ -62,7 +60,7 @@
  "captionPages": [
   {
    "startMs": 60,
-   "endMs": 1280,
+   "endMs": 1020,
    "tokens": [
     {
      "text": " The"
@@ -73,8 +71,8 @@
    ]
   },
   {
-   "startMs": 1280,
-   "endMs": 2440,
+   "startMs": 1020,
+   "endMs": 1820,
    "tokens": [
     {
      "text": " they"
@@ -85,8 +83,8 @@
    ]
   },
   {
-   "startMs": 2440,
-   "endMs": 2720,
+   "startMs": 1820,
+   "endMs": 2680,
    "tokens": [
     {
      "text": " didn't"
@@ -100,8 +98,8 @@
    ]
   },
   {
-   "startMs": 2720,
-   "endMs": 3400,
+   "startMs": 2680,
+   "endMs": 3420,
    "tokens": [
     {
      "text": " translation"
@@ -112,8 +110,8 @@
    ]
   },
   {
-   "startMs": 3460,
-   "endMs": 4300,
+   "startMs": 3760,
+   "endMs": 4680,
    "tokens": [
     {
      "text": " The"
@@ -124,8 +122,8 @@
    ]
   },
   {
-   "startMs": 4300,
-   "endMs": 5240,
+   "startMs": 4680,
+   "endMs": 5660,
    "tokens": [
     {
      "text": " they"
@@ -139,8 +137,8 @@
    ]
   },
   {
-   "startMs": 5240,
-   "endMs": 5580,
+   "startMs": 5660,
+   "endMs": 6000,
    "tokens": [
     {
      "text": " raid"
@@ -151,8 +149,8 @@
    ]
   },
   {
-   "startMs": 5580,
-   "endMs": 6680,
+   "startMs": 6000,
+   "endMs": 7080,
    "tokens": [
     {
      "text": " house"
@@ -166,8 +164,8 @@
    ]
   },
   {
-   "startMs": 6680,
-   "endMs": 7280,
+   "startMs": 7080,
+   "endMs": 7620,
    "tokens": [
     {
      "text": " wrong"
@@ -178,24 +176,21 @@
    ]
   },
   {
-   "startMs": 7560,
-   "endMs": 8460,
+   "startMs": 7760,
+   "endMs": 8360,
    "tokens": [
     {
-     "text": " fucking"
+     "text": " shit"
     },
     {
-     "text": " shitshow"
+     "text": " show"
     }
    ]
   },
   {
-   "startMs": 8560,
-   "endMs": 10040,
+   "startMs": 8480,
+   "endMs": 9360,
    "tokens": [
-    {
-     "text": " 23"
-    },
     {
      "text": " pages"
     },
@@ -205,8 +200,8 @@
    ]
   },
   {
-   "startMs": 10040,
-   "endMs": 10930,
+   "startMs": 9360,
+   "endMs": 10220,
    "tokens": [
     {
      "text": " broken"
@@ -217,26 +212,11 @@
    ]
   },
   {
-   "startMs": 10990,
-   "endMs": 11670,
+   "startMs": 10390,
+   "endMs": 10970,
    "tokens": [
-    {
-     "text": " Funnily"
-    },
     {
      "text": " enough"
-    }
-   ]
-  },
-  {
-   "startMs": 12000,
-   "endMs": 13200,
-   "tokens": [
-    {
-     "text": " after"
-    },
-    {
-     "text": " this"
     },
     {
      "text": " day"
@@ -244,8 +224,8 @@
    ]
   },
   {
-   "startMs": 13380,
-   "endMs": 13520,
+   "startMs": 11070,
+   "endMs": 11390,
    "tokens": [
     {
      "text": " when"
@@ -256,8 +236,8 @@
    ]
   },
   {
-   "startMs": 13520,
-   "endMs": 14460,
+   "startMs": 11390,
+   "endMs": 11930,
    "tokens": [
     {
      "text": " preliminary"
@@ -268,39 +248,36 @@
    ]
   },
   {
-   "startMs": 14460,
-   "endMs": 15680,
+   "startMs": 11930,
+   "endMs": 13050,
    "tokens": [
     {
      "text": " started"
     },
     {
-     "text": " I"
-    },
-    {
      "text": " got"
-    }
-   ]
-  },
-  {
-   "startMs": 15680,
-   "endMs": 15840,
-   "tokens": [
+    },
     {
      "text": " all"
-    },
-    {
-     "text": " my"
     }
    ]
   },
   {
-   "startMs": 15840,
-   "endMs": 16260,
+   "startMs": 13050,
+   "endMs": 13330,
    "tokens": [
     {
-     "text": " cars"
+     "text": " my"
     },
+    {
+     "text": " cars"
+    }
+   ]
+  },
+  {
+   "startMs": 13330,
+   "endMs": 13510,
+   "tokens": [
     {
      "text": " back"
     }

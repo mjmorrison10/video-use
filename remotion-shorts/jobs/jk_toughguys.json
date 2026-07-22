@@ -4,64 +4,64 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 3.43,
+   "outSec": 3.23,
    "offsetSec": 0.0,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 9.15,
-   "outSec": 15.14,
-   "offsetSec": 3.18,
+   "inSec": 9.11,
+   "outSec": 14.9,
+   "offsetSec": 2.98,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 16.5,
-   "outSec": 24.94,
-   "offsetSec": 9.17,
+   "inSec": 16.39,
+   "outSec": 24.7,
+   "offsetSec": 8.77,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "BUTTON"
   }
  ],
  "captionPages": [
   {
-   "startMs": 60,
-   "endMs": 760,
+   "startMs": 0,
+   "endMs": 580,
    "tokens": [
-    {
-     "text": " Once"
-    },
     {
      "text": " it's"
     },
     {
      "text": " not"
-    }
-   ]
-  },
-  {
-   "startMs": 760,
-   "endMs": 980,
-   "tokens": [
+    },
     {
      "text": " in"
-    },
-    {
-     "text": " their"
     }
    ]
   },
   {
-   "startMs": 980,
-   "endMs": 1600,
+   "startMs": 580,
+   "endMs": 940,
    "tokens": [
     {
-     "text": " favor"
+     "text": " their"
     },
+    {
+     "text": " favor"
+    }
+   ]
+  },
+  {
+   "startMs": 940,
+   "endMs": 1320,
+   "tokens": [
     {
      "text": " they're"
     },
@@ -71,8 +71,8 @@
    ]
   },
   {
-   "startMs": 1600,
-   "endMs": 2160,
+   "startMs": 1320,
+   "endMs": 1820,
    "tokens": [
     {
      "text": " tough"
@@ -83,8 +83,8 @@
    ]
   },
   {
-   "startMs": 2160,
-   "endMs": 2420,
+   "startMs": 1820,
+   "endMs": 2140,
    "tokens": [
     {
      "text": " when"
@@ -95,8 +95,8 @@
    ]
   },
   {
-   "startMs": 2420,
-   "endMs": 2720,
+   "startMs": 2140,
+   "endMs": 2420,
    "tokens": [
     {
      "text": " need"
@@ -110,8 +110,8 @@
    ]
   },
   {
-   "startMs": 2720,
-   "endMs": 3100,
+   "startMs": 2420,
+   "endMs": 2800,
    "tokens": [
     {
      "text": " do"
@@ -122,11 +122,11 @@
    ]
   },
   {
-   "startMs": 3240,
-   "endMs": 4200,
+   "startMs": 2800,
+   "endMs": 3740,
    "tokens": [
     {
-     "text": " My"
+     "text": " they're"
     },
     {
      "text": " problems"
@@ -137,8 +137,8 @@
    ]
   },
   {
-   "startMs": 4200,
-   "endMs": 4840,
+   "startMs": 3740,
+   "endMs": 4300,
    "tokens": [
     {
      "text": " beginning"
@@ -149,21 +149,21 @@
    ]
   },
   {
-   "startMs": 4940,
-   "endMs": 5140,
+   "startMs": 4300,
+   "endMs": 6400,
    "tokens": [
     {
-     "text": " Jack"
+     "text": " jack"
+    },
+    {
+     "text": " i'm"
     }
    ]
   },
   {
-   "startMs": 6480,
-   "endMs": 7380,
+   "startMs": 6400,
+   "endMs": 6900,
    "tokens": [
-    {
-     "text": " I'm"
-    },
     {
      "text": " back"
     },
@@ -173,14 +173,14 @@
    ]
   },
   {
-   "startMs": 7380,
-   "endMs": 7940,
+   "startMs": 6900,
+   "endMs": 7500,
    "tokens": [
     {
      "text": " where"
     },
     {
-     "text": " I"
+     "text": " i"
     },
     {
      "text": " was"
@@ -188,8 +188,8 @@
    ]
   },
   {
-   "startMs": 7940,
-   "endMs": 8180,
+   "startMs": 7500,
+   "endMs": 7740,
    "tokens": [
     {
      "text": " at"
@@ -200,8 +200,8 @@
    ]
   },
   {
-   "startMs": 8180,
-   "endMs": 8560,
+   "startMs": 7740,
+   "endMs": 8100,
    "tokens": [
     {
      "text": " beginning"
@@ -212,8 +212,8 @@
    ]
   },
   {
-   "startMs": 8560,
-   "endMs": 9140,
+   "startMs": 8100,
+   "endMs": 8520,
    "tokens": [
     {
      "text": " this"
@@ -224,45 +224,54 @@
    ]
   },
   {
-   "startMs": 9540,
-   "endMs": 10420,
+   "startMs": 8770,
+   "endMs": 10330,
    "tokens": [
     {
      "text": " strange"
     },
     {
-     "text": " offer"
+     "text": " offers"
+    },
+    {
+     "text": " and"
     }
    ]
   },
   {
-   "startMs": 11180,
-   "endMs": 11780,
+   "startMs": 10330,
+   "endMs": 12030,
    "tokens": [
     {
      "text": " weird"
     },
     {
      "text": " messages"
-    }
-   ]
-  },
-  {
-   "startMs": 12980,
-   "endMs": 13780,
-   "tokens": [
-    {
-     "text": " feeling"
     },
     {
-     "text": " that"
+     "text": " and"
     }
    ]
   },
   {
-   "startMs": 13780,
-   "endMs": 14300,
+   "startMs": 12030,
+   "endMs": 12590,
    "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " feeling"
+    }
+   ]
+  },
+  {
+   "startMs": 12590,
+   "endMs": 13710,
+   "tokens": [
+    {
+     "text": " that"
+    },
     {
      "text": " something"
     },
@@ -272,29 +281,23 @@
    ]
   },
   {
-   "startMs": 14300,
-   "endMs": 14580,
+   "startMs": 13710,
+   "endMs": 16170,
    "tokens": [
     {
      "text": " coming"
-    }
-   ]
-  },
-  {
-   "startMs": 16280,
-   "endMs": 16780,
-   "tokens": [
-    {
-     "text": " And"
     },
     {
-     "text": " I"
+     "text": " and"
+    },
+    {
+     "text": " i"
     }
    ]
   },
   {
-   "startMs": 16780,
-   "endMs": 17040,
+   "startMs": 16170,
+   "endMs": 16430,
    "tokens": [
     {
      "text": " don't"
@@ -305,23 +308,26 @@
    ]
   },
   {
-   "startMs": 17040,
-   "endMs": 17280,
+   "startMs": 16430,
+   "endMs": 16950,
    "tokens": [
     {
      "text": " what"
     },
     {
      "text": " it"
+    },
+    {
+     "text": " is"
     }
    ]
   },
   {
-   "startMs": 17280,
-   "endMs": 17520,
+   "startMs": 16950,
+   "endMs": 17080,
    "tokens": [
     {
-     "text": " is"
+     "text": " la"
     }
    ]
   }

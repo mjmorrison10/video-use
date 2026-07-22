@@ -3,22 +3,18 @@
  "fps": 30,
  "segments": [
   {
-   "inSec": 887.66,
-   "outSec": 899.04,
-   "beat": "HOOK",
-   "framing": "cover"
-  },
-  {
-   "inSec": 900.0,
+   "inSec": 888.26,
    "outSec": 902.22,
-   "beat": "POINT",
-   "framing": "cover"
+   "beat": "HOOK",
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 902.6,
-   "outSec": 912.23,
+   "inSec": 903.12,
+   "outSec": 912.08,
    "beat": "BUTTON",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   }
  ],
  "captionReplace": {

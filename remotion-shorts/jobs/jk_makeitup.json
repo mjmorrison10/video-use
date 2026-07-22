@@ -3,54 +3,70 @@
  "fps": 30,
  "ranges": [
   {
-   "inSec": 4.0,
-   "outSec": 5.66,
+   "inSec": 3.89,
+   "outSec": 5.34,
    "offsetSec": 0.0,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "HOOK"
   },
   {
    "inSec": 0.25,
-   "outSec": 3.93,
-   "offsetSec": 1.66,
+   "outSec": 3.51,
+   "offsetSec": 1.45,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
-   "beat": "POINT"
+   "beat": "CONTEXT"
   },
   {
-   "inSec": 21.99,
-   "outSec": 29.36,
-   "offsetSec": 5.34,
+   "inSec": 22.07,
+   "outSec": 29.04,
+   "offsetSec": 4.71,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "EVIDENCE"
   },
   {
-   "inSec": 34.29,
-   "outSec": 39.82,
-   "offsetSec": 12.71,
+   "inSec": 33.93,
+   "outSec": 39.5,
+   "offsetSec": 11.68,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
-   "beat": "REINFORCE"
+   "beat": "BUTTON"
   }
  ],
  "captionPages": [
   {
-   "startMs": 50,
-   "endMs": 870,
+   "startMs": 0,
+   "endMs": 360,
    "tokens": [
     {
-     "text": " girls"
+     "text": " are"
     },
     {
-     "text": " they"
+     "text": " nuts"
     }
    ]
   },
   {
-   "startMs": 870,
-   "endMs": 1410,
+   "startMs": 520,
+   "endMs": 740,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " just"
+    }
+   ]
+  },
+  {
+   "startMs": 740,
+   "endMs": 1120,
    "tokens": [
     {
      "text": " make"
@@ -61,8 +77,8 @@
    ]
   },
   {
-   "startMs": 1410,
-   "endMs": 1660,
+   "startMs": 1120,
+   "endMs": 1420,
    "tokens": [
     {
      "text": " up"
@@ -70,36 +86,27 @@
    ]
   },
   {
-   "startMs": 1720,
-   "endMs": 2200,
+   "startMs": 1450,
+   "endMs": 2150,
    "tokens": [
-    {
-     "text": " Maybe"
-    },
     {
      "text": " in"
-    }
-   ]
-  },
-  {
-   "startMs": 2200,
-   "endMs": 2820,
-   "tokens": [
+    },
     {
      "text": " Romania"
     },
     {
      "text": " it's"
-    },
-    {
-     "text": " not"
     }
    ]
   },
   {
-   "startMs": 2820,
-   "endMs": 3040,
+   "startMs": 2150,
+   "endMs": 2430,
    "tokens": [
+    {
+     "text": " not"
+    },
     {
      "text": " a"
     },
@@ -109,20 +116,14 @@
    ]
   },
   {
-   "startMs": 3040,
-   "endMs": 3280,
+   "startMs": 2430,
+   "endMs": 2950,
    "tokens": [
     {
      "text": " thing"
-    }
-   ]
-  },
-  {
-   "startMs": 3380,
-   "endMs": 3560,
-   "tokens": [
+    },
     {
-     "text": " But"
+     "text": " but"
     },
     {
      "text": " in"
@@ -130,23 +131,20 @@
    ]
   },
   {
-   "startMs": 3560,
-   "endMs": 4300,
+   "startMs": 2950,
+   "endMs": 3490,
    "tokens": [
     {
      "text": " America"
     },
     {
      "text": " this"
-    },
-    {
-     "text": " is"
     }
    ]
   },
   {
-   "startMs": 4300,
-   "endMs": 5120,
+   "startMs": 3490,
+   "endMs": 4530,
    "tokens": [
     {
      "text": " happens"
@@ -160,8 +158,8 @@
    ]
   },
   {
-   "startMs": 5120,
-   "endMs": 5280,
+   "startMs": 4530,
+   "endMs": 4710,
    "tokens": [
     {
      "text": " time"
@@ -169,42 +167,39 @@
    ]
   },
   {
-   "startMs": 5340,
-   "endMs": 6640,
+   "startMs": 4890,
+   "endMs": 5710,
    "tokens": [
-    {
-     "text": " cameras"
-    },
     {
      "text": " and"
     },
     {
      "text": " see"
+    },
+    {
+     "text": " her"
     }
    ]
   },
   {
-   "startMs": 6640,
-   "endMs": 7380,
+   "startMs": 5710,
+   "endMs": 6370,
    "tokens": [
-    {
-     "text": " her"
-    },
     {
      "text": " walking"
     },
     {
      "text": " in"
+    },
+    {
+     "text": " and"
     }
    ]
   },
   {
-   "startMs": 7380,
-   "endMs": 7680,
+   "startMs": 6370,
+   "endMs": 6610,
    "tokens": [
-    {
-     "text": " and"
-    },
     {
      "text": " out"
     },
@@ -214,11 +209,38 @@
    ]
   },
   {
-   "startMs": 7680,
-   "endMs": 9180,
+   "startMs": 6610,
+   "endMs": 7210,
    "tokens": [
     {
      "text": " house"
+    },
+    {
+     "text": " by"
+    },
+    {
+     "text": " her"
+    }
+   ]
+  },
+  {
+   "startMs": 7210,
+   "endMs": 7590,
+   "tokens": [
+    {
+     "text": " own"
+    },
+    {
+     "text": " free"
+    }
+   ]
+  },
+  {
+   "startMs": 7590,
+   "endMs": 8050,
+   "tokens": [
+    {
+     "text": " will"
     },
     {
      "text": " getting"
@@ -226,8 +248,8 @@
    ]
   },
   {
-   "startMs": 9180,
-   "endMs": 10140,
+   "startMs": 8050,
+   "endMs": 9050,
    "tokens": [
     {
      "text": " pizza"
@@ -241,11 +263,11 @@
    ]
   },
   {
-   "startMs": 10140,
-   "endMs": 10520,
+   "startMs": 9050,
+   "endMs": 9430,
    "tokens": [
     {
-     "text": " the"
+     "text": " to"
     },
     {
      "text": " party"
@@ -253,8 +275,29 @@
    ]
   },
   {
-   "startMs": 11020,
-   "endMs": 11660,
+   "startMs": 9470,
+   "endMs": 9830,
+   "tokens": [
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 9830,
+   "endMs": 10150,
+   "tokens": [
+    {
+     "text": " restaurants"
+    }
+   ]
+  },
+  {
+   "startMs": 10290,
+   "endMs": 10590,
    "tokens": [
     {
      "text": " You"
@@ -268,8 +311,8 @@
    ]
   },
   {
-   "startMs": 11660,
-   "endMs": 12260,
+   "startMs": 10590,
+   "endMs": 11110,
    "tokens": [
     {
      "text": " it"
@@ -283,8 +326,8 @@
    ]
   },
   {
-   "startMs": 12260,
-   "endMs": 12640,
+   "startMs": 11110,
+   "endMs": 11510,
    "tokens": [
     {
      "text": " camera"
@@ -292,8 +335,8 @@
    ]
   },
   {
-   "startMs": 12730,
-   "endMs": 13030,
+   "startMs": 11680,
+   "endMs": 11980,
    "tokens": [
     {
      "text": " her"
@@ -304,8 +347,8 @@
    ]
   },
   {
-   "startMs": 13030,
-   "endMs": 13430,
+   "startMs": 11980,
+   "endMs": 12360,
    "tokens": [
     {
      "text": " free"
@@ -316,8 +359,8 @@
    ]
   },
   {
-   "startMs": 13530,
-   "endMs": 13950,
+   "startMs": 12460,
+   "endMs": 12940,
    "tokens": [
     {
      "text": " getting"
@@ -328,8 +371,8 @@
    ]
   },
   {
-   "startMs": 14090,
-   "endMs": 14610,
+   "startMs": 12960,
+   "endMs": 13580,
    "tokens": [
     {
      "text": " getting"
@@ -340,8 +383,8 @@
    ]
   },
   {
-   "startMs": 14710,
-   "endMs": 15150,
+   "startMs": 13580,
+   "endMs": 14080,
    "tokens": [
     {
      "text": " ordering"
@@ -352,8 +395,8 @@
    ]
   },
   {
-   "startMs": 15270,
-   "endMs": 15770,
+   "startMs": 14180,
+   "endMs": 14640,
    "tokens": [
     {
      "text": " ordering"
@@ -364,8 +407,8 @@
    ]
   },
   {
-   "startMs": 15770,
-   "endMs": 16810,
+   "startMs": 14640,
+   "endMs": 15780,
    "tokens": [
     {
      "text": " packages"
@@ -379,8 +422,8 @@
    ]
   },
   {
-   "startMs": 16810,
-   "endMs": 17350,
+   "startMs": 15780,
+   "endMs": 16280,
    "tokens": [
     {
      "text": " Tristan's"
@@ -391,8 +434,8 @@
    ]
   },
   {
-   "startMs": 17350,
-   "endMs": 17950,
+   "startMs": 16280,
+   "endMs": 16880,
    "tokens": [
     {
      "text": " card"
@@ -406,8 +449,8 @@
    ]
   },
   {
-   "startMs": 17950,
-   "endMs": 18170,
+   "startMs": 16880,
+   "endMs": 17100,
    "tokens": [
     {
      "text": " way"
@@ -419,7 +462,7 @@
   "src": "dont_be_suspicious.mp3",
   "volLow": 0.13,
   "volHigh": 0.27,
-  "climaxSec": 8,
+  "climaxSec": 15,
   "startSec": 0
  },
  "style": {

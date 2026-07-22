@@ -4,73 +4,72 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 1.1,
+   "outSec": 1.13,
    "offsetSec": 0.0,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 2.64,
-   "outSec": 6.67,
-   "offsetSec": 0.85,
+   "inSec": 3.1,
+   "outSec": 6.7,
+   "offsetSec": 0.88,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 7.06,
-   "outSec": 11.37,
-   "offsetSec": 4.88,
+   "inSec": 7.1,
+   "outSec": 11.4,
+   "offsetSec": 4.48,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 15.64,
-   "outSec": 21.25,
-   "offsetSec": 9.19,
+   "inSec": 15.98,
+   "outSec": 23.74,
+   "offsetSec": 8.78,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 21.7,
-   "outSec": 23.71,
-   "offsetSec": 14.8,
+   "inSec": 25.36,
+   "outSec": 29.34,
+   "offsetSec": 16.54,
    "framing": "cover",
-   "mute": false,
-   "beat": "REINFORCE"
-  },
-  {
-   "inSec": 25.02,
-   "outSec": 29.4,
-   "offsetSec": 16.81,
-   "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "BUTTON"
   },
   {
-   "inSec": 55.85,
-   "outSec": 61.13,
-   "offsetSec": 21.19,
+   "inSec": 56.26,
+   "outSec": 61.84,
+   "offsetSec": 20.52,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 65.7,
-   "outSec": 68.17,
-   "offsetSec": 26.47,
+   "inSec": 66.12,
+   "outSec": 68.12,
+   "offsetSec": 26.1,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "BUTTON"
   }
  ],
  "captionPages": [
   {
-   "startMs": 0,
-   "endMs": 520,
+   "startMs": 70,
+   "endMs": 450,
    "tokens": [
     {
      "text": " the"
@@ -81,11 +80,11 @@
    ]
   },
   {
-   "startMs": 520,
-   "endMs": 850,
+   "startMs": 450,
+   "endMs": 880,
    "tokens": [
     {
-     "text": " started"
+     "text": " start"
     },
     {
      "text": " calling"
@@ -93,20 +92,20 @@
    ]
   },
   {
-   "startMs": 910,
-   "endMs": 1850,
+   "startMs": 940,
+   "endMs": 1360,
    "tokens": [
     {
-     "text": " they"
+     "text": " They"
     },
     {
-     "text": " called"
+     "text": " call"
     }
    ]
   },
   {
-   "startMs": 1850,
-   "endMs": 2370,
+   "startMs": 1360,
+   "endMs": 1900,
    "tokens": [
     {
      "text": " Alan"
@@ -117,8 +116,8 @@
    ]
   },
   {
-   "startMs": 2370,
-   "endMs": 2790,
+   "startMs": 1960,
+   "endMs": 2340,
    "tokens": [
     {
      "text": " Alan"
@@ -127,13 +126,13 @@
      "text": " goes"
     },
     {
-     "text": " to"
+     "text": " the"
     }
    ]
   },
   {
-   "startMs": 2790,
-   "endMs": 3390,
+   "startMs": 2340,
+   "endMs": 2920,
    "tokens": [
     {
      "text": " BBC"
@@ -147,62 +146,68 @@
    ]
   },
   {
-   "startMs": 3390,
-   "endMs": 3770,
+   "startMs": 2920,
+   "endMs": 3120,
    "tokens": [
     {
      "text": " interview"
-    },
-    {
-     "text": " I'm"
     }
    ]
   },
   {
-   "startMs": 3770,
-   "endMs": 4470,
+   "startMs": 3260,
+   "endMs": 3560,
    "tokens": [
+    {
+     "text": " I'm"
+    },
     {
      "text": " like"
     },
     {
      "text": " nah"
-    },
-    {
-     "text": " I'm"
     }
    ]
   },
   {
-   "startMs": 4470,
-   "endMs": 4880,
+   "startMs": 3760,
+   "endMs": 4240,
    "tokens": [
     {
      "text": " not"
     },
     {
      "text": " doing"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 4240,
+   "endMs": 4400,
+   "tokens": [
     {
      "text": " it"
     }
    ]
   },
   {
-   "startMs": 4940,
-   "endMs": 5480,
+   "startMs": 4540,
+   "endMs": 5100,
    "tokens": [
     {
-     "text": " you"
+     "text": " He"
     },
     {
-     "text": " know"
+     "text": " goes"
+    },
+    {
+     "text": " no"
     }
    ]
   },
   {
-   "startMs": 5480,
-   "endMs": 5860,
+   "startMs": 5100,
+   "endMs": 5380,
    "tokens": [
     {
      "text": " they"
@@ -213,8 +218,8 @@
    ]
   },
   {
-   "startMs": 5860,
-   "endMs": 6180,
+   "startMs": 5380,
+   "endMs": 5700,
    "tokens": [
     {
      "text": " want"
@@ -225,14 +230,20 @@
    ]
   },
   {
-   "startMs": 6180,
-   "endMs": 6720,
+   "startMs": 5700,
+   "endMs": 5920,
    "tokens": [
     {
      "text": " interview"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 6020,
+   "endMs": 6260,
+   "tokens": [
     {
-     "text": " maybe"
+     "text": " Maybe"
     },
     {
      "text": " you"
@@ -240,8 +251,8 @@
    ]
   },
   {
-   "startMs": 6720,
-   "endMs": 7140,
+   "startMs": 6260,
+   "endMs": 6680,
    "tokens": [
     {
      "text": " should"
@@ -255,44 +266,53 @@
    ]
   },
   {
-   "startMs": 7140,
-   "endMs": 8060,
+   "startMs": 6680,
+   "endMs": 6820,
    "tokens": [
     {
      "text": " her"
-    },
-    {
-     "text": " it's"
     }
    ]
   },
   {
-   "startMs": 8060,
-   "endMs": 9040,
+   "startMs": 7440,
+   "endMs": 7780,
    "tokens": [
+    {
+     "text": " It's"
+    },
     {
      "text": " like"
     },
     {
      "text": " who"
-    },
-    {
-     "text": " is"
     }
    ]
   },
   {
-   "startMs": 8920,
-   "endMs": 9040,
+   "startMs": 7780,
+   "endMs": 7960,
    "tokens": [
+    {
+     "text": " is"
+    },
     {
      "text": " it"
     }
    ]
   },
   {
-   "startMs": 9250,
-   "endMs": 9770,
+   "startMs": 8240,
+   "endMs": 8520,
+   "tokens": [
+    {
+     "text": " Lucy"
+    }
+   ]
+  },
+  {
+   "startMs": 8780,
+   "endMs": 9000,
    "tokens": [
     {
      "text": " hi"
@@ -303,8 +323,8 @@
    ]
   },
   {
-   "startMs": 9890,
-   "endMs": 10090,
+   "startMs": 9060,
+   "endMs": 9300,
    "tokens": [
     {
      "text": " nice"
@@ -315,8 +335,8 @@
    ]
   },
   {
-   "startMs": 10090,
-   "endMs": 10330,
+   "startMs": 9300,
+   "endMs": 9540,
    "tokens": [
     {
      "text": " meet"
@@ -327,8 +347,8 @@
    ]
   },
   {
-   "startMs": 10610,
-   "endMs": 11750,
+   "startMs": 9640,
+   "endMs": 10700,
    "tokens": [
     {
      "text": " Hi"
@@ -342,8 +362,8 @@
    ]
   },
   {
-   "startMs": 11750,
-   "endMs": 12030,
+   "startMs": 10700,
+   "endMs": 11260,
    "tokens": [
     {
      "text": " want"
@@ -357,8 +377,8 @@
    ]
   },
   {
-   "startMs": 12030,
-   "endMs": 12390,
+   "startMs": 11260,
+   "endMs": 11600,
    "tokens": [
     {
      "text": " an"
@@ -369,8 +389,8 @@
    ]
   },
   {
-   "startMs": 12510,
-   "endMs": 13230,
+   "startMs": 11740,
+   "endMs": 12440,
    "tokens": [
     {
      "text": " I'm"
@@ -384,8 +404,8 @@
    ]
   },
   {
-   "startMs": 13230,
-   "endMs": 13490,
+   "startMs": 12440,
+   "endMs": 12720,
    "tokens": [
     {
      "text": " don't"
@@ -396,8 +416,8 @@
    ]
   },
   {
-   "startMs": 13490,
-   "endMs": 14030,
+   "startMs": 12720,
+   "endMs": 13240,
    "tokens": [
     {
      "text": " interviews"
@@ -411,8 +431,8 @@
    ]
   },
   {
-   "startMs": 14030,
-   "endMs": 14370,
+   "startMs": 13240,
+   "endMs": 13560,
    "tokens": [
     {
      "text": " right"
@@ -426,8 +446,8 @@
    ]
   },
   {
-   "startMs": 14370,
-   "endMs": 14570,
+   "startMs": 13560,
+   "endMs": 13780,
    "tokens": [
     {
      "text": " me"
@@ -441,8 +461,8 @@
    ]
   },
   {
-   "startMs": 14570,
-   "endMs": 14800,
+   "startMs": 13780,
+   "endMs": 14120,
    "tokens": [
     {
      "text": " this"
@@ -453,8 +473,8 @@
    ]
   },
   {
-   "startMs": 14860,
-   "endMs": 15280,
+   "startMs": 14580,
+   "endMs": 14960,
    "tokens": [
     {
      "text": " Oh"
@@ -465,8 +485,8 @@
    ]
   },
   {
-   "startMs": 15320,
-   "endMs": 15780,
+   "startMs": 15000,
+   "endMs": 15440,
    "tokens": [
     {
      "text": " actually"
@@ -477,8 +497,8 @@
    ]
   },
   {
-   "startMs": 15780,
-   "endMs": 16100,
+   "startMs": 15440,
+   "endMs": 15880,
    "tokens": [
     {
      "text": " think"
@@ -492,8 +512,8 @@
    ]
   },
   {
-   "startMs": 16100,
-   "endMs": 16520,
+   "startMs": 15760,
+   "endMs": 16200,
    "tokens": [
     {
      "text": " interested"
@@ -504,8 +524,8 @@
    ]
   },
   {
-   "startMs": 16520,
-   "endMs": 16810,
+   "startMs": 16200,
+   "endMs": 16520,
    "tokens": [
     {
      "text": " this"
@@ -516,38 +536,77 @@
    ]
   },
   {
-   "startMs": 17090,
-   "endMs": 17730,
+   "startMs": 16540,
+   "endMs": 16860,
    "tokens": [
     {
-     "text": " It's"
+     "text": " is"
     },
     {
-     "text": " well"
+     "text": " really"
     }
    ]
   },
   {
-   "startMs": 17730,
-   "endMs": 18270,
+   "startMs": 16860,
+   "endMs": 17480,
    "tokens": [
+    {
+     "text": " well"
+    },
     {
      "text": " known"
     },
     {
      "text": " to"
-    },
-    {
-     "text": " be"
     }
    ]
   },
   {
-   "startMs": 18310,
-   "endMs": 19890,
+   "startMs": 17480,
+   "endMs": 17940,
    "tokens": [
     {
-     "text": " it's"
+     "text": " be"
+    },
+    {
+     "text": " corrupt"
+    }
+   ]
+  },
+  {
+   "startMs": 18100,
+   "endMs": 18400,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " there's"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 18400,
+   "endMs": 18560,
+   "tokens": [
+    {
+     "text": " lot"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 18560,
+   "endMs": 19260,
+   "tokens": [
+    {
+     "text": " conversations"
     },
     {
      "text": " about"
@@ -558,11 +617,26 @@
    ]
   },
   {
-   "startMs": 19890,
-   "endMs": 21070,
+   "startMs": 19260,
+   "endMs": 19800,
    "tokens": [
     {
      "text": " corruption"
+    },
+    {
+     "text": " in"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 19800,
+   "endMs": 20400,
+   "tokens": [
+    {
+     "text": " Romanian"
     },
     {
      "text": " state"
@@ -570,33 +644,24 @@
    ]
   },
   {
-   "startMs": 21380,
-   "endMs": 21780,
+   "startMs": 20520,
+   "endMs": 20760,
    "tokens": [
-    {
-     "text": " You"
-    },
     {
      "text": " haven't"
-    }
-   ]
-  },
-  {
-   "startMs": 21780,
-   "endMs": 22180,
-   "tokens": [
-    {
-     "text": " been"
     },
     {
-     "text": " convicted"
+     "text": " been"
     }
    ]
   },
   {
-   "startMs": 22280,
-   "endMs": 22480,
+   "startMs": 20760,
+   "endMs": 21420,
    "tokens": [
+    {
+     "text": " convicted"
+    },
     {
      "text": " have"
     },
@@ -606,54 +671,57 @@
    ]
   },
   {
-   "startMs": 23500,
-   "endMs": 23940,
+   "startMs": 21420,
+   "endMs": 22300,
    "tokens": [
     {
-     "text": " I"
+     "text": " i'm"
+    },
+    {
+     "text": " like"
+    },
+    {
+     "text": " no"
+    }
+   ]
+  },
+  {
+   "startMs": 22300,
+   "endMs": 23060,
+   "tokens": [
+    {
+     "text": " i"
     },
     {
      "text": " haven't"
+    },
+    {
+     "text": " she"
     }
    ]
   },
   {
-   "startMs": 24040,
-   "endMs": 24300,
+   "startMs": 23060,
+   "endMs": 24080,
    "tokens": [
-    {
-     "text": " She"
-    },
     {
      "text": " goes"
-    }
-   ]
-  },
-  {
-   "startMs": 24360,
-   "endMs": 24660,
-   "tokens": [
-    {
-     "text": " exactly"
-    }
-   ]
-  },
-  {
-   "startMs": 24920,
-   "endMs": 25260,
-   "tokens": [
-    {
-     "text": " And"
     },
     {
-     "text": " it"
+     "text": " exactly"
+    },
+    {
+     "text": " and"
     }
    ]
   },
   {
-   "startMs": 25260,
-   "endMs": 25440,
+   "startMs": 24080,
+   "endMs": 24340,
    "tokens": [
+    {
+     "text": " it"
+    },
     {
      "text": " should"
     },
@@ -663,8 +731,8 @@
    ]
   },
   {
-   "startMs": 25440,
-   "endMs": 25840,
+   "startMs": 24340,
+   "endMs": 24740,
    "tokens": [
     {
      "text": " innocent"
@@ -675,59 +743,59 @@
    ]
   },
   {
-   "startMs": 25840,
-   "endMs": 26340,
+   "startMs": 24740,
+   "endMs": 26100,
    "tokens": [
     {
      "text": " proven"
     },
     {
      "text": " guilty"
+    },
+    {
+     "text": " i'm"
     }
    ]
   },
   {
-   "startMs": 26530,
-   "endMs": 26970,
+   "startMs": 26100,
+   "endMs": 26300,
    "tokens": [
-    {
-     "text": " I'm"
-    },
     {
      "text": " like"
-    }
-   ]
-  },
-  {
-   "startMs": 27010,
-   "endMs": 27370,
-   "tokens": [
-    {
-     "text": " come"
     },
     {
+     "text": " come"
+    }
+   ]
+  },
+  {
+   "startMs": 26300,
+   "endMs": 27040,
+   "tokens": [
+    {
      "text": " over"
+    },
+    {
+     "text": " sure"
+    },
+    {
+     "text": " you"
     }
    ]
   },
   {
-   "startMs": 27490,
-   "endMs": 27690,
+   "startMs": 27040,
+   "endMs": 28100,
    "tokens": [
     {
-     "text": " Sure"
-    }
-   ]
-  },
-  {
-   "startMs": 28090,
-   "endMs": 28790,
-   "tokens": [
-    {
-     "text": " Yeah"
+     "text": " yeah"
     },
     {
      "text": " great"
+    },
+    {
+     "text": " Hey"
     }
    ]
   }

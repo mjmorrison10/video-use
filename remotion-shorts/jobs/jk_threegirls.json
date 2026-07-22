@@ -4,93 +4,58 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 6.36,
+   "outSec": 5.0,
    "offsetSec": 0.0,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 6.87,
-   "outSec": 9.22,
-   "offsetSec": 6.11,
+   "inSec": 5.69,
+   "outSec": 7.86,
+   "offsetSec": 4.75,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 9.99,
-   "outSec": 12.1,
-   "offsetSec": 8.46,
+   "inSec": 8.95,
+   "outSec": 10.73,
+   "offsetSec": 6.92,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 13.46,
-   "outSec": 14.58,
-   "offsetSec": 10.57,
+   "inSec": 12.19,
+   "outSec": 18.47,
+   "offsetSec": 8.7,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 14.91,
-   "outSec": 19.56,
-   "offsetSec": 11.69,
+   "inSec": 23.71,
+   "outSec": 25.32,
+   "offsetSec": 14.98,
    "framing": "cover",
-   "mute": false,
-   "beat": "REINFORCE"
-  },
-  {
-   "inSec": 25.03,
-   "outSec": 26.8,
-   "offsetSec": 16.34,
-   "framing": "cover",
-   "mute": false,
-   "beat": "REINFORCE"
-  },
-  {
-   "inSec": 36.89,
-   "outSec": 39.89,
-   "offsetSec": 18.11,
-   "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "BUTTON"
   }
  ],
  "captionPages": [
   {
-   "startMs": 60,
-   "endMs": 240,
+   "startMs": 0,
+   "endMs": 500,
    "tokens": [
     {
-     "text": " I"
+     "text": " while"
     },
-    {
-     "text": " was"
-    }
-   ]
-  },
-  {
-   "startMs": 240,
-   "endMs": 1620,
-   "tokens": [
-    {
-     "text": " like"
-    },
-    {
-     "text": " and"
-    },
-    {
-     "text": " all"
-    }
-   ]
-  },
-  {
-   "startMs": 1620,
-   "endMs": 1940,
-   "tokens": [
     {
      "text": " this"
     },
@@ -100,8 +65,8 @@
    ]
   },
   {
-   "startMs": 1940,
-   "endMs": 2660,
+   "startMs": 500,
+   "endMs": 1240,
    "tokens": [
     {
      "text": " happening"
@@ -115,8 +80,8 @@
    ]
   },
   {
-   "startMs": 2660,
-   "endMs": 3060,
+   "startMs": 1240,
+   "endMs": 1620,
    "tokens": [
     {
      "text": " when"
@@ -127,8 +92,8 @@
    ]
   },
   {
-   "startMs": 3060,
-   "endMs": 3480,
+   "startMs": 1620,
+   "endMs": 2080,
    "tokens": [
     {
      "text": " piece"
@@ -139,8 +104,8 @@
    ]
   },
   {
-   "startMs": 3480,
-   "endMs": 4300,
+   "startMs": 2080,
+   "endMs": 2820,
    "tokens": [
     {
      "text": " shit"
@@ -151,8 +116,8 @@
    ]
   },
   {
-   "startMs": 4300,
-   "endMs": 4840,
+   "startMs": 2820,
+   "endMs": 3400,
    "tokens": [
     {
      "text": " stabbed"
@@ -163,8 +128,8 @@
    ]
   },
   {
-   "startMs": 4840,
-   "endMs": 5160,
+   "startMs": 3400,
+   "endMs": 3740,
    "tokens": [
     {
      "text": " three"
@@ -175,8 +140,8 @@
    ]
   },
   {
-   "startMs": 5160,
-   "endMs": 5500,
+   "startMs": 3740,
+   "endMs": 4080,
    "tokens": [
     {
      "text": " girls"
@@ -187,60 +152,54 @@
    ]
   },
   {
-   "startMs": 5500,
-   "endMs": 5800,
+   "startMs": 4080,
+   "endMs": 4260,
    "tokens": [
     {
      "text": " England"
-    },
-    {
-     "text": " you"
     }
    ]
   },
   {
-   "startMs": 5800,
-   "endMs": 5960,
+   "startMs": 4340,
+   "endMs": 4500,
    "tokens": [
+    {
+     "text": " You"
+    },
     {
      "text": " remember"
     }
    ]
   },
   {
-   "startMs": 6210,
-   "endMs": 6390,
+   "startMs": 4750,
+   "endMs": 4930,
    "tokens": [
-    {
-     "text": " And"
-    },
-    {
-     "text": " I"
-    },
     {
      "text": " was"
-    }
-   ]
-  },
-  {
-   "startMs": 6390,
-   "endMs": 6830,
-   "tokens": [
+    },
     {
      "text": " doing"
-    },
-    {
-     "text": " emergency"
     }
    ]
   },
   {
-   "startMs": 6830,
-   "endMs": 7410,
+   "startMs": 4930,
+   "endMs": 5550,
    "tokens": [
     {
-     "text": " meetings"
+     "text": " emergency"
     },
+    {
+     "text": " meetings"
+    }
+   ]
+  },
+  {
+   "startMs": 5550,
+   "endMs": 5830,
+   "tokens": [
     {
      "text": " saying"
     },
@@ -250,8 +209,8 @@
    ]
   },
   {
-   "startMs": 7410,
-   "endMs": 7990,
+   "startMs": 5830,
+   "endMs": 6410,
    "tokens": [
     {
      "text": " British"
@@ -265,8 +224,8 @@
    ]
   },
   {
-   "startMs": 7990,
-   "endMs": 8390,
+   "startMs": 6410,
+   "endMs": 6790,
    "tokens": [
     {
      "text": " complicit"
@@ -274,59 +233,56 @@
    ]
   },
   {
-   "startMs": 8520,
-   "endMs": 8920,
+   "startMs": 6920,
+   "endMs": 7080,
    "tokens": [
-    {
-     "text": " And"
-    },
     {
      "text": " they"
-    }
-   ]
-  },
-  {
-   "startMs": 8920,
-   "endMs": 9180,
-   "tokens": [
-    {
-     "text": " were"
     },
     {
-     "text": " locking"
+     "text": " were"
     }
    ]
   },
   {
-   "startMs": 9180,
-   "endMs": 9660,
+   "startMs": 7080,
+   "endMs": 7660,
    "tokens": [
+    {
+     "text": " locking"
+    },
     {
      "text": " people"
     },
     {
      "text": " up"
-    },
-    {
-     "text": " for"
     }
    ]
   },
   {
-   "startMs": 9660,
-   "endMs": 10020,
+   "startMs": 7660,
+   "endMs": 7860,
    "tokens": [
     {
-     "text": " those"
+     "text": " for"
     },
+    {
+     "text": " those"
+    }
+   ]
+  },
+  {
+   "startMs": 7860,
+   "endMs": 8100,
+   "tokens": [
     {
      "text": " tweets"
     }
    ]
   },
   {
-   "startMs": 10020,
-   "endMs": 10320,
+   "startMs": 8240,
+   "endMs": 8400,
    "tokens": [
     {
      "text": " Do"
@@ -337,8 +293,8 @@
    ]
   },
   {
-   "startMs": 10320,
-   "endMs": 10440,
+   "startMs": 8400,
+   "endMs": 8520,
    "tokens": [
     {
      "text": " remember"
@@ -346,12 +302,33 @@
    ]
   },
   {
-   "startMs": 10660,
-   "endMs": 11320,
+   "startMs": 8700,
+   "endMs": 8840,
    "tokens": [
     {
-     "text": " They're"
+     "text": " I"
     },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 8840,
+   "endMs": 9060,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " they're"
+    }
+   ]
+  },
+  {
+   "startMs": 9060,
+   "endMs": 9120,
+   "tokens": [
     {
      "text": " going"
     },
@@ -361,24 +338,42 @@
    ]
   },
   {
-   "startMs": 11200,
-   "endMs": 11690,
+   "startMs": 9120,
+   "endMs": 9620,
    "tokens": [
     {
-     "text": " fuck"
+     "text": " fucking"
     },
+    {
+     "text": " fuck"
+    }
+   ]
+  },
+  {
+   "startMs": 9620,
+   "endMs": 9820,
+   "tokens": [
     {
      "text": " me"
     }
    ]
   },
   {
-   "startMs": 11750,
-   "endMs": 12470,
+   "startMs": 9900,
+   "endMs": 10200,
    "tokens": [
     {
-     "text": " British"
+     "text": " The"
     },
+    {
+     "text": " British"
+    }
+   ]
+  },
+  {
+   "startMs": 10200,
+   "endMs": 10640,
+   "tokens": [
     {
      "text": " government"
     },
@@ -388,8 +383,8 @@
    ]
   },
   {
-   "startMs": 12350,
-   "endMs": 12470,
+   "startMs": 10640,
+   "endMs": 10800,
    "tokens": [
     {
      "text": " they"
@@ -400,11 +395,11 @@
    ]
   },
   {
-   "startMs": 12470,
-   "endMs": 12770,
+   "startMs": 10800,
+   "endMs": 11140,
    "tokens": [
     {
-     "text": " hold"
+     "text": " ahold"
     },
     {
      "text": " of"
@@ -415,8 +410,8 @@
    ]
   },
   {
-   "startMs": 12870,
-   "endMs": 13070,
+   "startMs": 11160,
+   "endMs": 11380,
    "tokens": [
     {
      "text": " they're"
@@ -430,8 +425,8 @@
    ]
   },
   {
-   "startMs": 13070,
-   "endMs": 14010,
+   "startMs": 11380,
+   "endMs": 12320,
    "tokens": [
     {
      "text": " fucking"
@@ -445,8 +440,8 @@
    ]
   },
   {
-   "startMs": 14010,
-   "endMs": 14230,
+   "startMs": 12320,
+   "endMs": 12580,
    "tokens": [
     {
      "text": " for"
@@ -457,29 +452,65 @@
    ]
   },
   {
-   "startMs": 14230,
-   "endMs": 15610,
+   "startMs": 12580,
+   "endMs": 12800,
    "tokens": [
     {
      "text": " Twitter"
-    },
-    {
-     "text": " for"
-    },
-    {
-     "text": " my"
     }
    ]
   },
   {
-   "startMs": 15610,
-   "endMs": 16760,
+   "startMs": 12920,
+   "endMs": 13360,
    "tokens": [
     {
-     "text": " emergency"
+     "text": " They're"
     },
     {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 13240,
+   "endMs": 13840,
+   "tokens": [
+    {
+     "text": " toast"
+    },
+    {
+     "text": " me"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 13840,
+   "endMs": 14220,
+   "tokens": [
+    {
+     "text": " my"
+    },
+    {
+     "text": " emergency"
+    }
+   ]
+  },
+  {
+   "startMs": 14220,
+   "endMs": 15320,
+   "tokens": [
+    {
      "text": " meetings"
+    },
+    {
+     "text": " for"
     },
     {
      "text": " So"
@@ -487,8 +518,8 @@
    ]
   },
   {
-   "startMs": 16760,
-   "endMs": 17160,
+   "startMs": 15320,
+   "endMs": 15700,
    "tokens": [
     {
      "text": " I"
@@ -502,8 +533,8 @@
    ]
   },
   {
-   "startMs": 17160,
-   "endMs": 17840,
+   "startMs": 15700,
+   "endMs": 16400,
    "tokens": [
     {
      "text": " British"
@@ -514,77 +545,14 @@
    ]
   },
   {
-   "startMs": 17840,
-   "endMs": 18110,
+   "startMs": 16400,
+   "endMs": 16590,
    "tokens": [
     {
      "text": " after"
     },
     {
      "text": " me"
-    }
-   ]
-  },
-  {
-   "startMs": 18290,
-   "endMs": 18730,
-   "tokens": [
-    {
-     "text": " or"
-    },
-    {
-     "text": " lose"
-    },
-    {
-     "text": " in"
-    }
-   ]
-  },
-  {
-   "startMs": 18730,
-   "endMs": 19030,
-   "tokens": [
-    {
-     "text": " Romania"
-    }
-   ]
-  },
-  {
-   "startMs": 19710,
-   "endMs": 20570,
-   "tokens": [
-    {
-     "text": " And"
-    },
-    {
-     "text": " England"
-    },
-    {
-     "text": " you"
-    }
-   ]
-  },
-  {
-   "startMs": 20450,
-   "endMs": 20790,
-   "tokens": [
-    {
-     "text": " don't"
-    },
-    {
-     "text": " stand"
-    },
-    {
-     "text": " a"
-    }
-   ]
-  },
-  {
-   "startMs": 20790,
-   "endMs": 21050,
-   "tokens": [
-    {
-     "text": " chance"
     }
    ]
   }
@@ -616,21 +584,11 @@
    "locking",
    "tweets",
    "toast",
-   "chance"
+   "after"
   ]
  },
  "hook": {
   "text": "“THE BRITISH GOVERNMENT IS COMPLICIT”",
   "untilSec": 2.5
- },
- "broll": [
-  {
-   "src": "broll_romania.mp4",
-   "atSec": 18.62,
-   "durSec": 1.55,
-   "trimBefore": 0.3,
-   "framing": "cover",
-   "label": "Romania"
-  }
- ]
+ }
 }

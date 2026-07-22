@@ -4,45 +4,27 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 11.63,
+   "outSec": 14.21,
    "offsetSec": 0.0,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 12.59,
-   "outSec": 14.81,
-   "offsetSec": 11.38,
+   "inSec": 15.11,
+   "outSec": 24.07,
+   "offsetSec": 13.96,
    "framing": "cover",
-   "mute": false,
-   "beat": "POINT"
-  },
-  {
-   "inSec": 15.19,
-   "outSec": 24.82,
-   "offsetSec": 13.6,
-   "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "BUTTON"
   }
  ],
  "captionPages": [
   {
-   "startMs": 60,
-   "endMs": 680,
-   "tokens": [
-    {
-     "text": " We"
-    },
-    {
-     "text": " sit"
-    }
-   ]
-  },
-  {
-   "startMs": 680,
-   "endMs": 1740,
+   "startMs": 0,
+   "endMs": 1060,
    "tokens": [
     {
      "text": " down"
@@ -53,8 +35,8 @@
    ]
   },
   {
-   "startMs": 1740,
-   "endMs": 3740,
+   "startMs": 1060,
+   "endMs": 2980,
    "tokens": [
     {
      "text": " prosecutor"
@@ -68,8 +50,8 @@
    ]
   },
   {
-   "startMs": 3740,
-   "endMs": 4160,
+   "startMs": 2980,
+   "endMs": 3420,
    "tokens": [
     {
      "text": " did"
@@ -80,14 +62,23 @@
    ]
   },
   {
-   "startMs": 4160,
-   "endMs": 5120,
+   "startMs": 3420,
+   "endMs": 4080,
    "tokens": [
     {
      "text": " girl"
     },
     {
      "text": " say"
+    }
+   ]
+  },
+  {
+   "startMs": 4080,
+   "endMs": 4400,
+   "tokens": [
+    {
+     "text": " there"
     },
     {
      "text": " was"
@@ -95,8 +86,8 @@
    ]
   },
   {
-   "startMs": 5120,
-   "endMs": 6040,
+   "startMs": 4400,
+   "endMs": 5420,
    "tokens": [
     {
      "text": " girls"
@@ -110,47 +101,47 @@
    ]
   },
   {
-   "startMs": 6040,
-   "endMs": 6380,
+   "startMs": 5420,
+   "endMs": 6580,
    "tokens": [
     {
      "text": " your"
     },
     {
      "text": " house"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 6580,
+   "endMs": 6800,
+   "tokens": [
+    {
+     "text": " i"
+    },
+    {
+     "text": " said"
     }
    ]
   },
   {
    "startMs": 6800,
-   "endMs": 7300,
+   "endMs": 7960,
    "tokens": [
-    {
-     "text": " And"
-    },
-    {
-     "text": " I"
-    }
-   ]
-  },
-  {
-   "startMs": 7300,
-   "endMs": 8680,
-   "tokens": [
-    {
-     "text": " said"
-    },
     {
      "text": " brother"
     },
     {
-     "text": " I"
+     "text": " i"
     }
    ]
   },
   {
-   "startMs": 8680,
-   "endMs": 9040,
+   "startMs": 7960,
+   "endMs": 8320,
    "tokens": [
     {
      "text": " haven't"
@@ -164,114 +155,102 @@
    ]
   },
   {
-   "startMs": 9040,
-   "endMs": 9640,
+   "startMs": 8320,
+   "endMs": 9560,
    "tokens": [
     {
      "text": " fucking"
     },
     {
      "text": " clue"
+    },
+    {
+     "text": " i"
     }
    ]
   },
   {
-   "startMs": 9880,
-   "endMs": 10380,
+   "startMs": 9560,
+   "endMs": 9900,
    "tokens": [
-    {
-     "text": " I"
-    },
     {
      "text": " only"
+    },
+    {
+     "text": " said"
     }
    ]
   },
   {
-   "startMs": 10380,
-   "endMs": 10940,
+   "startMs": 9900,
+   "endMs": 10360,
    "tokens": [
-    {
-     "text": " said"
-    },
     {
      "text": " hello"
     },
     {
      "text": " to"
-    }
-   ]
-  },
-  {
-   "startMs": 10940,
-   "endMs": 11380,
-   "tokens": [
+    },
     {
      "text": " her"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 10360,
+   "endMs": 11400,
+   "tokens": [
     {
      "text": " twice"
-    }
-   ]
-  },
-  {
-   "startMs": 11380,
-   "endMs": 11620,
-   "tokens": [
-    {
-     "text": " Tristan"
-    }
-   ]
-  },
-  {
-   "startMs": 11640,
-   "endMs": 12220,
-   "tokens": [
-    {
-     "text": " It's"
     },
     {
-     "text": " Tristan's"
+     "text": " ask"
     }
    ]
   },
   {
-   "startMs": 12220,
-   "endMs": 12520,
+   "startMs": 11400,
+   "endMs": 12280,
    "tokens": [
+    {
+     "text": " tristan"
+    },
+    {
+     "text": " it's"
+    }
+   ]
+  },
+  {
+   "startMs": 12280,
+   "endMs": 13260,
+   "tokens": [
+    {
+     "text": " tristan's"
+    },
     {
      "text": " girlfriend"
-    }
-   ]
-  },
-  {
-   "startMs": 12980,
-   "endMs": 13500,
-   "tokens": [
-    {
-     "text": " I"
     },
     {
-     "text": " don't"
+     "text": " i"
     }
    ]
   },
   {
-   "startMs": 13500,
-   "endMs": 13620,
+   "startMs": 13260,
+   "endMs": 13700,
    "tokens": [
+    {
+     "text": " don't"
+    },
     {
      "text": " know"
     }
    ]
   },
   {
-   "startMs": 13660,
-   "endMs": 14340,
+   "startMs": 13960,
+   "endMs": 14120,
    "tokens": [
-    {
-     "text": " And"
-    },
     {
      "text": " then"
     },
@@ -281,8 +260,8 @@
    ]
   },
   {
-   "startMs": 14340,
-   "endMs": 14940,
+   "startMs": 14120,
+   "endMs": 14700,
    "tokens": [
     {
      "text": " prosecutor"
@@ -293,20 +272,20 @@
    ]
   },
   {
-   "startMs": 15420,
-   "endMs": 15780,
+   "startMs": 14700,
+   "endMs": 15520,
    "tokens": [
     {
      "text": " well"
     },
     {
-     "text": " Tristan"
+     "text": " tristan"
     }
    ]
   },
   {
-   "startMs": 15780,
-   "endMs": 16000,
+   "startMs": 15520,
+   "endMs": 15820,
    "tokens": [
     {
      "text": " should"
@@ -317,8 +296,8 @@
    ]
   },
   {
-   "startMs": 16000,
-   "endMs": 16480,
+   "startMs": 15820,
+   "endMs": 16260,
    "tokens": [
     {
      "text": " bought"
@@ -332,83 +311,77 @@
    ]
   },
   {
-   "startMs": 16480,
-   "endMs": 16900,
+   "startMs": 16260,
+   "endMs": 17620,
    "tokens": [
     {
      "text": " handbag"
+    },
+    {
+     "text": " and"
     }
    ]
   },
   {
-   "startMs": 17820,
-   "endMs": 18140,
+   "startMs": 17620,
+   "endMs": 18620,
    "tokens": [
-    {
-     "text": " And"
-    },
     {
      "text": " laughed"
+    },
+    {
+     "text": " and"
     }
    ]
   },
   {
-   "startMs": 18580,
-   "endMs": 19240,
+   "startMs": 18620,
+   "endMs": 18940,
    "tokens": [
-    {
-     "text": " And"
-    },
     {
      "text": " then"
     },
     {
-     "text": " I"
+     "text": " i"
     }
    ]
   },
   {
-   "startMs": 19240,
-   "endMs": 19680,
+   "startMs": 18940,
+   "endMs": 20040,
    "tokens": [
     {
      "text": " laughed"
-    }
-   ]
-  },
-  {
-   "startMs": 20100,
-   "endMs": 20480,
-   "tokens": [
+    },
     {
-     "text": " And"
+     "text": " and"
     },
     {
      "text": " we"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 20040,
+   "endMs": 20960,
+   "tokens": [
     {
      "text": " all"
-    }
-   ]
-  },
-  {
-   "startMs": 20480,
-   "endMs": 20880,
-   "tokens": [
-    {
-     "text": " laughed"
-    }
-   ]
-  },
-  {
-   "startMs": 21140,
-   "endMs": 21340,
-   "tokens": [
-    {
-     "text": " And"
     },
     {
-     "text": " I"
+     "text": " laughed"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 20960,
+   "endMs": 21120,
+   "tokens": [
+    {
+     "text": " i"
     },
     {
      "text": " was"
@@ -416,20 +389,20 @@
    ]
   },
   {
-   "startMs": 21340,
-   "endMs": 22120,
+   "startMs": 21120,
+   "endMs": 21900,
    "tokens": [
     {
      "text": " like"
     },
     {
-     "text": " American"
+     "text": " american"
     }
    ]
   },
   {
-   "startMs": 22120,
-   "endMs": 22640,
+   "startMs": 21900,
+   "endMs": 22440,
    "tokens": [
     {
      "text": " girls"
@@ -440,11 +413,14 @@
    ]
   },
   {
-   "startMs": 22640,
-   "endMs": 22940,
+   "startMs": 22440,
+   "endMs": 22920,
    "tokens": [
     {
      "text": " crazy"
+    },
+    {
+     "text": " bro"
     }
    ]
   }

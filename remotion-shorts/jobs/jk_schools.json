@@ -4,33 +4,195 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 5.47,
+   "outSec": 3.43,
    "offsetSec": 0.0,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 78.77,
-   "outSec": 89.87,
-   "offsetSec": 5.22,
+   "inSec": 7.57,
+   "outSec": 9.42,
+   "offsetSec": 3.18,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 94.35,
-   "outSec": 99.2,
-   "offsetSec": 16.32,
+   "inSec": 17.37,
+   "outSec": 24.34,
+   "offsetSec": 5.03,
    "framing": "cover",
+   "cropX": 0.5,
+   "mute": false,
+   "beat": "SETUP"
+  },
+  {
+   "inSec": 97.47,
+   "outSec": 108.15,
+   "offsetSec": 12.0,
+   "framing": "cover",
+   "cropX": 0.5,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 112.59,
+   "outSec": 117.45,
+   "offsetSec": 22.68,
+   "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "BUTTON"
   }
  ],
  "captionPages": [
   {
-   "startMs": 60,
-   "endMs": 1780,
+   "startMs": 0,
+   "endMs": 300,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " said"
+    }
+   ]
+  },
+  {
+   "startMs": 300,
+   "endMs": 980,
+   "tokens": [
+    {
+     "text": " some"
+    },
+    {
+     "text": " things"
+    },
+    {
+     "text": " but"
+    }
+   ]
+  },
+  {
+   "startMs": 980,
+   "endMs": 2020,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " mean"
+    },
+    {
+     "text": " I'm"
+    }
+   ]
+  },
+  {
+   "startMs": 2020,
+   "endMs": 2580,
+   "tokens": [
+    {
+     "text": " not"
+    },
+    {
+     "text": " blowing"
+    },
+    {
+     "text": " up"
+    }
+   ]
+  },
+  {
+   "startMs": 2580,
+   "endMs": 3180,
+   "tokens": [
+    {
+     "text": " girls'"
+    },
+    {
+     "text": " schools"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 3240,
+   "endMs": 3760,
+   "tokens": [
+    {
+     "text": " So"
+    },
+    {
+     "text": " I"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 3760,
+   "endMs": 4160,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " this"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 4160,
+   "endMs": 4520,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " bit"
+    },
+    {
+     "text": " out"
+    }
+   ]
+  },
+  {
+   "startMs": 4520,
+   "endMs": 4960,
+   "tokens": [
+    {
+     "text": " of"
+    },
+    {
+     "text": " control"
+    }
+   ]
+  },
+  {
+   "startMs": 5030,
+   "endMs": 5870,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " time"
+    }
+   ]
+  },
+  {
+   "startMs": 6050,
+   "endMs": 7930,
    "tokens": [
     {
      "text": " someone"
@@ -44,8 +206,8 @@
    ]
   },
   {
-   "startMs": 1780,
-   "endMs": 2180,
+   "startMs": 7930,
+   "endMs": 8270,
    "tokens": [
     {
      "text": " my"
@@ -56,8 +218,8 @@
    ]
   },
   {
-   "startMs": 2180,
-   "endMs": 3680,
+   "startMs": 8270,
+   "endMs": 9750,
    "tokens": [
     {
      "text": " said"
@@ -68,8 +230,8 @@
    ]
   },
   {
-   "startMs": 3680,
-   "endMs": 4260,
+   "startMs": 9750,
+   "endMs": 10410,
    "tokens": [
     {
      "text": " should"
@@ -83,8 +245,8 @@
    ]
   },
   {
-   "startMs": 4260,
-   "endMs": 4940,
+   "startMs": 10410,
+   "endMs": 10810,
    "tokens": [
     {
      "text": " affiliate"
@@ -95,8 +257,8 @@
    ]
   },
   {
-   "startMs": 4940,
-   "endMs": 5220,
+   "startMs": 10810,
+   "endMs": 11410,
    "tokens": [
     {
      "text": " campus"
@@ -104,11 +266,11 @@
    ]
   },
   {
-   "startMs": 5420,
-   "endMs": 5920,
+   "startMs": 11910,
+   "endMs": 12220,
    "tokens": [
     {
-     "text": " I"
+     "text": " And"
     },
     {
      "text": " want"
@@ -119,8 +281,8 @@
    ]
   },
   {
-   "startMs": 5920,
-   "endMs": 6900,
+   "startMs": 12220,
+   "endMs": 13200,
    "tokens": [
     {
      "text": " use"
@@ -134,8 +296,8 @@
    ]
   },
   {
-   "startMs": 6900,
-   "endMs": 8400,
+   "startMs": 13200,
+   "endMs": 14580,
    "tokens": [
     {
      "text": " you"
@@ -149,8 +311,8 @@
    ]
   },
   {
-   "startMs": 8400,
-   "endMs": 9200,
+   "startMs": 14580,
+   "endMs": 15300,
    "tokens": [
     {
      "text": " Tate"
@@ -161,8 +323,8 @@
    ]
   },
   {
-   "startMs": 9200,
-   "endMs": 10740,
+   "startMs": 15300,
+   "endMs": 17000,
    "tokens": [
     {
      "text": " page"
@@ -173,8 +335,8 @@
    ]
   },
   {
-   "startMs": 10740,
-   "endMs": 11300,
+   "startMs": 17000,
+   "endMs": 17580,
    "tokens": [
     {
      "text": " then"
@@ -185,8 +347,8 @@
    ]
   },
   {
-   "startMs": 11300,
-   "endMs": 11580,
+   "startMs": 17580,
+   "endMs": 17860,
    "tokens": [
     {
      "text": " with"
@@ -197,8 +359,8 @@
    ]
   },
   {
-   "startMs": 11580,
-   "endMs": 12200,
+   "startMs": 17860,
+   "endMs": 18380,
    "tokens": [
     {
      "text": " affiliate"
@@ -209,8 +371,8 @@
    ]
   },
   {
-   "startMs": 12520,
-   "endMs": 12980,
+   "startMs": 18840,
+   "endMs": 19260,
    "tokens": [
     {
      "text": " And"
@@ -221,12 +383,21 @@
    ]
   },
   {
-   "startMs": 12980,
-   "endMs": 14260,
+   "startMs": 19260,
+   "endMs": 19580,
    "tokens": [
     {
      "text": " said"
     },
+    {
+     "text": " said"
+    }
+   ]
+  },
+  {
+   "startMs": 19580,
+   "endMs": 20560,
+   "tokens": [
     {
      "text": " fine"
     },
@@ -236,8 +407,8 @@
    ]
   },
   {
-   "startMs": 14260,
-   "endMs": 15040,
+   "startMs": 20560,
+   "endMs": 20720,
    "tokens": [
     {
      "text": " me"
@@ -245,8 +416,8 @@
    ]
   },
   {
-   "startMs": 15060,
-   "endMs": 15340,
+   "startMs": 21000,
+   "endMs": 21640,
    "tokens": [
     {
      "text": " Now"
@@ -260,8 +431,8 @@
    ]
   },
   {
-   "startMs": 15340,
-   "endMs": 16100,
+   "startMs": 21640,
+   "endMs": 22420,
    "tokens": [
     {
      "text": " revolutionary"
@@ -275,8 +446,8 @@
    ]
   },
   {
-   "startMs": 16100,
-   "endMs": 16320,
+   "startMs": 22420,
+   "endMs": 22640,
    "tokens": [
     {
      "text": " time"
@@ -284,8 +455,8 @@
    ]
   },
   {
-   "startMs": 16340,
-   "endMs": 17060,
+   "startMs": 22680,
+   "endMs": 23340,
    "tokens": [
     {
      "text": " invented"
@@ -296,8 +467,8 @@
    ]
   },
   {
-   "startMs": 17320,
-   "endMs": 18000,
+   "startMs": 23520,
+   "endMs": 24340,
    "tokens": [
     {
      "text": " We"
@@ -311,8 +482,8 @@
    ]
   },
   {
-   "startMs": 18000,
-   "endMs": 18220,
+   "startMs": 24340,
+   "endMs": 24540,
    "tokens": [
     {
      "text": " internet"
@@ -320,8 +491,8 @@
    ]
   },
   {
-   "startMs": 18700,
-   "endMs": 19900,
+   "startMs": 25160,
+   "endMs": 26200,
    "tokens": [
     {
      "text": " That's"
@@ -335,8 +506,8 @@
    ]
   },
   {
-   "startMs": 19900,
-   "endMs": 20460,
+   "startMs": 26200,
+   "endMs": 26740,
    "tokens": [
     {
      "text": " internet"
@@ -347,8 +518,8 @@
    ]
   },
   {
-   "startMs": 20460,
-   "endMs": 21080,
+   "startMs": 26740,
+   "endMs": 27220,
    "tokens": [
     {
      "text": " what"
@@ -362,8 +533,8 @@
    ]
   },
   {
-   "startMs": 21080,
-   "endMs": 21140,
+   "startMs": 27220,
+   "endMs": 27440,
    "tokens": [
     {
      "text": " today"
@@ -375,7 +546,7 @@
   "src": "gangstas_paradise.mp3",
   "volLow": 0.13,
   "volHigh": 0.27,
-  "climaxSec": 3,
+  "climaxSec": 24,
   "startSec": 0
  },
  "style": {
@@ -387,6 +558,8 @@
   "captionPosition": "center",
   "uppercase": true,
   "powerWords": [
+   "schools",
+   "blowing",
    "affiliate",
    "campus",
    "Tate",
@@ -400,7 +573,7 @@
   ]
  },
  "hook": {
-  "text": "WE INVENTED CLIPPING",
+  "text": "I’M NOT BLOWING UP SCHOOLS",
   "untilSec": 2.5
  }
 }

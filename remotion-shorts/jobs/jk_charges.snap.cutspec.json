@@ -4,39 +4,73 @@
  "segments": [
   {
    "inSec": 3230.83,
-   "outSec": 3233.37,
+   "outSec": 3233.25,
    "beat": "SETUP",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 3234.49,
-   "outSec": 3239.33,
+   "inSec": 3234.43,
+   "outSec": 3239.41,
    "beat": "HOOK",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 3241.39,
-   "outSec": 3244.25,
+   "inSec": 3242.12,
+   "outSec": 3244.26,
    "beat": "POINT",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 3246.35,
+   "inSec": 3246.57,
    "outSec": 3248.0,
    "beat": "REINFORCE",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 3248.88,
-   "outSec": 3251.96,
+   "inSec": 3248.89,
+   "outSec": 3256.59,
    "beat": "REINFORCE",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 3252.49,
-   "outSec": 3253.36,
+   "inSec": 3258.21,
+   "outSec": 3259.48,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 3268.23,
+   "outSec": 3270.52,
+   "beat": "REINFORCE",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 3272.43,
+   "outSec": 3273.22,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 3275.21,
+   "outSec": 3275.79,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 3286.49,
+   "outSec": 3288.6,
    "beat": "BUTTON",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   }
  ],
  "captionReplace": {
@@ -45,16 +79,17 @@
  },
  "style": {
   "powerWords": [
-   "arrest",
    "mafia",
    "gang",
-   "organized",
+   "arrest",
    "criminal",
-   "witness",
    "trafficking",
+   "assault",
    "guilty",
    "bullshit",
-   "intimidation"
+   "detention",
+   "jail",
+   "matrix"
   ]
  },
  "hook": {
@@ -65,7 +100,7 @@
   "src": "tension_compilation.mp3",
   "volLow": 0.13,
   "volHigh": 0.27,
-  "climaxSec": 8,
+  "climaxSec": 23,
   "startSec": 0
  }
 }

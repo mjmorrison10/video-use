@@ -3,28 +3,32 @@
  "fps": 30,
  "segments": [
   {
-   "inSec": 919.01,
+   "inSec": 919.22,
    "outSec": 920.67,
    "beat": "HOOK",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 915.26,
-   "outSec": 918.94,
-   "beat": "POINT",
-   "framing": "cover"
+   "inSec": 915.58,
+   "outSec": 918.84,
+   "beat": "CONTEXT",
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 937.0,
+   "inSec": 937.4,
    "outSec": 944.37,
    "beat": "EVIDENCE",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 949.3,
+   "inSec": 949.26,
    "outSec": 954.83,
-   "beat": "REINFORCE",
-   "framing": "cover"
+   "beat": "BUTTON",
+   "framing": "cover",
+   "cropX": 0.5
   }
  ],
  "style": {
@@ -53,7 +57,7 @@
   "src": "dont_be_suspicious.mp3",
   "volLow": 0.13,
   "volHigh": 0.27,
-  "climaxSec": 8,
+  "climaxSec": 15,
   "startSec": 0
  }
 }

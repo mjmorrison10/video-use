@@ -3,22 +3,25 @@
  "fps": 30,
  "segments": [
   {
-   "inSec": 10742.49,
-   "outSec": 10745.67,
+   "inSec": 10742.73,
+   "outSec": 10745.71,
    "beat": "HOOK",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 10751.39,
+   "inSec": 10751.59,
    "outSec": 10757.38,
    "beat": "POINT",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 10758.74,
+   "inSec": 10758.87,
    "outSec": 10767.18,
    "beat": "BUTTON",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   }
  ],
  "style": {

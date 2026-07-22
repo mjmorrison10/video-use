@@ -3,34 +3,39 @@
  "fps": 30,
  "segments": [
   {
-   "inSec": 8307.41,
+   "inSec": 8307.71,
    "outSec": 8314.12,
    "beat": "SETUP",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 8319.03,
+   "inSec": 8319.21,
    "outSec": 8320.05,
    "beat": "POINT",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 8320.61,
+   "inSec": 8320.99,
    "outSec": 8323.1,
    "beat": "REINFORCE",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 8323.45,
+   "inSec": 8323.93,
    "outSec": 8330.53,
    "beat": "REINFORCE",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 8330.76,
-   "outSec": 8331.87,
+   "inSec": 8330.81,
+   "outSec": 8332.31,
    "beat": "BUTTON",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   }
  ],
  "captionReplace": {},

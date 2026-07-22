@@ -4,118 +4,102 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 3.71,
+   "outSec": 3.4,
    "offsetSec": 0.0,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 10.11,
-   "outSec": 12.69,
-   "offsetSec": 3.46,
+   "inSec": 9.89,
+   "outSec": 17.33,
+   "offsetSec": 3.15,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 13.79,
-   "outSec": 17.4,
-   "offsetSec": 6.04,
+   "inSec": 20.45,
+   "outSec": 24.2,
+   "offsetSec": 10.59,
    "framing": "cover",
-   "mute": false,
-   "beat": "CLIMAX"
-  },
-  {
-   "inSec": 20.41,
-   "outSec": 24.52,
-   "offsetSec": 9.65,
-   "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 25.65,
-   "outSec": 28.81,
-   "offsetSec": 13.76,
+   "inSec": 25.41,
+   "outSec": 28.49,
+   "offsetSec": 14.34,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "BUTTON"
   }
  ],
  "captionPages": [
   {
-   "startMs": 60,
-   "endMs": 560,
+   "startMs": 0,
+   "endMs": 320,
    "tokens": [
-    {
-     "text": " So"
-    },
     {
      "text": " it's"
-    }
-   ]
-  },
-  {
-   "startMs": 560,
-   "endMs": 1120,
-   "tokens": [
+    },
     {
      "text": " still"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 320,
+   "endMs": 1880,
+   "tokens": [
     {
      "text": " technically"
-    }
-   ]
-  },
-  {
-   "startMs": 1120,
-   "endMs": 1520,
-   "tokens": [
+    },
     {
      "text": " open"
-    }
-   ]
-  },
-  {
-   "startMs": 1900,
-   "endMs": 2540,
-   "tokens": [
-    {
-     "text": " So"
     },
     {
-     "text": " UK"
+     "text": " so"
     }
    ]
   },
   {
-   "startMs": 2540,
-   "endMs": 3240,
+   "startMs": 1880,
+   "endMs": 2520,
    "tokens": [
+    {
+     "text": " uk"
+    },
     {
      "text": " can't"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 2520,
+   "endMs": 3150,
+   "tokens": [
     {
      "text": " extradite"
-    }
-   ]
-  },
-  {
-   "startMs": 3240,
-   "endMs": 3420,
-   "tokens": [
+    },
     {
      "text": " you"
+    },
+    {
+     "text": " and"
     }
    ]
   },
   {
-   "startMs": 3620,
-   "endMs": 3920,
+   "startMs": 3150,
+   "endMs": 3470,
    "tokens": [
     {
-     "text": " I"
+     "text": " i"
     },
     {
      "text": " get"
@@ -126,8 +110,8 @@
    ]
   },
   {
-   "startMs": 3920,
-   "endMs": 4220,
+   "startMs": 3470,
+   "endMs": 3770,
    "tokens": [
     {
      "text": " go"
@@ -138,51 +122,54 @@
    ]
   },
   {
-   "startMs": 4220,
-   "endMs": 4540,
+   "startMs": 3770,
+   "endMs": 5190,
    "tokens": [
     {
-     "text": " America"
+     "text": " america"
+    },
+    {
+     "text": " he"
     }
    ]
   },
   {
-   "startMs": 5320,
-   "endMs": 5780,
+   "startMs": 5190,
+   "endMs": 6470,
    "tokens": [
-    {
-     "text": " He"
-    },
     {
      "text": " goes"
-    }
-   ]
-  },
-  {
-   "startMs": 5840,
-   "endMs": 5920,
-   "tokens": [
-    {
-     "text": " yeah"
-    }
-   ]
-  },
-  {
-   "startMs": 6040,
-   "endMs": 6340,
-   "tokens": [
-    {
-     "text": " I"
     },
     {
-     "text": " remember"
+     "text": " yeah"
+    },
+    {
+     "text": " i"
     }
    ]
   },
   {
-   "startMs": 6340,
-   "endMs": 6660,
+   "startMs": 6470,
+   "endMs": 6730,
    "tokens": [
+    {
+     "text": " was"
+    },
+    {
+     "text": " like"
+    },
+    {
+     "text": " i"
+    }
+   ]
+  },
+  {
+   "startMs": 6730,
+   "endMs": 7290,
+   "tokens": [
+    {
+     "text": " remember"
+    },
     {
      "text": " being"
     },
@@ -192,8 +179,8 @@
    ]
   },
   {
-   "startMs": 6660,
-   "endMs": 7040,
+   "startMs": 7290,
+   "endMs": 7710,
    "tokens": [
     {
      "text": " jail"
@@ -202,13 +189,13 @@
      "text": " when"
     },
     {
-     "text": " I"
+     "text": " i"
     }
    ]
   },
   {
-   "startMs": 7040,
-   "endMs": 7540,
+   "startMs": 7710,
+   "endMs": 8170,
    "tokens": [
     {
      "text": " thought"
@@ -219,8 +206,8 @@
    ]
   },
   {
-   "startMs": 7540,
-   "endMs": 7840,
+   "startMs": 8170,
+   "endMs": 8490,
    "tokens": [
     {
      "text": " next"
@@ -231,8 +218,8 @@
    ]
   },
   {
-   "startMs": 7840,
-   "endMs": 8200,
+   "startMs": 8490,
+   "endMs": 8850,
    "tokens": [
     {
      "text": " years"
@@ -243,8 +230,8 @@
    ]
   },
   {
-   "startMs": 8200,
-   "endMs": 8760,
+   "startMs": 8850,
+   "endMs": 9350,
    "tokens": [
     {
      "text": " just"
@@ -255,8 +242,8 @@
    ]
   },
   {
-   "startMs": 8980,
-   "endMs": 10070,
+   "startMs": 9350,
+   "endMs": 10590,
    "tokens": [
     {
      "text": " house"
@@ -265,13 +252,13 @@
      "text": " arrest"
     },
     {
-     "text": " I've"
+     "text": " get"
     }
    ]
   },
   {
-   "startMs": 10070,
-   "endMs": 10710,
+   "startMs": 10590,
+   "endMs": 10990,
    "tokens": [
     {
      "text": " never"
@@ -282,8 +269,8 @@
    ]
   },
   {
-   "startMs": 10710,
-   "endMs": 10950,
+   "startMs": 10990,
+   "endMs": 11450,
    "tokens": [
     {
      "text": " anything"
@@ -294,50 +281,26 @@
    ]
   },
   {
-   "startMs": 10950,
-   "endMs": 11230,
+   "startMs": 11450,
+   "endMs": 12530,
    "tokens": [
     {
      "text": " this"
-    }
-   ]
-  },
-  {
-   "startMs": 12070,
-   "endMs": 12790,
-   "tokens": [
-    {
-     "text": " I"
     },
     {
-     "text": " said"
+     "text": " just"
     }
    ]
   },
   {
-   "startMs": 12890,
-   "endMs": 13170,
+   "startMs": 12530,
+   "endMs": 12890,
    "tokens": [
     {
      "text": " don't"
     },
     {
-     "text": " worry"
-    },
-    {
-     "text": " I'm"
-    }
-   ]
-  },
-  {
-   "startMs": 13170,
-   "endMs": 13330,
-   "tokens": [
-    {
-     "text": " not"
-    },
-    {
-     "text": " going"
+     "text": " go"
     },
     {
      "text": " to"
@@ -345,20 +308,74 @@
    ]
   },
   {
-   "startMs": 13330,
-   "endMs": 13610,
+   "startMs": 12890,
+   "endMs": 13250,
    "tokens": [
     {
-     "text": " go"
+     "text": " england"
     },
+    {
+     "text": " and"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 13250,
+   "endMs": 13530,
+   "tokens": [
+    {
+     "text": " said"
+    },
+    {
+     "text": " don't"
+    }
+   ]
+  },
+  {
+   "startMs": 13530,
+   "endMs": 13770,
+   "tokens": [
+    {
+     "text": " worry"
+    },
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 13770,
+   "endMs": 13990,
+   "tokens": [
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 13990,
+   "endMs": 14110,
+   "tokens": [
     {
      "text": " there"
     }
    ]
   },
   {
-   "startMs": 13820,
-   "endMs": 14340,
+   "startMs": 14400,
+   "endMs": 14820,
    "tokens": [
     {
      "text": " And"
@@ -372,11 +389,11 @@
    ]
   },
   {
-   "startMs": 14340,
-   "endMs": 14580,
+   "startMs": 14820,
+   "endMs": 15040,
    "tokens": [
     {
-     "text": " go"
+     "text": " got"
     },
     {
      "text": " on"
@@ -387,20 +404,14 @@
    ]
   },
   {
-   "startMs": 14580,
-   "endMs": 14760,
+   "startMs": 15040,
+   "endMs": 16680,
    "tokens": [
     {
      "text": " plane"
-    }
-   ]
-  },
-  {
-   "startMs": 15780,
-   "endMs": 16260,
-   "tokens": [
+    },
     {
-     "text": " And"
+     "text": " and"
     },
     {
      "text": " we"
@@ -408,8 +419,8 @@
    ]
   },
   {
-   "startMs": 16260,
-   "endMs": 16540,
+   "startMs": 16680,
+   "endMs": 17000,
    "tokens": [
     {
      "text": " flew"
@@ -420,8 +431,8 @@
    ]
   },
   {
-   "startMs": 16540,
-   "endMs": 16780,
+   "startMs": 17000,
+   "endMs": 17220,
    "tokens": [
     {
      "text": " Florida"

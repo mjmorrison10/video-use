@@ -3,34 +3,25 @@
  "fps": 30,
  "segments": [
   {
-   "inSec": 6400.66,
-   "outSec": 6407.14,
-   "beat": "HOOK",
-   "framing": "cover"
-  },
-  {
-   "inSec": 6407.34,
+   "inSec": 6400.82,
    "outSec": 6408.64,
-   "beat": "POINT",
-   "framing": "cover"
+   "beat": "HOOK",
+   "framing": "cover",
+   "cropX": 0.12
   },
   {
-   "inSec": 6411.74,
-   "outSec": 6412.22,
-   "beat": "BEAT",
-   "framing": "cover"
-  },
-  {
-   "inSec": 6414.5,
-   "outSec": 6418.29,
+   "inSec": 6414.93,
+   "outSec": 6418.21,
    "beat": "CLIMAX",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 6422.6,
-   "outSec": 6426.4,
+   "inSec": 6422.69,
+   "outSec": 6426.32,
    "beat": "REINFORCE",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   }
  ],
  "captionReplace": {

@@ -4,25 +4,37 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 13.7,
+   "outSec": 8.5,
    "offsetSec": 0.0,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 14.83,
-   "outSec": 16.79,
-   "offsetSec": 13.45,
+   "inSec": 12.33,
+   "outSec": 13.47,
+   "offsetSec": 8.25,
    "framing": "cover",
+   "cropX": 0.5,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 14.95,
+   "outSec": 16.67,
+   "offsetSec": 9.39,
+   "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 18.05,
-   "outSec": 22.29,
-   "offsetSec": 15.41,
+   "inSec": 18.21,
+   "outSec": 22.19,
+   "offsetSec": 11.11,
    "framing": "cover",
+   "cropX": 0.5,
    "mute": false,
    "beat": "BUTTON"
   }
@@ -30,11 +42,8 @@
  "captionPages": [
   {
    "startMs": 0,
-   "endMs": 1080,
+   "endMs": 860,
    "tokens": [
-    {
-     "text": " please"
-    },
     {
      "text": " imagine"
     },
@@ -44,8 +53,8 @@
    ]
   },
   {
-   "startMs": 1080,
-   "endMs": 1660,
+   "startMs": 860,
+   "endMs": 1420,
    "tokens": [
     {
      "text": " went"
@@ -56,26 +65,35 @@
    ]
   },
   {
-   "startMs": 1660,
-   "endMs": 3800,
+   "startMs": 1420,
+   "endMs": 2840,
    "tokens": [
     {
      "text": " nice"
     },
     {
-     "text": " combs"
-    },
-    {
-     "text": " to"
+     "text": " comfortable"
     }
    ]
   },
   {
-   "startMs": 3800,
-   "endMs": 4720,
+   "startMs": 2840,
+   "endMs": 3420,
    "tokens": [
     {
-     "text": " nice"
+     "text": " life"
+    },
+    {
+     "text": " fringe"
+    }
+   ]
+  },
+  {
+   "startMs": 3420,
+   "endMs": 4560,
+   "tokens": [
+    {
+     "text": " internet"
     },
     {
      "text": " celebrity"
@@ -86,11 +104,14 @@
    ]
   },
   {
-   "startMs": 4720,
-   "endMs": 5680,
+   "startMs": 4560,
+   "endMs": 5540,
    "tokens": [
     {
-     "text": " nice"
+     "text": " globally"
+    },
+    {
+     "text": " famous"
     },
     {
      "text": " and"
@@ -98,8 +119,8 @@
    ]
   },
   {
-   "startMs": 5680,
-   "endMs": 6900,
+   "startMs": 5540,
+   "endMs": 6700,
    "tokens": [
     {
      "text": " properly"
@@ -113,8 +134,8 @@
    ]
   },
   {
-   "startMs": 6900,
-   "endMs": 7320,
+   "startMs": 6700,
+   "endMs": 7100,
    "tokens": [
     {
      "text": " like"
@@ -125,8 +146,8 @@
    ]
   },
   {
-   "startMs": 7320,
-   "endMs": 7880,
+   "startMs": 7100,
+   "endMs": 7680,
    "tokens": [
     {
      "text": " months"
@@ -137,8 +158,8 @@
    ]
   },
   {
-   "startMs": 7880,
-   "endMs": 12060,
+   "startMs": 7680,
+   "endMs": 8020,
    "tokens": [
     {
      "text": " most"
@@ -146,57 +167,39 @@
    ]
   },
   {
-   "startMs": 12080,
-   "endMs": 12680,
+   "startMs": 8250,
+   "endMs": 8890,
    "tokens": [
-    {
-     "text": " That's"
-    },
     {
      "text": " the"
     },
     {
      "text": " end"
-    }
-   ]
-  },
-  {
-   "startMs": 12680,
-   "endMs": 13040,
-   "tokens": [
-    {
-     "text": " of"
     },
     {
-     "text": " the"
+     "text": " of"
     }
    ]
   },
   {
-   "startMs": 13040,
-   "endMs": 13340,
+   "startMs": 8890,
+   "endMs": 9290,
    "tokens": [
+    {
+     "text": " the"
+    },
     {
      "text": " story"
     }
    ]
   },
   {
-   "startMs": 13670,
-   "endMs": 13990,
+   "startMs": 9390,
+   "endMs": 10230,
    "tokens": [
-    {
-     "text": " I"
-    },
     {
      "text": " just"
-    }
-   ]
-  },
-  {
-   "startMs": 13990,
-   "endMs": 14570,
-   "tokens": [
+    },
     {
      "text": " enjoyed"
     },
@@ -206,8 +209,8 @@
    ]
   },
   {
-   "startMs": 14570,
-   "endMs": 14930,
+   "startMs": 10230,
+   "endMs": 10610,
    "tokens": [
     {
      "text": " life"
@@ -221,8 +224,8 @@
    ]
   },
   {
-   "startMs": 14930,
-   "endMs": 15370,
+   "startMs": 10610,
+   "endMs": 10990,
    "tokens": [
     {
      "text": " first"
@@ -233,21 +236,12 @@
    ]
   },
   {
-   "startMs": 15470,
-   "endMs": 15870,
+   "startMs": 11110,
+   "endMs": 11450,
    "tokens": [
-    {
-     "text": " And"
-    },
     {
      "text": " I"
-    }
-   ]
-  },
-  {
-   "startMs": 15870,
-   "endMs": 16110,
-   "tokens": [
+    },
     {
      "text": " used"
     },
@@ -257,8 +251,8 @@
    ]
   },
   {
-   "startMs": 16110,
-   "endMs": 16470,
+   "startMs": 11450,
+   "endMs": 11830,
    "tokens": [
     {
      "text": " literally"
@@ -269,8 +263,8 @@
    ]
   },
   {
-   "startMs": 16470,
-   "endMs": 16770,
+   "startMs": 11830,
+   "endMs": 12130,
    "tokens": [
     {
      "text": " around"
@@ -281,60 +275,60 @@
    ]
   },
   {
-   "startMs": 16770,
-   "endMs": 17430,
+   "startMs": 12130,
+   "endMs": 12350,
    "tokens": [
     {
      "text": " room"
-    },
-    {
-     "text": " imagine"
     }
    ]
   },
   {
-   "startMs": 17430,
-   "endMs": 17910,
+   "startMs": 12450,
+   "endMs": 13210,
    "tokens": [
+    {
+     "text": " Imagine"
+    },
     {
      "text": " growing"
     },
     {
      "text": " old"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 13210,
+   "endMs": 13390,
+   "tokens": [
     {
      "text": " in"
-    }
-   ]
-  },
-  {
-   "startMs": 17910,
-   "endMs": 18170,
-   "tokens": [
+    },
     {
      "text": " that"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 13390,
+   "endMs": 13910,
+   "tokens": [
     {
      "text": " room"
-    }
-   ]
-  },
-  {
-   "startMs": 18390,
-   "endMs": 18750,
-   "tokens": [
-    {
-     "text": " Just"
     },
     {
-     "text": " thinking"
+     "text": " just"
     }
    ]
   },
   {
-   "startMs": 18970,
-   "endMs": 19330,
+   "startMs": 13910,
+   "endMs": 14550,
    "tokens": [
+    {
+     "text": " thinking"
+    },
     {
      "text": " what"
     },
@@ -344,8 +338,8 @@
    ]
   },
   {
-   "startMs": 19210,
-   "endMs": 19490,
+   "startMs": 14550,
+   "endMs": 14850,
    "tokens": [
     {
      "text": " fuck"
@@ -359,14 +353,20 @@
    ]
   },
   {
-   "startMs": 19490,
-   "endMs": 19650,
+   "startMs": 14850,
+   "endMs": 14970,
    "tokens": [
     {
      "text": " do"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 15070,
+   "endMs": 15090,
+   "tokens": [
     {
-     "text": " do"
+     "text": " And"
     }
    ]
   }

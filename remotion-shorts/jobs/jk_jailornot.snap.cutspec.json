@@ -3,34 +3,18 @@
  "fps": 30,
  "segments": [
   {
-   "inSec": 8209.65,
-   "outSec": 8213.66,
+   "inSec": 8209.71,
+   "outSec": 8222.63,
    "beat": "POINT",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   },
   {
-   "inSec": 8214.81,
-   "outSec": 8218.43,
-   "beat": "REINFORCE",
-   "framing": "cover"
-  },
-  {
-   "inSec": 8219.67,
-   "outSec": 8222.23,
-   "beat": "HOOK",
-   "framing": "cover"
-  },
-  {
-   "inSec": 8229.42,
-   "outSec": 8231.07,
+   "inSec": 8230.03,
+   "outSec": 8232.57,
    "beat": "BUTTON",
-   "framing": "cover"
-  },
-  {
-   "inSec": 8233.15,
-   "outSec": 8234.57,
-   "beat": "BUTTON",
-   "framing": "cover"
+   "framing": "cover",
+   "cropX": 0.5
   }
  ],
  "captionReplace": {
@@ -53,10 +37,10 @@
   "untilSec": 2.5
  },
  "music": {
-  "src": "tate_motivational.mp3",
+  "src": "metro_superhero.mp3",
   "volLow": 0.13,
   "volHigh": 0.27,
-  "climaxSec": 11,
+  "climaxSec": 8,
   "startSec": 0
  }
 }
