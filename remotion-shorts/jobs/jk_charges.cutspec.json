@@ -35,6 +35,48 @@
   {
    "inSec": 3252.55,
    "outSec": 3253.27,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3253.43,
+   "outSec": 3255.35,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3255.65,
+   "outSec": 3256.61,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3257.95,
+   "outSec": 3259.51,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3268.01,
+   "outSec": 3270.55,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3272.39,
+   "outSec": 3273.17,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3275.17,
+   "outSec": 3275.77,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3286.43,
+   "outSec": 3288.63,
    "beat": "BUTTON",
    "framing": "cover"
   }
@@ -45,16 +87,17 @@
  },
  "style": {
   "powerWords": [
-   "arrest",
    "mafia",
    "gang",
-   "organized",
+   "arrest",
    "criminal",
-   "witness",
    "trafficking",
+   "assault",
    "guilty",
    "bullshit",
-   "intimidation"
+   "detention",
+   "jail",
+   "matrix"
   ]
  },
  "hook": {
@@ -65,7 +108,7 @@
   "src": "tension_compilation.mp3",
   "volLow": 0.13,
   "volHigh": 0.27,
-  "climaxSec": 8,
+  "climaxSec": 23,
   "startSec": 0
  }
 }

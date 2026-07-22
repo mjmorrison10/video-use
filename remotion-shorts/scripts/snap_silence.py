@@ -8,9 +8,12 @@ import json, sys, wave, numpy as np
 WAV="audio.wav"; SR=16000; HOP=160; WIN=400
 w=wave.open(WAV,'rb'); A=np.frombuffer(w.readframes(w.getnframes()),dtype=np.int16).astype(np.float32)/32768.0
 def build_env(a):
+    sq=(a*a).astype(np.float64)
+    c=np.concatenate(([0.0],np.cumsum(sq)))
     m=(len(a)-WIN)//HOP
-    idx=np.arange(m)[:,None]*HOP+np.arange(WIN)[None,:]
-    return np.sqrt(np.mean(a[idx]**2,axis=1)+1e-12)
+    starts=np.arange(m)*HOP
+    means=(c[starts+WIN]-c[starts])/WIN
+    return np.sqrt(means+1e-12).astype(np.float32)
 ENV=build_env(A)
 def rms(t): i=int(t*SR/HOP); return float(ENV[max(0,min(len(ENV)-1,i))])
 def frames(t0,t1): return range(max(0,int(t0*SR/HOP)), min(len(ENV)-1,int(t1*SR/HOP))+1)
@@ -28,7 +31,7 @@ W_s=np.array([w['start'] for w in words]);
 lo=min(s['inSec'] for s in spec['segments']); hi=max(s['outSec'] for s in spec['segments'])
 sub=ENV[int(lo*SR/HOP):int(hi*SR/HOP)]
 thr=max(float(np.percentile(sub,45))*0.9, float(np.percentile(sub,95))*0.06)
-MERGE_GAP=0.45
+MERGE_GAP=0.9
 def speech(t0,t1): return bool(np.any([ENV[j]>thr for j in frames(t0,t1)])) if t1>t0 else False
 IDMAP={id(w):i for i,w in enumerate(words)}
 def widx(w): return IDMAP[id(w)]

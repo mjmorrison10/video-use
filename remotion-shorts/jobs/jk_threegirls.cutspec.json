@@ -3,7 +3,7 @@
  "fps": 30,
  "segments": [
   {
-   "inSec": 7010.94,
+   "inSec": 7012.14,
    "outSec": 7016.84,
    "beat": "HOOK",
    "framing": "cover"
@@ -22,7 +22,7 @@
   },
   {
    "inSec": 7024.18,
-   "outSec": 7025.34,
+   "outSec": 7025.52,
    "beat": "REINFORCE",
    "framing": "cover"
   },
@@ -33,14 +33,8 @@
    "framing": "cover"
   },
   {
-   "inSec": 7035.4,
+   "inSec": 7035.72,
    "outSec": 7037.5,
-   "beat": "REINFORCE",
-   "framing": "cover"
-  },
-  {
-   "inSec": 7047.48,
-   "outSec": 7050.46,
    "beat": "BUTTON",
    "framing": "cover"
   }
@@ -58,7 +52,7 @@
    "locking",
    "tweets",
    "toast",
-   "chance"
+   "after"
   ]
  },
  "hook": {
