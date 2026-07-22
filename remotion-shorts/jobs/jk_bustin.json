@@ -67,8 +67,17 @@
   },
   {
    "inSec": 78.13,
-   "outSec": 80.49,
+   "outSec": 86.74,
    "offsetSec": 30.53,
+   "framing": "cover",
+   "cropX": 0.5,
+   "mute": false,
+   "beat": "BUTTON"
+  },
+  {
+   "inSec": 87.17,
+   "outSec": 89.56,
+   "offsetSec": 39.14,
    "framing": "cover",
    "cropX": 0.5,
    "mute": false,
@@ -616,6 +625,174 @@
    "tokens": [
     {
      "text": " gold"
+    }
+   ]
+  },
+  {
+   "startMs": 33090,
+   "endMs": 33930,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " left"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 33930,
+   "endMs": 34410,
+   "tokens": [
+    {
+     "text": " cars"
+    },
+    {
+     "text": " at"
+    }
+   ]
+  },
+  {
+   "startMs": 34410,
+   "endMs": 34970,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " point"
+    },
+    {
+     "text": " but"
+    }
+   ]
+  },
+  {
+   "startMs": 34970,
+   "endMs": 35250,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " took"
+    }
+   ]
+  },
+  {
+   "startMs": 35250,
+   "endMs": 36770,
+   "tokens": [
+    {
+     "text": " anything"
+    },
+    {
+     "text": " valuable"
+    },
+    {
+     "text": " we"
+    }
+   ]
+  },
+  {
+   "startMs": 36770,
+   "endMs": 37050,
+   "tokens": [
+    {
+     "text": " had"
+    },
+    {
+     "text": " laying"
+    }
+   ]
+  },
+  {
+   "startMs": 37050,
+   "endMs": 37670,
+   "tokens": [
+    {
+     "text": " around"
+    },
+    {
+     "text": " watches"
+    }
+   ]
+  },
+  {
+   "startMs": 37750,
+   "endMs": 38430,
+   "tokens": [
+    {
+     "text": " gold"
+    },
+    {
+     "text": " jewelry"
+    }
+   ]
+  },
+  {
+   "startMs": 38590,
+   "endMs": 39050,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " kind"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 39050,
+   "endMs": 39140,
+   "tokens": [
+    {
+     "text": " thing"
+    }
+   ]
+  },
+  {
+   "startMs": 39200,
+   "endMs": 39840,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " don't"
+    }
+   ]
+  },
+  {
+   "startMs": 39840,
+   "endMs": 41080,
+   "tokens": [
+    {
+     "text": " know"
+    },
+    {
+     "text": " why"
+    },
+    {
+     "text": " but"
+    }
+   ]
+  },
+  {
+   "startMs": 41080,
+   "endMs": 41440,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " did"
     }
    ]
   }

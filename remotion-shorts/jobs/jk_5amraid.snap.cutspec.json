@@ -6,22 +6,22 @@
    "inSec": 6400.82,
    "outSec": 6408.64,
    "beat": "HOOK",
-   "framing": "cover",
-   "cropX": 0.12
+   "framing": "blur-contain",
+   "cropX": 0.18
   },
   {
    "inSec": 6414.93,
    "outSec": 6418.21,
    "beat": "CLIMAX",
-   "framing": "cover",
-   "cropX": 0.5
+   "framing": "blur-contain",
+   "cropX": 0.42
   },
   {
    "inSec": 6422.69,
    "outSec": 6426.32,
    "beat": "REINFORCE",
-   "framing": "cover",
-   "cropX": 0.5
+   "framing": "blur-contain",
+   "cropX": 0.42
   }
  ],
  "captionReplace": {

@@ -53,7 +53,14 @@
   },
   {
    "inSec": 790.64,
-   "outSec": 793.0,
+   "outSec": 799.25,
+   "beat": "BUTTON",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 799.68,
+   "outSec": 802.07,
    "beat": "BUTTON",
    "framing": "cover",
    "cropX": 0.5
