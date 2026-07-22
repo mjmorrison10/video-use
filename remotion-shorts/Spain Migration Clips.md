@@ -11,7 +11,7 @@ House style: 9:16 1080×1920 30fps · Big Shoulders Bold ALL-CAPS (punctuation s
 - **Hook:** `MORE MIGRANTS, FEWER MURDERS`
 - **Point:** Immigrants are over-represented in Spain's prisons, yet the homicide rate is far lower today than in the 1990s — even as immigration surged — so "migration = more killing" doesn't hold.
 - Structure: Hook (immigrants are over-represented in Spanish prisons — the honest concession) → Point (but adjust for a growing population and the crime rate is about the same as 2010, despite millions of new immigrants) → Reinforce (the homicide rate was much higher in the 1990s and has gone down).
-- Prison, crime and homicide charts shown in full via **blur-contain**.
+- Prison, crime and homicide charts shown in a **split layout** (presenter on top, chart enlarged on the bottom).
 
 ## Clip 2 — "Who's Stealing The Jobs?"  · 17.8s · `night_drive.mp3`  *(proven #3)*
 - **Hook:** `WHO'S STEALING THE JOBS?`
