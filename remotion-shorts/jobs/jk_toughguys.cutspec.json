@@ -1,14 +1,49 @@
 {
-  "videoSrc": "jk_proxy.mp4",
-  "fps": 30,
-  "segments": [
-    {"inSec": 10742.55, "outSec": 10745.59, "beat": "HOOK", "framing": "cover"},
-    {"inSec": 10751.45, "outSec": 10757.35, "beat": "POINT", "framing": "cover"},
-    {"inSec": 10758.71, "outSec": 10767.09, "beat": "BUTTON", "framing": "cover"}
-  ],
-  "style": {
-    "powerWords": ["tough", "guys", "favor", "problems", "beginning", "strange", "messages", "coming", "story", "jack"]
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 10742.55,
+   "outSec": 10745.59,
+   "beat": "HOOK",
+   "framing": "cover"
   },
-  "hook": {"text": "“TOUGH GUYS WHEN YOU NEED THEM”", "untilSec": 2.5},
-  "music": {"src": "gangstas_paradise.mp3", "volLow": 0.04, "volHigh": 0.09, "climaxSec": 8, "startSec": 0}
+  {
+   "inSec": 10751.45,
+   "outSec": 10757.35,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 10758.71,
+   "outSec": 10767.09,
+   "beat": "BUTTON",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "tough",
+   "guys",
+   "favor",
+   "problems",
+   "beginning",
+   "strange",
+   "messages",
+   "coming",
+   "story",
+   "jack"
+  ]
+ },
+ "hook": {
+  "text": "“TOUGH GUYS WHEN YOU NEED THEM”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "gangstas_paradise.mp3",
+  "volLow": 0.13,
+  "volHigh": 0.27,
+  "climaxSec": 8,
+  "startSec": 0
+ }
 }

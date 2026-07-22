@@ -1,13 +1,55 @@
 {
-  "videoSrc": "jk_proxy.mp4",
-  "fps": 30,
-  "segments": [
-    {"inSec": 918.98, "outSec": 920.74, "beat": "HOOK", "framing": "cover"},
-    {"inSec": 915.32, "outSec": 918.88, "beat": "POINT", "framing": "cover"},
-    {"inSec": 937.00, "outSec": 944.30, "beat": "EVIDENCE", "framing": "cover"},
-    {"inSec": 949.24, "outSec": 952.84, "beat": "REINFORCE", "framing": "cover"}
-  ],
-  "style": {"powerWords": ["girls", "stuff", "cameras", "house", "pizza", "party", "ubers", "taxis", "amazon", "america"]},
-  "hook": {"text": "“THESE GIRLS MAKE STUFF UP”", "untilSec": 2.5},
-  "music": {"src": "dont_be_suspicious.mp3", "volLow": 0.04, "volHigh": 0.09, "climaxSec": 8, "startSec": 0}
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 918.98,
+   "outSec": 920.74,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 915.32,
+   "outSec": 918.88,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 937.0,
+   "outSec": 944.3,
+   "beat": "EVIDENCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 949.24,
+   "outSec": 952.84,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "girls",
+   "stuff",
+   "cameras",
+   "house",
+   "pizza",
+   "party",
+   "ubers",
+   "taxis",
+   "amazon",
+   "america"
+  ]
+ },
+ "hook": {
+  "text": "“THESE GIRLS MAKE STUFF UP”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "dont_be_suspicious.mp3",
+  "volLow": 0.13,
+  "volHigh": 0.27,
+  "climaxSec": 8,
+  "startSec": 0
+ }
 }

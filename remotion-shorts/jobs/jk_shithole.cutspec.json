@@ -1,18 +1,79 @@
 {
-  "videoSrc": "jk_proxy.mp4",
-  "fps": 30,
-  "segments": [
-    {"inSec": 8307.47, "outSec": 8309.69, "beat": "SETUP", "framing": "cover"},
-    {"inSec": 8310.01, "outSec": 8314.23, "beat": "POINT", "framing": "cover"},
-    {"inSec": 8319.03, "outSec": 8320.15, "beat": "POINT", "framing": "cover"},
-    {"inSec": 8320.67, "outSec": 8322.95, "beat": "REINFORCE", "framing": "cover"},
-    {"inSec": 8323.51, "outSec": 8325.03, "beat": "REINFORCE", "framing": "cover"},
-    {"inSec": 8325.23, "outSec": 8327.63, "beat": "HOOK", "framing": "cover"},
-    {"inSec": 8328.03, "outSec": 8330.53, "beat": "REINFORCE", "framing": "cover"},
-    {"inSec": 8330.73, "outSec": 8331.91, "beat": "BUTTON", "framing": "cover"}
-  ],
-  "captionReplace": {},
-  "style": {"powerWords": ["corrupt", "shithole", "guilty", "billion", "romania", "poor", "rich", "integrity", "dollars"]},
-  "hook": {"text": "“A CORRUPT SHITHOLE”", "untilSec": 2.5},
-  "music": {"src": "lorn_acid_rain.mp3", "volLow": 0.04, "volHigh": 0.10, "climaxSec": 12, "startSec": 0}
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 8307.47,
+   "outSec": 8309.69,
+   "beat": "SETUP",
+   "framing": "cover"
+  },
+  {
+   "inSec": 8310.01,
+   "outSec": 8314.23,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 8319.03,
+   "outSec": 8320.15,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 8320.67,
+   "outSec": 8322.95,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 8323.51,
+   "outSec": 8325.03,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 8325.23,
+   "outSec": 8327.63,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 8328.03,
+   "outSec": 8330.53,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 8330.73,
+   "outSec": 8331.91,
+   "beat": "BUTTON",
+   "framing": "cover"
+  }
+ ],
+ "captionReplace": {},
+ "style": {
+  "powerWords": [
+   "corrupt",
+   "shithole",
+   "guilty",
+   "billion",
+   "romania",
+   "poor",
+   "rich",
+   "integrity",
+   "dollars"
+  ]
+ },
+ "hook": {
+  "text": "“A CORRUPT SHITHOLE”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "lorn_acid_rain.mp3",
+  "volLow": 0.13,
+  "volHigh": 0.27,
+  "climaxSec": 12,
+  "startSec": 0
+ }
 }

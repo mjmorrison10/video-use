@@ -1,14 +1,57 @@
 {
-  "videoSrc": "jk_proxy.mp4",
-  "fps": 30,
-  "segments": [
-    {"inSec": 116.96, "outSec": 118.70, "beat": "HOOK", "framing": "cover"},
-    {"inSec": 118.96, "outSec": 123.20, "beat": "HOOK", "framing": "cover"},
-    {"inSec": 135.40, "outSec": 142.62, "beat": "POINT", "framing": "cover"},
-    {"inSec": 147.02, "outSec": 149.22, "beat": "BUTTON", "framing": "cover"}
-  ],
-  "captionReplace": {"dubaihn": "Dubai", "thesegates": "these"},
-  "style": {"powerWords": ["dubai", "retired", "webcam", "schooling", "waste", "years", "money", "education"]},
-  "hook": {"text": "WHY GO BACK TO SCHOOL?", "untilSec": 2.5},
-  "music": {"src": "interstellar.mp3", "volLow": 0.04, "volHigh": 0.10, "climaxSec": 11, "startSec": 0}
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 116.96,
+   "outSec": 118.7,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 118.96,
+   "outSec": 123.2,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 135.4,
+   "outSec": 142.62,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 147.02,
+   "outSec": 149.22,
+   "beat": "BUTTON",
+   "framing": "cover"
+  }
+ ],
+ "captionReplace": {
+  "dubaihn": "Dubai",
+  "thesegates": "these"
+ },
+ "style": {
+  "powerWords": [
+   "dubai",
+   "retired",
+   "webcam",
+   "schooling",
+   "waste",
+   "years",
+   "money",
+   "education"
+  ]
+ },
+ "hook": {
+  "text": "WHY GO BACK TO SCHOOL?",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "interstellar.mp3",
+  "volLow": 0.13,
+  "volHigh": 0.27,
+  "climaxSec": 11,
+  "startSec": 0
+ }
 }

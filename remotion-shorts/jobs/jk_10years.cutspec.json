@@ -1,18 +1,70 @@
 {
-  "videoSrc": "jk_proxy.mp4",
-  "fps": 30,
-  "segments": [
-    {"inSec": 9714.98, "outSec": 9716.44, "beat": "HOOK", "framing": "cover"},
-    {"inSec": 9716.82, "outSec": 9718.34, "beat": "HOOK", "framing": "cover"},
-    {"inSec": 9724.76, "outSec": 9727.24, "beat": "POINT", "framing": "cover"},
-    {"inSec": 9728.46, "outSec": 9731.98, "beat": "CLIMAX", "framing": "cover"},
-    {"inSec": 9735.14, "outSec": 9739.04, "beat": "REINFORCE", "framing": "cover"},
-    {"inSec": 9740.38, "outSec": 9743.34, "beat": "BUTTON", "framing": "cover"}
-  ],
-  "captionReplace": {"seendisplaystyle": "seen"},
-  "style": {
-    "powerWords": ["jail", "arrest", "extradite", "america", "years", "house", "plane", "florida", "open", "technically"]
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 9714.98,
+   "outSec": 9716.44,
+   "beat": "HOOK",
+   "framing": "cover"
   },
-  "hook": {"text": "“THE NEXT 10 YEARS: JUST JAIL”", "untilSec": 2.5},
-  "music": {"src": "dark_knight_imagine_fire.mp3", "volLow": 0.04, "volHigh": 0.10, "climaxSec": 8, "startSec": 0}
+  {
+   "inSec": 9716.82,
+   "outSec": 9718.34,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9724.76,
+   "outSec": 9727.24,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9728.46,
+   "outSec": 9731.98,
+   "beat": "CLIMAX",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9735.14,
+   "outSec": 9739.04,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9740.38,
+   "outSec": 9743.34,
+   "beat": "BUTTON",
+   "framing": "cover"
+  }
+ ],
+ "captionReplace": {
+  "seendisplaystyle": "seen"
+ },
+ "style": {
+  "powerWords": [
+   "jail",
+   "arrest",
+   "extradite",
+   "america",
+   "years",
+   "house",
+   "plane",
+   "florida",
+   "open",
+   "technically"
+  ]
+ },
+ "hook": {
+  "text": "“THE NEXT 10 YEARS: JUST JAIL”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "dark_knight_imagine_fire.mp3",
+  "volLow": 0.13,
+  "volHigh": 0.27,
+  "climaxSec": 8,
+  "startSec": 0
+ }
 }
