@@ -48,6 +48,17 @@ export const hookSchema = z
   })
   .nullable();
 
+// A brief B-roll cutaway overlaid on the speaker at a keyword moment. Output-timed.
+// The speaker's audio keeps playing underneath (broll is muted); captions stay on top.
+export const brollSchema = z.object({
+  src: z.string(), // filename in public/
+  atSec: z.number(), // output-timeline start (seconds)
+  durSec: z.number().default(1.8), // how long the cutaway holds
+  trimBefore: z.number().default(0), // trim into the b-roll source (seconds)
+  framing: z.enum(["cover", "blur-contain"]).default("cover"),
+  label: z.string().optional(), // the keyword it matched (informational)
+});
+
 export const shortSchema = z.object({
   videoSrc: z.string(), // filename in public/ (proxy)
   fps: z.number().default(30),
@@ -56,6 +67,7 @@ export const shortSchema = z.object({
   music: musicSchema.default(null),
   style: styleSchema.default({}),
   hook: hookSchema.default(null),
+  broll: z.array(brollSchema).default([]),
 });
 
 export type ShortProps = z.infer<typeof shortSchema>;

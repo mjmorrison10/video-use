@@ -622,5 +622,15 @@
  "hook": {
   "text": "“THE BRITISH GOVERNMENT IS COMPLICIT”",
   "untilSec": 2.5
- }
+ },
+ "broll": [
+  {
+   "src": "broll_romania.mp4",
+   "atSec": 18.62,
+   "durSec": 1.55,
+   "trimBefore": 0.3,
+   "framing": "cover",
+   "label": "Romania"
+  }
+ ]
 }

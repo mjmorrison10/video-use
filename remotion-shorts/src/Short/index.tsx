@@ -6,6 +6,7 @@ import {
   OffthreadVideo,
   Sequence,
   staticFile,
+  useCurrentFrame,
   useVideoConfig,
 } from "remotion";
 import { loadFont } from "../load-font";
@@ -71,6 +72,39 @@ const Segment: React.FC<{
   );
 };
 
+const Broll: React.FC<{
+  src: string;
+  trimBefore: number;
+  framing: string;
+  fps: number;
+  durFrames: number;
+}> = ({ src, trimBefore, framing, fps, durFrames }) => {
+  const frame = useCurrentFrame();
+  const fade = Math.round(fps * 0.12);
+  const opacity = interpolate(
+    frame,
+    [0, fade, durFrames - fade, durFrames],
+    [0, 1, 1, 0],
+    { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
+  );
+  const source = staticFile(src);
+  const tb = Math.round(trimBefore * fps);
+  return (
+    <AbsoluteFill style={{ opacity, backgroundColor: "black" }}>
+      {framing === "blur-contain" ? (
+        <>
+          <OffthreadVideo src={source} trimBefore={tb} muted style={{ width: "100%", height: "100%", objectFit: "cover", filter: "blur(40px) brightness(0.5)", transform: "scale(1.15)" }} />
+          <AbsoluteFill style={{ justifyContent: "center" }}>
+            <OffthreadVideo src={source} trimBefore={tb} muted style={{ width: "100%", height: "auto", objectFit: "contain" }} />
+          </AbsoluteFill>
+        </>
+      ) : (
+        <OffthreadVideo src={source} trimBefore={tb} muted style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+      )}
+    </AbsoluteFill>
+  );
+};
+
 export const Short: React.FC<ShortProps> = ({
   videoSrc,
   ranges,
@@ -78,6 +112,7 @@ export const Short: React.FC<ShortProps> = ({
   music,
   style,
   hook,
+  broll,
 }) => {
   const { fps, durationInFrames } = useVideoConfig();
 
@@ -108,6 +143,16 @@ export const Short: React.FC<ShortProps> = ({
               mute={r.mute}
               fps={fps}
             />
+          </Sequence>
+        );
+      })}
+
+      {(broll ?? []).map((b, i) => {
+        const from = Math.round(b.atSec * fps);
+        const durFrames = Math.max(1, Math.round(b.durSec * fps));
+        return (
+          <Sequence key={`broll-${i}`} from={from} durationInFrames={durFrames} name={`broll:${b.label ?? b.src}`}>
+            <Broll src={b.src} trimBefore={b.trimBefore} framing={b.framing} fps={fps} durFrames={durFrames} />
           </Sequence>
         );
       })}
