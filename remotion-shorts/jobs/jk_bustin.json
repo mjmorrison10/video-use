@@ -1,50 +1,50 @@
 {
- "videoSrc": "jk_proxy.mp4",
+ "videoSrc": "jk_bustin_src.mp4",
  "fps": 30,
  "ranges": [
   {
-   "inSec": 712.38,
-   "outSec": 713.96,
+   "inSec": 0.25,
+   "outSec": 1.83,
    "offsetSec": 0.0,
    "framing": "cover",
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 722.6,
-   "outSec": 723.3,
+   "inSec": 10.47,
+   "outSec": 11.17,
    "offsetSec": 1.58,
    "framing": "cover",
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 723.62,
-   "outSec": 724.86,
+   "inSec": 11.49,
+   "outSec": 12.73,
    "offsetSec": 2.28,
    "framing": "cover",
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 725.28,
-   "outSec": 729.72,
+   "inSec": 13.15,
+   "outSec": 17.59,
    "offsetSec": 3.52,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 730.08,
-   "outSec": 731.56,
+   "inSec": 17.95,
+   "outSec": 19.43,
    "offsetSec": 7.96,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 732.84,
-   "outSec": 738.5,
+   "inSec": 20.71,
+   "outSec": 26.37,
    "offsetSec": 9.44,
    "framing": "cover",
    "mute": false,

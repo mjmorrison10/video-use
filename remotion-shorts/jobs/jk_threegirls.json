@@ -1,58 +1,58 @@
 {
- "videoSrc": "jk_proxy.mp4",
+ "videoSrc": "jk_threegirls_src.mp4",
  "fps": 30,
  "ranges": [
   {
-   "inSec": 7010.94,
-   "outSec": 7016.84,
+   "inSec": 0.25,
+   "outSec": 6.15,
    "offsetSec": 0.0,
    "framing": "cover",
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 7017.6,
-   "outSec": 7019.78,
+   "inSec": 6.91,
+   "outSec": 9.09,
    "offsetSec": 5.9,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 7020.68,
-   "outSec": 7022.6,
+   "inSec": 9.99,
+   "outSec": 11.91,
    "offsetSec": 8.08,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 7024.18,
-   "outSec": 7025.34,
+   "inSec": 13.49,
+   "outSec": 14.65,
    "offsetSec": 10.0,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 7025.52,
-   "outSec": 7027.86,
+   "inSec": 14.83,
+   "outSec": 17.17,
    "offsetSec": 11.16,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 7036.08,
-   "outSec": 7037.5,
+   "inSec": 25.39,
+   "outSec": 26.81,
    "offsetSec": 13.5,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 7047.48,
-   "outSec": 7050.46,
+   "inSec": 36.79,
+   "outSec": 39.77,
    "offsetSec": 14.92,
    "framing": "cover",
    "mute": false,

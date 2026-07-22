@@ -1,50 +1,50 @@
 {
- "videoSrc": "jk_proxy.mp4",
+ "videoSrc": "jk_5amraid_src.mp4",
  "fps": 30,
  "ranges": [
   {
-   "inSec": 6400.7,
-   "outSec": 6403.76,
+   "inSec": 0.25,
+   "outSec": 3.31,
    "offsetSec": 0.0,
    "framing": "cover",
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 6403.96,
-   "outSec": 6407.12,
+   "inSec": 3.51,
+   "outSec": 6.67,
    "offsetSec": 3.06,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 6407.38,
-   "outSec": 6408.66,
+   "inSec": 6.93,
+   "outSec": 8.21,
    "offsetSec": 6.22,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 6411.74,
-   "outSec": 6412.08,
+   "inSec": 11.29,
+   "outSec": 11.63,
    "offsetSec": 7.5,
    "framing": "cover",
    "mute": false,
    "beat": "BEAT"
   },
   {
-   "inSec": 6414.61,
-   "outSec": 6418.17,
+   "inSec": 14.16,
+   "outSec": 17.72,
    "offsetSec": 7.84,
    "framing": "cover",
    "mute": false,
    "beat": "CLIMAX"
   },
   {
-   "inSec": 6422.63,
-   "outSec": 6426.17,
+   "inSec": 22.18,
+   "outSec": 25.72,
    "offsetSec": 11.4,
    "framing": "cover",
    "mute": false,
