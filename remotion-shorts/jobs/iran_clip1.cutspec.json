@@ -1,0 +1,47 @@
+{
+  "videoSrc": "iran_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 97.61,
+      "outSec": 101.73,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 142.44,
+      "outSec": 146.125,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 159.9,
+      "outSec": 166.59,
+      "beat": "REINFORCE",
+      "framing": "blur-contain"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "story",
+      "dominates",
+      "Iran",
+      "conflict",
+      "markets",
+      "shrugged",
+      "priced",
+      "movement"
+    ]
+  },
+  "hook": {
+    "text": "MARKETS SHRUGGED OFF THE WAR",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "interstellar.mp3",
+    "volLow": 0.24,
+    "volHigh": 0.42,
+    "climaxSec": 11,
+    "startSec": 65
+  }
+}

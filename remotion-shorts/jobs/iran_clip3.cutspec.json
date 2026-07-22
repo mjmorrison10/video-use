@@ -1,0 +1,54 @@
+{
+  "videoSrc": "iran_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 956.235,
+      "outSec": 972.71,
+      "beat": "HOOK",
+      "framing": "cover",
+      "crop": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.42,
+        "h": 0.75
+      }
+    },
+    {
+      "inSec": 983.665,
+      "outSec": 998.92,
+      "beat": "REINFORCE",
+      "framing": "cover",
+      "crop": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.42,
+        "h": 0.75
+      }
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "Walmart",
+      "Cisco",
+      "Microsoft",
+      "predict",
+      "passively",
+      "invest",
+      "concentration",
+      "crashes",
+      "feature"
+    ]
+  },
+  "hook": {
+    "text": "TODAY'S WINNERS ALWAYS FALL",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "royalty.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 9,
+    "startSec": 28
+  }
+}

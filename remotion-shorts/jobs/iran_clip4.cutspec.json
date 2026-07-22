@@ -1,0 +1,48 @@
+{
+  "videoSrc": "iran_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 491.035,
+      "outSec": 494.29,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 494.465,
+      "outSec": 501.32,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 481.88,
+      "outSec": 491.04,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "interest",
+      "rates",
+      "negative",
+      "gravity",
+      "expensive",
+      "borrow",
+      "mortgages",
+      "loans",
+      "businesses"
+    ]
+  },
+  "hook": {
+    "text": "WHY HIGH RATES HURT",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "night_drive.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 9,
+    "startSec": 40
+  }
+}
