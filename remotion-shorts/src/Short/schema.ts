@@ -6,6 +6,7 @@ export const rangeSchema = z.object({
   outSec: z.number(), // end in the source timeline, seconds
   offsetSec: z.number(), // where this segment starts on the OUTPUT timeline
   framing: z.enum(["cover", "blur-contain"]).default("cover"),
+  cropX: z.number().default(0.5), // horizontal crop bias for cover (0=left, .5=center, 1=right)
   mute: z.boolean().default(false), // drop this segment's audio (censor)
   beat: z.string().optional(), // HOOK / POINT / etc (informational)
 });
@@ -59,6 +60,22 @@ export const brollSchema = z.object({
   label: z.string().optional(), // the keyword it matched (informational)
 });
 
+// A fast punch-in zoom at a keyword moment (e.g. each "bang"), output-timed.
+export const zoomSchema = z.object({
+  atSec: z.number(), // output-timeline moment to punch in
+  durSec: z.number().default(0.45), // total in+out duration of the punch
+  scale: z.number().default(1.18), // peak zoom
+});
+
+// A call-to-action end card appended after the content (black screen + text).
+export const ctaSchema = z
+  .object({
+    text: z.string(),
+    durSec: z.number().default(2),
+    sub: z.string().optional(), // optional smaller line under the main text
+  })
+  .nullable();
+
 export const shortSchema = z.object({
   videoSrc: z.string(), // filename in public/ (proxy)
   fps: z.number().default(30),
@@ -68,6 +85,8 @@ export const shortSchema = z.object({
   style: styleSchema.default({}),
   hook: hookSchema.default(null),
   broll: z.array(brollSchema).default([]),
+  zooms: z.array(zoomSchema).default([]),
+  cta: ctaSchema.default(null),
 });
 
 export type ShortProps = z.infer<typeof shortSchema>;

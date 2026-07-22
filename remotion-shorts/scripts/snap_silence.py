@@ -21,7 +21,8 @@ INP,OUTP=args[0],args[1]
 pad_pre=float(args[2]) if len(args)>2 else 0.06
 pad_post=float(args[3]) if len(args)>3 else 0.09
 spec=json.load(open(INP))
-tr=json.load(open('edit/transcript.json'))
+import os as _os
+tr=json.load(open('edit/transcript_hd.json' if _os.path.exists('edit/transcript_hd.json') else 'edit/transcript.json'))
 words=[w for w in tr['words'] if w.get('start') is not None]
 W_s=np.array([w['start'] for w in words]); 
 lo=min(s['inSec'] for s in spec['segments']); hi=max(s['outSec'] for s in spec['segments'])
@@ -74,7 +75,7 @@ for s in merged:
     ni=snap_start(s['w0']); no=snap_end(s['w1'])
     tag='ok' if rms(ni)<thr*1.3 and rms(no)<thr*1.3 else 'RISK'
     print(f"  [{ni:.2f}-{no:.2f}] {s['w0']['text']!r}..{s['w1']['text']!r} rms_in={rms(ni):.3f} rms_out={rms(no):.3f} {tag}{' merged+'+str(s['_m']) if s.get('_m') else ''}")
-    o={"inSec":ni,"outSec":no,"beat":s.get('beat','POINT'),"framing":s.get('framing','cover')}
+    o={"inSec":ni,"outSec":no,"beat":s.get('beat','POINT'),"framing":s.get('framing','cover'),"cropX":s.get('cropX',0.5)}
     if s.get('mute'): o['mute']=True
     out.append(o)
 spec['segments']=out

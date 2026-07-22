@@ -9,11 +9,12 @@ const calcShortMetadata: CalculateMetadataFunction<ShortProps> = ({ props }) => 
     (acc, r) => Math.max(acc, r.offsetSec + (r.outSec - r.inSec)),
     0,
   );
+  const ctaDur = props.cta ? props.cta.durSec : 0;
   return {
     fps,
     width: 1080,
     height: 1920,
-    durationInFrames: Math.max(1, Math.round(totalOut * fps)),
+    durationInFrames: Math.max(1, Math.round((totalOut + ctaDur) * fps)),
   };
 };
 
