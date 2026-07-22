@@ -3,47 +3,43 @@
  "fps": 30,
  "segments": [
   {
-   "inSec": 1193.33,
-   "outSec": 1197.43,
+   "inSec": 1211.96,
+   "outSec": 1217.18,
    "beat": "HOOK",
    "framing": "cover"
   },
   {
-   "inSec": 1197.93,
-   "outSec": 1200.26,
+   "inSec": 1290.48,
+   "outSec": 1301.58,
    "beat": "POINT",
    "framing": "cover"
   },
   {
-   "inSec": 1200.94,
-   "outSec": 1203.04,
-   "beat": "POINT",
-   "framing": "cover"
-  },
-  {
-   "inSec": 1209.98,
-   "outSec": 1217.48,
+   "inSec": 1306.06,
+   "outSec": 1310.91,
    "beat": "BUTTON",
    "framing": "cover"
   }
  ],
  "captionReplace": {
-  "onlled": "on",
-  "happenochondring": "happen"
+  "isrimination": "is"
  },
  "style": {
   "powerWords": [
-   "blowing",
-   "girls",
-   "schools",
-   "control",
-   "school",
    "affiliate",
-   "marketing"
+   "campus",
+   "Tate",
+   "page",
+   "invented",
+   "clipping",
+   "ruined",
+   "internet",
+   "revolutionary",
+   "today"
   ]
  },
  "hook": {
-  "text": "“I’M NOT BLOWING UP SCHOOLS”",
+  "text": "WE INVENTED CLIPPING",
   "untilSec": 2.5
  },
  "music": {

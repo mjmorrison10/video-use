@@ -1,64 +1,79 @@
 {
- "videoSrc": "jk_proxy.mp4",
- "fps": 30,
- "segments": [
-  {
-   "inSec": 4924.41,
-   "outSec": 4925.45,
-   "beat": "HOOK",
-   "framing": "cover"
+  "videoSrc": "jk_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 4924.41,
+      "outSec": 4925.45,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 4926.86,
+      "outSec": 4930.86,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 4931.28,
+      "outSec": 4935.38,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 4939.86,
+      "outSec": 4945.54,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 4945.92,
+      "outSec": 4947.88,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 4949.46,
+      "outSec": 4953.44,
+      "beat": "BUTTON",
+      "framing": "cover"
+    },
+    {
+      "inSec": 4980.2,
+      "outSec": 4985.16,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 4989.92,
+      "outSec": 4992.18,
+      "beat": "BUTTON",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "bbc",
+      "interview",
+      "interviews",
+      "corruption",
+      "state",
+      "calling",
+      "called",
+      "convicted",
+      "innocent",
+      "guilty"
+    ]
   },
-  {
-   "inSec": 4926.86,
-   "outSec": 4930.86,
-   "beat": "HOOK",
-   "framing": "cover"
+  "hook": {
+    "text": "‘I DON’T DO INTERVIEWS’",
+    "untilSec": 2.5
   },
-  {
-   "inSec": 4931.28,
-   "outSec": 4935.38,
-   "beat": "POINT",
-   "framing": "cover"
-  },
-  {
-   "inSec": 4939.86,
-   "outSec": 4945.54,
-   "beat": "POINT",
-   "framing": "cover"
-  },
-  {
-   "inSec": 4945.92,
-   "outSec": 4947.88,
-   "beat": "REINFORCE",
-   "framing": "cover"
-  },
-  {
-   "inSec": 4949.46,
-   "outSec": 4953.44,
-   "beat": "BUTTON",
-   "framing": "cover"
+  "music": {
+    "src": "tristan_tate_theme.mp3",
+    "volLow": 0.13,
+    "volHigh": 0.27,
+    "climaxSec": 13,
+    "startSec": 0
   }
- ],
- "style": {
-  "powerWords": [
-   "bbc",
-   "interview",
-   "interviews",
-   "corruption",
-   "state",
-   "calling",
-   "called"
-  ]
- },
- "hook": {
-  "text": "‘I DON’T DO INTERVIEWS’",
-  "untilSec": 2.5
- },
- "music": {
-  "src": "tristan_tate_theme.mp3",
-  "volLow": 0.13,
-  "volHigh": 0.27,
-  "climaxSec": 13,
-  "startSec": 0
- }
 }

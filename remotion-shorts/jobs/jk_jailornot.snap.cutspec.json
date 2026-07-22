@@ -3,12 +3,6 @@
  "fps": 30,
  "segments": [
   {
-   "inSec": 8205.19,
-   "outSec": 8208.07,
-   "beat": "SETUP",
-   "framing": "cover"
-  },
-  {
    "inSec": 8209.65,
    "outSec": 8213.66,
    "beat": "POINT",
@@ -34,7 +28,7 @@
   },
   {
    "inSec": 8233.15,
-   "outSec": 8234.56,
+   "outSec": 8234.57,
    "beat": "BUTTON",
    "framing": "cover"
   }

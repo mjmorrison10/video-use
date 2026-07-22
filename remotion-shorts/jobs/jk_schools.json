@@ -4,32 +4,24 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 4.35,
+   "outSec": 5.47,
    "offsetSec": 0.0,
    "framing": "cover",
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 4.85,
-   "outSec": 7.18,
-   "offsetSec": 4.1,
+   "inSec": 78.77,
+   "outSec": 89.87,
+   "offsetSec": 5.22,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 7.86,
-   "outSec": 9.96,
-   "offsetSec": 6.43,
-   "framing": "cover",
-   "mute": false,
-   "beat": "POINT"
-  },
-  {
-   "inSec": 16.9,
-   "outSec": 24.4,
-   "offsetSec": 8.53,
+   "inSec": 94.35,
+   "outSec": 99.2,
+   "offsetSec": 16.32,
    "framing": "cover",
    "mute": false,
    "beat": "BUTTON"
@@ -38,257 +30,35 @@
  "captionPages": [
   {
    "startMs": 60,
-   "endMs": 540,
+   "endMs": 1780,
    "tokens": [
-    {
-     "text": " Yes"
-    },
-    {
-     "text": " I"
-    }
-   ]
-  },
-  {
-   "startMs": 540,
-   "endMs": 920,
-   "tokens": [
-    {
-     "text": " said"
-    },
-    {
-     "text": " some"
-    }
-   ]
-  },
-  {
-   "startMs": 920,
-   "endMs": 2160,
-   "tokens": [
-    {
-     "text": " things"
-    },
-    {
-     "text": " but"
-    },
-    {
-     "text": " I"
-    }
-   ]
-  },
-  {
-   "startMs": 2160,
-   "endMs": 2580,
-   "tokens": [
-    {
-     "text": " mean"
-    },
-    {
-     "text": " I'm"
-    },
-    {
-     "text": " not"
-    }
-   ]
-  },
-  {
-   "startMs": 2580,
-   "endMs": 3000,
-   "tokens": [
-    {
-     "text": " blowing"
-    },
-    {
-     "text": " up"
-    }
-   ]
-  },
-  {
-   "startMs": 3000,
-   "endMs": 3640,
-   "tokens": [
-    {
-     "text": " girls'"
-    },
-    {
-     "text": " schools"
-    },
-    {
-     "text": " and"
-    }
-   ]
-  },
-  {
-   "startMs": 3640,
-   "endMs": 4040,
-   "tokens": [
-    {
-     "text": " I"
-    },
-    {
-     "text": " ran"
-    }
-   ]
-  },
-  {
-   "startMs": 4200,
-   "endMs": 4500,
-   "tokens": [
-    {
-     "text": " Like"
-    },
-    {
-     "text": " come"
-    }
-   ]
-  },
-  {
-   "startMs": 4380,
-   "endMs": 4800,
-   "tokens": [
-    {
-     "text": " on"
-    }
-   ]
-  },
-  {
-   "startMs": 4800,
-   "endMs": 5360,
-   "tokens": [
-    {
-     "text": " Triple"
-    },
-    {
-     "text": " tap"
-    }
-   ]
-  },
-  {
-   "startMs": 6100,
-   "endMs": 6260,
-   "tokens": [
-    {
-     "text": " I"
-    },
-    {
-     "text": " don't"
-    }
-   ]
-  },
-  {
-   "startMs": 6140,
-   "endMs": 6260,
-   "tokens": [
-    {
-     "text": " know"
-    }
-   ]
-  },
-  {
-   "startMs": 6490,
-   "endMs": 7130,
-   "tokens": [
-    {
-     "text": " So"
-    },
-    {
-     "text": " I"
-    },
-    {
-     "text": " was"
-    }
-   ]
-  },
-  {
-   "startMs": 7130,
-   "endMs": 7530,
-   "tokens": [
-    {
-     "text": " like"
-    },
-    {
-     "text": " this"
-    },
-    {
-     "text": " is"
-    }
-   ]
-  },
-  {
-   "startMs": 7530,
-   "endMs": 7930,
-   "tokens": [
-    {
-     "text": " a"
-    },
-    {
-     "text": " bit"
-    },
-    {
-     "text": " out"
-    }
-   ]
-  },
-  {
-   "startMs": 7930,
-   "endMs": 9070,
-   "tokens": [
-    {
-     "text": " of"
-    },
-    {
-     "text": " control"
-    },
-    {
-     "text": " Now"
-    }
-   ]
-  },
-  {
-   "startMs": 9070,
-   "endMs": 9910,
-   "tokens": [
-    {
-     "text": " around"
-    },
-    {
-     "text": " this"
-    }
-   ]
-  },
-  {
-   "startMs": 9910,
-   "endMs": 11830,
-   "tokens": [
-    {
-     "text": " time"
-    },
     {
      "text": " someone"
-    }
-   ]
-  },
-  {
-   "startMs": 11830,
-   "endMs": 12410,
-   "tokens": [
+    },
     {
      "text": " inside"
     },
     {
      "text": " of"
-    },
-    {
-     "text": " my"
     }
    ]
   },
   {
-   "startMs": 12410,
-   "endMs": 14190,
+   "startMs": 1780,
+   "endMs": 2180,
    "tokens": [
     {
-     "text": " school"
+     "text": " my"
     },
+    {
+     "text": " school"
+    }
+   ]
+  },
+  {
+   "startMs": 2180,
+   "endMs": 3680,
+   "tokens": [
     {
      "text": " said"
     },
@@ -298,8 +68,8 @@
    ]
   },
   {
-   "startMs": 14190,
-   "endMs": 14770,
+   "startMs": 3680,
+   "endMs": 4260,
    "tokens": [
     {
      "text": " should"
@@ -313,8 +83,8 @@
    ]
   },
   {
-   "startMs": 14770,
-   "endMs": 15450,
+   "startMs": 4260,
+   "endMs": 4940,
    "tokens": [
     {
      "text": " affiliate"
@@ -325,11 +95,278 @@
    ]
   },
   {
-   "startMs": 15450,
-   "endMs": 16030,
+   "startMs": 4940,
+   "endMs": 5220,
    "tokens": [
     {
      "text": " campus"
+    }
+   ]
+  },
+  {
+   "startMs": 5420,
+   "endMs": 5920,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " want"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 5920,
+   "endMs": 6900,
+   "tokens": [
+    {
+     "text": " use"
+    },
+    {
+     "text": " videos"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 6900,
+   "endMs": 8400,
+   "tokens": [
+    {
+     "text": " you"
+    },
+    {
+     "text": " launch"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 8400,
+   "endMs": 9200,
+   "tokens": [
+    {
+     "text": " Tate"
+    },
+    {
+     "text": " fan"
+    }
+   ]
+  },
+  {
+   "startMs": 9200,
+   "endMs": 10740,
+   "tokens": [
+    {
+     "text": " page"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 10740,
+   "endMs": 11300,
+   "tokens": [
+    {
+     "text": " then"
+    },
+    {
+     "text": " sell"
+    }
+   ]
+  },
+  {
+   "startMs": 11300,
+   "endMs": 11580,
+   "tokens": [
+    {
+     "text": " with"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 11580,
+   "endMs": 12200,
+   "tokens": [
+    {
+     "text": " affiliate"
+    },
+    {
+     "text": " link"
+    }
+   ]
+  },
+  {
+   "startMs": 12520,
+   "endMs": 12980,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 12980,
+   "endMs": 14260,
+   "tokens": [
+    {
+     "text": " said"
+    },
+    {
+     "text": " fine"
+    },
+    {
+     "text": " by"
+    }
+   ]
+  },
+  {
+   "startMs": 14260,
+   "endMs": 15040,
+   "tokens": [
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 15060,
+   "endMs": 15340,
+   "tokens": [
+    {
+     "text": " Now"
+    },
+    {
+     "text": " this"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 15340,
+   "endMs": 16100,
+   "tokens": [
+    {
+     "text": " revolutionary"
+    },
+    {
+     "text": " at"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 16100,
+   "endMs": 16320,
+   "tokens": [
+    {
+     "text": " time"
+    }
+   ]
+  },
+  {
+   "startMs": 16340,
+   "endMs": 17060,
+   "tokens": [
+    {
+     "text": " invented"
+    },
+    {
+     "text": " clipping"
+    }
+   ]
+  },
+  {
+   "startMs": 17320,
+   "endMs": 18000,
+   "tokens": [
+    {
+     "text": " We"
+    },
+    {
+     "text": " ruined"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 18000,
+   "endMs": 18220,
+   "tokens": [
+    {
+     "text": " internet"
+    }
+   ]
+  },
+  {
+   "startMs": 18700,
+   "endMs": 19900,
+   "tokens": [
+    {
+     "text": " That's"
+    },
+    {
+     "text": " how"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 19900,
+   "endMs": 20460,
+   "tokens": [
+    {
+     "text": " internet"
+    },
+    {
+     "text": " became"
+    }
+   ]
+  },
+  {
+   "startMs": 20460,
+   "endMs": 21080,
+   "tokens": [
+    {
+     "text": " what"
+    },
+    {
+     "text": " it"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 21080,
+   "endMs": 21140,
+   "tokens": [
+    {
+     "text": " today"
     }
    ]
   }
@@ -350,17 +387,20 @@
   "captionPosition": "center",
   "uppercase": true,
   "powerWords": [
-   "blowing",
-   "girls",
-   "schools",
-   "control",
-   "school",
    "affiliate",
-   "marketing"
+   "campus",
+   "Tate",
+   "page",
+   "invented",
+   "clipping",
+   "ruined",
+   "internet",
+   "revolutionary",
+   "today"
   ]
  },
  "hook": {
-  "text": "“I’M NOT BLOWING UP SCHOOLS”",
+  "text": "WE INVENTED CLIPPING",
   "untilSec": 2.5
  }
 }

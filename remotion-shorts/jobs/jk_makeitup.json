@@ -20,7 +20,7 @@
   },
   {
    "inSec": 21.99,
-   "outSec": 29.37,
+   "outSec": 29.36,
    "offsetSec": 5.34,
    "framing": "cover",
    "mute": false,
@@ -28,8 +28,8 @@
   },
   {
    "inSec": 34.29,
-   "outSec": 37.99,
-   "offsetSec": 12.72,
+   "outSec": 39.82,
+   "offsetSec": 12.71,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE"
@@ -292,8 +292,8 @@
    ]
   },
   {
-   "startMs": 12740,
-   "endMs": 13040,
+   "startMs": 12730,
+   "endMs": 13030,
    "tokens": [
     {
      "text": " her"
@@ -304,8 +304,8 @@
    ]
   },
   {
-   "startMs": 13040,
-   "endMs": 13440,
+   "startMs": 13030,
+   "endMs": 13430,
    "tokens": [
     {
      "text": " free"
@@ -316,8 +316,8 @@
    ]
   },
   {
-   "startMs": 13540,
-   "endMs": 13960,
+   "startMs": 13530,
+   "endMs": 13950,
    "tokens": [
     {
      "text": " getting"
@@ -328,8 +328,8 @@
    ]
   },
   {
-   "startMs": 14100,
-   "endMs": 14620,
+   "startMs": 14090,
+   "endMs": 14610,
    "tokens": [
     {
      "text": " getting"
@@ -340,8 +340,8 @@
    ]
   },
   {
-   "startMs": 14720,
-   "endMs": 15160,
+   "startMs": 14710,
+   "endMs": 15150,
    "tokens": [
     {
      "text": " ordering"
@@ -352,8 +352,8 @@
    ]
   },
   {
-   "startMs": 15280,
-   "endMs": 15780,
+   "startMs": 15270,
+   "endMs": 15770,
    "tokens": [
     {
      "text": " ordering"
@@ -364,11 +364,53 @@
    ]
   },
   {
-   "startMs": 15780,
-   "endMs": 16260,
+   "startMs": 15770,
+   "endMs": 16810,
    "tokens": [
     {
      "text": " packages"
+    },
+    {
+     "text": " everything"
+    },
+    {
+     "text": " on"
+    }
+   ]
+  },
+  {
+   "startMs": 16810,
+   "endMs": 17350,
+   "tokens": [
+    {
+     "text": " Tristan's"
+    },
+    {
+     "text": " credit"
+    }
+   ]
+  },
+  {
+   "startMs": 17350,
+   "endMs": 17950,
+   "tokens": [
+    {
+     "text": " card"
+    },
+    {
+     "text": " by"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 17950,
+   "endMs": 18170,
+   "tokens": [
+    {
+     "text": " way"
     }
    ]
   }
@@ -398,7 +440,11 @@
    "ubers",
    "taxis",
    "amazon",
-   "america"
+   "america",
+   "credit",
+   "card",
+   "free",
+   "will"
   ]
  },
  "hook": {

@@ -4,56 +4,24 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 3.12,
+   "outSec": 11.63,
    "offsetSec": 0.0,
-   "framing": "cover",
-   "mute": false,
-   "beat": "LEADIN"
-  },
-  {
-   "inSec": 3.93,
-   "outSec": 6.43,
-   "offsetSec": 2.87,
-   "framing": "cover",
-   "mute": false,
-   "beat": "SETUP"
-  },
-  {
-   "inSec": 7.67,
-   "outSec": 9.92,
-   "offsetSec": 5.37,
    "framing": "cover",
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 10.16,
-   "outSec": 16.1,
-   "offsetSec": 7.62,
+   "inSec": 12.59,
+   "outSec": 14.81,
+   "offsetSec": 11.38,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 17.81,
-   "outSec": 18.96,
-   "offsetSec": 13.56,
-   "framing": "cover",
-   "mute": false,
-   "beat": "POINT"
-  },
-  {
-   "inSec": 19.73,
-   "outSec": 20.55,
-   "offsetSec": 14.71,
-   "framing": "cover",
-   "mute": false,
-   "beat": "REINFORCE"
-  },
-  {
-   "inSec": 25.25,
-   "outSec": 26.67,
-   "offsetSec": 15.53,
+   "inSec": 15.19,
+   "outSec": 24.82,
+   "offsetSec": 13.6,
    "framing": "cover",
    "mute": false,
    "beat": "BUTTON"
@@ -62,13 +30,37 @@
  "captionPages": [
   {
    "startMs": 60,
-   "endMs": 920,
+   "endMs": 680,
    "tokens": [
     {
-     "text": " I"
+     "text": " We"
     },
     {
-     "text": " explained"
+     "text": " sit"
+    }
+   ]
+  },
+  {
+   "startMs": 680,
+   "endMs": 1740,
+   "tokens": [
+    {
+     "text": " down"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 1740,
+   "endMs": 3740,
+   "tokens": [
+    {
+     "text": " prosecutor"
+    },
+    {
+     "text": " says"
     },
     {
      "text": " why"
@@ -76,107 +68,41 @@
    ]
   },
   {
-   "startMs": 920,
-   "endMs": 1200,
+   "startMs": 3740,
+   "endMs": 4160,
    "tokens": [
     {
-     "text": " they"
+     "text": " did"
     },
     {
-     "text": " had"
-    },
-    {
-     "text": " to"
+     "text": " this"
     }
    ]
   },
   {
-   "startMs": 1200,
-   "endMs": 1440,
-   "tokens": [
-    {
-     "text": " do"
-    },
-    {
-     "text": " that"
-    }
-   ]
-  },
-  {
-   "startMs": 1500,
-   "endMs": 1820,
-   "tokens": [
-    {
-     "text": " They"
-    },
-    {
-     "text": " said"
-    },
-    {
-     "text": " it's"
-    }
-   ]
-  },
-  {
-   "startMs": 1820,
-   "endMs": 2640,
-   "tokens": [
-    {
-     "text": " protocol"
-    },
-    {
-     "text": " and"
-    }
-   ]
-  },
-  {
-   "startMs": 2970,
-   "endMs": 5030,
-   "tokens": [
-    {
-     "text": " case"
-    },
-    {
-     "text": " it's"
-    },
-    {
-     "text": " a"
-    }
-   ]
-  },
-  {
-   "startMs": 5030,
-   "endMs": 5810,
-   "tokens": [
-    {
-     "text": " crime"
-    },
-    {
-     "text": " there's"
-    },
-    {
-     "text": " not"
-    }
-   ]
-  },
-  {
-   "startMs": 5810,
-   "endMs": 6570,
-   "tokens": [
-    {
-     "text": " even"
-    },
-    {
-     "text": " a"
-    }
-   ]
-  },
-  {
-   "startMs": 6570,
-   "endMs": 6770,
+   "startMs": 4160,
+   "endMs": 5120,
    "tokens": [
     {
      "text": " girl"
+    },
+    {
+     "text": " say"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 5120,
+   "endMs": 6040,
+   "tokens": [
+    {
+     "text": " girls"
+    },
+    {
+     "text": " kidnapped"
     },
     {
      "text": " in"
@@ -184,11 +110,11 @@
    ]
   },
   {
-   "startMs": 6770,
-   "endMs": 7550,
+   "startMs": 6040,
+   "endMs": 6380,
    "tokens": [
     {
-     "text": " this"
+     "text": " your"
     },
     {
      "text": " house"
@@ -196,68 +122,134 @@
    ]
   },
   {
-   "startMs": 7870,
-   "endMs": 8110,
+   "startMs": 6800,
+   "endMs": 7300,
    "tokens": [
     {
-     "text": " They're"
+     "text": " And"
     },
     {
-     "text": " like"
+     "text": " I"
     }
    ]
   },
   {
-   "startMs": 8170,
-   "endMs": 8730,
+   "startMs": 7300,
+   "endMs": 8680,
    "tokens": [
     {
-     "text": " yeah"
+     "text": " said"
     },
     {
-     "text": " you"
-    }
-   ]
-  },
-  {
-   "startMs": 8730,
-   "endMs": 9170,
-   "tokens": [
-    {
-     "text": " know"
+     "text": " brother"
     },
     {
-     "text": " we're"
+     "text": " I"
     }
    ]
   },
   {
-   "startMs": 9170,
-   "endMs": 10250,
+   "startMs": 8680,
+   "endMs": 9040,
    "tokens": [
     {
-     "text": " just"
+     "text": " haven't"
     },
     {
-     "text": " going"
+     "text": " got"
+    },
+    {
+     "text": " a"
     }
    ]
   },
   {
-   "startMs": 10250,
-   "endMs": 10710,
+   "startMs": 9040,
+   "endMs": 9640,
    "tokens": [
     {
-     "text": " on"
+     "text": " fucking"
+    },
+    {
+     "text": " clue"
     }
    ]
   },
   {
-   "startMs": 10770,
-   "endMs": 11270,
+   "startMs": 9880,
+   "endMs": 10380,
    "tokens": [
     {
-     "text": " We"
+     "text": " I"
+    },
+    {
+     "text": " only"
+    }
+   ]
+  },
+  {
+   "startMs": 10380,
+   "endMs": 10940,
+   "tokens": [
+    {
+     "text": " said"
+    },
+    {
+     "text": " hello"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 10940,
+   "endMs": 11380,
+   "tokens": [
+    {
+     "text": " her"
+    },
+    {
+     "text": " twice"
+    }
+   ]
+  },
+  {
+   "startMs": 11380,
+   "endMs": 11620,
+   "tokens": [
+    {
+     "text": " Tristan"
+    }
+   ]
+  },
+  {
+   "startMs": 11640,
+   "endMs": 12220,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " Tristan's"
+    }
+   ]
+  },
+  {
+   "startMs": 12220,
+   "endMs": 12520,
+   "tokens": [
+    {
+     "text": " girlfriend"
+    }
+   ]
+  },
+  {
+   "startMs": 12980,
+   "endMs": 13500,
+   "tokens": [
+    {
+     "text": " I"
     },
     {
      "text": " don't"
@@ -265,68 +257,59 @@
    ]
   },
   {
-   "startMs": 11270,
-   "endMs": 11610,
+   "startMs": 13500,
+   "endMs": 13620,
    "tokens": [
     {
      "text": " know"
+    }
+   ]
+  },
+  {
+   "startMs": 13660,
+   "endMs": 14340,
+   "tokens": [
+    {
+     "text": " And"
     },
     {
-     "text": " what's"
-    }
-   ]
-  },
-  {
-   "startMs": 11610,
-   "endMs": 12110,
-   "tokens": [
-    {
-     "text": " going"
+     "text": " then"
     },
     {
-     "text": " on"
+     "text": " the"
     }
    ]
   },
   {
-   "startMs": 12290,
-   "endMs": 12710,
+   "startMs": 14340,
+   "endMs": 14940,
    "tokens": [
     {
-     "text": " You"
+     "text": " prosecutor"
     },
     {
-     "text": " know"
+     "text": " goes"
     }
    ]
   },
   {
-   "startMs": 12710,
-   "endMs": 13150,
+   "startMs": 15420,
+   "endMs": 15780,
    "tokens": [
     {
-     "text": " what's"
+     "text": " well"
     },
     {
-     "text": " going"
+     "text": " Tristan"
     }
    ]
   },
   {
-   "startMs": 13150,
-   "endMs": 13450,
+   "startMs": 15780,
+   "endMs": 16000,
    "tokens": [
     {
-     "text": " on"
-    }
-   ]
-  },
-  {
-   "startMs": 13620,
-   "endMs": 14000,
-   "tokens": [
-    {
-     "text": " You"
+     "text": " should"
     },
     {
      "text": " have"
@@ -334,62 +317,134 @@
    ]
   },
   {
-   "startMs": 14000,
-   "endMs": 14420,
+   "startMs": 16000,
+   "endMs": 16480,
    "tokens": [
     {
-     "text": " to"
+     "text": " bought"
+    },
+    {
+     "text": " her"
+    },
+    {
+     "text": " a"
     }
    ]
   },
   {
-   "startMs": 14770,
-   "endMs": 15530,
+   "startMs": 16480,
+   "endMs": 16900,
    "tokens": [
     {
-     "text": " The"
-    },
-    {
-     "text": " detectives"
+     "text": " handbag"
     }
    ]
   },
   {
-   "startMs": 15530,
-   "endMs": 15910,
+   "startMs": 17820,
+   "endMs": 18140,
    "tokens": [
     {
-     "text": " they'd"
+     "text": " And"
     },
     {
-     "text": " be"
-    },
-    {
-     "text": " my"
+     "text": " laughed"
     }
    ]
   },
   {
-   "startMs": 15910,
-   "endMs": 16350,
+   "startMs": 18580,
+   "endMs": 19240,
    "tokens": [
     {
-     "text": " best"
+     "text": " And"
     },
     {
-     "text": " friends"
+     "text": " then"
+    },
+    {
+     "text": " I"
     }
    ]
   },
   {
-   "startMs": 16350,
-   "endMs": 16890,
+   "startMs": 19240,
+   "endMs": 19680,
    "tokens": [
     {
-     "text": " later"
+     "text": " laughed"
+    }
+   ]
+  },
+  {
+   "startMs": 20100,
+   "endMs": 20480,
+   "tokens": [
+    {
+     "text": " And"
     },
     {
-     "text": " on"
+     "text": " we"
+    },
+    {
+     "text": " all"
+    }
+   ]
+  },
+  {
+   "startMs": 20480,
+   "endMs": 20880,
+   "tokens": [
+    {
+     "text": " laughed"
+    }
+   ]
+  },
+  {
+   "startMs": 21140,
+   "endMs": 21340,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " I"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 21340,
+   "endMs": 22120,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " American"
+    }
+   ]
+  },
+  {
+   "startMs": 22120,
+   "endMs": 22640,
+   "tokens": [
+    {
+     "text": " girls"
+    },
+    {
+     "text": " are"
+    }
+   ]
+  },
+  {
+   "startMs": 22640,
+   "endMs": 22940,
+   "tokens": [
+    {
+     "text": " crazy"
     }
    ]
   }
@@ -398,7 +453,7 @@
   "src": "distant_echoes.mp3",
   "volLow": 0.13,
   "volHigh": 0.27,
-  "climaxSec": 6,
+  "climaxSec": 14,
   "startSec": 0
  },
  "style": {
@@ -410,17 +465,21 @@
   "captionPosition": "center",
   "uppercase": true,
   "powerWords": [
-   "crime",
+   "prosecutor",
    "girl",
+   "girls",
+   "kidnapped",
    "house",
-   "protocol",
-   "detectives",
-   "friends",
-   "explained"
+   "clue",
+   "hello",
+   "twice",
+   "handbag",
+   "crazy",
+   "American"
   ]
  },
  "hook": {
-  "text": "“NOT EVEN A GIRL IN THIS HOUSE”",
+  "text": "GIRLS KIDNAPPED IN YOUR HOUSE?",
   "untilSec": 2.5
  }
 }

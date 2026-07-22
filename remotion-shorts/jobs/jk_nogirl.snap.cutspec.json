@@ -3,71 +3,51 @@
  "fps": 30,
  "segments": [
   {
-   "inSec": 829.7,
-   "outSec": 832.57,
-   "beat": "LEADIN",
-   "framing": "cover"
-  },
-  {
-   "inSec": 833.38,
-   "outSec": 835.88,
-   "beat": "SETUP",
-   "framing": "cover"
-  },
-  {
-   "inSec": 837.12,
-   "outSec": 839.37,
+   "inSec": 887.66,
+   "outSec": 899.04,
    "beat": "HOOK",
    "framing": "cover"
   },
   {
-   "inSec": 839.61,
-   "outSec": 845.55,
+   "inSec": 900.0,
+   "outSec": 902.22,
    "beat": "POINT",
    "framing": "cover"
   },
   {
-   "inSec": 847.26,
-   "outSec": 848.41,
-   "beat": "POINT",
-   "framing": "cover"
-  },
-  {
-   "inSec": 849.18,
-   "outSec": 850.0,
-   "beat": "REINFORCE",
-   "framing": "cover"
-  },
-  {
-   "inSec": 854.7,
-   "outSec": 856.12,
+   "inSec": 902.6,
+   "outSec": 912.23,
    "beat": "BUTTON",
    "framing": "cover"
   }
  ],
  "captionReplace": {
-  "youuitar": "You"
+  "trizzaffees": "Tristan's"
  },
  "style": {
   "powerWords": [
-   "crime",
+   "prosecutor",
    "girl",
+   "girls",
+   "kidnapped",
    "house",
-   "protocol",
-   "detectives",
-   "friends",
-   "explained"
+   "clue",
+   "hello",
+   "twice",
+   "handbag",
+   "crazy",
+   "American"
   ]
  },
  "hook": {
-  "text": "“NOT EVEN A GIRL IN THIS HOUSE”",
+  "text": "GIRLS KIDNAPPED IN YOUR HOUSE?",
   "untilSec": 2.5
  },
  "music": {
   "src": "distant_echoes.mp3",
   "volLow": 0.13,
   "volHigh": 0.27,
-  "climaxSec": 6,
+  "climaxSec": 14,
   "startSec": 0
  }
 }

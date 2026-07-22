@@ -4,48 +4,40 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 3.13,
+   "outSec": 4.26,
    "offsetSec": 0.0,
-   "framing": "cover",
-   "mute": false,
-   "beat": "SETUP"
-  },
-  {
-   "inSec": 4.71,
-   "outSec": 8.72,
-   "offsetSec": 2.88,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 9.87,
-   "outSec": 13.49,
-   "offsetSec": 6.89,
+   "inSec": 5.41,
+   "outSec": 9.03,
+   "offsetSec": 4.01,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 14.73,
-   "outSec": 17.29,
-   "offsetSec": 10.51,
+   "inSec": 10.27,
+   "outSec": 12.83,
+   "offsetSec": 7.63,
    "framing": "cover",
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 24.48,
-   "outSec": 26.13,
-   "offsetSec": 13.07,
+   "inSec": 20.02,
+   "outSec": 21.67,
+   "offsetSec": 10.19,
    "framing": "cover",
    "mute": false,
    "beat": "BUTTON"
   },
   {
-   "inSec": 28.21,
-   "outSec": 29.62,
-   "offsetSec": 14.72,
+   "inSec": 23.75,
+   "outSec": 25.17,
+   "offsetSec": 11.84,
    "framing": "cover",
    "mute": false,
    "beat": "BUTTON"
@@ -54,95 +46,11 @@
  "captionPages": [
   {
    "startMs": 0,
-   "endMs": 580,
+   "endMs": 1260,
    "tokens": [
-    {
-     "text": " back"
-    },
-    {
-     "text": " and"
-    }
-   ]
-  },
-  {
-   "startMs": 580,
-   "endMs": 1420,
-   "tokens": [
-    {
-     "text": " forth"
-    },
-    {
-     "text": " promising"
-    }
-   ]
-  },
-  {
-   "startMs": 1420,
-   "endMs": 1960,
-   "tokens": [
-    {
-     "text": " them"
-    },
-    {
-     "text": " that"
-    },
-    {
-     "text": " I'm"
-    }
-   ]
-  },
-  {
-   "startMs": 1960,
-   "endMs": 2100,
-   "tokens": [
-    {
-     "text": " going"
-    },
-    {
-     "text": " to"
-    }
-   ]
-  },
-  {
-   "startMs": 2100,
-   "endMs": 2340,
-   "tokens": [
-    {
-     "text": " give"
-    },
-    {
-     "text": " them"
-    }
-   ]
-  },
-  {
-   "startMs": 2340,
-   "endMs": 2620,
-   "tokens": [
-    {
-     "text": " what"
-    },
-    {
-     "text": " they"
-    }
-   ]
-  },
-  {
-   "startMs": 2620,
-   "endMs": 2960,
-   "tokens": [
-    {
-     "text": " wanted"
-    },
     {
      "text": " they're"
-    }
-   ]
-  },
-  {
-   "startMs": 2960,
-   "endMs": 4140,
-   "tokens": [
+    },
     {
      "text": " like"
     },
@@ -152,8 +60,8 @@
    ]
   },
   {
-   "startMs": 4140,
-   "endMs": 4400,
+   "startMs": 1260,
+   "endMs": 1520,
    "tokens": [
     {
      "text": " know"
@@ -164,8 +72,8 @@
    ]
   },
   {
-   "startMs": 4400,
-   "endMs": 4860,
+   "startMs": 1520,
+   "endMs": 1980,
    "tokens": [
     {
      "text": " could put"
@@ -176,8 +84,8 @@
    ]
   },
   {
-   "startMs": 4860,
-   "endMs": 5280,
+   "startMs": 1980,
+   "endMs": 2400,
    "tokens": [
     {
      "text": " back"
@@ -188,8 +96,8 @@
    ]
   },
   {
-   "startMs": 5280,
-   "endMs": 6440,
+   "startMs": 2400,
+   "endMs": 3560,
    "tokens": [
     {
      "text": " jail"
@@ -200,8 +108,8 @@
    ]
   },
   {
-   "startMs": 6440,
-   "endMs": 6780,
+   "startMs": 3560,
+   "endMs": 3900,
    "tokens": [
     {
      "text": " what"
@@ -209,8 +117,8 @@
    ]
   },
   {
-   "startMs": 6950,
-   "endMs": 7430,
+   "startMs": 4070,
+   "endMs": 4550,
    "tokens": [
     {
      "text": " They're"
@@ -221,8 +129,8 @@
    ]
   },
   {
-   "startMs": 7430,
-   "endMs": 8290,
+   "startMs": 4550,
+   "endMs": 5410,
    "tokens": [
     {
      "text": " interfering"
@@ -233,8 +141,8 @@
    ]
   },
   {
-   "startMs": 8290,
-   "endMs": 8570,
+   "startMs": 5410,
+   "endMs": 5690,
    "tokens": [
     {
      "text": " police"
@@ -242,8 +150,8 @@
    ]
   },
   {
-   "startMs": 8810,
-   "endMs": 9250,
+   "startMs": 5930,
+   "endMs": 6370,
    "tokens": [
     {
      "text": " Interfering"
@@ -254,8 +162,8 @@
    ]
   },
   {
-   "startMs": 9130,
-   "endMs": 9330,
+   "startMs": 6250,
+   "endMs": 6450,
    "tokens": [
     {
      "text": " police"
@@ -263,8 +171,8 @@
    ]
   },
   {
-   "startMs": 9350,
-   "endMs": 9650,
+   "startMs": 6470,
+   "endMs": 6770,
    "tokens": [
     {
      "text": " Interfering"
@@ -275,8 +183,8 @@
    ]
   },
   {
-   "startMs": 9650,
-   "endMs": 10470,
+   "startMs": 6770,
+   "endMs": 7590,
    "tokens": [
     {
      "text": " police"
@@ -284,8 +192,8 @@
    ]
   },
   {
-   "startMs": 10510,
-   "endMs": 10810,
+   "startMs": 7630,
+   "endMs": 7930,
    "tokens": [
     {
      "text": " It's"
@@ -299,8 +207,8 @@
    ]
   },
   {
-   "startMs": 10810,
-   "endMs": 12070,
+   "startMs": 7930,
+   "endMs": 9190,
    "tokens": [
     {
      "text": " friend"
@@ -314,8 +222,8 @@
    ]
   },
   {
-   "startMs": 12070,
-   "endMs": 12390,
+   "startMs": 9190,
+   "endMs": 9510,
    "tokens": [
     {
      "text": " you"
@@ -329,8 +237,8 @@
    ]
   },
   {
-   "startMs": 12390,
-   "endMs": 12750,
+   "startMs": 9510,
+   "endMs": 9870,
    "tokens": [
     {
      "text": " in"
@@ -344,8 +252,8 @@
    ]
   },
   {
-   "startMs": 12750,
-   "endMs": 12930,
+   "startMs": 9870,
+   "endMs": 10050,
    "tokens": [
     {
      "text": " not"
@@ -353,8 +261,8 @@
    ]
   },
   {
-   "startMs": 13280,
-   "endMs": 14160,
+   "startMs": 10400,
+   "endMs": 11280,
    "tokens": [
     {
      "text": " They"
@@ -365,8 +273,8 @@
    ]
   },
   {
-   "startMs": 14160,
-   "endMs": 14680,
+   "startMs": 11280,
+   "endMs": 11800,
    "tokens": [
     {
      "text": " this"
@@ -377,8 +285,8 @@
    ]
   },
   {
-   "startMs": 14780,
-   "endMs": 15400,
+   "startMs": 11900,
+   "endMs": 12520,
    "tokens": [
     {
      "text": " Did"
@@ -389,8 +297,8 @@
    ]
   },
   {
-   "startMs": 15400,
-   "endMs": 15920,
+   "startMs": 12520,
+   "endMs": 13040,
    "tokens": [
     {
      "text": " realize"

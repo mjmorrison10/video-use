@@ -16,13 +16,13 @@
   },
   {
    "inSec": 937.0,
-   "outSec": 944.38,
+   "outSec": 944.37,
    "beat": "EVIDENCE",
    "framing": "cover"
   },
   {
    "inSec": 949.3,
-   "outSec": 953.0,
+   "outSec": 954.83,
    "beat": "REINFORCE",
    "framing": "cover"
   }
@@ -38,7 +38,11 @@
    "ubers",
    "taxis",
    "amazon",
-   "america"
+   "america",
+   "credit",
+   "card",
+   "free",
+   "will"
   ]
  },
  "hook": {

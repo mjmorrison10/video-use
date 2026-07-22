@@ -4,7 +4,7 @@
  "segments": [
   {
    "inSec": 4924.41,
-   "outSec": 4925.39,
+   "outSec": 4925.26,
    "beat": "HOOK",
    "framing": "cover"
   },
@@ -16,25 +16,37 @@
   },
   {
    "inSec": 4931.22,
-   "outSec": 4935.54,
+   "outSec": 4935.53,
    "beat": "POINT",
    "framing": "cover"
   },
   {
-   "inSec": 4939.86,
+   "inSec": 4939.8,
    "outSec": 4945.41,
    "beat": "POINT",
    "framing": "cover"
   },
   {
    "inSec": 4945.86,
-   "outSec": 4947.89,
+   "outSec": 4947.87,
    "beat": "REINFORCE",
    "framing": "cover"
   },
   {
    "inSec": 4949.18,
-   "outSec": 4953.57,
+   "outSec": 4953.56,
+   "beat": "BUTTON",
+   "framing": "cover"
+  },
+  {
+   "inSec": 4980.01,
+   "outSec": 4985.29,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 4989.86,
+   "outSec": 4992.33,
    "beat": "BUTTON",
    "framing": "cover"
   }
@@ -47,7 +59,10 @@
    "corruption",
    "state",
    "calling",
-   "called"
+   "called",
+   "convicted",
+   "innocent",
+   "guilty"
   ]
  },
  "hook": {
