@@ -6,19 +6,61 @@
       "inSec": 339.51,
       "outSec": 351.14,
       "beat": "HOOK",
-      "framing": "blur-contain"
+      "framing": "split",
+      "pip": {
+        "x": 0.0,
+        "y": 0.7,
+        "w": 0.3,
+        "h": 0.3
+      },
+      "info": {
+        "x": 0.17,
+        "y": 0.01,
+        "w": 0.8,
+        "h": 0.78
+      },
+      "splitBg": "#f3eee2",
+      "splitTop": 0.34
     },
     {
       "inSec": 368.04,
       "outSec": 379.185,
       "beat": "POINT",
-      "framing": "blur-contain"
+      "framing": "split",
+      "pip": {
+        "x": 0.0,
+        "y": 0.7,
+        "w": 0.3,
+        "h": 0.3
+      },
+      "info": {
+        "x": 0.27,
+        "y": 0.04,
+        "w": 0.69,
+        "h": 0.7
+      },
+      "splitBg": "#f3eee2",
+      "splitTop": 0.34
     },
     {
       "inSec": 379.475,
       "outSec": 387.86,
       "beat": "REINFORCE",
-      "framing": "blur-contain"
+      "framing": "split",
+      "pip": {
+        "x": 0.0,
+        "y": 0.7,
+        "w": 0.3,
+        "h": 0.3
+      },
+      "info": {
+        "x": 0.39,
+        "y": 0.03,
+        "w": 0.58,
+        "h": 0.65
+      },
+      "splitBg": "#f3eee2",
+      "splitTop": 0.34
     }
   ],
   "style": {

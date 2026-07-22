@@ -138,7 +138,8 @@ const Segment: React.FC<{
   splitBg?: string;
   grade?: string;
   crop?: Rect;
-}> = ({ videoSrc, inSec, outSec, framing, mute, fps, focus, zoom, pip, info, splitBg, grade, crop }) => {
+  splitTop?: number;
+}> = ({ videoSrc, inSec, outSec, framing, mute, fps, focus, zoom, pip, info, splitBg, grade, crop, splitTop }) => {
   const trimBefore = Math.round(inSec * fps);
   const trimAfter = Math.round(outSec * fps);
   const src = staticFile(videoSrc);
@@ -146,6 +147,7 @@ const Segment: React.FC<{
 
   // Split: person (PIP) COVER in the top band, info/graphic CONTAIN in the bottom.
   if (framing === "split" && pip && info) {
+    const topH = splitTop ? Math.round(splitTop * OUT_H) : SPLIT_TOP_H;
     return (
       <AbsoluteFill style={{ backgroundColor: splitBg ?? "black" }}>
         <SourceCrop
@@ -155,7 +157,7 @@ const Segment: React.FC<{
           muted={mute}
           boxTop={0}
           boxW={OUT_W}
-          boxH={SPLIT_TOP_H}
+          boxH={topH}
           rect={pip}
           fit="cover"
           grade={grade}
@@ -165,9 +167,9 @@ const Segment: React.FC<{
           trimBefore={trimBefore}
           trimAfter={trimAfter}
           muted
-          boxTop={SPLIT_TOP_H}
+          boxTop={topH}
           boxW={OUT_W}
-          boxH={OUT_H - SPLIT_TOP_H}
+          boxH={OUT_H - topH}
           rect={info}
           fit="contain"
           bg={splitBg ?? "#ffffff"}
@@ -295,6 +297,7 @@ export const Short: React.FC<ShortProps> = ({
               splitBg={r.splitBg}
               grade={style.grade}
               crop={r.crop}
+              splitTop={r.splitTop}
             />
           </Sequence>
         );

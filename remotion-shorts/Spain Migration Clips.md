@@ -1,7 +1,7 @@
 # How Is Spain's Mass Migration Experiment Going — Shorts
 
 Source: Money & Macro (data-driven, even-handed economics channel) — talking head at the desk + lots of composed charts (prison stats, crime/homicide, unemployment, GDP-per-capita, pension/demographics). The video weighs both sides and lands on a nuanced verdict.
-House style: 9:16 1080×1920 30fps · Big Shoulders Bold ALL-CAPS (punctuation stripped, number commas kept) · yellow power words · burned-in hook · HDR-style colour grade · voice-forward ~−13 LUFS · one distinct instrumental per clip. Every cut snapped to silence; captions break on sentence starts. The full-frame charts are shown via **blur-contain** so nothing is cropped off.
+House style: 9:16 1080×1920 30fps · Big Shoulders Bold ALL-CAPS (punctuation stripped, number commas kept) · yellow power words · burned-in hook · HDR-style colour grade · voice-forward ~−13 LUFS · one distinct instrumental per clip. Every cut snapped to silence; captions break on sentence starts. The full-frame charts are shown in a **split layout** (presenter on top, chart enlarged on the bottom) so nothing is cropped off.
 
 **Selection:** the client supplied 10 moments (7 proven + 3 AI). Per instruction the agent **prioritized the proven set** — all four picks are proven — and **rejected the sponsor read (#10, The Economist)**. The four hit distinct, non-overlapping angles (crime, jobs, pensions, GDP), and each is a data-anchored myth-bust that concedes the intuitive claim before flipping it — preserving Money & Macro's even-handed voice rather than turning any clip one-sided.
 
@@ -17,7 +17,7 @@ House style: 9:16 1080×1920 30fps · Big Shoulders Bold ALL-CAPS (punctuation s
 - **Hook:** `WHO'S STEALING THE JOBS?`
 - **Point:** With Spanish unemployment near its lowest ever, it's hard to argue immigrants are only taking jobs rather than also creating them.
 - Structure: Hook (are immigrants making working-age Spaniards better off, or just taking local jobs?) → Point (unemployment is lower than almost ever) → Reinforce (so it's difficult to argue immigrants are purely taking jobs and not creating new ones).
-- The unemployment chart is shown via **blur-contain**.
+- The unemployment chart is shown in a **split layout** (presenter on top, chart enlarged on the bottom).
 
 ## Clip 3 — "Immigration's Pension Trap"  · 18.7s · `interstellar.mp3`  *(proven #7 + #6)*
 - **Hook:** `IMMIGRATION'S PENSION TRAP`
@@ -28,4 +28,4 @@ House style: 9:16 1080×1920 30fps · Big Shoulders Bold ALL-CAPS (punctuation s
 - **Hook:** `SPAIN LOST ITS CROWN?`
 - **Point:** Spain's headline GDP growth is impressive, but per person it's no longer number one — though even that per-person figure isn't bad.
 - Structure: Hook (what really matters is GDP per person) → Point (look at GDP per person and Spain's growth is still impressive, but no longer number one) → Reinforce (even per-person growth is not so bad).
-- The GDP / GDP-per-capita bar chart is shown via **blur-contain**.
+- The GDP / GDP-per-capita bar chart is shown in a **split layout** (presenter on top, chart enlarged on the bottom).

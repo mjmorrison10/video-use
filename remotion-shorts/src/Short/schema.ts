@@ -34,6 +34,9 @@ export const rangeSchema = z.object({
   pip: rectSchema.optional(),
   info: rectSchema.optional(),
   splitBg: z.string().optional(), // bottom-band background (match the graphic)
+  // framing="split": height fraction (0..1) of the TOP person band. Default ~0.54.
+  // Lower it (e.g. 0.34) to shrink the person and give the info/chart more room.
+  splitTop: z.number().optional(),
   // framing="cover": optional source sub-rect to COVER-crop into the frame (instead
   // of the full frame). Use to drop the source's own burned-in caption band, e.g.
   // {x:0,y:0,w:1,h:0.78} keeps the top 78% and crops the bottom caption strip.

@@ -6,7 +6,7 @@
    "inSec": 504.52,
    "outSec": 522.0,
    "offsetSec": 0.0,
-   "framing": "blur-contain",
+   "framing": "split",
    "mute": false,
    "beat": "HOOK",
    "focus": [
@@ -886,7 +886,21 @@
      "py": 0.5
     }
    ],
-   "zoom": 1.0
+   "zoom": 1.0,
+   "pip": {
+    "x": 0.0,
+    "y": 0.7,
+    "w": 0.3,
+    "h": 0.3
+   },
+   "info": {
+    "x": 0.38,
+    "y": 0.03,
+    "w": 0.59,
+    "h": 0.74
+   },
+   "splitBg": "#f3eee2",
+   "splitTop": 0.34
   }
  ],
  "captionPages": [

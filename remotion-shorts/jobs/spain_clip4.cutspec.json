@@ -6,7 +6,21 @@
       "inSec": 504.52,
       "outSec": 522.0,
       "beat": "HOOK",
-      "framing": "blur-contain"
+      "framing": "split",
+      "pip": {
+        "x": 0.0,
+        "y": 0.7,
+        "w": 0.3,
+        "h": 0.3
+      },
+      "info": {
+        "x": 0.38,
+        "y": 0.03,
+        "w": 0.59,
+        "h": 0.74
+      },
+      "splitBg": "#f3eee2",
+      "splitTop": 0.34
     }
   ],
   "style": {
