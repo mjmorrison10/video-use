@@ -67,6 +67,13 @@ export const zoomSchema = z.object({
   scale: z.number().default(1.18), // peak zoom
 });
 
+// A cumulative "staircase" zoom step — each step snaps to `scale` and HOLDS until
+// the next step (e.g. +10% on every "bang"). Applied on top of the video layer.
+export const zoomStepSchema = z.object({
+  atSec: z.number(),
+  scale: z.number(), // absolute target scale from this step onward
+});
+
 // A call-to-action end card appended after the content (black screen + text).
 export const ctaSchema = z
   .object({
@@ -86,6 +93,7 @@ export const shortSchema = z.object({
   hook: hookSchema.default(null),
   broll: z.array(brollSchema).default([]),
   zooms: z.array(zoomSchema).default([]),
+  zoomSteps: z.array(zoomStepSchema).default([]),
   cta: ctaSchema.default(null),
 });
 

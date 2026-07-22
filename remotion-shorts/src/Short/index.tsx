@@ -21,11 +21,13 @@ const ctaFontFamily = `${PowerFont}, "FontFallback", serif`;
 // Fast punch-in zoom on the speaker at each keyword moment (e.g. every "bang").
 const ZoomLayer: React.FC<{
   zooms: ShortProps["zooms"];
+  zoomSteps: ShortProps["zoomSteps"];
   fps: number;
   children: React.ReactNode;
-}> = ({ zooms, fps, children }) => {
+}> = ({ zooms, zoomSteps, fps, children }) => {
   const frame = useCurrentFrame();
   let scale = 1;
+  // punch-in/out zooms
   for (const z of zooms ?? []) {
     const start = z.atSec * fps;
     const peak = start + Math.max(1, Math.round(fps * 0.07));
@@ -37,6 +39,19 @@ const ZoomLayer: React.FC<{
           : interpolate(frame, [peak, end], [z.scale, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
       scale = Math.max(scale, s);
     }
+  }
+  // cumulative staircase zoom: snap to the active step's scale and hold
+  const steps = (zoomSteps ?? []).slice().sort((a, b) => a.atSec - b.atSec);
+  let active = -1;
+  for (let i = 0; i < steps.length; i++) if (frame >= steps[i].atSec * fps) active = i;
+  if (active >= 0) {
+    const t = steps[active].atSec * fps;
+    const prev = active > 0 ? steps[active - 1].scale : 1;
+    const ease = interpolate(frame, [t, t + Math.round(fps * 0.09)], [prev, steps[active].scale], {
+      extrapolateLeft: "clamp",
+      extrapolateRight: "clamp",
+    });
+    scale = Math.max(scale, ease);
   }
   return (
     <AbsoluteFill style={{ transform: `scale(${scale})`, transformOrigin: "50% 40%" }}>
@@ -159,6 +174,7 @@ export const Short: React.FC<ShortProps> = ({
   hook,
   broll,
   zooms,
+  zoomSteps,
   cta,
 }) => {
   const { fps, durationInFrames } = useVideoConfig();
@@ -178,7 +194,7 @@ export const Short: React.FC<ShortProps> = ({
 
   return (
     <AbsoluteFill style={{ backgroundColor: "black" }}>
-      <ZoomLayer zooms={zooms} fps={fps}>
+      <ZoomLayer zooms={zooms} zoomSteps={zoomSteps} fps={fps}>
         {ranges.map((r, i) => {
           const from = Math.round(r.offsetSec * fps);
           const dur = Math.max(1, Math.round((r.outSec - r.inSec) * fps));

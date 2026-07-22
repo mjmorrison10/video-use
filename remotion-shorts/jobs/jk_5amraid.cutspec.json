@@ -6,38 +6,43 @@
       "inSec": 6400.7,
       "outSec": 6403.76,
       "beat": "HOOK",
-      "framing": "cover",
-      "cropX": 0.12
+      "framing": "blur-contain",
+      "cropX": 0.18
     },
     {
       "inSec": 6403.96,
       "outSec": 6407.12,
       "beat": "POINT",
-      "framing": "cover"
+      "framing": "blur-contain",
+      "cropX": 0.42
     },
     {
       "inSec": 6407.38,
       "outSec": 6408.66,
       "beat": "POINT",
-      "framing": "cover"
+      "framing": "blur-contain",
+      "cropX": 0.42
     },
     {
       "inSec": 6411.74,
       "outSec": 6412.08,
       "beat": "BEAT",
-      "framing": "cover"
+      "framing": "blur-contain",
+      "cropX": 0.42
     },
     {
       "inSec": 6414.61,
       "outSec": 6418.17,
       "beat": "CLIMAX",
-      "framing": "cover"
+      "framing": "blur-contain",
+      "cropX": 0.42
     },
     {
       "inSec": 6422.63,
       "outSec": 6426.17,
       "beat": "REINFORCE",
-      "framing": "cover"
+      "framing": "blur-contain",
+      "cropX": 0.42
     }
   ],
   "captionReplace": {
