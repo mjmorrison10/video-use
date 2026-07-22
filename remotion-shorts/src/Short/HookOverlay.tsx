@@ -9,7 +9,7 @@ import {
 import { PowerFont } from "../load-font";
 import type { ShortProps } from "./schema";
 
-const fontFamily = `${PowerFont}, "FontFallback", sans-serif`;
+const fontFamily = `${PowerFont}, "FontFallback", serif`;
 
 // A big centered hook headline burned over the first `untilSec` seconds,
 // fading out at the end. Reinforces the spoken hook for silent autoplay.
@@ -59,7 +59,7 @@ export const HookOverlay: React.FC<{
           textAlign: "center",
           padding: "0 40px",
           lineHeight: 1.02,
-          textShadow: "0 6px 28px rgba(0,0,0,0.55)",
+          textShadow: `0 0 10px ${style.accentColor}, 0 0 26px ${style.accentColor}, 0 6px 28px rgba(0,0,0,0.55)`,
         }}
       >
         {hook.text}

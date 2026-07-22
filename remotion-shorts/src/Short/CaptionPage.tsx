@@ -11,7 +11,7 @@ import {
 import { PowerFont } from "../load-font";
 import type { CaptionPageT, ShortProps } from "./schema";
 
-const fontFamily = `${PowerFont}, "FontFallback", sans-serif`;
+const fontFamily = `${PowerFont}, "FontFallback", serif`;
 
 const clean = (s: string) =>
   s
@@ -86,6 +86,10 @@ export const CaptionPage: React.FC<{
                 display: "inline",
                 whiteSpace: "pre",
                 color: isPower ? style.accentColor : style.textColor,
+                // neon glow on power words
+                textShadow: isPower
+                  ? `0 0 8px ${style.accentColor}, 0 0 22px ${style.accentColor}, 0 0 40px ${style.accentColor}`
+                  : undefined,
               }}
             >
               {t.text}

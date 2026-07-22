@@ -29,8 +29,8 @@ export const musicSchema = z
   .nullable();
 
 export const styleSchema = z.object({
-  highlightColor: z.string().default("#FFD60A"), // legacy karaoke color (unused in center mode)
-  accentColor: z.string().default("#FFD60A"), // yellow for power words + hook
+  highlightColor: z.string().default("#00E5FF"), // legacy karaoke color (unused in center mode)
+  accentColor: z.string().default("#00E5FF"), // yellow for power words + hook
   textColor: z.string().default("white"),
   strokeColor: z.string().default("black"),
   fontSize: z.number().default(58),

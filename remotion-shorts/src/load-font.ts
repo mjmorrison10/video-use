@@ -1,7 +1,7 @@
 import { continueRender, delayRender, staticFile } from "remotion";
 
-// Big Shoulders Bold — condensed athletic display for center-screen, all-caps,
-// heavy-stroke short-form captions + the hook headline. theboldfont as fallback.
+// Young Serif — heavy display serif for center-screen, all-caps, heavy-stroke
+// short-form captions + the hook headline. Lora Bold as serif fallback.
 export const PowerFont = `PowerFont`;
 export const FontFallback = `FontFallback`;
 
@@ -17,12 +17,13 @@ export const loadFont = async (): Promise<void> => {
 
   const primary = new FontFace(
     PowerFont,
-    `url('${staticFile("BigShoulders-Bold.ttf")}') format('truetype')`,
-    { weight: "700" },
+    `url('${staticFile("YoungSerif-Regular.ttf")}') format('truetype')`,
+    { weight: "400" },
   );
   const fallback = new FontFace(
     FontFallback,
-    `url('${staticFile("theboldfont.ttf")}') format('truetype')`,
+    `url('${staticFile("Lora-Bold.ttf")}') format('truetype')`,
+    { weight: "700" },
   );
 
   await Promise.all([primary.load(), fallback.load()]);

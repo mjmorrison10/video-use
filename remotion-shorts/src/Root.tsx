@@ -25,8 +25,8 @@ const defaultProps: ShortProps = {
   captionPages: [],
   music: null,
   style: {
-    highlightColor: "#FFD60A",
-    accentColor: "#FFD60A",
+    highlightColor: "#00E5FF",
+    accentColor: "#00E5FF",
     textColor: "white",
     strokeColor: "black",
     fontSize: 58,

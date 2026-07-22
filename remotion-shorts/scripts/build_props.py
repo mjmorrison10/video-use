@@ -29,8 +29,8 @@ SENT_END = (".", "?", "!")
 # House style shared by every clip. A cut-spec's "style" block overrides these
 # per-clip (e.g. powerWords, hook color). Keeps all clips visually consistent.
 DEFAULT_STYLE = {
-    "highlightColor": "#FFD60A",
-    "accentColor": "#FFD60A",   # yellow power words + hook
+    "highlightColor": "#00E5FF",
+    "accentColor": "#00E5FF",   # yellow power words + hook
     "textColor": "white",
     "strokeColor": "black",
     "fontSize": 58,             # Big Shoulders is condensed; 58 restores punch
