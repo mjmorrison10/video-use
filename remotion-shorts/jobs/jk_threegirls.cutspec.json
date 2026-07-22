@@ -2,15 +2,74 @@
   "videoSrc": "jk_proxy.mp4",
   "fps": 30,
   "segments": [
-    {"inSec": 7010.94, "outSec": 7016.84, "beat": "HOOK", "framing": "cover"},
-    {"inSec": 7017.60, "outSec": 7019.78, "beat": "POINT", "framing": "cover"},
-    {"inSec": 7020.68, "outSec": 7022.60, "beat": "POINT", "framing": "cover"},
-    {"inSec": 7024.18, "outSec": 7025.34, "beat": "REINFORCE", "framing": "cover"},
-    {"inSec": 7025.52, "outSec": 7027.86, "beat": "REINFORCE", "framing": "cover"},
-    {"inSec": 7036.08, "outSec": 7037.50, "beat": "REINFORCE", "framing": "cover"},
-    {"inSec": 7047.48, "outSec": 7050.46, "beat": "BUTTON", "framing": "cover"}
+    {
+      "inSec": 7010.94,
+      "outSec": 7016.84,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 7017.6,
+      "outSec": 7019.78,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 7020.68,
+      "outSec": 7022.6,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 7024.18,
+      "outSec": 7025.34,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 7025.52,
+      "outSec": 7030.3,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 7035.4,
+      "outSec": 7037.5,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    },
+    {
+      "inSec": 7047.48,
+      "outSec": 7050.46,
+      "beat": "BUTTON",
+      "framing": "cover"
+    }
   ],
-  "style": {"powerWords": ["stabbed","three","girls","England","emergency","complicit","British","government","locking","tweets","toast","chance"]},
-  "hook": {"text": "“THE BRITISH GOVERNMENT IS COMPLICIT”", "untilSec": 2.5},
-  "music": {"src": "zack_hemsey_the_way.mp3", "volLow": 0.04, "volHigh": 0.09, "climaxSec": 8, "startSec": 0}
+  "style": {
+    "powerWords": [
+      "stabbed",
+      "three",
+      "girls",
+      "England",
+      "emergency",
+      "complicit",
+      "British",
+      "government",
+      "locking",
+      "tweets",
+      "toast",
+      "chance"
+    ]
+  },
+  "hook": {
+    "text": "\u201cTHE BRITISH GOVERNMENT IS COMPLICIT\u201d",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "zack_hemsey_the_way.mp3",
+    "volLow": 0.04,
+    "volHigh": 0.09,
+    "climaxSec": 8,
+    "startSec": 0
+  }
 }

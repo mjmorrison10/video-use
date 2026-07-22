@@ -1,0 +1,75 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 7010.88,
+   "outSec": 7016.99,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7017.5,
+   "outSec": 7019.85,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7020.62,
+   "outSec": 7022.73,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7024.09,
+   "outSec": 7025.21,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7025.54,
+   "outSec": 7030.19,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7035.66,
+   "outSec": 7037.43,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7047.52,
+   "outSec": 7050.52,
+   "beat": "BUTTON",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "stabbed",
+   "three",
+   "girls",
+   "England",
+   "emergency",
+   "complicit",
+   "British",
+   "government",
+   "locking",
+   "tweets",
+   "toast",
+   "chance"
+  ]
+ },
+ "hook": {
+  "text": "“THE BRITISH GOVERNMENT IS COMPLICIT”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "zack_hemsey_the_way.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.09,
+  "climaxSec": 8,
+  "startSec": 0
+ }
+}

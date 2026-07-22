@@ -4,48 +4,40 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 3.31,
+   "outSec": 6.73,
    "offsetSec": 0.0,
    "framing": "cover",
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 3.51,
-   "outSec": 6.67,
-   "offsetSec": 3.06,
-   "framing": "cover",
-   "mute": false,
-   "beat": "POINT"
-  },
-  {
    "inSec": 6.93,
-   "outSec": 8.21,
-   "offsetSec": 6.22,
+   "outSec": 8.23,
+   "offsetSec": 6.48,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 11.29,
-   "outSec": 11.63,
-   "offsetSec": 7.5,
+   "inSec": 11.33,
+   "outSec": 11.81,
+   "offsetSec": 7.78,
    "framing": "cover",
    "mute": false,
    "beat": "BEAT"
   },
   {
-   "inSec": 14.16,
-   "outSec": 17.72,
-   "offsetSec": 7.84,
+   "inSec": 14.09,
+   "outSec": 17.88,
+   "offsetSec": 8.26,
    "framing": "cover",
    "mute": false,
    "beat": "CLIMAX"
   },
   {
-   "inSec": 22.18,
-   "outSec": 25.72,
-   "offsetSec": 11.4,
+   "inSec": 22.19,
+   "outSec": 25.99,
+   "offsetSec": 12.05,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE"
@@ -53,8 +45,8 @@
  ],
  "captionPages": [
   {
-   "startMs": 0,
-   "endMs": 380,
+   "startMs": 40,
+   "endMs": 420,
    "tokens": [
     {
      "text": " us"
@@ -65,8 +57,8 @@
    ]
   },
   {
-   "startMs": 380,
-   "endMs": 1280,
+   "startMs": 420,
+   "endMs": 1320,
    "tokens": [
     {
      "text": " house"
@@ -80,8 +72,8 @@
    ]
   },
   {
-   "startMs": 1280,
-   "endMs": 1980,
+   "startMs": 1320,
+   "endMs": 2020,
    "tokens": [
     {
      "text": " prosecutor"
@@ -92,8 +84,8 @@
    ]
   },
   {
-   "startMs": 2100,
-   "endMs": 2300,
+   "startMs": 2140,
+   "endMs": 2340,
    "tokens": [
     {
      "text": " where's"
@@ -104,8 +96,8 @@
    ]
   },
   {
-   "startMs": 2300,
-   "endMs": 2800,
+   "startMs": 2340,
+   "endMs": 2840,
    "tokens": [
     {
      "text": " fucking"
@@ -116,8 +108,8 @@
    ]
   },
   {
-   "startMs": 2800,
-   "endMs": 3060,
+   "startMs": 2840,
+   "endMs": 3100,
    "tokens": [
     {
      "text": " from"
@@ -125,8 +117,8 @@
    ]
   },
   {
-   "startMs": 3060,
-   "endMs": 4180,
+   "startMs": 3300,
+   "endMs": 4420,
    "tokens": [
     {
      "text": " We're"
@@ -140,8 +132,8 @@
    ]
   },
   {
-   "startMs": 4180,
-   "endMs": 4620,
+   "startMs": 4420,
+   "endMs": 4860,
    "tokens": [
     {
      "text": " buying"
@@ -155,8 +147,8 @@
    ]
   },
   {
-   "startMs": 4620,
-   "endMs": 5260,
+   "startMs": 4860,
+   "endMs": 5500,
    "tokens": [
     {
      "text": " car"
@@ -170,8 +162,8 @@
    ]
   },
   {
-   "startMs": 5260,
-   "endMs": 5560,
+   "startMs": 5500,
+   "endMs": 5800,
    "tokens": [
     {
      "text": " just"
@@ -182,8 +174,8 @@
    ]
   },
   {
-   "startMs": 5560,
-   "endMs": 6220,
+   "startMs": 5800,
+   "endMs": 6460,
    "tokens": [
     {
      "text": " piss"
@@ -197,8 +189,8 @@
    ]
   },
   {
-   "startMs": 6220,
-   "endMs": 6560,
+   "startMs": 6520,
+   "endMs": 6860,
    "tokens": [
     {
      "text": " sitting"
@@ -209,8 +201,8 @@
    ]
   },
   {
-   "startMs": 6560,
-   "endMs": 7060,
+   "startMs": 6860,
+   "endMs": 7360,
    "tokens": [
     {
      "text": " doing"
@@ -221,8 +213,8 @@
    ]
   },
   {
-   "startMs": 7060,
-   "endMs": 7500,
+   "startMs": 7360,
+   "endMs": 7780,
    "tokens": [
     {
      "text": " meetings"
@@ -230,8 +222,8 @@
    ]
   },
   {
-   "startMs": 7500,
-   "endMs": 8100,
+   "startMs": 7780,
+   "endMs": 8630,
    "tokens": [
     {
      "text": " Then"
@@ -242,8 +234,8 @@
    ]
   },
   {
-   "startMs": 8800,
-   "endMs": 9280,
+   "startMs": 9330,
+   "endMs": 9810,
    "tokens": [
     {
      "text": " Bang"
@@ -251,8 +243,8 @@
    ]
   },
   {
-   "startMs": 9280,
-   "endMs": 9760,
+   "startMs": 9810,
+   "endMs": 10290,
    "tokens": [
     {
      "text": " Bang"
@@ -260,8 +252,8 @@
    ]
   },
   {
-   "startMs": 10160,
-   "endMs": 10620,
+   "startMs": 10690,
+   "endMs": 11150,
    "tokens": [
     {
      "text": " Bang"
@@ -269,8 +261,8 @@
    ]
   },
   {
-   "startMs": 10620,
-   "endMs": 10720,
+   "startMs": 11150,
+   "endMs": 11250,
    "tokens": [
     {
      "text": " Bang"
@@ -278,8 +270,8 @@
    ]
   },
   {
-   "startMs": 10800,
-   "endMs": 11300,
+   "startMs": 11330,
+   "endMs": 11830,
    "tokens": [
     {
      "text": " I"
@@ -293,8 +285,8 @@
    ]
   },
   {
-   "startMs": 11180,
-   "endMs": 11620,
+   "startMs": 11710,
+   "endMs": 12300,
    "tokens": [
     {
      "text": " door"
@@ -308,8 +300,8 @@
    ]
   },
   {
-   "startMs": 11620,
-   "endMs": 12160,
+   "startMs": 12300,
+   "endMs": 12840,
    "tokens": [
     {
      "text": " got"
@@ -320,8 +312,8 @@
    ]
   },
   {
-   "startMs": 12400,
-   "endMs": 13780,
+   "startMs": 13080,
+   "endMs": 14460,
    "tokens": [
     {
      "text": " We"
@@ -335,8 +327,8 @@
    ]
   },
   {
-   "startMs": 13780,
-   "endMs": 14540,
+   "startMs": 14460,
+   "endMs": 15220,
    "tokens": [
     {
      "text": " house"
@@ -347,8 +339,8 @@
    ]
   },
   {
-   "startMs": 14540,
-   "endMs": 14940,
+   "startMs": 15220,
+   "endMs": 15620,
    "tokens": [
     {
      "text": " raids"

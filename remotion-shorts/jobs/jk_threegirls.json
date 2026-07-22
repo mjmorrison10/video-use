@@ -4,56 +4,56 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 6.15,
+   "outSec": 6.36,
    "offsetSec": 0.0,
    "framing": "cover",
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 6.91,
-   "outSec": 9.09,
-   "offsetSec": 5.9,
+   "inSec": 6.87,
+   "outSec": 9.22,
+   "offsetSec": 6.11,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
   },
   {
    "inSec": 9.99,
-   "outSec": 11.91,
-   "offsetSec": 8.08,
+   "outSec": 12.1,
+   "offsetSec": 8.46,
    "framing": "cover",
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 13.49,
-   "outSec": 14.65,
-   "offsetSec": 10.0,
+   "inSec": 13.46,
+   "outSec": 14.58,
+   "offsetSec": 10.57,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 14.83,
-   "outSec": 17.17,
-   "offsetSec": 11.16,
+   "inSec": 14.91,
+   "outSec": 19.56,
+   "offsetSec": 11.69,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 25.39,
-   "outSec": 26.81,
-   "offsetSec": 13.5,
+   "inSec": 25.03,
+   "outSec": 26.8,
+   "offsetSec": 16.34,
    "framing": "cover",
    "mute": false,
    "beat": "REINFORCE"
   },
   {
-   "inSec": 36.79,
-   "outSec": 39.77,
-   "offsetSec": 14.92,
+   "inSec": 36.89,
+   "outSec": 39.89,
+   "offsetSec": 18.11,
    "framing": "cover",
    "mute": false,
    "beat": "BUTTON"
@@ -61,8 +61,8 @@
  ],
  "captionPages": [
   {
-   "startMs": 0,
-   "endMs": 180,
+   "startMs": 60,
+   "endMs": 240,
    "tokens": [
     {
      "text": " I"
@@ -73,8 +73,8 @@
    ]
   },
   {
-   "startMs": 180,
-   "endMs": 1560,
+   "startMs": 240,
+   "endMs": 1620,
    "tokens": [
     {
      "text": " like"
@@ -88,8 +88,8 @@
    ]
   },
   {
-   "startMs": 1560,
-   "endMs": 1880,
+   "startMs": 1620,
+   "endMs": 1940,
    "tokens": [
     {
      "text": " this"
@@ -100,8 +100,8 @@
    ]
   },
   {
-   "startMs": 1880,
-   "endMs": 2600,
+   "startMs": 1940,
+   "endMs": 2660,
    "tokens": [
     {
      "text": " happening"
@@ -115,8 +115,8 @@
    ]
   },
   {
-   "startMs": 2600,
-   "endMs": 3000,
+   "startMs": 2660,
+   "endMs": 3060,
    "tokens": [
     {
      "text": " when"
@@ -127,8 +127,8 @@
    ]
   },
   {
-   "startMs": 3000,
-   "endMs": 3420,
+   "startMs": 3060,
+   "endMs": 3480,
    "tokens": [
     {
      "text": " piece"
@@ -139,8 +139,8 @@
    ]
   },
   {
-   "startMs": 3420,
-   "endMs": 4240,
+   "startMs": 3480,
+   "endMs": 4300,
    "tokens": [
     {
      "text": " shit"
@@ -151,8 +151,8 @@
    ]
   },
   {
-   "startMs": 4240,
-   "endMs": 4780,
+   "startMs": 4300,
+   "endMs": 4840,
    "tokens": [
     {
      "text": " stabbed"
@@ -163,8 +163,8 @@
    ]
   },
   {
-   "startMs": 4780,
-   "endMs": 5100,
+   "startMs": 4840,
+   "endMs": 5160,
    "tokens": [
     {
      "text": " three"
@@ -175,8 +175,8 @@
    ]
   },
   {
-   "startMs": 5100,
-   "endMs": 5440,
+   "startMs": 5160,
+   "endMs": 5500,
    "tokens": [
     {
      "text": " girls"
@@ -187,8 +187,8 @@
    ]
   },
   {
-   "startMs": 5440,
-   "endMs": 5740,
+   "startMs": 5500,
+   "endMs": 5800,
    "tokens": [
     {
      "text": " England"
@@ -199,8 +199,8 @@
    ]
   },
   {
-   "startMs": 5740,
-   "endMs": 5900,
+   "startMs": 5800,
+   "endMs": 5960,
    "tokens": [
     {
      "text": " remember"
@@ -208,8 +208,8 @@
    ]
   },
   {
-   "startMs": 5900,
-   "endMs": 6080,
+   "startMs": 6210,
+   "endMs": 6390,
    "tokens": [
     {
      "text": " And"
@@ -223,8 +223,8 @@
    ]
   },
   {
-   "startMs": 6080,
-   "endMs": 6520,
+   "startMs": 6390,
+   "endMs": 6830,
    "tokens": [
     {
      "text": " doing"
@@ -235,8 +235,8 @@
    ]
   },
   {
-   "startMs": 6520,
-   "endMs": 7100,
+   "startMs": 6830,
+   "endMs": 7410,
    "tokens": [
     {
      "text": " meetings"
@@ -250,8 +250,8 @@
    ]
   },
   {
-   "startMs": 7100,
-   "endMs": 7680,
+   "startMs": 7410,
+   "endMs": 7990,
    "tokens": [
     {
      "text": " British"
@@ -265,8 +265,8 @@
    ]
   },
   {
-   "startMs": 7680,
-   "endMs": 8080,
+   "startMs": 7990,
+   "endMs": 8390,
    "tokens": [
     {
      "text": " complicit"
@@ -274,8 +274,8 @@
    ]
   },
   {
-   "startMs": 8080,
-   "endMs": 8480,
+   "startMs": 8520,
+   "endMs": 8920,
    "tokens": [
     {
      "text": " And"
@@ -286,8 +286,8 @@
    ]
   },
   {
-   "startMs": 8480,
-   "endMs": 8740,
+   "startMs": 8920,
+   "endMs": 9180,
    "tokens": [
     {
      "text": " were"
@@ -298,8 +298,8 @@
    ]
   },
   {
-   "startMs": 8740,
-   "endMs": 9220,
+   "startMs": 9180,
+   "endMs": 9660,
    "tokens": [
     {
      "text": " people"
@@ -313,8 +313,8 @@
    ]
   },
   {
-   "startMs": 9220,
-   "endMs": 9580,
+   "startMs": 9660,
+   "endMs": 10020,
    "tokens": [
     {
      "text": " those"
@@ -325,8 +325,8 @@
    ]
   },
   {
-   "startMs": 9580,
-   "endMs": 9880,
+   "startMs": 10020,
+   "endMs": 10320,
    "tokens": [
     {
      "text": " Do"
@@ -337,8 +337,8 @@
    ]
   },
   {
-   "startMs": 9880,
-   "endMs": 10000,
+   "startMs": 10320,
+   "endMs": 10440,
    "tokens": [
     {
      "text": " remember"
@@ -346,8 +346,8 @@
    ]
   },
   {
-   "startMs": 10000,
-   "endMs": 10660,
+   "startMs": 10660,
+   "endMs": 11320,
    "tokens": [
     {
      "text": " They're"
@@ -361,8 +361,8 @@
    ]
   },
   {
-   "startMs": 10540,
-   "endMs": 11160,
+   "startMs": 11200,
+   "endMs": 11690,
    "tokens": [
     {
      "text": " fuck"
@@ -373,21 +373,12 @@
    ]
   },
   {
-   "startMs": 11160,
-   "endMs": 11380,
+   "startMs": 11750,
+   "endMs": 12470,
    "tokens": [
-    {
-     "text": " The"
-    },
     {
      "text": " British"
-    }
-   ]
-  },
-  {
-   "startMs": 11380,
-   "endMs": 11960,
-   "tokens": [
+    },
     {
      "text": " government"
     },
@@ -397,8 +388,8 @@
    ]
   },
   {
-   "startMs": 11840,
-   "endMs": 11960,
+   "startMs": 12350,
+   "endMs": 12470,
    "tokens": [
     {
      "text": " they"
@@ -409,8 +400,8 @@
    ]
   },
   {
-   "startMs": 11960,
-   "endMs": 12260,
+   "startMs": 12470,
+   "endMs": 12770,
    "tokens": [
     {
      "text": " hold"
@@ -424,8 +415,8 @@
    ]
   },
   {
-   "startMs": 12360,
-   "endMs": 12560,
+   "startMs": 12870,
+   "endMs": 13070,
    "tokens": [
     {
      "text": " they're"
@@ -439,8 +430,8 @@
    ]
   },
   {
-   "startMs": 12560,
-   "endMs": 13500,
+   "startMs": 13070,
+   "endMs": 14010,
    "tokens": [
     {
      "text": " fucking"
@@ -454,8 +445,50 @@
    ]
   },
   {
-   "startMs": 13500,
-   "endMs": 13900,
+   "startMs": 14010,
+   "endMs": 14230,
+   "tokens": [
+    {
+     "text": " for"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 14230,
+   "endMs": 15610,
+   "tokens": [
+    {
+     "text": " Twitter"
+    },
+    {
+     "text": " for"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 15610,
+   "endMs": 16760,
+   "tokens": [
+    {
+     "text": " emergency"
+    },
+    {
+     "text": " meetings"
+    },
+    {
+     "text": " So"
+    }
+   ]
+  },
+  {
+   "startMs": 16760,
+   "endMs": 17160,
    "tokens": [
     {
      "text": " I"
@@ -469,8 +502,8 @@
    ]
   },
   {
-   "startMs": 13900,
-   "endMs": 14580,
+   "startMs": 17160,
+   "endMs": 17840,
    "tokens": [
     {
      "text": " British"
@@ -481,8 +514,8 @@
    ]
   },
   {
-   "startMs": 14580,
-   "endMs": 14920,
+   "startMs": 17840,
+   "endMs": 18110,
    "tokens": [
     {
      "text": " after"
@@ -493,21 +526,12 @@
    ]
   },
   {
-   "startMs": 14920,
-   "endMs": 15240,
+   "startMs": 18290,
+   "endMs": 18730,
    "tokens": [
-    {
-     "text": " Win"
-    },
     {
      "text": " or"
-    }
-   ]
-  },
-  {
-   "startMs": 15240,
-   "endMs": 15580,
-   "tokens": [
+    },
     {
      "text": " lose"
     },
@@ -517,8 +541,8 @@
    ]
   },
   {
-   "startMs": 15580,
-   "endMs": 15880,
+   "startMs": 18730,
+   "endMs": 19030,
    "tokens": [
     {
      "text": " Romania"
@@ -526,8 +550,8 @@
    ]
   },
   {
-   "startMs": 16560,
-   "endMs": 17420,
+   "startMs": 19710,
+   "endMs": 20570,
    "tokens": [
     {
      "text": " And"
@@ -541,8 +565,8 @@
    ]
   },
   {
-   "startMs": 17300,
-   "endMs": 17640,
+   "startMs": 20450,
+   "endMs": 20790,
    "tokens": [
     {
      "text": " don't"
@@ -556,8 +580,8 @@
    ]
   },
   {
-   "startMs": 17640,
-   "endMs": 17900,
+   "startMs": 20790,
+   "endMs": 21050,
    "tokens": [
     {
      "text": " chance"

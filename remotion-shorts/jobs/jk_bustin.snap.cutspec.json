@@ -1,0 +1,58 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 712.32,
+   "outSec": 714.02,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 722.54,
+   "outSec": 724.82,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 725.22,
+   "outSec": 729.55,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 730.02,
+   "outSec": 738.58,
+   "beat": "REINFORCE",
+   "framing": "cover"
+  }
+ ],
+ "captionReplace": {
+  "Americanarness": "Americans"
+ },
+ "style": {
+  "powerWords": [
+   "bust",
+   "trafficking",
+   "kidnapping",
+   "respect",
+   "officer",
+   "fuck",
+   "girl",
+   "kidnapped",
+   "victims",
+   "reported"
+  ]
+ },
+ "hook": {
+  "text": "“HUMAN TRAFFICKING AND KIDNAPPING”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "sneaky.mp3",
+  "volLow": 0.04,
+  "volHigh": 0.09,
+  "climaxSec": 8,
+  "startSec": 0
+ }
+}
