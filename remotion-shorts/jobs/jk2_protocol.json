@@ -1,0 +1,700 @@
+{
+ "videoSrc": "jk2_protocol_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 1.73,
+   "outSec": 10.44,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "cropX": 0.472,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 0.25,
+   "outSec": 1.69,
+   "offsetSec": 8.71,
+   "framing": "cover",
+   "cropX": 0.437,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 11.49,
+   "outSec": 14.59,
+   "offsetSec": 10.15,
+   "framing": "cover",
+   "cropX": 0.499,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 15.95,
+   "outSec": 19.32,
+   "offsetSec": 13.25,
+   "framing": "cover",
+   "cropX": 0.484,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 35.47,
+   "outSec": 38.75,
+   "offsetSec": 16.62,
+   "framing": "cover",
+   "cropX": 0.474,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 24.47,
+   "outSec": 26.75,
+   "offsetSec": 19.9,
+   "framing": "cover",
+   "cropX": 0.478,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 43.93,
+   "outSec": 48.34,
+   "offsetSec": 22.18,
+   "framing": "cover",
+   "cropX": 0.481,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 360,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " said"
+    },
+    {
+     "text": " it's"
+    }
+   ]
+  },
+  {
+   "startMs": 360,
+   "endMs": 1000,
+   "tokens": [
+    {
+     "text": " protocol"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 1000,
+   "endMs": 2280,
+   "tokens": [
+    {
+     "text": " Romania"
+    },
+    {
+     "text": " In"
+    }
+   ]
+  },
+  {
+   "startMs": 2280,
+   "endMs": 2720,
+   "tokens": [
+    {
+     "text": " case"
+    },
+    {
+     "text": " he's"
+    }
+   ]
+  },
+  {
+   "startMs": 2720,
+   "endMs": 3240,
+   "tokens": [
+    {
+     "text": " proven"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " be"
+    }
+   ]
+  },
+  {
+   "startMs": 4280,
+   "endMs": 4760,
+   "tokens": [
+    {
+     "text": " Proceeds"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 4640,
+   "endMs": 6040,
+   "tokens": [
+    {
+     "text": " crime"
+    },
+    {
+     "text": " It's"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 5920,
+   "endMs": 6360,
+   "tokens": [
+    {
+     "text": " crime"
+    },
+    {
+     "text": " there's"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 6360,
+   "endMs": 6640,
+   "tokens": [
+    {
+     "text": " even"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 6640,
+   "endMs": 7360,
+   "tokens": [
+    {
+     "text": " girl"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 7360,
+   "endMs": 7960,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " house"
+    },
+    {
+     "text": " Who"
+    }
+   ]
+  },
+  {
+   "startMs": 7960,
+   "endMs": 8100,
+   "tokens": [
+    {
+     "text": " have"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 8100,
+   "endMs": 8520,
+   "tokens": [
+    {
+     "text": " kidnapped"
+    }
+   ]
+  },
+  {
+   "startMs": 8770,
+   "endMs": 9650,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " explained"
+    },
+    {
+     "text": " why"
+    }
+   ]
+  },
+  {
+   "startMs": 9650,
+   "endMs": 9970,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " had"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 9970,
+   "endMs": 10150,
+   "tokens": [
+    {
+     "text": " do"
+    },
+    {
+     "text": " that"
+    }
+   ]
+  },
+  {
+   "startMs": 10150,
+   "endMs": 10550,
+   "tokens": [
+    {
+     "text": " we're"
+    },
+    {
+     "text": " just"
+    }
+   ]
+  },
+  {
+   "startMs": 10550,
+   "endMs": 11370,
+   "tokens": [
+    {
+     "text": " responding"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 11370,
+   "endMs": 12310,
+   "tokens": [
+    {
+     "text": " American"
+    },
+    {
+     "text": " embassy"
+    },
+    {
+     "text": " We"
+    }
+   ]
+  },
+  {
+   "startMs": 12310,
+   "endMs": 12630,
+   "tokens": [
+    {
+     "text": " don't"
+    },
+    {
+     "text": " know"
+    }
+   ]
+  },
+  {
+   "startMs": 12630,
+   "endMs": 13250,
+   "tokens": [
+    {
+     "text": " what's"
+    },
+    {
+     "text": " going"
+    },
+    {
+     "text": " on"
+    }
+   ]
+  },
+  {
+   "startMs": 13250,
+   "endMs": 14330,
+   "tokens": [
+    {
+     "text": " We're"
+    },
+    {
+     "text": " just"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 14330,
+   "endMs": 15470,
+   "tokens": [
+    {
+     "text": " muscle"
+    },
+    {
+     "text": " You"
+    }
+   ]
+  },
+  {
+   "startMs": 15470,
+   "endMs": 15750,
+   "tokens": [
+    {
+     "text": " have"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 15750,
+   "endMs": 16190,
+   "tokens": [
+    {
+     "text": " talk"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 16190,
+   "endMs": 16780,
+   "tokens": [
+    {
+     "text": " detective"
+    },
+    {
+     "text": " after"
+    }
+   ]
+  },
+  {
+   "startMs": 16780,
+   "endMs": 17300,
+   "tokens": [
+    {
+     "text": " searching"
+    },
+    {
+     "text": " our"
+    }
+   ]
+  },
+  {
+   "startMs": 17300,
+   "endMs": 18160,
+   "tokens": [
+    {
+     "text": " entire"
+    },
+    {
+     "text": " house"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 18160,
+   "endMs": 18660,
+   "tokens": [
+    {
+     "text": " five"
+    },
+    {
+     "text": " or"
+    },
+    {
+     "text": " six"
+    }
+   ]
+  },
+  {
+   "startMs": 18660,
+   "endMs": 19160,
+   "tokens": [
+    {
+     "text": " hours"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 19160,
+   "endMs": 19580,
+   "tokens": [
+    {
+     "text": " media"
+    },
+    {
+     "text": " is"
+    },
+    {
+     "text": " now"
+    }
+   ]
+  },
+  {
+   "startMs": 19580,
+   "endMs": 20700,
+   "tokens": [
+    {
+     "text": " outside"
+    },
+    {
+     "text": " Turns"
+    },
+    {
+     "text": " out"
+    }
+   ]
+  },
+  {
+   "startMs": 20700,
+   "endMs": 21080,
+   "tokens": [
+    {
+     "text": " they'd"
+    },
+    {
+     "text": " be"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 21080,
+   "endMs": 21500,
+   "tokens": [
+    {
+     "text": " best"
+    },
+    {
+     "text": " friends"
+    }
+   ]
+  },
+  {
+   "startMs": 21500,
+   "endMs": 22020,
+   "tokens": [
+    {
+     "text": " later"
+    },
+    {
+     "text": " on"
+    }
+   ]
+  },
+  {
+   "startMs": 22240,
+   "endMs": 22700,
+   "tokens": [
+    {
+     "text": " Media"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 22700,
+   "endMs": 23220,
+   "tokens": [
+    {
+     "text": " outside"
+    },
+    {
+     "text": " saying"
+    }
+   ]
+  },
+  {
+   "startMs": 23220,
+   "endMs": 23740,
+   "tokens": [
+    {
+     "text": " human"
+    },
+    {
+     "text": " trafficking"
+    }
+   ]
+  },
+  {
+   "startMs": 23820,
+   "endMs": 24460,
+   "tokens": [
+    {
+     "text": " investigation"
+    },
+    {
+     "text": " all"
+    }
+   ]
+  },
+  {
+   "startMs": 24460,
+   "endMs": 24840,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " stuff"
+    }
+   ]
+  },
+  {
+   "startMs": 24940,
+   "endMs": 25280,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " start"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 25280,
+   "endMs": 25660,
+   "tokens": [
+    {
+     "text": " slander"
+    },
+    {
+     "text": " our"
+    }
+   ]
+  },
+  {
+   "startMs": 25660,
+   "endMs": 26040,
+   "tokens": [
+    {
+     "text": " name"
+    },
+    {
+     "text": " with"
+    },
+    {
+     "text": " all"
+    }
+   ]
+  },
+  {
+   "startMs": 26040,
+   "endMs": 26420,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " garbage"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "protocol",
+   "crime",
+   "kidnapped",
+   "muscle",
+   "trafficking",
+   "slander",
+   "media",
+   "embassy"
+  ]
+ },
+ "hook": {
+  "text": "“WHO HAVE I KIDNAPPED?”",
+  "untilSec": 2.5
+ }
+}

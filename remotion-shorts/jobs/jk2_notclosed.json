@@ -1,0 +1,663 @@
+{
+ "videoSrc": "jk2_notclosed_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 3.31,
+   "outSec": 6.64,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "cropX": 0.591,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 0.25,
+   "outSec": 2.51,
+   "offsetSec": 3.33,
+   "framing": "cover",
+   "cropX": 0.6,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 7.59,
+   "outSec": 13.34,
+   "offsetSec": 5.59,
+   "framing": "cover",
+   "cropX": 0.528,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 18.17,
+   "outSec": 25.29,
+   "offsetSec": 11.34,
+   "framing": "cover",
+   "cropX": 0.546,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 26.13,
+   "outSec": 28.87,
+   "offsetSec": 18.46,
+   "framing": "cover",
+   "cropX": 0.552,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 29.95,
+   "outSec": 31.93,
+   "offsetSec": 21.2,
+   "framing": "cover",
+   "cropX": 0.543,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 34.3,
+   "outSec": 38.63,
+   "offsetSec": 23.18,
+   "framing": "cover",
+   "cropX": 0.471,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 60,
+   "endMs": 540,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " like"
+    }
+   ]
+  },
+  {
+   "startMs": 540,
+   "endMs": 1060,
+   "tokens": [
+    {
+     "text": " July"
+    },
+    {
+     "text": " lie"
+    }
+   ]
+  },
+  {
+   "startMs": 1060,
+   "endMs": 1240,
+   "tokens": [
+    {
+     "text": " now"
+    }
+   ]
+  },
+  {
+   "startMs": 2020,
+   "endMs": 2560,
+   "tokens": [
+    {
+     "text": " Why"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 2560,
+   "endMs": 3000,
+   "tokens": [
+    {
+     "text": " that"
+    },
+    {
+     "text": " case"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 3000,
+   "endMs": 3180,
+   "tokens": [
+    {
+     "text": " closed"
+    }
+   ]
+  },
+  {
+   "startMs": 4370,
+   "endMs": 4810,
+   "tokens": [
+    {
+     "text": " raided"
+    },
+    {
+     "text": " our"
+    }
+   ]
+  },
+  {
+   "startMs": 4810,
+   "endMs": 5170,
+   "tokens": [
+    {
+     "text": " house"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 5170,
+   "endMs": 5410,
+   "tokens": [
+    {
+     "text": " April"
+    }
+   ]
+  },
+  {
+   "startMs": 5650,
+   "endMs": 6230,
+   "tokens": [
+    {
+     "text": " He"
+    },
+    {
+     "text": " goes"
+    }
+   ]
+  },
+  {
+   "startMs": 6330,
+   "endMs": 7130,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 7130,
+   "endMs": 7330,
+   "tokens": [
+    {
+     "text": " Romania"
+    }
+   ]
+  },
+  {
+   "startMs": 8030,
+   "endMs": 8770,
+   "tokens": [
+    {
+     "text": " Everything"
+    },
+    {
+     "text": " takes"
+    }
+   ]
+  },
+  {
+   "startMs": 8770,
+   "endMs": 9050,
+   "tokens": [
+    {
+     "text": " forever"
+    }
+   ]
+  },
+  {
+   "startMs": 9750,
+   "endMs": 10230,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 10230,
+   "endMs": 11050,
+   "tokens": [
+    {
+     "text": " slow"
+    },
+    {
+     "text": " system"
+    }
+   ]
+  },
+  {
+   "startMs": 11340,
+   "endMs": 11880,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " is"
+    },
+    {
+     "text": " so"
+    }
+   ]
+  },
+  {
+   "startMs": 11880,
+   "endMs": 12440,
+   "tokens": [
+    {
+     "text": " open"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 12440,
+   "endMs": 12700,
+   "tokens": [
+    {
+     "text": " shut"
+    }
+   ]
+  },
+  {
+   "startMs": 13600,
+   "endMs": 14260,
+   "tokens": [
+    {
+     "text": " My"
+    },
+    {
+     "text": " lawyer's"
+    }
+   ]
+  },
+  {
+   "startMs": 14260,
+   "endMs": 14580,
+   "tokens": [
+    {
+     "text": " called"
+    },
+    {
+     "text": " Alin"
+    }
+   ]
+  },
+  {
+   "startMs": 14700,
+   "endMs": 14860,
+   "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " like"
+    }
+   ]
+  },
+  {
+   "startMs": 14920,
+   "endMs": 15800,
+   "tokens": [
+    {
+     "text": " Alin"
+    },
+    {
+     "text": " this"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 15800,
+   "endMs": 16500,
+   "tokens": [
+    {
+     "text": " so"
+    },
+    {
+     "text": " open"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 16500,
+   "endMs": 16740,
+   "tokens": [
+    {
+     "text": " shut"
+    }
+   ]
+  },
+  {
+   "startMs": 16880,
+   "endMs": 17420,
+   "tokens": [
+    {
+     "text": " What"
+    },
+    {
+     "text": " could"
+    }
+   ]
+  },
+  {
+   "startMs": 17420,
+   "endMs": 18080,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " possibly"
+    },
+    {
+     "text": " be"
+    }
+   ]
+  },
+  {
+   "startMs": 18080,
+   "endMs": 18340,
+   "tokens": [
+    {
+     "text": " doing"
+    }
+   ]
+  },
+  {
+   "startMs": 18460,
+   "endMs": 18760,
+   "tokens": [
+    {
+     "text": " yeah"
+    },
+    {
+     "text": " it's"
+    }
+   ]
+  },
+  {
+   "startMs": 18760,
+   "endMs": 18940,
+   "tokens": [
+    {
+     "text": " Romania"
+    }
+   ]
+  },
+  {
+   "startMs": 19560,
+   "endMs": 20140,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " probably"
+    }
+   ]
+  },
+  {
+   "startMs": 20140,
+   "endMs": 20480,
+   "tokens": [
+    {
+     "text": " have"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 20480,
+   "endMs": 20960,
+   "tokens": [
+    {
+     "text": " through"
+    },
+    {
+     "text": " all"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 20960,
+   "endMs": 21620,
+   "tokens": [
+    {
+     "text": " hours"
+    },
+    {
+     "text": " It's"
+    }
+   ]
+  },
+  {
+   "startMs": 21620,
+   "endMs": 21720,
+   "tokens": [
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 21720,
+   "endMs": 21980,
+   "tokens": [
+    {
+     "text": " take"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 21980,
+   "endMs": 22120,
+   "tokens": [
+    {
+     "text": " while"
+    }
+   ]
+  },
+  {
+   "startMs": 22280,
+   "endMs": 22860,
+   "tokens": [
+    {
+     "text": " Don't"
+    },
+    {
+     "text": " sweat"
+    }
+   ]
+  },
+  {
+   "startMs": 22860,
+   "endMs": 23080,
+   "tokens": [
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 24010,
+   "endMs": 24430,
+   "tokens": [
+    {
+     "text": " had"
+    },
+    {
+     "text": " this"
+    },
+    {
+     "text": " bad"
+    }
+   ]
+  },
+  {
+   "startMs": 24430,
+   "endMs": 24810,
+   "tokens": [
+    {
+     "text": " feeling"
+    }
+   ]
+  },
+  {
+   "startMs": 25030,
+   "endMs": 25630,
+   "tokens": [
+    {
+     "text": " But"
+    },
+    {
+     "text": " what"
+    },
+    {
+     "text": " can"
+    }
+   ]
+  },
+  {
+   "startMs": 25630,
+   "endMs": 25910,
+   "tokens": [
+    {
+     "text": " you"
+    },
+    {
+     "text": " do"
+    }
+   ]
+  },
+  {
+   "startMs": 25930,
+   "endMs": 26050,
+   "tokens": [
+    {
+     "text": " right"
+    }
+   ]
+  },
+  {
+   "startMs": 26170,
+   "endMs": 26630,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " haven't"
+    }
+   ]
+  },
+  {
+   "startMs": 26630,
+   "endMs": 26870,
+   "tokens": [
+    {
+     "text": " done"
+    },
+    {
+     "text": " anything"
+    }
+   ]
+  },
+  {
+   "startMs": 26870,
+   "endMs": 27270,
+   "tokens": [
+    {
+     "text": " wrong"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "july",
+   "closed",
+   "case",
+   "romania",
+   "feeling",
+   "april",
+   "raided"
+  ]
+ },
+ "hook": {
+  "text": "WHY IS THE CASE NOT CLOSED?",
+  "untilSec": 2.5
+ }
+}

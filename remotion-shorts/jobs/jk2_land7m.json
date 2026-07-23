@@ -1,0 +1,745 @@
+{
+ "videoSrc": "jk2_land7m_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 29.98,
+   "outSec": 31.75,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "cropX": 0.416,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 0.25,
+   "outSec": 2.71,
+   "offsetSec": 1.77,
+   "framing": "cover",
+   "cropX": 0.552,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 4.57,
+   "outSec": 5.69,
+   "offsetSec": 4.23,
+   "framing": "cover",
+   "cropX": 0.489,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 13.41,
+   "outSec": 15.71,
+   "offsetSec": 5.35,
+   "framing": "cover",
+   "cropX": 0.387,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 19.6,
+   "outSec": 22.99,
+   "offsetSec": 7.65,
+   "framing": "cover",
+   "cropX": 0.403,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 26.93,
+   "outSec": 29.85,
+   "offsetSec": 11.04,
+   "framing": "cover",
+   "cropX": 0.417,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 45.41,
+   "outSec": 46.79,
+   "offsetSec": 13.96,
+   "framing": "cover",
+   "cropX": 0.44,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 46.93,
+   "outSec": 48.47,
+   "offsetSec": 15.34,
+   "framing": "cover",
+   "cropX": 0.422,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 57.5,
+   "outSec": 62.89,
+   "offsetSec": 16.88,
+   "framing": "cover",
+   "cropX": 0.417,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 65.25,
+   "outSec": 68.42,
+   "offsetSec": 22.27,
+   "framing": "cover",
+   "cropX": 0.422,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 10,
+   "endMs": 190,
+   "tokens": [
+    {
+     "text": " not"
+    },
+    {
+     "text": " even"
+    }
+   ]
+  },
+  {
+   "startMs": 190,
+   "endMs": 510,
+   "tokens": [
+    {
+     "text": " near"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 510,
+   "endMs": 770,
+   "tokens": [
+    {
+     "text": " road"
+    }
+   ]
+  },
+  {
+   "startMs": 850,
+   "endMs": 1130,
+   "tokens": [
+    {
+     "text": " There's"
+    },
+    {
+     "text": " no"
+    }
+   ]
+  },
+  {
+   "startMs": 1130,
+   "endMs": 1570,
+   "tokens": [
+    {
+     "text": " electricity"
+    }
+   ]
+  },
+  {
+   "startMs": 1830,
+   "endMs": 2370,
+   "tokens": [
+    {
+     "text": " A"
+    },
+    {
+     "text": " man"
+    }
+   ]
+  },
+  {
+   "startMs": 2370,
+   "endMs": 2830,
+   "tokens": [
+    {
+     "text": " comes"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 2830,
+   "endMs": 3590,
+   "tokens": [
+    {
+     "text": " house"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 3590,
+   "endMs": 4650,
+   "tokens": [
+    {
+     "text": " Romanian"
+    },
+    {
+     "text": " guy"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 4650,
+   "endMs": 4890,
+   "tokens": [
+    {
+     "text": " need"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 4890,
+   "endMs": 5190,
+   "tokens": [
+    {
+     "text": " talk"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 5190,
+   "endMs": 5350,
+   "tokens": [
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 5410,
+   "endMs": 5810,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " he"
+    }
+   ]
+  },
+  {
+   "startMs": 5810,
+   "endMs": 6470,
+   "tokens": [
+    {
+     "text": " said"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 6470,
+   "endMs": 6910,
+   "tokens": [
+    {
+     "text": " need"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " buy"
+    }
+   ]
+  },
+  {
+   "startMs": 6910,
+   "endMs": 7530,
+   "tokens": [
+    {
+     "text": " some"
+    },
+    {
+     "text": " land"
+    }
+   ]
+  },
+  {
+   "startMs": 7760,
+   "endMs": 7980,
+   "tokens": [
+    {
+     "text": " gets"
+    },
+    {
+     "text": " out"
+    }
+   ]
+  },
+  {
+   "startMs": 7980,
+   "endMs": 8600,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " map"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 8600,
+   "endMs": 8800,
+   "tokens": [
+    {
+     "text": " he"
+    },
+    {
+     "text": " goes"
+    }
+   ]
+  },
+  {
+   "startMs": 8820,
+   "endMs": 9100,
+   "tokens": [
+    {
+     "text": " there's"
+    },
+    {
+     "text": " some"
+    }
+   ]
+  },
+  {
+   "startMs": 9100,
+   "endMs": 9620,
+   "tokens": [
+    {
+     "text": " land"
+    },
+    {
+     "text": " here"
+    }
+   ]
+  },
+  {
+   "startMs": 10280,
+   "endMs": 10760,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " $7"
+    }
+   ]
+  },
+  {
+   "startMs": 10760,
+   "endMs": 11280,
+   "tokens": [
+    {
+     "text": " million"
+    },
+    {
+     "text": " This"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 11280,
+   "endMs": 12160,
+   "tokens": [
+    {
+     "text": " two"
+    },
+    {
+     "text": " hours"
+    },
+    {
+     "text": " by"
+    }
+   ]
+  },
+  {
+   "startMs": 12160,
+   "endMs": 13040,
+   "tokens": [
+    {
+     "text": " dirt"
+    },
+    {
+     "text": " bike"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 13040,
+   "endMs": 13600,
+   "tokens": [
+    {
+     "text": " reach"
+    },
+    {
+     "text": " this"
+    }
+   ]
+  },
+  {
+   "startMs": 13600,
+   "endMs": 13900,
+   "tokens": [
+    {
+     "text": " land"
+    }
+   ]
+  },
+  {
+   "startMs": 13960,
+   "endMs": 14040,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 14040,
+   "endMs": 14480,
+   "tokens": [
+    {
+     "text": " said"
+    },
+    {
+     "text": " well"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 14480,
+   "endMs": 14720,
+   "tokens": [
+    {
+     "text": " don't"
+    },
+    {
+     "text": " have"
+    }
+   ]
+  },
+  {
+   "startMs": 14720,
+   "endMs": 14900,
+   "tokens": [
+    {
+     "text": " time"
+    }
+   ]
+  },
+  {
+   "startMs": 14980,
+   "endMs": 15080,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " don't"
+    }
+   ]
+  },
+  {
+   "startMs": 15080,
+   "endMs": 15300,
+   "tokens": [
+    {
+     "text": " want"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 15400,
+   "endMs": 15780,
+   "tokens": [
+    {
+     "text": " He"
+    },
+    {
+     "text": " said"
+    }
+   ]
+  },
+  {
+   "startMs": 15800,
+   "endMs": 16020,
+   "tokens": [
+    {
+     "text": " you're"
+    },
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 16020,
+   "endMs": 16300,
+   "tokens": [
+    {
+     "text": " need"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 16300,
+   "endMs": 16640,
+   "tokens": [
+    {
+     "text": " friends"
+    }
+   ]
+  },
+  {
+   "startMs": 17950,
+   "endMs": 18330,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " lot"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 18330,
+   "endMs": 19370,
+   "tokens": [
+    {
+     "text": " conversation"
+    },
+    {
+     "text": " about"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 19370,
+   "endMs": 21190,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " Romania"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 21190,
+   "endMs": 21470,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " power"
+    }
+   ]
+  },
+  {
+   "startMs": 21470,
+   "endMs": 21990,
+   "tokens": [
+    {
+     "text": " structures"
+    },
+    {
+     "text": " right"
+    }
+   ]
+  },
+  {
+   "startMs": 21990,
+   "endMs": 22270,
+   "tokens": [
+    {
+     "text": " now"
+    }
+   ]
+  },
+  {
+   "startMs": 22330,
+   "endMs": 22970,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 22970,
+   "endMs": 23570,
+   "tokens": [
+    {
+     "text": " stupid"
+    },
+    {
+     "text": " ass"
+    }
+   ]
+  },
+  {
+   "startMs": 23770,
+   "endMs": 24530,
+   "tokens": [
+    {
+     "text": " even"
+    },
+    {
+     "text": " though"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 24530,
+   "endMs": 24890,
+   "tokens": [
+    {
+     "text": " knew"
+    },
+    {
+     "text": " it"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 24890,
+   "endMs": 25440,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " shakedown"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "sneaky.mp3",
+  "volLow": 0.11,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "million",
+   "land",
+   "electricity",
+   "shakedown",
+   "friends",
+   "romania",
+   "power",
+   "map"
+  ]
+ },
+ "hook": {
+  "text": "BUY THIS LAND. $7 MILLION.",
+  "untilSec": 2.5
+ }
+}

@@ -1,0 +1,1128 @@
+{
+ "videoSrc": "jk2_shakedown_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 6.72,
+   "outSec": 10.2,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "cropX": 0.485,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 0.25,
+   "outSec": 2.67,
+   "offsetSec": 3.48,
+   "framing": "cover",
+   "cropX": 0.552,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 46.93,
+   "outSec": 48.43,
+   "offsetSec": 5.9,
+   "framing": "cover",
+   "cropX": 0.422,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 57.49,
+   "outSec": 62.89,
+   "offsetSec": 7.4,
+   "framing": "cover",
+   "cropX": 0.417,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 94.3,
+   "outSec": 99.02,
+   "offsetSec": 12.8,
+   "framing": "cover",
+   "cropX": 0.377,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 160.15,
+   "outSec": 162.62,
+   "offsetSec": 17.52,
+   "framing": "cover",
+   "cropX": 0.43,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 163.61,
+   "outSec": 170.71,
+   "offsetSec": 19.99,
+   "framing": "cover",
+   "cropX": 0.453,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 260.52,
+   "outSec": 263.75,
+   "offsetSec": 27.09,
+   "framing": "cover",
+   "cropX": 0.408,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 269.39,
+   "outSec": 271.78,
+   "offsetSec": 30.32,
+   "framing": "cover",
+   "cropX": 0.482,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 477.96,
+   "outSec": 484.235,
+   "offsetSec": 32.71,
+   "framing": "cover",
+   "cropX": 0.389,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 491.88,
+   "outSec": 500.42,
+   "offsetSec": 38.985,
+   "framing": "cover",
+   "cropX": 0.495,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  },
+  {
+   "inSec": 508.03,
+   "outSec": 509.325,
+   "offsetSec": 47.525,
+   "framing": "cover",
+   "cropX": 0.509,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 30,
+   "endMs": 250,
+   "tokens": [
+    {
+     "text": " today"
+    }
+   ]
+  },
+  {
+   "startMs": 910,
+   "endMs": 1210,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " said"
+    },
+    {
+     "text": " it's"
+    }
+   ]
+  },
+  {
+   "startMs": 1210,
+   "endMs": 1430,
+   "tokens": [
+    {
+     "text": " important"
+    }
+   ]
+  },
+  {
+   "startMs": 2210,
+   "endMs": 2570,
+   "tokens": [
+    {
+     "text": " He's"
+    },
+    {
+     "text": " an"
+    }
+   ]
+  },
+  {
+   "startMs": 2570,
+   "endMs": 3170,
+   "tokens": [
+    {
+     "text": " important"
+    },
+    {
+     "text": " man"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 3170,
+   "endMs": 3370,
+   "tokens": [
+    {
+     "text": " Romania"
+    }
+   ]
+  },
+  {
+   "startMs": 3540,
+   "endMs": 4080,
+   "tokens": [
+    {
+     "text": " A"
+    },
+    {
+     "text": " man"
+    }
+   ]
+  },
+  {
+   "startMs": 4080,
+   "endMs": 4540,
+   "tokens": [
+    {
+     "text": " comes"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 4540,
+   "endMs": 5300,
+   "tokens": [
+    {
+     "text": " house"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 5300,
+   "endMs": 6240,
+   "tokens": [
+    {
+     "text": " Romanian"
+    },
+    {
+     "text": " guy"
+    },
+    {
+     "text": " He"
+    }
+   ]
+  },
+  {
+   "startMs": 6240,
+   "endMs": 6500,
+   "tokens": [
+    {
+     "text": " said"
+    },
+    {
+     "text": " you're"
+    }
+   ]
+  },
+  {
+   "startMs": 6500,
+   "endMs": 6580,
+   "tokens": [
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 6580,
+   "endMs": 6860,
+   "tokens": [
+    {
+     "text": " need"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 6860,
+   "endMs": 7200,
+   "tokens": [
+    {
+     "text": " friends"
+    }
+   ]
+  },
+  {
+   "startMs": 7400,
+   "endMs": 8720,
+   "tokens": [
+    {
+     "text": " there's"
+    },
+    {
+     "text": " a"
+    },
+    {
+     "text": " lot"
+    }
+   ]
+  },
+  {
+   "startMs": 8720,
+   "endMs": 9300,
+   "tokens": [
+    {
+     "text": " of"
+    },
+    {
+     "text": " conversation"
+    }
+   ]
+  },
+  {
+   "startMs": 9300,
+   "endMs": 11020,
+   "tokens": [
+    {
+     "text": " about"
+    },
+    {
+     "text": " you"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 11020,
+   "endMs": 11840,
+   "tokens": [
+    {
+     "text": " Romania"
+    },
+    {
+     "text": " in"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 11840,
+   "endMs": 12260,
+   "tokens": [
+    {
+     "text": " power"
+    },
+    {
+     "text": " structures"
+    }
+   ]
+  },
+  {
+   "startMs": 12260,
+   "endMs": 12800,
+   "tokens": [
+    {
+     "text": " right"
+    },
+    {
+     "text": " now"
+    }
+   ]
+  },
+  {
+   "startMs": 12830,
+   "endMs": 13050,
+   "tokens": [
+    {
+     "text": " said"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 13050,
+   "endMs": 14070,
+   "tokens": [
+    {
+     "text": " Tristan"
+    },
+    {
+     "text": " let's"
+    },
+    {
+     "text": " get"
+    }
+   ]
+  },
+  {
+   "startMs": 14070,
+   "endMs": 14450,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " fuck"
+    },
+    {
+     "text": " out"
+    }
+   ]
+  },
+  {
+   "startMs": 14450,
+   "endMs": 14610,
+   "tokens": [
+    {
+     "text": " of"
+    },
+    {
+     "text": " here"
+    }
+   ]
+  },
+  {
+   "startMs": 15330,
+   "endMs": 15650,
+   "tokens": [
+    {
+     "text": " Let's"
+    },
+    {
+     "text": " just"
+    }
+   ]
+  },
+  {
+   "startMs": 15650,
+   "endMs": 15870,
+   "tokens": [
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 16310,
+   "endMs": 16670,
+   "tokens": [
+    {
+     "text": " He"
+    },
+    {
+     "text": " goes"
+    }
+   ]
+  },
+  {
+   "startMs": 16710,
+   "endMs": 16830,
+   "tokens": [
+    {
+     "text": " where"
+    }
+   ]
+  },
+  {
+   "startMs": 16930,
+   "endMs": 17130,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " said"
+    }
+   ]
+  },
+  {
+   "startMs": 17150,
+   "endMs": 17350,
+   "tokens": [
+    {
+     "text": " Dubai"
+    }
+   ]
+  },
+  {
+   "startMs": 17520,
+   "endMs": 17640,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " I'm"
+    }
+   ]
+  },
+  {
+   "startMs": 17640,
+   "endMs": 18020,
+   "tokens": [
+    {
+     "text": " saying"
+    },
+    {
+     "text": " in"
+    },
+    {
+     "text": " all"
+    }
+   ]
+  },
+  {
+   "startMs": 18020,
+   "endMs": 19100,
+   "tokens": [
+    {
+     "text": " these"
+    },
+    {
+     "text": " podcasts"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 19100,
+   "endMs": 19500,
+   "tokens": [
+    {
+     "text": " get"
+    },
+    {
+     "text": " three"
+    }
+   ]
+  },
+  {
+   "startMs": 19500,
+   "endMs": 19900,
+   "tokens": [
+    {
+     "text": " lives"
+    }
+   ]
+  },
+  {
+   "startMs": 20050,
+   "endMs": 20550,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " if"
+    }
+   ]
+  },
+  {
+   "startMs": 20550,
+   "endMs": 21270,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " ever"
+    },
+    {
+     "text": " try"
+    }
+   ]
+  },
+  {
+   "startMs": 21270,
+   "endMs": 21670,
+   "tokens": [
+    {
+     "text": " and"
+    },
+    {
+     "text": " put"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 21670,
+   "endMs": 22150,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " jail"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 22150,
+   "endMs": 22590,
+   "tokens": [
+    {
+     "text": " something"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 22590,
+   "endMs": 23610,
+   "tokens": [
+    {
+     "text": " didn't"
+    },
+    {
+     "text": " do"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 23610,
+   "endMs": 24350,
+   "tokens": [
+    {
+     "text": " hope"
+    },
+    {
+     "text": " everyone"
+    },
+    {
+     "text": " at"
+    }
+   ]
+  },
+  {
+   "startMs": 24350,
+   "endMs": 24830,
+   "tokens": [
+    {
+     "text": " home"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 24830,
+   "endMs": 25570,
+   "tokens": [
+    {
+     "text": " smart"
+    },
+    {
+     "text": " enough"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 25570,
+   "endMs": 26450,
+   "tokens": [
+    {
+     "text": " understand"
+    },
+    {
+     "text": " it"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 26450,
+   "endMs": 26930,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " setup"
+    }
+   ]
+  },
+  {
+   "startMs": 27150,
+   "endMs": 27690,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " then"
+    },
+    {
+     "text": " one"
+    }
+   ]
+  },
+  {
+   "startMs": 27690,
+   "endMs": 28030,
+   "tokens": [
+    {
+     "text": " day"
+    },
+    {
+     "text": " we"
+    },
+    {
+     "text": " get"
+    }
+   ]
+  },
+  {
+   "startMs": 28030,
+   "endMs": 28270,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " phone"
+    }
+   ]
+  },
+  {
+   "startMs": 28270,
+   "endMs": 29590,
+   "tokens": [
+    {
+     "text": " call"
+    },
+    {
+     "text": " from"
+    }
+   ]
+  },
+  {
+   "startMs": 29590,
+   "endMs": 30230,
+   "tokens": [
+    {
+     "text": " Piers"
+    },
+    {
+     "text": " Morgan's"
+    }
+   ]
+  },
+  {
+   "startMs": 30230,
+   "endMs": 30320,
+   "tokens": [
+    {
+     "text": " team"
+    }
+   ]
+  },
+  {
+   "startMs": 30410,
+   "endMs": 31110,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " told"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 31110,
+   "endMs": 31530,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " want"
+    },
+    {
+     "text": " us"
+    }
+   ]
+  },
+  {
+   "startMs": 31530,
+   "endMs": 31770,
+   "tokens": [
+    {
+     "text": " to"
+    },
+    {
+     "text": " go"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 31770,
+   "endMs": 31950,
+   "tokens": [
+    {
+     "text": " England"
+    }
+   ]
+  },
+  {
+   "startMs": 32010,
+   "endMs": 32230,
+   "tokens": [
+    {
+     "text": " They're"
+    },
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 32230,
+   "endMs": 32690,
+   "tokens": [
+    {
+     "text": " arrest"
+    },
+    {
+     "text": " us"
+    }
+   ]
+  },
+  {
+   "startMs": 32770,
+   "endMs": 33330,
+   "tokens": [
+    {
+     "text": " So"
+    },
+    {
+     "text": " we"
+    }
+   ]
+  },
+  {
+   "startMs": 33330,
+   "endMs": 34330,
+   "tokens": [
+    {
+     "text": " land"
+    },
+    {
+     "text": " at"
+    },
+    {
+     "text": " 9"
+    }
+   ]
+  },
+  {
+   "startMs": 34330,
+   "endMs": 35210,
+   "tokens": [
+    {
+     "text": " p"
+    },
+    {
+     "text": "m"
+    }
+   ]
+  },
+  {
+   "startMs": 35850,
+   "endMs": 36550,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " Romania"
+    }
+   ]
+  },
+  {
+   "startMs": 37010,
+   "endMs": 37770,
+   "tokens": [
+    {
+     "text": " straight"
+    },
+    {
+     "text": " off"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 37770,
+   "endMs": 38450,
+   "tokens": [
+    {
+     "text": " plane"
+    },
+    {
+     "text": " no"
+    }
+   ]
+  },
+  {
+   "startMs": 38450,
+   "endMs": 39645,
+   "tokens": [
+    {
+     "text": " problems"
+    },
+    {
+     "text": " And"
+    },
+    {
+     "text": " at"
+    }
+   ]
+  },
+  {
+   "startMs": 39645,
+   "endMs": 40325,
+   "tokens": [
+    {
+     "text": " 4"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 40325,
+   "endMs": 40825,
+   "tokens": [
+    {
+     "text": "m"
+    }
+   ]
+  },
+  {
+   "startMs": 41165,
+   "endMs": 42665,
+   "tokens": [
+    {
+     "text": " that"
+    },
+    {
+     "text": " morning"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 42665,
+   "endMs": 43325,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " video"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 43325,
+   "endMs": 44965,
+   "tokens": [
+    {
+     "text": " entire"
+    },
+    {
+     "text": " world"
+    },
+    {
+     "text": " saw"
+    }
+   ]
+  },
+  {
+   "startMs": 44965,
+   "endMs": 46505,
+   "tokens": [
+    {
+     "text": " when"
+    },
+    {
+     "text": " they"
+    }
+   ]
+  },
+  {
+   "startMs": 46505,
+   "endMs": 47045,
+   "tokens": [
+    {
+     "text": " raided"
+    },
+    {
+     "text": " our"
+    }
+   ]
+  },
+  {
+   "startMs": 47045,
+   "endMs": 47775,
+   "tokens": [
+    {
+     "text": " house"
+    },
+    {
+     "text": " again"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 47775,
+   "endMs": 48295,
+   "tokens": [
+    {
+     "text": " video"
+    },
+    {
+     "text": " everyone"
+    }
+   ]
+  },
+  {
+   "startMs": 48295,
+   "endMs": 48635,
+   "tokens": [
+    {
+     "text": " saw"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "dark_knight_imagine_fire.mp3",
+  "volLow": 0.11,
+  "volHigh": 0.22,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "dubai",
+   "setup",
+   "england",
+   "arrest",
+   "raided",
+   "trafficking",
+   "romania",
+   "friends",
+   "jail"
+  ]
+ },
+ "hook": {
+  "text": "“HE'S AN IMPORTANT MAN IN ROMANIA”",
+  "untilSec": 2.5
+ }
+}

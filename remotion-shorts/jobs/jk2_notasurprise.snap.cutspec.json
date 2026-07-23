@@ -7,35 +7,37 @@
    "outSec": 1175.78,
    "beat": "HOOK",
    "framing": "cover",
-   "cropX": 0.5
+   "cropX": 0.445
   },
   {
    "inSec": 1136.42,
    "outSec": 1141.71,
    "beat": "POINT",
    "framing": "cover",
-   "cropX": 0.5
+   "cropX": 0.412,
+   "cropXEnd": 0.561,
+   "cropPanSec": 5.29
   },
   {
    "inSec": 1142.26,
    "outSec": 1152.83,
    "beat": "POINT",
    "framing": "cover",
-   "cropX": 0.5
+   "cropX": 0.549
   },
   {
    "inSec": 1157.78,
    "outSec": 1164.34,
    "beat": "POINT",
    "framing": "cover",
-   "cropX": 0.5
+   "cropX": 0.536
   },
   {
    "inSec": 1168.98,
    "outSec": 1173.88,
    "beat": "POINT",
    "framing": "cover",
-   "cropX": 0.5
+   "cropX": 0.538
   }
  ],
  "style": {

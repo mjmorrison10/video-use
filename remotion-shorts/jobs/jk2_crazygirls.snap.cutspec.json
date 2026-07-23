@@ -1,0 +1,66 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 913.18,
+   "outSec": 918.82,
+   "beat": "HOOK",
+   "framing": "cover",
+   "cropX": 0.522
+  },
+  {
+   "inSec": 888.49,
+   "outSec": 898.94,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.488
+  },
+  {
+   "inSec": 903.22,
+   "outSec": 909.68,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.477
+  },
+  {
+   "inSec": 918.86,
+   "outSec": 920.7,
+   "beat": "PAYOFF",
+   "framing": "cover",
+   "cropX": 0.525
+  },
+  {
+   "inSec": 930.59,
+   "outSec": 940.06,
+   "beat": "PAYOFF",
+   "framing": "cover",
+   "cropX": 0.501,
+   "cropXEnd": 0.76,
+   "cropPanSec": 9.47
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "america",
+   "crazy",
+   "nuts",
+   "prosecutor",
+   "kidnapped",
+   "cctv",
+   "handbag",
+   "laughed"
+  ]
+ },
+ "hook": {
+  "text": "“THESE GIRLS ARE NUTS”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "sneaky.mp3",
+  "volLow": 0.11,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 2373.27,
+   "outSec": 2376.75,
+   "beat": "HOOK",
+   "framing": "cover",
+   "cropX": 0.485
+  },
+  {
+   "inSec": 2366.8,
+   "outSec": 2369.22,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.552
+  },
+  {
+   "inSec": 2413.48,
+   "outSec": 2414.98,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.422
+  },
+  {
+   "inSec": 2424.04,
+   "outSec": 2429.44,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.417
+  },
+  {
+   "inSec": 2460.85,
+   "outSec": 2465.57,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.377
+  },
+  {
+   "inSec": 2526.7,
+   "outSec": 2529.17,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.43
+  },
+  {
+   "inSec": 2530.16,
+   "outSec": 2537.26,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.453
+  },
+  {
+   "inSec": 2627.07,
+   "outSec": 2630.3,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.408
+  },
+  {
+   "inSec": 2635.94,
+   "outSec": 2638.33,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.482
+  },
+  {
+   "inSec": 2844.51,
+   "outSec": 2850.785,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.389
+  },
+  {
+   "inSec": 2858.43,
+   "outSec": 2866.97,
+   "beat": "PAYOFF",
+   "framing": "cover",
+   "cropX": 0.495
+  },
+  {
+   "inSec": 2874.58,
+   "outSec": 2875.875,
+   "beat": "PAYOFF",
+   "framing": "cover",
+   "cropX": 0.509
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "dubai",
+   "setup",
+   "england",
+   "arrest",
+   "raided",
+   "trafficking",
+   "romania",
+   "friends",
+   "jail"
+  ]
+ },
+ "hook": {
+  "text": "“HE'S AN IMPORTANT MAN IN ROMANIA”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "dark_knight_imagine_fire.mp3",
+  "volLow": 0.11,
+  "volHigh": 0.22,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

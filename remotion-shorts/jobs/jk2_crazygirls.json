@@ -1,0 +1,744 @@
+{
+ "videoSrc": "jk2_crazygirls_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 24.94,
+   "outSec": 30.58,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "cropX": 0.522,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 0.25,
+   "outSec": 10.7,
+   "offsetSec": 5.64,
+   "framing": "cover",
+   "cropX": 0.488,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 14.98,
+   "outSec": 21.44,
+   "offsetSec": 16.09,
+   "framing": "cover",
+   "cropX": 0.477,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 30.62,
+   "outSec": 32.46,
+   "offsetSec": 22.55,
+   "framing": "cover",
+   "cropX": 0.525,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  },
+  {
+   "inSec": 42.35,
+   "outSec": 51.82,
+   "offsetSec": 24.39,
+   "framing": "cover",
+   "cropX": 0.501,
+   "cropXEnd": 0.76,
+   "cropPanSec": 9.47,
+   "mute": false,
+   "beat": "PAYOFF"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 1040,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " crap"
+    }
+   ]
+  },
+  {
+   "startMs": 1040,
+   "endMs": 2560,
+   "tokens": [
+    {
+     "text": " happens"
+    },
+    {
+     "text": " maybe"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 2560,
+   "endMs": 3140,
+   "tokens": [
+    {
+     "text": " romania"
+    },
+    {
+     "text": " it's"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 3140,
+   "endMs": 3380,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " big"
+    }
+   ]
+  },
+  {
+   "startMs": 3380,
+   "endMs": 3920,
+   "tokens": [
+    {
+     "text": " thing"
+    },
+    {
+     "text": " but"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 3920,
+   "endMs": 4640,
+   "tokens": [
+    {
+     "text": " america"
+    },
+    {
+     "text": " this"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 4640,
+   "endMs": 5460,
+   "tokens": [
+    {
+     "text": " happens"
+    },
+    {
+     "text": " all"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 5460,
+   "endMs": 5640,
+   "tokens": [
+    {
+     "text": " time"
+    }
+   ]
+  },
+  {
+   "startMs": 5850,
+   "endMs": 6770,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " prosecutor"
+    }
+   ]
+  },
+  {
+   "startMs": 6770,
+   "endMs": 8650,
+   "tokens": [
+    {
+     "text": " says"
+    },
+    {
+     "text": " why"
+    },
+    {
+     "text": " did"
+    }
+   ]
+  },
+  {
+   "startMs": 8650,
+   "endMs": 9470,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " girl"
+    },
+    {
+     "text": " say"
+    }
+   ]
+  },
+  {
+   "startMs": 9470,
+   "endMs": 9790,
+   "tokens": [
+    {
+     "text": " there"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 9790,
+   "endMs": 10830,
+   "tokens": [
+    {
+     "text": " girls"
+    },
+    {
+     "text": " kidnapped"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 10830,
+   "endMs": 11970,
+   "tokens": [
+    {
+     "text": " your"
+    },
+    {
+     "text": " house"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 11970,
+   "endMs": 12210,
+   "tokens": [
+    {
+     "text": " i"
+    },
+    {
+     "text": " said"
+    }
+   ]
+  },
+  {
+   "startMs": 12210,
+   "endMs": 13370,
+   "tokens": [
+    {
+     "text": " brother"
+    },
+    {
+     "text": " i"
+    }
+   ]
+  },
+  {
+   "startMs": 13370,
+   "endMs": 13750,
+   "tokens": [
+    {
+     "text": " haven't"
+    },
+    {
+     "text": " got"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 13750,
+   "endMs": 14970,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " clue"
+    },
+    {
+     "text": " i"
+    }
+   ]
+  },
+  {
+   "startMs": 14970,
+   "endMs": 15290,
+   "tokens": [
+    {
+     "text": " only"
+    },
+    {
+     "text": " said"
+    }
+   ]
+  },
+  {
+   "startMs": 15290,
+   "endMs": 15770,
+   "tokens": [
+    {
+     "text": " hello"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " her"
+    }
+   ]
+  },
+  {
+   "startMs": 15770,
+   "endMs": 16130,
+   "tokens": [
+    {
+     "text": " twice"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 16130,
+   "endMs": 16730,
+   "tokens": [
+    {
+     "text": " prosecutor"
+    },
+    {
+     "text": " goes"
+    }
+   ]
+  },
+  {
+   "startMs": 16730,
+   "endMs": 17550,
+   "tokens": [
+    {
+     "text": " well"
+    },
+    {
+     "text": " tristan"
+    }
+   ]
+  },
+  {
+   "startMs": 17550,
+   "endMs": 17850,
+   "tokens": [
+    {
+     "text": " should"
+    },
+    {
+     "text": " have"
+    }
+   ]
+  },
+  {
+   "startMs": 17850,
+   "endMs": 18290,
+   "tokens": [
+    {
+     "text": " bought"
+    },
+    {
+     "text": " her"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 18290,
+   "endMs": 19650,
+   "tokens": [
+    {
+     "text": " hand"
+    },
+    {
+     "text": " bag"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 19650,
+   "endMs": 20650,
+   "tokens": [
+    {
+     "text": " laughed"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 20650,
+   "endMs": 20970,
+   "tokens": [
+    {
+     "text": " then"
+    },
+    {
+     "text": " i"
+    }
+   ]
+  },
+  {
+   "startMs": 20970,
+   "endMs": 22070,
+   "tokens": [
+    {
+     "text": " laughed"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " we"
+    }
+   ]
+  },
+  {
+   "startMs": 22070,
+   "endMs": 22550,
+   "tokens": [
+    {
+     "text": " all"
+    },
+    {
+     "text": " laughed"
+    }
+   ]
+  },
+  {
+   "startMs": 22550,
+   "endMs": 23050,
+   "tokens": [
+    {
+     "text": " These"
+    },
+    {
+     "text": " girls"
+    },
+    {
+     "text": " are"
+    }
+   ]
+  },
+  {
+   "startMs": 23050,
+   "endMs": 23270,
+   "tokens": [
+    {
+     "text": " nuts"
+    }
+   ]
+  },
+  {
+   "startMs": 23390,
+   "endMs": 23650,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " just"
+    }
+   ]
+  },
+  {
+   "startMs": 23650,
+   "endMs": 24010,
+   "tokens": [
+    {
+     "text": " make"
+    },
+    {
+     "text": " stuff"
+    }
+   ]
+  },
+  {
+   "startMs": 24010,
+   "endMs": 24330,
+   "tokens": [
+    {
+     "text": " up"
+    }
+   ]
+  },
+  {
+   "startMs": 24540,
+   "endMs": 25120,
+   "tokens": [
+    {
+     "text": " You've"
+    },
+    {
+     "text": " been"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 25120,
+   "endMs": 25480,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " house"
+    }
+   ]
+  },
+  {
+   "startMs": 25660,
+   "endMs": 26260,
+   "tokens": [
+    {
+     "text": " There's"
+    },
+    {
+     "text": " no"
+    },
+    {
+     "text": " one"
+    }
+   ]
+  },
+  {
+   "startMs": 26260,
+   "endMs": 26440,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 26440,
+   "endMs": 26700,
+   "tokens": [
+    {
+     "text": " house"
+    }
+   ]
+  },
+  {
+   "startMs": 27360,
+   "endMs": 27880,
+   "tokens": [
+    {
+     "text": " We"
+    },
+    {
+     "text": " have"
+    }
+   ]
+  },
+  {
+   "startMs": 27880,
+   "endMs": 29140,
+   "tokens": [
+    {
+     "text": " CCTV"
+    },
+    {
+     "text": " in"
+    },
+    {
+     "text": " our"
+    }
+   ]
+  },
+  {
+   "startMs": 29140,
+   "endMs": 29420,
+   "tokens": [
+    {
+     "text": " house"
+    }
+   ]
+  },
+  {
+   "startMs": 29840,
+   "endMs": 30260,
+   "tokens": [
+    {
+     "text": " You"
+    },
+    {
+     "text": " can"
+    }
+   ]
+  },
+  {
+   "startMs": 30260,
+   "endMs": 30740,
+   "tokens": [
+    {
+     "text": " take"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 30740,
+   "endMs": 32020,
+   "tokens": [
+    {
+     "text": " cameras"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " see"
+    }
+   ]
+  },
+  {
+   "startMs": 32020,
+   "endMs": 32800,
+   "tokens": [
+    {
+     "text": " her"
+    },
+    {
+     "text": " walking"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 32800,
+   "endMs": 33080,
+   "tokens": [
+    {
+     "text": " and"
+    },
+    {
+     "text": " out"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 33080,
+   "endMs": 33700,
+   "tokens": [
+    {
+     "text": " house"
+    },
+    {
+     "text": " by"
+    },
+    {
+     "text": " her"
+    }
+   ]
+  },
+  {
+   "startMs": 33700,
+   "endMs": 33860,
+   "tokens": [
+    {
+     "text": " own"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "sneaky.mp3",
+  "volLow": 0.11,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "america",
+   "crazy",
+   "nuts",
+   "prosecutor",
+   "kidnapped",
+   "cctv",
+   "handbag",
+   "laughed"
+  ]
+ },
+ "hook": {
+  "text": "“THESE GIRLS ARE NUTS”",
+  "untilSec": 2.5
+ }
+}

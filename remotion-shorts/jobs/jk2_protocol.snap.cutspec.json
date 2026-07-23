@@ -1,0 +1,78 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 831.1,
+   "outSec": 839.81,
+   "beat": "HOOK",
+   "framing": "cover",
+   "cropX": 0.472
+  },
+  {
+   "inSec": 829.62,
+   "outSec": 831.06,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.437
+  },
+  {
+   "inSec": 840.86,
+   "outSec": 843.96,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.499
+  },
+  {
+   "inSec": 845.32,
+   "outSec": 848.69,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.484
+  },
+  {
+   "inSec": 864.84,
+   "outSec": 868.12,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.474
+  },
+  {
+   "inSec": 853.84,
+   "outSec": 856.12,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.478
+  },
+  {
+   "inSec": 873.3,
+   "outSec": 877.71,
+   "beat": "PAYOFF",
+   "framing": "cover",
+   "cropX": 0.481
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "protocol",
+   "crime",
+   "kidnapped",
+   "muscle",
+   "trafficking",
+   "slander",
+   "media",
+   "embassy"
+  ]
+ },
+ "hook": {
+  "text": "“WHO HAVE I KIDNAPPED?”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}
