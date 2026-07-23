@@ -1,0 +1,67 @@
+{
+  "videoSrc": "tortoise_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 85.44,
+      "outSec": 91.345,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 91.31,
+      "outSec": 103.85,
+      "beat": "STORY",
+      "framing": "cover",
+      "broll": {
+        "src": "broll/oldphone.mp4",
+        "startSec": 0
+      }
+    },
+    {
+      "inSec": 103.92,
+      "outSec": 110.34,
+      "beat": "STORY2",
+      "framing": "cover",
+      "broll": {
+        "src": "broll/smartphone.mp4",
+        "startSec": 0
+      }
+    },
+    {
+      "inSec": 121.8,
+      "outSec": 130.555,
+      "beat": "REINFORCE",
+      "framing": "cover",
+      "broll": {
+        "src": "broll/markets.mp4",
+        "startSec": 0
+      }
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "winners",
+      "losers",
+      "Nokia",
+      "40%",
+      "250",
+      "billion",
+      "untouchable",
+      "iPhone",
+      "90%",
+      "NVIDIAs"
+    ]
+  },
+  "hook": {
+    "text": "PROTECT FROM THE BIG LOSERS",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "dark_knight.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 6,
+    "startSec": 20
+  }
+}

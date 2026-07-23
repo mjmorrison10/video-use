@@ -1,0 +1,71 @@
+{
+  "videoSrc": "tortoise_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 836.68,
+      "outSec": 842.88,
+      "beat": "HOOK",
+      "framing": "cover",
+      "broll": {
+        "src": "broll/floor.mp4",
+        "startSec": 0
+      }
+    },
+    {
+      "inSec": 853.06,
+      "outSec": 859.345,
+      "beat": "CRASH",
+      "framing": "cover",
+      "broll": {
+        "src": "broll/markets.mp4",
+        "startSec": 0
+      }
+    },
+    {
+      "inSec": 878.0,
+      "outSec": 885.35,
+      "beat": "PAYOFF",
+      "framing": "cover",
+      "broll": {
+        "src": "broll/markets.mp4",
+        "startSec": 20
+      }
+    },
+    {
+      "inSec": 908.2,
+      "outSec": 916.52,
+      "beat": "LESSON",
+      "framing": "cover",
+      "broll": {
+        "src": "broll/markets.mp4",
+        "startSec": 35
+      }
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "2007",
+      "peak",
+      "crisis",
+      "58,000",
+      "half",
+      "2024",
+      "million",
+      "seven-year",
+      "fraction",
+      "decades"
+    ]
+  },
+  "hook": {
+    "text": "THE WORST TIME TO INVEST",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "royalty.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 20,
+    "startSec": 28
+  }
+}

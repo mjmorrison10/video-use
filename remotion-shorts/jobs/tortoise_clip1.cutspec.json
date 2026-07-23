@@ -1,0 +1,56 @@
+{
+  "videoSrc": "tortoise_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 8.6,
+      "outSec": 14.575,
+      "beat": "HOOK",
+      "framing": "cover",
+      "broll": {
+        "src": "broll/cash.mp4",
+        "startSec": 0
+      }
+    },
+    {
+      "inSec": 70.31,
+      "outSec": 80.7,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 219.755,
+      "outSec": 223.63,
+      "beat": "REINFORCE",
+      "framing": "cover",
+      "broll": {
+        "src": "broll/floor.mp4",
+        "startSec": 0
+      }
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "manure",
+      "spread",
+      "diversification",
+      "companies",
+      "industries",
+      "countries",
+      "haystack",
+      "needle",
+      "grow"
+    ]
+  },
+  "hook": {
+    "text": "MONEY IS LIKE MANURE",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "interstellar.mp3",
+    "volLow": 0.1,
+    "volHigh": 0.2,
+    "climaxSec": 3,
+    "startSec": 0
+  }
+}
