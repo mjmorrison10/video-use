@@ -6,7 +6,7 @@
    "inSec": 466.24,
    "outSec": 470.52,
    "offsetSec": 0.0,
-   "framing": "blur-contain",
+   "framing": "cover",
    "mute": false,
    "beat": "HOOK",
    "focus": [
@@ -227,18 +227,16 @@
     }
    ],
    "zoom": 1.0,
-   "crop": {
-    "x": 0.0,
-    "y": 0.3,
-    "w": 1.0,
-    "h": 0.575
+   "broll": {
+    "src": "broll/markets.mp4",
+    "startSec": 0
    }
   },
   {
    "inSec": 461.04,
    "outSec": 465.42,
    "offsetSec": 4.28,
-   "framing": "blur-contain",
+   "framing": "cover",
    "mute": false,
    "beat": "POINT",
    "focus": [
@@ -464,18 +462,16 @@
     }
    ],
    "zoom": 1.0,
-   "crop": {
-    "x": 0.0,
-    "y": 0.3,
-    "w": 1.0,
-    "h": 0.575
+   "broll": {
+    "src": "broll/cash.mp4",
+    "startSec": 0
    }
   },
   {
    "inSec": 470.72,
    "outSec": 474.22,
    "offsetSec": 8.66,
-   "framing": "blur-contain",
+   "framing": "cover",
    "mute": false,
    "beat": "POINT2",
    "focus": [
@@ -656,18 +652,16 @@
     }
    ],
    "zoom": 1.0,
-   "crop": {
-    "x": 0.0,
-    "y": 0.3,
-    "w": 1.0,
-    "h": 0.575
+   "broll": {
+    "src": "broll/gas.mp4",
+    "startSec": 0
    }
   },
   {
    "inSec": 477.46,
    "outSec": 480.26,
    "offsetSec": 12.16,
-   "framing": "blur-contain",
+   "framing": "cover",
    "mute": false,
    "beat": "REINFORCE",
    "focus": [
@@ -813,11 +807,9 @@
     }
    ],
    "zoom": 1.0,
-   "crop": {
-    "x": 0.0,
-    "y": 0.3,
-    "w": 1.0,
-    "h": 0.575
+   "broll": {
+    "src": "broll/consumer.mp4",
+    "startSec": 0
    }
   }
  ],
@@ -1103,7 +1095,7 @@
   "textColor": "white",
   "strokeColor": "black",
   "fontSize": 58,
-  "captionPosition": "bottom",
+  "captionPosition": "center",
   "uppercase": true,
   "powerWords": [
    "2022",

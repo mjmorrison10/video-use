@@ -6,7 +6,7 @@
    "inSec": 0.03,
    "outSec": 9.29,
    "offsetSec": 0.0,
-   "framing": "blur-contain",
+   "framing": "cover",
    "mute": false,
    "beat": "HOOK",
    "focus": [
@@ -476,13 +476,17 @@
      "py": 0.5
     }
    ],
-   "zoom": 1.0
+   "zoom": 1.0,
+   "broll": {
+    "src": "broll/floor.mp4",
+    "startSec": 0
+   }
   },
   {
    "inSec": 12.81,
    "outSec": 21.19,
    "offsetSec": 9.26,
-   "framing": "blur-contain",
+   "framing": "cover",
    "mute": false,
    "beat": "POINT",
    "focus": [
@@ -908,11 +912,9 @@
     }
    ],
    "zoom": 1.0,
-   "crop": {
-    "x": 0.0,
-    "y": 0.5,
-    "w": 1.0,
-    "h": 0.19
+   "broll": {
+    "src": "broll/cash.mp4",
+    "startSec": 0
    }
   },
   {
@@ -1644,7 +1646,7 @@
   "textColor": "white",
   "strokeColor": "black",
   "fontSize": 58,
-  "captionPosition": "bottom",
+  "captionPosition": "center",
   "uppercase": true,
   "powerWords": [
    "dumping",

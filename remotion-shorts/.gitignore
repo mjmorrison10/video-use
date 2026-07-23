@@ -9,3 +9,4 @@ public/music/
 *.log
 
 public/*.mp3
+public/broll/

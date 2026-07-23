@@ -4,14 +4,22 @@
   "segments": [
     {
       "inSec": 655.84,
-      "outSec": 665.22,
+      "outSec": 658.32,
       "beat": "HOOK",
-      "framing": "blur-contain",
-      "crop": {
-        "x": 0.0,
-        "y": 0.45,
-        "w": 1.0,
-        "h": 0.27
+      "framing": "cover",
+      "broll": {
+        "src": "broll/storm.mp4",
+        "startSec": 0
+      }
+    },
+    {
+      "inSec": 658.635,
+      "outSec": 665.22,
+      "beat": "HOOK2",
+      "framing": "cover",
+      "broll": {
+        "src": "broll/markets.mp4",
+        "startSec": 0
       }
     },
     {
@@ -24,17 +32,14 @@
       "inSec": 630.2,
       "outSec": 637.48,
       "beat": "REINFORCE",
-      "framing": "blur-contain",
-      "crop": {
-        "x": 0.0,
-        "y": 0.135,
-        "w": 1.0,
-        "h": 0.865
+      "framing": "cover",
+      "broll": {
+        "src": "broll/floor.mp4",
+        "startSec": 0
       }
     }
   ],
   "style": {
-    "captionPosition": "bottom",
     "powerWords": [
       "calm",
       "storm",

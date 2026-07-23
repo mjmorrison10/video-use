@@ -41,6 +41,17 @@ export const rangeSchema = z.object({
   // of the full frame). Use to drop the source's own burned-in caption band, e.g.
   // {x:0,y:0,w:1,h:0.78} keeps the top 78% and crops the bottom caption strip.
   crop: rectSchema.optional(),
+  // Optional B-ROLL overlay: replace this segment's VISUAL with an external clip
+  // (cover-cropped to fill 9:16) while the creator's narration audio still plays
+  // from the main source for [inSec,outSec]. Use for chart/graphic voiceover so
+  // the frame is always filled with real footage instead of a letterboxed graphic.
+  broll: z
+    .object({
+      src: z.string(), // filename in public/ (e.g. "broll/gas.mp4")
+      startSec: z.number().default(0), // trim into the b-roll clip
+      kenburns: z.number().default(1.08), // slow push-in end scale (1 = static)
+    })
+    .optional(),
 });
 
 // A caption "page" = one on-screen line of 2-3 words, output-timed (ms).

@@ -124,12 +124,52 @@ const SourceCrop: React.FC<{
   );
 };
 
+// Crossfade length (frames) between consecutive segments.
+const FADE = 7;
+
+type BRollT = { src: string; startSec: number; kenburns: number };
+
+// Full-frame B-ROLL: an external clip cover-cropped to fill 9:16, with a slow
+// Ken-Burns push so it never feels like a frozen still. Muted — narration audio
+// comes from the separate audio track in <Short>.
+const BRoll: React.FC<{
+  broll: BRollT;
+  fps: number;
+  xfLead: number;
+  durFrames: number;
+  grade?: string;
+}> = ({ broll, fps, xfLead, durFrames, grade }) => {
+  const frame = useCurrentFrame();
+  const endScale = broll.kenburns ?? 1.08;
+  const scale = interpolate(frame, [0, Math.max(1, durFrames)], [1, endScale], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
+  const startFrame = Math.max(0, Math.round((broll.startSec || 0) * fps) - xfLead);
+  return (
+    <AbsoluteFill style={{ backgroundColor: "black", overflow: "hidden" }}>
+      <OffthreadVideo
+        src={staticFile(broll.src)}
+        trimBefore={startFrame}
+        muted
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          objectPosition: "50% 50%",
+          transform: `scale(${scale})`,
+          filter: grade,
+        }}
+      />
+    </AbsoluteFill>
+  );
+};
+
 const Segment: React.FC<{
   videoSrc: string;
   inSec: number;
   outSec: number;
   framing: string;
-  mute: boolean;
   fps: number;
   focus: Range["focus"];
   zoom: number;
@@ -139,137 +179,81 @@ const Segment: React.FC<{
   grade?: string;
   crop?: Rect;
   splitTop?: number;
-}> = ({ videoSrc, inSec, outSec, framing, mute, fps, focus, zoom, pip, info, splitBg, grade, crop, splitTop }) => {
-  const trimBefore = Math.round(inSec * fps);
+  broll?: BRollT;
+  xfLead: number; // frames this segment starts EARLY to overlap the previous one
+  durFrames: number; // full sequence length (incl. the lead)
+}> = ({ videoSrc, inSec, outSec, framing, fps, focus, zoom, pip, info, splitBg, grade, crop, splitTop, broll, xfLead, durFrames }) => {
+  const frame = useCurrentFrame();
+  // Crossfade in over the overlap with the previous segment (or a clean open on
+  // the first segment). Video is always muted; audio is a separate track.
+  const opacity = interpolate(frame, [0, FADE], [0, 1], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
+  const trimBefore = Math.max(0, Math.round(inSec * fps) - xfLead);
   const trimAfter = Math.round(outSec * fps);
   const src = staticFile(videoSrc);
   const objectPosition = usePanPosition(focus);
 
-  // Split: person (PIP) COVER in the top band, info/graphic CONTAIN in the bottom.
-  if (framing === "split" && pip && info) {
+  let content: React.ReactNode;
+
+  if (broll) {
+    content = <BRoll broll={broll} fps={fps} xfLead={xfLead} durFrames={durFrames} grade={grade} />;
+  } else if (framing === "split" && pip && info) {
+    // Split: person (PIP) COVER in the top band, info/graphic CONTAIN in the bottom.
     const topH = splitTop ? Math.round(splitTop * OUT_H) : SPLIT_TOP_H;
-    return (
+    content = (
       <AbsoluteFill style={{ backgroundColor: splitBg ?? "black" }}>
-        <SourceCrop
-          src={src}
-          trimBefore={trimBefore}
-          trimAfter={trimAfter}
-          muted={mute}
-          boxTop={0}
-          boxW={OUT_W}
-          boxH={topH}
-          rect={pip}
-          fit="cover"
-          grade={grade}
-        />
-        <SourceCrop
-          src={src}
-          trimBefore={trimBefore}
-          trimAfter={trimAfter}
-          muted
-          boxTop={topH}
-          boxW={OUT_W}
-          boxH={OUT_H - topH}
-          rect={info}
-          fit="contain"
-          bg={splitBg ?? "#ffffff"}
-          grade={grade}
-        />
+        <SourceCrop src={src} trimBefore={trimBefore} trimAfter={trimAfter} muted boxTop={0} boxW={OUT_W} boxH={topH} rect={pip} fit="cover" grade={grade} />
+        <SourceCrop src={src} trimBefore={trimBefore} trimAfter={trimAfter} muted boxTop={topH} boxW={OUT_W} boxH={OUT_H - topH} rect={info} fit="contain" bg={splitBg ?? "#ffffff"} grade={grade} />
       </AbsoluteFill>
     );
-  }
-
-  if (framing === "blur-contain") {
-    return (
+  } else if (framing === "blur-contain") {
+    // Legacy path (kept for old job.jsons). New clips use B-roll or cover.
+    content = (
       <AbsoluteFill style={{ backgroundColor: "black" }}>
         <AbsoluteFill>
-          <OffthreadVideo
-            src={src}
-            trimBefore={trimBefore}
-            trimAfter={trimAfter}
-            muted
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              filter: "blur(40px) brightness(0.5)",
-              transform: "scale(1.15)",
-            }}
-          />
+          <OffthreadVideo src={src} trimBefore={trimBefore} trimAfter={trimAfter} muted style={{ width: "100%", height: "100%", objectFit: "cover", filter: "blur(40px) brightness(0.5)", transform: "scale(1.15)" }} />
         </AbsoluteFill>
         {crop ? (
-          // Contain only the cropped sub-rect (e.g. drop the source's browser
-          // chrome) over the blurred full-frame background.
-          <SourceCrop
-            src={src}
-            trimBefore={trimBefore}
-            trimAfter={trimAfter}
-            muted={mute}
-            boxTop={0}
-            boxW={OUT_W}
-            boxH={OUT_H}
-            rect={crop}
-            fit="contain"
-            bg="transparent"
-            grade={grade}
-          />
+          <SourceCrop src={src} trimBefore={trimBefore} trimAfter={trimAfter} muted boxTop={0} boxW={OUT_W} boxH={OUT_H} rect={crop} fit="contain" bg="transparent" grade={grade} />
         ) : (
           <AbsoluteFill style={{ justifyContent: "center" }}>
-            <OffthreadVideo
-              src={src}
-              trimBefore={trimBefore}
-              trimAfter={trimAfter}
-              muted={mute}
-              style={{ width: "100%", height: "auto", objectFit: "contain", filter: grade }}
-            />
+            <OffthreadVideo src={src} trimBefore={trimBefore} trimAfter={trimAfter} muted style={{ width: "100%", height: "auto", objectFit: "contain", filter: grade }} />
           </AbsoluteFill>
         )}
       </AbsoluteFill>
     );
-  }
-
-  // Cover with an explicit source crop (e.g. to drop the source's burned-in
-  // caption band). Centered — use for centered subjects.
-  if (framing === "cover" && crop) {
-    return (
+  } else if (framing === "cover" && crop) {
+    // Cover with an explicit source crop (drop a burned-in caption band, isolate
+    // a subject from a composite).
+    content = (
       <AbsoluteFill style={{ backgroundColor: "black" }}>
-        <SourceCrop
+        <SourceCrop src={src} trimBefore={trimBefore} trimAfter={trimAfter} muted boxTop={0} boxW={OUT_W} boxH={OUT_H} rect={crop} fit="cover" grade={grade} />
+      </AbsoluteFill>
+    );
+  } else {
+    content = (
+      <AbsoluteFill style={{ backgroundColor: "black", overflow: "hidden" }}>
+        <OffthreadVideo
           src={src}
           trimBefore={trimBefore}
           trimAfter={trimAfter}
-          muted={mute}
-          boxTop={0}
-          boxW={OUT_W}
-          boxH={OUT_H}
-          rect={crop}
-          fit="cover"
-          grade={grade}
+          muted
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            objectPosition,
+            filter: grade,
+            ...(zoom && zoom !== 1 ? { transform: `scale(${zoom})`, transformOrigin: objectPosition } : {}),
+          }}
         />
       </AbsoluteFill>
     );
   }
 
-  return (
-    <AbsoluteFill style={{ backgroundColor: "black", overflow: "hidden" }}>
-      <OffthreadVideo
-        src={src}
-        trimBefore={trimBefore}
-        trimAfter={trimAfter}
-        muted={mute}
-        style={{
-          width: "100%",
-          height: "100%",
-          objectFit: "cover",
-          objectPosition,
-          filter: grade,
-          // Extra zoom toward the focal point (fills the frame on composed shots).
-          ...(zoom && zoom !== 1
-            ? { transform: `scale(${zoom})`, transformOrigin: objectPosition }
-            : {}),
-        }}
-      />
-    </AbsoluteFill>
-  );
+  return <AbsoluteFill style={{ opacity }}>{content}</AbsoluteFill>;
 };
 
 export const Short: React.FC<ShortProps> = ({
@@ -296,17 +280,19 @@ export const Short: React.FC<ShortProps> = ({
 
   return (
     <AbsoluteFill style={{ backgroundColor: "black" }}>
+      {/* VIDEO layer — each segment crossfades into the next (starts FADE frames
+          early and fades its opacity in). All video is muted. */}
       {ranges.map((r, i) => {
-        const from = Math.round(r.offsetSec * fps);
+        const offset = Math.round(r.offsetSec * fps);
         const dur = Math.max(1, Math.round((r.outSec - r.inSec) * fps));
+        const xfLead = i > 0 ? FADE : 0;
         return (
-          <Sequence key={i} from={from} durationInFrames={dur} name={r.beat ?? `seg-${i}`}>
+          <Sequence key={i} from={offset - xfLead} durationInFrames={dur + xfLead} name={r.beat ?? `seg-${i}`}>
             <Segment
               videoSrc={videoSrc}
               inSec={r.inSec}
               outSec={r.outSec}
               framing={r.framing}
-              mute={r.mute}
               fps={fps}
               focus={r.focus}
               zoom={r.zoom}
@@ -316,6 +302,26 @@ export const Short: React.FC<ShortProps> = ({
               grade={style.grade}
               crop={r.crop}
               splitTop={r.splitTop}
+              broll={r.broll}
+              xfLead={xfLead}
+              durFrames={dur + xfLead}
+            />
+          </Sequence>
+        );
+      })}
+
+      {/* AUDIO layer — the creator's narration for each segment, hard-cut (no
+          crossfade), independent of the video so B-roll can cover freely. */}
+      {ranges.map((r, i) => {
+        if (r.mute) return null;
+        const offset = Math.round(r.offsetSec * fps);
+        const dur = Math.max(1, Math.round((r.outSec - r.inSec) * fps));
+        return (
+          <Sequence key={`aud-${i}`} from={offset} durationInFrames={dur}>
+            <Audio
+              src={staticFile(videoSrc)}
+              trimBefore={Math.round(r.inSec * fps)}
+              trimAfter={Math.round(r.outSec * fps)}
             />
           </Sequence>
         );

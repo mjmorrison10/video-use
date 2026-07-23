@@ -1,0 +1,11 @@
+{
+  "_note": "B-roll used in the Insiders $77B batch. Source: Pexels (free license). Files live in public/broll/ (gitignored, not committed). Re-download via the pexels video ids below if the workspace is reset.",
+  "clips": {
+    "floor.mp4":    {"query": "wall street",    "source": "pexels", "use": "clip1 hook (insiders dumping)"},
+    "cash.mp4":     {"query": "money",           "source": "pexels", "id": 5651777,  "use": "clip1 $77B / clip4 hourly earnings"},
+    "markets.mp4":  {"query": "trading",         "source": "pexels", "id": 38209367, "credit": "Rafael Minguet Delgado", "use": "clip2 VIX / clip4 2022 correction"},
+    "storm.mp4":    {"query": "storm",           "source": "pexels", "id": 17311357, "use": "clip2 calm before the storm"},
+    "gas.mp4":      {"query": "gas station",     "source": "pexels", "id": 35560146, "use": "clip4 energy prices"},
+    "consumer.mp4": {"query": "shopping",        "source": "pexels", "id": 7567908,  "use": "clip4 consumers cut back"}
+  }
+}

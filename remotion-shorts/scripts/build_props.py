@@ -160,6 +160,7 @@ def main() -> int:
             **({"splitBg": seg["splitBg"]} if seg.get("splitBg") else {}),
             **({"crop": seg["crop"]} if seg.get("crop") else {}),
             **({"splitTop": seg["splitTop"]} if seg.get("splitTop") is not None else {}),
+            **({"broll": seg["broll"]} if seg.get("broll") else {}),
         })
         last_we = a
         for w in words:

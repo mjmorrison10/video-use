@@ -6,53 +6,32 @@
       "inSec": 466.24,
       "outSec": 470.52,
       "beat": "HOOK",
-      "framing": "blur-contain",
-      "crop": {
-        "x": 0.0,
-        "y": 0.3,
-        "w": 1.0,
-        "h": 0.575
-      }
+      "framing": "cover",
+      "broll": { "src": "broll/markets.mp4", "startSec": 0 }
     },
     {
       "inSec": 461.04,
       "outSec": 465.42,
       "beat": "POINT",
-      "framing": "blur-contain",
-      "crop": {
-        "x": 0.0,
-        "y": 0.3,
-        "w": 1.0,
-        "h": 0.575
-      }
+      "framing": "cover",
+      "broll": { "src": "broll/cash.mp4", "startSec": 0 }
     },
     {
       "inSec": 470.72,
       "outSec": 474.22,
       "beat": "POINT2",
-      "framing": "blur-contain",
-      "crop": {
-        "x": 0.0,
-        "y": 0.3,
-        "w": 1.0,
-        "h": 0.575
-      }
+      "framing": "cover",
+      "broll": { "src": "broll/gas.mp4", "startSec": 0 }
     },
     {
       "inSec": 477.46,
       "outSec": 480.26,
       "beat": "REINFORCE",
-      "framing": "blur-contain",
-      "crop": {
-        "x": 0.0,
-        "y": 0.3,
-        "w": 1.0,
-        "h": 0.575
-      }
+      "framing": "cover",
+      "broll": { "src": "broll/consumer.mp4", "startSec": 0 }
     }
   ],
   "style": {
-    "captionPosition": "bottom",
     "powerWords": [
       "2022",
       "correction",
