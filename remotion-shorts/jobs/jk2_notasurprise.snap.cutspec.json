@@ -1,0 +1,64 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 1173.79,
+   "outSec": 1175.78,
+   "beat": "HOOK",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 1136.42,
+   "outSec": 1141.71,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 1142.26,
+   "outSec": 1152.83,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 1157.78,
+   "outSec": 1164.34,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 1168.98,
+   "outSec": 1173.88,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.5
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "media",
+   "surprise",
+   "condition",
+   "mind",
+   "lockdown",
+   "revolution",
+   "prepare",
+   "dangerous"
+  ]
+ },
+ "hook": {
+  "text": "IT'S NOT A SURPRISE",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "dark_knight_imagine_fire.mp3",
+  "volLow": 0.11,
+  "volHigh": 0.22,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

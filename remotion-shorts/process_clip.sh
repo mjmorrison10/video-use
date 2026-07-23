@@ -9,6 +9,10 @@ SNAP=/home/user/videos/jackkneel/snap_silence.py
 ( cd /home/user/videos/jackkneel && uv run --with numpy python "$SNAP" \
     /home/user/video-use/remotion-shorts/jobs/$c.cutspec.json \
     /home/user/video-use/remotion-shorts/jobs/$c.snap.cutspec.json 2>&1 | grep -vE "Installed|Prepared|Resolved|Audited|Downloading|Building|Built|warn|^\s*$" )
+# 1b) face-track the speaker -> per-segment cropX / crop-pan
+( cd /home/user/videos/jackkneel && uv run --with opencv-python-headless --with numpy python face_track.py \
+    /home/user/video-use/remotion-shorts/jobs/$c.snap.cutspec.json \
+    /home/user/videos/jackkneel/jackkneel.mp4 2>&1 | grep -vE "Installed|Prepared|Resolved|Audited|Downloading|Building|Built|WARN|^\s*$" )
 # 2) build props from snapped spec
 python3 scripts/build_props.py jobs/$c.snap.cutspec.json $TR -o jobs/$c.json 2>&1 | grep -iE "props|warn"
 # 3) localize source window

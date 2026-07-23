@@ -1,0 +1,59 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 6172.44,
+   "outSec": 6177.41,
+   "beat": "HOOK",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 6124.28,
+   "outSec": 6126.28,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 6127.53,
+   "outSec": 6152.7,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 6160.7,
+   "outSec": 6168.45,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.5
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "uk",
+   "britain",
+   "handler",
+   "romania",
+   "extradite",
+   "arrested",
+   "jail",
+   "bbc",
+   "failed",
+   "influence"
+  ]
+ },
+ "hook": {
+  "text": "ROMANIA WAS JUST THE ATTACK DOG",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

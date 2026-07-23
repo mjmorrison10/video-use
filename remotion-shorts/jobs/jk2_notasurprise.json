@@ -1,0 +1,597 @@
+{
+ "videoSrc": "jk2_notasurprise_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 37.62,
+   "outSec": 39.61,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "cropX": 0.5,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 0.25,
+   "outSec": 5.54,
+   "offsetSec": 1.99,
+   "framing": "cover",
+   "cropX": 0.5,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 6.09,
+   "outSec": 16.66,
+   "offsetSec": 7.28,
+   "framing": "cover",
+   "cropX": 0.5,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 21.61,
+   "outSec": 28.17,
+   "offsetSec": 17.85,
+   "framing": "cover",
+   "cropX": 0.5,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 32.81,
+   "outSec": 37.71,
+   "offsetSec": 24.41,
+   "framing": "cover",
+   "cropX": 0.5,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 130,
+   "endMs": 850,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " not"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 850,
+   "endMs": 1210,
+   "tokens": [
+    {
+     "text": " surprise"
+    }
+   ]
+  },
+  {
+   "startMs": 1390,
+   "endMs": 1710,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " not"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 1710,
+   "endMs": 1990,
+   "tokens": [
+    {
+     "text": " surprise"
+    }
+   ]
+  },
+  {
+   "startMs": 2050,
+   "endMs": 2750,
+   "tokens": [
+    {
+     "text": " Now"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 2750,
+   "endMs": 3290,
+   "tokens": [
+    {
+     "text": " anyone"
+    },
+    {
+     "text": " watching"
+    }
+   ]
+  },
+  {
+   "startMs": 3290,
+   "endMs": 4750,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 4750,
+   "endMs": 5650,
+   "tokens": [
+    {
+     "text": " media"
+    },
+    {
+     "text": " does"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 5650,
+   "endMs": 6290,
+   "tokens": [
+    {
+     "text": " tell"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 6290,
+   "endMs": 6930,
+   "tokens": [
+    {
+     "text": " what"
+    },
+    {
+     "text": " has"
+    }
+   ]
+  },
+  {
+   "startMs": 6930,
+   "endMs": 7280,
+   "tokens": [
+    {
+     "text": " happened"
+    }
+   ]
+  },
+  {
+   "startMs": 7340,
+   "endMs": 8120,
+   "tokens": [
+    {
+     "text": " The"
+    },
+    {
+     "text": " media's"
+    }
+   ]
+  },
+  {
+   "startMs": 8120,
+   "endMs": 9700,
+   "tokens": [
+    {
+     "text": " primary"
+    },
+    {
+     "text": " objective"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 9700,
+   "endMs": 10780,
+   "tokens": [
+    {
+     "text": " to"
+    },
+    {
+     "text": " prepare"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 10780,
+   "endMs": 11460,
+   "tokens": [
+    {
+     "text": " for"
+    },
+    {
+     "text": " what"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 11460,
+   "endMs": 12200,
+   "tokens": [
+    {
+     "text": " about"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 12200,
+   "endMs": 12620,
+   "tokens": [
+    {
+     "text": " happen"
+    }
+   ]
+  },
+  {
+   "startMs": 12620,
+   "endMs": 12700,
+   "tokens": [
+    {
+     "text": " happen"
+    }
+   ]
+  },
+  {
+   "startMs": 12960,
+   "endMs": 13760,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " need"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 13760,
+   "endMs": 14500,
+   "tokens": [
+    {
+     "text": " condition"
+    },
+    {
+     "text": " your"
+    }
+   ]
+  },
+  {
+   "startMs": 14500,
+   "endMs": 15560,
+   "tokens": [
+    {
+     "text": " mind"
+    },
+    {
+     "text": " so"
+    }
+   ]
+  },
+  {
+   "startMs": 15560,
+   "endMs": 15900,
+   "tokens": [
+    {
+     "text": " that"
+    },
+    {
+     "text": " when"
+    }
+   ]
+  },
+  {
+   "startMs": 15900,
+   "endMs": 16240,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " do"
+    }
+   ]
+  },
+  {
+   "startMs": 16240,
+   "endMs": 17240,
+   "tokens": [
+    {
+     "text": " something"
+    },
+    {
+     "text": " you're"
+    }
+   ]
+  },
+  {
+   "startMs": 17240,
+   "endMs": 17720,
+   "tokens": [
+    {
+     "text": " ready"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 17720,
+   "endMs": 17850,
+   "tokens": [
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 17910,
+   "endMs": 18510,
+   "tokens": [
+    {
+     "text": " If"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 18510,
+   "endMs": 19750,
+   "tokens": [
+    {
+     "text": " media"
+    },
+    {
+     "text": " constantly"
+    }
+   ]
+  },
+  {
+   "startMs": 19750,
+   "endMs": 20750,
+   "tokens": [
+    {
+     "text": " reports"
+    },
+    {
+     "text": " about"
+    },
+    {
+     "text": " how"
+    }
+   ]
+  },
+  {
+   "startMs": 20750,
+   "endMs": 21550,
+   "tokens": [
+    {
+     "text": " dangerous"
+    },
+    {
+     "text": " it"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 21650,
+   "endMs": 22350,
+   "tokens": [
+    {
+     "text": " how"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 22350,
+   "endMs": 23370,
+   "tokens": [
+    {
+     "text": " lockdown"
+    },
+    {
+     "text": " might"
+    }
+   ]
+  },
+  {
+   "startMs": 23370,
+   "endMs": 24030,
+   "tokens": [
+    {
+     "text": " need"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 24030,
+   "endMs": 24970,
+   "tokens": [
+    {
+     "text": " happen"
+    },
+    {
+     "text": " Over"
+    }
+   ]
+  },
+  {
+   "startMs": 24970,
+   "endMs": 26130,
+   "tokens": [
+    {
+     "text": " weeks"
+    },
+    {
+     "text": " your"
+    }
+   ]
+  },
+  {
+   "startMs": 26130,
+   "endMs": 27150,
+   "tokens": [
+    {
+     "text": " mind"
+    },
+    {
+     "text": " softens"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 27150,
+   "endMs": 27530,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " idea"
+    }
+   ]
+  },
+  {
+   "startMs": 27590,
+   "endMs": 27850,
+   "tokens": [
+    {
+     "text": " So"
+    },
+    {
+     "text": " when"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 27850,
+   "endMs": 28410,
+   "tokens": [
+    {
+     "text": " lockdown"
+    },
+    {
+     "text": " comes"
+    }
+   ]
+  },
+  {
+   "startMs": 28530,
+   "endMs": 28770,
+   "tokens": [
+    {
+     "text": " there's"
+    },
+    {
+     "text": " no"
+    }
+   ]
+  },
+  {
+   "startMs": 28770,
+   "endMs": 29090,
+   "tokens": [
+    {
+     "text": " revolution"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "dark_knight_imagine_fire.mp3",
+  "volLow": 0.11,
+  "volHigh": 0.22,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "media",
+   "surprise",
+   "condition",
+   "mind",
+   "lockdown",
+   "revolution",
+   "prepare",
+   "dangerous"
+  ]
+ },
+ "hook": {
+  "text": "IT'S NOT A SURPRISE",
+  "untilSec": 2.5
+ }
+}
