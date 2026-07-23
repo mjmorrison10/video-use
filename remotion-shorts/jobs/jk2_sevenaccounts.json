@@ -1,0 +1,872 @@
+{
+ "videoSrc": "jk2_sevenaccounts_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.25,
+   "outSec": 7.1,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "cropX": 0.504,
+   "cropXEnd": 0.359,
+   "cropPanSec": 6.85,
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 8.77,
+   "outSec": 12.73,
+   "offsetSec": 6.85,
+   "framing": "cover",
+   "cropX": 0.388,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 26.47,
+   "outSec": 28.24,
+   "offsetSec": 10.81,
+   "framing": "cover",
+   "cropX": 0.491,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 32.87,
+   "outSec": 40.13,
+   "offsetSec": 12.58,
+   "framing": "cover",
+   "cropX": 0.52,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 51.17,
+   "outSec": 56.6,
+   "offsetSec": 19.84,
+   "framing": "cover",
+   "cropX": 0.466,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 62.95,
+   "outSec": 71.92,
+   "offsetSec": 25.27,
+   "framing": "cover",
+   "cropX": 0.463,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 82.39,
+   "outSec": 90.83,
+   "offsetSec": 34.24,
+   "framing": "cover",
+   "cropX": 0.451,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 60,
+   "endMs": 660,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " start"
+    }
+   ]
+  },
+  {
+   "startMs": 660,
+   "endMs": 1400,
+   "tokens": [
+    {
+     "text": " moving"
+    },
+    {
+     "text": " from"
+    }
+   ]
+  },
+  {
+   "startMs": 1400,
+   "endMs": 2240,
+   "tokens": [
+    {
+     "text": " fringe"
+    },
+    {
+     "text": " internet"
+    }
+   ]
+  },
+  {
+   "startMs": 2240,
+   "endMs": 3760,
+   "tokens": [
+    {
+     "text": " celebrity"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 3760,
+   "endMs": 4480,
+   "tokens": [
+    {
+     "text": " mainstream"
+    },
+    {
+     "text": " celebrity"
+    }
+   ]
+  },
+  {
+   "startMs": 4660,
+   "endMs": 4840,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " start"
+    }
+   ]
+  },
+  {
+   "startMs": 4840,
+   "endMs": 5780,
+   "tokens": [
+    {
+     "text": " getting"
+    },
+    {
+     "text": " bigger"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 5780,
+   "endMs": 6400,
+   "tokens": [
+    {
+     "text": " bigger"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 6400,
+   "endMs": 6620,
+   "tokens": [
+    {
+     "text": " bigger"
+    }
+   ]
+  },
+  {
+   "startMs": 6850,
+   "endMs": 7470,
+   "tokens": [
+    {
+     "text": " my"
+    },
+    {
+     "text": " Instagram"
+    },
+    {
+     "text": " had"
+    }
+   ]
+  },
+  {
+   "startMs": 7470,
+   "endMs": 8010,
+   "tokens": [
+    {
+     "text": " 100"
+    },
+    {
+     "text": "000"
+    }
+   ]
+  },
+  {
+   "startMs": 8010,
+   "endMs": 8310,
+   "tokens": [
+    {
+     "text": " followers"
+    }
+   ]
+  },
+  {
+   "startMs": 8670,
+   "endMs": 9250,
+   "tokens": [
+    {
+     "text": " By"
+    },
+    {
+     "text": " this"
+    }
+   ]
+  },
+  {
+   "startMs": 9250,
+   "endMs": 9750,
+   "tokens": [
+    {
+     "text": " point"
+    },
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " up"
+    }
+   ]
+  },
+  {
+   "startMs": 9750,
+   "endMs": 10110,
+   "tokens": [
+    {
+     "text": " to"
+    },
+    {
+     "text": " like"
+    },
+    {
+     "text": " two"
+    }
+   ]
+  },
+  {
+   "startMs": 10110,
+   "endMs": 10310,
+   "tokens": [
+    {
+     "text": " or"
+    },
+    {
+     "text": " three"
+    }
+   ]
+  },
+  {
+   "startMs": 10310,
+   "endMs": 10550,
+   "tokens": [
+    {
+     "text": " million"
+    }
+   ]
+  },
+  {
+   "startMs": 10810,
+   "endMs": 11150,
+   "tokens": [
+    {
+     "text": " My"
+    },
+    {
+     "text": " girlfriend"
+    }
+   ]
+  },
+  {
+   "startMs": 11150,
+   "endMs": 11590,
+   "tokens": [
+    {
+     "text": " comes"
+    },
+    {
+     "text": " in"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 11590,
+   "endMs": 11890,
+   "tokens": [
+    {
+     "text": " goes"
+    },
+    {
+     "text": " have"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 11890,
+   "endMs": 12310,
+   "tokens": [
+    {
+     "text": " seen"
+    },
+    {
+     "text": " this"
+    }
+   ]
+  },
+  {
+   "startMs": 12580,
+   "endMs": 12780,
+   "tokens": [
+    {
+     "text": " it's"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 12780,
+   "endMs": 13080,
+   "tokens": [
+    {
+     "text": " picture"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 13080,
+   "endMs": 13240,
+   "tokens": [
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 13960,
+   "endMs": 14540,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " there's"
+    }
+   ]
+  },
+  {
+   "startMs": 14540,
+   "endMs": 15180,
+   "tokens": [
+    {
+     "text": " some"
+    },
+    {
+     "text": " blurb"
+    }
+   ]
+  },
+  {
+   "startMs": 15180,
+   "endMs": 15740,
+   "tokens": [
+    {
+     "text": " underneath"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 15740,
+   "endMs": 16640,
+   "tokens": [
+    {
+     "text": " about"
+    },
+    {
+     "text": " how"
+    },
+    {
+     "text": " I'm"
+    }
+   ]
+  },
+  {
+   "startMs": 16640,
+   "endMs": 17420,
+   "tokens": [
+    {
+     "text": " toxically"
+    },
+    {
+     "text": " masculine"
+    }
+   ]
+  },
+  {
+   "startMs": 17600,
+   "endMs": 17900,
+   "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 17900,
+   "endMs": 18600,
+   "tokens": [
+    {
+     "text": " misogynist"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 18600,
+   "endMs": 19340,
+   "tokens": [
+    {
+     "text": " racist"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 19340,
+   "endMs": 19760,
+   "tokens": [
+    {
+     "text": " homophobe"
+    }
+   ]
+  },
+  {
+   "startMs": 19900,
+   "endMs": 20700,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " it's"
+    },
+    {
+     "text": " on"
+    }
+   ]
+  },
+  {
+   "startMs": 20700,
+   "endMs": 21320,
+   "tokens": [
+    {
+     "text": " an"
+    },
+    {
+     "text": " NGO"
+    }
+   ]
+  },
+  {
+   "startMs": 21320,
+   "endMs": 23000,
+   "tokens": [
+    {
+     "text": " page"
+    },
+    {
+     "text": " for"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 23000,
+   "endMs": 24320,
+   "tokens": [
+    {
+     "text": " charity"
+    },
+    {
+     "text": " protecting"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 24320,
+   "endMs": 24720,
+   "tokens": [
+    {
+     "text": " rights"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 24720,
+   "endMs": 25140,
+   "tokens": [
+    {
+     "text": " gays"
+    }
+   ]
+  },
+  {
+   "startMs": 25270,
+   "endMs": 25690,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " same"
+    }
+   ]
+  },
+  {
+   "startMs": 25690,
+   "endMs": 27110,
+   "tokens": [
+    {
+     "text": " picture"
+    },
+    {
+     "text": " with"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 27110,
+   "endMs": 27990,
+   "tokens": [
+    {
+     "text": " same"
+    },
+    {
+     "text": " blurb"
+    }
+   ]
+  },
+  {
+   "startMs": 28450,
+   "endMs": 29430,
+   "tokens": [
+    {
+     "text": " explaining"
+    },
+    {
+     "text": " that"
+    },
+    {
+     "text": " I'm"
+    }
+   ]
+  },
+  {
+   "startMs": 29430,
+   "endMs": 29890,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " worst"
+    },
+    {
+     "text": " man"
+    }
+   ]
+  },
+  {
+   "startMs": 29890,
+   "endMs": 30030,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 30030,
+   "endMs": 30310,
+   "tokens": [
+    {
+     "text": " world"
+    }
+   ]
+  },
+  {
+   "startMs": 30410,
+   "endMs": 31030,
+   "tokens": [
+    {
+     "text": " Copy"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 31030,
+   "endMs": 31890,
+   "tokens": [
+    {
+     "text": " paste"
+    },
+    {
+     "text": " exact"
+    },
+    {
+     "text": " one"
+    }
+   ]
+  },
+  {
+   "startMs": 31990,
+   "endMs": 33150,
+   "tokens": [
+    {
+     "text": " on"
+    },
+    {
+     "text": " an"
+    },
+    {
+     "text": " NGO"
+    }
+   ]
+  },
+  {
+   "startMs": 33150,
+   "endMs": 34010,
+   "tokens": [
+    {
+     "text": " about"
+    },
+    {
+     "text": " wildlife"
+    }
+   ]
+  },
+  {
+   "startMs": 34010,
+   "endMs": 34240,
+   "tokens": [
+    {
+     "text": " protection"
+    }
+   ]
+  },
+  {
+   "startMs": 34300,
+   "endMs": 35400,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " find"
+    }
+   ]
+  },
+  {
+   "startMs": 35400,
+   "endMs": 35900,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " seven"
+    }
+   ]
+  },
+  {
+   "startMs": 35900,
+   "endMs": 36620,
+   "tokens": [
+    {
+     "text": " different"
+    },
+    {
+     "text": " accounts"
+    }
+   ]
+  },
+  {
+   "startMs": 36800,
+   "endMs": 38340,
+   "tokens": [
+    {
+     "text": " random"
+    },
+    {
+     "text": " accounts"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 38340,
+   "endMs": 39520,
+   "tokens": [
+    {
+     "text": " random"
+    },
+    {
+     "text": " charities"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 39520,
+   "endMs": 40920,
+   "tokens": [
+    {
+     "text": " NGOs"
+    },
+    {
+     "text": " posting"
+    }
+   ]
+  },
+  {
+   "startMs": 40920,
+   "endMs": 41400,
+   "tokens": [
+    {
+     "text": " that"
+    },
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 41400,
+   "endMs": 42200,
+   "tokens": [
+    {
+     "text": " worst"
+    },
+    {
+     "text": " person"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 42200,
+   "endMs": 42560,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " world"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "dark_knight_imagine_fire.mp3",
+  "volLow": 0.11,
+  "volHigh": 0.22,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "instagram",
+   "million",
+   "misogynist",
+   "racist",
+   "ngo",
+   "seven",
+   "copy",
+   "worst",
+   "charity"
+  ]
+ },
+ "hook": {
+  "text": "SUDDENLY I WAS THE WORST MAN ALIVE",
+  "untilSec": 2.5
+ }
+}

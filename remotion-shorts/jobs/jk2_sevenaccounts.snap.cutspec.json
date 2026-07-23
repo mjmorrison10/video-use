@@ -1,0 +1,81 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 1045.6,
+   "outSec": 1052.45,
+   "beat": "HOOK",
+   "framing": "cover",
+   "cropX": 0.504,
+   "cropXEnd": 0.359,
+   "cropPanSec": 6.85
+  },
+  {
+   "inSec": 1054.12,
+   "outSec": 1058.08,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.388
+  },
+  {
+   "inSec": 1071.82,
+   "outSec": 1073.59,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.491
+  },
+  {
+   "inSec": 1078.22,
+   "outSec": 1085.48,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.52
+  },
+  {
+   "inSec": 1096.52,
+   "outSec": 1101.95,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.466
+  },
+  {
+   "inSec": 1108.3,
+   "outSec": 1117.27,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.463
+  },
+  {
+   "inSec": 1127.74,
+   "outSec": 1136.18,
+   "beat": "PAYOFF",
+   "framing": "cover",
+   "cropX": 0.451
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "instagram",
+   "million",
+   "misogynist",
+   "racist",
+   "ngo",
+   "seven",
+   "copy",
+   "worst",
+   "charity"
+  ]
+ },
+ "hook": {
+  "text": "SUDDENLY I WAS THE WORST MAN ALIVE",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "dark_knight_imagine_fire.mp3",
+  "volLow": 0.11,
+  "volHigh": 0.22,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

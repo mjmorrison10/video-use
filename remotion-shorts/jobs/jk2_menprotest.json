@@ -1,0 +1,887 @@
+{
+ "videoSrc": "jk2_menprotest_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 39.85,
+   "outSec": 45.04,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "cropX": 0.463,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 0.25,
+   "outSec": 3.13,
+   "offsetSec": 5.19,
+   "framing": "cover",
+   "cropX": 0.396,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 5.09,
+   "outSec": 16.87,
+   "offsetSec": 8.07,
+   "framing": "cover",
+   "cropX": 0.029,
+   "cropXEnd": 0.514,
+   "cropPanSec": 11.78,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 45.71,
+   "outSec": 48.25,
+   "offsetSec": 19.85,
+   "framing": "cover",
+   "cropX": 0.441,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 48.87,
+   "outSec": 59.68,
+   "offsetSec": 22.39,
+   "framing": "cover",
+   "cropX": 0.487,
+   "cropXEnd": 0.348,
+   "cropPanSec": 10.81,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 74.73,
+   "outSec": 78.87,
+   "offsetSec": 33.2,
+   "framing": "cover",
+   "cropX": 0.37,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  },
+  {
+   "inSec": 80.46,
+   "outSec": 89.41,
+   "offsetSec": 37.34,
+   "framing": "cover",
+   "cropX": 0.388,
+   "cropXEnd": 1.0,
+   "cropPanSec": 8.95,
+   "mute": false,
+   "beat": "PAYOFF"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 120,
+   "endMs": 1080,
+   "tokens": [
+    {
+     "text": " When"
+    },
+    {
+     "text": " men"
+    },
+    {
+     "text": " get"
+    }
+   ]
+  },
+  {
+   "startMs": 1080,
+   "endMs": 2600,
+   "tokens": [
+    {
+     "text": " together"
+    },
+    {
+     "text": " it's"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 2600,
+   "endMs": 2920,
+   "tokens": [
+    {
+     "text": " called"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 2920,
+   "endMs": 3220,
+   "tokens": [
+    {
+     "text": " protest"
+    }
+   ]
+  },
+  {
+   "startMs": 3860,
+   "endMs": 4600,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " called"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 4600,
+   "endMs": 4900,
+   "tokens": [
+    {
+     "text": " revolution"
+    }
+   ]
+  },
+  {
+   "startMs": 5190,
+   "endMs": 5470,
+   "tokens": [
+    {
+     "text": " you"
+    },
+    {
+     "text": " know"
+    }
+   ]
+  },
+  {
+   "startMs": 5470,
+   "endMs": 5850,
+   "tokens": [
+    {
+     "text": " what"
+    },
+    {
+     "text": " happens"
+    }
+   ]
+  },
+  {
+   "startMs": 5850,
+   "endMs": 6290,
+   "tokens": [
+    {
+     "text": " when"
+    },
+    {
+     "text": " women"
+    },
+    {
+     "text": " are"
+    }
+   ]
+  },
+  {
+   "startMs": 6290,
+   "endMs": 6570,
+   "tokens": [
+    {
+     "text": " powerful"
+    }
+   ]
+  },
+  {
+   "startMs": 7370,
+   "endMs": 7810,
+   "tokens": [
+    {
+     "text": " Nothing"
+    }
+   ]
+  },
+  {
+   "startMs": 8070,
+   "endMs": 8370,
+   "tokens": [
+    {
+     "text": " if"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 8370,
+   "endMs": 8750,
+   "tokens": [
+    {
+     "text": " hundred"
+    },
+    {
+     "text": " thousand"
+    }
+   ]
+  },
+  {
+   "startMs": 8750,
+   "endMs": 9370,
+   "tokens": [
+    {
+     "text": " women"
+    },
+    {
+     "text": " march"
+    }
+   ]
+  },
+  {
+   "startMs": 9370,
+   "endMs": 9870,
+   "tokens": [
+    {
+     "text": " through"
+    },
+    {
+     "text": " this"
+    }
+   ]
+  },
+  {
+   "startMs": 9870,
+   "endMs": 10450,
+   "tokens": [
+    {
+     "text": " town"
+    },
+    {
+     "text": " right"
+    },
+    {
+     "text": " now"
+    }
+   ]
+  },
+  {
+   "startMs": 10450,
+   "endMs": 11230,
+   "tokens": [
+    {
+     "text": " and"
+    },
+    {
+     "text": " protest"
+    },
+    {
+     "text": " it's"
+    }
+   ]
+  },
+  {
+   "startMs": 11230,
+   "endMs": 11570,
+   "tokens": [
+    {
+     "text": " inconvenient"
+    }
+   ]
+  },
+  {
+   "startMs": 11850,
+   "endMs": 12370,
+   "tokens": [
+    {
+     "text": " If"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 12370,
+   "endMs": 13070,
+   "tokens": [
+    {
+     "text": " hundred"
+    },
+    {
+     "text": " thousand"
+    },
+    {
+     "text": " men"
+    }
+   ]
+  },
+  {
+   "startMs": 13070,
+   "endMs": 13510,
+   "tokens": [
+    {
+     "text": " march"
+    },
+    {
+     "text": " through"
+    }
+   ]
+  },
+  {
+   "startMs": 13510,
+   "endMs": 14050,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " town"
+    }
+   ]
+  },
+  {
+   "startMs": 14130,
+   "endMs": 16010,
+   "tokens": [
+    {
+     "text": " everything"
+    },
+    {
+     "text": " burns"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 16010,
+   "endMs": 16470,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " entire"
+    }
+   ]
+  },
+  {
+   "startMs": 16470,
+   "endMs": 17450,
+   "tokens": [
+    {
+     "text": " government"
+    },
+    {
+     "text": " changes"
+    }
+   ]
+  },
+  {
+   "startMs": 17810,
+   "endMs": 18530,
+   "tokens": [
+    {
+     "text": " Men"
+    },
+    {
+     "text": " can"
+    }
+   ]
+  },
+  {
+   "startMs": 18530,
+   "endMs": 18810,
+   "tokens": [
+    {
+     "text": " fight"
+    }
+   ]
+  },
+  {
+   "startMs": 18930,
+   "endMs": 19410,
+   "tokens": [
+    {
+     "text": " Men"
+    },
+    {
+     "text": " are"
+    }
+   ]
+  },
+  {
+   "startMs": 19410,
+   "endMs": 19730,
+   "tokens": [
+    {
+     "text": " armies"
+    }
+   ]
+  },
+  {
+   "startMs": 19910,
+   "endMs": 20830,
+   "tokens": [
+    {
+     "text": " Women"
+    },
+    {
+     "text": " don't"
+    },
+    {
+     "text": " do"
+    }
+   ]
+  },
+  {
+   "startMs": 20830,
+   "endMs": 21270,
+   "tokens": [
+    {
+     "text": " revolutions"
+    }
+   ]
+  },
+  {
+   "startMs": 21530,
+   "endMs": 22390,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " can't"
+    }
+   ]
+  },
+  {
+   "startMs": 22450,
+   "endMs": 23150,
+   "tokens": [
+    {
+     "text": " So"
+    },
+    {
+     "text": " they"
+    }
+   ]
+  },
+  {
+   "startMs": 23150,
+   "endMs": 24050,
+   "tokens": [
+    {
+     "text": " deliberately"
+    },
+    {
+     "text": " empower"
+    }
+   ]
+  },
+  {
+   "startMs": 24050,
+   "endMs": 25070,
+   "tokens": [
+    {
+     "text": " women"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 25070,
+   "endMs": 25790,
+   "tokens": [
+    {
+     "text": " subjugate"
+    },
+    {
+     "text": " men"
+    }
+   ]
+  },
+  {
+   "startMs": 26310,
+   "endMs": 26910,
+   "tokens": [
+    {
+     "text": " That's"
+    },
+    {
+     "text": " why"
+    }
+   ]
+  },
+  {
+   "startMs": 26910,
+   "endMs": 27890,
+   "tokens": [
+    {
+     "text": " masculinity"
+    },
+    {
+     "text": " has"
+    }
+   ]
+  },
+  {
+   "startMs": 27890,
+   "endMs": 28210,
+   "tokens": [
+    {
+     "text": " been"
+    },
+    {
+     "text": " under"
+    }
+   ]
+  },
+  {
+   "startMs": 28210,
+   "endMs": 28710,
+   "tokens": [
+    {
+     "text": " such"
+    },
+    {
+     "text": " attack"
+    }
+   ]
+  },
+  {
+   "startMs": 28910,
+   "endMs": 29350,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 29350,
+   "endMs": 30630,
+   "tokens": [
+    {
+     "text": " came"
+    },
+    {
+     "text": " along"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 30630,
+   "endMs": 30950,
+   "tokens": [
+    {
+     "text": " was"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 30950,
+   "endMs": 31470,
+   "tokens": [
+    {
+     "text": " most"
+    },
+    {
+     "text": " Googled"
+    },
+    {
+     "text": " man"
+    }
+   ]
+  },
+  {
+   "startMs": 31470,
+   "endMs": 31670,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 31670,
+   "endMs": 32310,
+   "tokens": [
+    {
+     "text": " world"
+    },
+    {
+     "text": " promoting"
+    }
+   ]
+  },
+  {
+   "startMs": 32310,
+   "endMs": 33640,
+   "tokens": [
+    {
+     "text": " masculinity"
+    },
+    {
+     "text": " And"
+    }
+   ]
+  },
+  {
+   "startMs": 33640,
+   "endMs": 33960,
+   "tokens": [
+    {
+     "text": " that"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 33960,
+   "endMs": 34660,
+   "tokens": [
+    {
+     "text": " considered"
+    },
+    {
+     "text": " so"
+    }
+   ]
+  },
+  {
+   "startMs": 34660,
+   "endMs": 35740,
+   "tokens": [
+    {
+     "text": " dangerous"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 35740,
+   "endMs": 36240,
+   "tokens": [
+    {
+     "text": " ended"
+    },
+    {
+     "text": " up"
+    },
+    {
+     "text": " on"
+    }
+   ]
+  },
+  {
+   "startMs": 36240,
+   "endMs": 36760,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " terror"
+    }
+   ]
+  },
+  {
+   "startMs": 36760,
+   "endMs": 37950,
+   "tokens": [
+    {
+     "text": " watch"
+    },
+    {
+     "text": " list"
+    },
+    {
+     "text": " And"
+    }
+   ]
+  },
+  {
+   "startMs": 37950,
+   "endMs": 38410,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " country"
+    }
+   ]
+  },
+  {
+   "startMs": 38410,
+   "endMs": 38870,
+   "tokens": [
+    {
+     "text": " that"
+    },
+    {
+     "text": " put"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 38870,
+   "endMs": 39110,
+   "tokens": [
+    {
+     "text": " on"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 39110,
+   "endMs": 39690,
+   "tokens": [
+    {
+     "text": " terror"
+    },
+    {
+     "text": " watch"
+    }
+   ]
+  },
+  {
+   "startMs": 39690,
+   "endMs": 40390,
+   "tokens": [
+    {
+     "text": " list"
+    },
+    {
+     "text": " do"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 40390,
+   "endMs": 40590,
+   "tokens": [
+    {
+     "text": " want"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 40470,
+   "endMs": 40630,
+   "tokens": [
+    {
+     "text": " guess"
+    }
+   ]
+  },
+  {
+   "startMs": 41730,
+   "endMs": 42390,
+   "tokens": [
+    {
+     "text": " U"
+    },
+    {
+     "text": "S"
+    }
+   ]
+  },
+  {
+   "startMs": 43270,
+   "endMs": 43910,
+   "tokens": [
+    {
+     "text": " Incorrect"
+    },
+    {
+     "text": " sir"
+    }
+   ]
+  },
+  {
+   "startMs": 45710,
+   "endMs": 46150,
+   "tokens": [
+    {
+     "text": " England"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "magnificent_seven.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "men",
+   "revolution",
+   "protest",
+   "women",
+   "masculinity",
+   "armies",
+   "terror",
+   "england",
+   "subjugate"
+  ]
+ },
+ "hook": {
+  "text": "MEN DON'T PROTEST. THEY REVOLT.",
+  "untilSec": 2.5
+ }
+}

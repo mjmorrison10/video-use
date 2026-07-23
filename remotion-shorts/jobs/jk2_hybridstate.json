@@ -1,0 +1,859 @@
+{
+ "videoSrc": "jk2_hybridstate_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 36.63,
+   "outSec": 40.09,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "cropX": 0.405,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 0.25,
+   "outSec": 2.08,
+   "offsetSec": 3.46,
+   "framing": "cover",
+   "cropX": 0.45,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 3.57,
+   "outSec": 9.81,
+   "offsetSec": 5.29,
+   "framing": "cover",
+   "cropX": 0.373,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 10.75,
+   "outSec": 13.18,
+   "offsetSec": 11.53,
+   "framing": "cover",
+   "cropX": 0.358,
+   "cropXEnd": 0.471,
+   "cropPanSec": 2.43,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 14.73,
+   "outSec": 22.15,
+   "offsetSec": 13.96,
+   "framing": "cover",
+   "cropX": 0.443,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 29.91,
+   "outSec": 36.39,
+   "offsetSec": 21.38,
+   "framing": "cover",
+   "cropX": 0.404,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 63.65,
+   "outSec": 66.18,
+   "offsetSec": 27.86,
+   "framing": "cover",
+   "cropX": 0.436,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 71.87,
+   "outSec": 73.53,
+   "offsetSec": 30.39,
+   "framing": "cover",
+   "cropX": 0.436,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  },
+  {
+   "inSec": 77.47,
+   "outSec": 79.56,
+   "offsetSec": 32.05,
+   "framing": "cover",
+   "cropX": 0.425,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  },
+  {
+   "inSec": 87.81,
+   "outSec": 88.83,
+   "offsetSec": 34.14,
+   "framing": "cover",
+   "cropX": 0.42,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 60,
+   "endMs": 620,
+   "tokens": [
+    {
+     "text": " That's"
+    },
+    {
+     "text": " not"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 620,
+   "endMs": 820,
+   "tokens": [
+    {
+     "text": " lie"
+    }
+   ]
+  },
+  {
+   "startMs": 880,
+   "endMs": 1100,
+   "tokens": [
+    {
+     "text": " Look"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 1100,
+   "endMs": 1240,
+   "tokens": [
+    {
+     "text": " up"
+    }
+   ]
+  },
+  {
+   "startMs": 1540,
+   "endMs": 2160,
+   "tokens": [
+    {
+     "text": " Romania"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 2160,
+   "endMs": 2640,
+   "tokens": [
+    {
+     "text": " considered"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 2640,
+   "endMs": 3380,
+   "tokens": [
+    {
+     "text": " hybrid"
+    },
+    {
+     "text": " state"
+    }
+   ]
+  },
+  {
+   "startMs": 3460,
+   "endMs": 3840,
+   "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " really"
+    }
+   ]
+  },
+  {
+   "startMs": 3840,
+   "endMs": 4420,
+   "tokens": [
+    {
+     "text": " excited"
+    },
+    {
+     "text": " for"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 4420,
+   "endMs": 5060,
+   "tokens": [
+    {
+     "text": " American"
+    },
+    {
+     "text": " embassy"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 5060,
+   "endMs": 5290,
+   "tokens": [
+    {
+     "text": " turn"
+    },
+    {
+     "text": " up"
+    }
+   ]
+  },
+  {
+   "startMs": 5350,
+   "endMs": 6090,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " walk"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 6090,
+   "endMs": 6210,
+   "tokens": [
+    {
+     "text": " there"
+    }
+   ]
+  },
+  {
+   "startMs": 6270,
+   "endMs": 6390,
+   "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " like"
+    }
+   ]
+  },
+  {
+   "startMs": 6410,
+   "endMs": 7330,
+   "tokens": [
+    {
+     "text": " guys"
+    },
+    {
+     "text": " thank"
+    }
+   ]
+  },
+  {
+   "startMs": 7330,
+   "endMs": 7590,
+   "tokens": [
+    {
+     "text": " fuck"
+    }
+   ]
+  },
+  {
+   "startMs": 7750,
+   "endMs": 8470,
+   "tokens": [
+    {
+     "text": " Real"
+    },
+    {
+     "text": " humans"
+    }
+   ]
+  },
+  {
+   "startMs": 8570,
+   "endMs": 8890,
+   "tokens": [
+    {
+     "text": " No"
+    },
+    {
+     "text": " more"
+    }
+   ]
+  },
+  {
+   "startMs": 8890,
+   "endMs": 9570,
+   "tokens": [
+    {
+     "text": " Romanians"
+    }
+   ]
+  },
+  {
+   "startMs": 10230,
+   "endMs": 10730,
+   "tokens": [
+    {
+     "text": " You're"
+    },
+    {
+     "text": " an"
+    }
+   ]
+  },
+  {
+   "startMs": 10730,
+   "endMs": 10930,
+   "tokens": [
+    {
+     "text": " American"
+    }
+   ]
+  },
+  {
+   "startMs": 10930,
+   "endMs": 11110,
+   "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " an"
+    }
+   ]
+  },
+  {
+   "startMs": 11110,
+   "endMs": 11450,
+   "tokens": [
+    {
+     "text": " American"
+    }
+   ]
+  },
+  {
+   "startMs": 11610,
+   "endMs": 12110,
+   "tokens": [
+    {
+     "text": " This"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 12110,
+   "endMs": 12550,
+   "tokens": [
+    {
+     "text": " bullshit"
+    }
+   ]
+  },
+  {
+   "startMs": 12830,
+   "endMs": 13310,
+   "tokens": [
+    {
+     "text": " U"
+    },
+    {
+     "text": "S"
+    }
+   ]
+  },
+  {
+   "startMs": 13310,
+   "endMs": 13670,
+   "tokens": [
+    {
+     "text": " Constitution"
+    }
+   ]
+  },
+  {
+   "startMs": 14120,
+   "endMs": 14540,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " they're"
+    }
+   ]
+  },
+  {
+   "startMs": 14540,
+   "endMs": 16960,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " yeah"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 16960,
+   "endMs": 17780,
+   "tokens": [
+    {
+     "text": " American"
+    },
+    {
+     "text": " government"
+    }
+   ]
+  },
+  {
+   "startMs": 17780,
+   "endMs": 19920,
+   "tokens": [
+    {
+     "text": " considers"
+    },
+    {
+     "text": " Romania"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 19920,
+   "endMs": 20440,
+   "tokens": [
+    {
+     "text": " be"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 20440,
+   "endMs": 21240,
+   "tokens": [
+    {
+     "text": " real"
+    },
+    {
+     "text": " legal"
+    }
+   ]
+  },
+  {
+   "startMs": 21240,
+   "endMs": 21960,
+   "tokens": [
+    {
+     "text": " system"
+    },
+    {
+     "text": " This"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 21960,
+   "endMs": 22580,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " setup"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 22580,
+   "endMs": 22920,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " corrupt"
+    }
+   ]
+  },
+  {
+   "startMs": 22920,
+   "endMs": 23300,
+   "tokens": [
+    {
+     "text": " dump"
+    }
+   ]
+  },
+  {
+   "startMs": 23560,
+   "endMs": 24040,
+   "tokens": [
+    {
+     "text": " We"
+    },
+    {
+     "text": " all"
+    }
+   ]
+  },
+  {
+   "startMs": 24040,
+   "endMs": 24400,
+   "tokens": [
+    {
+     "text": " know"
+    },
+    {
+     "text": " it's"
+    }
+   ]
+  },
+  {
+   "startMs": 24400,
+   "endMs": 24700,
+   "tokens": [
+    {
+     "text": " corrupt"
+    }
+   ]
+  },
+  {
+   "startMs": 24800,
+   "endMs": 25020,
+   "tokens": [
+    {
+     "text": " On"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 25020,
+   "endMs": 25720,
+   "tokens": [
+    {
+     "text": " corruption"
+    },
+    {
+     "text": " index"
+    }
+   ]
+  },
+  {
+   "startMs": 25940,
+   "endMs": 26240,
+   "tokens": [
+    {
+     "text": " we're"
+    },
+    {
+     "text": " at"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 26240,
+   "endMs": 26980,
+   "tokens": [
+    {
+     "text": " same"
+    },
+    {
+     "text": " level"
+    },
+    {
+     "text": " as"
+    }
+   ]
+  },
+  {
+   "startMs": 26980,
+   "endMs": 27700,
+   "tokens": [
+    {
+     "text": " Zambia"
+    }
+   ]
+  },
+  {
+   "startMs": 27920,
+   "endMs": 28360,
+   "tokens": [
+    {
+     "text": " He"
+    },
+    {
+     "text": " goes"
+    }
+   ]
+  },
+  {
+   "startMs": 28500,
+   "endMs": 29980,
+   "tokens": [
+    {
+     "text": " Andrew"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 29980,
+   "endMs": 30320,
+   "tokens": [
+    {
+     "text": " like"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 30390,
+   "endMs": 30770,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " think"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 30770,
+   "endMs": 30970,
+   "tokens": [
+    {
+     "text": " need"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 30970,
+   "endMs": 31350,
+   "tokens": [
+    {
+     "text": " prepare"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 31350,
+   "endMs": 31650,
+   "tokens": [
+    {
+     "text": " quite"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 31650,
+   "endMs": 31950,
+   "tokens": [
+    {
+     "text": " long"
+    },
+    {
+     "text": " stay"
+    }
+   ]
+  },
+  {
+   "startMs": 32430,
+   "endMs": 32990,
+   "tokens": [
+    {
+     "text": " nothing"
+    },
+    {
+     "text": " really"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 32990,
+   "endMs": 33510,
+   "tokens": [
+    {
+     "text": " American"
+    },
+    {
+     "text": " government's"
+    }
+   ]
+  },
+  {
+   "startMs": 33510,
+   "endMs": 33950,
+   "tokens": [
+    {
+     "text": " prepared"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " do"
+    }
+   ]
+  },
+  {
+   "startMs": 33950,
+   "endMs": 34140,
+   "tokens": [
+    {
+     "text": " for"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 34140,
+   "endMs": 34920,
+   "tokens": [
+    {
+     "text": " So"
+    },
+    {
+     "text": " here's"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 34800,
+   "endMs": 35100,
+   "tokens": [
+    {
+     "text": " leaflet"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "hybrid",
+   "zambia",
+   "corrupt",
+   "american",
+   "embassy",
+   "constitution",
+   "leaflet",
+   "setup"
+  ]
+ },
+ "hook": {
+  "text": "ROMANIA IS A HYBRID STATE",
+  "untilSec": 2.5
+ }
+}

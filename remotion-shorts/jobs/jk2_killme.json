@@ -1,0 +1,1009 @@
+{
+ "videoSrc": "jk2_killme_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 67.61,
+   "outSec": 69.21,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "cropX": 0.662,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 0.25,
+   "outSec": 6.35,
+   "offsetSec": 1.6,
+   "framing": "cover",
+   "cropX": 0.348,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 10.41,
+   "outSec": 23.47,
+   "offsetSec": 7.7,
+   "framing": "cover",
+   "cropX": 0.315,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 24.75,
+   "outSec": 28.11,
+   "offsetSec": 20.76,
+   "framing": "cover",
+   "cropX": 0.347,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 36.2,
+   "outSec": 39.89,
+   "offsetSec": 24.12,
+   "framing": "cover",
+   "cropX": 0.355,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 62.43,
+   "outSec": 65.37,
+   "offsetSec": 27.81,
+   "framing": "cover",
+   "cropX": 0.324,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 66.44,
+   "outSec": 72.59,
+   "offsetSec": 30.75,
+   "framing": "cover",
+   "cropX": 0.645,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 75.52,
+   "outSec": 85.64,
+   "offsetSec": 36.9,
+   "framing": "cover",
+   "cropX": 0.369,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 1140,
+   "tokens": [
+    {
+     "text": " you"
+    },
+    {
+     "text": " have"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 1140,
+   "endMs": 1600,
+   "tokens": [
+    {
+     "text": " kill"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 1600,
+   "endMs": 1780,
+   "tokens": [
+    {
+     "text": " just"
+    },
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 1780,
+   "endMs": 1960,
+   "tokens": [
+    {
+     "text": " away"
+    }
+   ]
+  },
+  {
+   "startMs": 2300,
+   "endMs": 2860,
+   "tokens": [
+    {
+     "text": " Just"
+    },
+    {
+     "text": " fuck"
+    }
+   ]
+  },
+  {
+   "startMs": 2860,
+   "endMs": 3100,
+   "tokens": [
+    {
+     "text": " off"
+    }
+   ]
+  },
+  {
+   "startMs": 3340,
+   "endMs": 3800,
+   "tokens": [
+    {
+     "text": " Just"
+    },
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 3800,
+   "endMs": 4460,
+   "tokens": [
+    {
+     "text": " away"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " all"
+    }
+   ]
+  },
+  {
+   "startMs": 4460,
+   "endMs": 4720,
+   "tokens": [
+    {
+     "text": " of"
+    },
+    {
+     "text": " this"
+    }
+   ]
+  },
+  {
+   "startMs": 4720,
+   "endMs": 4940,
+   "tokens": [
+    {
+     "text": " will"
+    },
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 4940,
+   "endMs": 5160,
+   "tokens": [
+    {
+     "text": " away"
+    }
+   ]
+  },
+  {
+   "startMs": 5320,
+   "endMs": 5660,
+   "tokens": [
+    {
+     "text": " If"
+    },
+    {
+     "text": " you"
+    },
+    {
+     "text": " go"
+    }
+   ]
+  },
+  {
+   "startMs": 5660,
+   "endMs": 6120,
+   "tokens": [
+    {
+     "text": " away"
+    },
+    {
+     "text": " for"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 6120,
+   "endMs": 6380,
+   "tokens": [
+    {
+     "text": " year"
+    },
+    {
+     "text": " no"
+    }
+   ]
+  },
+  {
+   "startMs": 6380,
+   "endMs": 6620,
+   "tokens": [
+    {
+     "text": " one's"
+    },
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 6620,
+   "endMs": 6960,
+   "tokens": [
+    {
+     "text": " care"
+    },
+    {
+     "text": " about"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 6960,
+   "endMs": 7360,
+   "tokens": [
+    {
+     "text": " case"
+    },
+    {
+     "text": " when"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 7360,
+   "endMs": 8080,
+   "tokens": [
+    {
+     "text": " gets"
+    },
+    {
+     "text": " dropped"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 8080,
+   "endMs": 8380,
+   "tokens": [
+    {
+     "text": " was"
+    },
+    {
+     "text": " like"
+    },
+    {
+     "text": " no"
+    }
+   ]
+  },
+  {
+   "startMs": 8420,
+   "endMs": 9640,
+   "tokens": [
+    {
+     "text": " you"
+    },
+    {
+     "text": " started"
+    }
+   ]
+  },
+  {
+   "startMs": 9640,
+   "endMs": 9880,
+   "tokens": [
+    {
+     "text": " this"
+    }
+   ]
+  },
+  {
+   "startMs": 11000,
+   "endMs": 12400,
+   "tokens": [
+    {
+     "text": " You"
+    },
+    {
+     "text": " started"
+    }
+   ]
+  },
+  {
+   "startMs": 12400,
+   "endMs": 12880,
+   "tokens": [
+    {
+     "text": " this"
+    }
+   ]
+  },
+  {
+   "startMs": 13300,
+   "endMs": 14440,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " had"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 14440,
+   "endMs": 15260,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " Shopify"
+    }
+   ]
+  },
+  {
+   "startMs": 15260,
+   "endMs": 15800,
+   "tokens": [
+    {
+     "text": " school"
+    }
+   ]
+  },
+  {
+   "startMs": 16180,
+   "endMs": 17080,
+   "tokens": [
+    {
+     "text": " You"
+    },
+    {
+     "text": " started"
+    }
+   ]
+  },
+  {
+   "startMs": 17080,
+   "endMs": 18280,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " because"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 18280,
+   "endMs": 18660,
+   "tokens": [
+    {
+     "text": " got"
+    },
+    {
+     "text": " too"
+    }
+   ]
+  },
+  {
+   "startMs": 18660,
+   "endMs": 19020,
+   "tokens": [
+    {
+     "text": " big"
+    }
+   ]
+  },
+  {
+   "startMs": 19120,
+   "endMs": 19720,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 19720,
+   "endMs": 20100,
+   "tokens": [
+    {
+     "text": " saying"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 20100,
+   "endMs": 20660,
+   "tokens": [
+    {
+     "text": " right"
+    },
+    {
+     "text": " thing"
+    }
+   ]
+  },
+  {
+   "startMs": 20780,
+   "endMs": 21200,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 21200,
+   "endMs": 21880,
+   "tokens": [
+    {
+     "text": " helping"
+    },
+    {
+     "text": " young"
+    },
+    {
+     "text": " men"
+    }
+   ]
+  },
+  {
+   "startMs": 21880,
+   "endMs": 22360,
+   "tokens": [
+    {
+     "text": " make"
+    },
+    {
+     "text": " money"
+    }
+   ]
+  },
+  {
+   "startMs": 22480,
+   "endMs": 23140,
+   "tokens": [
+    {
+     "text": " helping"
+    },
+    {
+     "text": " them"
+    }
+   ]
+  },
+  {
+   "startMs": 23140,
+   "endMs": 24550,
+   "tokens": [
+    {
+     "text": " resist"
+    },
+    {
+     "text": " enslavement"
+    },
+    {
+     "text": " You"
+    }
+   ]
+  },
+  {
+   "startMs": 24550,
+   "endMs": 25270,
+   "tokens": [
+    {
+     "text": " started"
+    },
+    {
+     "text": " this"
+    }
+   ]
+  },
+  {
+   "startMs": 25270,
+   "endMs": 25910,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " fight"
+    }
+   ]
+  },
+  {
+   "startMs": 26050,
+   "endMs": 26610,
+   "tokens": [
+    {
+     "text": " We're"
+    },
+    {
+     "text": " going"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 26610,
+   "endMs": 26890,
+   "tokens": [
+    {
+     "text": " see"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 26890,
+   "endMs": 27270,
+   "tokens": [
+    {
+     "text": " through"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 27270,
+   "endMs": 27770,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " end"
+    }
+   ]
+  },
+  {
+   "startMs": 28250,
+   "endMs": 28810,
+   "tokens": [
+    {
+     "text": " taken"
+    },
+    {
+     "text": " the"
+    },
+    {
+     "text": " one"
+    }
+   ]
+  },
+  {
+   "startMs": 28810,
+   "endMs": 29510,
+   "tokens": [
+    {
+     "text": " thing"
+    },
+    {
+     "text": " from"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 29510,
+   "endMs": 29790,
+   "tokens": [
+    {
+     "text": " that"
+    },
+    {
+     "text": " can"
+    }
+   ]
+  },
+  {
+   "startMs": 29790,
+   "endMs": 30130,
+   "tokens": [
+    {
+     "text": " make"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 30130,
+   "endMs": 31360,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " happy"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 31360,
+   "endMs": 31600,
+   "tokens": [
+    {
+     "text": " gonna"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 31600,
+   "endMs": 32460,
+   "tokens": [
+    {
+     "text": " kill"
+    },
+    {
+     "text": " myself"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 32460,
+   "endMs": 33060,
+   "tokens": [
+    {
+     "text": " have"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 33060,
+   "endMs": 34220,
+   "tokens": [
+    {
+     "text": " kill"
+    },
+    {
+     "text": " me"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 34220,
+   "endMs": 34980,
+   "tokens": [
+    {
+     "text": " want"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 34980,
+   "endMs": 35880,
+   "tokens": [
+    {
+     "text": " dead"
+    },
+    {
+     "text": " then"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 35880,
+   "endMs": 36240,
+   "tokens": [
+    {
+     "text": " have"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 36240,
+   "endMs": 36900,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " do"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 36950,
+   "endMs": 40200,
+   "tokens": [
+    {
+     "text": " and"
+    },
+    {
+     "text": " that's"
+    },
+    {
+     "text": " why"
+    }
+   ]
+  },
+  {
+   "startMs": 40200,
+   "endMs": 40920,
+   "tokens": [
+    {
+     "text": " i"
+    },
+    {
+     "text": " decided"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 40920,
+   "endMs": 42120,
+   "tokens": [
+    {
+     "text": " fight"
+    },
+    {
+     "text": " them"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 42120,
+   "endMs": 42600,
+   "tokens": [
+    {
+     "text": " because"
+    },
+    {
+     "text": " i'm"
+    }
+   ]
+  },
+  {
+   "startMs": 42600,
+   "endMs": 43640,
+   "tokens": [
+    {
+     "text": " brave"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 43640,
+   "endMs": 44000,
+   "tokens": [
+    {
+     "text": " because"
+    },
+    {
+     "text": " i"
+    }
+   ]
+  },
+  {
+   "startMs": 44000,
+   "endMs": 44380,
+   "tokens": [
+    {
+     "text": " believed"
+    },
+    {
+     "text": " i"
+    }
+   ]
+  },
+  {
+   "startMs": 44380,
+   "endMs": 45300,
+   "tokens": [
+    {
+     "text": " could"
+    },
+    {
+     "text": " win"
+    },
+    {
+     "text": " but"
+    }
+   ]
+  },
+  {
+   "startMs": 45300,
+   "endMs": 45820,
+   "tokens": [
+    {
+     "text": " because"
+    },
+    {
+     "text": " i"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 45820,
+   "endMs": 46300,
+   "tokens": [
+    {
+     "text": " just"
+    },
+    {
+     "text": " ready"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 46300,
+   "endMs": 46760,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " lose"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "zack_hemsey_the_way.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "kill",
+   "fight",
+   "started",
+   "war",
+   "lose",
+   "money",
+   "men",
+   "dead",
+   "brave"
+  ]
+ },
+ "hook": {
+  "text": "“YOU HAVE TO KILL ME”",
+  "untilSec": 2.5
+ }
+}

@@ -1,0 +1,710 @@
+{
+ "videoSrc": "jk2_rigged_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 60.59,
+   "outSec": 64.68,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "cropX": 0.451,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 0.25,
+   "outSec": 3.73,
+   "offsetSec": 4.09,
+   "framing": "cover",
+   "cropX": 0.311,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 6.87,
+   "outSec": 15.66,
+   "offsetSec": 7.57,
+   "framing": "cover",
+   "cropX": 0.318,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 21.67,
+   "outSec": 26.65,
+   "offsetSec": 16.36,
+   "framing": "cover",
+   "cropX": 0.286,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 43.11,
+   "outSec": 45.99,
+   "offsetSec": 21.34,
+   "framing": "cover",
+   "cropX": 0.392,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 50.11,
+   "outSec": 52.18,
+   "offsetSec": 24.22,
+   "framing": "cover",
+   "cropX": 0.412,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 58.05,
+   "outSec": 60.03,
+   "offsetSec": 26.29,
+   "framing": "cover",
+   "cropX": 0.437,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 64.95,
+   "outSec": 68.9,
+   "offsetSec": 28.27,
+   "framing": "cover",
+   "cropX": 0.296,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 98.37,
+   "outSec": 102.47,
+   "offsetSec": 32.22,
+   "framing": "cover",
+   "cropX": 0.363,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 360,
+   "endMs": 1340,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " Germany"
+    },
+    {
+     "text": " it's"
+    }
+   ]
+  },
+  {
+   "startMs": 1340,
+   "endMs": 1740,
+   "tokens": [
+    {
+     "text": " rigged"
+    }
+   ]
+  },
+  {
+   "startMs": 1760,
+   "endMs": 2400,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " let"
+    },
+    {
+     "text": " AFD"
+    }
+   ]
+  },
+  {
+   "startMs": 2400,
+   "endMs": 2700,
+   "tokens": [
+    {
+     "text": " win"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 2700,
+   "endMs": 3520,
+   "tokens": [
+    {
+     "text": " little"
+    },
+    {
+     "text": " bit"
+    },
+    {
+     "text": " but"
+    }
+   ]
+  },
+  {
+   "startMs": 3520,
+   "endMs": 3980,
+   "tokens": [
+    {
+     "text": " not"
+    },
+    {
+     "text": " properly"
+    }
+   ]
+  },
+  {
+   "startMs": 4150,
+   "endMs": 5290,
+   "tokens": [
+    {
+     "text": " He"
+    },
+    {
+     "text": " wins"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 5290,
+   "endMs": 6830,
+   "tokens": [
+    {
+     "text": " presidential"
+    },
+    {
+     "text": " election"
+    },
+    {
+     "text": " by"
+    }
+   ]
+  },
+  {
+   "startMs": 6830,
+   "endMs": 8150,
+   "tokens": [
+    {
+     "text": " a"
+    },
+    {
+     "text": " landslide"
+    },
+    {
+     "text": " And"
+    }
+   ]
+  },
+  {
+   "startMs": 8150,
+   "endMs": 8790,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " next"
+    },
+    {
+     "text": " day"
+    }
+   ]
+  },
+  {
+   "startMs": 8970,
+   "endMs": 10050,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " constitutional"
+    }
+   ]
+  },
+  {
+   "startMs": 10050,
+   "endMs": 10910,
+   "tokens": [
+    {
+     "text": " court"
+    },
+    {
+     "text": " court"
+    }
+   ]
+  },
+  {
+   "startMs": 10950,
+   "endMs": 12490,
+   "tokens": [
+    {
+     "text": " cancels"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 12490,
+   "endMs": 14030,
+   "tokens": [
+    {
+     "text": " election"
+    },
+    {
+     "text": " says"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 14030,
+   "endMs": 14990,
+   "tokens": [
+    {
+     "text": " was"
+    },
+    {
+     "text": " corrupted"
+    },
+    {
+     "text": " by"
+    }
+   ]
+  },
+  {
+   "startMs": 14990,
+   "endMs": 17060,
+   "tokens": [
+    {
+     "text": " Russian"
+    },
+    {
+     "text": " interference"
+    },
+    {
+     "text": " The"
+    }
+   ]
+  },
+  {
+   "startMs": 17060,
+   "endMs": 17960,
+   "tokens": [
+    {
+     "text": " prosecutor"
+    },
+    {
+     "text": " which"
+    }
+   ]
+  },
+  {
+   "startMs": 17960,
+   "endMs": 18560,
+   "tokens": [
+    {
+     "text": " sent"
+    },
+    {
+     "text": " him"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 18560,
+   "endMs": 19920,
+   "tokens": [
+    {
+     "text": " jail"
+    },
+    {
+     "text": " is"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 19920,
+   "endMs": 20980,
+   "tokens": [
+    {
+     "text": " same"
+    },
+    {
+     "text": " prosecutor"
+    },
+    {
+     "text": " as"
+    }
+   ]
+  },
+  {
+   "startMs": 20980,
+   "endMs": 21180,
+   "tokens": [
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 21340,
+   "endMs": 21780,
+   "tokens": [
+    {
+     "text": " only"
+    },
+    {
+     "text": " three"
+    }
+   ]
+  },
+  {
+   "startMs": 21780,
+   "endMs": 22340,
+   "tokens": [
+    {
+     "text": " countries"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 22340,
+   "endMs": 22940,
+   "tokens": [
+    {
+     "text": " history"
+    },
+    {
+     "text": " have"
+    }
+   ]
+  },
+  {
+   "startMs": 22940,
+   "endMs": 23680,
+   "tokens": [
+    {
+     "text": " undone"
+    },
+    {
+     "text": " an"
+    }
+   ]
+  },
+  {
+   "startMs": 23680,
+   "endMs": 24000,
+   "tokens": [
+    {
+     "text": " election"
+    }
+   ]
+  },
+  {
+   "startMs": 24280,
+   "endMs": 24840,
+   "tokens": [
+    {
+     "text": " That's"
+    },
+    {
+     "text": " how"
+    }
+   ]
+  },
+  {
+   "startMs": 24840,
+   "endMs": 25760,
+   "tokens": [
+    {
+     "text": " corrupt"
+    },
+    {
+     "text": " this"
+    }
+   ]
+  },
+  {
+   "startMs": 25760,
+   "endMs": 26290,
+   "tokens": [
+    {
+     "text": " shithole"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 26350,
+   "endMs": 27150,
+   "tokens": [
+    {
+     "text": " Every"
+    },
+    {
+     "text": " European"
+    }
+   ]
+  },
+  {
+   "startMs": 27150,
+   "endMs": 27950,
+   "tokens": [
+    {
+     "text": " country"
+    },
+    {
+     "text": " rigs"
+    },
+    {
+     "text": " its"
+    }
+   ]
+  },
+  {
+   "startMs": 27950,
+   "endMs": 28190,
+   "tokens": [
+    {
+     "text": " elections"
+    }
+   ]
+  },
+  {
+   "startMs": 28330,
+   "endMs": 29010,
+   "tokens": [
+    {
+     "text": " Marine"
+    },
+    {
+     "text": " Le"
+    },
+    {
+     "text": " Pen"
+    }
+   ]
+  },
+  {
+   "startMs": 29010,
+   "endMs": 30230,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " France"
+    },
+    {
+     "text": " she"
+    }
+   ]
+  },
+  {
+   "startMs": 30230,
+   "endMs": 30590,
+   "tokens": [
+    {
+     "text": " caught"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 30590,
+   "endMs": 31070,
+   "tokens": [
+    {
+     "text": " criminal"
+    },
+    {
+     "text": " case"
+    }
+   ]
+  },
+  {
+   "startMs": 31070,
+   "endMs": 31770,
+   "tokens": [
+    {
+     "text": " just"
+    },
+    {
+     "text": " before"
+    },
+    {
+     "text": " she"
+    }
+   ]
+  },
+  {
+   "startMs": 31770,
+   "endMs": 32110,
+   "tokens": [
+    {
+     "text": " could"
+    },
+    {
+     "text": " win"
+    }
+   ]
+  },
+  {
+   "startMs": 32280,
+   "endMs": 33140,
+   "tokens": [
+    {
+     "text": " The"
+    },
+    {
+     "text": " Romanians"
+    }
+   ]
+  },
+  {
+   "startMs": 33140,
+   "endMs": 33800,
+   "tokens": [
+    {
+     "text": " fucked"
+    },
+    {
+     "text": " up"
+    }
+   ]
+  },
+  {
+   "startMs": 33800,
+   "endMs": 34480,
+   "tokens": [
+    {
+     "text": " their"
+    },
+    {
+     "text": " rigging"
+    }
+   ]
+  },
+  {
+   "startMs": 34820,
+   "endMs": 35460,
+   "tokens": [
+    {
+     "text": " So"
+    },
+    {
+     "text": " they"
+    },
+    {
+     "text": " had"
+    }
+   ]
+  },
+  {
+   "startMs": 35460,
+   "endMs": 35900,
+   "tokens": [
+    {
+     "text": " to"
+    },
+    {
+     "text": " redo"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 35900,
+   "endMs": 36320,
+   "tokens": [
+    {
+     "text": " whole"
+    },
+    {
+     "text": " election"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "dark_knight_imagine_fire.mp3",
+  "volLow": 0.11,
+  "volHigh": 0.22,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "rigged",
+   "election",
+   "afd",
+   "corrupt",
+   "prosecutor",
+   "russian",
+   "vote",
+   "france"
+  ]
+ },
+ "hook": {
+  "text": "EVERY ELECTION IS RIGGED",
+  "untilSec": 2.5
+ }
+}
