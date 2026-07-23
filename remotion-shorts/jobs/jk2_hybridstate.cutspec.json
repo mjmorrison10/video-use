@@ -1,0 +1,95 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 3917.03,
+   "outSec": 3920.36,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3880.59,
+   "outSec": 3882.48,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3883.97,
+   "outSec": 3890.08,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3891.17,
+   "outSec": 3893.24,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3895.23,
+   "outSec": 3902.54,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3910.31,
+   "outSec": 3913.58,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3913.67,
+   "outSec": 3916.58,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3944.05,
+   "outSec": 3946.46,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3952.21,
+   "outSec": 3953.78,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3957.75,
+   "outSec": 3959.96,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3968.15,
+   "outSec": 3969.12,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "hybrid",
+   "zambia",
+   "corrupt",
+   "american",
+   "embassy",
+   "constitution",
+   "leaflet",
+   "setup"
+  ]
+ },
+ "hook": {
+  "text": "ROMANIA IS A HYBRID STATE",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

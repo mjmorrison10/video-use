@@ -1,0 +1,546 @@
+{
+ "videoSrc": "jk2_sueher_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 26.21,
+   "outSec": 28.52,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "cropX": 0.5,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 29.73,
+   "outSec": 30.85,
+   "offsetSec": 2.31,
+   "framing": "cover",
+   "cropX": 0.5,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 0.25,
+   "outSec": 9.72,
+   "offsetSec": 3.43,
+   "framing": "cover",
+   "cropX": 0.5,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 12.55,
+   "outSec": 26.04,
+   "offsetSec": 12.9,
+   "framing": "cover",
+   "cropX": 0.5,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 60,
+   "endMs": 760,
+   "tokens": [
+    {
+     "text": " Sue"
+    },
+    {
+     "text": " her"
+    }
+   ]
+  },
+  {
+   "startMs": 1360,
+   "endMs": 2020,
+   "tokens": [
+    {
+     "text": " Why"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 2370,
+   "endMs": 2850,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 2850,
+   "endMs": 3210,
+   "tokens": [
+    {
+     "text": " first"
+    },
+    {
+     "text": " thing"
+    },
+    {
+     "text": " we"
+    }
+   ]
+  },
+  {
+   "startMs": 3210,
+   "endMs": 3350,
+   "tokens": [
+    {
+     "text": " do"
+    }
+   ]
+  },
+  {
+   "startMs": 3490,
+   "endMs": 4350,
+   "tokens": [
+    {
+     "text": " No"
+    },
+    {
+     "text": " Romanian"
+    }
+   ]
+  },
+  {
+   "startMs": 4350,
+   "endMs": 6250,
+   "tokens": [
+    {
+     "text": " courts"
+    },
+    {
+     "text": " an"
+    }
+   ]
+  },
+  {
+   "startMs": 6250,
+   "endMs": 6970,
+   "tokens": [
+    {
+     "text": " American"
+    },
+    {
+     "text": " court"
+    }
+   ]
+  },
+  {
+   "startMs": 7030,
+   "endMs": 7170,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 7170,
+   "endMs": 7810,
+   "tokens": [
+    {
+     "text": " perfect"
+    },
+    {
+     "text": " but"
+    },
+    {
+     "text": " it's"
+    }
+   ]
+  },
+  {
+   "startMs": 7810,
+   "endMs": 8010,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " best"
+    }
+   ]
+  },
+  {
+   "startMs": 8010,
+   "endMs": 8430,
+   "tokens": [
+    {
+     "text": " chance"
+    },
+    {
+     "text": " we"
+    }
+   ]
+  },
+  {
+   "startMs": 8430,
+   "endMs": 8530,
+   "tokens": [
+    {
+     "text": " got"
+    }
+   ]
+  },
+  {
+   "startMs": 9030,
+   "endMs": 9530,
+   "tokens": [
+    {
+     "text": " So"
+    },
+    {
+     "text": " we"
+    },
+    {
+     "text": " got"
+    }
+   ]
+  },
+  {
+   "startMs": 9530,
+   "endMs": 9970,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " lawsuit"
+    }
+   ]
+  },
+  {
+   "startMs": 9970,
+   "endMs": 10930,
+   "tokens": [
+    {
+     "text": " against"
+    },
+    {
+     "text": " girl"
+    },
+    {
+     "text": " A"
+    }
+   ]
+  },
+  {
+   "startMs": 10930,
+   "endMs": 12610,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " Florida"
+    }
+   ]
+  },
+  {
+   "startMs": 12960,
+   "endMs": 13880,
+   "tokens": [
+    {
+     "text": " She"
+    },
+    {
+     "text": " lied"
+    }
+   ]
+  },
+  {
+   "startMs": 14200,
+   "endMs": 15240,
+   "tokens": [
+    {
+     "text": " She"
+    },
+    {
+     "text": " knows"
+    },
+    {
+     "text": " she"
+    }
+   ]
+  },
+  {
+   "startMs": 15240,
+   "endMs": 15580,
+   "tokens": [
+    {
+     "text": " lied"
+    }
+   ]
+  },
+  {
+   "startMs": 15780,
+   "endMs": 16460,
+   "tokens": [
+    {
+     "text": " The"
+    },
+    {
+     "text": " Romanian"
+    }
+   ]
+  },
+  {
+   "startMs": 16460,
+   "endMs": 16980,
+   "tokens": [
+    {
+     "text": " state"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 16980,
+   "endMs": 17300,
+   "tokens": [
+    {
+     "text": " corrupt"
+    }
+   ]
+  },
+  {
+   "startMs": 17520,
+   "endMs": 18140,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " stole"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 18140,
+   "endMs": 18800,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " stuff"
+    }
+   ]
+  },
+  {
+   "startMs": 18960,
+   "endMs": 19680,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " destroyed"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 19680,
+   "endMs": 20340,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " business"
+    }
+   ]
+  },
+  {
+   "startMs": 20540,
+   "endMs": 21260,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " destroyed"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 21260,
+   "endMs": 21800,
+   "tokens": [
+    {
+     "text": " mental"
+    },
+    {
+     "text": " health"
+    }
+   ]
+  },
+  {
+   "startMs": 21940,
+   "endMs": 22420,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " put"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 22420,
+   "endMs": 22560,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 22560,
+   "endMs": 23160,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " cell"
+    }
+   ]
+  },
+  {
+   "startMs": 23340,
+   "endMs": 23980,
+   "tokens": [
+    {
+     "text": " They've"
+    },
+    {
+     "text": " ruined"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 23980,
+   "endMs": 24360,
+   "tokens": [
+    {
+     "text": " reputation"
+    }
+   ]
+  },
+  {
+   "startMs": 24680,
+   "endMs": 25240,
+   "tokens": [
+    {
+     "text": " They"
+    },
+    {
+     "text": " kept"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 25240,
+   "endMs": 25500,
+   "tokens": [
+    {
+     "text": " from"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 25500,
+   "endMs": 26180,
+   "tokens": [
+    {
+     "text": " fucking"
+    },
+    {
+     "text": " kids"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "zack_hemsey_the_way.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "sue",
+   "lied",
+   "corrupt",
+   "american",
+   "court",
+   "florida",
+   "reputation",
+   "kids",
+   "destroyed",
+   "cell"
+  ]
+ },
+ "hook": {
+  "text": "SUE HER. WHY NOT?",
+  "untilSec": 2.5
+ }
+}

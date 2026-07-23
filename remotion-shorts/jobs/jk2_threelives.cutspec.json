@@ -1,0 +1,90 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 10390.3,
+   "outSec": 10393.17,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 10364.37,
+   "outSec": 10367.84,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 10369.07,
+   "outSec": 10372.24,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 10378.89,
+   "outSec": 10380.12,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 10380.15,
+   "outSec": 10380.64,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 10382.23,
+   "outSec": 10389.87,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 10393.76,
+   "outSec": 10396.59,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 10396.72,
+   "outSec": 10398.09,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 10423.38,
+   "outSec": 10427.19,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 10427.18,
+   "outSec": 10429.89,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "lucky",
+   "onlyfans",
+   "kill",
+   "jail",
+   "silence",
+   "hero",
+   "webcam",
+   "three",
+   "lives"
+  ]
+ },
+ "hook": {
+  "text": "THREE LIVES: SILENCE, JAIL, KILL",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "zack_hemsey_the_way.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

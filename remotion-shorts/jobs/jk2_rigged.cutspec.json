@@ -1,0 +1,83 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 9216.91,
+   "outSec": 9220.94,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9156.67,
+   "outSec": 9160.14,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9163.29,
+   "outSec": 9171.76,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9178.09,
+   "outSec": 9182.86,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9199.47,
+   "outSec": 9202.14,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9206.53,
+   "outSec": 9208.72,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9214.47,
+   "outSec": 9216.32,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9221.37,
+   "outSec": 9225.16,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 9254.79,
+   "outSec": 9258.84,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "rigged",
+   "election",
+   "afd",
+   "corrupt",
+   "prosecutor",
+   "russian",
+   "vote",
+   "france"
+  ]
+ },
+ "hook": {
+  "text": "EVERY ELECTION IS RIGGED",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "dark_knight_imagine_fire.mp3",
+  "volLow": 0.11,
+  "volHigh": 0.22,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

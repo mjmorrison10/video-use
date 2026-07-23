@@ -1,0 +1,115 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 6172.47,
+   "outSec": 6175.5,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 6176.15,
+   "outSec": 6177.22,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 6124.25,
+   "outSec": 6126.06,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 6127.67,
+   "outSec": 6128.58,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 6128.81,
+   "outSec": 6136.18,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 6136.39,
+   "outSec": 6142.06,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 6142.27,
+   "outSec": 6144.06,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 6144.19,
+   "outSec": 6145.48,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 6145.69,
+   "outSec": 6148.08,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 6148.07,
+   "outSec": 6151.16,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 6151.31,
+   "outSec": 6152.48,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 6160.67,
+   "outSec": 6163.48,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 6163.85,
+   "outSec": 6166.24,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 6167.07,
+   "outSec": 6168.4,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "uk",
+   "britain",
+   "handler",
+   "romania",
+   "extradite",
+   "arrested",
+   "jail",
+   "bbc",
+   "failed",
+   "influence"
+  ]
+ },
+ "hook": {
+  "text": "ROMANIA WAS JUST THE ATTACK DOG",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 2396.41,
+   "outSec": 2398.08,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 2366.83,
+   "outSec": 2369.14,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 2371.15,
+   "outSec": 2372.22,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 2379.99,
+   "outSec": 2382.12,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 2386.11,
+   "outSec": 2389.56,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 2393.45,
+   "outSec": 2396.32,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 2411.93,
+   "outSec": 2413.28,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 2413.51,
+   "outSec": 2414.76,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 2424.01,
+   "outSec": 2429.42,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 2431.83,
+   "outSec": 2434.96,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "million",
+   "land",
+   "electricity",
+   "shakedown",
+   "friends",
+   "romania",
+   "power",
+   "map"
+  ]
+ },
+ "hook": {
+  "text": "BUY THIS LAND. $7 MILLION.",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "sneaky.mp3",
+  "volLow": 0.11,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

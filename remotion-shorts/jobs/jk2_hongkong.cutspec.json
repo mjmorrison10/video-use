@@ -1,0 +1,65 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 10033.76,
+   "outSec": 10040.29,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 10040.28,
+   "outSec": 10043.83,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 10024.42,
+   "outSec": 10030.19,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 10044.28,
+   "outSec": 10048.67,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 10048.66,
+   "outSec": 10049.87,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 10049.86,
+   "outSec": 10052.63,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "hongkong",
+   "law",
+   "phones",
+   "password",
+   "england",
+   "influence",
+   "plane",
+   "brits"
+  ]
+ },
+ "hook": {
+  "text": "THEY CHANGED A LAW JUST FOR HIM",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 1005.05,
+   "outSec": 1008.18,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1001.91,
+   "outSec": 1004.02,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1009.33,
+   "outSec": 1014.74,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1019.85,
+   "outSec": 1026.86,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1027.81,
+   "outSec": 1030.6,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1031.69,
+   "outSec": 1033.52,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1035.95,
+   "outSec": 1037.62,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1037.83,
+   "outSec": 1040.08,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "july",
+   "closed",
+   "case",
+   "romania",
+   "feeling",
+   "april",
+   "raided"
+  ]
+ },
+ "hook": {
+  "text": "WHY IS THE CASE NOT CLOSED?",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

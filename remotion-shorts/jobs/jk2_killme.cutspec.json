@@ -1,0 +1,107 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 7910.95,
+   "outSec": 7912.6,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7843.59,
+   "outSec": 7847.16,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7847.31,
+   "outSec": 7849.74,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7853.81,
+   "outSec": 7858.94,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7859.35,
+   "outSec": 7861.86,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7862.23,
+   "outSec": 7866.72,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7868.11,
+   "outSec": 7871.44,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7879.63,
+   "outSec": 7883.2,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7905.71,
+   "outSec": 7908.76,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7909.71,
+   "outSec": 7916.0,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7918.91,
+   "outSec": 7926.73,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 7926.72,
+   "outSec": 7928.73,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "kill",
+   "fight",
+   "started",
+   "war",
+   "lose",
+   "money",
+   "men",
+   "dead",
+   "brave"
+  ]
+ },
+ "hook": {
+  "text": "“YOU HAVE TO KILL ME”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "zack_hemsey_the_way.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "cta": {
+  "text": "COMMENT “FIGHT”",
+  "sub": "for part 2 of the story",
+  "durSec": 2
+ }
+}

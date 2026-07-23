@@ -1,0 +1,96 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 1900.97,
+   "outSec": 1905.76,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1861.25,
+   "outSec": 1863.88,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1866.09,
+   "outSec": 1869.6,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1869.87,
+   "outSec": 1875.48,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1875.83,
+   "outSec": 1877.76,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1906.77,
+   "outSec": 1909.32,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1909.93,
+   "outSec": 1913.28,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1913.79,
+   "outSec": 1916.2,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1916.39,
+   "outSec": 1920.4,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1935.79,
+   "outSec": 1939.92,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1941.63,
+   "outSec": 1950.28,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "men",
+   "revolution",
+   "protest",
+   "women",
+   "masculinity",
+   "armies",
+   "terror",
+   "england",
+   "subjugate"
+  ]
+ },
+ "hook": {
+  "text": "MEN DON'T PROTEST. THEY REVOLT.",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "magnificent_seven.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 1045.63,
+   "outSec": 1050.06,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1050.23,
+   "outSec": 1052.2,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1054.09,
+   "outSec": 1057.8,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1071.79,
+   "outSec": 1073.3,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1078.19,
+   "outSec": 1083.04,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1083.21,
+   "outSec": 1085.38,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1096.55,
+   "outSec": 1101.8,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1108.27,
+   "outSec": 1113.32,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1113.41,
+   "outSec": 1117.42,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 1127.77,
+   "outSec": 1136.04,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "instagram",
+   "million",
+   "misogynist",
+   "racist",
+   "ngo",
+   "seven",
+   "copy",
+   "worst",
+   "charity"
+  ]
+ },
+ "hook": {
+  "text": "SUDDENLY I WAS THE WORST MAN ALIVE",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "dark_knight_imagine_fire.mp3",
+  "volLow": 0.11,
+  "volHigh": 0.22,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

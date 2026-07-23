@@ -1,0 +1,109 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 4647.14,
+   "outSec": 4649.11,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 4650.66,
+   "outSec": 4651.65,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 4621.18,
+   "outSec": 4624.67,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 4624.72,
+   "outSec": 4626.23,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 4626.72,
+   "outSec": 4630.31,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 4633.48,
+   "outSec": 4636.11,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 4636.3,
+   "outSec": 4637.83,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 4638.04,
+   "outSec": 4639.33,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 4639.48,
+   "outSec": 4640.87,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 4641.06,
+   "outSec": 4642.33,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 4642.46,
+   "outSec": 4643.69,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 4643.86,
+   "outSec": 4644.89,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 4645.2,
+   "outSec": 4646.71,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "sue",
+   "lied",
+   "corrupt",
+   "american",
+   "court",
+   "florida",
+   "reputation",
+   "kids",
+   "destroyed",
+   "cell"
+  ]
+ },
+ "hook": {
+  "text": "SUE HER. WHY NOT?",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "zack_hemsey_the_way.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

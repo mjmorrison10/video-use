@@ -25,7 +25,8 @@ pad_pre=float(args[2]) if len(args)>2 else 0.06
 pad_post=float(args[3]) if len(args)>3 else 0.09
 spec=json.load(open(INP))
 import os as _os
-tr=json.load(open('edit/transcript_hd.json' if _os.path.exists('edit/transcript_hd.json') else 'edit/transcript.json'))
+_TRP=next((p for p in ('edit/transcript_full.json','edit/transcript_hd.json','edit/transcript.json') if _os.path.exists(p)))
+tr=json.load(open(_TRP))
 words=[w for w in tr['words'] if w.get('start') is not None]
 W_s=np.array([w['start'] for w in words]); 
 lo=min(s['inSec'] for s in spec['segments']); hi=max(s['outSec'] for s in spec['segments'])

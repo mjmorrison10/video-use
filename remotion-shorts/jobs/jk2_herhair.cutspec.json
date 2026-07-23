@@ -1,0 +1,77 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 2993.29,
+   "outSec": 2995.08,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 2990.17,
+   "outSec": 2992.24,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 2996.45,
+   "outSec": 3001.96,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3002.37,
+   "outSec": 3009.76,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3012.13,
+   "outSec": 3017.47,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3018.0,
+   "outSec": 3021.45,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3025.83,
+   "outSec": 3027.14,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 3037.43,
+   "outSec": 3038.54,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "trafficking",
+   "hair",
+   "gunpoint",
+   "bugatti",
+   "assets",
+   "cars",
+   "bed",
+   "money"
+  ]
+ },
+ "hook": {
+  "text": "“WE'VE DONE THIS ALREADY”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

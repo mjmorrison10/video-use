@@ -1,0 +1,89 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 831.07,
+   "outSec": 835.98,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 836.63,
+   "outSec": 839.6,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 829.65,
+   "outSec": 831.08,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 840.83,
+   "outSec": 843.98,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 845.29,
+   "outSec": 846.64,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 847.15,
+   "outSec": 848.58,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 864.81,
+   "outSec": 868.14,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 853.81,
+   "outSec": 855.94,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 873.33,
+   "outSec": 875.94,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 876.03,
+   "outSec": 877.52,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "protocol",
+   "crime",
+   "kidnapped",
+   "muscle",
+   "trafficking",
+   "slander",
+   "media",
+   "embassy"
+  ]
+ },
+ "hook": {
+  "text": "“WHO HAVE I KIDNAPPED?”",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 8323.37,
+   "outSec": 8327.54,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 8276.61,
+   "outSec": 8281.16,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 8281.69,
+   "outSec": 8286.68,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 8286.79,
+   "outSec": 8291.7,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 8291.81,
+   "outSec": 8294.7,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 8307.33,
+   "outSec": 8314.06,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 8316.51,
+   "outSec": 8320.0,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 8320.45,
+   "outSec": 8322.88,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 8327.63,
+   "outSec": 8330.4,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "billion",
+   "corrupt",
+   "shithole",
+   "guilty",
+   "zambia",
+   "romania",
+   "imprisoned",
+   "dollars"
+  ]
+ },
+ "hook": {
+  "text": "THEY OWE HIM A BILLION DOLLARS",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}

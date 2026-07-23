@@ -1,0 +1,77 @@
+{
+ "videoSrc": "jk_proxy.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 5753.31,
+   "outSec": 5760.22,
+   "beat": "HOOK",
+   "framing": "cover"
+  },
+  {
+   "inSec": 5765.87,
+   "outSec": 5768.84,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 5769.63,
+   "outSec": 5773.74,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 5775.49,
+   "outSec": 5779.43,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 5780.88,
+   "outSec": 5784.23,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 5787.46,
+   "outSec": 5794.13,
+   "beat": "POINT",
+   "framing": "cover"
+  },
+  {
+   "inSec": 5795.58,
+   "outSec": 5797.73,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  },
+  {
+   "inSec": 5797.72,
+   "outSec": 5799.29,
+   "beat": "PAYOFF",
+   "framing": "cover"
+  }
+ ],
+ "style": {
+  "powerWords": [
+   "porsche",
+   "mclaren",
+   "euro",
+   "portugal",
+   "rented",
+   "genius",
+   "cars",
+   "decot"
+  ]
+ },
+ "hook": {
+  "text": "A EURO A WEEK FOR A MCLAREN",
+  "untilSec": 2.5
+ },
+ "music": {
+  "src": "sneaky.mp3",
+  "volLow": 0.11,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ }
+}
