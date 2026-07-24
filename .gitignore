@@ -58,3 +58,6 @@ master.srt
 takes_packed.md
 edl.json
 project.md
+
+# Round-3 regenerable render artifacts (source of truth is jobs/jk2_*.cutspec.json)
+remotion-shorts/jobs/*.snap.cutspec.json
