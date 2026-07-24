@@ -98,5 +98,15 @@
   "volHigh": 0.22,
   "climaxSec": null,
   "startSec": 0
- }
+ },
+ "broll": [
+  {
+   "src": "broll_dubai.mp4",
+   "atSec": 17.0,
+   "durSec": 1.9,
+   "trimBefore": 0.3,
+   "framing": "cover",
+   "label": "Dubai"
+  }
+ ]
 }
