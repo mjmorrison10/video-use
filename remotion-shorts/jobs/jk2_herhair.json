@@ -1,0 +1,713 @@
+{
+ "videoSrc": "jk2_herhair_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 3.43,
+   "outSec": 5.49,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "cropX": 0.418,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 0.25,
+   "outSec": 2.37,
+   "offsetSec": 2.06,
+   "framing": "cover",
+   "cropX": 0.429,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 6.59,
+   "outSec": 20.05,
+   "offsetSec": 4.18,
+   "framing": "cover",
+   "cropX": 0.488,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 22.21,
+   "outSec": 31.66,
+   "offsetSec": 17.64,
+   "framing": "cover",
+   "cropX": 0.435,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 35.91,
+   "outSec": 37.55,
+   "offsetSec": 27.09,
+   "framing": "cover",
+   "cropX": 0.429,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  },
+  {
+   "inSec": 47.66,
+   "outSec": 48.67,
+   "offsetSec": 28.73,
+   "framing": "cover",
+   "cropX": 0.0,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 540,
+   "tokens": [
+    {
+     "text": " we've"
+    },
+    {
+     "text": " fucking"
+    }
+   ]
+  },
+  {
+   "startMs": 540,
+   "endMs": 1260,
+   "tokens": [
+    {
+     "text": " done"
+    },
+    {
+     "text": " this"
+    }
+   ]
+  },
+  {
+   "startMs": 1260,
+   "endMs": 1780,
+   "tokens": [
+    {
+     "text": " already"
+    }
+   ]
+  },
+  {
+   "startMs": 2120,
+   "endMs": 2680,
+   "tokens": [
+    {
+     "text": " Eventually"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 2680,
+   "endMs": 3260,
+   "tokens": [
+    {
+     "text": " detective"
+    },
+    {
+     "text": " says"
+    }
+   ]
+  },
+  {
+   "startMs": 3300,
+   "endMs": 3660,
+   "tokens": [
+    {
+     "text": " we're"
+    },
+    {
+     "text": " here"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 3660,
+   "endMs": 4180,
+   "tokens": [
+    {
+     "text": " human"
+    },
+    {
+     "text": " trafficking"
+    }
+   ]
+  },
+  {
+   "startMs": 4180,
+   "endMs": 4420,
+   "tokens": [
+    {
+     "text": " if"
+    },
+    {
+     "text": " you're"
+    }
+   ]
+  },
+  {
+   "startMs": 4420,
+   "endMs": 4620,
+   "tokens": [
+    {
+     "text": " here"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 4620,
+   "endMs": 5880,
+   "tokens": [
+    {
+     "text": " human"
+    },
+    {
+     "text": " trafficking"
+    },
+    {
+     "text": " why"
+    }
+   ]
+  },
+  {
+   "startMs": 5880,
+   "endMs": 6520,
+   "tokens": [
+    {
+     "text": " is"
+    },
+    {
+     "text": " it"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 6520,
+   "endMs": 7060,
+   "tokens": [
+    {
+     "text": " girl"
+    },
+    {
+     "text": " who"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 7060,
+   "endMs": 7740,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " my"
+    },
+    {
+     "text": " bed"
+    }
+   ]
+  },
+  {
+   "startMs": 7920,
+   "endMs": 8880,
+   "tokens": [
+    {
+     "text": " you"
+    },
+    {
+     "text": " didn't"
+    },
+    {
+     "text": " ask"
+    }
+   ]
+  },
+  {
+   "startMs": 8880,
+   "endMs": 9380,
+   "tokens": [
+    {
+     "text": " if"
+    },
+    {
+     "text": " she's"
+    }
+   ]
+  },
+  {
+   "startMs": 9380,
+   "endMs": 9680,
+   "tokens": [
+    {
+     "text": " okay"
+    }
+   ]
+  },
+  {
+   "startMs": 10100,
+   "endMs": 10740,
+   "tokens": [
+    {
+     "text": " You"
+    },
+    {
+     "text": " fucking"
+    }
+   ]
+  },
+  {
+   "startMs": 10740,
+   "endMs": 11640,
+   "tokens": [
+    {
+     "text": " dragged"
+    },
+    {
+     "text": " her"
+    },
+    {
+     "text": " by"
+    }
+   ]
+  },
+  {
+   "startMs": 11640,
+   "endMs": 12760,
+   "tokens": [
+    {
+     "text": " her"
+    },
+    {
+     "text": " hair"
+    },
+    {
+     "text": " out"
+    }
+   ]
+  },
+  {
+   "startMs": 12760,
+   "endMs": 13380,
+   "tokens": [
+    {
+     "text": " of"
+    },
+    {
+     "text": " the"
+    },
+    {
+     "text": " bed"
+    }
+   ]
+  },
+  {
+   "startMs": 13380,
+   "endMs": 14540,
+   "tokens": [
+    {
+     "text": " and"
+    },
+    {
+     "text": " forced"
+    },
+    {
+     "text": " her"
+    }
+   ]
+  },
+  {
+   "startMs": 14540,
+   "endMs": 14860,
+   "tokens": [
+    {
+     "text": " onto"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 14860,
+   "endMs": 15240,
+   "tokens": [
+    {
+     "text": " ground"
+    },
+    {
+     "text": " at"
+    }
+   ]
+  },
+  {
+   "startMs": 15240,
+   "endMs": 16400,
+   "tokens": [
+    {
+     "text": " gunpoint"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 16400,
+   "endMs": 17020,
+   "tokens": [
+    {
+     "text": " asked"
+    },
+    {
+     "text": " about"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 17020,
+   "endMs": 17480,
+   "tokens": [
+    {
+     "text": " Bugatti"
+    }
+   ]
+  },
+  {
+   "startMs": 17700,
+   "endMs": 18420,
+   "tokens": [
+    {
+     "text": " We"
+    },
+    {
+     "text": " need"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 18420,
+   "endMs": 18760,
+   "tokens": [
+    {
+     "text": " take"
+    },
+    {
+     "text": " your"
+    }
+   ]
+  },
+  {
+   "startMs": 18760,
+   "endMs": 19180,
+   "tokens": [
+    {
+     "text": " assets"
+    }
+   ]
+  },
+  {
+   "startMs": 21690,
+   "endMs": 22190,
+   "tokens": [
+    {
+     "text": " But"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 22190,
+   "endMs": 22430,
+   "tokens": [
+    {
+     "text": " thought"
+    },
+    {
+     "text": " we're"
+    }
+   ]
+  },
+  {
+   "startMs": 22430,
+   "endMs": 22570,
+   "tokens": [
+    {
+     "text": " here"
+    },
+    {
+     "text": " for"
+    }
+   ]
+  },
+  {
+   "startMs": 22570,
+   "endMs": 23030,
+   "tokens": [
+    {
+     "text": " human"
+    },
+    {
+     "text": " trafficking"
+    }
+   ]
+  },
+  {
+   "startMs": 23210,
+   "endMs": 23670,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 23670,
+   "endMs": 24010,
+   "tokens": [
+    {
+     "text": " girl"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 24010,
+   "endMs": 24410,
+   "tokens": [
+    {
+     "text": " find"
+    },
+    {
+     "text": " in"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 24410,
+   "endMs": 24710,
+   "tokens": [
+    {
+     "text": " house"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 24710,
+   "endMs": 25090,
+   "tokens": [
+    {
+     "text": " beat"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 25090,
+   "endMs": 25670,
+   "tokens": [
+    {
+     "text": " fuck"
+    },
+    {
+     "text": " out"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 25670,
+   "endMs": 25950,
+   "tokens": [
+    {
+     "text": " and"
+    },
+    {
+     "text": " start"
+    }
+   ]
+  },
+  {
+   "startMs": 25950,
+   "endMs": 26370,
+   "tokens": [
+    {
+     "text": " asking"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 26370,
+   "endMs": 26670,
+   "tokens": [
+    {
+     "text": " about"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 26670,
+   "endMs": 27010,
+   "tokens": [
+    {
+     "text": " cars"
+    }
+   ]
+  },
+  {
+   "startMs": 27150,
+   "endMs": 27730,
+   "tokens": [
+    {
+     "text": " This"
+    },
+    {
+     "text": " time"
+    }
+   ]
+  },
+  {
+   "startMs": 27730,
+   "endMs": 28110,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " take"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 28110,
+   "endMs": 28450,
+   "tokens": [
+    {
+     "text": " car"
+    },
+    {
+     "text": " keys"
+    }
+   ]
+  },
+  {
+   "startMs": 28880,
+   "endMs": 29380,
+   "tokens": [
+    {
+     "text": " they"
+    },
+    {
+     "text": " take"
+    },
+    {
+     "text": " all"
+    }
+   ]
+  },
+  {
+   "startMs": 29380,
+   "endMs": 29740,
+   "tokens": [
+    {
+     "text": " the"
+    },
+    {
+     "text": " cars"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "tension_compilation.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "trafficking",
+   "hair",
+   "gunpoint",
+   "bugatti",
+   "assets",
+   "cars",
+   "bed",
+   "money"
+  ]
+ },
+ "hook": {
+  "text": "“WE'VE DONE THIS ALREADY”",
+  "untilSec": 2.5
+ }
+}

@@ -1,0 +1,710 @@
+{
+ "videoSrc": "jk2_threelives_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 26.18,
+   "outSec": 29.38,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "cropX": 0.395,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 0.25,
+   "outSec": 3.77,
+   "offsetSec": 3.2,
+   "framing": "cover",
+   "cropX": 0.367,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 4.95,
+   "outSec": 8.23,
+   "offsetSec": 6.72,
+   "framing": "cover",
+   "cropX": 0.392,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 14.77,
+   "outSec": 16.59,
+   "offsetSec": 10.0,
+   "framing": "cover",
+   "cropX": 0.366,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 18.11,
+   "outSec": 26.05,
+   "offsetSec": 11.82,
+   "framing": "cover",
+   "cropX": 0.368,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 29.64,
+   "outSec": 34.1,
+   "offsetSec": 19.76,
+   "framing": "cover",
+   "cropX": 0.396,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 59.26,
+   "outSec": 65.78,
+   "offsetSec": 24.22,
+   "framing": "cover",
+   "cropX": 0.405,
+   "cropXEnd": 0.609,
+   "cropPanSec": 6.52,
+   "mute": false,
+   "beat": "PAYOFF"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 60,
+   "endMs": 840,
+   "tokens": [
+    {
+     "text": " There's"
+    },
+    {
+     "text": " OnlyFans"
+    }
+   ]
+  },
+  {
+   "startMs": 840,
+   "endMs": 1240,
+   "tokens": [
+    {
+     "text": " girls"
+    },
+    {
+     "text": " all"
+    }
+   ]
+  },
+  {
+   "startMs": 1240,
+   "endMs": 1640,
+   "tokens": [
+    {
+     "text": " over"
+    },
+    {
+     "text": " LA"
+    }
+   ]
+  },
+  {
+   "startMs": 2280,
+   "endMs": 2760,
+   "tokens": [
+    {
+     "text": " It's"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 2760,
+   "endMs": 2920,
+   "tokens": [
+    {
+     "text": " illegal"
+    }
+   ]
+  },
+  {
+   "startMs": 3260,
+   "endMs": 3820,
+   "tokens": [
+    {
+     "text": " The"
+    },
+    {
+     "text": " three"
+    }
+   ]
+  },
+  {
+   "startMs": 3820,
+   "endMs": 4120,
+   "tokens": [
+    {
+     "text": " lives"
+    }
+   ]
+  },
+  {
+   "startMs": 5560,
+   "endMs": 6200,
+   "tokens": [
+    {
+     "text": " First"
+    },
+    {
+     "text": " they"
+    },
+    {
+     "text": " try"
+    }
+   ]
+  },
+  {
+   "startMs": 6200,
+   "endMs": 6600,
+   "tokens": [
+    {
+     "text": " and"
+    },
+    {
+     "text": " shut"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 6600,
+   "endMs": 6720,
+   "tokens": [
+    {
+     "text": " up"
+    }
+   ]
+  },
+  {
+   "startMs": 6780,
+   "endMs": 7420,
+   "tokens": [
+    {
+     "text": " Everyone"
+    },
+    {
+     "text": " they"
+    }
+   ]
+  },
+  {
+   "startMs": 7420,
+   "endMs": 8500,
+   "tokens": [
+    {
+     "text": " silenced"
+    },
+    {
+     "text": " before"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 8500,
+   "endMs": 9220,
+   "tokens": [
+    {
+     "text": " went"
+    },
+    {
+     "text": " away"
+    }
+   ]
+  },
+  {
+   "startMs": 9360,
+   "endMs": 9740,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " got"
+    }
+   ]
+  },
+  {
+   "startMs": 9740,
+   "endMs": 9940,
+   "tokens": [
+    {
+     "text": " bigger"
+    }
+   ]
+  },
+  {
+   "startMs": 10060,
+   "endMs": 10760,
+   "tokens": [
+    {
+     "text": " Second"
+    },
+    {
+     "text": " you"
+    },
+    {
+     "text": " try"
+    }
+   ]
+  },
+  {
+   "startMs": 10760,
+   "endMs": 10960,
+   "tokens": [
+    {
+     "text": " and"
+    },
+    {
+     "text": " put"
+    }
+   ]
+  },
+  {
+   "startMs": 10960,
+   "endMs": 11120,
+   "tokens": [
+    {
+     "text": " them"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 11120,
+   "endMs": 11280,
+   "tokens": [
+    {
+     "text": " jail"
+    }
+   ]
+  },
+  {
+   "startMs": 11320,
+   "endMs": 11580,
+   "tokens": [
+    {
+     "text": " Third"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 11580,
+   "endMs": 11800,
+   "tokens": [
+    {
+     "text": " kill"
+    },
+    {
+     "text": " them"
+    }
+   ]
+  },
+  {
+   "startMs": 11880,
+   "endMs": 12440,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " am"
+    }
+   ]
+  },
+  {
+   "startMs": 12440,
+   "endMs": 15890,
+   "tokens": [
+    {
+     "text": " lucky"
+    },
+    {
+     "text": " that"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 15890,
+   "endMs": 16350,
+   "tokens": [
+    {
+     "text": " had"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 16350,
+   "endMs": 16770,
+   "tokens": [
+    {
+     "text": " past"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 16770,
+   "endMs": 16950,
+   "tokens": [
+    {
+     "text": " had"
+    }
+   ]
+  },
+  {
+   "startMs": 17050,
+   "endMs": 17550,
+   "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " lucky"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 17550,
+   "endMs": 17690,
+   "tokens": [
+    {
+     "text": " had"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 17690,
+   "endMs": 18150,
+   "tokens": [
+    {
+     "text": " webcam"
+    },
+    {
+     "text": " studio"
+    }
+   ]
+  },
+  {
+   "startMs": 18510,
+   "endMs": 18970,
+   "tokens": [
+    {
+     "text": " That's"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 18970,
+   "endMs": 19510,
+   "tokens": [
+    {
+     "text": " human"
+    },
+    {
+     "text": " trafficking"
+    }
+   ]
+  },
+  {
+   "startMs": 19820,
+   "endMs": 20540,
+   "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " lucky"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 20540,
+   "endMs": 20880,
+   "tokens": [
+    {
+     "text": " had"
+    },
+    {
+     "text": " lots"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 20880,
+   "endMs": 21140,
+   "tokens": [
+    {
+     "text": " girlfriends"
+    }
+   ]
+  },
+  {
+   "startMs": 21400,
+   "endMs": 21980,
+   "tokens": [
+    {
+     "text": " Lucky"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 21980,
+   "endMs": 22340,
+   "tokens": [
+    {
+     "text": " slept"
+    },
+    {
+     "text": " with"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 22340,
+   "endMs": 22440,
+   "tokens": [
+    {
+     "text": " lot"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 22440,
+   "endMs": 22640,
+   "tokens": [
+    {
+     "text": " women"
+    }
+   ]
+  },
+  {
+   "startMs": 22780,
+   "endMs": 23400,
+   "tokens": [
+    {
+     "text": " Lucky"
+    },
+    {
+     "text": " I've"
+    }
+   ]
+  },
+  {
+   "startMs": 23400,
+   "endMs": 23820,
+   "tokens": [
+    {
+     "text": " made"
+    },
+    {
+     "text": " racist"
+    }
+   ]
+  },
+  {
+   "startMs": 23820,
+   "endMs": 24140,
+   "tokens": [
+    {
+     "text": " jokes"
+    }
+   ]
+  },
+  {
+   "startMs": 24280,
+   "endMs": 25800,
+   "tokens": [
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " lucky"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 25800,
+   "endMs": 26160,
+   "tokens": [
+    {
+     "text": " did"
+    },
+    {
+     "text": " these"
+    }
+   ]
+  },
+  {
+   "startMs": 26160,
+   "endMs": 26640,
+   "tokens": [
+    {
+     "text": " things"
+    },
+    {
+     "text": " because"
+    }
+   ]
+  },
+  {
+   "startMs": 26640,
+   "endMs": 27780,
+   "tokens": [
+    {
+     "text": " killing"
+    },
+    {
+     "text": " people"
+    },
+    {
+     "text": " is"
+    }
+   ]
+  },
+  {
+   "startMs": 27780,
+   "endMs": 29380,
+   "tokens": [
+    {
+     "text": " messy"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 29380,
+   "endMs": 29920,
+   "tokens": [
+    {
+     "text": " killing"
+    },
+    {
+     "text": " people"
+    }
+   ]
+  },
+  {
+   "startMs": 29920,
+   "endMs": 30480,
+   "tokens": [
+    {
+     "text": " makes"
+    },
+    {
+     "text": " them"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 30480,
+   "endMs": 30740,
+   "tokens": [
+    {
+     "text": " hero"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "zack_hemsey_the_way.mp3",
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "lucky",
+   "onlyfans",
+   "kill",
+   "jail",
+   "silence",
+   "hero",
+   "webcam",
+   "three",
+   "lives"
+  ]
+ },
+ "hook": {
+  "text": "THREE LIVES: SILENCE, JAIL, KILL",
+  "untilSec": 2.5
+ }
+}

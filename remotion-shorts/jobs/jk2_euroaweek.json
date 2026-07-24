@@ -1,0 +1,701 @@
+{
+ "videoSrc": "jk2_euroaweek_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.25,
+   "outSec": 7.43,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "cropX": 0.402,
+   "cropXEnd": 0.564,
+   "cropPanSec": 7.18,
+   "mute": false,
+   "beat": "HOOK"
+  },
+  {
+   "inSec": 12.74,
+   "outSec": 20.95,
+   "offsetSec": 7.18,
+   "framing": "cover",
+   "cropX": 0.402,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 22.53,
+   "outSec": 26.4,
+   "offsetSec": 15.39,
+   "framing": "cover",
+   "cropX": 0.428,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 27.75,
+   "outSec": 31.11,
+   "offsetSec": 19.26,
+   "framing": "cover",
+   "cropX": 0.429,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 34.39,
+   "outSec": 41.01,
+   "offsetSec": 22.62,
+   "framing": "cover",
+   "cropX": 0.426,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 42.51,
+   "outSec": 46.17,
+   "offsetSec": 29.24,
+   "framing": "cover",
+   "cropX": 0.426,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAYOFF"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 790,
+   "endMs": 1270,
+   "tokens": [
+    {
+     "text": " brother"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 1270,
+   "endMs": 1590,
+   "tokens": [
+    {
+     "text": " got"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 1590,
+   "endMs": 2070,
+   "tokens": [
+    {
+     "text": " brand"
+    },
+    {
+     "text": " new"
+    }
+   ]
+  },
+  {
+   "startMs": 2070,
+   "endMs": 3070,
+   "tokens": [
+    {
+     "text": " Porsche"
+    },
+    {
+     "text": " Porsche"
+    },
+    {
+     "text": " GT4"
+    }
+   ]
+  },
+  {
+   "startMs": 3070,
+   "endMs": 3890,
+   "tokens": [
+    {
+     "text": " RS"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 3890,
+   "endMs": 5270,
+   "tokens": [
+    {
+     "text": " McLaren"
+    },
+    {
+     "text": " 765"
+    },
+    {
+     "text": " LT"
+    }
+   ]
+  },
+  {
+   "startMs": 5270,
+   "endMs": 5770,
+   "tokens": [
+    {
+     "text": " in"
+    },
+    {
+     "text": " purple"
+    }
+   ]
+  },
+  {
+   "startMs": 5770,
+   "endMs": 6610,
+   "tokens": [
+    {
+     "text": " delivered"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " our"
+    }
+   ]
+  },
+  {
+   "startMs": 6610,
+   "endMs": 6890,
+   "tokens": [
+    {
+     "text": " house"
+    }
+   ]
+  },
+  {
+   "startMs": 7240,
+   "endMs": 7820,
+   "tokens": [
+    {
+     "text": " So"
+    },
+    {
+     "text": " we"
+    }
+   ]
+  },
+  {
+   "startMs": 7820,
+   "endMs": 8060,
+   "tokens": [
+    {
+     "text": " have"
+    },
+    {
+     "text": " those"
+    }
+   ]
+  },
+  {
+   "startMs": 8060,
+   "endMs": 8740,
+   "tokens": [
+    {
+     "text": " cars"
+    },
+    {
+     "text": " delivered"
+    },
+    {
+     "text": " on"
+    }
+   ]
+  },
+  {
+   "startMs": 8740,
+   "endMs": 9220,
+   "tokens": [
+    {
+     "text": " our"
+    },
+    {
+     "text": " first"
+    },
+    {
+     "text": " day"
+    }
+   ]
+  },
+  {
+   "startMs": 9220,
+   "endMs": 9400,
+   "tokens": [
+    {
+     "text": " and"
+    },
+    {
+     "text": " start"
+    }
+   ]
+  },
+  {
+   "startMs": 9400,
+   "endMs": 9840,
+   "tokens": [
+    {
+     "text": " driving"
+    },
+    {
+     "text": " around"
+    }
+   ]
+  },
+  {
+   "startMs": 9840,
+   "endMs": 10200,
+   "tokens": [
+    {
+     "text": " Bucharest"
+    }
+   ]
+  },
+  {
+   "startMs": 11000,
+   "endMs": 11940,
+   "tokens": [
+    {
+     "text": " Alan"
+    },
+    {
+     "text": " calls"
+    },
+    {
+     "text": " me"
+    }
+   ]
+  },
+  {
+   "startMs": 12000,
+   "endMs": 12540,
+   "tokens": [
+    {
+     "text": " decal"
+    },
+    {
+     "text": " wants"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 12540,
+   "endMs": 12840,
+   "tokens": [
+    {
+     "text": " see"
+    },
+    {
+     "text": " you"
+    }
+   ]
+  },
+  {
+   "startMs": 13420,
+   "endMs": 14780,
+   "tokens": [
+    {
+     "text": " Like"
+    },
+    {
+     "text": " surprise"
+    }
+   ]
+  },
+  {
+   "startMs": 14920,
+   "endMs": 15100,
+   "tokens": [
+    {
+     "text": " surprise"
+    }
+   ]
+  },
+  {
+   "startMs": 15420,
+   "endMs": 15640,
+   "tokens": [
+    {
+     "text": " are"
+    },
+    {
+     "text": " these"
+    }
+   ]
+  },
+  {
+   "startMs": 15640,
+   "endMs": 16140,
+   "tokens": [
+    {
+     "text": " cars"
+    },
+    {
+     "text": " from"
+    }
+   ]
+  },
+  {
+   "startMs": 18190,
+   "endMs": 18910,
+   "tokens": [
+    {
+     "text": " I"
+    },
+    {
+     "text": " rented"
+    }
+   ]
+  },
+  {
+   "startMs": 18910,
+   "endMs": 19210,
+   "tokens": [
+    {
+     "text": " them"
+    }
+   ]
+  },
+  {
+   "startMs": 19320,
+   "endMs": 19920,
+   "tokens": [
+    {
+     "text": " They're"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 19920,
+   "endMs": 20620,
+   "tokens": [
+    {
+     "text": " rented"
+    },
+    {
+     "text": " so"
+    }
+   ]
+  },
+  {
+   "startMs": 20620,
+   "endMs": 20980,
+   "tokens": [
+    {
+     "text": " they're"
+    },
+    {
+     "text": " not"
+    }
+   ]
+  },
+  {
+   "startMs": 20980,
+   "endMs": 21340,
+   "tokens": [
+    {
+     "text": " mine"
+    }
+   ]
+  },
+  {
+   "startMs": 21340,
+   "endMs": 22220,
+   "tokens": [
+    {
+     "text": " fine"
+    },
+    {
+     "text": " run"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 22220,
+   "endMs": 22620,
+   "tokens": [
+    {
+     "text": " number"
+    },
+    {
+     "text": " plates"
+    }
+   ]
+  },
+  {
+   "startMs": 22620,
+   "endMs": 24320,
+   "tokens": [
+    {
+     "text": " genius"
+    },
+    {
+     "text": " started"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 24320,
+   "endMs": 25900,
+   "tokens": [
+    {
+     "text": " rental"
+    },
+    {
+     "text": " company"
+    },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 25900,
+   "endMs": 27300,
+   "tokens": [
+    {
+     "text": " portugal"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 27300,
+   "endMs": 27600,
+   "tokens": [
+    {
+     "text": " bought"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 27600,
+   "endMs": 27880,
+   "tokens": [
+    {
+     "text": " bunch"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 27880,
+   "endMs": 28460,
+   "tokens": [
+    {
+     "text": " assets"
+    },
+    {
+     "text": " under"
+    }
+   ]
+  },
+  {
+   "startMs": 28460,
+   "endMs": 28940,
+   "tokens": [
+    {
+     "text": " this"
+    },
+    {
+     "text": " portuguese"
+    }
+   ]
+  },
+  {
+   "startMs": 28940,
+   "endMs": 29400,
+   "tokens": [
+    {
+     "text": " company"
+    },
+    {
+     "text": " he'd"
+    }
+   ]
+  },
+  {
+   "startMs": 29400,
+   "endMs": 29820,
+   "tokens": [
+    {
+     "text": " rent"
+    },
+    {
+     "text": " them"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 29820,
+   "endMs": 30160,
+   "tokens": [
+    {
+     "text": " me"
+    },
+    {
+     "text": " for"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 30160,
+   "endMs": 30520,
+   "tokens": [
+    {
+     "text": " euro"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 30520,
+   "endMs": 31120,
+   "tokens": [
+    {
+     "text": " week"
+    },
+    {
+     "text": " what"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 31120,
+   "endMs": 31380,
+   "tokens": [
+    {
+     "text": " nice"
+    },
+    {
+     "text": " guy"
+    }
+   ]
+  },
+  {
+   "startMs": 31380,
+   "endMs": 32460,
+   "tokens": [
+    {
+     "text": " never"
+    },
+    {
+     "text": " met"
+    },
+    {
+     "text": " him"
+    }
+   ]
+  },
+  {
+   "startMs": 32460,
+   "endMs": 32820,
+   "tokens": [
+    {
+     "text": " don't"
+    },
+    {
+     "text": " know"
+    },
+    {
+     "text": " his"
+    }
+   ]
+  },
+  {
+   "startMs": 32820,
+   "endMs": 32900,
+   "tokens": [
+    {
+     "text": " name"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "sneaky.mp3",
+  "volLow": 0.11,
+  "volHigh": 0.2,
+  "climaxSec": null,
+  "startSec": 0
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "uppercase": true,
+  "powerWords": [
+   "porsche",
+   "mclaren",
+   "euro",
+   "portugal",
+   "rented",
+   "genius",
+   "cars",
+   "decot"
+  ]
+ },
+ "hook": {
+  "text": "A EURO A WEEK FOR A MCLAREN",
+  "untilSec": 2.5
+ }
+}
