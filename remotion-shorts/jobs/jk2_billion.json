@@ -18,7 +18,7 @@
    "outSec": 15.44,
    "offsetSec": 4.28,
    "framing": "cover",
-   "cropX": 0.292,
+   "cropX": 0.291,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -29,7 +29,7 @@
    "outSec": 18.55,
    "offsetSec": 19.47,
    "framing": "cover",
-   "cropX": 0.333,
+   "cropX": 0.332,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -40,7 +40,7 @@
    "outSec": 37.77,
    "offsetSec": 22.67,
    "framing": "cover",
-   "cropX": 0.324,
+   "cropX": 0.319,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -51,7 +51,7 @@
    "outSec": 43.72,
    "offsetSec": 29.62,
    "framing": "cover",
-   "cropX": 0.326,
+   "cropX": 0.332,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -62,7 +62,7 @@
    "outSec": 46.77,
    "offsetSec": 33.19,
    "framing": "cover",
-   "cropX": 0.345,
+   "cropX": 0.344,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -813,5 +813,9 @@
  "hook": {
   "text": "THEY OWE HIM A BILLION DOLLARS",
   "untilSec": 2.5
- }
+ },
+ "broll": [],
+ "zooms": [],
+ "zoomSteps": [],
+ "cta": null
 }

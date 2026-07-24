@@ -7,7 +7,7 @@
    "outSec": 6.64,
    "offsetSec": 0.0,
    "framing": "cover",
-   "cropX": 0.591,
+   "cropX": 0.592,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -18,7 +18,7 @@
    "outSec": 2.51,
    "offsetSec": 3.33,
    "framing": "cover",
-   "cropX": 0.6,
+   "cropX": 0.596,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -29,7 +29,7 @@
    "outSec": 13.34,
    "offsetSec": 5.59,
    "framing": "cover",
-   "cropX": 0.528,
+   "cropX": 0.524,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -40,7 +40,7 @@
    "outSec": 25.29,
    "offsetSec": 11.34,
    "framing": "cover",
-   "cropX": 0.546,
+   "cropX": 0.545,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -51,7 +51,7 @@
    "outSec": 28.87,
    "offsetSec": 18.46,
    "framing": "cover",
-   "cropX": 0.552,
+   "cropX": 0.554,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -659,5 +659,9 @@
  "hook": {
   "text": "WHY IS THE CASE NOT CLOSED?",
   "untilSec": 2.5
- }
+ },
+ "broll": [],
+ "zooms": [],
+ "zoomSteps": [],
+ "cta": null
 }

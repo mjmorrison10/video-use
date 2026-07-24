@@ -18,7 +18,7 @@
    "outSec": 6.35,
    "offsetSec": 1.6,
    "framing": "cover",
-   "cropX": 0.348,
+   "cropX": 0.346,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -29,7 +29,7 @@
    "outSec": 23.47,
    "offsetSec": 7.7,
    "framing": "cover",
-   "cropX": 0.315,
+   "cropX": 0.314,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -40,7 +40,7 @@
    "outSec": 28.11,
    "offsetSec": 20.76,
    "framing": "cover",
-   "cropX": 0.347,
+   "cropX": 0.357,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -51,7 +51,7 @@
    "outSec": 39.89,
    "offsetSec": 24.12,
    "framing": "cover",
-   "cropX": 0.355,
+   "cropX": 0.356,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -70,10 +70,21 @@
   },
   {
    "inSec": 66.44,
-   "outSec": 72.59,
+   "outSec": 66.716,
    "offsetSec": 30.75,
    "framing": "cover",
-   "cropX": 0.645,
+   "cropX": 0.341,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 66.716,
+   "outSec": 72.59,
+   "offsetSec": 31.026,
+   "framing": "cover",
+   "cropX": 0.647,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -84,7 +95,7 @@
    "outSec": 85.64,
    "offsetSec": 36.9,
    "framing": "cover",
-   "cropX": 0.369,
+   "cropX": 0.364,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -1005,5 +1016,13 @@
  "hook": {
   "text": "“YOU HAVE TO KILL ME”",
   "untilSec": 2.5
+ },
+ "broll": [],
+ "zooms": [],
+ "zoomSteps": [],
+ "cta": {
+  "text": "COMMENT “FIGHT”",
+  "sub": "for part 2 of the story",
+  "durSec": 2
  }
 }

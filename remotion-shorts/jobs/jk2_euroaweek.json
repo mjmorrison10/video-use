@@ -7,9 +7,9 @@
    "outSec": 7.43,
    "offsetSec": 0.0,
    "framing": "cover",
-   "cropX": 0.402,
-   "cropXEnd": 0.564,
-   "cropPanSec": 7.18,
+   "cropX": 0.398,
+   "cropXEnd": null,
+   "cropPanSec": null,
    "mute": false,
    "beat": "HOOK"
   },
@@ -18,7 +18,7 @@
    "outSec": 20.95,
    "offsetSec": 7.18,
    "framing": "cover",
-   "cropX": 0.402,
+   "cropX": 0.403,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -29,7 +29,7 @@
    "outSec": 26.4,
    "offsetSec": 15.39,
    "framing": "cover",
-   "cropX": 0.428,
+   "cropX": 0.427,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -40,7 +40,7 @@
    "outSec": 31.11,
    "offsetSec": 19.26,
    "framing": "cover",
-   "cropX": 0.429,
+   "cropX": 0.423,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -51,7 +51,7 @@
    "outSec": 41.01,
    "offsetSec": 22.62,
    "framing": "cover",
-   "cropX": 0.426,
+   "cropX": 0.427,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -697,5 +697,9 @@
  "hook": {
   "text": "A EURO A WEEK FOR A MCLAREN",
   "untilSec": 2.5
- }
+ },
+ "broll": [],
+ "zooms": [],
+ "zoomSteps": [],
+ "cta": null
 }

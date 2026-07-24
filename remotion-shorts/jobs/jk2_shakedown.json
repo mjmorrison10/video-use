@@ -1125,7 +1125,16 @@
   "text": "“HE'S AN IMPORTANT MAN IN ROMANIA”",
   "untilSec": 2.5
  },
- "broll": [],
+ "broll": [
+  {
+   "src": "broll_dubai.mp4",
+   "atSec": 17.0,
+   "durSec": 1.9,
+   "trimBefore": 0.3,
+   "framing": "cover",
+   "label": "Dubai"
+  }
+ ],
  "zooms": [],
  "zoomSteps": [],
  "cta": null

@@ -7,7 +7,7 @@
    "outSec": 5.49,
    "offsetSec": 0.0,
    "framing": "cover",
-   "cropX": 0.418,
+   "cropX": 0.419,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -18,7 +18,7 @@
    "outSec": 2.37,
    "offsetSec": 2.06,
    "framing": "cover",
-   "cropX": 0.429,
+   "cropX": 0.425,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -40,7 +40,7 @@
    "outSec": 31.66,
    "offsetSec": 17.64,
    "framing": "cover",
-   "cropX": 0.435,
+   "cropX": 0.434,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -62,7 +62,7 @@
    "outSec": 48.67,
    "offsetSec": 28.73,
    "framing": "cover",
-   "cropX": 0.0,
+   "cropX": 0.432,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -709,5 +709,9 @@
  "hook": {
   "text": "“WE'VE DONE THIS ALREADY”",
   "untilSec": 2.5
- }
+ },
+ "broll": [],
+ "zooms": [],
+ "zoomSteps": [],
+ "cta": null
 }

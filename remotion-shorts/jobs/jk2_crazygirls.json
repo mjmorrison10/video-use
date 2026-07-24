@@ -7,7 +7,7 @@
    "outSec": 30.58,
    "offsetSec": 0.0,
    "framing": "cover",
-   "cropX": 0.522,
+   "cropX": 0.521,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -18,7 +18,7 @@
    "outSec": 10.7,
    "offsetSec": 5.64,
    "framing": "cover",
-   "cropX": 0.488,
+   "cropX": 0.486,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -40,7 +40,7 @@
    "outSec": 32.46,
    "offsetSec": 22.55,
    "framing": "cover",
-   "cropX": 0.525,
+   "cropX": 0.527,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -51,9 +51,9 @@
    "outSec": 51.82,
    "offsetSec": 24.39,
    "framing": "cover",
-   "cropX": 0.501,
-   "cropXEnd": 0.76,
-   "cropPanSec": 9.47,
+   "cropX": 0.502,
+   "cropXEnd": null,
+   "cropPanSec": null,
    "mute": false,
    "beat": "PAYOFF"
   }
@@ -740,5 +740,9 @@
  "hook": {
   "text": "“THESE GIRLS ARE NUTS”",
   "untilSec": 2.5
- }
+ },
+ "broll": [],
+ "zooms": [],
+ "zoomSteps": [],
+ "cta": null
 }
