@@ -3,11 +3,11 @@
  "fps": 30,
  "ranges": [
   {
-   "inSec": 1.73,
+   "inSec": 1.69,
    "outSec": 10.44,
    "offsetSec": 0.0,
    "framing": "cover",
-   "cropX": 0.474,
+   "cropX": 0.475,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -15,19 +15,19 @@
   },
   {
    "inSec": 0.25,
-   "outSec": 1.69,
-   "offsetSec": 8.71,
+   "outSec": 1.77,
+   "offsetSec": 8.75,
    "framing": "cover",
-   "cropX": 0.442,
+   "cropX": 0.439,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 11.49,
-   "outSec": 14.59,
-   "offsetSec": 10.15,
+   "inSec": 11.45,
+   "outSec": 14.67,
+   "offsetSec": 10.27,
    "framing": "cover",
    "cropX": 0.501,
    "cropXEnd": null,
@@ -36,20 +36,20 @@
    "beat": "POINT"
   },
   {
-   "inSec": 15.95,
+   "inSec": 15.91,
    "outSec": 19.32,
-   "offsetSec": 13.25,
+   "offsetSec": 13.49,
    "framing": "cover",
-   "cropX": 0.482,
+   "cropX": 0.483,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 35.47,
-   "outSec": 38.75,
-   "offsetSec": 16.62,
+   "inSec": 35.43,
+   "outSec": 38.83,
+   "offsetSec": 16.9,
    "framing": "cover",
    "cropX": 0.474,
    "cropXEnd": null,
@@ -58,9 +58,9 @@
    "beat": "POINT"
   },
   {
-   "inSec": 24.47,
+   "inSec": 24.43,
    "outSec": 26.75,
-   "offsetSec": 19.9,
+   "offsetSec": 20.3,
    "framing": "cover",
    "cropX": 0.478,
    "cropXEnd": null,
@@ -71,7 +71,7 @@
   {
    "inSec": 43.93,
    "outSec": 48.34,
-   "offsetSec": 22.18,
+   "offsetSec": 22.62,
    "framing": "cover",
    "cropX": 0.483,
    "cropXEnd": null,
@@ -82,8 +82,8 @@
  ],
  "captionPages": [
   {
-   "startMs": 0,
-   "endMs": 360,
+   "startMs": 40,
+   "endMs": 400,
    "tokens": [
     {
      "text": " They"
@@ -97,8 +97,8 @@
    ]
   },
   {
-   "startMs": 360,
-   "endMs": 1000,
+   "startMs": 400,
+   "endMs": 1040,
    "tokens": [
     {
      "text": " protocol"
@@ -109,8 +109,8 @@
    ]
   },
   {
-   "startMs": 1000,
-   "endMs": 2280,
+   "startMs": 1040,
+   "endMs": 2320,
    "tokens": [
     {
      "text": " Romania"
@@ -121,8 +121,8 @@
    ]
   },
   {
-   "startMs": 2280,
-   "endMs": 2720,
+   "startMs": 2320,
+   "endMs": 2760,
    "tokens": [
     {
      "text": " case"
@@ -133,8 +133,8 @@
    ]
   },
   {
-   "startMs": 2720,
-   "endMs": 3240,
+   "startMs": 2760,
+   "endMs": 3280,
    "tokens": [
     {
      "text": " proven"
@@ -148,8 +148,8 @@
    ]
   },
   {
-   "startMs": 4280,
-   "endMs": 4760,
+   "startMs": 4320,
+   "endMs": 4800,
    "tokens": [
     {
      "text": " Proceeds"
@@ -160,8 +160,8 @@
    ]
   },
   {
-   "startMs": 4640,
-   "endMs": 6040,
+   "startMs": 4680,
+   "endMs": 6080,
    "tokens": [
     {
      "text": " crime"
@@ -175,8 +175,8 @@
    ]
   },
   {
-   "startMs": 5920,
-   "endMs": 6360,
+   "startMs": 5960,
+   "endMs": 6400,
    "tokens": [
     {
      "text": " crime"
@@ -190,8 +190,8 @@
    ]
   },
   {
-   "startMs": 6360,
-   "endMs": 6640,
+   "startMs": 6400,
+   "endMs": 6680,
    "tokens": [
     {
      "text": " even"
@@ -202,8 +202,8 @@
    ]
   },
   {
-   "startMs": 6640,
-   "endMs": 7360,
+   "startMs": 6680,
+   "endMs": 7400,
    "tokens": [
     {
      "text": " girl"
@@ -214,8 +214,8 @@
    ]
   },
   {
-   "startMs": 7360,
-   "endMs": 7960,
+   "startMs": 7400,
+   "endMs": 8000,
    "tokens": [
     {
      "text": " this"
@@ -229,8 +229,8 @@
    ]
   },
   {
-   "startMs": 7960,
-   "endMs": 8100,
+   "startMs": 8000,
+   "endMs": 8140,
    "tokens": [
     {
      "text": " have"
@@ -241,8 +241,8 @@
    ]
   },
   {
-   "startMs": 8100,
-   "endMs": 8520,
+   "startMs": 8140,
+   "endMs": 8560,
    "tokens": [
     {
      "text": " kidnapped"
@@ -250,8 +250,8 @@
    ]
   },
   {
-   "startMs": 8770,
-   "endMs": 9650,
+   "startMs": 8810,
+   "endMs": 9690,
    "tokens": [
     {
      "text": " I"
@@ -265,8 +265,8 @@
    ]
   },
   {
-   "startMs": 9650,
-   "endMs": 9970,
+   "startMs": 9690,
+   "endMs": 10010,
    "tokens": [
     {
      "text": " they"
@@ -280,8 +280,8 @@
    ]
   },
   {
-   "startMs": 9970,
-   "endMs": 10150,
+   "startMs": 10010,
+   "endMs": 10230,
    "tokens": [
     {
      "text": " do"
@@ -292,39 +292,48 @@
    ]
   },
   {
-   "startMs": 10150,
+   "startMs": 10230,
    "endMs": 10550,
    "tokens": [
     {
-     "text": " we're"
+     "text": " They"
     },
     {
-     "text": " just"
+     "text": " we're"
     }
    ]
   },
   {
    "startMs": 10550,
-   "endMs": 11370,
+   "endMs": 11430,
    "tokens": [
+    {
+     "text": " just"
+    },
     {
      "text": " responding"
     },
     {
      "text": " to"
-    },
-    {
-     "text": " the"
     }
    ]
   },
   {
-   "startMs": 11370,
-   "endMs": 12310,
+   "startMs": 11430,
+   "endMs": 11770,
    "tokens": [
     {
-     "text": " American"
+     "text": " the"
     },
+    {
+     "text": " American"
+    }
+   ]
+  },
+  {
+   "startMs": 11770,
+   "endMs": 12470,
+   "tokens": [
     {
      "text": " embassy"
     },
@@ -334,8 +343,8 @@
    ]
   },
   {
-   "startMs": 12310,
-   "endMs": 12630,
+   "startMs": 12470,
+   "endMs": 12790,
    "tokens": [
     {
      "text": " don't"
@@ -346,8 +355,8 @@
    ]
   },
   {
-   "startMs": 12630,
-   "endMs": 13250,
+   "startMs": 12790,
+   "endMs": 13450,
    "tokens": [
     {
      "text": " what's"
@@ -361,12 +370,21 @@
    ]
   },
   {
-   "startMs": 13250,
-   "endMs": 14330,
+   "startMs": 13450,
+   "endMs": 14170,
    "tokens": [
     {
-     "text": " We're"
+     "text": " You"
     },
+    {
+     "text": " We're"
+    }
+   ]
+  },
+  {
+   "startMs": 14170,
+   "endMs": 14610,
+   "tokens": [
     {
      "text": " just"
     },
@@ -376,8 +394,8 @@
    ]
   },
   {
-   "startMs": 14330,
-   "endMs": 15470,
+   "startMs": 14610,
+   "endMs": 15750,
    "tokens": [
     {
      "text": " muscle"
@@ -388,8 +406,8 @@
    ]
   },
   {
-   "startMs": 15470,
-   "endMs": 15750,
+   "startMs": 15750,
+   "endMs": 16030,
    "tokens": [
     {
      "text": " have"
@@ -403,8 +421,8 @@
    ]
   },
   {
-   "startMs": 15750,
-   "endMs": 16190,
+   "startMs": 16030,
+   "endMs": 16470,
    "tokens": [
     {
      "text": " talk"
@@ -418,8 +436,8 @@
    ]
   },
   {
-   "startMs": 16190,
-   "endMs": 16780,
+   "startMs": 16470,
+   "endMs": 17100,
    "tokens": [
     {
      "text": " detective"
@@ -430,8 +448,8 @@
    ]
   },
   {
-   "startMs": 16780,
-   "endMs": 17300,
+   "startMs": 17100,
+   "endMs": 17620,
    "tokens": [
     {
      "text": " searching"
@@ -442,8 +460,8 @@
    ]
   },
   {
-   "startMs": 17300,
-   "endMs": 18160,
+   "startMs": 17620,
+   "endMs": 18480,
    "tokens": [
     {
      "text": " entire"
@@ -457,8 +475,8 @@
    ]
   },
   {
-   "startMs": 18160,
-   "endMs": 18660,
+   "startMs": 18480,
+   "endMs": 18980,
    "tokens": [
     {
      "text": " five"
@@ -472,8 +490,8 @@
    ]
   },
   {
-   "startMs": 18660,
-   "endMs": 19160,
+   "startMs": 18980,
+   "endMs": 19480,
    "tokens": [
     {
      "text": " hours"
@@ -484,8 +502,8 @@
    ]
   },
   {
-   "startMs": 19160,
-   "endMs": 19580,
+   "startMs": 19480,
+   "endMs": 19900,
    "tokens": [
     {
      "text": " media"
@@ -499,12 +517,21 @@
    ]
   },
   {
-   "startMs": 19580,
-   "endMs": 20700,
+   "startMs": 19900,
+   "endMs": 20300,
    "tokens": [
     {
      "text": " outside"
     },
+    {
+     "text": " at"
+    }
+   ]
+  },
+  {
+   "startMs": 20340,
+   "endMs": 21140,
+   "tokens": [
     {
      "text": " Turns"
     },
@@ -514,8 +541,8 @@
    ]
   },
   {
-   "startMs": 20700,
-   "endMs": 21080,
+   "startMs": 21140,
+   "endMs": 21520,
    "tokens": [
     {
      "text": " they'd"
@@ -529,8 +556,8 @@
    ]
   },
   {
-   "startMs": 21080,
-   "endMs": 21500,
+   "startMs": 21520,
+   "endMs": 21940,
    "tokens": [
     {
      "text": " best"
@@ -541,8 +568,8 @@
    ]
   },
   {
-   "startMs": 21500,
-   "endMs": 22020,
+   "startMs": 21940,
+   "endMs": 22460,
    "tokens": [
     {
      "text": " later"
@@ -553,8 +580,8 @@
    ]
   },
   {
-   "startMs": 22240,
-   "endMs": 22700,
+   "startMs": 22680,
+   "endMs": 23140,
    "tokens": [
     {
      "text": " Media"
@@ -565,8 +592,8 @@
    ]
   },
   {
-   "startMs": 22700,
-   "endMs": 23220,
+   "startMs": 23140,
+   "endMs": 23660,
    "tokens": [
     {
      "text": " outside"
@@ -577,8 +604,8 @@
    ]
   },
   {
-   "startMs": 23220,
-   "endMs": 23740,
+   "startMs": 23660,
+   "endMs": 24180,
    "tokens": [
     {
      "text": " human"
@@ -589,8 +616,8 @@
    ]
   },
   {
-   "startMs": 23820,
-   "endMs": 24460,
+   "startMs": 24260,
+   "endMs": 24900,
    "tokens": [
     {
      "text": " investigation"
@@ -601,8 +628,8 @@
    ]
   },
   {
-   "startMs": 24460,
-   "endMs": 24840,
+   "startMs": 24900,
+   "endMs": 25280,
    "tokens": [
     {
      "text": " this"
@@ -613,8 +640,8 @@
    ]
   },
   {
-   "startMs": 24940,
-   "endMs": 25280,
+   "startMs": 25380,
+   "endMs": 25720,
    "tokens": [
     {
      "text": " They"
@@ -628,8 +655,8 @@
    ]
   },
   {
-   "startMs": 25280,
-   "endMs": 25660,
+   "startMs": 25720,
+   "endMs": 26100,
    "tokens": [
     {
      "text": " slander"
@@ -640,8 +667,8 @@
    ]
   },
   {
-   "startMs": 25660,
-   "endMs": 26040,
+   "startMs": 26100,
+   "endMs": 26480,
    "tokens": [
     {
      "text": " name"
@@ -655,8 +682,8 @@
    ]
   },
   {
-   "startMs": 26040,
-   "endMs": 26420,
+   "startMs": 26480,
+   "endMs": 26860,
    "tokens": [
     {
      "text": " this"

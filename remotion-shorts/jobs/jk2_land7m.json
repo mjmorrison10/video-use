@@ -3,11 +3,11 @@
  "fps": 30,
  "ranges": [
   {
-   "inSec": 29.98,
-   "outSec": 31.75,
+   "inSec": 29.85,
+   "outSec": 31.78,
    "offsetSec": 0.0,
    "framing": "cover",
-   "cropX": 0.416,
+   "cropX": 0.417,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -15,21 +15,21 @@
   },
   {
    "inSec": 0.25,
-   "outSec": 2.71,
-   "offsetSec": 1.77,
+   "outSec": 2.72,
+   "offsetSec": 1.93,
    "framing": "cover",
-   "cropX": 0.418,
-   "cropXEnd": 0.548,
-   "cropPanSec": 2.46,
+   "cropX": 0.42,
+   "cropXEnd": 0.547,
+   "cropPanSec": 2.47,
    "mute": false,
    "beat": "POINT"
   },
   {
    "inSec": 4.57,
-   "outSec": 5.69,
-   "offsetSec": 4.23,
+   "outSec": 5.76,
+   "offsetSec": 4.4,
    "framing": "cover",
-   "cropX": 0.489,
+   "cropX": 0.488,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -38,7 +38,7 @@
   {
    "inSec": 13.41,
    "outSec": 15.71,
-   "offsetSec": 5.35,
+   "offsetSec": 5.59,
    "framing": "cover",
    "cropX": 0.388,
    "cropXEnd": null,
@@ -47,9 +47,9 @@
    "beat": "POINT"
   },
   {
-   "inSec": 19.6,
-   "outSec": 22.99,
-   "offsetSec": 7.65,
+   "inSec": 19.55,
+   "outSec": 23.07,
+   "offsetSec": 7.89,
    "framing": "cover",
    "cropX": 0.407,
    "cropXEnd": null,
@@ -58,9 +58,9 @@
    "beat": "POINT"
   },
   {
-   "inSec": 26.93,
-   "outSec": 29.85,
-   "offsetSec": 11.04,
+   "inSec": 26.89,
+   "outSec": 29.93,
+   "offsetSec": 11.41,
    "framing": "cover",
    "cropX": 0.418,
    "cropXEnd": null,
@@ -69,9 +69,9 @@
    "beat": "POINT"
   },
   {
-   "inSec": 45.41,
-   "outSec": 46.79,
-   "offsetSec": 13.96,
+   "inSec": 45.37,
+   "outSec": 46.84,
+   "offsetSec": 14.45,
    "framing": "cover",
    "cropX": 0.444,
    "cropXEnd": null,
@@ -82,7 +82,7 @@
   {
    "inSec": 46.93,
    "outSec": 48.47,
-   "offsetSec": 15.34,
+   "offsetSec": 15.92,
    "framing": "cover",
    "cropX": 0.422,
    "cropXEnd": null,
@@ -91,11 +91,11 @@
    "beat": "POINT"
   },
   {
-   "inSec": 57.5,
-   "outSec": 62.89,
-   "offsetSec": 16.88,
+   "inSec": 57.45,
+   "outSec": 62.97,
+   "offsetSec": 17.46,
    "framing": "cover",
-   "cropX": 0.417,
+   "cropX": 0.416,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -103,10 +103,10 @@
   },
   {
    "inSec": 65.25,
-   "outSec": 68.42,
-   "offsetSec": 22.27,
+   "outSec": 68.52,
+   "offsetSec": 22.98,
    "framing": "cover",
-   "cropX": 0.423,
+   "cropX": 0.422,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -115,21 +115,24 @@
  ],
  "captionPages": [
   {
-   "startMs": 10,
-   "endMs": 190,
+   "startMs": 40,
+   "endMs": 180,
    "tokens": [
     {
-     "text": " not"
+     "text": " It's"
     },
     {
-     "text": " even"
+     "text": " not"
     }
    ]
   },
   {
-   "startMs": 190,
-   "endMs": 510,
+   "startMs": 180,
+   "endMs": 640,
    "tokens": [
+    {
+     "text": " even"
+    },
     {
      "text": " near"
     },
@@ -139,8 +142,8 @@
    ]
   },
   {
-   "startMs": 510,
-   "endMs": 770,
+   "startMs": 640,
+   "endMs": 900,
    "tokens": [
     {
      "text": " road"
@@ -148,8 +151,8 @@
    ]
   },
   {
-   "startMs": 850,
-   "endMs": 1130,
+   "startMs": 980,
+   "endMs": 1260,
    "tokens": [
     {
      "text": " There's"
@@ -160,8 +163,8 @@
    ]
   },
   {
-   "startMs": 1130,
-   "endMs": 1570,
+   "startMs": 1260,
+   "endMs": 1700,
    "tokens": [
     {
      "text": " electricity"
@@ -169,8 +172,8 @@
    ]
   },
   {
-   "startMs": 1830,
-   "endMs": 2370,
+   "startMs": 1990,
+   "endMs": 2530,
    "tokens": [
     {
      "text": " A"
@@ -181,8 +184,8 @@
    ]
   },
   {
-   "startMs": 2370,
-   "endMs": 2830,
+   "startMs": 2530,
+   "endMs": 2990,
    "tokens": [
     {
      "text": " comes"
@@ -196,8 +199,8 @@
    ]
   },
   {
-   "startMs": 2830,
-   "endMs": 3590,
+   "startMs": 2990,
+   "endMs": 3750,
    "tokens": [
     {
      "text": " house"
@@ -208,8 +211,8 @@
    ]
   },
   {
-   "startMs": 3590,
-   "endMs": 4650,
+   "startMs": 3750,
+   "endMs": 4820,
    "tokens": [
     {
      "text": " Romanian"
@@ -223,8 +226,8 @@
    ]
   },
   {
-   "startMs": 4650,
-   "endMs": 4890,
+   "startMs": 4820,
+   "endMs": 5060,
    "tokens": [
     {
      "text": " need"
@@ -235,8 +238,8 @@
    ]
   },
   {
-   "startMs": 4890,
-   "endMs": 5190,
+   "startMs": 5060,
+   "endMs": 5360,
    "tokens": [
     {
      "text": " talk"
@@ -247,8 +250,8 @@
    ]
   },
   {
-   "startMs": 5190,
-   "endMs": 5350,
+   "startMs": 5360,
+   "endMs": 5520,
    "tokens": [
     {
      "text": " you"
@@ -256,9 +259,12 @@
    ]
   },
   {
-   "startMs": 5410,
-   "endMs": 5810,
+   "startMs": 5560,
+   "endMs": 6050,
    "tokens": [
+    {
+     "text": " I"
+    },
     {
      "text": " And"
     },
@@ -268,8 +274,8 @@
    ]
   },
   {
-   "startMs": 5810,
-   "endMs": 6470,
+   "startMs": 6050,
+   "endMs": 6710,
    "tokens": [
     {
      "text": " said"
@@ -280,8 +286,8 @@
    ]
   },
   {
-   "startMs": 6470,
-   "endMs": 6910,
+   "startMs": 6710,
+   "endMs": 7150,
    "tokens": [
     {
      "text": " need"
@@ -295,8 +301,8 @@
    ]
   },
   {
-   "startMs": 6910,
-   "endMs": 7530,
+   "startMs": 7150,
+   "endMs": 7770,
    "tokens": [
     {
      "text": " some"
@@ -307,9 +313,12 @@
    ]
   },
   {
-   "startMs": 7760,
-   "endMs": 7980,
+   "startMs": 7930,
+   "endMs": 8270,
    "tokens": [
+    {
+     "text": " He"
+    },
     {
      "text": " gets"
     },
@@ -319,8 +328,8 @@
    ]
   },
   {
-   "startMs": 7980,
-   "endMs": 8600,
+   "startMs": 8270,
+   "endMs": 8890,
    "tokens": [
     {
      "text": " this"
@@ -334,8 +343,8 @@
    ]
   },
   {
-   "startMs": 8600,
-   "endMs": 8800,
+   "startMs": 8890,
+   "endMs": 9090,
    "tokens": [
     {
      "text": " he"
@@ -346,8 +355,8 @@
    ]
   },
   {
-   "startMs": 8820,
-   "endMs": 9100,
+   "startMs": 9110,
+   "endMs": 9390,
    "tokens": [
     {
      "text": " there's"
@@ -358,8 +367,8 @@
    ]
   },
   {
-   "startMs": 9100,
-   "endMs": 9620,
+   "startMs": 9390,
+   "endMs": 9910,
    "tokens": [
     {
      "text": " land"
@@ -370,8 +379,8 @@
    ]
   },
   {
-   "startMs": 10280,
-   "endMs": 10760,
+   "startMs": 10570,
+   "endMs": 11050,
    "tokens": [
     {
      "text": " It's"
@@ -382,27 +391,36 @@
    ]
   },
   {
-   "startMs": 10760,
-   "endMs": 11280,
+   "startMs": 11050,
+   "endMs": 11410,
    "tokens": [
     {
      "text": " million"
     },
     {
-     "text": " This"
-    },
-    {
-     "text": " is"
+     "text": " and"
     }
    ]
   },
   {
-   "startMs": 11280,
-   "endMs": 12160,
+   "startMs": 11450,
+   "endMs": 11910,
    "tokens": [
     {
-     "text": " two"
+     "text": " This"
     },
+    {
+     "text": " is"
+    },
+    {
+     "text": " two"
+    }
+   ]
+  },
+  {
+   "startMs": 11910,
+   "endMs": 12570,
+   "tokens": [
     {
      "text": " hours"
     },
@@ -412,8 +430,8 @@
    ]
   },
   {
-   "startMs": 12160,
-   "endMs": 13040,
+   "startMs": 12570,
+   "endMs": 13450,
    "tokens": [
     {
      "text": " dirt"
@@ -427,8 +445,8 @@
    ]
   },
   {
-   "startMs": 13040,
-   "endMs": 13600,
+   "startMs": 13450,
+   "endMs": 14010,
    "tokens": [
     {
      "text": " reach"
@@ -439,8 +457,8 @@
    ]
   },
   {
-   "startMs": 13600,
-   "endMs": 13900,
+   "startMs": 14010,
+   "endMs": 14310,
    "tokens": [
     {
      "text": " land"
@@ -448,9 +466,12 @@
    ]
   },
   {
-   "startMs": 13960,
-   "endMs": 14040,
+   "startMs": 14410,
+   "endMs": 14570,
    "tokens": [
+    {
+     "text": " It's"
+    },
     {
      "text": " And"
     },
@@ -460,8 +481,8 @@
    ]
   },
   {
-   "startMs": 14040,
-   "endMs": 14480,
+   "startMs": 14570,
+   "endMs": 15010,
    "tokens": [
     {
      "text": " said"
@@ -475,8 +496,8 @@
    ]
   },
   {
-   "startMs": 14480,
-   "endMs": 14720,
+   "startMs": 15010,
+   "endMs": 15250,
    "tokens": [
     {
      "text": " don't"
@@ -487,8 +508,8 @@
    ]
   },
   {
-   "startMs": 14720,
-   "endMs": 14900,
+   "startMs": 15250,
+   "endMs": 15430,
    "tokens": [
     {
      "text": " time"
@@ -496,8 +517,8 @@
    ]
   },
   {
-   "startMs": 14980,
-   "endMs": 15080,
+   "startMs": 15510,
+   "endMs": 15610,
    "tokens": [
     {
      "text": " I"
@@ -508,8 +529,8 @@
    ]
   },
   {
-   "startMs": 15080,
-   "endMs": 15300,
+   "startMs": 15610,
+   "endMs": 15830,
    "tokens": [
     {
      "text": " want"
@@ -520,8 +541,8 @@
    ]
   },
   {
-   "startMs": 15400,
-   "endMs": 15780,
+   "startMs": 15980,
+   "endMs": 16360,
    "tokens": [
     {
      "text": " He"
@@ -532,8 +553,8 @@
    ]
   },
   {
-   "startMs": 15800,
-   "endMs": 16020,
+   "startMs": 16380,
+   "endMs": 16600,
    "tokens": [
     {
      "text": " you're"
@@ -547,8 +568,8 @@
    ]
   },
   {
-   "startMs": 16020,
-   "endMs": 16300,
+   "startMs": 16600,
+   "endMs": 16880,
    "tokens": [
     {
      "text": " need"
@@ -559,8 +580,8 @@
    ]
   },
   {
-   "startMs": 16300,
-   "endMs": 16640,
+   "startMs": 16880,
+   "endMs": 17220,
    "tokens": [
     {
      "text": " friends"
@@ -568,87 +589,93 @@
    ]
   },
   {
-   "startMs": 17950,
-   "endMs": 18330,
+   "startMs": 17500,
+   "endMs": 18820,
    "tokens": [
+    {
+     "text": " there's"
+    },
     {
      "text": " a"
     },
     {
      "text": " lot"
-    },
-    {
-     "text": " of"
     }
    ]
   },
   {
-   "startMs": 18330,
-   "endMs": 19370,
+   "startMs": 18820,
+   "endMs": 19400,
    "tokens": [
     {
-     "text": " conversation"
+     "text": " of"
     },
+    {
+     "text": " conversation"
+    }
+   ]
+  },
+  {
+   "startMs": 19400,
+   "endMs": 21120,
+   "tokens": [
     {
      "text": " about"
     },
     {
      "text": " you"
+    },
+    {
+     "text": " in"
     }
    ]
   },
   {
-   "startMs": 19370,
-   "endMs": 21190,
+   "startMs": 21120,
+   "endMs": 21940,
    "tokens": [
-    {
-     "text": " in"
-    },
     {
      "text": " Romania"
     },
     {
      "text": " in"
-    }
-   ]
-  },
-  {
-   "startMs": 21190,
-   "endMs": 21470,
-   "tokens": [
+    },
     {
      "text": " the"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 21940,
+   "endMs": 22360,
+   "tokens": [
     {
      "text": " power"
-    }
-   ]
-  },
-  {
-   "startMs": 21470,
-   "endMs": 21990,
-   "tokens": [
-    {
-     "text": " structures"
     },
     {
-     "text": " right"
+     "text": " structures"
     }
    ]
   },
   {
-   "startMs": 21990,
-   "endMs": 22270,
+   "startMs": 22360,
+   "endMs": 22900,
    "tokens": [
+    {
+     "text": " right"
+    },
     {
      "text": " now"
     }
    ]
   },
   {
-   "startMs": 22330,
-   "endMs": 22970,
+   "startMs": 22940,
+   "endMs": 23680,
    "tokens": [
+    {
+     "text": " And"
+    },
     {
      "text": " And"
     },
@@ -658,8 +685,8 @@
    ]
   },
   {
-   "startMs": 22970,
-   "endMs": 23570,
+   "startMs": 23680,
+   "endMs": 24280,
    "tokens": [
     {
      "text": " stupid"
@@ -670,8 +697,8 @@
    ]
   },
   {
-   "startMs": 23770,
-   "endMs": 24530,
+   "startMs": 24480,
+   "endMs": 25240,
    "tokens": [
     {
      "text": " even"
@@ -685,8 +712,8 @@
    ]
   },
   {
-   "startMs": 24530,
-   "endMs": 24890,
+   "startMs": 25240,
+   "endMs": 25600,
    "tokens": [
     {
      "text": " knew"
@@ -700,14 +727,23 @@
    ]
   },
   {
-   "startMs": 24890,
-   "endMs": 25440,
+   "startMs": 25600,
+   "endMs": 26160,
    "tokens": [
     {
      "text": " a"
     },
     {
      "text": " shakedown"
+    }
+   ]
+  },
+  {
+   "startMs": 26220,
+   "endMs": 26250,
+   "tokens": [
+    {
+     "text": " thought"
     }
    ]
   }

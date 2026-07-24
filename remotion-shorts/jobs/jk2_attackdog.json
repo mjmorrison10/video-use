@@ -3,8 +3,8 @@
  "fps": 30,
  "ranges": [
   {
-   "inSec": 48.41,
-   "outSec": 53.38,
+   "inSec": 48.45,
+   "outSec": 53.42,
    "offsetSec": 0.0,
    "framing": "cover",
    "cropX": 0.405,
@@ -15,10 +15,10 @@
   },
   {
    "inSec": 0.25,
-   "outSec": 2.25,
+   "outSec": 2.33,
    "offsetSec": 4.97,
    "framing": "cover",
-   "cropX": 0.362,
+   "cropX": 0.361,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -26,8 +26,8 @@
   },
   {
    "inSec": 3.5,
-   "outSec": 5.596,
-   "offsetSec": 6.97,
+   "outSec": 5.579,
+   "offsetSec": 7.05,
    "framing": "cover",
    "cropX": 0.359,
    "cropXEnd": null,
@@ -36,11 +36,11 @@
    "beat": "POINT"
   },
   {
-   "inSec": 5.596,
-   "outSec": 28.67,
-   "offsetSec": 9.066,
+   "inSec": 5.579,
+   "outSec": 28.75,
+   "offsetSec": 9.129,
    "framing": "cover",
-   "cropX": 0.028,
+   "cropX": 0.029,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -48,10 +48,10 @@
   },
   {
    "inSec": 36.67,
-   "outSec": 44.42,
-   "offsetSec": 32.14,
+   "outSec": 44.52,
+   "offsetSec": 32.3,
    "framing": "cover",
-   "cropX": 0.398,
+   "cropX": 0.402,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -132,8 +132,8 @@
    ]
   },
   {
-   "startMs": 4970,
-   "endMs": 6110,
+   "startMs": 5010,
+   "endMs": 6150,
    "tokens": [
     {
      "text": " because"
@@ -147,8 +147,8 @@
    ]
   },
   {
-   "startMs": 6110,
-   "endMs": 6770,
+   "startMs": 6150,
+   "endMs": 6810,
    "tokens": [
     {
      "text": " this"
@@ -159,8 +159,8 @@
    ]
   },
   {
-   "startMs": 7140,
-   "endMs": 7800,
+   "startMs": 7260,
+   "endMs": 7920,
    "tokens": [
     {
      "text": " from"
@@ -171,8 +171,8 @@
    ]
   },
   {
-   "startMs": 7800,
-   "endMs": 8040,
+   "startMs": 7920,
+   "endMs": 8160,
    "tokens": [
     {
      "text": " UK"
@@ -180,8 +180,8 @@
    ]
   },
   {
-   "startMs": 8280,
-   "endMs": 8980,
+   "startMs": 8400,
+   "endMs": 9100,
    "tokens": [
     {
      "text": " The"
@@ -192,8 +192,8 @@
    ]
   },
   {
-   "startMs": 8980,
-   "endMs": 9740,
+   "startMs": 9100,
+   "endMs": 9860,
    "tokens": [
     {
      "text": " Foreign"
@@ -204,8 +204,8 @@
    ]
   },
   {
-   "startMs": 9940,
-   "endMs": 10480,
+   "startMs": 10060,
+   "endMs": 10600,
    "tokens": [
     {
      "text": " when"
@@ -216,8 +216,8 @@
    ]
   },
   {
-   "startMs": 10480,
-   "endMs": 11020,
+   "startMs": 10600,
+   "endMs": 11140,
    "tokens": [
     {
      "text": " deleted"
@@ -228,8 +228,8 @@
    ]
   },
   {
-   "startMs": 11020,
-   "endMs": 11680,
+   "startMs": 11140,
+   "endMs": 11800,
    "tokens": [
     {
      "text": " from"
@@ -243,8 +243,8 @@
    ]
   },
   {
-   "startMs": 11680,
-   "endMs": 12060,
+   "startMs": 11800,
+   "endMs": 12180,
    "tokens": [
     {
      "text": " wiped"
@@ -255,8 +255,8 @@
    ]
   },
   {
-   "startMs": 12060,
-   "endMs": 13200,
+   "startMs": 12180,
+   "endMs": 13320,
    "tokens": [
     {
      "text": " phone"
@@ -270,8 +270,8 @@
    ]
   },
   {
-   "startMs": 13200,
-   "endMs": 14240,
+   "startMs": 13320,
+   "endMs": 14360,
    "tokens": [
     {
      "text": " the"
@@ -285,8 +285,8 @@
    ]
   },
   {
-   "startMs": 14240,
-   "endMs": 14660,
+   "startMs": 14360,
+   "endMs": 14780,
    "tokens": [
     {
      "text": " said"
@@ -300,8 +300,8 @@
    ]
   },
   {
-   "startMs": 14660,
-   "endMs": 15100,
+   "startMs": 14780,
+   "endMs": 15220,
    "tokens": [
     {
      "text": " an"
@@ -312,8 +312,8 @@
    ]
   },
   {
-   "startMs": 15100,
-   "endMs": 15380,
+   "startMs": 15220,
+   "endMs": 15500,
    "tokens": [
     {
      "text": " source"
@@ -324,8 +324,8 @@
    ]
   },
   {
-   "startMs": 15380,
-   "endMs": 16200,
+   "startMs": 15500,
+   "endMs": 16320,
    "tokens": [
     {
      "text": " influence"
@@ -336,8 +336,8 @@
    ]
   },
   {
-   "startMs": 16200,
-   "endMs": 16900,
+   "startMs": 16320,
+   "endMs": 17020,
    "tokens": [
     {
      "text": " started"
@@ -348,8 +348,8 @@
    ]
   },
   {
-   "startMs": 16900,
-   "endMs": 18040,
+   "startMs": 17020,
+   "endMs": 18160,
    "tokens": [
     {
      "text": " prosecutor"
@@ -360,8 +360,8 @@
    ]
   },
   {
-   "startMs": 18040,
-   "endMs": 18840,
+   "startMs": 18160,
+   "endMs": 18960,
    "tokens": [
     {
      "text": " requests"
@@ -372,8 +372,8 @@
    ]
   },
   {
-   "startMs": 18840,
-   "endMs": 19520,
+   "startMs": 18960,
+   "endMs": 19640,
    "tokens": [
     {
      "text": " warrants"
@@ -387,8 +387,8 @@
    ]
   },
   {
-   "startMs": 19520,
-   "endMs": 20500,
+   "startMs": 19640,
+   "endMs": 20620,
    "tokens": [
     {
      "text": " exact"
@@ -402,8 +402,8 @@
    ]
   },
   {
-   "startMs": 20500,
-   "endMs": 21240,
+   "startMs": 20620,
+   "endMs": 21360,
    "tokens": [
     {
      "text": " to"
@@ -417,8 +417,8 @@
    ]
   },
   {
-   "startMs": 21240,
-   "endMs": 21520,
+   "startMs": 21360,
+   "endMs": 21640,
    "tokens": [
     {
      "text": " arrested"
@@ -426,8 +426,8 @@
    ]
   },
   {
-   "startMs": 21740,
-   "endMs": 22200,
+   "startMs": 21860,
+   "endMs": 22320,
    "tokens": [
     {
      "text": " I"
@@ -438,8 +438,8 @@
    ]
   },
   {
-   "startMs": 22200,
-   "endMs": 22580,
+   "startMs": 22320,
+   "endMs": 22700,
    "tokens": [
     {
      "text": " arrested"
@@ -447,8 +447,8 @@
    ]
   },
   {
-   "startMs": 22700,
-   "endMs": 23220,
+   "startMs": 22820,
+   "endMs": 23340,
    "tokens": [
     {
      "text": " I"
@@ -462,8 +462,8 @@
    ]
   },
   {
-   "startMs": 23220,
-   "endMs": 23520,
+   "startMs": 23340,
+   "endMs": 23640,
    "tokens": [
     {
      "text": " jail"
@@ -471,8 +471,8 @@
    ]
   },
   {
-   "startMs": 23660,
-   "endMs": 24520,
+   "startMs": 23780,
+   "endMs": 24640,
    "tokens": [
     {
      "text": " They're"
@@ -486,8 +486,8 @@
    ]
   },
   {
-   "startMs": 24520,
-   "endMs": 24700,
+   "startMs": 24640,
+   "endMs": 24820,
    "tokens": [
     {
      "text": " on"
@@ -498,8 +498,8 @@
    ]
   },
   {
-   "startMs": 24700,
-   "endMs": 24940,
+   "startMs": 24820,
+   "endMs": 25060,
    "tokens": [
     {
      "text": " BBC"
@@ -507,8 +507,8 @@
    ]
   },
   {
-   "startMs": 25160,
-   "endMs": 25820,
+   "startMs": 25280,
+   "endMs": 25940,
    "tokens": [
     {
      "text": " But"
@@ -522,8 +522,8 @@
    ]
   },
   {
-   "startMs": 25820,
-   "endMs": 26500,
+   "startMs": 25940,
+   "endMs": 26620,
    "tokens": [
     {
      "text": " my"
@@ -537,8 +537,8 @@
    ]
   },
   {
-   "startMs": 26500,
-   "endMs": 26700,
+   "startMs": 26620,
+   "endMs": 26820,
    "tokens": [
     {
      "text": " have"
@@ -549,8 +549,8 @@
    ]
   },
   {
-   "startMs": 26700,
-   "endMs": 27180,
+   "startMs": 26820,
+   "endMs": 27300,
    "tokens": [
     {
      "text": " larger"
@@ -561,8 +561,8 @@
    ]
   },
   {
-   "startMs": 27180,
-   "endMs": 27540,
+   "startMs": 27300,
+   "endMs": 27660,
    "tokens": [
     {
      "text": " than"
@@ -573,8 +573,8 @@
    ]
   },
   {
-   "startMs": 27540,
-   "endMs": 28260,
+   "startMs": 27660,
+   "endMs": 28380,
    "tokens": [
     {
      "text": " I"
@@ -588,8 +588,8 @@
    ]
   },
   {
-   "startMs": 28260,
-   "endMs": 28800,
+   "startMs": 28380,
+   "endMs": 28920,
    "tokens": [
     {
      "text": " of"
@@ -603,8 +603,8 @@
    ]
   },
   {
-   "startMs": 28800,
-   "endMs": 29160,
+   "startMs": 28920,
+   "endMs": 29280,
    "tokens": [
     {
      "text": " start"
@@ -615,8 +615,8 @@
    ]
   },
   {
-   "startMs": 29160,
-   "endMs": 29980,
+   "startMs": 29280,
+   "endMs": 30100,
    "tokens": [
     {
      "text": " podcasts"
@@ -627,8 +627,8 @@
    ]
   },
   {
-   "startMs": 29980,
-   "endMs": 30360,
+   "startMs": 30100,
+   "endMs": 30480,
    "tokens": [
     {
      "text": " telling"
@@ -639,8 +639,8 @@
    ]
   },
   {
-   "startMs": 30360,
-   "endMs": 30620,
+   "startMs": 30480,
+   "endMs": 30740,
    "tokens": [
     {
      "text": " truth"
@@ -648,8 +648,8 @@
    ]
   },
   {
-   "startMs": 30780,
-   "endMs": 31520,
+   "startMs": 30900,
+   "endMs": 31640,
    "tokens": [
     {
      "text": " Their"
@@ -663,8 +663,8 @@
    ]
   },
   {
-   "startMs": 31520,
-   "endMs": 31940,
+   "startMs": 31640,
+   "endMs": 32060,
    "tokens": [
     {
      "text": " falling"
@@ -675,8 +675,8 @@
    ]
   },
   {
-   "startMs": 32140,
-   "endMs": 32540,
+   "startMs": 32340,
+   "endMs": 32740,
    "tokens": [
     {
      "text": " The"
@@ -687,8 +687,8 @@
    ]
   },
   {
-   "startMs": 32540,
-   "endMs": 33360,
+   "startMs": 32740,
+   "endMs": 33560,
    "tokens": [
     {
      "text": " panics"
@@ -699,8 +699,8 @@
    ]
   },
   {
-   "startMs": 33360,
-   "endMs": 34360,
+   "startMs": 33560,
+   "endMs": 34560,
    "tokens": [
     {
      "text": " says"
@@ -714,8 +714,8 @@
    ]
   },
   {
-   "startMs": 34360,
-   "endMs": 34940,
+   "startMs": 34560,
+   "endMs": 35140,
    "tokens": [
     {
      "text": " him"
@@ -729,8 +729,8 @@
    ]
   },
   {
-   "startMs": 34940,
-   "endMs": 35520,
+   "startMs": 35140,
+   "endMs": 35720,
    "tokens": [
     {
      "text": " get"
@@ -744,8 +744,8 @@
    ]
   },
   {
-   "startMs": 35520,
-   "endMs": 35780,
+   "startMs": 35720,
+   "endMs": 35980,
    "tokens": [
     {
      "text": " send"
@@ -756,8 +756,8 @@
    ]
   },
   {
-   "startMs": 35780,
-   "endMs": 36360,
+   "startMs": 35980,
+   "endMs": 36560,
    "tokens": [
     {
      "text": " extradition"
@@ -768,8 +768,8 @@
    ]
   },
   {
-   "startMs": 36500,
-   "endMs": 37480,
+   "startMs": 36700,
+   "endMs": 37680,
    "tokens": [
     {
      "text": " which"
@@ -780,8 +780,8 @@
    ]
   },
   {
-   "startMs": 37480,
-   "endMs": 37700,
+   "startMs": 37680,
+   "endMs": 37900,
    "tokens": [
     {
      "text": " failed"
@@ -789,8 +789,8 @@
    ]
   },
   {
-   "startMs": 38540,
-   "endMs": 39180,
+   "startMs": 38740,
+   "endMs": 39380,
    "tokens": [
     {
      "text": " But"
@@ -801,8 +801,8 @@
    ]
   },
   {
-   "startMs": 39180,
-   "endMs": 39540,
+   "startMs": 39380,
+   "endMs": 39740,
    "tokens": [
     {
      "text": " back"
@@ -816,8 +816,8 @@
    ]
   },
   {
-   "startMs": 39540,
-   "endMs": 39860,
+   "startMs": 39740,
+   "endMs": 40060,
    "tokens": [
     {
      "text": " house"

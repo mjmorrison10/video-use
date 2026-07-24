@@ -3,7 +3,7 @@
  "fps": 30,
  "ranges": [
   {
-   "inSec": 6.72,
+   "inSec": 6.57,
    "outSec": 10.2,
    "offsetSec": 0.0,
    "framing": "cover",
@@ -15,8 +15,8 @@
   },
   {
    "inSec": 0.25,
-   "outSec": 2.67,
-   "offsetSec": 3.48,
+   "outSec": 2.7,
+   "offsetSec": 3.63,
    "framing": "cover",
    "cropX": 0.546,
    "cropXEnd": null,
@@ -27,7 +27,7 @@
   {
    "inSec": 46.93,
    "outSec": 48.43,
-   "offsetSec": 5.9,
+   "offsetSec": 6.08,
    "framing": "cover",
    "cropX": 0.422,
    "cropXEnd": null,
@@ -36,9 +36,9 @@
    "beat": "POINT"
   },
   {
-   "inSec": 57.49,
-   "outSec": 62.89,
-   "offsetSec": 7.4,
+   "inSec": 57.45,
+   "outSec": 62.97,
+   "offsetSec": 7.58,
    "framing": "cover",
    "cropX": 0.416,
    "cropXEnd": null,
@@ -47,9 +47,9 @@
    "beat": "POINT"
   },
   {
-   "inSec": 94.3,
+   "inSec": 94.15,
    "outSec": 99.02,
-   "offsetSec": 12.8,
+   "offsetSec": 13.1,
    "framing": "cover",
    "cropX": 0.377,
    "cropXEnd": null,
@@ -58,11 +58,11 @@
    "beat": "POINT"
   },
   {
-   "inSec": 160.15,
+   "inSec": 160.11,
    "outSec": 162.62,
-   "offsetSec": 17.52,
+   "offsetSec": 17.97,
    "framing": "cover",
-   "cropX": 0.429,
+   "cropX": 0.426,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -71,7 +71,7 @@
   {
    "inSec": 163.61,
    "outSec": 170.71,
-   "offsetSec": 19.99,
+   "offsetSec": 20.48,
    "framing": "cover",
    "cropX": 0.452,
    "cropXEnd": null,
@@ -81,21 +81,21 @@
   },
   {
    "inSec": 260.52,
-   "outSec": 263.75,
-   "offsetSec": 27.09,
+   "outSec": 263.89,
+   "offsetSec": 27.58,
    "framing": "cover",
-   "cropX": 0.408,
+   "cropX": 0.411,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 269.39,
-   "outSec": 271.78,
-   "offsetSec": 30.32,
+   "inSec": 269.35,
+   "outSec": 271.81,
+   "offsetSec": 30.95,
    "framing": "cover",
-   "cropX": 0.48,
+   "cropX": 0.479,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -103,8 +103,8 @@
   },
   {
    "inSec": 477.96,
-   "outSec": 484.235,
-   "offsetSec": 32.71,
+   "outSec": 484.23,
+   "offsetSec": 33.41,
    "framing": "cover",
    "cropX": 0.393,
    "cropXEnd": null,
@@ -114,21 +114,21 @@
   },
   {
    "inSec": 491.88,
-   "outSec": 500.42,
-   "offsetSec": 38.985,
+   "outSec": 500.5,
+   "offsetSec": 39.68,
    "framing": "cover",
-   "cropX": 0.492,
+   "cropX": 0.493,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
    "beat": "PAYOFF"
   },
   {
-   "inSec": 508.03,
-   "outSec": 509.325,
-   "offsetSec": 47.525,
+   "inSec": 507.9,
+   "outSec": 509.31,
+   "offsetSec": 48.3,
    "framing": "cover",
-   "cropX": 0.507,
+   "cropX": 0.508,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -137,17 +137,20 @@
  ],
  "captionPages": [
   {
-   "startMs": 30,
-   "endMs": 250,
+   "startMs": 40,
+   "endMs": 400,
    "tokens": [
+    {
+     "text": " Not"
+    },
     {
      "text": " today"
     }
    ]
   },
   {
-   "startMs": 910,
-   "endMs": 1210,
+   "startMs": 1060,
+   "endMs": 1360,
    "tokens": [
     {
      "text": " I"
@@ -161,8 +164,8 @@
    ]
   },
   {
-   "startMs": 1210,
-   "endMs": 1430,
+   "startMs": 1360,
+   "endMs": 1580,
    "tokens": [
     {
      "text": " important"
@@ -170,8 +173,8 @@
    ]
   },
   {
-   "startMs": 2210,
-   "endMs": 2570,
+   "startMs": 2360,
+   "endMs": 2720,
    "tokens": [
     {
      "text": " He's"
@@ -182,8 +185,8 @@
    ]
   },
   {
-   "startMs": 2570,
-   "endMs": 3170,
+   "startMs": 2720,
+   "endMs": 3320,
    "tokens": [
     {
      "text": " important"
@@ -197,8 +200,8 @@
    ]
   },
   {
-   "startMs": 3170,
-   "endMs": 3370,
+   "startMs": 3320,
+   "endMs": 3520,
    "tokens": [
     {
      "text": " Romania"
@@ -206,8 +209,8 @@
    ]
   },
   {
-   "startMs": 3540,
-   "endMs": 4080,
+   "startMs": 3690,
+   "endMs": 4230,
    "tokens": [
     {
      "text": " A"
@@ -218,8 +221,8 @@
    ]
   },
   {
-   "startMs": 4080,
-   "endMs": 4540,
+   "startMs": 4230,
+   "endMs": 4690,
    "tokens": [
     {
      "text": " comes"
@@ -233,8 +236,8 @@
    ]
   },
   {
-   "startMs": 4540,
-   "endMs": 5300,
+   "startMs": 4690,
+   "endMs": 5450,
    "tokens": [
     {
      "text": " house"
@@ -245,8 +248,8 @@
    ]
   },
   {
-   "startMs": 5300,
-   "endMs": 6240,
+   "startMs": 5450,
+   "endMs": 6420,
    "tokens": [
     {
      "text": " Romanian"
@@ -260,8 +263,8 @@
    ]
   },
   {
-   "startMs": 6240,
-   "endMs": 6500,
+   "startMs": 6420,
+   "endMs": 6680,
    "tokens": [
     {
      "text": " said"
@@ -272,8 +275,8 @@
    ]
   },
   {
-   "startMs": 6500,
-   "endMs": 6580,
+   "startMs": 6680,
+   "endMs": 6760,
    "tokens": [
     {
      "text": " going"
@@ -284,8 +287,8 @@
    ]
   },
   {
-   "startMs": 6580,
-   "endMs": 6860,
+   "startMs": 6760,
+   "endMs": 7040,
    "tokens": [
     {
      "text": " need"
@@ -296,8 +299,8 @@
    ]
   },
   {
-   "startMs": 6860,
-   "endMs": 7200,
+   "startMs": 7040,
+   "endMs": 7380,
    "tokens": [
     {
      "text": " friends"
@@ -305,8 +308,8 @@
    ]
   },
   {
-   "startMs": 7400,
-   "endMs": 8720,
+   "startMs": 7620,
+   "endMs": 8940,
    "tokens": [
     {
      "text": " there's"
@@ -320,8 +323,8 @@
    ]
   },
   {
-   "startMs": 8720,
-   "endMs": 9300,
+   "startMs": 8940,
+   "endMs": 9520,
    "tokens": [
     {
      "text": " of"
@@ -332,8 +335,8 @@
    ]
   },
   {
-   "startMs": 9300,
-   "endMs": 11020,
+   "startMs": 9520,
+   "endMs": 11240,
    "tokens": [
     {
      "text": " about"
@@ -347,8 +350,8 @@
    ]
   },
   {
-   "startMs": 11020,
-   "endMs": 11840,
+   "startMs": 11240,
+   "endMs": 12060,
    "tokens": [
     {
      "text": " Romania"
@@ -362,8 +365,8 @@
    ]
   },
   {
-   "startMs": 11840,
-   "endMs": 12260,
+   "startMs": 12060,
+   "endMs": 12480,
    "tokens": [
     {
      "text": " power"
@@ -374,8 +377,8 @@
    ]
   },
   {
-   "startMs": 12260,
-   "endMs": 12800,
+   "startMs": 12480,
+   "endMs": 13020,
    "tokens": [
     {
      "text": " right"
@@ -386,8 +389,23 @@
    ]
   },
   {
-   "startMs": 12830,
-   "endMs": 13050,
+   "startMs": 13060,
+   "endMs": 13280,
+   "tokens": [
+    {
+     "text": " And"
+    },
+    {
+     "text": " And"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 13280,
+   "endMs": 13500,
    "tokens": [
     {
      "text": " said"
@@ -398,8 +416,8 @@
    ]
   },
   {
-   "startMs": 13050,
-   "endMs": 14070,
+   "startMs": 13500,
+   "endMs": 14520,
    "tokens": [
     {
      "text": " Tristan"
@@ -413,8 +431,8 @@
    ]
   },
   {
-   "startMs": 14070,
-   "endMs": 14450,
+   "startMs": 14520,
+   "endMs": 14900,
    "tokens": [
     {
      "text": " the"
@@ -428,8 +446,8 @@
    ]
   },
   {
-   "startMs": 14450,
-   "endMs": 14610,
+   "startMs": 14900,
+   "endMs": 15060,
    "tokens": [
     {
      "text": " of"
@@ -440,8 +458,8 @@
    ]
   },
   {
-   "startMs": 15330,
-   "endMs": 15650,
+   "startMs": 15780,
+   "endMs": 16100,
    "tokens": [
     {
      "text": " Let's"
@@ -452,8 +470,8 @@
    ]
   },
   {
-   "startMs": 15650,
-   "endMs": 15870,
+   "startMs": 16100,
+   "endMs": 16320,
    "tokens": [
     {
      "text": " go"
@@ -461,8 +479,8 @@
    ]
   },
   {
-   "startMs": 16310,
-   "endMs": 16670,
+   "startMs": 16760,
+   "endMs": 17120,
    "tokens": [
     {
      "text": " He"
@@ -473,8 +491,8 @@
    ]
   },
   {
-   "startMs": 16710,
-   "endMs": 16830,
+   "startMs": 17160,
+   "endMs": 17280,
    "tokens": [
     {
      "text": " where"
@@ -482,8 +500,8 @@
    ]
   },
   {
-   "startMs": 16930,
-   "endMs": 17130,
+   "startMs": 17380,
+   "endMs": 17580,
    "tokens": [
     {
      "text": " I"
@@ -494,8 +512,8 @@
    ]
   },
   {
-   "startMs": 17150,
-   "endMs": 17350,
+   "startMs": 17600,
+   "endMs": 17800,
    "tokens": [
     {
      "text": " Dubai"
@@ -503,8 +521,8 @@
    ]
   },
   {
-   "startMs": 17520,
-   "endMs": 17640,
+   "startMs": 18010,
+   "endMs": 18130,
    "tokens": [
     {
      "text": " And"
@@ -515,8 +533,8 @@
    ]
   },
   {
-   "startMs": 17640,
-   "endMs": 18020,
+   "startMs": 18130,
+   "endMs": 18510,
    "tokens": [
     {
      "text": " saying"
@@ -530,8 +548,8 @@
    ]
   },
   {
-   "startMs": 18020,
-   "endMs": 19100,
+   "startMs": 18510,
+   "endMs": 19590,
    "tokens": [
     {
      "text": " these"
@@ -545,8 +563,8 @@
    ]
   },
   {
-   "startMs": 19100,
-   "endMs": 19500,
+   "startMs": 19590,
+   "endMs": 19990,
    "tokens": [
     {
      "text": " get"
@@ -557,8 +575,8 @@
    ]
   },
   {
-   "startMs": 19500,
-   "endMs": 19900,
+   "startMs": 19990,
+   "endMs": 20390,
    "tokens": [
     {
      "text": " lives"
@@ -566,8 +584,8 @@
    ]
   },
   {
-   "startMs": 20050,
-   "endMs": 20550,
+   "startMs": 20540,
+   "endMs": 21040,
    "tokens": [
     {
      "text": " And"
@@ -578,8 +596,8 @@
    ]
   },
   {
-   "startMs": 20550,
-   "endMs": 21270,
+   "startMs": 21040,
+   "endMs": 21760,
    "tokens": [
     {
      "text": " they"
@@ -593,8 +611,8 @@
    ]
   },
   {
-   "startMs": 21270,
-   "endMs": 21670,
+   "startMs": 21760,
+   "endMs": 22160,
    "tokens": [
     {
      "text": " and"
@@ -608,8 +626,8 @@
    ]
   },
   {
-   "startMs": 21670,
-   "endMs": 22150,
+   "startMs": 22160,
+   "endMs": 22640,
    "tokens": [
     {
      "text": " in"
@@ -623,8 +641,8 @@
    ]
   },
   {
-   "startMs": 22150,
-   "endMs": 22590,
+   "startMs": 22640,
+   "endMs": 23080,
    "tokens": [
     {
      "text": " something"
@@ -635,8 +653,8 @@
    ]
   },
   {
-   "startMs": 22590,
-   "endMs": 23610,
+   "startMs": 23080,
+   "endMs": 24100,
    "tokens": [
     {
      "text": " didn't"
@@ -650,8 +668,8 @@
    ]
   },
   {
-   "startMs": 23610,
-   "endMs": 24350,
+   "startMs": 24100,
+   "endMs": 24840,
    "tokens": [
     {
      "text": " hope"
@@ -665,8 +683,8 @@
    ]
   },
   {
-   "startMs": 24350,
-   "endMs": 24830,
+   "startMs": 24840,
+   "endMs": 25320,
    "tokens": [
     {
      "text": " home"
@@ -677,8 +695,8 @@
    ]
   },
   {
-   "startMs": 24830,
-   "endMs": 25570,
+   "startMs": 25320,
+   "endMs": 26060,
    "tokens": [
     {
      "text": " smart"
@@ -692,8 +710,8 @@
    ]
   },
   {
-   "startMs": 25570,
-   "endMs": 26450,
+   "startMs": 26060,
+   "endMs": 26940,
    "tokens": [
     {
      "text": " understand"
@@ -707,8 +725,8 @@
    ]
   },
   {
-   "startMs": 26450,
-   "endMs": 26930,
+   "startMs": 26940,
+   "endMs": 27420,
    "tokens": [
     {
      "text": " a"
@@ -719,8 +737,8 @@
    ]
   },
   {
-   "startMs": 27150,
-   "endMs": 27690,
+   "startMs": 27640,
+   "endMs": 28180,
    "tokens": [
     {
      "text": " And"
@@ -734,8 +752,8 @@
    ]
   },
   {
-   "startMs": 27690,
-   "endMs": 28030,
+   "startMs": 28180,
+   "endMs": 28520,
    "tokens": [
     {
      "text": " day"
@@ -749,8 +767,8 @@
    ]
   },
   {
-   "startMs": 28030,
-   "endMs": 28270,
+   "startMs": 28520,
+   "endMs": 28760,
    "tokens": [
     {
      "text": " a"
@@ -761,8 +779,8 @@
    ]
   },
   {
-   "startMs": 28270,
-   "endMs": 29590,
+   "startMs": 28760,
+   "endMs": 30080,
    "tokens": [
     {
      "text": " call"
@@ -773,8 +791,8 @@
    ]
   },
   {
-   "startMs": 29590,
-   "endMs": 30230,
+   "startMs": 30080,
+   "endMs": 30720,
    "tokens": [
     {
      "text": " Piers"
@@ -785,8 +803,8 @@
    ]
   },
   {
-   "startMs": 30230,
-   "endMs": 30320,
+   "startMs": 30720,
+   "endMs": 30860,
    "tokens": [
     {
      "text": " team"
@@ -794,8 +812,8 @@
    ]
   },
   {
-   "startMs": 30410,
-   "endMs": 31110,
+   "startMs": 31080,
+   "endMs": 31780,
    "tokens": [
     {
      "text": " I"
@@ -809,8 +827,8 @@
    ]
   },
   {
-   "startMs": 31110,
-   "endMs": 31530,
+   "startMs": 31780,
+   "endMs": 32200,
    "tokens": [
     {
      "text": " they"
@@ -824,8 +842,8 @@
    ]
   },
   {
-   "startMs": 31530,
-   "endMs": 31770,
+   "startMs": 32200,
+   "endMs": 32440,
    "tokens": [
     {
      "text": " to"
@@ -839,8 +857,8 @@
    ]
   },
   {
-   "startMs": 31770,
-   "endMs": 31950,
+   "startMs": 32440,
+   "endMs": 32620,
    "tokens": [
     {
      "text": " England"
@@ -848,8 +866,8 @@
    ]
   },
   {
-   "startMs": 32010,
-   "endMs": 32230,
+   "startMs": 32680,
+   "endMs": 32900,
    "tokens": [
     {
      "text": " They're"
@@ -863,8 +881,8 @@
    ]
   },
   {
-   "startMs": 32230,
-   "endMs": 32690,
+   "startMs": 32900,
+   "endMs": 33360,
    "tokens": [
     {
      "text": " arrest"
@@ -875,8 +893,8 @@
    ]
   },
   {
-   "startMs": 32770,
-   "endMs": 33330,
+   "startMs": 33470,
+   "endMs": 34030,
    "tokens": [
     {
      "text": " So"
@@ -887,8 +905,8 @@
    ]
   },
   {
-   "startMs": 33330,
-   "endMs": 34330,
+   "startMs": 34030,
+   "endMs": 35030,
    "tokens": [
     {
      "text": " land"
@@ -902,8 +920,8 @@
    ]
   },
   {
-   "startMs": 34330,
-   "endMs": 35210,
+   "startMs": 35030,
+   "endMs": 35910,
    "tokens": [
     {
      "text": " p"
@@ -914,8 +932,8 @@
    ]
   },
   {
-   "startMs": 35850,
-   "endMs": 36550,
+   "startMs": 36550,
+   "endMs": 37250,
    "tokens": [
     {
      "text": " in"
@@ -926,8 +944,8 @@
    ]
   },
   {
-   "startMs": 37010,
-   "endMs": 37770,
+   "startMs": 37710,
+   "endMs": 38470,
    "tokens": [
     {
      "text": " straight"
@@ -941,8 +959,8 @@
    ]
   },
   {
-   "startMs": 37770,
-   "endMs": 38450,
+   "startMs": 38470,
+   "endMs": 39150,
    "tokens": [
     {
      "text": " plane"
@@ -953,8 +971,8 @@
    ]
   },
   {
-   "startMs": 38450,
-   "endMs": 39645,
+   "startMs": 39150,
+   "endMs": 40340,
    "tokens": [
     {
      "text": " problems"
@@ -968,8 +986,8 @@
    ]
   },
   {
-   "startMs": 39645,
-   "endMs": 40325,
+   "startMs": 40340,
+   "endMs": 41020,
    "tokens": [
     {
      "text": " 4"
@@ -980,8 +998,8 @@
    ]
   },
   {
-   "startMs": 40325,
-   "endMs": 40825,
+   "startMs": 41020,
+   "endMs": 41520,
    "tokens": [
     {
      "text": "m"
@@ -989,8 +1007,8 @@
    ]
   },
   {
-   "startMs": 41165,
-   "endMs": 42665,
+   "startMs": 41860,
+   "endMs": 43360,
    "tokens": [
     {
      "text": " that"
@@ -1004,8 +1022,8 @@
    ]
   },
   {
-   "startMs": 42665,
-   "endMs": 43325,
+   "startMs": 43360,
+   "endMs": 44020,
    "tokens": [
     {
      "text": " the"
@@ -1019,8 +1037,8 @@
    ]
   },
   {
-   "startMs": 43325,
-   "endMs": 44965,
+   "startMs": 44020,
+   "endMs": 45660,
    "tokens": [
     {
      "text": " entire"
@@ -1034,8 +1052,8 @@
    ]
   },
   {
-   "startMs": 44965,
-   "endMs": 46505,
+   "startMs": 45660,
+   "endMs": 47200,
    "tokens": [
     {
      "text": " when"
@@ -1046,8 +1064,8 @@
    ]
   },
   {
-   "startMs": 46505,
-   "endMs": 47045,
+   "startMs": 47200,
+   "endMs": 47740,
    "tokens": [
     {
      "text": " raided"
@@ -1058,8 +1076,8 @@
    ]
   },
   {
-   "startMs": 47045,
-   "endMs": 47775,
+   "startMs": 47740,
+   "endMs": 48300,
    "tokens": [
     {
      "text": " house"
@@ -1068,13 +1086,25 @@
      "text": " again"
     },
     {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 48340,
+   "endMs": 48680,
+   "tokens": [
+    {
+     "text": " That's"
+    },
+    {
      "text": " the"
     }
    ]
   },
   {
-   "startMs": 47775,
-   "endMs": 48295,
+   "startMs": 48680,
+   "endMs": 49200,
    "tokens": [
     {
      "text": " video"
@@ -1085,8 +1115,8 @@
    ]
   },
   {
-   "startMs": 48295,
-   "endMs": 48635,
+   "startMs": 49200,
+   "endMs": 49540,
    "tokens": [
     {
      "text": " saw"

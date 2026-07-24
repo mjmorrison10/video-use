@@ -4,19 +4,19 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 7.43,
+   "outSec": 7.48,
    "offsetSec": 0.0,
    "framing": "cover",
-   "cropX": 0.398,
+   "cropX": 0.397,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
    "beat": "HOOK"
   },
   {
-   "inSec": 12.74,
-   "outSec": 20.95,
-   "offsetSec": 7.18,
+   "inSec": 12.79,
+   "outSec": 21.0,
+   "offsetSec": 7.23,
    "framing": "cover",
    "cropX": 0.403,
    "cropXEnd": null,
@@ -25,20 +25,20 @@
    "beat": "POINT"
   },
   {
-   "inSec": 22.53,
-   "outSec": 26.4,
-   "offsetSec": 15.39,
+   "inSec": 22.43,
+   "outSec": 26.49,
+   "offsetSec": 15.44,
    "framing": "cover",
-   "cropX": 0.427,
+   "cropX": 0.428,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 27.75,
-   "outSec": 31.11,
-   "offsetSec": 19.26,
+   "inSec": 27.8,
+   "outSec": 31.24,
+   "offsetSec": 19.5,
    "framing": "cover",
    "cropX": 0.423,
    "cropXEnd": null,
@@ -47,22 +47,22 @@
    "beat": "POINT"
   },
   {
-   "inSec": 34.39,
-   "outSec": 41.01,
-   "offsetSec": 22.62,
+   "inSec": 34.4,
+   "outSec": 41.14,
+   "offsetSec": 22.94,
    "framing": "cover",
-   "cropX": 0.427,
+   "cropX": 0.426,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
    "beat": "POINT"
   },
   {
-   "inSec": 42.51,
-   "outSec": 46.17,
-   "offsetSec": 29.24,
+   "inSec": 42.52,
+   "outSec": 46.35,
+   "offsetSec": 29.68,
    "framing": "cover",
-   "cropX": 0.426,
+   "cropX": 0.425,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -71,24 +71,27 @@
  ],
  "captionPages": [
   {
-   "startMs": 790,
-   "endMs": 1270,
+   "startMs": 40,
+   "endMs": 1220,
    "tokens": [
+    {
+     "text": " my"
+    },
     {
      "text": " brother"
     },
     {
      "text": " and"
-    },
-    {
-     "text": " I"
     }
    ]
   },
   {
-   "startMs": 1270,
-   "endMs": 1590,
+   "startMs": 1220,
+   "endMs": 1640,
    "tokens": [
+    {
+     "text": " I"
+    },
     {
      "text": " got"
     },
@@ -98,8 +101,8 @@
    ]
   },
   {
-   "startMs": 1590,
-   "endMs": 2070,
+   "startMs": 1640,
+   "endMs": 2120,
    "tokens": [
     {
      "text": " brand"
@@ -110,8 +113,8 @@
    ]
   },
   {
-   "startMs": 2070,
-   "endMs": 3070,
+   "startMs": 2120,
+   "endMs": 3120,
    "tokens": [
     {
      "text": " Porsche"
@@ -125,8 +128,8 @@
    ]
   },
   {
-   "startMs": 3070,
-   "endMs": 3890,
+   "startMs": 3120,
+   "endMs": 3940,
    "tokens": [
     {
      "text": " RS"
@@ -140,8 +143,8 @@
    ]
   },
   {
-   "startMs": 3890,
-   "endMs": 5270,
+   "startMs": 3940,
+   "endMs": 5320,
    "tokens": [
     {
      "text": " McLaren"
@@ -155,8 +158,8 @@
    ]
   },
   {
-   "startMs": 5270,
-   "endMs": 5770,
+   "startMs": 5320,
+   "endMs": 5820,
    "tokens": [
     {
      "text": " in"
@@ -167,8 +170,8 @@
    ]
   },
   {
-   "startMs": 5770,
-   "endMs": 6610,
+   "startMs": 5820,
+   "endMs": 6660,
    "tokens": [
     {
      "text": " delivered"
@@ -182,8 +185,8 @@
    ]
   },
   {
-   "startMs": 6610,
-   "endMs": 6890,
+   "startMs": 6660,
+   "endMs": 6940,
    "tokens": [
     {
      "text": " house"
@@ -191,8 +194,8 @@
    ]
   },
   {
-   "startMs": 7240,
-   "endMs": 7820,
+   "startMs": 7290,
+   "endMs": 7870,
    "tokens": [
     {
      "text": " So"
@@ -203,8 +206,8 @@
    ]
   },
   {
-   "startMs": 7820,
-   "endMs": 8060,
+   "startMs": 7870,
+   "endMs": 8110,
    "tokens": [
     {
      "text": " have"
@@ -215,8 +218,8 @@
    ]
   },
   {
-   "startMs": 8060,
-   "endMs": 8740,
+   "startMs": 8110,
+   "endMs": 8790,
    "tokens": [
     {
      "text": " cars"
@@ -230,8 +233,8 @@
    ]
   },
   {
-   "startMs": 8740,
-   "endMs": 9220,
+   "startMs": 8790,
+   "endMs": 9270,
    "tokens": [
     {
      "text": " our"
@@ -245,8 +248,8 @@
    ]
   },
   {
-   "startMs": 9220,
-   "endMs": 9400,
+   "startMs": 9270,
+   "endMs": 9450,
    "tokens": [
     {
      "text": " and"
@@ -257,8 +260,8 @@
    ]
   },
   {
-   "startMs": 9400,
-   "endMs": 9840,
+   "startMs": 9450,
+   "endMs": 9890,
    "tokens": [
     {
      "text": " driving"
@@ -269,8 +272,8 @@
    ]
   },
   {
-   "startMs": 9840,
-   "endMs": 10200,
+   "startMs": 9890,
+   "endMs": 10250,
    "tokens": [
     {
      "text": " Bucharest"
@@ -278,8 +281,8 @@
    ]
   },
   {
-   "startMs": 11000,
-   "endMs": 11940,
+   "startMs": 11050,
+   "endMs": 11990,
    "tokens": [
     {
      "text": " Alan"
@@ -293,8 +296,8 @@
    ]
   },
   {
-   "startMs": 12000,
-   "endMs": 12540,
+   "startMs": 12050,
+   "endMs": 12590,
    "tokens": [
     {
      "text": " decal"
@@ -308,8 +311,8 @@
    ]
   },
   {
-   "startMs": 12540,
-   "endMs": 12840,
+   "startMs": 12590,
+   "endMs": 12890,
    "tokens": [
     {
      "text": " see"
@@ -320,8 +323,8 @@
    ]
   },
   {
-   "startMs": 13420,
-   "endMs": 14780,
+   "startMs": 13470,
+   "endMs": 14830,
    "tokens": [
     {
      "text": " Like"
@@ -332,8 +335,8 @@
    ]
   },
   {
-   "startMs": 14920,
-   "endMs": 15100,
+   "startMs": 14970,
+   "endMs": 15150,
    "tokens": [
     {
      "text": " surprise"
@@ -341,32 +344,41 @@
    ]
   },
   {
-   "startMs": 15420,
-   "endMs": 15640,
+   "startMs": 15480,
+   "endMs": 15740,
    "tokens": [
     {
-     "text": " are"
+     "text": " Where"
     },
     {
-     "text": " these"
+     "text": " are"
     }
    ]
   },
   {
-   "startMs": 15640,
-   "endMs": 16140,
+   "startMs": 15740,
+   "endMs": 16060,
    "tokens": [
     {
-     "text": " cars"
+     "text": " these"
     },
+    {
+     "text": " cars"
+    }
+   ]
+  },
+  {
+   "startMs": 16060,
+   "endMs": 16340,
+   "tokens": [
     {
      "text": " from"
     }
    ]
   },
   {
-   "startMs": 18190,
-   "endMs": 18910,
+   "startMs": 18390,
+   "endMs": 19110,
    "tokens": [
     {
      "text": " I"
@@ -377,8 +389,8 @@
    ]
   },
   {
-   "startMs": 18910,
-   "endMs": 19210,
+   "startMs": 19110,
+   "endMs": 19410,
    "tokens": [
     {
      "text": " them"
@@ -386,8 +398,8 @@
    ]
   },
   {
-   "startMs": 19320,
-   "endMs": 19920,
+   "startMs": 19560,
+   "endMs": 20160,
    "tokens": [
     {
      "text": " They're"
@@ -398,8 +410,8 @@
    ]
   },
   {
-   "startMs": 19920,
-   "endMs": 20620,
+   "startMs": 20160,
+   "endMs": 20860,
    "tokens": [
     {
      "text": " rented"
@@ -410,8 +422,8 @@
    ]
   },
   {
-   "startMs": 20620,
-   "endMs": 20980,
+   "startMs": 20860,
+   "endMs": 21220,
    "tokens": [
     {
      "text": " they're"
@@ -422,8 +434,8 @@
    ]
   },
   {
-   "startMs": 20980,
-   "endMs": 21340,
+   "startMs": 21220,
+   "endMs": 21580,
    "tokens": [
     {
      "text": " mine"
@@ -431,8 +443,8 @@
    ]
   },
   {
-   "startMs": 21340,
-   "endMs": 22220,
+   "startMs": 21580,
+   "endMs": 22460,
    "tokens": [
     {
      "text": " fine"
@@ -446,8 +458,8 @@
    ]
   },
   {
-   "startMs": 22220,
-   "endMs": 22620,
+   "startMs": 22460,
+   "endMs": 22900,
    "tokens": [
     {
      "text": " number"
@@ -458,12 +470,21 @@
    ]
   },
   {
-   "startMs": 22620,
-   "endMs": 24320,
+   "startMs": 22900,
+   "endMs": 23520,
    "tokens": [
     {
-     "text": " genius"
+     "text": " some"
     },
+    {
+     "text": " genius"
+    }
+   ]
+  },
+  {
+   "startMs": 23520,
+   "endMs": 24680,
+   "tokens": [
     {
      "text": " started"
     },
@@ -473,8 +494,8 @@
    ]
   },
   {
-   "startMs": 24320,
-   "endMs": 25900,
+   "startMs": 24680,
+   "endMs": 26260,
    "tokens": [
     {
      "text": " rental"
@@ -488,8 +509,8 @@
    ]
   },
   {
-   "startMs": 25900,
-   "endMs": 27300,
+   "startMs": 26260,
+   "endMs": 27660,
    "tokens": [
     {
      "text": " portugal"
@@ -500,8 +521,8 @@
    ]
   },
   {
-   "startMs": 27300,
-   "endMs": 27600,
+   "startMs": 27660,
+   "endMs": 27960,
    "tokens": [
     {
      "text": " bought"
@@ -512,8 +533,8 @@
    ]
   },
   {
-   "startMs": 27600,
-   "endMs": 27880,
+   "startMs": 27960,
+   "endMs": 28240,
    "tokens": [
     {
      "text": " bunch"
@@ -524,8 +545,8 @@
    ]
   },
   {
-   "startMs": 27880,
-   "endMs": 28460,
+   "startMs": 28240,
+   "endMs": 28820,
    "tokens": [
     {
      "text": " assets"
@@ -536,8 +557,8 @@
    ]
   },
   {
-   "startMs": 28460,
-   "endMs": 28940,
+   "startMs": 28820,
+   "endMs": 29300,
    "tokens": [
     {
      "text": " this"
@@ -548,11 +569,14 @@
    ]
   },
   {
-   "startMs": 28940,
-   "endMs": 29400,
+   "startMs": 29300,
+   "endMs": 29880,
    "tokens": [
     {
      "text": " company"
+    },
+    {
+     "text": " and"
     },
     {
      "text": " he'd"
@@ -560,8 +584,8 @@
    ]
   },
   {
-   "startMs": 29400,
-   "endMs": 29820,
+   "startMs": 29880,
+   "endMs": 30300,
    "tokens": [
     {
      "text": " rent"
@@ -575,8 +599,8 @@
    ]
   },
   {
-   "startMs": 29820,
-   "endMs": 30160,
+   "startMs": 30300,
+   "endMs": 30640,
    "tokens": [
     {
      "text": " me"
@@ -590,8 +614,8 @@
    ]
   },
   {
-   "startMs": 30160,
-   "endMs": 30520,
+   "startMs": 30640,
+   "endMs": 31000,
    "tokens": [
     {
      "text": " euro"
@@ -602,8 +626,8 @@
    ]
   },
   {
-   "startMs": 30520,
-   "endMs": 31120,
+   "startMs": 31000,
+   "endMs": 31600,
    "tokens": [
     {
      "text": " week"
@@ -617,8 +641,8 @@
    ]
   },
   {
-   "startMs": 31120,
-   "endMs": 31380,
+   "startMs": 31600,
+   "endMs": 31860,
    "tokens": [
     {
      "text": " nice"
@@ -629,8 +653,8 @@
    ]
   },
   {
-   "startMs": 31380,
-   "endMs": 32460,
+   "startMs": 31860,
+   "endMs": 32940,
    "tokens": [
     {
      "text": " never"
@@ -644,8 +668,8 @@
    ]
   },
   {
-   "startMs": 32460,
-   "endMs": 32820,
+   "startMs": 32940,
+   "endMs": 33300,
    "tokens": [
     {
      "text": " don't"
@@ -659,11 +683,14 @@
    ]
   },
   {
-   "startMs": 32820,
-   "endMs": 32900,
+   "startMs": 33300,
+   "endMs": 33510,
    "tokens": [
     {
      "text": " name"
+    },
+    {
+     "text": " so"
     }
    ]
   }

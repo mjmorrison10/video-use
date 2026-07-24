@@ -3,8 +3,8 @@
  "fps": 30,
  "ranges": [
   {
-   "inSec": 9.52,
-   "outSec": 19.74,
+   "inSec": 9.57,
+   "outSec": 19.79,
    "offsetSec": 0.0,
    "framing": "cover",
    "cropX": 0.334,
@@ -15,7 +15,7 @@
   },
   {
    "inSec": 0.25,
-   "outSec": 5.96,
+   "outSec": 6.09,
    "offsetSec": 10.22,
    "framing": "cover",
    "cropX": 0.334,
@@ -25,11 +25,11 @@
    "beat": "POINT"
   },
   {
-   "inSec": 20.04,
-   "outSec": 28.4,
-   "offsetSec": 15.93,
+   "inSec": 20.09,
+   "outSec": 28.53,
+   "offsetSec": 16.06,
    "framing": "cover",
-   "cropX": 0.337,
+   "cropX": 0.338,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -266,9 +266,12 @@
    ]
   },
   {
-   "startMs": 10890,
-   "endMs": 11270,
+   "startMs": 10260,
+   "endMs": 11320,
    "tokens": [
+    {
+     "text": " they"
+    },
     {
      "text": " could"
     },
@@ -278,8 +281,8 @@
    ]
   },
   {
-   "startMs": 11270,
-   "endMs": 12190,
+   "startMs": 11320,
+   "endMs": 12240,
    "tokens": [
     {
      "text": " people"
@@ -290,8 +293,8 @@
    ]
   },
   {
-   "startMs": 12190,
-   "endMs": 12550,
+   "startMs": 12240,
+   "endMs": 12600,
    "tokens": [
     {
      "text": " were"
@@ -302,8 +305,8 @@
    ]
   },
   {
-   "startMs": 12550,
-   "endMs": 12990,
+   "startMs": 12600,
+   "endMs": 13040,
    "tokens": [
     {
      "text": "-Hong"
@@ -314,8 +317,8 @@
    ]
   },
   {
-   "startMs": 12990,
-   "endMs": 14150,
+   "startMs": 13040,
+   "endMs": 14200,
    "tokens": [
     {
      "text": " citizens"
@@ -326,8 +329,8 @@
    ]
   },
   {
-   "startMs": 14150,
-   "endMs": 15170,
+   "startMs": 14200,
+   "endMs": 15220,
    "tokens": [
     {
      "text": " their"
@@ -341,8 +344,8 @@
    ]
   },
   {
-   "startMs": 15170,
-   "endMs": 15410,
+   "startMs": 15220,
+   "endMs": 15460,
    "tokens": [
     {
      "text": " they're"
@@ -353,8 +356,8 @@
    ]
   },
   {
-   "startMs": 15410,
-   "endMs": 15710,
+   "startMs": 15460,
+   "endMs": 15760,
    "tokens": [
     {
      "text": " through"
@@ -365,24 +368,27 @@
    ]
   },
   {
-   "startMs": 15710,
-   "endMs": 16550,
+   "startMs": 15760,
+   "endMs": 16520,
    "tokens": [
     {
      "text": " airport"
     },
     {
-     "text": " I"
+     "text": " the"
     },
     {
-     "text": " was"
+     "text": " I"
     }
    ]
   },
   {
-   "startMs": 16550,
-   "endMs": 16710,
+   "startMs": 16520,
+   "endMs": 16840,
    "tokens": [
+    {
+     "text": " was"
+    },
     {
      "text": " on"
     },
@@ -392,8 +398,8 @@
    ]
   },
   {
-   "startMs": 16710,
-   "endMs": 17030,
+   "startMs": 16840,
+   "endMs": 17160,
    "tokens": [
     {
      "text": " plane"
@@ -404,8 +410,8 @@
    ]
   },
   {
-   "startMs": 17030,
-   "endMs": 17370,
+   "startMs": 17160,
+   "endMs": 17500,
    "tokens": [
     {
      "text": " hour"
@@ -416,8 +422,8 @@
    ]
   },
   {
-   "startMs": 18650,
-   "endMs": 19250,
+   "startMs": 18780,
+   "endMs": 19380,
    "tokens": [
     {
      "text": " I"
@@ -428,8 +434,8 @@
    ]
   },
   {
-   "startMs": 20050,
-   "endMs": 20690,
+   "startMs": 20180,
+   "endMs": 20820,
    "tokens": [
     {
      "text": " instantly"
@@ -440,8 +446,8 @@
    ]
   },
   {
-   "startMs": 20690,
-   "endMs": 21130,
+   "startMs": 20820,
+   "endMs": 21260,
    "tokens": [
     {
      "text": " that"
@@ -455,8 +461,8 @@
    ]
   },
   {
-   "startMs": 21130,
-   "endMs": 21570,
+   "startMs": 21260,
+   "endMs": 21700,
    "tokens": [
     {
      "text": " changed"
@@ -470,8 +476,8 @@
    ]
   },
   {
-   "startMs": 21570,
-   "endMs": 23010,
+   "startMs": 21700,
+   "endMs": 23140,
    "tokens": [
     {
      "text": " because"
@@ -482,8 +488,8 @@
    ]
   },
   {
-   "startMs": 23010,
-   "endMs": 23350,
+   "startMs": 23140,
+   "endMs": 23480,
    "tokens": [
     {
      "text": " still"
@@ -494,8 +500,8 @@
    ]
   },
   {
-   "startMs": 23350,
-   "endMs": 24070,
+   "startMs": 23480,
+   "endMs": 24200,
    "tokens": [
     {
      "text": " massive"
@@ -509,14 +515,23 @@
    ]
   },
   {
-   "startMs": 24070,
-   "endMs": 24290,
+   "startMs": 24200,
+   "endMs": 24460,
    "tokens": [
     {
      "text": " hong"
     },
     {
      "text": " kong"
+    }
+   ]
+  },
+  {
+   "startMs": 24460,
+   "endMs": 24500,
+   "tokens": [
+    {
+     "text": " because"
     }
    ]
   }

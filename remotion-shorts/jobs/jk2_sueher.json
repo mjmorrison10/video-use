@@ -15,7 +15,7 @@
   },
   {
    "inSec": 29.73,
-   "outSec": 30.85,
+   "outSec": 30.86,
    "offsetSec": 2.31,
    "framing": "cover",
    "cropX": 0.37,
@@ -27,7 +27,7 @@
   {
    "inSec": 0.25,
    "outSec": 9.72,
-   "offsetSec": 3.43,
+   "offsetSec": 3.44,
    "framing": "cover",
    "cropX": 0.037,
    "cropXEnd": null,
@@ -38,7 +38,7 @@
   {
    "inSec": 12.55,
    "outSec": 26.04,
-   "offsetSec": 12.9,
+   "offsetSec": 12.91,
    "framing": "cover",
    "cropX": 0.421,
    "cropXEnd": null,
@@ -109,8 +109,8 @@
    ]
   },
   {
-   "startMs": 3490,
-   "endMs": 4350,
+   "startMs": 3500,
+   "endMs": 4360,
    "tokens": [
     {
      "text": " No"
@@ -121,8 +121,8 @@
    ]
   },
   {
-   "startMs": 4350,
-   "endMs": 6250,
+   "startMs": 4360,
+   "endMs": 6260,
    "tokens": [
     {
      "text": " courts"
@@ -133,8 +133,8 @@
    ]
   },
   {
-   "startMs": 6250,
-   "endMs": 6970,
+   "startMs": 6260,
+   "endMs": 6980,
    "tokens": [
     {
      "text": " American"
@@ -145,8 +145,8 @@
    ]
   },
   {
-   "startMs": 7030,
-   "endMs": 7170,
+   "startMs": 7040,
+   "endMs": 7180,
    "tokens": [
     {
      "text": " It's"
@@ -157,8 +157,8 @@
    ]
   },
   {
-   "startMs": 7170,
-   "endMs": 7810,
+   "startMs": 7180,
+   "endMs": 7820,
    "tokens": [
     {
      "text": " perfect"
@@ -172,8 +172,8 @@
    ]
   },
   {
-   "startMs": 7810,
-   "endMs": 8010,
+   "startMs": 7820,
+   "endMs": 8020,
    "tokens": [
     {
      "text": " the"
@@ -184,8 +184,8 @@
    ]
   },
   {
-   "startMs": 8010,
-   "endMs": 8430,
+   "startMs": 8020,
+   "endMs": 8440,
    "tokens": [
     {
      "text": " chance"
@@ -196,8 +196,8 @@
    ]
   },
   {
-   "startMs": 8430,
-   "endMs": 8530,
+   "startMs": 8440,
+   "endMs": 8540,
    "tokens": [
     {
      "text": " got"
@@ -205,8 +205,8 @@
    ]
   },
   {
-   "startMs": 9030,
-   "endMs": 9530,
+   "startMs": 9040,
+   "endMs": 9540,
    "tokens": [
     {
      "text": " So"
@@ -220,8 +220,8 @@
    ]
   },
   {
-   "startMs": 9530,
-   "endMs": 9970,
+   "startMs": 9540,
+   "endMs": 9980,
    "tokens": [
     {
      "text": " the"
@@ -232,8 +232,8 @@
    ]
   },
   {
-   "startMs": 9970,
-   "endMs": 10930,
+   "startMs": 9980,
+   "endMs": 10940,
    "tokens": [
     {
      "text": " against"
@@ -247,8 +247,8 @@
    ]
   },
   {
-   "startMs": 10930,
-   "endMs": 12610,
+   "startMs": 10940,
+   "endMs": 12620,
    "tokens": [
     {
      "text": " in"
@@ -259,8 +259,8 @@
    ]
   },
   {
-   "startMs": 12960,
-   "endMs": 13880,
+   "startMs": 12970,
+   "endMs": 13890,
    "tokens": [
     {
      "text": " She"
@@ -271,8 +271,8 @@
    ]
   },
   {
-   "startMs": 14200,
-   "endMs": 15240,
+   "startMs": 14210,
+   "endMs": 15250,
    "tokens": [
     {
      "text": " She"
@@ -286,8 +286,8 @@
    ]
   },
   {
-   "startMs": 15240,
-   "endMs": 15580,
+   "startMs": 15250,
+   "endMs": 15590,
    "tokens": [
     {
      "text": " lied"
@@ -295,8 +295,8 @@
    ]
   },
   {
-   "startMs": 15780,
-   "endMs": 16460,
+   "startMs": 15790,
+   "endMs": 16470,
    "tokens": [
     {
      "text": " The"
@@ -307,8 +307,8 @@
    ]
   },
   {
-   "startMs": 16460,
-   "endMs": 16980,
+   "startMs": 16470,
+   "endMs": 16990,
    "tokens": [
     {
      "text": " state"
@@ -319,8 +319,8 @@
    ]
   },
   {
-   "startMs": 16980,
-   "endMs": 17300,
+   "startMs": 16990,
+   "endMs": 17310,
    "tokens": [
     {
      "text": " corrupt"
@@ -328,8 +328,8 @@
    ]
   },
   {
-   "startMs": 17520,
-   "endMs": 18140,
+   "startMs": 17530,
+   "endMs": 18150,
    "tokens": [
     {
      "text": " They"
@@ -343,8 +343,8 @@
    ]
   },
   {
-   "startMs": 18140,
-   "endMs": 18800,
+   "startMs": 18150,
+   "endMs": 18810,
    "tokens": [
     {
      "text": " fucking"
@@ -355,8 +355,8 @@
    ]
   },
   {
-   "startMs": 18960,
-   "endMs": 19680,
+   "startMs": 18970,
+   "endMs": 19690,
    "tokens": [
     {
      "text": " They"
@@ -370,8 +370,8 @@
    ]
   },
   {
-   "startMs": 19680,
-   "endMs": 20340,
+   "startMs": 19690,
+   "endMs": 20350,
    "tokens": [
     {
      "text": " fucking"
@@ -382,8 +382,8 @@
    ]
   },
   {
-   "startMs": 20540,
-   "endMs": 21260,
+   "startMs": 20550,
+   "endMs": 21270,
    "tokens": [
     {
      "text": " They"
@@ -397,8 +397,8 @@
    ]
   },
   {
-   "startMs": 21260,
-   "endMs": 21800,
+   "startMs": 21270,
+   "endMs": 21810,
    "tokens": [
     {
      "text": " mental"
@@ -409,8 +409,8 @@
    ]
   },
   {
-   "startMs": 21940,
-   "endMs": 22420,
+   "startMs": 21950,
+   "endMs": 22430,
    "tokens": [
     {
      "text": " They"
@@ -424,8 +424,8 @@
    ]
   },
   {
-   "startMs": 22420,
-   "endMs": 22560,
+   "startMs": 22430,
+   "endMs": 22570,
    "tokens": [
     {
      "text": " in"
@@ -436,8 +436,8 @@
    ]
   },
   {
-   "startMs": 22560,
-   "endMs": 23160,
+   "startMs": 22570,
+   "endMs": 23170,
    "tokens": [
     {
      "text": " fucking"
@@ -448,8 +448,8 @@
    ]
   },
   {
-   "startMs": 23340,
-   "endMs": 23980,
+   "startMs": 23350,
+   "endMs": 23990,
    "tokens": [
     {
      "text": " They've"
@@ -463,8 +463,8 @@
    ]
   },
   {
-   "startMs": 23980,
-   "endMs": 24360,
+   "startMs": 23990,
+   "endMs": 24370,
    "tokens": [
     {
      "text": " reputation"
@@ -472,8 +472,8 @@
    ]
   },
   {
-   "startMs": 24680,
-   "endMs": 25240,
+   "startMs": 24690,
+   "endMs": 25250,
    "tokens": [
     {
      "text": " They"
@@ -487,8 +487,8 @@
    ]
   },
   {
-   "startMs": 25240,
-   "endMs": 25500,
+   "startMs": 25250,
+   "endMs": 25510,
    "tokens": [
     {
      "text": " from"
@@ -499,8 +499,8 @@
    ]
   },
   {
-   "startMs": 25500,
-   "endMs": 26180,
+   "startMs": 25510,
+   "endMs": 26190,
    "tokens": [
     {
      "text": " fucking"
@@ -542,5 +542,9 @@
  "hook": {
   "text": "SUE HER. WHY NOT?",
   "untilSec": 2.5
- }
+ },
+ "broll": [],
+ "zooms": [],
+ "zoomSteps": [],
+ "cta": null
 }

@@ -4,19 +4,19 @@
  "ranges": [
   {
    "inSec": 0.25,
-   "outSec": 7.1,
+   "outSec": 7.14,
    "offsetSec": 0.0,
    "framing": "cover",
    "cropX": 0.507,
    "cropXEnd": 0.361,
-   "cropPanSec": 6.85,
+   "cropPanSec": 6.89,
    "mute": false,
    "beat": "HOOK"
   },
   {
    "inSec": 8.77,
-   "outSec": 12.73,
-   "offsetSec": 6.85,
+   "outSec": 12.77,
+   "offsetSec": 6.89,
    "framing": "cover",
    "cropX": 0.389,
    "cropXEnd": null,
@@ -26,10 +26,10 @@
   },
   {
    "inSec": 26.47,
-   "outSec": 28.24,
-   "offsetSec": 10.81,
+   "outSec": 28.28,
+   "offsetSec": 10.89,
    "framing": "cover",
-   "cropX": 0.491,
+   "cropX": 0.489,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -37,8 +37,8 @@
   },
   {
    "inSec": 32.87,
-   "outSec": 40.13,
-   "offsetSec": 12.58,
+   "outSec": 40.18,
+   "offsetSec": 12.7,
    "framing": "cover",
    "cropX": 0.524,
    "cropXEnd": null,
@@ -47,9 +47,9 @@
    "beat": "POINT"
   },
   {
-   "inSec": 51.17,
-   "outSec": 56.6,
-   "offsetSec": 19.84,
+   "inSec": 51.21,
+   "outSec": 56.64,
+   "offsetSec": 20.01,
    "framing": "cover",
    "cropX": 0.466,
    "cropXEnd": null,
@@ -59,10 +59,10 @@
   },
   {
    "inSec": 62.95,
-   "outSec": 71.92,
-   "offsetSec": 25.27,
+   "outSec": 72.22,
+   "offsetSec": 25.44,
    "framing": "cover",
-   "cropX": 0.465,
+   "cropX": 0.464,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -70,10 +70,10 @@
   },
   {
    "inSec": 82.39,
-   "outSec": 90.83,
-   "offsetSec": 34.24,
+   "outSec": 90.87,
+   "offsetSec": 34.71,
    "framing": "cover",
-   "cropX": 0.452,
+   "cropX": 0.451,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -82,8 +82,8 @@
  ],
  "captionPages": [
   {
-   "startMs": 60,
-   "endMs": 660,
+   "startMs": 100,
+   "endMs": 700,
    "tokens": [
     {
      "text": " I"
@@ -94,8 +94,8 @@
    ]
   },
   {
-   "startMs": 660,
-   "endMs": 1400,
+   "startMs": 700,
+   "endMs": 1440,
    "tokens": [
     {
      "text": " moving"
@@ -106,8 +106,8 @@
    ]
   },
   {
-   "startMs": 1400,
-   "endMs": 2240,
+   "startMs": 1440,
+   "endMs": 2280,
    "tokens": [
     {
      "text": " fringe"
@@ -118,8 +118,8 @@
    ]
   },
   {
-   "startMs": 2240,
-   "endMs": 3760,
+   "startMs": 2280,
+   "endMs": 3800,
    "tokens": [
     {
      "text": " celebrity"
@@ -130,8 +130,8 @@
    ]
   },
   {
-   "startMs": 3760,
-   "endMs": 4480,
+   "startMs": 3800,
+   "endMs": 4520,
    "tokens": [
     {
      "text": " mainstream"
@@ -142,8 +142,8 @@
    ]
   },
   {
-   "startMs": 4660,
-   "endMs": 4840,
+   "startMs": 4700,
+   "endMs": 4880,
    "tokens": [
     {
      "text": " I"
@@ -154,8 +154,8 @@
    ]
   },
   {
-   "startMs": 4840,
-   "endMs": 5780,
+   "startMs": 4880,
+   "endMs": 5820,
    "tokens": [
     {
      "text": " getting"
@@ -169,8 +169,8 @@
    ]
   },
   {
-   "startMs": 5780,
-   "endMs": 6400,
+   "startMs": 5820,
+   "endMs": 6440,
    "tokens": [
     {
      "text": " bigger"
@@ -181,8 +181,8 @@
    ]
   },
   {
-   "startMs": 6400,
-   "endMs": 6620,
+   "startMs": 6440,
+   "endMs": 6660,
    "tokens": [
     {
      "text": " bigger"
@@ -190,8 +190,8 @@
    ]
   },
   {
-   "startMs": 6850,
-   "endMs": 7470,
+   "startMs": 6930,
+   "endMs": 7550,
    "tokens": [
     {
      "text": " my"
@@ -205,8 +205,8 @@
    ]
   },
   {
-   "startMs": 7470,
-   "endMs": 8010,
+   "startMs": 7550,
+   "endMs": 8090,
    "tokens": [
     {
      "text": " 100"
@@ -217,8 +217,8 @@
    ]
   },
   {
-   "startMs": 8010,
-   "endMs": 8310,
+   "startMs": 8090,
+   "endMs": 8390,
    "tokens": [
     {
      "text": " followers"
@@ -226,8 +226,8 @@
    ]
   },
   {
-   "startMs": 8670,
-   "endMs": 9250,
+   "startMs": 8750,
+   "endMs": 9330,
    "tokens": [
     {
      "text": " By"
@@ -238,8 +238,8 @@
    ]
   },
   {
-   "startMs": 9250,
-   "endMs": 9750,
+   "startMs": 9330,
+   "endMs": 9830,
    "tokens": [
     {
      "text": " point"
@@ -253,8 +253,8 @@
    ]
   },
   {
-   "startMs": 9750,
-   "endMs": 10110,
+   "startMs": 9830,
+   "endMs": 10190,
    "tokens": [
     {
      "text": " to"
@@ -268,8 +268,8 @@
    ]
   },
   {
-   "startMs": 10110,
-   "endMs": 10310,
+   "startMs": 10190,
+   "endMs": 10390,
    "tokens": [
     {
      "text": " or"
@@ -280,8 +280,8 @@
    ]
   },
   {
-   "startMs": 10310,
-   "endMs": 10550,
+   "startMs": 10390,
+   "endMs": 10630,
    "tokens": [
     {
      "text": " million"
@@ -289,8 +289,8 @@
    ]
   },
   {
-   "startMs": 10810,
-   "endMs": 11150,
+   "startMs": 10930,
+   "endMs": 11270,
    "tokens": [
     {
      "text": " My"
@@ -301,8 +301,8 @@
    ]
   },
   {
-   "startMs": 11150,
-   "endMs": 11590,
+   "startMs": 11270,
+   "endMs": 11710,
    "tokens": [
     {
      "text": " comes"
@@ -316,8 +316,8 @@
    ]
   },
   {
-   "startMs": 11590,
-   "endMs": 11890,
+   "startMs": 11710,
+   "endMs": 12010,
    "tokens": [
     {
      "text": " goes"
@@ -331,8 +331,8 @@
    ]
   },
   {
-   "startMs": 11890,
-   "endMs": 12310,
+   "startMs": 12010,
+   "endMs": 12430,
    "tokens": [
     {
      "text": " seen"
@@ -343,8 +343,8 @@
    ]
   },
   {
-   "startMs": 12580,
-   "endMs": 12780,
+   "startMs": 12740,
+   "endMs": 12940,
    "tokens": [
     {
      "text": " it's"
@@ -355,8 +355,8 @@
    ]
   },
   {
-   "startMs": 12780,
-   "endMs": 13080,
+   "startMs": 12940,
+   "endMs": 13240,
    "tokens": [
     {
      "text": " picture"
@@ -367,8 +367,8 @@
    ]
   },
   {
-   "startMs": 13080,
-   "endMs": 13240,
+   "startMs": 13240,
+   "endMs": 13400,
    "tokens": [
     {
      "text": " me"
@@ -376,8 +376,8 @@
    ]
   },
   {
-   "startMs": 13960,
-   "endMs": 14540,
+   "startMs": 14120,
+   "endMs": 14700,
    "tokens": [
     {
      "text": " And"
@@ -388,8 +388,8 @@
    ]
   },
   {
-   "startMs": 14540,
-   "endMs": 15180,
+   "startMs": 14700,
+   "endMs": 15340,
    "tokens": [
     {
      "text": " some"
@@ -400,8 +400,8 @@
    ]
   },
   {
-   "startMs": 15180,
-   "endMs": 15740,
+   "startMs": 15340,
+   "endMs": 15900,
    "tokens": [
     {
      "text": " underneath"
@@ -412,8 +412,8 @@
    ]
   },
   {
-   "startMs": 15740,
-   "endMs": 16640,
+   "startMs": 15900,
+   "endMs": 16800,
    "tokens": [
     {
      "text": " about"
@@ -427,8 +427,8 @@
    ]
   },
   {
-   "startMs": 16640,
-   "endMs": 17420,
+   "startMs": 16800,
+   "endMs": 17580,
    "tokens": [
     {
      "text": " toxically"
@@ -439,8 +439,8 @@
    ]
   },
   {
-   "startMs": 17600,
-   "endMs": 17900,
+   "startMs": 17760,
+   "endMs": 18060,
    "tokens": [
     {
      "text": " I'm"
@@ -451,8 +451,8 @@
    ]
   },
   {
-   "startMs": 17900,
-   "endMs": 18600,
+   "startMs": 18060,
+   "endMs": 18760,
    "tokens": [
     {
      "text": " misogynist"
@@ -463,8 +463,8 @@
    ]
   },
   {
-   "startMs": 18600,
-   "endMs": 19340,
+   "startMs": 18760,
+   "endMs": 19500,
    "tokens": [
     {
      "text": " racist"
@@ -478,8 +478,8 @@
    ]
   },
   {
-   "startMs": 19340,
-   "endMs": 19760,
+   "startMs": 19500,
+   "endMs": 19920,
    "tokens": [
     {
      "text": " homophobe"
@@ -487,8 +487,8 @@
    ]
   },
   {
-   "startMs": 19900,
-   "endMs": 20700,
+   "startMs": 20070,
+   "endMs": 20870,
    "tokens": [
     {
      "text": " And"
@@ -502,8 +502,8 @@
    ]
   },
   {
-   "startMs": 20700,
-   "endMs": 21320,
+   "startMs": 20870,
+   "endMs": 21490,
    "tokens": [
     {
      "text": " an"
@@ -514,8 +514,8 @@
    ]
   },
   {
-   "startMs": 21320,
-   "endMs": 23000,
+   "startMs": 21490,
+   "endMs": 23170,
    "tokens": [
     {
      "text": " page"
@@ -529,8 +529,8 @@
    ]
   },
   {
-   "startMs": 23000,
-   "endMs": 24320,
+   "startMs": 23170,
+   "endMs": 24490,
    "tokens": [
     {
      "text": " charity"
@@ -544,8 +544,8 @@
    ]
   },
   {
-   "startMs": 24320,
-   "endMs": 24720,
+   "startMs": 24490,
+   "endMs": 24890,
    "tokens": [
     {
      "text": " rights"
@@ -556,8 +556,8 @@
    ]
   },
   {
-   "startMs": 24720,
-   "endMs": 25140,
+   "startMs": 24890,
+   "endMs": 25310,
    "tokens": [
     {
      "text": " gays"
@@ -565,8 +565,8 @@
    ]
   },
   {
-   "startMs": 25270,
-   "endMs": 25690,
+   "startMs": 25480,
+   "endMs": 25900,
    "tokens": [
     {
      "text": " the"
@@ -577,8 +577,8 @@
    ]
   },
   {
-   "startMs": 25690,
-   "endMs": 27110,
+   "startMs": 25900,
+   "endMs": 27320,
    "tokens": [
     {
      "text": " picture"
@@ -592,8 +592,8 @@
    ]
   },
   {
-   "startMs": 27110,
-   "endMs": 27990,
+   "startMs": 27320,
+   "endMs": 28200,
    "tokens": [
     {
      "text": " same"
@@ -604,8 +604,8 @@
    ]
   },
   {
-   "startMs": 28450,
-   "endMs": 29430,
+   "startMs": 28660,
+   "endMs": 29640,
    "tokens": [
     {
      "text": " explaining"
@@ -619,8 +619,8 @@
    ]
   },
   {
-   "startMs": 29430,
-   "endMs": 29890,
+   "startMs": 29640,
+   "endMs": 30100,
    "tokens": [
     {
      "text": " the"
@@ -634,8 +634,8 @@
    ]
   },
   {
-   "startMs": 29890,
-   "endMs": 30030,
+   "startMs": 30100,
+   "endMs": 30240,
    "tokens": [
     {
      "text": " in"
@@ -646,8 +646,8 @@
    ]
   },
   {
-   "startMs": 30030,
-   "endMs": 30310,
+   "startMs": 30240,
+   "endMs": 30520,
    "tokens": [
     {
      "text": " world"
@@ -655,8 +655,8 @@
    ]
   },
   {
-   "startMs": 30410,
-   "endMs": 31030,
+   "startMs": 30620,
+   "endMs": 31240,
    "tokens": [
     {
      "text": " Copy"
@@ -667,8 +667,8 @@
    ]
   },
   {
-   "startMs": 31030,
-   "endMs": 31890,
+   "startMs": 31240,
+   "endMs": 32100,
    "tokens": [
     {
      "text": " paste"
@@ -682,8 +682,8 @@
    ]
   },
   {
-   "startMs": 31990,
-   "endMs": 33150,
+   "startMs": 32200,
+   "endMs": 33360,
    "tokens": [
     {
      "text": " on"
@@ -697,8 +697,8 @@
    ]
   },
   {
-   "startMs": 33150,
-   "endMs": 34010,
+   "startMs": 33360,
+   "endMs": 34220,
    "tokens": [
     {
      "text": " about"
@@ -709,8 +709,8 @@
    ]
   },
   {
-   "startMs": 34010,
-   "endMs": 34240,
+   "startMs": 34220,
+   "endMs": 34620,
    "tokens": [
     {
      "text": " protection"
@@ -718,8 +718,8 @@
    ]
   },
   {
-   "startMs": 34300,
-   "endMs": 35400,
+   "startMs": 34810,
+   "endMs": 35910,
    "tokens": [
     {
      "text": " I"
@@ -730,8 +730,8 @@
    ]
   },
   {
-   "startMs": 35400,
-   "endMs": 35900,
+   "startMs": 35910,
+   "endMs": 36410,
    "tokens": [
     {
      "text": " like"
@@ -742,8 +742,8 @@
    ]
   },
   {
-   "startMs": 35900,
-   "endMs": 36620,
+   "startMs": 36410,
+   "endMs": 37130,
    "tokens": [
     {
      "text": " different"
@@ -754,8 +754,8 @@
    ]
   },
   {
-   "startMs": 36800,
-   "endMs": 38340,
+   "startMs": 37310,
+   "endMs": 38850,
    "tokens": [
     {
      "text": " random"
@@ -769,8 +769,8 @@
    ]
   },
   {
-   "startMs": 38340,
-   "endMs": 39520,
+   "startMs": 38850,
+   "endMs": 40030,
    "tokens": [
     {
      "text": " random"
@@ -784,8 +784,8 @@
    ]
   },
   {
-   "startMs": 39520,
-   "endMs": 40920,
+   "startMs": 40030,
+   "endMs": 41430,
    "tokens": [
     {
      "text": " NGOs"
@@ -796,8 +796,8 @@
    ]
   },
   {
-   "startMs": 40920,
-   "endMs": 41400,
+   "startMs": 41430,
+   "endMs": 41910,
    "tokens": [
     {
      "text": " that"
@@ -811,8 +811,8 @@
    ]
   },
   {
-   "startMs": 41400,
-   "endMs": 42200,
+   "startMs": 41910,
+   "endMs": 42710,
    "tokens": [
     {
      "text": " worst"
@@ -826,8 +826,8 @@
    ]
   },
   {
-   "startMs": 42200,
-   "endMs": 42560,
+   "startMs": 42710,
+   "endMs": 43070,
    "tokens": [
     {
      "text": " the"

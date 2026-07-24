@@ -3,11 +3,11 @@
  "fps": 30,
  "ranges": [
   {
-   "inSec": 60.59,
+   "inSec": 60.49,
    "outSec": 64.68,
    "offsetSec": 0.0,
    "framing": "cover",
-   "cropX": 0.455,
+   "cropX": 0.452,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -15,10 +15,10 @@
   },
   {
    "inSec": 0.25,
-   "outSec": 3.73,
-   "offsetSec": 4.09,
+   "outSec": 3.81,
+   "offsetSec": 4.19,
    "framing": "cover",
-   "cropX": 0.311,
+   "cropX": 0.31,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -27,7 +27,7 @@
   {
    "inSec": 6.87,
    "outSec": 15.66,
-   "offsetSec": 7.57,
+   "offsetSec": 7.75,
    "framing": "cover",
    "cropX": 0.32,
    "cropXEnd": null,
@@ -38,7 +38,7 @@
   {
    "inSec": 21.67,
    "outSec": 26.65,
-   "offsetSec": 16.36,
+   "offsetSec": 16.54,
    "framing": "cover",
    "cropX": 0.285,
    "cropXEnd": null,
@@ -47,9 +47,9 @@
    "beat": "POINT"
   },
   {
-   "inSec": 43.11,
+   "inSec": 43.07,
    "outSec": 45.99,
-   "offsetSec": 21.34,
+   "offsetSec": 21.52,
    "framing": "cover",
    "cropX": 0.393,
    "cropXEnd": null,
@@ -59,10 +59,10 @@
   },
   {
    "inSec": 50.11,
-   "outSec": 52.18,
-   "offsetSec": 24.22,
+   "outSec": 52.44,
+   "offsetSec": 24.44,
    "framing": "cover",
-   "cropX": 0.412,
+   "cropX": 0.418,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -70,8 +70,8 @@
   },
   {
    "inSec": 58.05,
-   "outSec": 60.03,
-   "offsetSec": 26.29,
+   "outSec": 60.04,
+   "offsetSec": 26.77,
    "framing": "cover",
    "cropX": 0.439,
    "cropXEnd": null,
@@ -82,7 +82,7 @@
   {
    "inSec": 64.95,
    "outSec": 68.9,
-   "offsetSec": 28.27,
+   "offsetSec": 28.76,
    "framing": "cover",
    "cropX": 0.291,
    "cropXEnd": null,
@@ -92,10 +92,10 @@
   },
   {
    "inSec": 98.37,
-   "outSec": 102.47,
-   "offsetSec": 32.22,
+   "outSec": 102.56,
+   "offsetSec": 32.71,
    "framing": "cover",
-   "cropX": 0.369,
+   "cropX": 0.365,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -104,12 +104,21 @@
  ],
  "captionPages": [
   {
-   "startMs": 360,
-   "endMs": 1340,
+   "startMs": 60,
+   "endMs": 640,
    "tokens": [
     {
-     "text": " in"
+     "text": " AFD"
     },
+    {
+     "text": " in"
+    }
+   ]
+  },
+  {
+   "startMs": 640,
+   "endMs": 1440,
+   "tokens": [
     {
      "text": " Germany"
     },
@@ -119,8 +128,8 @@
    ]
   },
   {
-   "startMs": 1340,
-   "endMs": 1740,
+   "startMs": 1440,
+   "endMs": 1840,
    "tokens": [
     {
      "text": " rigged"
@@ -128,8 +137,8 @@
    ]
   },
   {
-   "startMs": 1760,
-   "endMs": 2400,
+   "startMs": 1860,
+   "endMs": 2500,
    "tokens": [
     {
      "text": " They"
@@ -143,8 +152,8 @@
    ]
   },
   {
-   "startMs": 2400,
-   "endMs": 2700,
+   "startMs": 2500,
+   "endMs": 2800,
    "tokens": [
     {
      "text": " win"
@@ -155,8 +164,8 @@
    ]
   },
   {
-   "startMs": 2700,
-   "endMs": 3520,
+   "startMs": 2800,
+   "endMs": 3620,
    "tokens": [
     {
      "text": " little"
@@ -170,8 +179,8 @@
    ]
   },
   {
-   "startMs": 3520,
-   "endMs": 3980,
+   "startMs": 3620,
+   "endMs": 4080,
    "tokens": [
     {
      "text": " not"
@@ -182,8 +191,8 @@
    ]
   },
   {
-   "startMs": 4150,
-   "endMs": 5290,
+   "startMs": 4250,
+   "endMs": 5390,
    "tokens": [
     {
      "text": " He"
@@ -197,8 +206,8 @@
    ]
   },
   {
-   "startMs": 5290,
-   "endMs": 6830,
+   "startMs": 5390,
+   "endMs": 6930,
    "tokens": [
     {
      "text": " presidential"
@@ -212,53 +221,53 @@
    ]
   },
   {
-   "startMs": 6830,
-   "endMs": 8150,
+   "startMs": 6930,
+   "endMs": 7710,
    "tokens": [
     {
      "text": " a"
     },
     {
      "text": " landslide"
-    },
-    {
-     "text": " And"
     }
    ]
   },
   {
-   "startMs": 8150,
-   "endMs": 8790,
+   "startMs": 7710,
+   "endMs": 8430,
    "tokens": [
     {
-     "text": " the"
+     "text": " with"
     },
+    {
+     "text": " And"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 8430,
+   "endMs": 9730,
+   "tokens": [
     {
      "text": " next"
     },
     {
      "text": " day"
-    }
-   ]
-  },
-  {
-   "startMs": 8970,
-   "endMs": 10050,
-   "tokens": [
+    },
     {
      "text": " the"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 9730,
+   "endMs": 10890,
+   "tokens": [
     {
      "text": " constitutional"
-    }
-   ]
-  },
-  {
-   "startMs": 10050,
-   "endMs": 10910,
-   "tokens": [
-    {
-     "text": " court"
     },
     {
      "text": " court"
@@ -266,9 +275,12 @@
    ]
   },
   {
-   "startMs": 10950,
-   "endMs": 12490,
+   "startMs": 10890,
+   "endMs": 12670,
    "tokens": [
+    {
+     "text": " court"
+    },
     {
      "text": " cancels"
     },
@@ -278,8 +290,8 @@
    ]
   },
   {
-   "startMs": 12490,
-   "endMs": 14030,
+   "startMs": 12670,
+   "endMs": 14210,
    "tokens": [
     {
      "text": " election"
@@ -293,8 +305,8 @@
    ]
   },
   {
-   "startMs": 14030,
-   "endMs": 14990,
+   "startMs": 14210,
+   "endMs": 15170,
    "tokens": [
     {
      "text": " was"
@@ -308,8 +320,8 @@
    ]
   },
   {
-   "startMs": 14990,
-   "endMs": 17060,
+   "startMs": 15170,
+   "endMs": 17240,
    "tokens": [
     {
      "text": " Russian"
@@ -323,8 +335,8 @@
    ]
   },
   {
-   "startMs": 17060,
-   "endMs": 17960,
+   "startMs": 17240,
+   "endMs": 18140,
    "tokens": [
     {
      "text": " prosecutor"
@@ -335,8 +347,8 @@
    ]
   },
   {
-   "startMs": 17960,
-   "endMs": 18560,
+   "startMs": 18140,
+   "endMs": 18740,
    "tokens": [
     {
      "text": " sent"
@@ -350,8 +362,8 @@
    ]
   },
   {
-   "startMs": 18560,
-   "endMs": 19920,
+   "startMs": 18740,
+   "endMs": 20100,
    "tokens": [
     {
      "text": " jail"
@@ -365,8 +377,8 @@
    ]
   },
   {
-   "startMs": 19920,
-   "endMs": 20980,
+   "startMs": 20100,
+   "endMs": 21160,
    "tokens": [
     {
      "text": " same"
@@ -380,8 +392,8 @@
    ]
   },
   {
-   "startMs": 20980,
-   "endMs": 21180,
+   "startMs": 21160,
+   "endMs": 21360,
    "tokens": [
     {
      "text": " me"
@@ -389,8 +401,8 @@
    ]
   },
   {
-   "startMs": 21340,
-   "endMs": 21780,
+   "startMs": 21560,
+   "endMs": 22000,
    "tokens": [
     {
      "text": " only"
@@ -401,8 +413,8 @@
    ]
   },
   {
-   "startMs": 21780,
-   "endMs": 22340,
+   "startMs": 22000,
+   "endMs": 22560,
    "tokens": [
     {
      "text": " countries"
@@ -413,8 +425,8 @@
    ]
   },
   {
-   "startMs": 22340,
-   "endMs": 22940,
+   "startMs": 22560,
+   "endMs": 23160,
    "tokens": [
     {
      "text": " history"
@@ -425,8 +437,8 @@
    ]
   },
   {
-   "startMs": 22940,
-   "endMs": 23680,
+   "startMs": 23160,
+   "endMs": 23900,
    "tokens": [
     {
      "text": " undone"
@@ -437,8 +449,8 @@
    ]
   },
   {
-   "startMs": 23680,
-   "endMs": 24000,
+   "startMs": 23900,
+   "endMs": 24220,
    "tokens": [
     {
      "text": " election"
@@ -446,8 +458,8 @@
    ]
   },
   {
-   "startMs": 24280,
-   "endMs": 24840,
+   "startMs": 24500,
+   "endMs": 25060,
    "tokens": [
     {
      "text": " That's"
@@ -458,8 +470,8 @@
    ]
   },
   {
-   "startMs": 24840,
-   "endMs": 25760,
+   "startMs": 25060,
+   "endMs": 25980,
    "tokens": [
     {
      "text": " corrupt"
@@ -470,8 +482,8 @@
    ]
   },
   {
-   "startMs": 25760,
-   "endMs": 26290,
+   "startMs": 25980,
+   "endMs": 26680,
    "tokens": [
     {
      "text": " shithole"
@@ -482,8 +494,8 @@
    ]
   },
   {
-   "startMs": 26350,
-   "endMs": 27150,
+   "startMs": 26830,
+   "endMs": 27630,
    "tokens": [
     {
      "text": " Every"
@@ -494,8 +506,8 @@
    ]
   },
   {
-   "startMs": 27150,
-   "endMs": 27950,
+   "startMs": 27630,
+   "endMs": 28430,
    "tokens": [
     {
      "text": " country"
@@ -509,8 +521,8 @@
    ]
   },
   {
-   "startMs": 27950,
-   "endMs": 28190,
+   "startMs": 28430,
+   "endMs": 28670,
    "tokens": [
     {
      "text": " elections"
@@ -518,8 +530,8 @@
    ]
   },
   {
-   "startMs": 28330,
-   "endMs": 29010,
+   "startMs": 28820,
+   "endMs": 29500,
    "tokens": [
     {
      "text": " Marine"
@@ -533,8 +545,8 @@
    ]
   },
   {
-   "startMs": 29010,
-   "endMs": 30230,
+   "startMs": 29500,
+   "endMs": 30720,
    "tokens": [
     {
      "text": " in"
@@ -548,8 +560,8 @@
    ]
   },
   {
-   "startMs": 30230,
-   "endMs": 30590,
+   "startMs": 30720,
+   "endMs": 31080,
    "tokens": [
     {
      "text": " caught"
@@ -560,8 +572,8 @@
    ]
   },
   {
-   "startMs": 30590,
-   "endMs": 31070,
+   "startMs": 31080,
+   "endMs": 31560,
    "tokens": [
     {
      "text": " criminal"
@@ -572,8 +584,8 @@
    ]
   },
   {
-   "startMs": 31070,
-   "endMs": 31770,
+   "startMs": 31560,
+   "endMs": 32260,
    "tokens": [
     {
      "text": " just"
@@ -587,8 +599,8 @@
    ]
   },
   {
-   "startMs": 31770,
-   "endMs": 32110,
+   "startMs": 32260,
+   "endMs": 32600,
    "tokens": [
     {
      "text": " could"
@@ -599,8 +611,8 @@
    ]
   },
   {
-   "startMs": 32280,
-   "endMs": 33140,
+   "startMs": 32770,
+   "endMs": 33630,
    "tokens": [
     {
      "text": " The"
@@ -611,8 +623,8 @@
    ]
   },
   {
-   "startMs": 33140,
-   "endMs": 33800,
+   "startMs": 33630,
+   "endMs": 34290,
    "tokens": [
     {
      "text": " fucked"
@@ -623,8 +635,8 @@
    ]
   },
   {
-   "startMs": 33800,
-   "endMs": 34480,
+   "startMs": 34290,
+   "endMs": 34970,
    "tokens": [
     {
      "text": " their"
@@ -635,8 +647,8 @@
    ]
   },
   {
-   "startMs": 34820,
-   "endMs": 35460,
+   "startMs": 35310,
+   "endMs": 35950,
    "tokens": [
     {
      "text": " So"
@@ -650,8 +662,8 @@
    ]
   },
   {
-   "startMs": 35460,
-   "endMs": 35900,
+   "startMs": 35950,
+   "endMs": 36390,
    "tokens": [
     {
      "text": " to"
@@ -665,8 +677,8 @@
    ]
   },
   {
-   "startMs": 35900,
-   "endMs": 36320,
+   "startMs": 36390,
+   "endMs": 36810,
    "tokens": [
     {
      "text": " whole"

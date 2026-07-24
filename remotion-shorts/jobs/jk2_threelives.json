@@ -15,7 +15,7 @@
   },
   {
    "inSec": 0.25,
-   "outSec": 3.77,
+   "outSec": 3.84,
    "offsetSec": 3.2,
    "framing": "cover",
    "cropX": 0.367,
@@ -26,10 +26,10 @@
   },
   {
    "inSec": 4.95,
-   "outSec": 8.23,
-   "offsetSec": 6.72,
+   "outSec": 8.31,
+   "offsetSec": 6.79,
    "framing": "cover",
-   "cropX": 0.392,
+   "cropX": 0.394,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -37,8 +37,8 @@
   },
   {
    "inSec": 14.77,
-   "outSec": 16.59,
-   "offsetSec": 10.0,
+   "outSec": 16.66,
+   "offsetSec": 10.15,
    "framing": "cover",
    "cropX": 0.367,
    "cropXEnd": null,
@@ -49,7 +49,7 @@
   {
    "inSec": 18.11,
    "outSec": 26.05,
-   "offsetSec": 11.82,
+   "offsetSec": 12.04,
    "framing": "cover",
    "cropX": 0.369,
    "cropXEnd": null,
@@ -59,10 +59,10 @@
   },
   {
    "inSec": 29.64,
-   "outSec": 34.1,
-   "offsetSec": 19.76,
+   "outSec": 34.16,
+   "offsetSec": 19.98,
    "framing": "cover",
-   "cropX": 0.391,
+   "cropX": 0.396,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -70,12 +70,12 @@
   },
   {
    "inSec": 59.26,
-   "outSec": 65.78,
-   "offsetSec": 24.22,
+   "outSec": 65.86,
+   "offsetSec": 24.5,
    "framing": "cover",
-   "cropX": 0.404,
-   "cropXEnd": 0.616,
-   "cropPanSec": 6.52,
+   "cropX": 0.402,
+   "cropXEnd": 0.622,
+   "cropPanSec": 6.6,
    "mute": false,
    "beat": "PAYOFF"
   }
@@ -199,24 +199,33 @@
    ]
   },
   {
-   "startMs": 6780,
-   "endMs": 7420,
+   "startMs": 6760,
+   "endMs": 7250,
    "tokens": [
     {
-     "text": " Everyone"
+     "text": " They"
     },
     {
-     "text": " they"
+     "text": " Everyone"
     }
    ]
   },
   {
-   "startMs": 7420,
-   "endMs": 8500,
+   "startMs": 7250,
+   "endMs": 8010,
    "tokens": [
     {
-     "text": " silenced"
+     "text": " they"
     },
+    {
+     "text": " silenced"
+    }
+   ]
+  },
+  {
+   "startMs": 8010,
+   "endMs": 8570,
+   "tokens": [
     {
      "text": " before"
     },
@@ -226,8 +235,8 @@
    ]
   },
   {
-   "startMs": 8500,
-   "endMs": 9220,
+   "startMs": 8570,
+   "endMs": 9290,
    "tokens": [
     {
      "text": " went"
@@ -238,8 +247,8 @@
    ]
   },
   {
-   "startMs": 9360,
-   "endMs": 9740,
+   "startMs": 9430,
+   "endMs": 9810,
    "tokens": [
     {
      "text": " I"
@@ -250,8 +259,8 @@
    ]
   },
   {
-   "startMs": 9740,
-   "endMs": 9940,
+   "startMs": 9810,
+   "endMs": 10010,
    "tokens": [
     {
      "text": " bigger"
@@ -259,24 +268,27 @@
    ]
   },
   {
-   "startMs": 10060,
-   "endMs": 10760,
+   "startMs": 10110,
+   "endMs": 10810,
    "tokens": [
+    {
+     "text": " First"
+    },
     {
      "text": " Second"
     },
     {
      "text": " you"
-    },
-    {
-     "text": " try"
     }
    ]
   },
   {
-   "startMs": 10760,
-   "endMs": 10960,
+   "startMs": 10810,
+   "endMs": 11110,
    "tokens": [
+    {
+     "text": " try"
+    },
     {
      "text": " and"
     },
@@ -286,8 +298,8 @@
    ]
   },
   {
-   "startMs": 10960,
-   "endMs": 11120,
+   "startMs": 11110,
+   "endMs": 11270,
    "tokens": [
     {
      "text": " them"
@@ -298,8 +310,8 @@
    ]
   },
   {
-   "startMs": 11120,
-   "endMs": 11280,
+   "startMs": 11270,
+   "endMs": 11430,
    "tokens": [
     {
      "text": " jail"
@@ -307,8 +319,8 @@
    ]
   },
   {
-   "startMs": 11320,
-   "endMs": 11580,
+   "startMs": 11470,
+   "endMs": 11730,
    "tokens": [
     {
      "text": " Third"
@@ -319,8 +331,8 @@
    ]
   },
   {
-   "startMs": 11580,
-   "endMs": 11800,
+   "startMs": 11730,
+   "endMs": 11950,
    "tokens": [
     {
      "text": " kill"
@@ -331,8 +343,8 @@
    ]
   },
   {
-   "startMs": 11880,
-   "endMs": 12440,
+   "startMs": 12100,
+   "endMs": 12660,
    "tokens": [
     {
      "text": " I"
@@ -343,8 +355,8 @@
    ]
   },
   {
-   "startMs": 12440,
-   "endMs": 15890,
+   "startMs": 12660,
+   "endMs": 16110,
    "tokens": [
     {
      "text": " lucky"
@@ -358,8 +370,8 @@
    ]
   },
   {
-   "startMs": 15890,
-   "endMs": 16350,
+   "startMs": 16110,
+   "endMs": 16570,
    "tokens": [
     {
      "text": " had"
@@ -370,8 +382,8 @@
    ]
   },
   {
-   "startMs": 16350,
-   "endMs": 16770,
+   "startMs": 16570,
+   "endMs": 16990,
    "tokens": [
     {
      "text": " past"
@@ -382,8 +394,8 @@
    ]
   },
   {
-   "startMs": 16770,
-   "endMs": 16950,
+   "startMs": 16990,
+   "endMs": 17170,
    "tokens": [
     {
      "text": " had"
@@ -391,8 +403,8 @@
    ]
   },
   {
-   "startMs": 17050,
-   "endMs": 17550,
+   "startMs": 17270,
+   "endMs": 17770,
    "tokens": [
     {
      "text": " I'm"
@@ -406,8 +418,8 @@
    ]
   },
   {
-   "startMs": 17550,
-   "endMs": 17690,
+   "startMs": 17770,
+   "endMs": 17910,
    "tokens": [
     {
      "text": " had"
@@ -418,8 +430,8 @@
    ]
   },
   {
-   "startMs": 17690,
-   "endMs": 18150,
+   "startMs": 17910,
+   "endMs": 18370,
    "tokens": [
     {
      "text": " webcam"
@@ -430,8 +442,8 @@
    ]
   },
   {
-   "startMs": 18510,
-   "endMs": 18970,
+   "startMs": 18730,
+   "endMs": 19190,
    "tokens": [
     {
      "text": " That's"
@@ -442,8 +454,8 @@
    ]
   },
   {
-   "startMs": 18970,
-   "endMs": 19510,
+   "startMs": 19190,
+   "endMs": 19730,
    "tokens": [
     {
      "text": " human"
@@ -454,8 +466,8 @@
    ]
   },
   {
-   "startMs": 19820,
-   "endMs": 20540,
+   "startMs": 20040,
+   "endMs": 20760,
    "tokens": [
     {
      "text": " I'm"
@@ -469,8 +481,8 @@
    ]
   },
   {
-   "startMs": 20540,
-   "endMs": 20880,
+   "startMs": 20760,
+   "endMs": 21100,
    "tokens": [
     {
      "text": " had"
@@ -484,8 +496,8 @@
    ]
   },
   {
-   "startMs": 20880,
-   "endMs": 21140,
+   "startMs": 21100,
+   "endMs": 21360,
    "tokens": [
     {
      "text": " girlfriends"
@@ -493,8 +505,8 @@
    ]
   },
   {
-   "startMs": 21400,
-   "endMs": 21980,
+   "startMs": 21620,
+   "endMs": 22200,
    "tokens": [
     {
      "text": " Lucky"
@@ -505,8 +517,8 @@
    ]
   },
   {
-   "startMs": 21980,
-   "endMs": 22340,
+   "startMs": 22200,
+   "endMs": 22560,
    "tokens": [
     {
      "text": " slept"
@@ -520,8 +532,8 @@
    ]
   },
   {
-   "startMs": 22340,
-   "endMs": 22440,
+   "startMs": 22560,
+   "endMs": 22660,
    "tokens": [
     {
      "text": " lot"
@@ -532,8 +544,8 @@
    ]
   },
   {
-   "startMs": 22440,
-   "endMs": 22640,
+   "startMs": 22660,
+   "endMs": 22860,
    "tokens": [
     {
      "text": " women"
@@ -541,8 +553,8 @@
    ]
   },
   {
-   "startMs": 22780,
-   "endMs": 23400,
+   "startMs": 23000,
+   "endMs": 23620,
    "tokens": [
     {
      "text": " Lucky"
@@ -553,8 +565,8 @@
    ]
   },
   {
-   "startMs": 23400,
-   "endMs": 23820,
+   "startMs": 23620,
+   "endMs": 24040,
    "tokens": [
     {
      "text": " made"
@@ -565,8 +577,8 @@
    ]
   },
   {
-   "startMs": 23820,
-   "endMs": 24140,
+   "startMs": 24040,
+   "endMs": 24360,
    "tokens": [
     {
      "text": " jokes"
@@ -574,51 +586,60 @@
    ]
   },
   {
-   "startMs": 24280,
-   "endMs": 25800,
+   "startMs": 24480,
+   "endMs": 24880,
    "tokens": [
     {
-     "text": " I'm"
+     "text": " Lucky"
     },
+    {
+     "text": " I'm"
+    }
+   ]
+  },
+  {
+   "startMs": 24880,
+   "endMs": 26240,
+   "tokens": [
     {
      "text": " lucky"
     },
     {
      "text": " I"
-    }
-   ]
-  },
-  {
-   "startMs": 25800,
-   "endMs": 26160,
-   "tokens": [
+    },
     {
      "text": " did"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 26240,
+   "endMs": 26660,
+   "tokens": [
     {
      "text": " these"
-    }
-   ]
-  },
-  {
-   "startMs": 26160,
-   "endMs": 26640,
-   "tokens": [
+    },
     {
      "text": " things"
-    },
-    {
-     "text": " because"
     }
    ]
   },
   {
-   "startMs": 26640,
-   "endMs": 27780,
+   "startMs": 26660,
+   "endMs": 27560,
    "tokens": [
     {
-     "text": " killing"
+     "text": " because"
     },
+    {
+     "text": " killing"
+    }
+   ]
+  },
+  {
+   "startMs": 27560,
+   "endMs": 28060,
+   "tokens": [
     {
      "text": " people"
     },
@@ -628,8 +649,8 @@
    ]
   },
   {
-   "startMs": 27780,
-   "endMs": 29380,
+   "startMs": 28060,
+   "endMs": 29660,
    "tokens": [
     {
      "text": " messy"
@@ -640,8 +661,8 @@
    ]
   },
   {
-   "startMs": 29380,
-   "endMs": 29920,
+   "startMs": 29660,
+   "endMs": 30200,
    "tokens": [
     {
      "text": " killing"
@@ -652,8 +673,8 @@
    ]
   },
   {
-   "startMs": 29920,
-   "endMs": 30480,
+   "startMs": 30200,
+   "endMs": 30760,
    "tokens": [
     {
      "text": " makes"
@@ -667,11 +688,14 @@
    ]
   },
   {
-   "startMs": 30480,
-   "endMs": 30740,
+   "startMs": 30760,
+   "endMs": 31100,
    "tokens": [
     {
      "text": " hero"
+    },
+    {
+     "text": " so"
     }
    ]
   }
