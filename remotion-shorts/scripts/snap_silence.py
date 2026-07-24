@@ -47,19 +47,23 @@ def audible_offset_word(w1,right):
         if ENV[j]>thr: last=j*HOP/SR
     return last
 def snap_start(w0):
+    # INVARIANT: never cut into w0 — the first word's onset is always preserved.
     i=widx(w0); prev=words[i-1] if i>0 else None
     left=audible_offset_word(prev, prev['end']+0.2) if prev else 0.0
     ons=audible_onset(w0['start'],left)
+    start=min(w0['start'], ons)            # true onset (never later than the word start)
     gap=ons-left
-    ci=ons-pad_pre if gap>=0.12 else (left+ons)/2
-    return round(max(0.0, min(ci if left==0 else max(ci,left+0.04), ons)),3)
+    ci=start-pad_pre if gap>=0.12 else start-0.04  # silence: pad in; contiguous: hair before
+    return round(max(0.0, ci),3)
 def snap_end(w1):
+    # INVARIANT: never cut before w1 finishes — the last word always plays in full.
     i=widx(w1); nxt=words[i+1] if i+1<len(words) else None
     right=nxt['start'] if nxt else w1['end']+0.3
     offs=audible_offset_word(w1,right)
+    end=max(w1['end'], offs)               # true end of the word's audio
     gapn=(right-offs) if nxt else 0.3
-    co=offs+pad_post if gapn>=0.12 else (offs+right)/2
-    return round(min(co, right-0.04) if nxt else co,3)
+    co=end+pad_post if gapn>=0.12 else end+0.04  # silence: pad into gap; contiguous: hair after
+    return round(co,3)
 
 # attach kept words, merge mid-speech splits
 segs=[]
