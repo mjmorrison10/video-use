@@ -185,6 +185,11 @@ def main() -> int:
         "music": spec.get("music"),
         "style": style,
         "hook": spec.get("hook"),
+        # pass through optional overlays authored in the cut-spec
+        "broll": spec.get("broll", []),
+        "zooms": spec.get("zooms", []),
+        "zoomSteps": spec.get("zoomSteps", []),
+        "cta": spec.get("cta"),
     }
     Path(args.out).write_text(json.dumps(job, ensure_ascii=False, indent=1))
     print(f"[props] {len(ranges)} spans, {len(flat)} words, "
