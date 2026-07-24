@@ -7,28 +7,28 @@
    "outSec": 4649.42,
    "beat": "HOOK",
    "framing": "cover",
-   "cropX": 0.374
+   "cropX": 0.5
   },
   {
    "inSec": 4650.63,
    "outSec": 4651.75,
    "beat": "HOOK",
    "framing": "cover",
-   "cropX": 0.37
+   "cropX": 0.5
   },
   {
    "inSec": 4621.15,
    "outSec": 4630.62,
    "beat": "POINT",
    "framing": "cover",
-   "cropX": 0.022
+   "cropX": 0.5
   },
   {
    "inSec": 4633.45,
    "outSec": 4646.94,
    "beat": "PAYOFF",
    "framing": "cover",
-   "cropX": 0.421
+   "cropX": 0.5
   }
  ],
  "style": {

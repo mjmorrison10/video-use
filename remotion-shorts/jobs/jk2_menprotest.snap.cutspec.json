@@ -7,38 +7,43 @@
    "outSec": 1906.07,
    "beat": "HOOK",
    "framing": "cover",
-   "cropX": 0.463
+   "cropX": 0.464
   },
   {
    "inSec": 1861.28,
    "outSec": 1864.16,
    "beat": "POINT",
    "framing": "cover",
-   "cropX": 0.396
+   "cropX": 0.397
   },
   {
    "inSec": 1866.12,
+   "outSec": 1875.806,
+   "beat": "POINT",
+   "framing": "cover",
+   "cropX": 0.028
+  },
+  {
+   "inSec": 1875.806,
    "outSec": 1877.9,
    "beat": "POINT",
    "framing": "cover",
-   "cropX": 0.029,
-   "cropXEnd": 0.514,
-   "cropPanSec": 11.78
+   "cropX": 0.514
   },
   {
    "inSec": 1906.74,
    "outSec": 1909.28,
    "beat": "POINT",
    "framing": "cover",
-   "cropX": 0.441
+   "cropX": 0.439
   },
   {
    "inSec": 1909.9,
    "outSec": 1920.71,
    "beat": "POINT",
    "framing": "cover",
-   "cropX": 0.487,
-   "cropXEnd": 0.348,
+   "cropX": 0.491,
+   "cropXEnd": 0.351,
    "cropPanSec": 10.81
   },
   {
@@ -46,16 +51,23 @@
    "outSec": 1939.9,
    "beat": "PAYOFF",
    "framing": "cover",
-   "cropX": 0.37
+   "cropX": 0.371
   },
   {
    "inSec": 1941.49,
+   "outSec": 1947.054,
+   "beat": "PAYOFF",
+   "framing": "cover",
+   "cropX": 0.43
+  },
+  {
+   "inSec": 1947.054,
    "outSec": 1950.44,
    "beat": "PAYOFF",
    "framing": "cover",
-   "cropX": 0.388,
-   "cropXEnd": 1.0,
-   "cropPanSec": 8.95
+   "cropX": 0.0,
+   "cropXEnd": 0.178,
+   "cropPanSec": 3.39
   }
  ],
  "style": {
