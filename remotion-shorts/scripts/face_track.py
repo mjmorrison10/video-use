@@ -89,30 +89,63 @@ def cx_to_cropx(cx):
     return round(min(1.0, max(0.0, p)), 3)
 
 
-def track_segment(a, b, tmp, prev):
-    dur = b - a
-    nsamp = max(4, int(dur / 0.4))
-    ts = [a + 0.15 + (dur - 0.3) * i / (nsamp - 1) for i in range(nsamp)]
-    got = []
+CUT_JUMP = 0.14   # |cx| jump between adjacent samples => camera cut
+STEP = 0.3        # sampling interval (s)
+
+
+def sample_cx(a, b, tmp, prev):
+    """Dense (t, cx) samples across [a,b]; None cx filled by holding the last
+    known Andrew position (or prev/0.5 at the very start)."""
+    n = max(3, int((b - a) / STEP))
+    ts = [a + 0.12 + (b - a - 0.24) * i / (n - 1) for i in range(n)]
+    raw = []
+    last = prev
     for t in ts:
         img = _grab(t, tmp)
-        if img is None:
-            continue
-        cx = andrew_cx(img)
+        cx = andrew_cx(img) if img is not None else None
         if cx is not None:
-            got.append((t, cx))
-    if not got:
-        return {"cropX": prev if prev is not None else 0.5}, prev
-    firsts = [c for t, c in got if t <= a + dur / 3]
-    lasts = [c for t, c in got if t >= b - dur / 3]
-    all_cx = [c for _, c in got]
-    med = float(np.median(all_cx))
-    cstart = float(np.median(firsts)) if firsts else med
-    cend = float(np.median(lasts)) if lasts else med
-    cropX, cropXEnd = cx_to_cropx(cstart), cx_to_cropx(cend)
-    if abs(cropXEnd - cropX) >= 0.10:
-        return {"cropX": cropX, "cropXEnd": cropXEnd, "cropPanSec": round(dur, 2)}, cend
-    return {"cropX": cx_to_cropx(med)}, med
+            last = cx
+        raw.append((t, cx if cx is not None else last))
+    # if the head was blank until first detection, back-fill it
+    first = next((c for _, c in raw if c is not None), 0.5)
+    return [(t, c if c is not None else first) for t, c in raw]
+
+
+def split_runs(samples):
+    """Split the sample list at camera cuts (big cx jumps). Returns list of runs,
+    each a contiguous list of (t, cx)."""
+    runs, cur = [], [samples[0]]
+    for prev_s, s in zip(samples, samples[1:]):
+        if abs(s[1] - prev_s[1]) >= CUT_JUMP:
+            runs.append(cur); cur = [s]
+        else:
+            cur.append(s)
+    runs.append(cur)
+    return runs
+
+
+def emit_runs(a, b, samples):
+    """Turn a segment's samples into 1+ sub-segments, split at camera cuts.
+    Each sub-segment gets a static crop, or a pan if Andrew drifts smoothly."""
+    runs = split_runs(samples)
+    subs = []
+    for i, run in enumerate(runs):
+        # time span this run covers within [a,b]
+        lo = a if i == 0 else (run[0][0] + runs[i - 1][-1][0]) / 2
+        hi = b if i == len(runs) - 1 else (run[-1][0] + runs[i + 1][0][0]) / 2
+        cxs = [c for _, c in run]
+        med = float(np.median(cxs))
+        cstart = float(np.median(cxs[:max(1, len(cxs) // 3)]))
+        cend = float(np.median(cxs[-max(1, len(cxs) // 3):]))
+        seg = {"inSec": round(lo, 3), "outSec": round(hi, 3)}
+        if abs(cx_to_cropx(cend) - cx_to_cropx(cstart)) >= 0.10:
+            seg["cropX"] = cx_to_cropx(cstart)
+            seg["cropXEnd"] = cx_to_cropx(cend)
+            seg["cropPanSec"] = round(hi - lo, 2)
+        else:
+            seg["cropX"] = cx_to_cropx(med)
+        subs.append(seg)
+    return subs
 
 
 def main():
@@ -120,18 +153,23 @@ def main():
     ap.add_argument('cutspec'); ap.add_argument('proxy'); ap.add_argument('-o', '--out')
     a = ap.parse_args()
     spec = json.load(open(a.cutspec))
+    out_segs = []
     with tempfile.TemporaryDirectory() as tmp:
         enroll(tmp)
         prev = None
         for s in spec['segments']:
-            crop, prev = track_segment(s['inSec'], s['outSec'], tmp, prev)
-            s.pop('cropXEnd', None); s.pop('cropPanSec', None)
-            s.update(crop)
-            tag = f"pan {s['cropX']}->{s.get('cropXEnd')}" if 'cropXEnd' in s else f"crop {s['cropX']}"
-            print(f"  [{s['inSec']:.2f}-{s['outSec']:.2f}] {tag}")
+            samples = sample_cx(s['inSec'], s['outSec'], tmp, prev)
+            prev = samples[-1][1]
+            base = {k: v for k, v in s.items() if k not in ('cropX', 'cropXEnd', 'cropPanSec')}
+            for sub in emit_runs(s['inSec'], s['outSec'], samples):
+                seg = {**base, **sub}
+                out_segs.append(seg)
+                tag = f"pan {seg['cropX']}->{seg.get('cropXEnd')}" if 'cropXEnd' in seg else f"crop {seg['cropX']}"
+                print(f"  [{seg['inSec']:.2f}-{seg['outSec']:.2f}] {tag}")
+    spec['segments'] = out_segs
     out = a.out or a.cutspec
     json.dump(spec, open(out, 'w'), ensure_ascii=False, indent=1)
-    print(f"# face-tracked -> {out}")
+    print(f"# face-tracked -> {out} ({len(out_segs)} segs)")
 
 
 if __name__ == '__main__':
