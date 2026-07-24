@@ -204,6 +204,22 @@ def main() -> int:
             merged.append(w)
     flat = merged
 
+    # Drop whisper stutter artifacts: a function word repeated back-to-back
+    # (e.g. "the the", "all all", "and and"). Restricted to words that are never
+    # legitimately doubled in English -- deliberately EXCLUDES "very", "really",
+    # "that", "had", "no", etc. which can genuinely repeat.
+    STUTTER = {"the", "a", "an", "of", "to", "in", "on", "at", "and", "is",
+               "it", "was", "all", "we", "you", "they", "but", "for", "so"}
+    deduped = []
+    for w in flat:
+        if (deduped and w["seg"] == deduped[-1]["seg"]
+                and clean(w["text"]) == clean(deduped[-1]["text"])
+                and clean(w["text"]) in STUTTER):
+            deduped[-1]["endMs"] = w["endMs"]  # absorb timing, drop the repeat
+            continue
+        deduped.append(w)
+    flat = deduped
+
     if args.dump_words:
         for i, w in enumerate(flat):
             print(f"{i:3d} {w['text']!r}")

@@ -1,0 +1,54 @@
+{
+  "videoSrc": "bubble_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 287.835,
+      "outSec": 294.85,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 379.8,
+      "outSec": 384.88,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 384.9,
+      "outSec": 395.92,
+      "beat": "DETAIL",
+      "framing": "cover"
+    },
+    {
+      "inSec": 418.46,
+      "outSec": 422.715,
+      "beat": "REINFORCE",
+      "framing": "cover"
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "Pets.com",
+      "Webvan",
+      "moon",
+      "money",
+      "diversified",
+      "Google",
+      "YouTube",
+      "AI",
+      "survive"
+    ]
+  },
+  "hook": {
+    "text": "THIS TIME IS DIFFERENT",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "night_drive.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 10,
+    "startSec": 40
+  }
+}

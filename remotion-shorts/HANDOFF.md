@@ -303,3 +303,20 @@ remotion-shorts/
 ```
 If the client names a brand, run the **UI Designer** agent for a brand-fit font and
 set brand colors in `DEFAULT_STYLE`; otherwise the generic house style above applies.
+
+## Client hook priority (per client note, 2026-07-24)
+When a client's moment list is grouped, prioritise in this order:
+1. **Proof** hooks (a.k.a. "historical" / "proven")
+2. **AI + Proof** (mixed)
+3. **AI** recommended
+So: Proof > AI+Proof > AI. Build clips on the highest-priority moments first.
+
+## B-roll fallback (per client note, 2026-07-24)
+If Pexels / external B-roll is blocked (rate-limited, etc.), do NOT stall — skip
+external B-roll and produce the video (cover-crop the creator's own footage,
+using the local public/broll library for un-croppable data slides). The client
+reviews and decides which beats actually need dedicated B-roll.
+
+## Proxy MUST keep audio
+Build proxies WITH an audio track (`-c:a aac`, never `-an`). Narration is pulled
+from the proxy's audio track; a video-only proxy ships music-only clips.

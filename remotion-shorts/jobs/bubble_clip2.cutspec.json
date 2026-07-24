@@ -1,0 +1,51 @@
+{
+  "videoSrc": "bubble_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 142.6,
+      "outSec": 148.68,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 148.94,
+      "outSec": 160.23,
+      "beat": "POINT",
+      "framing": "cover"
+    },
+    {
+      "inSec": 160.44,
+      "outSec": 167.535,
+      "beat": "REINFORCE",
+      "framing": "cover",
+      "broll": {
+        "src": "broll/markets.mp4",
+        "startSec": 0
+      }
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "internet",
+      "AI",
+      "excitement",
+      "speculation",
+      "moon",
+      "justified",
+      "reality",
+      "corrects"
+    ]
+  },
+  "hook": {
+    "text": "AI IS THE NEW INTERNET",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "dark_knight.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 6,
+    "startSec": 20
+  }
+}

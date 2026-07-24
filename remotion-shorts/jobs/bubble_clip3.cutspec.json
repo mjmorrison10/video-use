@@ -1,0 +1,62 @@
+{
+  "videoSrc": "bubble_proxy.mp4",
+  "fps": 30,
+  "segments": [
+    {
+      "inSec": 24.06,
+      "outSec": 28.06,
+      "beat": "HOOK",
+      "framing": "cover"
+    },
+    {
+      "inSec": 183.53,
+      "outSec": 188.37,
+      "beat": "NAMES",
+      "framing": "cover"
+    },
+    {
+      "inSec": 193.06,
+      "outSec": 201.975,
+      "beat": "DATA",
+      "framing": "cover",
+      "broll": {
+        "src": "broll/markets.mp4",
+        "startSec": 0
+      }
+    },
+    {
+      "inSec": 202.24,
+      "outSec": 215.29,
+      "beat": "PAYOFF",
+      "framing": "cover",
+      "broll": {
+        "src": "broll/floor.mp4",
+        "startSec": 0
+      }
+    }
+  ],
+  "style": {
+    "powerWords": [
+      "all-time",
+      "highs",
+      "Magnificent",
+      "Seven",
+      "63",
+      "55",
+      "46%",
+      "half",
+      "wild"
+    ]
+  },
+  "hook": {
+    "text": "7 STOCKS, HALF THE RETURNS",
+    "untilSec": 2.5
+  },
+  "music": {
+    "src": "mag7.mp3",
+    "volLow": 0.12,
+    "volHigh": 0.22,
+    "climaxSec": 12,
+    "startSec": 0
+  }
+}
