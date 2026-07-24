@@ -1,10 +1,10 @@
 {
- "videoSrc": "jk_proxy.mp4",
+ "videoSrc": "jk2_shakedown_src.mp4",
  "fps": 30,
  "ranges": [
   {
-   "inSec": 2373.27,
-   "outSec": 2376.75,
+   "inSec": 6.72,
+   "outSec": 10.2,
    "offsetSec": 0.0,
    "framing": "cover",
    "cropX": 0.484,
@@ -14,8 +14,8 @@
    "beat": "HOOK"
   },
   {
-   "inSec": 2366.8,
-   "outSec": 2369.22,
+   "inSec": 0.25,
+   "outSec": 2.67,
    "offsetSec": 3.48,
    "framing": "cover",
    "cropX": 0.546,
@@ -25,8 +25,8 @@
    "beat": "POINT"
   },
   {
-   "inSec": 2413.48,
-   "outSec": 2414.98,
+   "inSec": 46.93,
+   "outSec": 48.43,
    "offsetSec": 5.9,
    "framing": "cover",
    "cropX": 0.422,
@@ -36,8 +36,8 @@
    "beat": "POINT"
   },
   {
-   "inSec": 2424.04,
-   "outSec": 2429.44,
+   "inSec": 57.49,
+   "outSec": 62.89,
    "offsetSec": 7.4,
    "framing": "cover",
    "cropX": 0.416,
@@ -47,8 +47,8 @@
    "beat": "POINT"
   },
   {
-   "inSec": 2460.85,
-   "outSec": 2465.57,
+   "inSec": 94.3,
+   "outSec": 99.02,
    "offsetSec": 12.8,
    "framing": "cover",
    "cropX": 0.377,
@@ -58,8 +58,8 @@
    "beat": "POINT"
   },
   {
-   "inSec": 2526.7,
-   "outSec": 2529.17,
+   "inSec": 160.15,
+   "outSec": 162.62,
    "offsetSec": 17.52,
    "framing": "cover",
    "cropX": 0.429,
@@ -69,8 +69,8 @@
    "beat": "POINT"
   },
   {
-   "inSec": 2530.16,
-   "outSec": 2537.26,
+   "inSec": 163.61,
+   "outSec": 170.71,
    "offsetSec": 19.99,
    "framing": "cover",
    "cropX": 0.452,
@@ -80,8 +80,8 @@
    "beat": "POINT"
   },
   {
-   "inSec": 2627.07,
-   "outSec": 2630.3,
+   "inSec": 260.52,
+   "outSec": 263.75,
    "offsetSec": 27.09,
    "framing": "cover",
    "cropX": 0.408,
@@ -91,8 +91,8 @@
    "beat": "POINT"
   },
   {
-   "inSec": 2635.94,
-   "outSec": 2638.33,
+   "inSec": 269.39,
+   "outSec": 271.78,
    "offsetSec": 30.32,
    "framing": "cover",
    "cropX": 0.48,
@@ -102,8 +102,8 @@
    "beat": "POINT"
   },
   {
-   "inSec": 2844.51,
-   "outSec": 2850.785,
+   "inSec": 477.96,
+   "outSec": 484.235,
    "offsetSec": 32.71,
    "framing": "cover",
    "cropX": 0.393,
@@ -113,8 +113,8 @@
    "beat": "POINT"
   },
   {
-   "inSec": 2858.43,
-   "outSec": 2866.97,
+   "inSec": 491.88,
+   "outSec": 500.42,
    "offsetSec": 38.985,
    "framing": "cover",
    "cropX": 0.492,
@@ -124,8 +124,8 @@
    "beat": "PAYOFF"
   },
   {
-   "inSec": 2874.58,
-   "outSec": 2875.875,
+   "inSec": 508.03,
+   "outSec": 509.325,
    "offsetSec": 47.525,
    "framing": "cover",
    "cropX": 0.507,

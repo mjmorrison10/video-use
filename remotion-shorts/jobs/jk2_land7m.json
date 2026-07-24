@@ -18,9 +18,9 @@
    "outSec": 2.71,
    "offsetSec": 1.77,
    "framing": "cover",
-   "cropX": 0.552,
-   "cropXEnd": null,
-   "cropPanSec": null,
+   "cropX": 0.418,
+   "cropXEnd": 0.548,
+   "cropPanSec": 2.46,
    "mute": false,
    "beat": "POINT"
   },
@@ -40,7 +40,7 @@
    "outSec": 15.71,
    "offsetSec": 5.35,
    "framing": "cover",
-   "cropX": 0.387,
+   "cropX": 0.388,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -51,7 +51,7 @@
    "outSec": 22.99,
    "offsetSec": 7.65,
    "framing": "cover",
-   "cropX": 0.403,
+   "cropX": 0.407,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -62,7 +62,7 @@
    "outSec": 29.85,
    "offsetSec": 11.04,
    "framing": "cover",
-   "cropX": 0.417,
+   "cropX": 0.418,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -73,7 +73,7 @@
    "outSec": 46.79,
    "offsetSec": 13.96,
    "framing": "cover",
-   "cropX": 0.44,
+   "cropX": 0.444,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -106,7 +106,7 @@
    "outSec": 68.42,
    "offsetSec": 22.27,
    "framing": "cover",
-   "cropX": 0.422,
+   "cropX": 0.423,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -741,5 +741,9 @@
  "hook": {
   "text": "BUY THIS LAND. $7 MILLION.",
   "untilSec": 2.5
- }
+ },
+ "broll": [],
+ "zooms": [],
+ "zoomSteps": [],
+ "cta": null
 }

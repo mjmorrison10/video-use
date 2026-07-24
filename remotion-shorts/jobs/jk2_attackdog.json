@@ -18,7 +18,7 @@
    "outSec": 2.25,
    "offsetSec": 4.97,
    "framing": "cover",
-   "cropX": 0.361,
+   "cropX": 0.362,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -26,10 +26,21 @@
   },
   {
    "inSec": 3.5,
-   "outSec": 28.67,
+   "outSec": 5.596,
    "offsetSec": 6.97,
    "framing": "cover",
-   "cropX": 0.029,
+   "cropX": 0.359,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "POINT"
+  },
+  {
+   "inSec": 5.596,
+   "outSec": 28.67,
+   "offsetSec": 9.066,
+   "framing": "cover",
+   "cropX": 0.028,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -40,7 +51,7 @@
    "outSec": 44.42,
    "offsetSec": 32.14,
    "framing": "cover",
-   "cropX": 0.396,
+   "cropX": 0.398,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -845,5 +856,9 @@
  "hook": {
   "text": "ROMANIA WAS JUST THE ATTACK DOG",
   "untilSec": 2.5
- }
+ },
+ "broll": [],
+ "zooms": [],
+ "zoomSteps": [],
+ "cta": null
 }
