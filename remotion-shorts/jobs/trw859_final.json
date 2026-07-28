@@ -628,8 +628,8 @@
  "music": {
   "src": "promo_fallen_angel.mp3",
   "startSec": 0.0,
-  "volLow": 0.045,
-  "volHigh": 0.07,
+  "volLow": 0.1,
+  "volHigh": 0.16,
   "climaxSec": 30.0
  },
  "style": {
@@ -638,7 +638,7 @@
   "textColor": "white",
   "strokeColor": "black",
   "fontSize": 58,
-  "captionPosition": "bottom",
+  "captionPosition": "center",
   "captionBottom": 420,
   "uppercase": true,
   "powerWords": [

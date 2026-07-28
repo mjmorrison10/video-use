@@ -41,6 +41,9 @@ def main():
     ap.add_argument("--climax", type=float, default=None)
     ap.add_argument("--fps", type=int, default=30)
     ap.add_argument("--power", default=None, help="comma list to override power words")
+    ap.add_argument("--caption-position", default="bottom", choices=["center", "bottom"])
+    ap.add_argument("--caption-bottom", type=float, default=420)
+    ap.add_argument("--font-size", type=int, default=58)
     a = ap.parse_args()
 
     src = Path("public") / a.video
@@ -74,8 +77,8 @@ def main():
                    "climaxSec": a.climax} if a.music else None),
         "style": {
             "highlightColor": "#00E5FF", "accentColor": "#00E5FF",
-            "textColor": "white", "strokeColor": "black", "fontSize": 58,
-            "captionPosition": "bottom", "captionBottom": 420,
+            "textColor": "white", "strokeColor": "black", "fontSize": a.font_size,
+            "captionPosition": a.caption_position, "captionBottom": a.caption_bottom,
             "uppercase": True, "powerWords": power,
         },
         "hook": ({"text": a.hook, "untilSec": a.hook_until} if a.hook else None),
