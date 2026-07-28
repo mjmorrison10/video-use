@@ -41,7 +41,7 @@ src_dur = float(subprocess.run(
 table = []
 with tempfile.TemporaryDirectory() as tmp:
     parts = []
-    cum = 0.0
+    cum_f = 0          # running VIDEO frame count of the assembled file
     for i, r in enumerate(ranges):
         dur = r["outSec"] - r["inSec"]
         # handles are clamped at the media bounds, so the head handle we actually
@@ -60,26 +60,29 @@ with tempfile.TemporaryDirectory() as tmp:
                 "-ar", "48000", "-ac", "2", str(p)]
         subprocess.run(cmd, check=True)
         parts.append(p)
-        # Measure what ffmpeg actually wrote. Seeking + re-encoding can land a
-        # frame either side of the request, and using nominal lengths here would
-        # let that error accumulate down the file, putting later cuts off the map.
-        actual = float(subprocess.run(
-            ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(p)],
+        # Count VIDEO frames, not format duration: AAC padding runs past the last
+        # video frame, so format=duration reads long and that over-estimate
+        # compounds into every later clip. Concat with -c copy preserves frame
+        # counts, so an integer frame total is exact.
+        nframes = int(subprocess.run(
+            ["ffprobe", "-v", "error", "-select_streams", "v:0", "-count_packets",
+             "-show_entries", "stream=nb_read_packets", "-of", "csv=p=0", str(p)],
             capture_output=True, text=True, check=True).stdout.strip())
         # Seeking is frame-accurate when re-encoding, so the head is what we asked
-        # for; any drift lands on the tail. Only the running total must use the
-        # measured length, or the error compounds into later clips.
+        # for; any drift lands on the tail.
+        head_f = int(round(head * a.fps))
         table.append({
             "beat": r.get("beat"),
             "masterIn": round(r["inSec"], 3), "masterOut": round(r["outSec"], 3),
             "durSec": round(dur, 3),
             "headHandle": round(head, 3), "tailHandle": round(tail, 3),
-            "clipStart": round(cum, 3),                  # start of this clip in the assembled file
-            "beatIn": round(cum + head, 3),              # where the cut actually begins
-            "beatOut": round(cum + head + dur, 3),
+            "clipStartFrames": cum_f, "framesInClip": nframes,
+            "clipStart": round(cum_f / a.fps, 3),        # start of this clip in the assembled file
+            "beatIn": round((cum_f + head_f) / a.fps, 3),  # where the cut actually begins
+            "beatOut": round((cum_f + head_f) / a.fps + dur, 3),
             "offsetSec": round(r["offsetSec"], 3),       # position on the output timeline
         })
-        cum += actual
+        cum_f += nframes
     lst = Path(tmp) / "list.txt"
     lst.write_text("".join(f"file '{p}'\n" for p in parts))
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0",
