@@ -20,20 +20,38 @@ ap.add_argument("job"); ap.add_argument("src")
 ap.add_argument("--pubdir", default="public")
 ap.add_argument("--vf", default=None)
 ap.add_argument("--fps", type=int, default=30)
+ap.add_argument("--handles", type=float, default=0.0,
+                help="seconds of extra media kept on each side of every beat, so "
+                     "an editor can extend a cut in an NLE (default 0 = exact trim)")
+ap.add_argument("--out", default=None, help="output filename (default <job>_src.mp4)")
+ap.add_argument("--map", default=None,
+                help="write a JSON table of where each beat sits inside the assembled "
+                     "file; implies the job's ranges are NOT rewritten")
 a = ap.parse_args()
 
 job = json.loads(Path(a.job).read_text())
 ranges = sorted(job["ranges"], key=lambda r: r["offsetSec"])
-name = Path(a.job).stem + "_src.mp4"
+name = a.out or (Path(a.job).stem + "_src.mp4")
 out = Path(a.pubdir) / name
 
+src_dur = float(subprocess.run(
+    ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", a.src],
+    capture_output=True, text=True, check=True).stdout.strip())
+
+table = []
 with tempfile.TemporaryDirectory() as tmp:
     parts = []
+    cum = 0.0
     for i, r in enumerate(ranges):
         dur = r["outSec"] - r["inSec"]
+        # handles are clamped at the media bounds, so the head handle we actually
+        # get can be shorter than requested — the map records the real value.
+        head = min(a.handles, r["inSec"])
+        tail = min(a.handles, max(0.0, src_dur - r["outSec"]))
+        start, seglen = r["inSec"] - head, head + dur + tail
         p = Path(tmp) / f"s{i:03d}.mp4"
-        cmd = ["ffmpeg", "-y", "-v", "error", "-ss", f"{r['inSec']:.3f}",
-               "-i", a.src, "-t", f"{dur:.3f}"]
+        cmd = ["ffmpeg", "-y", "-v", "error", "-ss", f"{start:.3f}",
+               "-i", a.src, "-t", f"{seglen:.3f}"]
         if a.vf:
             cmd += ["-vf", a.vf]
         cmd += ["-r", str(a.fps), "-vsync", "cfr",
@@ -42,19 +60,39 @@ with tempfile.TemporaryDirectory() as tmp:
                 "-ar", "48000", "-ac", "2", str(p)]
         subprocess.run(cmd, check=True)
         parts.append(p)
+        table.append({
+            "beat": r.get("beat"),
+            "masterIn": round(r["inSec"], 3), "masterOut": round(r["outSec"], 3),
+            "durSec": round(dur, 3),
+            "headHandle": round(head, 3), "tailHandle": round(tail, 3),
+            "clipStart": round(cum, 3),                  # start of this clip in the assembled file
+            "beatIn": round(cum + head, 3),              # where the cut actually begins
+            "beatOut": round(cum + head + dur, 3),
+            "offsetSec": round(r["offsetSec"], 3),       # position on the output timeline
+        })
+        cum += seglen
     lst = Path(tmp) / "list.txt"
     lst.write_text("".join(f"file '{p}'\n" for p in parts))
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0",
                     "-i", str(lst), "-c", "copy", "-movflags", "+faststart",
                     str(out)], check=True)
 
-# ranges become sequential in the assembled file
-for r in ranges:
-    dur = r["outSec"] - r["inSec"]
-    r["inSec"] = round(r["offsetSec"], 3)
-    r["outSec"] = round(r["offsetSec"] + dur, 3)
-job["ranges"] = ranges
-job["videoSrc"] = name
-Path(a.job).write_text(json.dumps(job, ensure_ascii=False, indent=1))
 mb = out.stat().st_size / 1e6
-print(f"[assemble] {a.job}: {len(ranges)} segments -> {name} ({mb:.1f}MB)")
+if a.map:
+    # NLE-export mode: leave the job untouched (it may already be rendered) and
+    # publish where each beat sits inside the assembled file instead.
+    Path(a.map).write_text(json.dumps(
+        {"file": name, "handlesSec": a.handles, "fps": a.fps, "segments": table},
+        ensure_ascii=False, indent=1))
+    print(f"[assemble] {len(ranges)} segments (+{a.handles}s handles) -> {name} "
+          f"({mb:.1f}MB), map -> {a.map}")
+else:
+    # pipeline mode: ranges become sequential in the assembled file
+    for r in ranges:
+        dur = r["outSec"] - r["inSec"]
+        r["inSec"] = round(r["offsetSec"], 3)
+        r["outSec"] = round(r["offsetSec"] + dur, 3)
+    job["ranges"] = ranges
+    job["videoSrc"] = name
+    Path(a.job).write_text(json.dumps(job, ensure_ascii=False, indent=1))
+    print(f"[assemble] {a.job}: {len(ranges)} segments -> {name} ({mb:.1f}MB)")
