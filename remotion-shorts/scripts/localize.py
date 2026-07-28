@@ -13,6 +13,9 @@ ap=argparse.ArgumentParser()
 ap.add_argument("job"); ap.add_argument("src")
 ap.add_argument("--pubdir", default="public")
 ap.add_argument("--pad", type=float, default=0.25)
+ap.add_argument("--vf", default=None,
+                help="optional ffmpeg -vf filter chain applied to the window "
+                     "(e.g. 'crop=308:548:1226:266,scale=1080:1920')")
 a=ap.parse_args()
 job=json.loads(Path(a.job).read_text())
 ranges=job["ranges"]
@@ -25,9 +28,13 @@ cmd=["ffmpeg","-y","-v","error","-ss",f"{start:.3f}","-i",a.src,"-t",f"{dur:.3f}
      "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",
      "-c:a","aac","-b:a","160k","-movflags","+faststart",str(out)]
 # NOTE: we do NOT pre-crop here (framing handled in React). Keep full 16:9 frame.
-cmd=["ffmpeg","-y","-v","error","-ss",f"{start:.3f}","-i",a.src,"-t",f"{dur:.3f}",
-     "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",
-     "-c:a","aac","-b:a","160k","-movflags","+faststart",str(out)]
+cmd=["ffmpeg","-y","-v","error","-ss",f"{start:.3f}","-i",a.src,"-t",f"{dur:.3f}"]
+# Optional pre-crop/scale (e.g. isolating one panel of a side-by-side remote call
+# and delivering it already 9:16, so the React layer just covers a vertical source).
+if a.vf:
+    cmd+=["-vf",a.vf]
+cmd+=["-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",
+      "-c:a","aac","-b:a","160k","-movflags","+faststart",str(out)]
 subprocess.run(cmd, check=True)
 for r in ranges:
     r["inSec"]=round(r["inSec"]-start,3); r["outSec"]=round(r["outSec"]-start,3)

@@ -70,20 +70,37 @@ def ends_sentence(text: str) -> bool:
     return text.strip().endswith(SENT_END)
 
 
+_NUM_TAIL = ("thousand", "million", "grand", "000", "500")
+
+
+def glued(prev_text, nxt) -> bool:
+    """True when a page must NOT break between these two words. Transcribers split
+    currency into two tokens ('$10' + ',000'/'thousand'); breaking there puts a
+    bare '$10' on one page and 'THOUSAND' on the next, which reads terribly on the
+    money beat."""
+    if nxt is None:
+        return False
+    p, n = clean(prev_text), clean(nxt["text"])
+    return bool(p) and p[-1].isdigit() and (n in _NUM_TAIL or (n.isdigit() and len(n) <= 3))
+
+
 def group_auto(words):
     """2-3 words per page; flush on sentence-ending punctuation. Bias to 2, allow a
-    3rd only when it is a short (<=3 char) connector that does not end a sentence."""
+    3rd only when it is a short (<=3 char) connector that does not end a sentence.
+    A glued currency pair may push a page to 4 rather than split the number."""
     pages, cur = [], []
     i, n = 0, len(words)
     while i < n:
         cur.append(words[i])
         t = words[i]["text"]
+        nxt = words[i + 1] if i + 1 < n else None
         if ends_sentence(t):
             pages.append(cur); cur = []
+        elif glued(t, nxt) and len(cur) < 4:
+            pass  # keep the number and its magnitude on the same page
         elif len(cur) >= 3:
             pages.append(cur); cur = []
         elif len(cur) == 2:
-            nxt = words[i + 1] if i + 1 < n else None
             take3 = (
                 nxt is not None
                 and len(clean(nxt["text"])) <= 3

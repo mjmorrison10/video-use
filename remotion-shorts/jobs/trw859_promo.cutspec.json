@@ -1,0 +1,100 @@
+{
+ "videoSrc": "trw859_src.mp4",
+ "fps": 30,
+ "segments": [
+  {
+   "inSec": 360.17,
+   "outSec": 361.05,
+   "beat": "HOOK",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 1067.96,
+   "outSec": 1073.98,
+   "beat": "FALSE-DONORS",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 474.8,
+   "outSec": 485.91,
+   "beat": "IDENTITY-PIVOT",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 2510.42,
+   "outSec": 2514.86,
+   "beat": "MECHANISM",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 2743.18,
+   "outSec": 2746.9,
+   "beat": "PROOF-SETUP",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 2784.16,
+   "outSec": 2789.06,
+   "beat": "MONEY",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 1844.1,
+   "outSec": 1848.44,
+   "beat": "EVALUATION",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 4439.85,
+   "outSec": 4443.71,
+   "beat": "CODA",
+   "framing": "cover",
+   "cropX": 0.5
+  }
+ ],
+ "captionReplace": {
+  "000": "thousand",
+  "reoccurring": "recurring"
+ },
+ "style": {
+  "captionPosition": "bottom",
+  "captionBottom": 420,
+  "powerWords": [
+   "bankrupt",
+   "160",
+   "000",
+   "thousand",
+   "10",
+   "education",
+   "bush",
+   "recurring",
+   "reoccurring",
+   "client",
+   "daughters",
+   "anybody"
+  ]
+ },
+ "hook": {
+  "text": "FIREFIGHTER. BANKRUPT.",
+  "untilSec": 1.4
+ },
+ "music": {
+  "src": "interstellar.mp3",
+  "startSec": 0,
+  "volLow": 0.03,
+  "volHigh": 0.07,
+  "climaxSec": 30
+ },
+ "cta": {
+  "text": "ANYBODY CAN DO IT.",
+  "sub": "Chief Little Eagle — one student's story.",
+  "durSec": 1.6
+ }
+}
