@@ -63,6 +63,11 @@ def apply_replace(text: str, repl: dict) -> str:
         return text
     m = re.match(r"^(\s*)(.*?)([^A-Za-z0-9]*)$", text)
     lead, _core, trail = m.group(1), m.group(2), m.group(3)
+    # Captions render tokens with whiteSpace:"pre", so each token supplies its own
+    # separator. Numeric continuations like ",000" carry no leading space; turning
+    # one into a word ("thousand") without adding one yields "$10THOUSAND".
+    if not lead and repl[key][:1].isalnum():
+        lead = " "
     return f"{lead}{repl[key]}{trail}"
 
 
