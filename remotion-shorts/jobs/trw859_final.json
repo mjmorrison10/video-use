@@ -1,0 +1,663 @@
+{
+ "videoSrc": "trw859_final_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 0.0,
+   "outSec": 41.267,
+   "offsetSec": 0.0,
+   "framing": "cover",
+   "cropX": 0.5,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "FINAL CUT"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 0,
+   "endMs": 400,
+   "tokens": [
+    {
+     "text": "I"
+    },
+    {
+     "text": " went"
+    }
+   ]
+  },
+  {
+   "startMs": 400,
+   "endMs": 1333,
+   "tokens": [
+    {
+     "text": "bankrupt"
+    }
+   ]
+  },
+  {
+   "startMs": 1333,
+   "endMs": 2566,
+   "tokens": [
+    {
+     "text": "I"
+    },
+    {
+     "text": " have"
+    },
+    {
+     "text": " spent"
+    }
+   ]
+  },
+  {
+   "startMs": 2566,
+   "endMs": 5533,
+   "tokens": [
+    {
+     "text": "over"
+    },
+    {
+     "text": " $160,000"
+    }
+   ]
+  },
+  {
+   "startMs": 5533,
+   "endMs": 6500,
+   "tokens": [
+    {
+     "text": "on"
+    },
+    {
+     "text": " different"
+    }
+   ]
+  },
+  {
+   "startMs": 6500,
+   "endMs": 7400,
+   "tokens": [
+    {
+     "text": "programs"
+    }
+   ]
+  },
+  {
+   "startMs": 7400,
+   "endMs": 7733,
+   "tokens": [
+    {
+     "text": "because"
+    }
+   ]
+  },
+  {
+   "startMs": 7733,
+   "endMs": 8366,
+   "tokens": [
+    {
+     "text": "I"
+    },
+    {
+     "text": " had"
+    }
+   ]
+  },
+  {
+   "startMs": 8366,
+   "endMs": 9533,
+   "tokens": [
+    {
+     "text": "no"
+    },
+    {
+     "text": " internet"
+    }
+   ]
+  },
+  {
+   "startMs": 9533,
+   "endMs": 10333,
+   "tokens": [
+    {
+     "text": "I"
+    },
+    {
+     "text": " didn't"
+    },
+    {
+     "text": " have"
+    }
+   ]
+  },
+  {
+   "startMs": 10333,
+   "endMs": 11466,
+   "tokens": [
+    {
+     "text": "computer"
+    },
+    {
+     "text": " knowledge"
+    }
+   ]
+  },
+  {
+   "startMs": 11466,
+   "endMs": 12033,
+   "tokens": [
+    {
+     "text": "i"
+    },
+    {
+     "text": " had"
+    },
+    {
+     "text": " no"
+    }
+   ]
+  },
+  {
+   "startMs": 12033,
+   "endMs": 13066,
+   "tokens": [
+    {
+     "text": "education"
+    }
+   ]
+  },
+  {
+   "startMs": 13066,
+   "endMs": 13366,
+   "tokens": [
+    {
+     "text": "i"
+    },
+    {
+     "text": " was"
+    }
+   ]
+  },
+  {
+   "startMs": 13366,
+   "endMs": 13733,
+   "tokens": [
+    {
+     "text": "just"
+    },
+    {
+     "text": " a"
+    }
+   ]
+  },
+  {
+   "startMs": 13733,
+   "endMs": 14366,
+   "tokens": [
+    {
+     "text": "native"
+    },
+    {
+     "text": " from"
+    }
+   ]
+  },
+  {
+   "startMs": 14366,
+   "endMs": 14966,
+   "tokens": [
+    {
+     "text": "canada"
+    }
+   ]
+  },
+  {
+   "startMs": 14966,
+   "endMs": 15800,
+   "tokens": [
+    {
+     "text": "in"
+    },
+    {
+     "text": " the"
+    },
+    {
+     "text": " bush"
+    }
+   ]
+  },
+  {
+   "startMs": 15800,
+   "endMs": 16666,
+   "tokens": [
+    {
+     "text": "and"
+    },
+    {
+     "text": " i"
+    }
+   ]
+  },
+  {
+   "startMs": 16666,
+   "endMs": 17300,
+   "tokens": [
+    {
+     "text": "came"
+    },
+    {
+     "text": " across"
+    }
+   ]
+  },
+  {
+   "startMs": 17300,
+   "endMs": 18133,
+   "tokens": [
+    {
+     "text": "the"
+    },
+    {
+     "text": " real"
+    },
+    {
+     "text": " world"
+    }
+   ]
+  },
+  {
+   "startMs": 18133,
+   "endMs": 18833,
+   "tokens": [
+    {
+     "text": "in"
+    },
+    {
+     "text": " the"
+    },
+    {
+     "text": " business"
+    }
+   ]
+  },
+  {
+   "startMs": 18833,
+   "endMs": 20133,
+   "tokens": [
+    {
+     "text": "mastery"
+    },
+    {
+     "text": " campus"
+    }
+   ]
+  },
+  {
+   "startMs": 20133,
+   "endMs": 21700,
+   "tokens": [
+    {
+     "text": "i"
+    },
+    {
+     "text": " actually"
+    },
+    {
+     "text": " implemented"
+    }
+   ]
+  },
+  {
+   "startMs": 21700,
+   "endMs": 23066,
+   "tokens": [
+    {
+     "text": "with"
+    },
+    {
+     "text": " ai"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 23066,
+   "endMs": 23400,
+   "tokens": [
+    {
+     "text": "So"
+    },
+    {
+     "text": " my"
+    }
+   ]
+  },
+  {
+   "startMs": 23400,
+   "endMs": 24100,
+   "tokens": [
+    {
+     "text": "very"
+    },
+    {
+     "text": " first"
+    }
+   ]
+  },
+  {
+   "startMs": 24100,
+   "endMs": 24866,
+   "tokens": [
+    {
+     "text": "client"
+    },
+    {
+     "text": " that"
+    },
+    {
+     "text": " I"
+    }
+   ]
+  },
+  {
+   "startMs": 24866,
+   "endMs": 25700,
+   "tokens": [
+    {
+     "text": "landed"
+    },
+    {
+     "text": " from"
+    },
+    {
+     "text": " the"
+    }
+   ]
+  },
+  {
+   "startMs": 25700,
+   "endMs": 26500,
+   "tokens": [
+    {
+     "text": "real"
+    },
+    {
+     "text": " world"
+    }
+   ]
+  },
+  {
+   "startMs": 26500,
+   "endMs": 27300,
+   "tokens": [
+    {
+     "text": "and"
+    },
+    {
+     "text": " so"
+    },
+    {
+     "text": " I'm"
+    },
+    {
+     "text": " making"
+    }
+   ]
+  },
+  {
+   "startMs": 27300,
+   "endMs": 27833,
+   "tokens": [
+    {
+     "text": "just"
+    },
+    {
+     "text": " from"
+    }
+   ]
+  },
+  {
+   "startMs": 27833,
+   "endMs": 28633,
+   "tokens": [
+    {
+     "text": "that"
+    },
+    {
+     "text": " client"
+    }
+   ]
+  },
+  {
+   "startMs": 28633,
+   "endMs": 29733,
+   "tokens": [
+    {
+     "text": "$10,000"
+    }
+   ]
+  },
+  {
+   "startMs": 29733,
+   "endMs": 30466,
+   "tokens": [
+    {
+     "text": "a"
+    },
+    {
+     "text": " month"
+    },
+    {
+     "text": " on"
+    }
+   ]
+  },
+  {
+   "startMs": 30466,
+   "endMs": 32066,
+   "tokens": [
+    {
+     "text": "recurring"
+    },
+    {
+     "text": " income"
+    }
+   ]
+  },
+  {
+   "startMs": 32066,
+   "endMs": 32833,
+   "tokens": [
+    {
+     "text": "you"
+    },
+    {
+     "text": " would"
+    },
+    {
+     "text": " say"
+    }
+   ]
+  },
+  {
+   "startMs": 32833,
+   "endMs": 33166,
+   "tokens": [
+    {
+     "text": "that"
+    }
+   ]
+  },
+  {
+   "startMs": 33166,
+   "endMs": 33800,
+   "tokens": [
+    {
+     "text": "my"
+    },
+    {
+     "text": " daughters"
+    }
+   ]
+  },
+  {
+   "startMs": 33800,
+   "endMs": 35066,
+   "tokens": [
+    {
+     "text": "look"
+    },
+    {
+     "text": " up"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " me"
+    },
+    {
+     "text": " now"
+    }
+   ]
+  },
+  {
+   "startMs": 35066,
+   "endMs": 35766,
+   "tokens": [
+    {
+     "text": "because"
+    },
+    {
+     "text": " of"
+    }
+   ]
+  },
+  {
+   "startMs": 35766,
+   "endMs": 36633,
+   "tokens": [
+    {
+     "text": "the"
+    },
+    {
+     "text": " real"
+    },
+    {
+     "text": " world"
+    }
+   ]
+  },
+  {
+   "startMs": 36633,
+   "endMs": 37733,
+   "tokens": [
+    {
+     "text": "I’ve"
+    },
+    {
+     "text": " been"
+    },
+    {
+     "text": " through"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 37733,
+   "endMs": 38700,
+   "tokens": [
+    {
+     "text": "i"
+    },
+    {
+     "text": " did"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 38700,
+   "endMs": 39933,
+   "tokens": [
+    {
+     "text": "if"
+    },
+    {
+     "text": " i"
+    },
+    {
+     "text": " can"
+    },
+    {
+     "text": " do"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  },
+  {
+   "startMs": 39933,
+   "endMs": 41266,
+   "tokens": [
+    {
+     "text": "anybody"
+    },
+    {
+     "text": " can"
+    },
+    {
+     "text": " do"
+    },
+    {
+     "text": " it"
+    }
+   ]
+  }
+ ],
+ "music": null,
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "bottom",
+  "captionBottom": 420,
+  "uppercase": true,
+  "powerWords": [
+   "bankrupt",
+   "160000",
+   "10000",
+   "education",
+   "bush",
+   "recurring",
+   "client",
+   "daughters",
+   "anybody",
+   "ai"
+  ]
+ },
+ "hook": {
+  "text": "FIREFIGHTER. BANKRUPT.",
+  "untilSec": 1.4
+ },
+ "broll": [],
+ "zooms": [],
+ "zoomSteps": [],
+ "cta": {
+  "text": "CHIEF LITTLE EAGLE",
+  "sub": "One member's result — not what most should expect.",
+  "durSec": 2.0
+ }
+}
