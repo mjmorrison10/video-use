@@ -12,7 +12,7 @@ side-by-side call and delivering it already 9:16).
 
 Usage: assemble_src.py JOB.json SRC.mp4 [--pubdir public] [--vf FILTER] [--fps 30]
 """
-import argparse, json, subprocess, tempfile
+import argparse, json, math, subprocess, tempfile
 from pathlib import Path
 
 ap = argparse.ArgumentParser()
@@ -68,9 +68,12 @@ with tempfile.TemporaryDirectory() as tmp:
             ["ffprobe", "-v", "error", "-select_streams", "v:0", "-count_packets",
              "-show_entries", "stream=nb_read_packets", "-of", "csv=p=0", str(p)],
             capture_output=True, text=True, check=True).stdout.strip())
-        # Seeking is frame-accurate when re-encoding, so the head is what we asked
-        # for; any drift lands on the tail.
-        head_f = int(round(head * a.fps))
+        # `-ss` emits the first frame at or AFTER the requested time, so the beat
+        # does not land exactly `head` seconds into the part — it lands wherever
+        # the master's frame grid put it. Derive the head in master frames so the
+        # map points at the real frame instead of a rounded seconds value.
+        first_f = math.ceil(start * a.fps - 1e-6)          # first master frame in this part
+        head_f = max(0, int(round(r["inSec"] * a.fps)) - first_f)
         table.append({
             "beat": r.get("beat"),
             "masterIn": round(r["inSec"], 3), "masterOut": round(r["outSec"], 3),

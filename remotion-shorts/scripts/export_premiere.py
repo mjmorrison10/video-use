@@ -57,6 +57,49 @@ def tcf(frames: int, fps: int = FPS) -> str:
     return f"{h:02d}:{m:02d}:{s:02d}:{ff:02d}"
 
 
+def refine_map(segs, media, master, vf, fps: int = FPS, span: int = 3):
+    """ffmpeg's -ss lands on a frame near — not always exactly at — the requested
+    time, and the offset is not consistent across segments. Rather than model its
+    seek semantics, measure: for each beat, compare the assembled media against
+    the master over a +/-span frame window and correct beatIn to the best match.
+    Probes sit on exact frame boundaries; a half-frame probe makes every segment
+    read one frame late."""
+    try:
+        import cv2, numpy as np
+    except ImportError:
+        print("[refine] opencv unavailable — keeping computed map", file=sys.stderr)
+        return segs
+    import tempfile, os
+    off = 12 / fps                      # exactly 12 frames into the beat
+    tmp = tempfile.mkdtemp()
+
+    def grab(src, t, name, filt=None):
+        c = ["ffmpeg", "-y", "-v", "error", "-ss", f"{t:.4f}", "-i", src, "-frames:v", "1"]
+        if filt:
+            c += ["-vf", filt]
+        subprocess.run(c + [os.path.join(tmp, name)], check=False)
+        return cv2.imread(os.path.join(tmp, name))
+
+    out = []
+    for s_ in segs:
+        ref = grab(master, s_["masterIn"] + off, "ref.png", vf)
+        best = (0, None)
+        if ref is not None:
+            for k in range(-span, span + 1):
+                a = grab(media, s_["beatIn"] + off + k / fps, "cand.png")
+                if a is None or a.shape != ref.shape:
+                    continue
+                d = float(np.mean(np.abs(a.astype(int) - ref.astype(int))))
+                if best[1] is None or d < best[1]:
+                    best = (k, d)
+        k = best[0]
+        if k:
+            print(f"[refine] {s_.get('beat')}: {k:+d} frame(s)")
+        out.append({**s_, "beatIn": s_["beatIn"] + k / fps,
+                    "beatOut": s_["beatOut"] + k / fps})
+    return out
+
+
 def lay_out(segs, fps: int = FPS):
     """Walk the cuts once and fix every frame number here, so the record timeline
     is gapless by construction and each clip's source length is defined as its
@@ -207,6 +250,8 @@ def main():
     ap.add_argument("--vf", default=None)
     ap.add_argument("--name", default=None)
     ap.add_argument("--skip-assemble", action="store_true")
+    ap.add_argument("--no-refine", action="store_true",
+                    help="skip measuring the assembled media against the master")
     a = ap.parse_args()
 
     outdir = Path(a.outdir); outdir.mkdir(parents=True, exist_ok=True)
@@ -243,6 +288,8 @@ def main():
         ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", media_path],
         capture_output=True, text=True, check=True).stdout.strip())
 
+    if not a.no_refine:
+        segs = refine_map(segs, media_path, a.master, a.vf)
     segs, content_frames = lay_out(segs)
     # sanity: exact lengths, gapless record, and every cut inside the media
     for i, s in enumerate(segs):
