@@ -628,8 +628,8 @@
  "music": {
   "src": "promo_fallen_angel.mp3",
   "startSec": 0.0,
-  "volLow": 0.09,
-  "volHigh": 0.14,
+  "volLow": 0.045,
+  "volHigh": 0.07,
   "climaxSec": 30.0
  },
  "style": {

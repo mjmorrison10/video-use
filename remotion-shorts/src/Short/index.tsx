@@ -79,7 +79,7 @@ const CTACard: React.FC<{ cta: NonNullable<ShortProps["cta"]>; style: ShortProps
             style={{
               fontFamily: ctaFontFamily,
               color: isAsk ? style.accentColor : "white",
-              fontSize: isAsk ? 54 : 48,
+              fontSize: isAsk ? 48 : 44,
               marginTop: i === 0 ? 40 : 18,
               textAlign: "center",
               opacity: isAsk ? 1 : 0.92,
