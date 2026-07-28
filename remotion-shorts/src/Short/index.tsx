@@ -71,6 +71,27 @@ const CTACard: React.FC<{ cta: NonNullable<ShortProps["cta"]>; style: ShortProps
       {cta.sub ? (
         <div style={{ fontFamily: ctaFontFamily, color: "white", fontSize: 46, marginTop: 34, textAlign: "center", opacity: 0.9 }}>{cta.sub}</div>
       ) : null}
+      {(cta.lines ?? []).map((line, i, arr) => {
+        const isAsk = i === arr.length - 1; // the ask gets the accent + glow
+        return (
+          <div
+            key={i}
+            style={{
+              fontFamily: ctaFontFamily,
+              color: isAsk ? style.accentColor : "white",
+              fontSize: isAsk ? 54 : 48,
+              marginTop: i === 0 ? 40 : 18,
+              textAlign: "center",
+              opacity: isAsk ? 1 : 0.92,
+              textShadow: isAsk
+                ? `0 0 16px ${style.accentColor}, 0 0 38px ${style.accentColor}`
+                : undefined,
+            }}
+          >
+            {line}
+          </div>
+        );
+      })}
     </AbsoluteFill>
   );
 };

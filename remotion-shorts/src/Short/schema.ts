@@ -82,6 +82,9 @@ export const ctaSchema = z
     text: z.string(),
     durSec: z.number().default(2),
     sub: z.string().optional(), // optional smaller line under the main text
+    // Further lines under `sub`, e.g. a payoff line then the actual ask. The
+    // LAST entry renders in accentColor because it is the thing being asked for.
+    lines: z.array(z.string()).default([]),
   })
   .nullable();
 

@@ -31,8 +31,14 @@ def main():
     ap.add_argument("-o", "--out", required=True)
     ap.add_argument("--cta-text"); ap.add_argument("--cta-sub")
     ap.add_argument("--cta-dur", type=float, default=1.8)
+    ap.add_argument("--cta-line", action="append", default=[],
+                    help="extra CTA line under --cta-sub; repeatable, last one is the ask")
     ap.add_argument("--hook"); ap.add_argument("--hook-until", type=float, default=1.4)
     ap.add_argument("--music", default=None, help="omit when the cut already has a mix")
+    ap.add_argument("--music-start", type=float, default=0.0)
+    ap.add_argument("--vol-low", type=float, default=0.09)
+    ap.add_argument("--vol-high", type=float, default=0.14)
+    ap.add_argument("--climax", type=float, default=None)
     ap.add_argument("--fps", type=int, default=30)
     ap.add_argument("--power", default=None, help="comma list to override power words")
     a = ap.parse_args()
@@ -63,8 +69,9 @@ def main():
                     "framing": "cover", "cropX": 0.5, "cropXEnd": None,
                     "cropPanSec": None, "mute": False, "beat": "FINAL CUT"}],
         "captionPages": pages,
-        "music": ({"src": a.music, "startSec": 0, "volLow": 0.03,
-                   "volHigh": 0.07, "climaxSec": None} if a.music else None),
+        "music": ({"src": a.music, "startSec": a.music_start,
+                   "volLow": a.vol_low, "volHigh": a.vol_high,
+                   "climaxSec": a.climax} if a.music else None),
         "style": {
             "highlightColor": "#00E5FF", "accentColor": "#00E5FF",
             "textColor": "white", "strokeColor": "black", "fontSize": 58,
@@ -73,7 +80,8 @@ def main():
         },
         "hook": ({"text": a.hook, "untilSec": a.hook_until} if a.hook else None),
         "broll": [], "zooms": [], "zoomSteps": [],
-        "cta": ({"text": a.cta_text, "sub": a.cta_sub, "durSec": a.cta_dur}
+        "cta": ({"text": a.cta_text, "sub": a.cta_sub, "durSec": a.cta_dur,
+                 "lines": a.cta_line}
                 if a.cta_text else None),
     }
     Path(a.out).write_text(json.dumps(job, ensure_ascii=False, indent=1))

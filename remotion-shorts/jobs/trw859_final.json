@@ -625,7 +625,13 @@
    ]
   }
  ],
- "music": null,
+ "music": {
+  "src": "promo_fallen_angel.mp3",
+  "startSec": 0.0,
+  "volLow": 0.09,
+  "volHigh": 0.14,
+  "climaxSec": 30.0
+ },
  "style": {
   "highlightColor": "#00E5FF",
   "accentColor": "#00E5FF",
@@ -657,7 +663,11 @@
  "zoomSteps": [],
  "cta": {
   "text": "CHIEF LITTLE EAGLE",
-  "sub": "One member's result — not what most should expect.",
-  "durSec": 2.0
+  "sub": "One member's results",
+  "durSec": 2.8,
+  "lines": [
+   "This could be yours.",
+   "Comment \"EAGLE\" to get started."
+  ]
  }
 }
