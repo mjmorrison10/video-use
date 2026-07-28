@@ -60,6 +60,15 @@ with tempfile.TemporaryDirectory() as tmp:
                 "-ar", "48000", "-ac", "2", str(p)]
         subprocess.run(cmd, check=True)
         parts.append(p)
+        # Measure what ffmpeg actually wrote. Seeking + re-encoding can land a
+        # frame either side of the request, and using nominal lengths here would
+        # let that error accumulate down the file, putting later cuts off the map.
+        actual = float(subprocess.run(
+            ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(p)],
+            capture_output=True, text=True, check=True).stdout.strip())
+        # Seeking is frame-accurate when re-encoding, so the head is what we asked
+        # for; any drift lands on the tail. Only the running total must use the
+        # measured length, or the error compounds into later clips.
         table.append({
             "beat": r.get("beat"),
             "masterIn": round(r["inSec"], 3), "masterOut": round(r["outSec"], 3),
@@ -70,7 +79,7 @@ with tempfile.TemporaryDirectory() as tmp:
             "beatOut": round(cum + head + dur, 3),
             "offsetSec": round(r["offsetSec"], 3),       # position on the output timeline
         })
-        cum += seglen
+        cum += actual
     lst = Path(tmp) / "list.txt"
     lst.write_text("".join(f"file '{p}'\n" for p in parts))
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0",

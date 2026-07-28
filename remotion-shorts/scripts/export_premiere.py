@@ -49,6 +49,30 @@ def fr(sec: float, fps: int = FPS) -> int:
     return int(round(sec * fps))
 
 
+def tcf(frames: int, fps: int = FPS) -> str:
+    """HH:MM:SS:FF from an exact frame count."""
+    h, rem = divmod(frames, 3600 * fps)
+    m, rem = divmod(rem, 60 * fps)
+    s, ff = divmod(rem, fps)
+    return f"{h:02d}:{m:02d}:{s:02d}:{ff:02d}"
+
+
+def lay_out(segs, fps: int = FPS):
+    """Walk the cuts once and fix every frame number here, so the record timeline
+    is gapless by construction and each clip's source length is defined as its
+    record length. Rounding beatIn/beatOut and offsetSec independently lets a clip
+    come out a frame longer in source than on the timeline, which an NLE reads as
+    a speed change."""
+    rows, rec = [], 0
+    for s in segs:
+        n = fr(s["durSec"], fps)
+        src_in = fr(s["beatIn"], fps)
+        rows.append({**s, "recIn": rec, "recOut": rec + n,
+                     "srcIn": src_in, "srcOut": src_in + n, "frames": n})
+        rec += n
+    return rows, rec
+
+
 def xesc(s: str) -> str:
     return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
 
@@ -68,8 +92,8 @@ def build_xml(name, segs, media_name, media_path, media_dur, music, seq_frames, 
 
     v_items, a_items = [], []
     for i, s in enumerate(segs):
-        st, en = fr(s["offsetSec"]), fr(s["offsetSec"] + s["durSec"])
-        in_, out_ = fr(s["beatIn"]), fr(s["beatOut"])
+        st, en = s["recIn"], s["recOut"]
+        in_, out_ = s["srcIn"], s["srcOut"]
         # first reference defines the file, the rest point at it by id
         f_v = file_el("file-1", media_name, media_path, fr(media_dur)) if i == 0 else '<file id="file-1"/>'
         f_a = '<file id="file-1"/>'
@@ -119,9 +143,10 @@ def build_xml(name, segs, media_name, media_path, media_dur, music, seq_frames, 
 def build_edl(title, segs, reel="AX", clip_name="interview859.mp4"):
     out = [f"TITLE: {title}", "FCM: NON-DROP FRAME", ""]
     for i, s in enumerate(segs, 1):
+        m_in = fr(s['masterIn'])
         out.append(f"{i:03d}  {reel:<8} V     C        "
-                   f"{tc(s['masterIn'])} {tc(s['masterOut'])} "
-                   f"{tc(s['offsetSec'])} {tc(s['offsetSec'] + s['durSec'])}")
+                   f"{tcf(m_in)} {tcf(m_in + s['frames'])} "
+                   f"{tcf(s['recIn'])} {tcf(s['recOut'])}")
         out.append(f"* FROM CLIP NAME: {clip_name}")
         if s.get("beat"):
             out.append(f"* COMMENT: {s['beat']}")
@@ -138,27 +163,37 @@ def srt_from_pages(pages):
     return "\n".join(cues)
 
 
-def srt_sentences(segs, words):
+MIN_WORD_INSIDE = 0.08   # a word with less than this inside the cut is edge bleed
+
+
+def srt_sentences(segs, words, max_chars=72):
     """Remap master-time words onto the output timeline, then cut cues at
     sentence punctuation (falling back on a pause) — keeps real punctuation and
-    currency intact, unlike the punctuation-stripped on-screen pages."""
-    flat = []
+    currency intact, unlike the punctuation-stripped on-screen pages.
+
+    Cues never span a cut: each beat is its own thought, and the snap leaves ~40ms
+    of the *next* word at each out-point, which must not be written as content."""
+    cues = []
     for s in segs:
+        flat = []
         for w in words:
-            if s["masterIn"] <= w["start"] < s["masterOut"]:
-                flat.append({"text": w["text"],
-                             "start": s["offsetSec"] + (w["start"] - s["masterIn"]),
-                             "end": s["offsetSec"] + (min(w["end"], s["masterOut"]) - s["masterIn"])})
-    cues, cur = [], []
-    for i, w in enumerate(flat):
-        cur.append(w)
-        gap = (flat[i + 1]["start"] - w["end"]) if i + 1 < len(flat) else 9
-        joined = "".join(x["text"] for x in cur).strip()
-        if w["text"].strip().endswith((".", "?", "!")) or gap >= 0.45 or len(joined) >= 90:
-            cues.append((cur[0]["start"], cur[-1]["end"], joined))
-            cur = []
-    if cur:
-        cues.append((cur[0]["start"], cur[-1]["end"], "".join(x["text"] for x in cur).strip()))
+            if not (s["masterIn"] <= w["start"] < s["masterOut"]):
+                continue
+            if min(w["end"], s["masterOut"]) - w["start"] < MIN_WORD_INSIDE:
+                continue                      # trailing-word bleed, not spoken content
+            flat.append({"text": w["text"],
+                         "start": s["offsetSec"] + (w["start"] - s["masterIn"]),
+                         "end": s["offsetSec"] + (min(w["end"], s["masterOut"]) - s["masterIn"])})
+        cur = []
+        for i, w in enumerate(flat):
+            cur.append(w)
+            last = i == len(flat) - 1
+            gap = (flat[i + 1]["start"] - w["end"]) if not last else 9
+            joined = "".join(x["text"] for x in cur).strip()
+            if (w["text"].strip().endswith((".", "?", "!")) or gap >= 0.45
+                    or len(joined) >= max_chars or last):
+                cues.append((cur[0]["start"], cur[-1]["end"], joined))
+                cur = []
     return "\n".join(f"{i}\n{srt_ts(a)} --> {srt_ts(b)}\n{t}\n"
                      for i, (a, b, t) in enumerate(cues, 1))
 
@@ -208,16 +243,16 @@ def main():
         ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", media_path],
         capture_output=True, text=True, check=True).stdout.strip())
 
-    # ---- assertions: the timeline must be gapless and frame-exact ----
+    segs, content_frames = lay_out(segs)
+    # sanity: exact lengths, gapless record, and every cut inside the media
     for i, s in enumerate(segs):
-        assert fr(s["beatOut"]) - fr(s["beatIn"]) == fr(s["offsetSec"] + s["durSec"]) - fr(s["offsetSec"]), \
-            f"seg {i} source/record length mismatch"
-        if i:
-            prev = segs[i - 1]
-            assert fr(prev["offsetSec"] + prev["durSec"]) == fr(s["offsetSec"]), f"gap before seg {i}"
-    content_sec = segs[-1]["offsetSec"] + segs[-1]["durSec"]
+        assert s["srcOut"] - s["srcIn"] == s["recOut"] - s["recIn"], f"seg {i} length mismatch"
+        assert i == 0 or segs[i - 1]["recOut"] == s["recIn"], f"gap before seg {i}"
+        assert s["srcOut"] <= fr(media_dur) + 1, f"seg {i} runs past the media"
+        assert abs((s["beatOut"] - s["beatIn"]) - s["durSec"]) < 1.5 / FPS, f"seg {i} map drift"
+    content_sec = content_frames / FPS
     cta = job.get("cta")
-    seq_frames = fr(content_sec + (cta["durSec"] if cta else 0))
+    seq_frames = content_frames + (fr(cta["durSec"]) if cta else 0)
 
     music = None
     if job.get("music"):
@@ -292,8 +327,8 @@ def main():
     lines += ["", "## Cuts (master timecode → timeline)", "",
               "| # | Beat | Master in | Master out | Timeline |", "|---|---|---|---|---|"]
     for i, s in enumerate(segs, 1):
-        lines.append(f"| {i} | {s.get('beat','')} | {tc(s['masterIn'])} | {tc(s['masterOut'])} "
-                     f"| {tc(s['offsetSec'])} |")
+        lines.append(f"| {i} | {s.get('beat','')} | {tcf(fr(s['masterIn']))} "
+                     f"| {tcf(fr(s['masterIn']) + s['frames'])} | {tcf(s['recIn'])} |")
     (outdir / "README.md").write_text("\n".join(lines) + "\n")
 
     print(f"[export] {len(segs)} cuts, seq {seq_frames}f ({seq_frames/FPS:.2f}s) -> {outdir}")
