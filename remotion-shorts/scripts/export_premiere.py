@@ -45,6 +45,14 @@ def srt_ts(sec: float) -> str:
     return f"{h:02d}:{m:02d}:{s:02d},{ms:03d}"
 
 
+def probe_size(path):
+    w, h = subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "v", "-show_entries",
+         "stream=width,height", "-of", "csv=p=0:s=x", path],
+        capture_output=True, text=True, check=True).stdout.strip().split("x")
+    return int(w), int(h)
+
+
 def fr(sec: float, fps: int = FPS) -> int:
     return int(round(sec * fps))
 
@@ -100,13 +108,13 @@ def refine_map(segs, media, master, vf, fps: int = FPS, span: int = 3):
     return out
 
 
-def lay_out(segs, fps: int = FPS):
+def lay_out(segs, fps: int = FPS, lead: int = 0):
     """Walk the cuts once and fix every frame number here, so the record timeline
     is gapless by construction and each clip's source length is defined as its
     record length. Rounding beatIn/beatOut and offsetSec independently lets a clip
     come out a frame longer in source than on the timeline, which an NLE reads as
     a speed change."""
-    rows, rec = [], 0
+    rows, rec = [], lead
     for s in segs:
         n = fr(s["durSec"], fps)
         src_in = fr(s["beatIn"], fps)
@@ -121,7 +129,8 @@ def xesc(s: str) -> str:
 
 
 # ---------- FCP7 XML ----------
-def build_xml(name, segs, media_name, media_path, media_dur, music, seq_frames, w=1080, h=1920):
+def build_xml(name, segs, media_name, media_path, media_dur, music, seq_frames,
+              w=1080, h=1920, cutaways=(), voiceovers=()):
     """segs: rows from the assemble map (beatIn/beatOut are positions IN the
     assembled file; offsetSec is the position on the output timeline)."""
     def file_el(fid, fname, fpath, dur_frames, has_video=True):
@@ -132,6 +141,19 @@ def build_xml(name, segs, media_name, media_path, media_dur, music, seq_frames, 
                 f"<rate><timebase>{FPS}</timebase><ntsc>FALSE</ntsc></rate>"
                 f"<duration>{dur_frames}</duration>"
                 f"<media>{vid}<audio><channelcount>2</channelcount></audio></media></file>")
+
+    fid = [2]   # file-1 is the assembled dialogue media
+
+    def std_clip(kind, idx, nm, start, end, in_, out_, fname, fpath, dur_f, audio_only=False):
+        f_el = file_el(f"file-{fid[0]}", fname, fpath, dur_f, has_video=not audio_only)
+        fid[0] += 1
+        src = ("<sourcetrack><mediatype>audio</mediatype><trackindex>1</trackindex></sourcetrack>"
+               if kind == "a" else "")
+        return (f'<clipitem id="c{kind}-{idx}"><name>{xesc(nm)}</name><enabled>TRUE</enabled>'
+                f"<duration>{dur_f}</duration>"
+                f"<rate><timebase>{FPS}</timebase><ntsc>FALSE</ntsc></rate>"
+                f"<start>{start}</start><end>{end}</end><in>{in_}</in><out>{out_}</out>"
+                f"{f_el}{src}</clipitem>")
 
     v_items, a_items = [], []
     for i, s in enumerate(segs):
@@ -154,6 +176,18 @@ def build_xml(name, segs, media_name, media_path, media_dur, music, seq_frames, 
             f"<sourcetrack><mediatype>audio</mediatype><trackindex>1</trackindex></sourcetrack>"
             f"</clipitem>")
 
+    # The bookends sit on V1 either side of the dialogue — they never overlap it,
+    # so a second video track would only make the timeline harder to read.
+    for j, b in enumerate(cutaways, 1):
+        v_items.append(std_clip("v", 100 + j, b["name"], b["start"], b["start"] + b["frames"],
+                                0, b["frames"], b["name"], b["path"], b["durFrames"]))
+    vo_track = ""
+    if voiceovers:
+        vo_track = "<track>" + "".join(
+            std_clip("a", 200 + j, v["name"], v["start"], v["start"] + v["frames"],
+                     0, v["frames"], v["name"], v["path"], v["durFrames"], audio_only=True)
+            for j, v in enumerate(voiceovers, 1)) + "</track>"
+
     music_track = ""
     if music:
         mdur = fr(music["durSec"])
@@ -164,7 +198,7 @@ def build_xml(name, segs, media_name, media_path, media_dur, music, seq_frames, 
             f"<rate><timebase>{FPS}</timebase><ntsc>FALSE</ntsc></rate>"
             f"<start>0</start><end>{min(seq_frames, mdur)}</end>"
             f"<in>{fr(music.get('startSec', 0))}</in><out>{fr(music.get('startSec', 0)) + min(seq_frames, mdur)}</out>"
-            + file_el("file-2", music["name"], music["path"], mdur, has_video=False)
+            + file_el(f"file-{fid[0]}", music["name"], music["path"], mdur, has_video=False)
             + "<sourcetrack><mediatype>audio</mediatype><trackindex>1</trackindex></sourcetrack>"
             "</clipitem></track>")
 
@@ -178,7 +212,7 @@ def build_xml(name, segs, media_name, media_path, media_dur, music, seq_frames, 
         f"<rate><timebase>{FPS}</timebase><ntsc>FALSE</ntsc></rate>"
         "</samplecharacteristics></format>"
         "<track>" + "".join(v_items) + "</track></video>"
-        "<audio><track>" + "".join(a_items) + "</track>" + music_track + "</audio>"
+        "<audio><track>" + "".join(a_items) + "</track>" + vo_track + music_track + "</audio>"
         "</media></sequence>\n</xmeml>\n")
 
 
@@ -290,16 +324,63 @@ def main():
 
     if not a.no_refine:
         segs = refine_map(segs, media_path, a.master, a.vf)
-    segs, content_frames = lay_out(segs)
+    # The dialogue does not necessarily start the video. Lay it at the offset the
+    # job gives it, so the exported timeline and the caption SRT share one clock.
+    lead = fr(job["ranges"][0]["offsetSec"]) if job.get("ranges") else 0
+    segs, content_frames = lay_out(segs, lead=lead)
     # sanity: exact lengths, gapless record, and every cut inside the media
     for i, s in enumerate(segs):
         assert s["srcOut"] - s["srcIn"] == s["recOut"] - s["recIn"], f"seg {i} length mismatch"
         assert i == 0 or segs[i - 1]["recOut"] == s["recIn"], f"gap before seg {i}"
         assert s["srcOut"] <= fr(media_dur) + 1, f"seg {i} runs past the media"
         assert abs((s["beatOut"] - s["beatIn"]) - s["durSec"]) < 1.5 / FPS, f"seg {i} map drift"
-    content_sec = content_frames / FPS
+    content_sec = (content_frames - lead) / FPS
     cta = job.get("cta")
+
+    def _asset(src, start_sec, dur_sec, label):
+        """Copy a public/ asset next to the XML and describe it for the timeline."""
+        sp = Path("public") / src
+        if not sp.exists():
+            print(f"[export] missing asset {src}", file=sys.stderr); return None
+        dp = outdir / sp.name
+        if not dp.exists() or dp.stat().st_size != sp.stat().st_size:
+            dp.write_bytes(sp.read_bytes())
+        full = float(subprocess.run(
+            ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(dp)],
+            capture_output=True, text=True, check=True).stdout.strip())
+        return {"name": sp.name, "path": str(dp.resolve()), "label": label,
+                "start": fr(start_sec), "frames": min(fr(dur_sec), fr(full)),
+                "durFrames": fr(full)}
+
+    # Per-clip frame rounding makes the laid-out dialogue a frame or two shorter
+    # than its nominal seconds. Anything scheduled AFTER it has to move by the
+    # same amount or the timeline opens a black gap at the handoff.
+    nominal_end = fr(job["ranges"][-1]["offsetSec"]
+                     + (job["ranges"][-1]["outSec"] - job["ranges"][-1]["inSec"])) if job.get("ranges") else 0
+    drift = content_frames - nominal_end
+
+    def _shift(x):
+        if x and x["start"] >= nominal_end:
+            x["start"] += drift
+        return x
+
     seq_frames = content_frames + (fr(cta["durSec"]) if cta else 0)
+    if cta and cta.get("atSec") is not None:
+        seq_frames = fr(cta["atSec"]) + drift + fr(cta["durSec"])
+
+    cutaways = [x for x in (_shift(_asset(b["src"], b["atSec"], b["durSec"], b.get("label", "b-roll")))
+                            for b in job.get("broll", [])) if x]
+    vos = []
+    for v in job.get("voiceovers", []):
+        sp = Path("public") / v["src"]
+        if not sp.exists():
+            continue
+        d = float(subprocess.run(
+            ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(sp)],
+            capture_output=True, text=True, check=True).stdout.strip())
+        x = _shift(_asset(v["src"], v["atSec"], d, "voiceover"))
+        if x:
+            vos.append(x)
 
     music = None
     if job.get("music"):
@@ -312,7 +393,8 @@ def main():
                      "startSec": job["music"].get("startSec", 0)}
 
     (outdir / f"{name}.xml").write_text(
-        build_xml(name, segs, media_name, media_path, media_dur, music, seq_frames))
+        build_xml(name, segs, media_name, media_path, media_dur, music, seq_frames,
+                  cutaways=cutaways, voiceovers=vos))
     (outdir / f"{name}.edl").write_text(
         build_edl(name.upper(), segs, clip_name=Path(a.master).name))
     (outdir / f"{name}_captions.srt").write_text(srt_from_pages(job["captionPages"]))
@@ -337,19 +419,42 @@ def main():
         "Drag onto the timeline, then restyle in the Essential Graphics panel.", "",
         f"**Handles:** every clip carries {a.handles}s of extra media on each side, so you can "
         "extend or slip any cut. The trim points are exactly where the render cut.", "",
-        "## Conforming against the full interview instead", "",
-        f"`{name}.edl` carries **master timecodes** into `{Path(a.master).name}` "
-        f"(the {Path(a.master).name} you can pull from MEGA). Import the EDL, relink to the "
-        "master, and you get the same cuts with the entire interview available — at the cost "
-        "of redoing the vertical reframe (see below).", "",
-        "## Vertical reframe (already baked into the handles media)", "",
-        "The source is a side-by-side remote call. The 9:16 framing is a crop of his panel:",
-        "",
-        "```", f"crop=308:548:1226:266   # from the 1920x1080 master", "scale=1080:1920", "```",
-        "",
-        "In Premiere terms on a 1920x1080 clip in a 1080x1920 sequence: **Scale ≈ 350.6%**, "
-        "**Position ≈ (-932, 960)**. You only need this if you conform via the EDL — "
-        f"`{media_name}` is already cropped.", "",
+        "## Conforming against the full source instead", "",
+        f"`{name}.edl` carries **master timecodes** into `{Path(a.master).name}`. Import the "
+        "EDL, relink to the master, and you get the same cuts with the whole source available "
+        "to extend into.", "",
+    ]
+
+    # ---- reframing: read it off the job rather than assuming a fixed crop ----
+    crops = [(r.get("beat"), r.get("cropX"), r.get("cropXEnd")) for r in job.get("ranges", [])]
+    if any(c is not None and (c != 0.5 or e is not None) for _, c, e in crops):
+        mw, mh = probe_size(a.master)
+        scale = 1920 / mh
+        lines += [
+            "## Vertical reframe (NOT baked into the handles media)", "",
+            f"`{media_name}` is {mw}x{mh} — the full frame, so you can reframe freely. "
+            "The render fills a 1080x1920 frame from it and slides the crop window "
+            "horizontally to keep whoever is speaking centred; the window moves per shot, "
+            "so there is no single crop value for the whole cut.", "",
+            f"In Premiere: drop a clip in the 1080x1920 sequence and set **Scale ≈ "
+            f"{scale*100:.1f}%**. `cropX` below is the window position, 0 = hard left, "
+            "1 = hard right; **Position X** is the offset from centre that produces it, so "
+            "set Motion → Position to **(540 + offset, 960)**.", "",
+            "There are more rows than clips: the tracker splits a beat wherever the camera "
+            "cuts inside it, so a few clips need one extra razor to take two framings.", "",
+            "| Beat | cropX | Position X |", "|---|---|---|",
+        ]
+        overflow = mw * scale - 1080
+        for beat, cx, cxe in crops:
+            if cx is None:
+                continue
+            px = lambda c: round(1080 / 2 - (c * overflow + 1080 / 2) + overflow / 2)
+            val = f"{cx} → {cxe}" if cxe is not None else f"{cx}"
+            pos = f"{px(cx)} → {px(cxe)}" if cxe is not None else f"{px(cx)}"
+            lines += [f"| {beat} | {val} | {pos} |"]
+        lines += [""]
+
+    lines += [
         "## Burned-in elements the XML cannot carry", "",
         "These are Remotion React components, not media — rebuild as Premiere titles:", "",
     ]
@@ -370,7 +475,7 @@ def main():
         mj = job["music"]
         lines += [f"- `{music['name']}`, volume {mj.get('volLow')} → {mj.get('volHigh')}, "
                   f"peaking around {mj.get('climaxSec')}s (the money beat), then easing off.",
-                  "- The XML puts it on A2 at unity; reapply the arc with keyframes to taste."]
+                  f"- The XML puts it on A{2 + (1 if vos else 0)} at unity; reapply the arc with keyframes to taste."]
     lines += ["", "## Cuts (master timecode → timeline)", "",
               "| # | Beat | Master in | Master out | Timeline |", "|---|---|---|---|---|"]
     for i, s in enumerate(segs, 1):
