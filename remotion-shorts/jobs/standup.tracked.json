@@ -1,0 +1,111 @@
+{
+ "source": "source.mp4",
+ "segments": [
+  {
+   "inSec": 19.52,
+   "outSec": 21.62,
+   "beat": "ASK-A",
+   "framing": "cover",
+   "cropX": 0.295,
+   "cropXEnd": 0.428,
+   "cropPanSec": 2.1
+  },
+  {
+   "inSec": 22.82,
+   "outSec": 26.233,
+   "beat": "ASK-B",
+   "framing": "cover",
+   "cropX": 0.504
+  },
+  {
+   "inSec": 26.233,
+   "outSec": 29.96,
+   "beat": "ASK-B",
+   "framing": "cover",
+   "cropX": 0.301
+  },
+  {
+   "inSec": 36.31,
+   "outSec": 37.61,
+   "beat": "CONFUSED",
+   "framing": "cover",
+   "cropX": 0.572
+  },
+  {
+   "inSec": 38.7,
+   "outSec": 41.96,
+   "beat": "FINAL",
+   "framing": "cover",
+   "cropX": 0.4
+  },
+  {
+   "inSec": 89.05,
+   "outSec": 94.26,
+   "beat": "UNFAIR",
+   "framing": "cover",
+   "cropX": 0.417,
+   "cropXEnd": 0.263,
+   "cropPanSec": 5.21
+  },
+  {
+   "inSec": 94.82,
+   "outSec": 95.86,
+   "beat": "INDEED",
+   "framing": "cover",
+   "cropX": 0.658
+  },
+  {
+   "inSec": 95.86,
+   "outSec": 96.9,
+   "beat": "INDEED",
+   "framing": "cover",
+   "cropX": 0.283
+  },
+  {
+   "inSec": 98.2,
+   "outSec": 100.01,
+   "beat": "SO-WHY",
+   "framing": "cover",
+   "cropX": 0.333
+  },
+  {
+   "inSec": 100.97,
+   "outSec": 102.75,
+   "beat": "PROTEST",
+   "framing": "cover",
+   "cropX": 0.471
+  },
+  {
+   "inSec": 126.33,
+   "outSec": 131.48,
+   "beat": "LESSON",
+   "framing": "cover",
+   "cropX": 0.72,
+   "cropXEnd": 0.464,
+   "cropPanSec": 5.15
+  },
+  {
+   "inSec": 142.78,
+   "outSec": 145.4,
+   "beat": "PAY-A",
+   "framing": "cover",
+   "cropX": 0.397
+  },
+  {
+   "inSec": 146.56,
+   "outSec": 150.219,
+   "beat": "PAY-B",
+   "framing": "cover",
+   "cropX": 0.673
+  },
+  {
+   "inSec": 150.219,
+   "outSec": 153.57,
+   "beat": "PAY-B",
+   "framing": "cover",
+   "cropX": 0.396,
+   "cropXEnd": 0.625,
+   "cropPanSec": 3.35
+  }
+ ]
+}

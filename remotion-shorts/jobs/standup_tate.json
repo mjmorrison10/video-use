@@ -741,8 +741,8 @@
  "music": {
   "src": "tension_compilation.mp3",
   "startSec": 315.0,
-  "volLow": 0.1,
-  "volHigh": 0.2,
+  "volLow": 0.084,
+  "volHigh": 0.168,
   "climaxSec": 48.06
  },
  "style": {

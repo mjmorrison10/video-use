@@ -1,0 +1,70 @@
+{
+ "source": "source.mp4",
+ "segments": [
+  {
+   "inSec": 19.58,
+   "outSec": 21.58,
+   "beat": "ASK-A"
+  },
+  {
+   "inSec": 22.86,
+   "outSec": 23.76,
+   "beat": "ASK-B"
+  },
+  {
+   "inSec": 24.48,
+   "outSec": 25.66,
+   "beat": "ALEXIS"
+  },
+  {
+   "inSec": 25.96,
+   "outSec": 29.78,
+   "beat": "EJECT"
+  },
+  {
+   "inSec": 36.4,
+   "outSec": 37.32,
+   "beat": "CONFUSED"
+  },
+  {
+   "inSec": 38.98,
+   "outSec": 41.82,
+   "beat": "FINAL"
+  },
+  {
+   "inSec": 89.17,
+   "outSec": 93.97,
+   "beat": "UNFAIR"
+  },
+  {
+   "inSec": 95.09,
+   "outSec": 96.61,
+   "beat": "INDEED"
+  },
+  {
+   "inSec": 98.41,
+   "outSec": 99.81,
+   "beat": "SO-WHY"
+  },
+  {
+   "inSec": 100.79,
+   "outSec": 102.71,
+   "beat": "PROTEST"
+  },
+  {
+   "inSec": 125.72,
+   "outSec": 131.44,
+   "beat": "LESSON"
+  },
+  {
+   "inSec": 142.14,
+   "outSec": 145.36,
+   "beat": "PAY-A"
+  },
+  {
+   "inSec": 146.6,
+   "outSec": 153.32,
+   "beat": "PAY-B"
+  }
+ ]
+}

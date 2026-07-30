@@ -1,0 +1,82 @@
+{
+ "source": "source.mp4",
+ "segments": [
+  {
+   "inSec": 19.52,
+   "outSec": 21.62,
+   "beat": "ASK-A",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 22.82,
+   "outSec": 29.96,
+   "beat": "ASK-B",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 36.31,
+   "outSec": 37.61,
+   "beat": "CONFUSED",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 38.7,
+   "outSec": 41.96,
+   "beat": "FINAL",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 89.05,
+   "outSec": 94.26,
+   "beat": "UNFAIR",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 94.82,
+   "outSec": 96.9,
+   "beat": "INDEED",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 98.2,
+   "outSec": 100.01,
+   "beat": "SO-WHY",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 100.97,
+   "outSec": 102.75,
+   "beat": "PROTEST",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 126.33,
+   "outSec": 131.48,
+   "beat": "LESSON",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 142.78,
+   "outSec": 145.4,
+   "beat": "PAY-A",
+   "framing": "cover",
+   "cropX": 0.5
+  },
+  {
+   "inSec": 146.56,
+   "outSec": 153.57,
+   "beat": "PAY-B",
+   "framing": "cover",
+   "cropX": 0.5
+  }
+ ]
+}
