@@ -5,16 +5,24 @@ import { shortSchema, type ShortProps } from "./Short/schema";
 
 const calcShortMetadata: CalculateMetadataFunction<ShortProps> = ({ props }) => {
   const fps = props.fps ?? 30;
-  const totalOut = props.ranges.reduce(
+  // The footage ranges are not necessarily the last thing on the timeline —
+  // a B-roll bookend or an explicitly placed end card can outlive them, and
+  // measuring only the ranges silently truncates whatever comes after.
+  const rangesEnd = props.ranges.reduce(
     (acc, r) => Math.max(acc, r.offsetSec + (r.outSec - r.inSec)),
     0,
   );
-  const ctaDur = props.cta ? props.cta.durSec : 0;
+  const brollEnd = (props.broll ?? []).reduce(
+    (acc, b) => Math.max(acc, b.atSec + b.durSec),
+    0,
+  );
+  const ctaEnd = props.cta ? (props.cta.atSec ?? rangesEnd) + props.cta.durSec : 0;
+  const totalOut = Math.max(rangesEnd, brollEnd, ctaEnd);
   return {
     fps,
     width: 1080,
     height: 1920,
-    durationInFrames: Math.max(1, Math.round((totalOut + ctaDur) * fps)),
+    durationInFrames: Math.max(1, Math.round(totalOut * fps)),
   };
 };
 

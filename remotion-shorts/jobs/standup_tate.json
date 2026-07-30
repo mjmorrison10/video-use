@@ -1,0 +1,816 @@
+{
+ "videoSrc": "standup_src.mp4",
+ "fps": 30,
+ "ranges": [
+  {
+   "inSec": 19.52,
+   "outSec": 21.62,
+   "offsetSec": 11.601,
+   "framing": "cover",
+   "cropX": 0.295,
+   "cropXEnd": 0.428,
+   "cropPanSec": 2.1,
+   "mute": false,
+   "beat": "ASK-A"
+  },
+  {
+   "inSec": 22.82,
+   "outSec": 26.233,
+   "offsetSec": 13.701,
+   "framing": "cover",
+   "cropX": 0.504,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "ASK-B"
+  },
+  {
+   "inSec": 26.233,
+   "outSec": 29.96,
+   "offsetSec": 17.114,
+   "framing": "cover",
+   "cropX": 0.301,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "ASK-B"
+  },
+  {
+   "inSec": 36.31,
+   "outSec": 37.61,
+   "offsetSec": 20.841,
+   "framing": "cover",
+   "cropX": 0.572,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "CONFUSED"
+  },
+  {
+   "inSec": 38.7,
+   "outSec": 41.96,
+   "offsetSec": 22.141,
+   "framing": "cover",
+   "cropX": 0.4,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "FINAL"
+  },
+  {
+   "inSec": 89.05,
+   "outSec": 94.26,
+   "offsetSec": 25.401,
+   "framing": "cover",
+   "cropX": 0.417,
+   "cropXEnd": 0.263,
+   "cropPanSec": 5.21,
+   "mute": false,
+   "beat": "UNFAIR"
+  },
+  {
+   "inSec": 94.82,
+   "outSec": 95.86,
+   "offsetSec": 30.611,
+   "framing": "cover",
+   "cropX": 0.658,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "INDEED"
+  },
+  {
+   "inSec": 95.86,
+   "outSec": 96.9,
+   "offsetSec": 31.651,
+   "framing": "cover",
+   "cropX": 0.283,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "INDEED"
+  },
+  {
+   "inSec": 98.2,
+   "outSec": 100.01,
+   "offsetSec": 32.691,
+   "framing": "cover",
+   "cropX": 0.333,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "SO-WHY"
+  },
+  {
+   "inSec": 100.97,
+   "outSec": 102.75,
+   "offsetSec": 34.501,
+   "framing": "cover",
+   "cropX": 0.471,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PROTEST"
+  },
+  {
+   "inSec": 126.33,
+   "outSec": 131.48,
+   "offsetSec": 36.281,
+   "framing": "cover",
+   "cropX": 0.72,
+   "cropXEnd": 0.464,
+   "cropPanSec": 5.15,
+   "mute": false,
+   "beat": "LESSON"
+  },
+  {
+   "inSec": 142.78,
+   "outSec": 145.4,
+   "offsetSec": 41.431,
+   "framing": "cover",
+   "cropX": 0.397,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAY-A"
+  },
+  {
+   "inSec": 146.56,
+   "outSec": 150.219,
+   "offsetSec": 44.051,
+   "framing": "cover",
+   "cropX": 0.673,
+   "cropXEnd": null,
+   "cropPanSec": null,
+   "mute": false,
+   "beat": "PAY-B"
+  },
+  {
+   "inSec": 150.219,
+   "outSec": 153.57,
+   "offsetSec": 47.71,
+   "framing": "cover",
+   "cropX": 0.396,
+   "cropXEnd": 0.625,
+   "cropPanSec": 3.35,
+   "mute": false,
+   "beat": "PAY-B"
+  }
+ ],
+ "captionPages": [
+  {
+   "startMs": 50,
+   "endMs": 1448,
+   "tokens": [
+    {
+     "text": "He"
+    },
+    {
+     "text": " is"
+    },
+    {
+     "text": " an"
+    },
+    {
+     "text": " American"
+    },
+    {
+     "text": " citizen"
+    }
+   ]
+  },
+  {
+   "startMs": 1808,
+   "endMs": 3456,
+   "tokens": [
+    {
+     "text": "held"
+    },
+    {
+     "text": " in"
+    },
+    {
+     "text": " solitary"
+    },
+    {
+     "text": " in"
+    },
+    {
+     "text": " Miami"
+    }
+   ]
+  },
+  {
+   "startMs": 3916,
+   "endMs": 5371,
+   "tokens": [
+    {
+     "text": "while"
+    },
+    {
+     "text": " strangers"
+    },
+    {
+     "text": " online"
+    },
+    {
+     "text": " call"
+    }
+   ]
+  },
+  {
+   "startMs": 5382,
+   "endMs": 6075,
+   "tokens": [
+    {
+     "text": "for"
+    },
+    {
+     "text": " his"
+    },
+    {
+     "text": " death"
+    }
+   ]
+  },
+  {
+   "startMs": 6786,
+   "endMs": 7434,
+   "tokens": [
+    {
+     "text": "Innocent"
+    }
+   ]
+  },
+  {
+   "startMs": 7794,
+   "endMs": 9033,
+   "tokens": [
+    {
+     "text": "until"
+    },
+    {
+     "text": " proven"
+    },
+    {
+     "text": " guilty"
+    }
+   ]
+  },
+  {
+   "startMs": 10143,
+   "endMs": 11541,
+   "tokens": [
+    {
+     "text": "His"
+    },
+    {
+     "text": " name"
+    },
+    {
+     "text": " is"
+    },
+    {
+     "text": " Andrew"
+    },
+    {
+     "text": " Tate"
+    }
+   ]
+  },
+  {
+   "startMs": 11661,
+   "endMs": 12461,
+   "tokens": [
+    {
+     "text": "You"
+    },
+    {
+     "text": " there,"
+    }
+   ]
+  },
+  {
+   "startMs": 12561,
+   "endMs": 13661,
+   "tokens": [
+    {
+     "text": "second"
+    },
+    {
+     "text": " desk"
+    }
+   ]
+  },
+  {
+   "startMs": 13741,
+   "endMs": 14641,
+   "tokens": [
+    {
+     "text": "what"
+    },
+    {
+     "text": " is"
+    },
+    {
+     "text": " your"
+    },
+    {
+     "text": " name?"
+    }
+   ]
+  },
+  {
+   "startMs": 15361,
+   "endMs": 16541,
+   "tokens": [
+    {
+     "text": "My"
+    },
+    {
+     "text": " name"
+    },
+    {
+     "text": " is"
+    },
+    {
+     "text": " Alexis."
+    }
+   ]
+  },
+  {
+   "startMs": 16841,
+   "endMs": 17114,
+   "tokens": [
+    {
+     "text": "Alexis,"
+    }
+   ]
+  },
+  {
+   "startMs": 17921,
+   "endMs": 20661,
+   "tokens": [
+    {
+     "text": "please"
+    },
+    {
+     "text": " leave"
+    },
+    {
+     "text": " my"
+    },
+    {
+     "text": " lecture"
+    },
+    {
+     "text": " room,"
+    }
+   ]
+  },
+  {
+   "startMs": 20931,
+   "endMs": 21851,
+   "tokens": [
+    {
+     "text": "I"
+    },
+    {
+     "text": " don't"
+    },
+    {
+     "text": " understand."
+    }
+   ]
+  },
+  {
+   "startMs": 22421,
+   "endMs": 23901,
+   "tokens": [
+    {
+     "text": "I"
+    },
+    {
+     "text": " am"
+    },
+    {
+     "text": " not"
+    },
+    {
+     "text": " going"
+    }
+   ]
+  },
+  {
+   "startMs": 23901,
+   "endMs": 25261,
+   "tokens": [
+    {
+     "text": "to"
+    },
+    {
+     "text": " ask"
+    },
+    {
+     "text": " a"
+    },
+    {
+     "text": " second"
+    },
+    {
+     "text": " time,"
+    }
+   ]
+  },
+  {
+   "startMs": 25521,
+   "endMs": 26401,
+   "tokens": [
+    {
+     "text": "Tell"
+    },
+    {
+     "text": " me,"
+    }
+   ]
+  },
+  {
+   "startMs": 26441,
+   "endMs": 28581,
+   "tokens": [
+    {
+     "text": "was"
+    },
+    {
+     "text": " I"
+    },
+    {
+     "text": " unfair"
+    },
+    {
+     "text": " to"
+    }
+   ]
+  },
+  {
+   "startMs": 28581,
+   "endMs": 30321,
+   "tokens": [
+    {
+     "text": "your"
+    },
+    {
+     "text": " classmate"
+    },
+    {
+     "text": " just"
+    },
+    {
+     "text": " now?"
+    }
+   ]
+  },
+  {
+   "startMs": 30881,
+   "endMs": 32401,
+   "tokens": [
+    {
+     "text": "Indeed"
+    },
+    {
+     "text": " I"
+    },
+    {
+     "text": " was."
+    }
+   ]
+  },
+  {
+   "startMs": 32901,
+   "endMs": 34301,
+   "tokens": [
+    {
+     "text": "So,"
+    },
+    {
+     "text": " why"
+    }
+   ]
+  },
+  {
+   "startMs": 34721,
+   "endMs": 36241,
+   "tokens": [
+    {
+     "text": "didn't"
+    },
+    {
+     "text": " any"
+    },
+    {
+     "text": " of"
+    },
+    {
+     "text": " you"
+    },
+    {
+     "text": " protest?"
+    }
+   ]
+  },
+  {
+   "startMs": 36281,
+   "endMs": 38311,
+   "tokens": [
+    {
+     "text": "you"
+    },
+    {
+     "text": " didn't"
+    },
+    {
+     "text": " say"
+    },
+    {
+     "text": " anything"
+    }
+   ]
+  },
+  {
+   "startMs": 38311,
+   "endMs": 41031,
+   "tokens": [
+    {
+     "text": "because"
+    },
+    {
+     "text": " you"
+    },
+    {
+     "text": " weren't"
+    },
+    {
+     "text": " affected"
+    }
+   ]
+  },
+  {
+   "startMs": 41031,
+   "endMs": 41391,
+   "tokens": [
+    {
+     "text": "yourself"
+    }
+   ]
+  },
+  {
+   "startMs": 41431,
+   "endMs": 42891,
+   "tokens": [
+    {
+     "text": "if"
+    },
+    {
+     "text": " you"
+    },
+    {
+     "text": " don't"
+    },
+    {
+     "text": " help"
+    }
+   ]
+  },
+  {
+   "startMs": 42891,
+   "endMs": 44011,
+   "tokens": [
+    {
+     "text": "bring"
+    },
+    {
+     "text": " about"
+    },
+    {
+     "text": " justice"
+    }
+   ]
+  },
+  {
+   "startMs": 44091,
+   "endMs": 45351,
+   "tokens": [
+    {
+     "text": "one"
+    },
+    {
+     "text": " day"
+    },
+    {
+     "text": " you"
+    },
+    {
+     "text": " too"
+    }
+   ]
+  },
+  {
+   "startMs": 45351,
+   "endMs": 47710,
+   "tokens": [
+    {
+     "text": "may"
+    },
+    {
+     "text": " experience"
+    },
+    {
+     "text": " injustice"
+    },
+    {
+     "text": " and"
+    }
+   ]
+  },
+  {
+   "startMs": 48031,
+   "endMs": 49151,
+   "tokens": [
+    {
+     "text": "there"
+    },
+    {
+     "text": " will"
+    },
+    {
+     "text": " be"
+    },
+    {
+     "text": " nobody"
+    }
+   ]
+  },
+  {
+   "startMs": 49151,
+   "endMs": 50811,
+   "tokens": [
+    {
+     "text": "there"
+    },
+    {
+     "text": " to"
+    },
+    {
+     "text": " stand"
+    },
+    {
+     "text": " before"
+    },
+    {
+     "text": " you."
+    }
+   ]
+  },
+  {
+   "startMs": 51111,
+   "endMs": 52088,
+   "tokens": [
+    {
+     "text": "You"
+    },
+    {
+     "text": " weren't"
+    },
+    {
+     "text": " affected"
+    }
+   ]
+  },
+  {
+   "startMs": 52749,
+   "endMs": 53374,
+   "tokens": [
+    {
+     "text": "Not"
+    },
+    {
+     "text": " yet"
+    }
+   ]
+  },
+  {
+   "startMs": 54484,
+   "endMs": 55632,
+   "tokens": [
+    {
+     "text": "Will"
+    },
+    {
+     "text": " you"
+    },
+    {
+     "text": " stay"
+    },
+    {
+     "text": " silent"
+    }
+   ]
+  },
+  {
+   "startMs": 56142,
+   "endMs": 57290,
+   "tokens": [
+    {
+     "text": "or"
+    },
+    {
+     "text": " stand"
+    },
+    {
+     "text": " up"
+    },
+    {
+     "text": " for"
+    },
+    {
+     "text": " Tate"
+    }
+   ]
+  }
+ ],
+ "music": {
+  "src": "tension_compilation.mp3",
+  "startSec": 315.0,
+  "volLow": 0.1,
+  "volHigh": 0.2,
+  "climaxSec": 48.06
+ },
+ "style": {
+  "highlightColor": "#00E5FF",
+  "accentColor": "#00E5FF",
+  "textColor": "white",
+  "strokeColor": "black",
+  "fontSize": 58,
+  "captionPosition": "center",
+  "captionBottom": 420,
+  "uppercase": true,
+  "powerWords": [
+   "injustice",
+   "justice",
+   "protest",
+   "unfair",
+   "anything",
+   "affected",
+   "nobody",
+   "citizen",
+   "guilty",
+   "death",
+   "silent",
+   "tate"
+  ]
+ },
+ "hook": null,
+ "broll": [
+  {
+   "src": "standup_ph_intro.mp4",
+   "atSec": 0.0,
+   "durSec": 11.601,
+   "trimBefore": 0.0,
+   "framing": "cover",
+   "label": "VO INTRO"
+  },
+  {
+   "src": "standup_ph_close.mp4",
+   "atSec": 51.061,
+   "durSec": 6.289,
+   "trimBefore": 0.0,
+   "framing": "cover",
+   "label": "VO CLOSE"
+  }
+ ],
+ "zooms": [],
+ "zoomSteps": [],
+ "voiceovers": [
+  {
+   "src": "standup_vo_intro.wav",
+   "atSec": 0.0,
+   "volume": 1.0
+  },
+  {
+   "src": "standup_vo_close.wav",
+   "atSec": 51.061,
+   "volume": 1.0
+  }
+ ],
+ "cta": {
+  "text": "STAND UP FOR TATE",
+  "durSec": 1.8,
+  "atSec": 57.35,
+  "lines": [
+   "American citizen.",
+   "Innocent until proven guilty.",
+   "Say something."
+  ]
+ },
+ "durationSec": 59.15
+}

@@ -208,6 +208,7 @@ export const Short: React.FC<ShortProps> = ({
   zooms,
   zoomSteps,
   cta,
+  voiceovers,
 }) => {
   const { fps, durationInFrames } = useVideoConfig();
   const contentEnd = ranges.reduce((acc, r) => Math.max(acc, r.offsetSec + (r.outSec - r.inSec)), 0);
@@ -276,10 +277,16 @@ export const Short: React.FC<ShortProps> = ({
       {hook ? <HookOverlay hook={hook} style={style} fps={fps} /> : null}
 
       {cta ? (
-        <Sequence from={Math.round(contentEnd * fps)} durationInFrames={Math.max(1, Math.round(cta.durSec * fps))} name="cta">
+        <Sequence from={Math.round((cta.atSec ?? contentEnd) * fps)} durationInFrames={Math.max(1, Math.round(cta.durSec * fps))} name="cta">
           <CTACard cta={cta} style={style} />
         </Sequence>
       ) : null}
+
+      {(voiceovers ?? []).map((v, i) => (
+        <Sequence key={`vo-${i}`} from={Math.round(v.atSec * fps)} name={`vo:${v.src}`}>
+          <Audio src={staticFile(v.src)} volume={v.volume ?? 1} />
+        </Sequence>
+      ))}
 
       {music ? (
         <Audio

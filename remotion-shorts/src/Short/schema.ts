@@ -81,12 +81,24 @@ export const ctaSchema = z
   .object({
     text: z.string(),
     durSec: z.number().default(2),
+    // Where the card starts on the OUTPUT timeline. Default (null) = straight
+    // after the last footage range, which is wrong whenever something else
+    // closes the video (a voiceover bookend, a held beat) — set it explicitly then.
+    atSec: z.number().nullable().default(null),
     sub: z.string().optional(), // optional smaller line under the main text
     // Further lines under `sub`, e.g. a payoff line then the actual ask. The
     // LAST entry renders in accentColor because it is the thing being asked for.
     lines: z.array(z.string()).default([]),
   })
   .nullable();
+
+// A narration stem laid over the timeline (VO bookends). The speaker's own
+// audio is muted on those ranges, so this carries the section entirely.
+export const voiceoverSchema = z.object({
+  src: z.string(),        // filename in public/
+  atSec: z.number(),      // output-timeline start
+  volume: z.number().default(1),
+});
 
 export const shortSchema = z.object({
   videoSrc: z.string(), // filename in public/ (proxy)
@@ -100,6 +112,7 @@ export const shortSchema = z.object({
   zooms: z.array(zoomSchema).default([]),
   zoomSteps: z.array(zoomStepSchema).default([]),
   cta: ctaSchema.default(null),
+  voiceovers: z.array(voiceoverSchema).default([]),
 });
 
 export type ShortProps = z.infer<typeof shortSchema>;
