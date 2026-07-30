@@ -160,7 +160,7 @@
  "captionPages": [
   {
    "startMs": 50,
-   "endMs": 1448,
+   "endMs": 459,
    "tokens": [
     {
      "text": "He"
@@ -170,9 +170,15 @@
     },
     {
      "text": " an"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 470,
+   "endMs": 1448,
+   "tokens": [
     {
-     "text": " American"
+     "text": "American"
     },
     {
      "text": " citizen"
@@ -181,7 +187,7 @@
   },
   {
    "startMs": 1808,
-   "endMs": 3456,
+   "endMs": 2808,
    "tokens": [
     {
      "text": "held"
@@ -191,9 +197,15 @@
     },
     {
      "text": " solitary"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 2819,
+   "endMs": 3456,
+   "tokens": [
     {
-     "text": " in"
+     "text": "in"
     },
     {
      "text": " Miami"
@@ -202,7 +214,7 @@
   },
   {
    "startMs": 3916,
-   "endMs": 5371,
+   "endMs": 5098,
    "tokens": [
     {
      "text": "while"
@@ -212,18 +224,18 @@
     },
     {
      "text": " online"
-    },
-    {
-     "text": " call"
     }
    ]
   },
   {
-   "startMs": 5382,
+   "startMs": 5109,
    "endMs": 6075,
    "tokens": [
     {
-     "text": "for"
+     "text": "call"
+    },
+    {
+     "text": " for"
     },
     {
      "text": " his"
@@ -259,7 +271,7 @@
   },
   {
    "startMs": 10143,
-   "endMs": 11541,
+   "endMs": 10779,
    "tokens": [
     {
      "text": "His"
@@ -269,9 +281,15 @@
     },
     {
      "text": " is"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 10791,
+   "endMs": 11541,
+   "tokens": [
     {
-     "text": " Andrew"
+     "text": "Andrew"
     },
     {
      "text": " Tate"
@@ -322,7 +340,7 @@
   },
   {
    "startMs": 15321,
-   "endMs": 16501,
+   "endMs": 17055,
    "tokens": [
     {
      "text": "My"
@@ -335,21 +353,15 @@
     },
     {
      "text": " Alexis"
-    }
-   ]
-  },
-  {
-   "startMs": 16801,
-   "endMs": 17055,
-   "tokens": [
+    },
     {
-     "text": "Alexis"
+     "text": " Alexis"
     }
    ]
   },
   {
    "startMs": 17881,
-   "endMs": 20621,
+   "endMs": 19921,
    "tokens": [
     {
      "text": "please"
@@ -359,9 +371,15 @@
     },
     {
      "text": " my"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 19921,
+   "endMs": 20621,
+   "tokens": [
     {
-     "text": " lecture"
+     "text": "lecture"
     },
     {
      "text": " room"
@@ -385,7 +403,7 @@
   },
   {
    "startMs": 22401,
-   "endMs": 23881,
+   "endMs": 23721,
    "tokens": [
     {
      "text": "I"
@@ -395,24 +413,30 @@
     },
     {
      "text": " not"
-    },
-    {
-     "text": " going"
     }
    ]
   },
   {
-   "startMs": 23881,
-   "endMs": 25241,
+   "startMs": 23721,
+   "endMs": 24381,
    "tokens": [
     {
-     "text": "to"
+     "text": "going"
+    },
+    {
+     "text": " to"
     },
     {
      "text": " ask"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 24381,
+   "endMs": 25241,
+   "tokens": [
     {
-     "text": " a"
+     "text": "a"
     },
     {
      "text": " second"
@@ -436,7 +460,7 @@
   },
   {
    "startMs": 26381,
-   "endMs": 28521,
+   "endMs": 27981,
    "tokens": [
     {
      "text": "was"
@@ -446,24 +470,30 @@
     },
     {
      "text": " unfair"
-    },
-    {
-     "text": " to"
     }
    ]
   },
   {
-   "startMs": 28521,
-   "endMs": 30261,
+   "startMs": 27981,
+   "endMs": 29481,
    "tokens": [
     {
-     "text": "your"
+     "text": "to"
+    },
+    {
+     "text": " your"
     },
     {
      "text": " classmate"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 29481,
+   "endMs": 30261,
+   "tokens": [
     {
-     "text": " just"
+     "text": "just"
     },
     {
      "text": " now"
@@ -499,7 +529,7 @@
   },
   {
    "startMs": 34841,
-   "endMs": 36361,
+   "endMs": 35761,
    "tokens": [
     {
      "text": "didn't"
@@ -509,9 +539,15 @@
     },
     {
      "text": " of"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 35761,
+   "endMs": 36361,
+   "tokens": [
     {
-     "text": " you"
+     "text": "you"
     },
     {
      "text": " protest"
@@ -520,7 +556,7 @@
   },
   {
    "startMs": 36361,
-   "endMs": 38391,
+   "endMs": 38071,
    "tokens": [
     {
      "text": "you"
@@ -530,42 +566,42 @@
     },
     {
      "text": " say"
-    },
-    {
-     "text": " anything"
     }
    ]
   },
   {
-   "startMs": 38391,
-   "endMs": 41111,
+   "startMs": 38071,
+   "endMs": 40591,
    "tokens": [
     {
-     "text": "because"
+     "text": "anything"
+    },
+    {
+     "text": " because"
     },
     {
      "text": " you"
-    },
-    {
-     "text": " weren't"
-    },
-    {
-     "text": " affected"
     }
    ]
   },
   {
-   "startMs": 41111,
+   "startMs": 40591,
    "endMs": 41471,
    "tokens": [
     {
-     "text": "yourself"
+     "text": "weren't"
+    },
+    {
+     "text": " affected"
+    },
+    {
+     "text": " yourself"
     }
    ]
   },
   {
    "startMs": 41471,
-   "endMs": 42931,
+   "endMs": 42791,
    "tokens": [
     {
      "text": "if"
@@ -575,18 +611,18 @@
     },
     {
      "text": " don't"
-    },
-    {
-     "text": " help"
     }
    ]
   },
   {
-   "startMs": 42931,
+   "startMs": 42791,
    "endMs": 44051,
    "tokens": [
     {
-     "text": "bring"
+     "text": "help"
+    },
+    {
+     "text": " bring"
     },
     {
      "text": " about"
@@ -598,7 +634,7 @@
   },
   {
    "startMs": 44091,
-   "endMs": 45351,
+   "endMs": 45111,
    "tokens": [
     {
      "text": "one"
@@ -608,39 +644,45 @@
     },
     {
      "text": " you"
-    },
-    {
-     "text": " too"
     }
    ]
   },
   {
-   "startMs": 45351,
-   "endMs": 47741,
+   "startMs": 45111,
+   "endMs": 46391,
    "tokens": [
     {
-     "text": "may"
+     "text": "too"
+    },
+    {
+     "text": " may"
     },
     {
      "text": " experience"
-    },
-    {
-     "text": " injustice"
-    },
-    {
-     "text": " and"
     }
    ]
   },
   {
-   "startMs": 48031,
+   "startMs": 46391,
+   "endMs": 48391,
+   "tokens": [
+    {
+     "text": "injustice"
+    },
+    {
+     "text": " and"
+    },
+    {
+     "text": " there"
+    }
+   ]
+  },
+  {
+   "startMs": 48391,
    "endMs": 49151,
    "tokens": [
     {
-     "text": "there"
-    },
-    {
-     "text": " will"
+     "text": "will"
     },
     {
      "text": " be"
@@ -652,7 +694,7 @@
   },
   {
    "startMs": 49151,
-   "endMs": 50811,
+   "endMs": 50051,
    "tokens": [
     {
      "text": "there"
@@ -662,9 +704,15 @@
     },
     {
      "text": " stand"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 50051,
+   "endMs": 50811,
+   "tokens": [
     {
-     "text": " before"
+     "text": "before"
     },
     {
      "text": " you"
@@ -718,7 +766,7 @@
   },
   {
    "startMs": 56502,
-   "endMs": 57650,
+   "endMs": 57138,
    "tokens": [
     {
      "text": "or"
@@ -728,9 +776,15 @@
     },
     {
      "text": " up"
-    },
+    }
+   ]
+  },
+  {
+   "startMs": 57150,
+   "endMs": 57650,
+   "tokens": [
     {
-     "text": " for"
+     "text": "for"
     },
     {
      "text": " Tate"

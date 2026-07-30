@@ -27,8 +27,8 @@ from caption_text import clean, tokens_for_page  # noqa: E402
 POWER = ["injustice", "justice", "protest", "unfair", "anything", "affected",
          "nobody", "citizen", "guilty", "death", "silent", "tate"]
 
-MAX_CHARS = 26          # a caption page must read in one glance on a phone
-MAX_WORDS = 4
+MAX_CHARS = 20          # a caption page must read in one glance on a phone
+MAX_WORDS = 3
 PAGE_GAP = 0.42         # a pause this long ends the page regardless of length
 CUT_GAP = 0.30          # master-time jump this big means the audio was cut here
 
