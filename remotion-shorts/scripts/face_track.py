@@ -1,26 +1,36 @@
 #!/usr/bin/env python3
-"""Face-track ANDREW (by recognition) and inject per-segment crop into a cutspec.
+"""Face-track the subject and inject per-segment crop into a cutspec.
 
-The podcast is a two-shot: Andrew camera-left, the interviewer camera-right,
-often with near-equal face sizes. A "largest face" rule flip-flops between them,
-so instead we ENROLL Andrew's face (SFace embeddings from known close-ups) and,
-in every sampled frame, pick the detected face that best matches Andrew. His
-horizontal centre becomes the cover-crop objectPosition (cropX); if he drifts
-across a segment we emit a cropX->cropXEnd pan.
+Two modes:
+
+  --mode recognize  ENROLL one person's face (SFace embeddings from known
+        close-ups) and in every sampled frame pick the detected face that best
+        matches them. Needed when several faces share the frame at similar size
+        — e.g. a two-shot podcast, where a "largest face" rule flip-flops
+        between host and guest and leaves the subject off-screen.
+
+  --mode largest    Pick the biggest face in each frame. Correct when the shot
+        grammar already follows the speaker (single-subject scenes, interviews
+        cut to whoever is talking), and it needs no enrollment.
+
+Either way the subject's horizontal centre becomes the cover-crop
+objectPosition (cropX); if they drift across a segment we emit a
+cropX->cropXEnd pan, and camera cuts inside a segment are split out.
 
 Usage: face_track.py CUTSPEC.json PROXY.mp4 [-o OUT.json]
+                     [--mode largest|recognize] [--enroll t1,t2,...]
 """
 import argparse, json, subprocess, tempfile, os
 import cv2, numpy as np
 
-PROXY_W, PROXY_H = 1920, 1080
 OUT_W, OUT_H = 1080, 1920
-SCALED_W = PROXY_W * (OUT_H / PROXY_H)
-OVERFLOW = SCALED_W - OUT_W
 HERE = os.path.dirname(__file__)
 YUNET = os.path.join(HERE, 'yunet.onnx')
 SFACE = os.path.join(HERE, 'sface.onnx')
-PROXY = os.path.join(HERE, 'jackkneel.mp4')
+# Set from the proxy in main(): the cover-crop maths depends on the source's
+# real aspect, which is NOT always 16:9 (e.g. after cropping burnt-in subs off).
+PROXY = None
+SCALED_W = OVERFLOW = None
 COSINE = cv2.FaceRecognizerSF_FR_COSINE
 MATCH_THR = 0.30   # cosine sim above which a face is "Andrew" (SFace default 0.363, relaxed for sunglasses/profile)
 
@@ -29,6 +39,7 @@ rec = cv2.FaceRecognizerSF.create(SFACE, '')
 
 # Andrew enrollment: confirmed frontal close-ups (proxy seconds).
 ENROLL_TS = [4640.0, 4648.0, 2527.0, 10045.0, 8324.0]
+MODE = 'recognize'
 
 
 def _grab(t, tmp, name='f.png'):
@@ -38,11 +49,19 @@ def _grab(t, tmp, name='f.png'):
     return cv2.imread(fp)
 
 
+MIN_FACE_W = 0.035   # faces below this fraction of frame width are background
+MIN_SCORE = 0.75     # YuNet confidence; low-scoring boxes are usually furniture
+
+
 def _faces(img):
     h, w = img.shape[:2]
     det.setInputSize((w, h))
     n, faces = det.detect(img)
-    return faces if faces is not None else []
+    if faces is None:
+        return []
+    # Background heads and spurious boxes otherwise win "largest" ties and yank
+    # the crop to the frame edge for a fraction of a second.
+    return [f for f in faces if f[2] >= MIN_FACE_W * w and f[14] >= MIN_SCORE]
 
 
 def _feat(img, face):
@@ -71,16 +90,21 @@ def enroll(tmp):
         print(f"# enrolled {len(ANDREW)} refs, self-sim {['%.2f'%s for s in sims]}")
 
 
-def andrew_cx(img):
-    """Centre-x of the face best matching Andrew, or None."""
+def subject_cx(img):
+    """Centre-x (0-1) of the subject's face in this frame, or None."""
     fs = _faces(img)
-    best, bestsim = None, -1.0
-    for f in fs:
-        sim = max(rec.match(_feat(img, f), e, COSINE) for e in ANDREW)
-        if sim > bestsim:
-            best, bestsim = f, sim
-    if best is None or bestsim < MATCH_THR:
+    if len(fs) == 0:
         return None
+    if MODE == 'largest':
+        best = max(fs, key=lambda f: f[2] * f[3])
+    else:
+        best, bestsim = None, -1.0
+        for f in fs:
+            sim = max(rec.match(_feat(img, f), e, COSINE) for e in ANDREW)
+            if sim > bestsim:
+                best, bestsim = f, sim
+        if best is None or bestsim < MATCH_THR:
+            return None
     return (best[0] + best[2] / 2) / img.shape[1]
 
 
@@ -91,18 +115,19 @@ def cx_to_cropx(cx):
 
 CUT_JUMP = 0.14   # |cx| jump between adjacent samples => camera cut
 STEP = 0.3        # sampling interval (s)
+MIN_RUN = 3       # samples; a shot shorter than this is a detection glitch, not a cut
 
 
 def sample_cx(a, b, tmp, prev):
     """Dense (t, cx) samples across [a,b]; None cx filled by holding the last
-    known Andrew position (or prev/0.5 at the very start)."""
+    known subject position (or prev/0.5 at the very start)."""
     n = max(3, int((b - a) / STEP))
     ts = [a + 0.12 + (b - a - 0.24) * i / (n - 1) for i in range(n)]
     raw = []
     last = prev
     for t in ts:
         img = _grab(t, tmp)
-        cx = andrew_cx(img) if img is not None else None
+        cx = subject_cx(img) if img is not None else None
         if cx is not None:
             last = cx
         raw.append((t, cx if cx is not None else last))
@@ -111,9 +136,24 @@ def sample_cx(a, b, tmp, prev):
     return [(t, c if c is not None else first) for t, c in raw]
 
 
+def _median3(samples):
+    """Kill single-sample outliers before they look like camera cuts. A real cut
+    holds its new position for several samples and survives the filter; one bad
+    detection (a background face winning "largest" for a frame) does not."""
+    if len(samples) < 3:
+        return samples
+    out = [samples[0]]
+    for i in range(1, len(samples) - 1):
+        med = float(np.median([samples[i - 1][1], samples[i][1], samples[i + 1][1]]))
+        out.append((samples[i][0], med))
+    out.append(samples[-1])
+    return out
+
+
 def split_runs(samples):
     """Split the sample list at camera cuts (big cx jumps). Returns list of runs,
     each a contiguous list of (t, cx)."""
+    samples = _median3(samples)
     runs, cur = [], [samples[0]]
     for prev_s, s in zip(samples, samples[1:]):
         if abs(s[1] - prev_s[1]) >= CUT_JUMP:
@@ -121,6 +161,16 @@ def split_runs(samples):
         else:
             cur.append(s)
     runs.append(cur)
+    # Absorb runs too short to be a real shot — a 0.3s crop jump reads as a
+    # glitch even when the detection behind it was correct.
+    while len(runs) > 1:
+        i = min(range(len(runs)), key=lambda k: len(runs[k]))
+        if len(runs[i]) >= MIN_RUN:
+            break
+        j = i - 1 if i == len(runs) - 1 else (i + 1 if i == 0 else
+             (i - 1 if len(runs[i - 1]) >= len(runs[i + 1]) else i + 1))
+        runs[j] = sorted(runs[i] + runs[j])
+        runs.pop(i)
     return runs
 
 
@@ -151,11 +201,29 @@ def emit_runs(a, b, samples):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('cutspec'); ap.add_argument('proxy'); ap.add_argument('-o', '--out')
+    ap.add_argument('--mode', choices=['largest', 'recognize'], default='recognize')
+    ap.add_argument('--enroll', help='comma-separated proxy seconds of subject close-ups')
     a = ap.parse_args()
+
+    global PROXY, MODE, ENROLL_TS, SCALED_W, OVERFLOW
+    PROXY, MODE = a.proxy, a.mode
+    if a.enroll:
+        ENROLL_TS = [float(t) for t in a.enroll.split(',')]
+    pw, ph = (int(x) for x in subprocess.run(
+        ['ffprobe', '-v', 'error', '-select_streams', 'v', '-show_entries',
+         'stream=width,height', '-of', 'csv=p=0:s=x', PROXY],
+        capture_output=True, text=True, check=True).stdout.strip().split('x'))
+    SCALED_W = pw * (OUT_H / ph)
+    OVERFLOW = SCALED_W - OUT_W
+    if OVERFLOW <= 0:
+        raise SystemExit(f"proxy {pw}x{ph} is narrower than 9:16 — nothing to pan")
+    print(f"# proxy {pw}x{ph} -> scaled {SCALED_W:.0f}px wide, {OVERFLOW:.0f}px of pan, mode={MODE}")
+
     spec = json.load(open(a.cutspec))
     out_segs = []
     with tempfile.TemporaryDirectory() as tmp:
-        enroll(tmp)
+        if MODE == 'recognize':
+            enroll(tmp)
         prev = None
         for s in spec['segments']:
             samples = sample_cx(s['inSec'], s['outSec'], tmp, prev)

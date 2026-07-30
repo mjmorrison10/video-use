@@ -36,9 +36,25 @@ MERGE_GAP=0.9
 def speech(t0,t1): return bool(np.any([ENV[j]>thr for j in frames(t0,t1)])) if t1>t0 else False
 IDMAP={id(w):i for i,w in enumerate(words)}
 def widx(w): return IDMAP[id(w)]
-def audible_onset(s0,left):
+def audible_onset(s0,left,right=None):
     for j in frames(max(left,s0-0.22), s0+0.12):
         if ENV[j]>thr: return j*HOP/SR
+    # Nothing audible in the window: the previous word's tail already runs past
+    # s0, which is what happens when Whisper stretches a word BACKWARDS over a
+    # real pause (it dates "if" to 142.14 when the speaker says it at 142.84).
+    # Trusting s0 there puts the cut inside the previous word. Scan forward for
+    # the pause instead and take the moment speech resumes as the true onset.
+    # Bounded to s0's neighbourhood: an unbounded scan walks off to the first
+    # speech in the whole file when the segment opens the recording.
+    if right is not None and left>s0:
+        right=min(right, s0+1.5)
+        run=None
+        for j in frames(left,right):
+            t=j*HOP/SR
+            if ENV[j]<=thr: run=run if run is not None else t
+            elif run is not None:
+                if t-run>=0.15: return t   # first speech after a genuine pause
+                run=None
     return s0
 def audible_offset_word(w1,right):
     cap=min(w1['end']+0.20, right)
@@ -50,8 +66,9 @@ def snap_start(w0):
     # INVARIANT: never cut into w0 — the first word's onset is always preserved.
     i=widx(w0); prev=words[i-1] if i>0 else None
     left=audible_offset_word(prev, prev['end']+0.2) if prev else 0.0
-    ons=audible_onset(w0['start'],left)
-    start=min(w0['start'], ons)            # true onset (never later than the word start)
+    nxt=words[i+1] if i+1<len(words) else None
+    ons=audible_onset(w0['start'],left, nxt['start'] if nxt else w0['end'])
+    start=min(w0['start'], ons) if ons<=w0['start'] else ons  # true onset, whichever side Whisper erred
     gap=ons-left
     ci=start-pad_pre if gap>=0.12 else start-0.04  # silence: pad in; contiguous: hair before
     return round(max(0.0, ci),3)
