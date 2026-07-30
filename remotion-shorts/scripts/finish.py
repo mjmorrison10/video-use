@@ -30,7 +30,7 @@ def main():
         cmd += ["-c:v", "copy"]
     else:
         cmd += ["-vf", GRADE, "-c:v", "libx264", "-crf", str(a.crf),
-                "-preset", "slow", "-pix_fmt", "yuv420p"]
+                "-preset", "medium", "-pix_fmt", "yuv420p"]
     cmd += ["-af", f"loudnorm=I={a.lufs}:TP=-1.0:LRA=11",
             "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", a.out]
     subprocess.run(cmd, check=True)
