@@ -5,7 +5,10 @@ what to read first.
 
 ---
 
-## Attach THIS repo
+## Repos to attach
+
+**`video-use` + `agency-agents` + `Claude-test`. Do NOT attach `remotion` — it is
+not needed.**
 
 **`mjmorrison10/video-use` is the project.** Everything we build lives here:
 
@@ -19,14 +22,17 @@ what to read first.
 
 ### On the other repos
 
-- **`mjmorrison10/remotion` is NOT our code.** It is a fork of the upstream
-  open-source Remotion library (remotion-dev). We have never edited it, and the
-  pipeline does not read from it — `remotion-shorts/` depends on the published
-  npm package. Attaching it is harmless but it is not where the work is, and its
-  `CLAUDE.md`/`AGENTS.md` are about contributing to Remotion itself.
+- **`mjmorrison10/remotion` — do not attach it.** Yes, we render with Remotion,
+  but that is the published **npm package**, pulled in by
+  `remotion-shorts/package.json`. This repo is a fork of Remotion's own *source*
+  (remotion-dev). We have never edited it and nothing in the pipeline reads from
+  it. You would only want it to fix a bug in the framework itself or contribute
+  upstream. Its `CLAUDE.md`/`AGENTS.md` describe contributing to Remotion and are
+  irrelevant here — worse, a session that reads them may think they are the
+  project's instructions.
 - **`mjmorrison10/agency-agents`** — persona library used for creative briefs
   (e.g. `marketing/marketing-content-creator.md` wrote the voiceover). Invoke a
-  persona as a general-purpose subagent. Useful, optional.
+  persona as a general-purpose subagent.
 - **`mjmorrison10/Claude-test`** — the plan→approve→execute→audit workflow
   doctrine. General working style, not video style.
 

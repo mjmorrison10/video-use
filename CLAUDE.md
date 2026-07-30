@@ -8,6 +8,16 @@ conflicts with one, follow the request and say which rule you are breaking.
 Ground truth is the client's own finished cut of "Stand Up For Tate". When in
 doubt, match it.
 
+**This repo is the whole project.** Videos are rendered with Remotion, but that
+is the published npm package (see `remotion-shorts/package.json`) — the separate
+`mjmorrison10/remotion` repo is a fork of Remotion's own source, is not part of
+this pipeline, and should not be attached. Its `CLAUDE.md`/`AGENTS.md` are about
+contributing to the Remotion framework, not about making these videos; do not
+follow them here. `agency-agents` (creative-brief personas) and `Claude-test`
+(workflow doctrine) are the useful companions.
+
+See `SESSION_HANDOFF.md` for current state and environment setup.
+
 ---
 
 ## Captions
