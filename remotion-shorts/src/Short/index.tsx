@@ -111,8 +111,10 @@ const TitleBlock: React.FC<{ title: NonNullable<ShortProps["title"]>; style: Sho
   if (frame > end) return null;
   const size = title.fontSize ?? 55;
   return (
-    <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", opacity, pointerEvents: "none" }}>
-      <div style={{ marginTop: size * 2.1, textAlign: "center", lineHeight: 1.14 }}>
+    <AbsoluteFill style={{ opacity, pointerEvents: "none" }}>
+      {/* Absolute, not flex-centred: the block has to clear the caption line by a
+          fixed margin, and centring-plus-margin drifts with the number of lines. */}
+      <div style={{ position: "absolute", top: "54.5%", left: 0, width: "100%", textAlign: "center", lineHeight: 1.14 }}>
         {title.lines.map((line, i, arr) => {
           const isAsk = i === arr.length - 1;
           return (
