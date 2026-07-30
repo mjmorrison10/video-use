@@ -261,11 +261,23 @@ export const Short: React.FC<ShortProps> = ({
       })}
 
       {captionPages.map((page, index) => {
+        // The end card fades in, so a caption still on screen shows THROUGH it
+        // for the length of the fade. Captions stop where the card starts.
+        const ctaStartFrame = cta
+          ? Math.round((cta.atSec ?? contentEnd) * fps)
+          : Number.POSITIVE_INFINITY;
         const next = captionPages[index + 1] ?? null;
         const startFrame = (page.startMs / 1000) * fps;
-        const endFrame = next
-          ? (next.startMs / 1000) * fps
-          : (page.endMs / 1000) * fps + fps * 0.4;
+        // Hold each page a beat past its own words so captions don't flicker in
+        // the micro-gaps of continuous speech — but no further. Running all the
+        // way to the next page keeps a caption on screen across real silence,
+        // so the last line of a section bleeds over whatever follows it.
+        const holdFrame = (page.endMs / 1000) * fps + fps * 0.35;
+        const endFrame = Math.min(
+          next ? Math.min((next.startMs / 1000) * fps, holdFrame) : holdFrame,
+          ctaStartFrame,
+        );
+        if (endFrame <= startFrame) return null;
         const dur = Math.max(1, endFrame - startFrame);
         return (
           <Sequence key={`cap-${index}`} from={startFrame} durationInFrames={dur}>

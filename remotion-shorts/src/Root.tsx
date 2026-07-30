@@ -30,7 +30,18 @@ const calcShortMetadata: CalculateMetadataFunction<ShortProps> = ({ props }) => 
 const defaultProps: ShortProps = {
   videoSrc: "proxy.mp4",
   fps: 30,
-  ranges: [{ inSec: 0, outSec: 5, offsetSec: 0, framing: "cover", mute: false }],
+  ranges: [
+    {
+      inSec: 0,
+      outSec: 5,
+      offsetSec: 0,
+      framing: "cover",
+      cropX: 0.5,
+      cropXEnd: null,
+      cropPanSec: null,
+      mute: false,
+    },
+  ],
   captionPages: [],
   music: null,
   style: {
@@ -45,6 +56,11 @@ const defaultProps: ShortProps = {
     powerWords: [],
   },
   hook: null,
+  broll: [],
+  zooms: [],
+  zoomSteps: [],
+  cta: null,
+  voiceovers: [],
 };
 
 export const RemotionRoot: React.FC = () => {
