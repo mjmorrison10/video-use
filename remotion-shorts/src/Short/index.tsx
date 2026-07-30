@@ -96,6 +96,49 @@ const CTACard: React.FC<{ cta: NonNullable<ShortProps["cta"]>; style: ShortProps
   );
 };
 
+// The title sits UNDER the caption line for the opening seconds, so the two read
+// as one block: caption on top, then the setup line, then the question in accent.
+const TitleBlock: React.FC<{ title: NonNullable<ShortProps["title"]>; style: ShortProps["style"] }> = ({ title, style }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const end = title.untilSec * fps;
+  const opacity = interpolate(
+    frame,
+    [0, Math.round(fps * 0.2), Math.max(1, end - Math.round(fps * 0.25)), end],
+    [0, 1, 1, 0],
+    { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
+  );
+  if (frame > end) return null;
+  const size = title.fontSize ?? 55;
+  return (
+    <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", opacity, pointerEvents: "none" }}>
+      <div style={{ marginTop: size * 2.1, textAlign: "center", lineHeight: 1.14 }}>
+        {title.lines.map((line, i, arr) => {
+          const isAsk = i === arr.length - 1;
+          return (
+            <div
+              key={i}
+              style={{
+                fontFamily: ctaFontFamily,
+                color: isAsk ? style.accentColor : "white",
+                fontSize: size,
+                textTransform: "uppercase",
+                WebkitTextStroke: "2px black",
+                paintOrder: "stroke",
+                textShadow: isAsk
+                  ? `0 0 14px ${style.accentColor}, 0 0 34px ${style.accentColor}`
+                  : "0 2px 8px rgba(0,0,0,0.8)",
+              }}
+            >
+              {line}
+            </div>
+          );
+        })}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const Segment: React.FC<{
   videoSrc: string;
   inSec: number;
@@ -183,7 +226,15 @@ const Broll: React.FC<{
   const tb = Math.round(trimBefore * fps);
   return (
     <AbsoluteFill style={{ opacity, backgroundColor: "black" }}>
-      {framing === "blur-contain" ? (
+      {framing === "letterbox" ? (
+        // A centred band over black: shows more of the original frame than a
+        // full-bleed 9:16 crop, and reads as a deliberate cutaway.
+        <AbsoluteFill style={{ justifyContent: "center" }}>
+          <div style={{ width: "100%", height: "78%", overflow: "hidden" }}>
+            <OffthreadVideo src={source} trimBefore={tb} muted style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          </div>
+        </AbsoluteFill>
+      ) : framing === "blur-contain" ? (
         <>
           <OffthreadVideo src={source} trimBefore={tb} muted style={{ width: "100%", height: "100%", objectFit: "cover", filter: "blur(40px) brightness(0.5)", transform: "scale(1.15)" }} />
           <AbsoluteFill style={{ justifyContent: "center" }}>
@@ -204,6 +255,7 @@ export const Short: React.FC<ShortProps> = ({
   music,
   style,
   hook,
+  title,
   broll,
   zooms,
   zoomSteps,
@@ -287,6 +339,8 @@ export const Short: React.FC<ShortProps> = ({
       })}
 
       {hook ? <HookOverlay hook={hook} style={style} fps={fps} /> : null}
+
+      {title && title.lines.length ? <TitleBlock title={title} style={style} /> : null}
 
       {cta ? (
         <Sequence from={Math.round((cta.atSec ?? contentEnd) * fps)} durationInFrames={Math.max(1, Math.round(cta.durSec * fps))} name="cta">

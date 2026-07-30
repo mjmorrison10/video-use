@@ -16,11 +16,11 @@ rather than being timed independently.
 Usage: build_standup_job.py --tracked T.json --words W.json
                             --vo-intro A.json --vo-close B.json -o job.json
 """
-import argparse, json, re
+import argparse, json, sys
 from pathlib import Path
 
-PUNCT = re.compile(r"[.,!?;:\"“”‘’—…()\[\]]")
-clean = lambda s: PUNCT.sub("", s.strip().lower())
+sys.path.insert(0, str(Path(__file__).parent))
+from caption_text import clean, tokens_for_page  # noqa: E402
 
 # Lit in cyan. The spine of the argument only — justice/injustice, the silence,
 # and the duty. Lighting every noun would flatten the ones that matter.
@@ -37,9 +37,7 @@ def _mk(cur):
     return {
         "startMs": round(cur[0]["out_s"] * 1000),
         "endMs": round(cur[-1]["out_e"] * 1000),
-        # renderer uses whiteSpace:"pre" and adds no separators of its own
-        "tokens": [{"text": (t if j == 0 else " " + t)}
-                   for j, t in enumerate(x["text"].strip() for x in cur)],
+        "tokens": tokens_for_page(x["text"] for x in cur),
     }
 
 
@@ -133,13 +131,17 @@ def main():
     ap.add_argument("--vo-intro-src", default="standup_vo_intro.wav")
     ap.add_argument("--vo-close-src", default="standup_vo_close.wav")
     ap.add_argument("--music", default=None); ap.add_argument("--music-start", type=float, default=0.0)
-    ap.add_argument("--vol-low", type=float, default=0.10)
-    ap.add_argument("--vol-high", type=float, default=0.20)
+    ap.add_argument("--vol-low", type=float, default=0.045)
+    ap.add_argument("--vol-high", type=float, default=0.085)
     ap.add_argument("--hold", type=float, default=1.8, help="end card duration")
     ap.add_argument("--close-gap", type=float, default=0.0,
                     help="beat of B-roll before the closing narration starts")
-    ap.add_argument("--cta-text", default="STAND UP FOR TATE")
+    ap.add_argument("--cta-text", default=None,
+                    help="end card; omit — the house style ends on the speaker")
     ap.add_argument("--cta-line", action="append", default=[])
+    ap.add_argument("--title-line", action="append", default=[],
+                    help="title line over the opening; last line takes the accent")
+    ap.add_argument("--title-until", type=float, default=2.5)
     ap.add_argument("--fps", type=int, default=30)
     ap.add_argument("-o", "--out", required=True)
     a = ap.parse_args()
@@ -166,7 +168,7 @@ def main():
     # holding on picture rather than black keeps the gap from reading as a stall.
     close_at = lecture_end + a.close_gap
     cta_at = close_at + close_d
-    total = cta_at + a.hold
+    total = cta_at + (a.hold if a.cta_text else 0.0)
 
     # --- captions ---
     lecture = map_words(master, ranges, tracked)
@@ -182,30 +184,35 @@ def main():
 
     job = {
         "videoSrc": a.video, "fps": a.fps, "ranges": ranges, "captionPages": caps,
+        # The bed is loudest under the narration (no competing dialogue) and
+        # drops for the body. climaxSec at the intro makes the arc high->low
+        # instead of swelling into the speech.
         "music": ({"src": a.music, "startSec": a.music_start, "volLow": a.vol_low,
-                   "volHigh": a.vol_high, "climaxSec": round(lecture_end - 3, 2)}
+                   "volHigh": a.vol_high, "climaxSec": round(intro_d * 0.5, 2)}
                   if a.music else None),
-        "style": {"highlightColor": "#00E5FF", "accentColor": "#00E5FF",
-                  "textColor": "white", "strokeColor": "black", "fontSize": 58,
+        "style": {"highlightColor": "#13FFFF", "accentColor": "#13FFFF",
+                  "textColor": "white", "strokeColor": "black", "fontSize": 48,
                   "captionPosition": "center", "captionBottom": 420,
                   "uppercase": True, "powerWords": POWER},
         "hook": None,
+        "title": ({"lines": a.title_line, "untilSec": a.title_until, "fontSize": 55}
+                  if a.title_line else None),
         # The bookends are B-roll over black: no range plays there, so these
         # cutaways ARE the picture for those sections.
         "broll": [
             {"src": a.broll_intro, "atSec": 0.0, "durSec": round(intro_d, 3),
-             "trimBefore": 0.0, "framing": "cover", "label": "VO INTRO"},
+             "trimBefore": 0.0, "framing": "letterbox", "label": "VO INTRO"},
             {"src": a.broll_close, "atSec": round(lecture_end, 3),
              "durSec": round(close_d + a.close_gap, 3),
-             "trimBefore": 0.0, "framing": "cover", "label": "VO CLOSE"},
+             "trimBefore": 0.0, "framing": "letterbox", "label": "VO CLOSE"},
         ],
         "zooms": [], "zoomSteps": [],
         "voiceovers": [
             {"src": a.vo_intro_src, "atSec": 0.0, "volume": 1.0},
             {"src": a.vo_close_src, "atSec": round(close_at, 3), "volume": 1.0},
         ],
-        "cta": {"text": a.cta_text, "durSec": a.hold, "atSec": round(cta_at, 3),
-                "lines": a.cta_line},
+        "cta": ({"text": a.cta_text, "durSec": a.hold, "atSec": round(cta_at, 3),
+                 "lines": a.cta_line} if a.cta_text else None),
         "durationSec": round(total, 3),
     }
     Path(a.out).write_text(json.dumps(job, ensure_ascii=False, indent=1))

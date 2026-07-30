@@ -24,36 +24,28 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from caption_text import clean, strip_punct, tokens_for_page  # noqa: E402
+
 SENT_END = (".", "?", "!")
 
 # House style shared by every clip. A cut-spec's "style" block overrides these
 # per-clip (e.g. powerWords, hook color). Keeps all clips visually consistent.
 DEFAULT_STYLE = {
-    "highlightColor": "#00E5FF",
-    "accentColor": "#00E5FF",   # yellow power words + hook
+    "highlightColor": "#13FFFF",
+    "accentColor": "#13FFFF",   # house accent: power words, hook, title
     "textColor": "white",
     "strokeColor": "black",
-    "fontSize": 58,             # Big Shoulders is condensed; 58 restores punch
+    "fontSize": 48,             # matched to the reference cut
     "captionPosition": "center",
     "uppercase": True,
     "powerWords": [],
 }
 
-# Punctuation stripped from caption DISPLAY text (grouping still uses the
-# originals to detect sentence ends). Apostrophes and % are kept.
-_PUNCT_RE = re.compile(r"[.,!?;:\"“”‘’—…()\[\]]")
-
-
-def strip_punct(text: str) -> str:
-    return _PUNCT_RE.sub("", text)
 
 
 def load(p):
     return json.loads(Path(p).read_text())
-
-
-def clean(s: str) -> str:
-    return re.sub(r"[^a-z0-9]", "", s.lower()).strip()
 
 
 def apply_replace(text: str, repl: dict) -> str:
@@ -188,14 +180,13 @@ def main() -> int:
 
     groups = spec.get("captionGroups")
     pages_words = group_manual(flat, groups) if groups else group_auto(flat)
-    strip = spec.get("stripPunctuation", True)
+    # Not configurable: captions never carry punctuation (see /CLAUDE.md).
     caption_pages = []
     for grp in pages_words:
         caption_pages.append({
             "startMs": grp[0]["startMs"],
             "endMs": grp[-1]["endMs"],
-            "tokens": [{"text": strip_punct(w["text"]) if strip else w["text"]}
-                       for w in grp],
+            "tokens": [{"text": strip_punct(w["text"])} for w in grp],
         })
 
     style = {**DEFAULT_STYLE, **spec.get("style", {})}

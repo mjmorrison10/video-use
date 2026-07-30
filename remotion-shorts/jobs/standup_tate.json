@@ -4,19 +4,19 @@
  "ranges": [
   {
    "inSec": 19.52,
-   "outSec": 21.62,
+   "outSec": 21.58,
    "offsetSec": 11.601,
    "framing": "cover",
-   "cropX": 0.295,
-   "cropXEnd": 0.428,
-   "cropPanSec": 2.1,
+   "cropX": 0.301,
+   "cropXEnd": 0.427,
+   "cropPanSec": 2.06,
    "mute": false,
    "beat": "ASK-A"
   },
   {
    "inSec": 22.82,
-   "outSec": 26.233,
-   "offsetSec": 13.701,
+   "outSec": 26.214,
+   "offsetSec": 13.661,
    "framing": "cover",
    "cropX": 0.504,
    "cropXEnd": null,
@@ -25,11 +25,11 @@
    "beat": "ASK-B"
   },
   {
-   "inSec": 26.233,
-   "outSec": 29.96,
-   "offsetSec": 17.114,
+   "inSec": 26.214,
+   "outSec": 29.92,
+   "offsetSec": 17.055,
    "framing": "cover",
-   "cropX": 0.301,
+   "cropX": 0.298,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -37,10 +37,10 @@
   },
   {
    "inSec": 36.31,
-   "outSec": 37.61,
-   "offsetSec": 20.841,
+   "outSec": 37.67,
+   "offsetSec": 20.761,
    "framing": "cover",
-   "cropX": 0.572,
+   "cropX": 0.57,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -48,8 +48,8 @@
   },
   {
    "inSec": 38.7,
-   "outSec": 41.96,
-   "offsetSec": 22.141,
+   "outSec": 41.92,
+   "offsetSec": 22.121,
    "framing": "cover",
    "cropX": 0.4,
    "cropXEnd": null,
@@ -59,32 +59,32 @@
   },
   {
    "inSec": 89.05,
-   "outSec": 94.26,
-   "offsetSec": 25.401,
+   "outSec": 94.32,
+   "offsetSec": 25.341,
    "framing": "cover",
    "cropX": 0.417,
-   "cropXEnd": 0.263,
-   "cropPanSec": 5.21,
+   "cropXEnd": 0.264,
+   "cropPanSec": 5.27,
    "mute": false,
    "beat": "UNFAIR"
   },
   {
    "inSec": 94.82,
-   "outSec": 95.86,
+   "outSec": 96.048,
    "offsetSec": 30.611,
    "framing": "cover",
-   "cropX": 0.658,
+   "cropX": 0.657,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
    "beat": "INDEED"
   },
   {
-   "inSec": 95.86,
-   "outSec": 96.9,
-   "offsetSec": 31.651,
+   "inSec": 96.048,
+   "outSec": 96.96,
+   "offsetSec": 31.839,
    "framing": "cover",
-   "cropX": 0.283,
+   "cropX": 0.286,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -92,10 +92,10 @@
   },
   {
    "inSec": 98.2,
-   "outSec": 100.01,
-   "offsetSec": 32.691,
+   "outSec": 100.07,
+   "offsetSec": 32.751,
    "framing": "cover",
-   "cropX": 0.333,
+   "cropX": 0.332,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -103,10 +103,10 @@
   },
   {
    "inSec": 100.97,
-   "outSec": 102.75,
-   "offsetSec": 34.501,
+   "outSec": 102.71,
+   "offsetSec": 34.621,
    "framing": "cover",
-   "cropX": 0.471,
+   "cropX": 0.47,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -114,21 +114,21 @@
   },
   {
    "inSec": 126.33,
-   "outSec": 131.48,
-   "offsetSec": 36.281,
+   "outSec": 131.44,
+   "offsetSec": 36.361,
    "framing": "cover",
    "cropX": 0.72,
-   "cropXEnd": 0.464,
-   "cropPanSec": 5.15,
+   "cropXEnd": 0.469,
+   "cropPanSec": 5.11,
    "mute": false,
    "beat": "LESSON"
   },
   {
    "inSec": 142.78,
-   "outSec": 145.4,
-   "offsetSec": 41.431,
+   "outSec": 145.36,
+   "offsetSec": 41.471,
    "framing": "cover",
-   "cropX": 0.397,
+   "cropX": 0.396,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
@@ -136,23 +136,23 @@
   },
   {
    "inSec": 146.56,
-   "outSec": 150.219,
+   "outSec": 150.25,
    "offsetSec": 44.051,
    "framing": "cover",
-   "cropX": 0.673,
+   "cropX": 0.672,
    "cropXEnd": null,
    "cropPanSec": null,
    "mute": false,
    "beat": "PAY-B"
   },
   {
-   "inSec": 150.219,
-   "outSec": 153.57,
-   "offsetSec": 47.71,
+   "inSec": 150.25,
+   "outSec": 153.63,
+   "offsetSec": 47.741,
    "framing": "cover",
-   "cropX": 0.396,
+   "cropX": 0.391,
    "cropXEnd": 0.625,
-   "cropPanSec": 3.35,
+   "cropPanSec": 3.38,
    "mute": false,
    "beat": "PAY-B"
   }
@@ -286,7 +286,7 @@
      "text": "You"
     },
     {
-     "text": " there,"
+     "text": " there"
     }
    ]
   },
@@ -303,8 +303,8 @@
    ]
   },
   {
-   "startMs": 13741,
-   "endMs": 14641,
+   "startMs": 13701,
+   "endMs": 14601,
    "tokens": [
     {
      "text": "what"
@@ -316,13 +316,13 @@
      "text": " your"
     },
     {
-     "text": " name?"
+     "text": " name"
     }
    ]
   },
   {
-   "startMs": 15361,
-   "endMs": 16541,
+   "startMs": 15321,
+   "endMs": 16501,
    "tokens": [
     {
      "text": "My"
@@ -334,22 +334,22 @@
      "text": " is"
     },
     {
-     "text": " Alexis."
+     "text": " Alexis"
     }
    ]
   },
   {
-   "startMs": 16841,
-   "endMs": 17114,
+   "startMs": 16801,
+   "endMs": 17055,
    "tokens": [
     {
-     "text": "Alexis,"
+     "text": "Alexis"
     }
    ]
   },
   {
-   "startMs": 17921,
-   "endMs": 20661,
+   "startMs": 17881,
+   "endMs": 20621,
    "tokens": [
     {
      "text": "please"
@@ -364,13 +364,13 @@
      "text": " lecture"
     },
     {
-     "text": " room,"
+     "text": " room"
     }
    ]
   },
   {
-   "startMs": 20931,
-   "endMs": 21851,
+   "startMs": 20851,
+   "endMs": 21771,
    "tokens": [
     {
      "text": "I"
@@ -379,13 +379,13 @@
      "text": " don't"
     },
     {
-     "text": " understand."
+     "text": " understand"
     }
    ]
   },
   {
-   "startMs": 22421,
-   "endMs": 23901,
+   "startMs": 22401,
+   "endMs": 23881,
    "tokens": [
     {
      "text": "I"
@@ -402,8 +402,8 @@
    ]
   },
   {
-   "startMs": 23901,
-   "endMs": 25261,
+   "startMs": 23881,
+   "endMs": 25241,
    "tokens": [
     {
      "text": "to"
@@ -418,25 +418,25 @@
      "text": " second"
     },
     {
-     "text": " time,"
+     "text": " time"
     }
    ]
   },
   {
-   "startMs": 25521,
-   "endMs": 26401,
+   "startMs": 25461,
+   "endMs": 26341,
    "tokens": [
     {
      "text": "Tell"
     },
     {
-     "text": " me,"
+     "text": " me"
     }
    ]
   },
   {
-   "startMs": 26441,
-   "endMs": 28581,
+   "startMs": 26381,
+   "endMs": 28521,
    "tokens": [
     {
      "text": "was"
@@ -453,8 +453,8 @@
    ]
   },
   {
-   "startMs": 28581,
-   "endMs": 30321,
+   "startMs": 28521,
+   "endMs": 30261,
    "tokens": [
     {
      "text": "your"
@@ -466,7 +466,7 @@
      "text": " just"
     },
     {
-     "text": " now?"
+     "text": " now"
     }
    ]
   },
@@ -481,16 +481,16 @@
      "text": " I"
     },
     {
-     "text": " was."
+     "text": " was"
     }
    ]
   },
   {
-   "startMs": 32901,
-   "endMs": 34301,
+   "startMs": 32961,
+   "endMs": 34361,
    "tokens": [
     {
-     "text": "So,"
+     "text": "So"
     },
     {
      "text": " why"
@@ -498,8 +498,8 @@
    ]
   },
   {
-   "startMs": 34721,
-   "endMs": 36241,
+   "startMs": 34841,
+   "endMs": 36361,
    "tokens": [
     {
      "text": "didn't"
@@ -514,13 +514,13 @@
      "text": " you"
     },
     {
-     "text": " protest?"
+     "text": " protest"
     }
    ]
   },
   {
-   "startMs": 36281,
-   "endMs": 38311,
+   "startMs": 36361,
+   "endMs": 38391,
    "tokens": [
     {
      "text": "you"
@@ -537,8 +537,8 @@
    ]
   },
   {
-   "startMs": 38311,
-   "endMs": 41031,
+   "startMs": 38391,
+   "endMs": 41111,
    "tokens": [
     {
      "text": "because"
@@ -555,8 +555,8 @@
    ]
   },
   {
-   "startMs": 41031,
-   "endMs": 41391,
+   "startMs": 41111,
+   "endMs": 41471,
    "tokens": [
     {
      "text": "yourself"
@@ -564,8 +564,8 @@
    ]
   },
   {
-   "startMs": 41431,
-   "endMs": 42891,
+   "startMs": 41471,
+   "endMs": 42931,
    "tokens": [
     {
      "text": "if"
@@ -582,8 +582,8 @@
    ]
   },
   {
-   "startMs": 42891,
-   "endMs": 44011,
+   "startMs": 42931,
+   "endMs": 44051,
    "tokens": [
     {
      "text": "bring"
@@ -616,7 +616,7 @@
   },
   {
    "startMs": 45351,
-   "endMs": 47710,
+   "endMs": 47741,
    "tokens": [
     {
      "text": "may"
@@ -667,13 +667,13 @@
      "text": " before"
     },
     {
-     "text": " you."
+     "text": " you"
     }
    ]
   },
   {
-   "startMs": 51611,
-   "endMs": 52588,
+   "startMs": 51471,
+   "endMs": 52448,
    "tokens": [
     {
      "text": "You"
@@ -687,8 +687,8 @@
    ]
   },
   {
-   "startMs": 53249,
-   "endMs": 53874,
+   "startMs": 53109,
+   "endMs": 53734,
    "tokens": [
     {
      "text": "Not"
@@ -699,8 +699,8 @@
    ]
   },
   {
-   "startMs": 54984,
-   "endMs": 56132,
+   "startMs": 54844,
+   "endMs": 55992,
    "tokens": [
     {
      "text": "Will"
@@ -717,8 +717,8 @@
    ]
   },
   {
-   "startMs": 56642,
-   "endMs": 57790,
+   "startMs": 56502,
+   "endMs": 57650,
    "tokens": [
     {
      "text": "or"
@@ -741,16 +741,16 @@
  "music": {
   "src": "tension_compilation.mp3",
   "startSec": 315.0,
-  "volLow": 0.07,
-  "volHigh": 0.115,
-  "climaxSec": 48.06
+  "volLow": 0.045,
+  "volHigh": 0.085,
+  "climaxSec": 5.8
  },
  "style": {
-  "highlightColor": "#00E5FF",
-  "accentColor": "#00E5FF",
+  "highlightColor": "#13FFFF",
+  "accentColor": "#13FFFF",
   "textColor": "white",
   "strokeColor": "black",
-  "fontSize": 58,
+  "fontSize": 48,
   "captionPosition": "center",
   "captionBottom": 420,
   "uppercase": true,
@@ -770,21 +770,29 @@
   ]
  },
  "hook": null,
+ "title": {
+  "lines": [
+   "IS THIS THE",
+   "AMERICA YOU WANT?"
+  ],
+  "untilSec": 2.5,
+  "fontSize": 55
+ },
  "broll": [
   {
    "src": "standup_ph_intro.mp4",
    "atSec": 0.0,
    "durSec": 11.601,
    "trimBefore": 0.0,
-   "framing": "cover",
+   "framing": "letterbox",
    "label": "VO INTRO"
   },
   {
    "src": "standup_ph_close.mp4",
-   "atSec": 51.061,
-   "durSec": 6.789,
+   "atSec": 51.121,
+   "durSec": 6.589,
    "trimBefore": 0.0,
-   "framing": "cover",
+   "framing": "letterbox",
    "label": "VO CLOSE"
   }
  ],
@@ -798,19 +806,10 @@
   },
   {
    "src": "standup_vo_close.wav",
-   "atSec": 51.561,
+   "atSec": 51.421,
    "volume": 1.0
   }
  ],
- "cta": {
-  "text": "STAND UP FOR TATE",
-  "durSec": 1.8,
-  "atSec": 57.85,
-  "lines": [
-   "American citizen.",
-   "Innocent until proven guilty.",
-   "Say something."
-  ]
- },
- "durationSec": 59.65
+ "cta": null,
+ "durationSec": 57.71
 }

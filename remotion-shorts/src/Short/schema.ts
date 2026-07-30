@@ -32,11 +32,11 @@ export const musicSchema = z
   .nullable();
 
 export const styleSchema = z.object({
-  highlightColor: z.string().default("#00E5FF"), // legacy karaoke color (unused in center mode)
-  accentColor: z.string().default("#00E5FF"), // yellow for power words + hook
+  highlightColor: z.string().default("#13FFFF"), // legacy karaoke color (unused in center mode)
+  accentColor: z.string().default("#13FFFF"), // yellow for power words + hook
   textColor: z.string().default("white"),
   strokeColor: z.string().default("black"),
-  fontSize: z.number().default(58),
+  fontSize: z.number().default(48),
   captionPosition: z.enum(["center", "bottom"]).default("center"),
   captionBottom: z.number().default(430), // px from bottom when captionPosition="bottom"
   uppercase: z.boolean().default(true),
@@ -51,6 +51,17 @@ export const hookSchema = z
   })
   .nullable();
 
+// The video's title, held over the opening seconds UNDER the caption line.
+// The last line renders in accentColor because it carries the question; the
+// lines above it are white setup.
+export const titleSchema = z
+  .object({
+    lines: z.array(z.string()).default([]),
+    untilSec: z.number().default(2.5),
+    fontSize: z.number().default(55),
+  })
+  .nullable();
+
 // A brief B-roll cutaway overlaid on the speaker at a keyword moment. Output-timed.
 // The speaker's audio keeps playing underneath (broll is muted); captions stay on top.
 export const brollSchema = z.object({
@@ -58,7 +69,7 @@ export const brollSchema = z.object({
   atSec: z.number(), // output-timeline start (seconds)
   durSec: z.number().default(1.8), // how long the cutaway holds
   trimBefore: z.number().default(0), // trim into the b-roll source (seconds)
-  framing: z.enum(["cover", "blur-contain"]).default("cover"),
+  framing: z.enum(["cover", "blur-contain", "letterbox"]).default("cover"),
   label: z.string().optional(), // the keyword it matched (informational)
 });
 
@@ -106,8 +117,9 @@ export const shortSchema = z.object({
   ranges: z.array(rangeSchema),
   captionPages: z.array(captionPageSchema),
   music: musicSchema.default(null),
-  style: styleSchema.default({}),
+  style: styleSchema.default(styleSchema.parse({})),
   hook: hookSchema.default(null),
+  title: titleSchema.default(null),
   broll: z.array(brollSchema).default([]),
   zooms: z.array(zoomSchema).default([]),
   zoomSteps: z.array(zoomStepSchema).default([]),

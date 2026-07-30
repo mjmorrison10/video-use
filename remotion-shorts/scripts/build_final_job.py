@@ -10,13 +10,12 @@ Usage: build_final_job.py --video NAME.mp4 --srt FIXED.srt -o jobs/x.json
                           [--cta-text T] [--cta-sub S] [--cta-dur 1.8]
                           [--hook TEXT] [--hook-until 1.4] [--music SRC]
 """
-import argparse, json, re, subprocess, sys
+import argparse, json, subprocess, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from srt_to_pages import parse, to_pages  # noqa: E402
-
-clean = lambda s: re.sub(r"[^a-z0-9]", "", s.lower())
+from caption_text import clean  # noqa: E402
 
 # Lit in cyan with a neon glow. Money and the deprivation/payoff spikes only —
 # lighting every noun destroys the scarcity that makes a glow mean something.
@@ -43,7 +42,7 @@ def main():
     ap.add_argument("--power", default=None, help="comma list to override power words")
     ap.add_argument("--caption-position", default="bottom", choices=["center", "bottom"])
     ap.add_argument("--caption-bottom", type=float, default=420)
-    ap.add_argument("--font-size", type=int, default=58)
+    ap.add_argument("--font-size", type=int, default=48)
     a = ap.parse_args()
 
     src = Path("public") / a.video
@@ -76,7 +75,7 @@ def main():
                    "volLow": a.vol_low, "volHigh": a.vol_high,
                    "climaxSec": a.climax} if a.music else None),
         "style": {
-            "highlightColor": "#00E5FF", "accentColor": "#00E5FF",
+            "highlightColor": "#13FFFF", "accentColor": "#13FFFF",
             "textColor": "white", "strokeColor": "black", "fontSize": a.font_size,
             "captionPosition": a.caption_position, "captionBottom": a.caption_bottom,
             "uppercase": True, "powerWords": power,

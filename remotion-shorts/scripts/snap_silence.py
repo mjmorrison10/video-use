@@ -33,6 +33,7 @@ lo=min(s['inSec'] for s in spec['segments']); hi=max(s['outSec'] for s in spec['
 sub=ENV[int(lo*SR/HOP):int(hi*SR/HOP)]
 thr=max(float(np.percentile(sub,45))*0.9, float(np.percentile(sub,95))*0.06)
 MERGE_GAP=0.9
+MIN_TAIL=0.15   # minimum release left on the last word of a beat (house rule)
 def speech(t0,t1): return bool(np.any([ENV[j]>thr for j in frames(t0,t1)])) if t1>t0 else False
 IDMAP={id(w):i for i,w in enumerate(words)}
 def widx(w): return IDMAP[id(w)]
@@ -79,7 +80,13 @@ def snap_end(w1):
     offs=audible_offset_word(w1,right)
     end=max(w1['end'], offs)               # true end of the word's audio
     gapn=(right-offs) if nxt else 0.3
-    co=end+pad_post if gapn>=0.12 else end+0.04  # silence: pad into gap; contiguous: hair after
+    # A word does not stop at its last loud sample — it decays. +0.04s of tail on
+    # a contiguous word cuts that decay off, which is audible as a clipped word
+    # and is what had to be hand-extended on the reference cut. Take the room the
+    # next word leaves, up to a full release, and never less than MIN_TAIL when
+    # there is anything to take.
+    room=max(0.0, right-end)
+    co=end+min(max(MIN_TAIL, pad_post if gapn>=0.12 else MIN_TAIL), max(0.0, room-0.03))
     return round(co,3)
 
 # attach kept words, merge mid-speech splits

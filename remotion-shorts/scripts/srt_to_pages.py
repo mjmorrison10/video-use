@@ -16,6 +16,9 @@ Usage: srt_to_pages.py FIXED.srt [-o pages.json] [--check]
 import argparse, json, re, sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from caption_text import strip_punct, tokens_for_page  # noqa: E402
+
 CUE = re.compile(
     r"(\d+)\s*\n"
     r"(\d\d):(\d\d):(\d\d)[,.](\d{3})\s*-->\s*(\d\d):(\d\d):(\d\d)[,.](\d{3})\s*\n"
@@ -40,14 +43,15 @@ def parse(srt_text):
 
 
 def to_pages(cues):
+    """A hand-edited SRT is caption TRUTH for phrasing and timing, but it still
+    goes through the house punctuation rule — an editor writing "lecture room,"
+    means the phrasing, not the comma."""
     pages = []
     for c in cues:
-        words = c["text"].split()
         pages.append({
             "startMs": c["startMs"],
             "endMs": c["endMs"],
-            # leading space on every token but the first — the renderer adds none
-            "tokens": [{"text": (w if i == 0 else " " + w)} for i, w in enumerate(words)],
+            "tokens": tokens_for_page(c["text"].split()),
         })
     return pages
 
@@ -81,11 +85,14 @@ def main():
     if a.check:
         want = parse(src)
         got = parse(to_srt(pages))
+        # punctuation is intentionally dropped, so compare against the stripped source
+        norm = lambda t: " ".join(x for x in (strip_punct(w) for w in t.split()) if x)
         bad = [(w, g) for w, g in zip(want, got)
-               if w["startMs"] != g["startMs"] or w["endMs"] != g["endMs"] or w["text"] != g["text"]]
+               if w["startMs"] != g["startMs"] or w["endMs"] != g["endMs"]
+               or norm(w["text"]) != g["text"]]
         assert len(want) == len(got), f"cue count {len(want)} -> {len(got)}"
         assert not bad, f"{len(bad)} cues changed, first: {bad[0]}"
-        print(f"[srt] round-trip OK — {len(pages)} cues identical in text and timing")
+        print(f"[srt] round-trip OK — {len(pages)} cues, timing identical, text punctuation-stripped")
 
     words = sum(len(p["tokens"]) for p in pages)
     span = pages[-1]["endMs"] / 1000
