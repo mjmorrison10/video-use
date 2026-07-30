@@ -8,8 +8,9 @@
 |---|---|---|
 | 0.00 | 11.60 | VO INTRO over Tate B-roll |
 | 11.60 | 51.06 | lecture core — 14 face-tracked ranges |
-| 51.06 | 57.35 | VO CLOSE over Tate B-roll |
-| 57.35 | 59.15 | end card |
+| 51.06 | 51.56 | breath — B-roll holds, no narration yet |
+| 51.56 | 57.85 | VO CLOSE over Tate B-roll |
+| 57.85 | 59.65 | end card |
 
 ## The VO
 
@@ -35,10 +36,20 @@ the performance: the 1.0s before the name is the longest silence in the piece.
   1920x918 so they cannot collide with our captions. This changes the source
   aspect, which is why the face tracker now reads the proxy's real dimensions.
 - dialogue was 13.5 dB below the narration and BELOW the music bed. Proxy audio
-  gained +9.8 dB with a limiter; everything now sits at -20 LUFS with the bed
-  11 dB under it.
+  gained +9.8 dB with a limiter; everything now sits at -20 LUFS.
+- music sits 13.5 dB under the dialogue (volLow 0.07 / volHigh 0.115). That is
+  ~4 dB quieter than the separation approved on TRW859, deliberately: this bed
+  is bass-heavy and this speaker is distant and reverberant, so the same margin
+  masks far more. At 10.9 dB the rendered mix lost "protest", "yourself" and
+  "justice".
 
 ## Verification
+
+Levels were set by measurement, with transcription as the pass/fail gate —
+Whisper flips into a degraded unpunctuated decode near this operating point,
+so a QUIETER bed once scored worse than a louder one. A no-music control run
+is what established the harness was sound and the flipping was decoder noise.
+
 
 The assembled cut was re-transcribed with large-v3 and returned exactly the
 intended script, which is the only real proof that no boundary word is clipped:
