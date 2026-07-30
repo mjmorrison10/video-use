@@ -136,6 +136,8 @@ def main():
     ap.add_argument("--vol-low", type=float, default=0.10)
     ap.add_argument("--vol-high", type=float, default=0.20)
     ap.add_argument("--hold", type=float, default=1.8, help="end card duration")
+    ap.add_argument("--close-gap", type=float, default=0.0,
+                    help="beat of B-roll before the closing narration starts")
     ap.add_argument("--cta-text", default="STAND UP FOR TATE")
     ap.add_argument("--cta-line", action="append", default=[])
     ap.add_argument("--fps", type=int, default=30)
@@ -159,7 +161,10 @@ def main():
              "beat": s.get("beat", "POINT")}
         ranges.append(r); t += dur
     lecture_end = t
-    close_at = lecture_end
+    # The closing B-roll starts on the cut, but the narrator waits a beat: the
+    # professor's last line needs to decay before another voice arrives, and
+    # holding on picture rather than black keeps the gap from reading as a stall.
+    close_at = lecture_end + a.close_gap
     cta_at = close_at + close_d
     total = cta_at + a.hold
 
@@ -190,7 +195,8 @@ def main():
         "broll": [
             {"src": a.broll_intro, "atSec": 0.0, "durSec": round(intro_d, 3),
              "trimBefore": 0.0, "framing": "cover", "label": "VO INTRO"},
-            {"src": a.broll_close, "atSec": round(close_at, 3), "durSec": round(close_d, 3),
+            {"src": a.broll_close, "atSec": round(lecture_end, 3),
+             "durSec": round(close_d + a.close_gap, 3),
              "trimBefore": 0.0, "framing": "cover", "label": "VO CLOSE"},
         ],
         "zooms": [], "zoomSteps": [],

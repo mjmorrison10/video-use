@@ -672,8 +672,8 @@
    ]
   },
   {
-   "startMs": 51111,
-   "endMs": 52088,
+   "startMs": 51611,
+   "endMs": 52588,
    "tokens": [
     {
      "text": "You"
@@ -687,8 +687,8 @@
    ]
   },
   {
-   "startMs": 52749,
-   "endMs": 53374,
+   "startMs": 53249,
+   "endMs": 53874,
    "tokens": [
     {
      "text": "Not"
@@ -699,8 +699,8 @@
    ]
   },
   {
-   "startMs": 54484,
-   "endMs": 55632,
+   "startMs": 54984,
+   "endMs": 56132,
    "tokens": [
     {
      "text": "Will"
@@ -717,8 +717,8 @@
    ]
   },
   {
-   "startMs": 56142,
-   "endMs": 57290,
+   "startMs": 56642,
+   "endMs": 57790,
    "tokens": [
     {
      "text": "or"
@@ -741,8 +741,8 @@
  "music": {
   "src": "tension_compilation.mp3",
   "startSec": 315.0,
-  "volLow": 0.084,
-  "volHigh": 0.168,
+  "volLow": 0.07,
+  "volHigh": 0.115,
   "climaxSec": 48.06
  },
  "style": {
@@ -782,7 +782,7 @@
   {
    "src": "standup_ph_close.mp4",
    "atSec": 51.061,
-   "durSec": 6.289,
+   "durSec": 6.789,
    "trimBefore": 0.0,
    "framing": "cover",
    "label": "VO CLOSE"
@@ -798,19 +798,19 @@
   },
   {
    "src": "standup_vo_close.wav",
-   "atSec": 51.061,
+   "atSec": 51.561,
    "volume": 1.0
   }
  ],
  "cta": {
   "text": "STAND UP FOR TATE",
   "durSec": 1.8,
-  "atSec": 57.35,
+  "atSec": 57.85,
   "lines": [
    "American citizen.",
    "Innocent until proven guilty.",
    "Say something."
   ]
  },
- "durationSec": 59.15
+ "durationSec": 59.65
 }
