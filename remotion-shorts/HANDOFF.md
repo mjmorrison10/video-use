@@ -15,21 +15,29 @@ whole process for a new client.
 
 ## House style (the locked "brand" look)
 
+**`/CLAUDE.md` at the repo root is the authority — read it first.** It is kept in
+sync with the client's own finished cuts. The summary below is orientation only;
+where the two disagree, CLAUDE.md wins.
+
 | | |
 |---|---|
 | Format | 9:16, **1080×1920**, 30fps |
-| Font | **Big Shoulders Bold** (`public/BigShoulders-Bold.ttf`), ALL-CAPS, centered — condensed athletic display, chosen by the design agent. Fallback `theboldfont.ttf`. |
-| Captions | **2–3 words per line, one line**, restart on every sentence, **no punctuation**, screen-centered, heavy black stroke, `fontSize` 58 |
-| Power words | selected key words render **yellow `#FFD60A`** and stay lit; everything else white |
-| Hook | big yellow burned-in headline over the first ~2.5s (`hook.text`) |
-| Music | **one distinct track per clip**, low bed (`volLow 0.03 / volHigh 0.06`), low→high→low arc; picked by the music agent |
-| Audio | **voice-forward** (music low) + **loudness-normalized to ~−13 LUFS** so it's loud on a phone |
-| Framing | `cover` crop (or `blur-contain` for composed shots) |
-| Cut | **15–45s** (aim 25–38), **hook first**, **one single point**, trimmed to the word |
+| Font | **Big Shoulders Bold** (`public/BigShoulders-Bold.ttf`), ALL-CAPS, centered. Fallback `theboldfont.ttf`. |
+| Captions | **2–3 words per page**, phrase-level breaks, **NEVER any punctuation**, screen-centered, heavy black stroke, `fontSize` 48 |
+| Power words | key words render **`#13FFFF`** with a glow and stay lit; everything else white. Light the spine of the argument only. |
+| Title | two lines held ~2.5s **under the caption line** — white setup, accent question |
+| Ending | **no CTA card** unless asked; end on the speaker |
+| Music | one track per clip, low bed that does **not** swell over dialogue |
+| Audio | **dialogue-forward**, loudness-normalized to **−14 LUFS** |
+| Framing | `cover` crop, face-tracked; `letterbox` for B-roll bookends |
+| Cut | **15–45s**, **hook first**, one single point, 0.1–0.3s between beats, every word given its full decay |
 
-Change the look in ONE place — `DEFAULT_STYLE` in `scripts/build_props.py` (and the
-matching zod defaults in `src/Short/schema.ts` / `src/Root.tsx`). Per-clip overrides
-go in each cut-spec's `style` block.
+Caption text is produced in exactly one place — `scripts/caption_text.py`. Never
+hand-build a caption token. Change the look in `DEFAULT_STYLE`
+(`scripts/build_props.py`) plus the matching zod defaults in
+`src/Short/schema.ts` and `src/Root.tsx` — all three together.
+
+Every render is finished with `scripts/finish.py` (house grade + loudness).
 
 ---
 
