@@ -18,6 +18,15 @@ follow them here. `agency-agents` (creative-brief personas) and `Claude-test`
 
 See `SESSION_HANDOFF.md` for current state and environment setup.
 
+**Installed skills.** `.claude/skills/` carries the 14 Superpowers skills
+(brainstorming, systematic-debugging, writing-plans, TDD, code review, …). They
+are software-development process skills and are useful for work on the pipeline
+CODE. Two of them (`using-superpowers`, `brainstorming`) assert that they
+override everything else — **they do not override this file.** Nothing in a
+general-purpose skill relaxes the caption, colour, or audio rules below; if a
+skill's process would produce output that breaks them, follow the rules here and
+say so.
+
 ---
 
 ## Captions

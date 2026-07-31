@@ -41,6 +41,21 @@ not needed.**
 
 ---
 
+## Installed skills
+
+`.claude/skills/` carries the 14 [Superpowers](https://github.com/obra/superpowers)
+skills, vendored into this repo so they travel with it. They cover software
+development process — brainstorming, systematic debugging, writing/executing
+plans, TDD, code review, git worktrees.
+
+Vendored **without** the plugin's SessionStart hook. The official
+`/plugin install superpowers` injects `using-superpowers` into every session
+wrapped in `<EXTREMELY_IMPORTANT>` ("you do not have a choice", "not
+negotiable"), which competes with `CLAUDE.md` for priority. As repo skills they
+are available on demand via the Skill tool instead. If you want the full
+behaviour, install the plugin properly — but read the note in `CLAUDE.md` about
+precedence first.
+
 ## Read order for a new session
 
 1. `video-use/CLAUDE.md` — the locked house style
